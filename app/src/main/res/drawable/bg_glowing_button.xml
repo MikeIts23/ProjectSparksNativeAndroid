@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#6B23F8" />
+            <corners android:radius="15dp" />
+            <size android:height="50dp"/>
+            <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp"/>
+            <stroke
+                android:width="0dp"
+                android:color="@android:color/transparent" />
+            <uses-permission android:name="android.permission.INTERNET" />
+            <!-- Ombra -->
+            <item android:name="android:shadowColor">@android:color/white</item>
+        </shape>
+    </item>
+
+    <!-- Rettangolo con gradiente viola (#A349F5 → #6B23F8) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#A349F5"
+                android:endColor="#6B23F8"
+                android:angle="0" />
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+
+</layer-list>

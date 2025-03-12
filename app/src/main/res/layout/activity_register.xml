@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_register">
+
+    <ImageView
+        android:id="@+id/imageTopIllustration"
+        android:layout_width="0dp"
+        android:layout_height="265dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/illustration1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <ScrollView
+        android:id="@+id/scrollViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/imageTopIllustration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingHorizontal="30dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textGetStarted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Started"
+                android:textColor="#F7F7F7"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textLabelEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#A3A3A3"
+                android:textSize="14sp"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <RelativeLayout
+                android:id="@+id/layoutEmailContainer"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/email_hint"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingLeft="50dp"
+                android:textColor="@android:color/white"
+                android:hintTextColor="#888888"
+                android:inputType="textEmailAddress" />
+
+                <ImageView
+                    android:id="@+id/imageEmailIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@android:drawable/ic_dialog_email" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/textLabelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_name"
+                android:textColor="#A3A3A3"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <!-- Campo Name -->
+            <RelativeLayout
+                android:id="@+id/layoutNameContainer"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/name_hint"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingStart="50dp"
+                android:textColor="@android:color/white"
+                android:hintTextColor="#888888"
+                android:inputType="textPersonName" />
+
+                <!-- Icona utente a sinistra -->
+                <ImageView
+                    android:id="@+id/imageNameIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@android:drawable/ic_menu_myplaces" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <!-- Label Password -->
+            <TextView
+                android:id="@+id/textLabelPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#A3A3A3"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <!-- Campo Password + Occhio -->
+            <RelativeLayout
+                android:id="@+id/layoutPasswordContainer"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/password_hint"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textColor="@android:color/white"
+                android:hintTextColor="#888888"
+                android:inputType="textPassword" />
+
+                <!-- Icona lucchetto a sinistra -->
+                <ImageView
+                    android:id="@+id/imageLockIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@android:drawable/ic_lock_lock" />
+
+                <!-- Icona occhio per mostra/nascondi password (usa ic_menu_view come standard) -->
+                <ImageView
+                    android:id="@+id/imageTogglePassword"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="8dp"
+                    android:src="@android:drawable/ic_menu_view"
+                    android:contentDescription="@string/toggle_password" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <ProgressBar
+                android:id="@+id/progressLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <!-- Bottone Sign up -->
+            <Button
+                android:id="@+id/buttonSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Sign up"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/bg_button_glowing"
+                android:fontFamily="sans-serif-medium"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textErrorMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_light"
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:layout_gravity="center_horizontal"
+                android:text="Errore sconosciuto durante la registrazione." />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <!-- Separatore: "Or continue with" -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#4DFFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Or continue with"
+                    android:textColor="#B5B5B5"
+                    android:textSize="11sp"
+                    android:layout_marginHorizontal="8dp"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#4DFFFFFF"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <!-- Icone Social (Google, Apple) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <!-- Google -->
+                <ImageView
+                    android:id="@+id/imageGoogle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/google"
+                    android:contentDescription="@string/google_login"
+                    android:layout_marginRight="30dp"/>
+
+                <!-- Apple -->
+                <ImageView
+                    android:id="@+id/imageApple"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/apple"
+                    android:contentDescription="@string/apple_login"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

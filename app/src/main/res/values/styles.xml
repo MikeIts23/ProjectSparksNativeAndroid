@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Stile per i campi "glass" semitrasparenti -->
+    <style name="GlassEditTextStyle">
+        <!-- Spazi interni -->
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_margin">0dp</item>
+
+        <!-- Colori testo -->
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textColorHint">#FFA3A3A3</item> <!-- Grigio chiaro per hint -->
+
+        <!-- Background semitrasparente + bordi arrotondati -->
+        <!-- In un caso reale di glassmorphism si aggiunge anche un blur, ma qui semplifichiamo -->
+        <item name="android:background">@drawable/bg_glass_edittext</item>
+    </style>
+
+    <!-- Stile per i pulsanti viola con effetto glow -->
+    <style name="GlowingButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <!-- Usiamo un drawable personalizzato con gradiente e glow -->
+        <item name="android:background">@drawable/bg_glowing_button</item>
+    </style>
+</resources>

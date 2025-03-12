@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_navbar"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="#1C203D">
+
+    <!-- Pulsante Leaderboard -->
+
+    <!-- Pulsante centrale Home/Play -->
+    <ImageButton
+        android:id="@+id/btn_leaderboard"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Leaderboard"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:tint="@android:color/darker_gray" />
+
+    <FrameLayout
+        android:id="@+id/container_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <!-- Sfondo circolare con elevazione -->
+        <View
+            android:id="@+id/circle_background"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_background"
+            android:elevation="4dp" />
+
+        <!-- Icona Play -->
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@android:drawable/ic_media_play"
+            android:contentDescription="Home/Play"
+            android:tint="@android:color/white" />
+    </FrameLayout>
+
+    <!-- Pulsante Profilo -->
+    <ImageButton
+        android:id="@+id/btn_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:contentDescription="Profile"
+        android:tint="@android:color/darker_gray" />
+
+</LinearLayout>

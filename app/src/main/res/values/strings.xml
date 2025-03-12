@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NativeSparksApp</string>
+    <string name="welcome_back_we_missed_you">welcome back we missed you</string>
+    <string name="welcome_sparky">Welcome Sparky</string>
+    <string name="username">Username</string>
+    <string name="google_login" />
+    <string name="apple_login" />
+    <string name="or_continue_with">Or continue with</string>
+    <string name="or">OR</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="your_name">Your Name</string>
+    <string name="errore_durante_il_login">Errore durante il login.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="apple_login2">Apple login</string>
+    <string name="google_login2">Google login</string>
+    <string name="toggle_password_visibility">Toggle password visibility</string>
+</resources>

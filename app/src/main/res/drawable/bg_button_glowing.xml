@@ -1,0 +1,28 @@
+<!-- res/drawable/bg_button_glowing.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp"/>
+            <gradient
+                android:startColor="#A349F5"
+                android:endColor="#6B23F8"
+                android:angle="45"/>
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+
+    <!-- L’ombra/bagliore viola -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp"/>
+            <solid android:color="#00000000"/>
+            <stroke
+                android:width="1dp"
+                android:color="#A349F5"/>
+        </shape>
+    </item>
+</layer-list>

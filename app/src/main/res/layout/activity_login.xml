@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_login"
+    tools:context=".LoginActivity">
+
+    <!-- Titolo -->
+    <TextView
+        android:id="@+id/textWelcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Sparky"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"/>
+
+
+    <!-- Campo Username (Glass) -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        style="@style/GlassEditTextStyle"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:drawablePadding="8dp"
+        android:hint="Email"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:src="@android:drawable/ic_menu_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <!-- Container per password + icona occhio -->
+    <FrameLayout
+        android:id="@+id/layoutPasswordContainer"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@style/GlassEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:src="@android:drawable/ic_lock_lock" />
+
+        <ImageView
+            android:id="@+id/imageTogglePassword"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end|center_vertical"
+            android:src="@android:drawable/ic_lock_lock"
+            android:padding="8dp"
+            android:contentDescription="@string/toggle_password_visibility"/>
+    </FrameLayout>
+
+    <!-- Forgot Password -->
+    <TextView
+        android:id="@+id/textForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#A3A3A3"
+        android:textSize="11sp"
+        app:layout_constraintTop_toBottomOf="@id/layoutPasswordContainer"
+        app:layout_constraintEnd_toEndOf="@id/layoutPasswordContainer"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Bottone "Sign in" -->
+    <Button
+        android:id="@+id/buttonSignIn"
+        style="@style/GlowingButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/textForgotPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Separatore OR -->
+    <TextView
+        android:id="@+id/textOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/buttonSignIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Bottone "Register" -->
+    <Button
+        android:id="@+id/buttonRegister"
+        style="@style/GlowingButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/textOr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Scritta "Or continue with" con divider a sinistra e destra -->
+    <LinearLayout
+        android:id="@+id/layoutContinueWith"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonRegister"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or continue with"
+            android:textColor="#B5B5B5"
+            android:textSize="11sp"
+            android:layout_marginHorizontal="8dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <!-- Icone Social (Google, Apple, Facebook) -->
+    <LinearLayout
+        android:id="@+id/layoutSocialIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/layoutContinueWith"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageGoogle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/google"
+            android:contentDescription="@string/google_login2"
+            android:layout_marginEnd="40dp"/>
+
+        <ImageView
+            android:id="@+id/imageApple"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/apple"
+            android:contentDescription="@string/apple_login2"
+            android:layout_marginEnd="40dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
