@@ -12,7 +12,20 @@
           "package_name": "com.example.nativesparksapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "354561424923-03lqib5mi3nt7a0sa0o4p11gu7u551n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nativesparksapp",
+            "certificate_hash": "6e340cf545b5c7a802c30ad437693ee7182def87"
+          }
+        },
+        {
+          "client_id": "354561424923-grh1c4sk7d17gs4iuh3opm29ctf644bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBA6kfJe0MnaQIFpDsbp4RKdlD3QdQl8P4"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354561424923-grh1c4sk7d17gs4iuh3opm29ctf644bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

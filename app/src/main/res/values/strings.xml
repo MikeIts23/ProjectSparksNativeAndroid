@@ -55,4 +55,6 @@
     <string name="hint_email">Write your Email</string>
     <string name="email_icon">Email Icon</string>
     <string name="hint_name">Write your name</string>
+    <string name="default_web_client_id">"354561424923-03lqib5mi3nt7a0sa0o4p11gu7u551n1.apps.googleusercontent.com"</string>
+
 </resources>

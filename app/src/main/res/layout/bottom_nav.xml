@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/bottom_navigation"
     android:layout_width="match_parent"
-    android:layout_height="80dp"
-    android:background="#1C203D"
-    android:gravity="center_vertical"
-    android:orientation="horizontal">
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_button_nav_dark"
+    android:padding="8dp"
+    android:elevation="4dp">
 
-    <!-- Pulsante Leaderboard -->
+    <!-- Pulsante Leaderboard (sinistra) -->
     <ImageButton
         android:id="@+id/btn_leaderboard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="?attr/selectableItemBackgroundBorderless"
+        android:background="?android:selectableItemBackgroundBorderless"
         android:src="@android:drawable/ic_menu_sort_by_size"
-        android:contentDescription="Leaderboard"
-        android:tint="@android:color/darker_gray" />
+        android:tint="@android:color/white"
+        android:contentDescription="@string/leaderboard" />
 
-    <!-- Pulsante centrale Home/Play -->
+    <!-- Contenitore centrale per il pulsante Home -->
     <FrameLayout
         android:id="@+id/container_home"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center">
 
-        <!-- Sfondo circolare con elevazione -->
-
-        <!-- Icona Play -->
+        <!-- Pulsante Home con sfondo colorato arrotondato -->
         <ImageButton
             android:id="@+id/btn_home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@null"
+            android:layout_width="136dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_center_button"
+            android:contentDescription="@string/home"
+            android:scaleType="centerInside"
             android:src="@android:drawable/ic_media_play"
-            android:contentDescription="Home/Play"
-            android:tint="@android:color/white" />
+            app:tint="@android:color/white" />
     </FrameLayout>
 
-    <!-- Pulsante Profilo -->
+    <!-- Pulsante Profilo (destra) -->
     <ImageButton
         android:id="@+id/btn_profile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="?attr/selectableItemBackgroundBorderless"
+        android:background="?android:selectableItemBackgroundBorderless"
         android:src="@android:drawable/ic_menu_myplaces"
-        android:contentDescription="Profile"
-        android:tint="@android:color/darker_gray" />
-</LinearLayout>
+        android:contentDescription="@string/profile"
+        app:tint="@android:color/white" />
+    </LinearLayout>

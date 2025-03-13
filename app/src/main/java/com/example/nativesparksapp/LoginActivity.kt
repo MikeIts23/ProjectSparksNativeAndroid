@@ -5,7 +5,6 @@ import android.text.InputType
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import com.example.nativesparksapp.GameActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
