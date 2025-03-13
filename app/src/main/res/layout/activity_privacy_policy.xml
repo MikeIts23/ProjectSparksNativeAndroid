@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrivacyPolicy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_privacy"
+    tools:context=".PrivacyPolicyActivity">
+
+    <ImageView
+        android:id="@+id/iconBack"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="@string/back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- ScrollView per il contenuto scorrevole -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/iconBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iconBack" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/iconBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Contenitore verticale per i blocchi di testo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Titolo 1 -->
+            <TextView
+                android:id="@+id/textHeading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Types data we collect"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Paragrafo 1 -->
+            <TextView
+                android:id="@+id/textParagraph1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Our mobile application collects only the data that is essential for providing and enhancing our services. This includes:
+• Personal data such as your name, email address, and phone number when you voluntarily provide it.
+• Technical data such as device information, IP address, operating system details, and usage statistics.
+• Location data, if you grant permission, to deliver location-based services.
+All data collection practices are conducted in strict compliance with the GDPR and other applicable data protection regulations."
+                android:layout_marginBottom="16dp" />
+
+            <!-- Titolo 2 -->
+            <TextView
+                android:id="@+id/textHeading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Use of your personal data"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Paragrafo 2 -->
+            <TextView
+                android:id="@+id/textParagraph2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:text="We use your personal data for a variety of purposes including:
+• Providing, maintaining, and improving our services.
+• Personalizing your experience and offering customer support.
+• Analyzing usage trends to enhance functionality and user satisfaction.
+• Communicating updates, promotions, and other relevant information.
+All processing activities are performed in accordance with GDPR requirements and international data protection standards, ensuring that your privacy is protected."
+                android:layout_marginBottom="16dp" />
+
+            <!-- Titolo 3 -->
+            <TextView
+                android:id="@+id/textHeading3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Disclosure of your personal data"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Paragrafo 3 -->
+            <TextView
+                android:id="@+id/textParagraph3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:text="We will not sell or rent your personal data. We may share your data only with:
+• Trusted third-party service providers who assist in delivering our services, under strict confidentiality and data protection agreements.
+• Regulatory or governmental authorities when legally required to do so.
+• Business partners with whom we have entered into a joint venture, provided that the disclosure complies with all applicable data protection laws.
+All data disclosures are governed by strict contractual and technical safeguards, ensuring compliance with GDPR and other international data protection legislation."
+                android:layout_marginBottom="16dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

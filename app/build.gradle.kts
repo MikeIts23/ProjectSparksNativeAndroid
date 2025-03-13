@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.nativesparksapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.nativesparksapp"
         minSdk = 25
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -37,6 +37,9 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.firebase:firebase-auth:21.3.0")
+    implementation ("com.google.firebase:firebase-firestore:24.7.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
     implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation(libs.androidx.core.ktx)

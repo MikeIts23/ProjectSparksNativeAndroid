@@ -1,363 +1,288 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/frameRoot"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutProfile"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/bg_gradient_profile">
 
-    <com.example.myapp.ProfileBackgroundView
-        android:id="@+id/customBackground"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!-- Contenitore per l’immagine profilo circolare con ombra -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardProfileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="60dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:clipToOutline="true"
+        android:cardElevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
 
-    <!-- Contenuto principale scrollabile -->
-    <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:paddingBottom="100dp"
-    android:layout_marginTop="0dp">
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/profile_image"
+            android:src="@drawable/ic_launcher_background" />
+    </androidx.cardview.widget.CardView>
 
-    <LinearLayout
-        android:id="@+id/linearContent"
-        android:layout_width="match_parent"
+    <!-- Icona di modifica in basso a destra sull'immagine -->
+    <ImageView
+        android:id="@+id/iconEditProfile"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_edit"
+        android:contentDescription="@string/edit_profile_information"
+        app:layout_constraintBottom_toBottomOf="@+id/cardProfileImage"
+        app:layout_constraintRight_toRightOf="@+id/cardProfileImage" />
+
+    <!-- Prima Card: Edit profile, Notifications con switch, Language con testo blu -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSettings1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingHorizontal="16dp"
-        android:paddingTop="130dp"
-        android:paddingBottom="30dp"
-        android:gravity="center_horizontal">
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:clipToOutline="true"
+        android:theme="@style/Theme.MaterialComponents"
+        app:cardCornerRadius="12dp"
+        app:cardUseCompatPadding="true"
+        android:cardElevation="4dp"
+        android:backgroundTint="#FF1E2237"
+        app:layout_constraintTop_toBottomOf="@+id/cardProfileImage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
 
-        <!-- Avatar + icona fotocamera -->
-        <FrameLayout
-            android:layout_width="170dp"
-            android:layout_height="170dp"
-            android:layout_gravity="center"
-            android:clipToOutline="true">
-
-            <ImageView
-                android:id="@+id/imageProfile"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"
-                android:contentDescription="@string/profile_image"/>
-
-            <!-- Matita (icona standard) in basso a destra -->
-            <ImageView
-                android:id="@+id/imageEditAvatar"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="bottom|end"
-                android:layout_margin="8dp"
-                android:padding="4dp"
-                android:src="@android:drawable/ic_menu_camera"
-                android:background="?android:selectableItemBackgroundBorderless"
-                android:contentDescription="@string/edit_profile_picture"/>
-        </FrameLayout>
-
-        <!-- Prima "card" con Edit profile, Notifications, Language -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:orientation="vertical"
-            android:background="#1E2237"
-            android:padding="8dp"
-            android:elevation="2dp"
-            android:clipToOutline="true"
-            android:layout_marginHorizontal="16dp"
-            android:backgroundTintMode="src_over"
-            android:theme="@style/ThemeOverlay.MaterialComponents.Dark"
-            android:layout_marginBottom="16dp">
+            android:padding="12dp">
 
-            <!-- Edit profile information -->
-            <RelativeLayout
+            <!-- Riga: Edit profile information -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="12dp">
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
 
                 <ImageView
-                    android:id="@+id/iconEditInfo"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:layout_alignParentStart="true"
-                    android:contentDescription="@string/edit_profile_information"/>
+                    android:contentDescription="@string/edit_profile_information" />
 
                 <TextView
-                    android:id="@+id/textEditInfo"
+                    android:id="@+id/textEditProfile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/iconEditInfo"
-                    android:layout_marginLeft="12dp"
-                    android:gravity="center_vertical"
-                    android:textColor="@android:color/white"
+                    android:layout_marginStart="12dp"
                     android:text="Edit profile information"
-                    android:textSize="16sp"/>
-            </RelativeLayout>
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#33FFFFFF"/>
+                android:background="#33FFFFFF" />
 
-            <!-- Notifications con switch -->
-            <RelativeLayout
+            <!-- Riga: Notifications con Switch -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="12dp">
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
 
                 <ImageView
-                    android:id="@+id/iconNotifications"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_menu_view"
-                    android:layout_alignParentStart="true"
-                    android:contentDescription="@string/notifications"/>
+                    android:contentDescription="@string/notifications" />
 
                 <TextView
                     android:id="@+id/textNotifications"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/iconNotifications"
-                    android:layout_marginLeft="12dp"
-                    android:gravity="center_vertical"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
                     android:text="Notifications"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
 
-                <Switch
+                <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/switchNotifications"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_centerVertical="true"
-                    android:checked="true" />
-            </RelativeLayout>
+                    />
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#33FFFFFF"/>
+                android:background="#33FFFFFF" />
 
-            <!-- Language con un click per scegliere English / French -->
-            <RelativeLayout
-                android:id="@+id/layoutLanguage"
+            <!-- Riga: Language + "English" in blu -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="12dp">
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
 
                 <ImageView
-                    android:id="@+id/iconLanguage"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_menu_set_as"
-                    android:layout_alignParentStart="true"
-                    android:contentDescription="@string/language"/>
+                    android:contentDescription="@string/language" />
 
                 <TextView
                     android:id="@+id/textLanguage"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/iconLanguage"
-                    android:layout_marginLeft="12dp"
-                    android:gravity="center_vertical"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
                     android:text="Language"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textCurrentLanguage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_centerVertical="true"
                     android:text="English"
                     android:textColor="@android:color/holo_blue_light"
-                    android:textSize="16sp"/>
-            </RelativeLayout>
+                    android:textSize="16sp" />
+            </LinearLayout>
 
         </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-        <!-- Seconda "card" con Log out, Contact us, Privacy policy -->
+    <!-- Seconda Card: Log out, Contact us, Privacy policy -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSettings2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:clipToOutline="true"
+        android:theme="@style/Theme.MaterialComponents"
+        app:cardCornerRadius="12dp"
+        app:cardUseCompatPadding="true"
+        android:cardElevation="4dp"
+        android:backgroundTint="#FF1E2237"
+        app:layout_constraintTop_toBottomOf="@+id/cardSettings1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginBottom="24dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#1E2237"
-            android:padding="8dp"
-            android:elevation="2dp"
-            android:clipToOutline="true"
-            android:layout_marginHorizontal="16dp">
+            android:padding="12dp">
 
-            <!-- Log out -->
-            <RelativeLayout
+            <!-- Riga: Log out -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="12dp">
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
 
                 <ImageView
-                    android:id="@+id/iconLogout"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_menu_revert"
-                    android:layout_alignParentStart="true"
-                    android:contentDescription="@string/log_out"/>
+                    android:contentDescription="@string/log_out" />
 
                 <TextView
-                    android:id="@+id/textLogout"
+                    android:id="@+id/textLogOut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/iconLogout"
-                    android:layout_marginLeft="12dp"
-                    android:gravity="center_vertical"
+                    android:layout_marginStart="12dp"
                     android:text="Log out"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/white" />
-            </RelativeLayout>
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#33FFFFFF"/>
+                android:background="#33FFFFFF" />
 
-            <!-- Contact us -->
-            <RelativeLayout
-                android:id="@+id/layoutContactUs"
+            <!-- Riga: Contact us -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="12dp">
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
 
                 <ImageView
-                    android:id="@+id/iconContact"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_menu_send"
-                    android:layout_alignParentStart="true"
-                    android:contentDescription="@string/contact_us"/>
+                    android:contentDescription="@string/contact_us" />
 
                 <TextView
                     android:id="@+id/textContactUs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/iconContact"
-                    android:layout_marginLeft="12dp"
-                    android:gravity="center_vertical"
+                    android:layout_marginStart="12dp"
                     android:text="Contact us"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/white" />
-            </RelativeLayout>
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#33FFFFFF"/>
+                android:background="#33FFFFFF" />
 
-            <!-- Privacy policy -->
-            <RelativeLayout
-                android:id="@+id/layoutPrivacy"
+            <!-- Riga: Privacy policy -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="12dp">
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
 
                 <ImageView
-                    android:id="@+id/iconPrivacy"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@android:drawable/ic_lock_lock"
-                    android:layout_alignParentStart="true"
-                    android:contentDescription="@string/privacy_policy"/>
+                    android:contentDescription="@string/privacy_policy" />
 
                 <TextView
-                    android:id="@+id/textPrivacy"
+                    android:id="@+id/textPrivacyPolicy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/iconPrivacy"
-                    android:layout_marginLeft="12dp"
-                    android:gravity="center_vertical"
+                    android:layout_marginStart="12dp"
                     android:text="Privacy policy"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/white" />
-            </RelativeLayout>
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
         </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-</ScrollView>
-
-    <!-- Navbar in basso (placeholder) -->
-<LinearLayout
-android:id="@+id/layoutNavbar"
-android:layout_width="match_parent"
-android:layout_height="80dp"
-android:background="#1C203D"
-android:orientation="horizontal"
-android:gravity="center"
-android:layout_gravity="bottom">
-
-<!-- Esempio di 3 icone: Rank, Game, Account -->
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="16dp"
-    android:orientation="vertical">
-
-    <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:src="@android:drawable/ic_menu_sort_by_size"
-        android:contentDescription="@string/rank"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rank"
-        android:textColor="@android:color/white"
-        android:textSize="12sp" />
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="16dp"
-    android:orientation="vertical">
-
-    <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:src="@android:drawable/ic_media_play"
-        android:contentDescription="@string/game"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Game"
-        android:textColor="@android:color/white"
-        android:textSize="12sp" />
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="16dp"
-    android:orientation="vertical">
-
-    <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:src="@android:drawable/ic_menu_mylocation"
-        android:contentDescription="@string/account"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Account"
-        android:textColor="@android:color/white"
-        android:textSize="12sp" />
-</LinearLayout>
-
-</LinearLayout>
-
-    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
