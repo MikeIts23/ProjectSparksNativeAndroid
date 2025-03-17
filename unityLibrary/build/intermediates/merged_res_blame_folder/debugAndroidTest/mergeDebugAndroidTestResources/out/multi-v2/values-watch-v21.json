@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.unity3d.player.test.unityLibrary-mergeDebugAndroidTestResources-18:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mikid\\.gradle\\caches\\8.9\\transforms\\ac30d934e6999b23e543637c7ccae771\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

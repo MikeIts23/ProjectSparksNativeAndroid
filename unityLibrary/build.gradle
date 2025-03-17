@@ -1,0 +1,78 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace "com.unity3d.player"
+    compileSdk 35
+    buildToolsVersion "34.0.0"
+
+    ndkVersion "27.2.12479018"
+
+    defaultConfig {
+        consumerProguardFiles "proguard-unity.txt"
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+            debugSymbolLevel "none"
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_STL=c++_shared", "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    androidResources {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp']
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.22.1"
+        }
+    }
+
+    buildFeatures {
+        prefab true
+    }
+
+    sourceSets {
+        main {
+            jni.srcDirs = ["src/main/Il2CppOutputProject"]
+        }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core:1.9.0'
+    implementation 'androidx.games:games-activity:3.0.5' // obbligatoria
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
+
+
+// Assicurati che unityStreamingAssets sia definito in gradle.properties
+if (!project.hasProperty('unityStreamingAssets')) {
+    ext.unityStreamingAssets = ""
+}

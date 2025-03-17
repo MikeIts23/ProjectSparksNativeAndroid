@@ -35,7 +35,7 @@
         android:drawablePadding="8dp"
         android:hint="@string/email"
         android:importantForAutofill="no"
-        android:inputType="textEmail"
+        android:inputType="textEmailAddress"
         android:src="@android:drawable/ic_menu_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

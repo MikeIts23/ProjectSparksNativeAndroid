@@ -56,5 +56,13 @@
     <string name="email_icon">Email Icon</string>
     <string name="hint_name">Write your name</string>
     <string name="default_web_client_id">"354561424923-03lqib5mi3nt7a0sa0o4p11gu7u551n1.apps.googleusercontent.com"</string>
+    <string name="get_started">Get Started</string>
+    <string name="email1">Email</string>
+    <string name="play_the_game">Play the Game</string>
+    <string name="user_icon">User icon\n</string>
+    <string name="password_hint">Password \n</string>
+    <string name="toggle_password">toogle password\n</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="profile">Profile</string>
 
 </resources>

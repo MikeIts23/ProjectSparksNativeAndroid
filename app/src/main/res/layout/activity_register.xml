@@ -38,7 +38,7 @@
                 android:id="@+id/textGetStarted"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Get Started"
+                android:text="@string/get_started"
                 android:textColor="#F7F7F7"
                 android:textSize="40sp"
                 android:textStyle="bold"
@@ -53,7 +53,7 @@
                 android:id="@+id/textLabelEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email"
+                android:text="@string/email1"
                 android:textColor="#A3A3A3"
                 android:textSize="14sp"
                 />

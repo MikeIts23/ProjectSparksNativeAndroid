@@ -72,16 +72,18 @@ class LoginActivity : AppCompatActivity() {
 
     private fun togglePasswordVisibility() {
         isPasswordVisible = !isPasswordVisible
+
         if (isPasswordVisible) {
             editTextPassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
-            // Usa l'icona standard per "occhio aperto"; puoi usare una risorsa di sistema o la tua
-            imageTogglePassword.setImageResource(R.drawable.ic_eye_open)
+            imageTogglePassword.setImageResource(android.R.drawable.ic_menu_view) // Icona standard di Android
         } else {
             editTextPassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
-            imageTogglePassword.setImageResource(R.drawable.ic_eye)
+            imageTogglePassword.setImageResource(android.R.drawable.ic_secure) // Icona standard per password nascosta
         }
+
         editTextPassword.setSelection(editTextPassword.text.length)
     }
+
 
     // Login con email e password
     private fun signIn() {

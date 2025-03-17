@@ -1,0 +1,21 @@
+@echo off
+"C:\\Users\\mikid\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\mikid\\StudioProjects\\NativeSparksApp\\unityLibrary\\src\\main\\cpp" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=23" ^
+  "-DANDROID_PLATFORM=android-23" ^
+  "-DANDROID_ABI=arm64-v8a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+  "-DANDROID_NDK=C:\\Users\\mikid\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\mikid\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\mikid\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\mikid\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\mikid\\StudioProjects\\NativeSparksApp\\unityLibrary\\build\\intermediates\\cxx\\Debug\\6c6c4b72\\obj\\arm64-v8a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\mikid\\StudioProjects\\NativeSparksApp\\unityLibrary\\build\\intermediates\\cxx\\Debug\\6c6c4b72\\obj\\arm64-v8a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-DCMAKE_FIND_ROOT_PATH=C:\\Users\\mikid\\StudioProjects\\NativeSparksApp\\unityLibrary\\.cxx\\Debug\\6c6c4b72\\prefab\\arm64-v8a\\prefab" ^
+  "-BC:\\Users\\mikid\\StudioProjects\\NativeSparksApp\\unityLibrary\\.cxx\\Debug\\6c6c4b72\\arm64-v8a" ^
+  -GNinja ^
+  "-DANDROID_STL=c++_shared" ^
+  "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
