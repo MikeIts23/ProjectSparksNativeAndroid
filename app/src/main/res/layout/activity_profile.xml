@@ -186,7 +186,7 @@
         android:theme="@style/Theme.MaterialComponents"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        android:cardElevation="4dp"
+        app:cardElevation="4dp"
         android:backgroundTint="#FF1E2237"
         app:layout_constraintTop_toBottomOf="@+id/cardSettings1"
         app:layout_constraintLeft_toLeftOf="parent"

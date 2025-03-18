@@ -76,7 +76,7 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="50dp"
                 android:textColor="@android:color/white"
-                android:hintTextColor="#888888"
+                android:textColorHint="#888888"
                 android:inputType="textEmailAddress" />
 
                 <ImageView
@@ -121,7 +121,7 @@
                 android:gravity="center_vertical"
                 android:paddingStart="50dp"
                 android:textColor="@android:color/white"
-                android:hintTextColor="#888888"
+                android:textColorHint="#888888"
                 android:inputType="textPersonName" />
 
                 <!-- Icona utente a sinistra -->
@@ -168,7 +168,7 @@
                 android:paddingLeft="50dp"
                 android:paddingRight="50dp"
                 android:textColor="@android:color/white"
-                android:hintTextColor="#888888"
+                android:textColorHint="#888888"
                 android:inputType="textPassword" />
 
                 <!-- Icona lucchetto a sinistra -->
@@ -186,7 +186,7 @@
                     android:id="@+id/imageTogglePassword"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:padding="8dp"
                     android:src="@android:drawable/ic_menu_view"
@@ -283,7 +283,7 @@
                     android:layout_height="40dp"
                     android:src="@drawable/google"
                     android:contentDescription="@string/google_login"
-                    android:layout_marginRight="30dp"/>
+                    android:layout_marginEnd="30dp"/>
 
                 <!-- Apple -->
                 <ImageView

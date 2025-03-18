@@ -64,5 +64,8 @@
     <string name="toggle_password">toogle password\n</string>
     <string name="leaderboard">Leaderboard</string>
     <string name="profile">Profile</string>
+    <string name="email_hint">Email</string>
+    <string name="name_hint">Name</string>
+    <string name="home">Home</string>
 
 </resources>

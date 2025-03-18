@@ -1,6 +1,6 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.android") version "2.0.0"
     id("com.google.gms.google-services")
 }
 
@@ -38,7 +38,7 @@ android {
 }
 
 dependencies {
-    implementation (project(":unityLibrary"))
+    implementation(files("libs/unity-classes.jar"))
     implementation ("com.google.android.gms:play-services-auth:20.7.0")
     implementation ("com.google.firebase:firebase-auth:21.3.0")
     implementation ("com.google.firebase:firebase-firestore:24.7.1")

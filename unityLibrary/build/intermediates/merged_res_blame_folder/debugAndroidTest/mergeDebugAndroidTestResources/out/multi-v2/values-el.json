@@ -4,7 +4,7 @@
             "outputFile": "com.unity3d.player.test.unityLibrary-mergeDebugAndroidTestResources-18:/values-el/values-el.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mikid\\.gradle\\caches\\8.9\\transforms\\289b418972f37f8ba6c490056c00fa04\\transformed\\core-1.9.0\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\mikid\\.gradle\\caches\\8.9\\transforms\\5aeeffb30f6beb0874f5def500f5ce43\\transformed\\core-1.9.0\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mikid\\.gradle\\caches\\8.9\\transforms\\ac30d934e6999b23e543637c7ccae771\\transformed\\appcompat-1.6.1\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\mikid\\.gradle\\caches\\8.9\\transforms\\91c6dc3945635f82957321f34172c019\\transformed\\appcompat-1.6.1\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

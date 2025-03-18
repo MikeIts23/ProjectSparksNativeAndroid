@@ -8,21 +8,15 @@ android {
     ndkVersion "27.2.12479018"
 
     defaultConfig {
-        consumerProguardFiles "proguard-unity.txt"
         minSdk 23
         targetSdk 35
         versionCode 1
         versionName "0.1.0"
+        consumerProguardFiles "proguard-unity.txt"
 
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a"
             debugSymbolLevel "none"
-        }
-
-        externalNativeBuild {
-            cmake {
-                arguments "-DANDROID_STL=c++_shared", "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
-            }
         }
     }
 
@@ -36,8 +30,8 @@ android {
     }
 
     androidResources {
-        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp']
+        ignoreAssetsPattern "!*.svn:!*.git:!*.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress '.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'
     }
 
     packagingOptions {
@@ -63,16 +57,16 @@ android {
         }
     }
 }
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core:1.9.0'
-    implementation 'androidx.games:games-activity:3.0.5' // obbligatoria
+    implementation 'androidx.games:games-activity:3.0.5'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
 
-
-// Assicurati che unityStreamingAssets sia definito in gradle.properties
+// Controlla la definizione della proprietà unityStreamingAssets
 if (!project.hasProperty('unityStreamingAssets')) {
     ext.unityStreamingAssets = ""
 }

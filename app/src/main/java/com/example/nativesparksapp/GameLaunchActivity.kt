@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.unity3d.player.UnityPlayerActivity
 
 class GameLaunchActivity : AppCompatActivity() {
 
@@ -21,7 +20,6 @@ class GameLaunchActivity : AppCompatActivity() {
     }
 
     private fun launchUnityGame() {
-        // Avvia il gioco Unity
         try {
             val intent = Intent(this, Class.forName("com.unity3d.player.UnityPlayerActivity"))
             startActivity(intent)
