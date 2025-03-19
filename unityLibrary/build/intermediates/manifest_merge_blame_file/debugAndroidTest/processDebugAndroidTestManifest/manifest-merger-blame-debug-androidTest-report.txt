@@ -3,24 +3,24 @@
 3    package="com.unity3d.player.test" >
 4
 5    <uses-sdk
-5-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:5:5-74
+5-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:5:5-74
 6        android:minSdkVersion="23"
-6-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:5:15-41
+6-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:5:15-41
 7        android:targetSdkVersion="35" />
-7-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:5:42-71
+7-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:11:5-15:73
+9-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:11:5-15:73
 10        android:name="android.test.InstrumentationTestRunner"
-10-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:11:22-75
+10-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:11:22-75
 11        android:functionalTest="false"
-11-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:14:22-52
+11-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:13:22-53
+12-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:13:22-53
 13        android:label="Tests for com.unity3d.player.test"
-13-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:15:22-71
+13-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:15:22-71
 14        android:targetPackage="com.unity3d.player.test" />
-14-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:12:22-69
+14-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:12:22-69
 15
 16    <uses-permission android:name="android.permission.INTERNET" />
 16-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-67
@@ -66,7 +66,7 @@
 36-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\5aeeffb30f6beb0874f5def500f5ce43\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 37
 38    <application
-38-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:7:5-9:19
+38-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:7:5-9:19
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 39-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\5aeeffb30f6beb0874f5def500f5ce43\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 40        android:debuggable="true"
@@ -74,8 +74,8 @@
 41-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:9-52
 42        android:extractNativeLibs="true" >
 43        <uses-library android:name="android.test.runner" />
-43-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:8:9-60
-43-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1683666809199704614.xml:8:23-57
+43-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:8:9-60
+43-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14256118339180110759.xml:8:23-57
 44
 45        <meta-data
 45-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:9-29:33
