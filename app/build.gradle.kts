@@ -38,7 +38,6 @@ android {
 }
 
 dependencies {
-    implementation(files("libs/unity-classes.jar"))
     implementation ("com.google.android.gms:play-services-auth:20.7.0")
     implementation ("com.google.firebase:firebase-auth:21.3.0")
     implementation ("com.google.firebase:firebase-firestore:24.7.1")

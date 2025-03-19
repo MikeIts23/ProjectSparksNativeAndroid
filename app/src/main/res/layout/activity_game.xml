@@ -9,18 +9,19 @@
     android:background="@drawable/bg_gradient_edit_profile"
     tools:context=".GameLaunchActivity">
 
-
-    <!-- Esempio come un ImageView che copre tutto lo schermo -->
+    <!-- Sfondo principale -->
     <ImageView
         android:id="@+id/imagePatternBg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
         android:src="@drawable/bg_sparksar_pattern"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <!-- Logo in alto -->
     <ImageView
         android:id="@+id/imageLogoSparksar"
         android:layout_width="wrap_content"
@@ -32,6 +33,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
+    <!-- Polygon "Play" cliccabile -->
     <ImageView
         android:id="@+id/imageHexPlay"
         android:layout_width="120dp"
@@ -39,11 +41,15 @@
         android:layout_marginTop="32dp"
         android:adjustViewBounds="true"
         android:src="@drawable/polygonfinal"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/play_the_game"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toBottomOf="@id/imageLogoSparksar"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageLogoSparksar" />
+        app:layout_constraintRight_toRightOf="parent" />
 
-    <!-- (D) Testo sotto l’icona: "Play the game" -->
+    <!-- Testo "Play the game" -->
     <TextView
         android:id="@+id/textPlayGame"
         android:layout_width="wrap_content"
@@ -55,4 +61,5 @@
         app:layout_constraintTop_toBottomOf="@id/imageHexPlay"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

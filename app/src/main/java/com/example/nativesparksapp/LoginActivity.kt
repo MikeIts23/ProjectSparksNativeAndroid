@@ -1,4 +1,5 @@
 package com.example.nativesparksapp
+
 import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
@@ -9,7 +10,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.google.androidgamesdk.GameActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
@@ -38,6 +38,10 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        // Rimuovi la riga: import com.google.androidgamesdk.GameActivity
+        // Invece userai la tua GameActivity (stessa package se l'hai definita tu)
+
+        // Associa le view
         editTextEmail = findViewById(R.id.editTextEmail)
         editTextPassword = findViewById(R.id.editTextPassword)
         imageTogglePassword = findViewById(R.id.imageTogglePassword)
@@ -48,44 +52,53 @@ class LoginActivity : AppCompatActivity() {
         imageGoogle = findViewById(R.id.imageGoogle)
         imageApple = findViewById(R.id.imageApple)
 
-
+        // Configura Google Sign-In
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        // Imposta i listener
+        // Listener per l'icona "occhio" password
         imageTogglePassword.setOnClickListener { togglePasswordVisibility() }
+
+        // Login con email/password
         buttonSignIn.setOnClickListener { signIn() }
+
+        // Vai alla pagina di registrazione
         buttonRegister.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
+
+        // Placeholder "Forgot Password"
         textForgotPassword.setOnClickListener {
             Toast.makeText(this, "Forgot Password cliccato!", Toast.LENGTH_SHORT).show()
-            // Aggiungi qui la logica per il reset password se necessario
+            // Aggiungi eventuale logica per reset della password
         }
+
+        // Login con Google
         imageGoogle.setOnClickListener { signInWithGoogle() }
+
+        // Placeholder per Apple
         imageApple.setOnClickListener { signInWithApple() }
     }
 
+    // Mostra/Nascondi password
     private fun togglePasswordVisibility() {
         isPasswordVisible = !isPasswordVisible
-
         if (isPasswordVisible) {
-            editTextPassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
-            imageTogglePassword.setImageResource(android.R.drawable.ic_menu_view) // Icona standard di Android
+            editTextPassword.inputType =
+                InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
+            imageTogglePassword.setImageResource(android.R.drawable.ic_menu_view)
         } else {
-            editTextPassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
-            imageTogglePassword.setImageResource(android.R.drawable.ic_secure) // Icona standard per password nascosta
+            editTextPassword.inputType =
+                InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+            imageTogglePassword.setImageResource(android.R.drawable.ic_secure)
         }
-
         editTextPassword.setSelection(editTextPassword.text.length)
     }
 
-
-    // Login con email e password
+    // Login con Firebase Authentication (email/password)
     private fun signIn() {
         val email = editTextEmail.text.toString().trim()
         val password = editTextPassword.text.toString()
@@ -99,7 +112,8 @@ class LoginActivity : AppCompatActivity() {
         auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    val intent = Intent(this, GameActivity::class.java)
+                    // Login riuscito: vai alla tua GameActivity
+                    val intent = Intent(this, GameLaunchActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {
@@ -108,17 +122,19 @@ class LoginActivity : AppCompatActivity() {
             }
     }
 
+    // Mostra un messaggio di errore
     private fun showError(message: String) {
         textErrorMessage.visibility = View.VISIBLE
         textErrorMessage.text = message
     }
 
-    // Login con Google
+    // Avvia il flusso di login Google
     private fun signInWithGoogle() {
         val signInIntent = googleSignInClient.signInIntent
         startActivityForResult(signInIntent, RC_SIGN_IN)
     }
 
+    // Gestisci il risultato dell'Intent di Google
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == RC_SIGN_IN) {
@@ -132,12 +148,14 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    // Completa l'autenticazione Firebase con Google
     private fun firebaseAuthWithGoogle(idToken: String) {
         val credential = GoogleAuthProvider.getCredential(idToken, null)
         auth.signInWithCredential(credential)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    val intent = Intent(this, GameActivity::class.java)
+                    // Login Google ok: vai a GameActivity
+                    val intent = Intent(this, GameLaunchActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {
@@ -146,7 +164,7 @@ class LoginActivity : AppCompatActivity() {
             }
     }
 
-    // Placeholder per Apple Sign In
+    // Placeholder per Apple
     private fun signInWithApple() {
         Toast.makeText(this, "Login con Apple non implementato.", Toast.LENGTH_SHORT).show()
     }
