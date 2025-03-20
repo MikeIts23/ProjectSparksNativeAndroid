@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nativesparksapp">
 
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -24,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -39,7 +44,6 @@
             android:name=".RegisterActivity"
             android:exported="false" />
 
-
         <!-- GameLaunchActivity -->
         <activity
             android:name=".GameLaunchActivity"
@@ -50,12 +54,20 @@
             android:name=".ProfileActivity"
             android:exported="false" />
 
-        <!-- Altre Activity, se presenti -->
-        <!--
-        <activity android:name=".EditProfileActivity" />
-        <activity android:name=".ContactsActivity" />
-        <activity android:name=".PrivacyPolicyActivity" />
-        -->
+        <!-- EditProfileActivity -->
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+
+        <!-- ContactsActivity -->
+        <activity
+            android:name=".ContactsActivity"
+            android:exported="false" />
+
+        <!-- PrivacyPolicyActivity -->
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false" />
 
     </application>
 

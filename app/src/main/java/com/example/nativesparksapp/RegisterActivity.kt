@@ -1,5 +1,6 @@
 package com.example.nativesparksapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
 import android.view.View
@@ -112,13 +113,17 @@ class RegisterActivity : AppCompatActivity() {
 
                     firebaseUser?.updateProfile(profileUpdates)
                         ?.addOnCompleteListener { _ ->
-                            // Registrazione ok, vai alla home (GameActivity?)
-                            // e chiudi questa.
+                            // Registrazione ok
                             setLoading(false)
-                            // Esempio:
-                            // startActivity(Intent(this, GameActivity::class.java))
-                            // finish()
-                            Toast.makeText(this, "Registrazione completata!", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(
+                                this,
+                                "Registrazione completata!",
+                                Toast.LENGTH_SHORT
+                            ).show()
+
+                            // Vai alla GameLaunchActivity e chiudi la schermata di registrazione
+                            startActivity(Intent(this, GameLaunchActivity::class.java))
+                            finish()
                         }
                 } else {
                     // Errore FirebaseAuth
@@ -132,15 +137,10 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun onSignUpWithGoogle() {
         Toast.makeText(this, "Registrazione con Google (da implementare)", Toast.LENGTH_SHORT).show()
-        // Qui dovresti implementare la logica OAuth di Google:
-        // 1) Configura GoogleSignInClient
-        // 2) Avvia l’intent di Google
-        // 3) Recupera il token e autentica con Firebase
     }
 
     private fun onSignUpWithApple() {
         Toast.makeText(this, "Registrazione con Apple (da implementare)", Toast.LENGTH_SHORT).show()
-        // Apple Sign-In su Android è più complesso (spesso via Web/OAuth).
     }
 
     private fun setLoading(loading: Boolean) {

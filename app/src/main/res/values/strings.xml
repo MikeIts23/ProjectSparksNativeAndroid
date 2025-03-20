@@ -67,5 +67,6 @@
     <string name="email_hint">Email</string>
     <string name="name_hint">Name</string>
     <string name="home">Home</string>
+    <string name="welcome_sparky1">Welcome Sparky</string>
 
 </resources>

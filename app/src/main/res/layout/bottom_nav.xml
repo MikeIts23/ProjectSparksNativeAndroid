@@ -14,11 +14,11 @@
     <ImageButton
         android:id="@+id/btn_leaderboard"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_weight="1"
         android:background="?android:selectableItemBackgroundBorderless"
         android:src="@android:drawable/ic_menu_sort_by_size"
-        android:tint="@android:color/white"
+        app:tint="@android:color/white"
         android:contentDescription="@string/leaderboard" />
 
     <!-- Contenitore centrale per il pulsante Home -->
@@ -29,12 +29,13 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <!-- Pulsante Home con sfondo colorato arrotondato -->
+        <!-- Pulsante Home (icona play senza background) -->
         <ImageButton
             android:id="@+id/btn_home"
-            android:layout_width="136dp"
+            android:layout_width="56dp"
             android:layout_height="56dp"
-            android:background="@drawable/bg_center_button"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackgroundBorderless"
             android:contentDescription="@string/home"
             android:scaleType="centerInside"
             android:src="@android:drawable/ic_media_play"
@@ -45,10 +46,11 @@
     <ImageButton
         android:id="@+id/btn_profile"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_weight="1"
         android:background="?android:selectableItemBackgroundBorderless"
         android:src="@android:drawable/ic_menu_myplaces"
-        android:contentDescription="@string/profile"
-        app:tint="@android:color/white" />
-    </LinearLayout>
+        app:tint="@android:color/white"
+        android:contentDescription="@string/profile" />
+
+</LinearLayout>

@@ -3,6 +3,7 @@ package com.example.nativesparksapp
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.Switch
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -28,15 +29,16 @@ class ProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile)  // <-- Sostituisci col tuo layout
+        setContentView(R.layout.activity_profile)
 
-        // 1. Recupera le View
+        // Inizializzazione Switch e TextView
         switchNotifications = findViewById(R.id.switchNotifications)
-        buttonEditProfile   = findViewById(R.id.textEditProfile)      // Esempio di ID
-        buttonContactUs     = findViewById(R.id.textContactUs)
+        buttonEditProfile = findViewById(R.id.textEditProfile)
+        buttonContactUs = findViewById(R.id.textContactUs)
         buttonPrivacyPolicy = findViewById(R.id.textPrivacyPolicy)
-        buttonLogOut        = findViewById(R.id.textLogOut)
+        buttonLogOut = findViewById(R.id.textLogOut)
 
+        // Recupero preferenze Notifiche
         val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
         val isNotificationsOn = sharedPrefs.getBoolean(KEY_NOTIFICATIONS_ENABLED, true)
         switchNotifications.isChecked = isNotificationsOn
@@ -46,7 +48,6 @@ class ProfileActivity : AppCompatActivity() {
                 .putBoolean(KEY_NOTIFICATIONS_ENABLED, isChecked)
                 .apply()
         }
-
 
         // Apre EditProfileActivity
         buttonEditProfile.setOnClickListener {
@@ -66,17 +67,26 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Esegue logout e porta alla LoginActivity
+        // Logout
         buttonLogOut.setOnClickListener {
-            // Logout da Firebase
             auth.signOut()
-
-            // Torna a LoginActivity
             val intent = Intent(this, LoginActivity::class.java)
-            // Per sicurezza, se vuoi che l’utente non torni a questa Activity col tasto back:
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
-            finish()  // Chiude l’Activity corrente
+            finish()
         }
+
+        // ---- Aggiunta gestione Bottom Navigation ----
+        val btnPlay = findViewById<ImageButton>(R.id.btn_home)
+        val btnProfile = findViewById<ImageButton>(R.id.btn_profile)
+
+        btnPlay.setOnClickListener {
+            startActivity(Intent(this, GameLaunchActivity::class.java))
+        }
+
+        btnProfile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
+        // ---------------------------------------------
     }
 }

@@ -1,12 +1,15 @@
 package com.example.nativesparksapp
 
 import android.content.ActivityNotFoundException
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.FileProvider   // <--- IMPORTANTE
 import java.io.File
 import java.io.FileOutputStream
 
@@ -19,10 +22,10 @@ class GameLaunchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)  // <-- Il layout con "imageHexPlay"
 
-        // 2. Recupera la ImageView che funge da pulsante
+        // 1. Recupera la ImageView che funge da pulsante "Play"
         val imageHexPlay: ImageView = findViewById(R.id.imageHexPlay)
 
-        // 3. Cliccando sul poligono
+        // 2. Cliccando sul poligono
         imageHexPlay.setOnClickListener {
             if (isGameInstalled()) {
                 launchGame()
@@ -30,6 +33,19 @@ class GameLaunchActivity : AppCompatActivity() {
                 installGame()
             }
         }
+
+        // ---- Aggiunta: gestione Bottom Navigation ----
+        val btnPlay = findViewById<ImageButton>(R.id.btn_home)
+        val btnProfile = findViewById<ImageButton>(R.id.btn_profile)
+
+        btnPlay.setOnClickListener {
+            startActivity(Intent(this, GameLaunchActivity::class.java))
+        }
+
+        btnProfile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
+        // ---------------------------------------------
     }
 
     // Verifica se il gioco è già installato sul dispositivo
@@ -42,15 +58,22 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    // Se il gioco non è installato, copia l'APK da assets e avvia l'installazione
+    // Se il gioco non è installato, copia l'APK da assets e avvia l'installazione (con FileProvider)
     private fun installGame() {
         val apkFile = copyApkFromAssets()
         if (apkFile != null) {
-            // Intent per installare l'APK
-            val intent = android.content.Intent(android.content.Intent.ACTION_VIEW).apply {
-                setDataAndType(Uri.fromFile(apkFile), "application/vnd.android.package-archive")
-                flags = android.content.Intent.FLAG_ACTIVITY_NEW_TASK
+            // Ottieni l'Uri sicuro tramite FileProvider
+            val apkUri = FileProvider.getUriForFile(
+                this,
+                "${applicationContext.packageName}.fileprovider",
+                apkFile
+            )
+
+            val intent = Intent(Intent.ACTION_VIEW).apply {
+                setDataAndType(apkUri, "application/vnd.android.package-archive")
+                flags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK
             }
+
             try {
                 startActivity(intent)
             } catch (e: ActivityNotFoundException) {

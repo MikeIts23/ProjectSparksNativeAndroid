@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<paths xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <!-- Se copi il file APK in getExternalFilesDir(null) -->
+<paths>
     <external-files-path
-        name="external_files"
+        name="myapk"
         path="." />
-
-    <files-path
-        name="internal_files"
-        path="." />
-
 </paths>
