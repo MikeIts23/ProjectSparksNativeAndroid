@@ -1,20 +1,32 @@
 package com.example.nativesparksapp
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
+import android.util.Base64
 import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.Switch
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SwitchCompat
 import com.google.firebase.auth.FirebaseAuth
+import java.io.ByteArrayOutputStream
+import java.io.IOException
 
 class ProfileActivity : AppCompatActivity() {
 
     companion object {
         private const val PREFS_NAME = "UserPrefs"
         private const val KEY_NOTIFICATIONS_ENABLED = "notifications_enabled"
+        private const val KEY_PROFILE_IMAGE = "profile_image"
+        private const val REQUEST_GALLERY = 100
     }
 
     private lateinit var switchNotifications: SwitchCompat
@@ -22,6 +34,8 @@ class ProfileActivity : AppCompatActivity() {
     private lateinit var buttonContactUs: TextView
     private lateinit var buttonPrivacyPolicy: TextView
     private lateinit var buttonLogOut: TextView
+    private lateinit var imageProfile: ImageView
+    private lateinit var iconEditProfile: ImageView
 
     private val auth: FirebaseAuth by lazy {
         FirebaseAuth.getInstance()
@@ -37,6 +51,22 @@ class ProfileActivity : AppCompatActivity() {
         buttonContactUs = findViewById(R.id.textContactUs)
         buttonPrivacyPolicy = findViewById(R.id.textPrivacyPolicy)
         buttonLogOut = findViewById(R.id.textLogOut)
+
+        // Inizializzazione ImageView per il profilo e l'icona di modifica
+        imageProfile = findViewById(R.id.imageProfile)
+        iconEditProfile = findViewById(R.id.iconEditProfile)
+
+        // Carica l'immagine del profilo dalle SharedPreferences
+        loadProfileImage()
+
+        // Gestione click sull'immagine del profilo e sull'icona di modifica
+        imageProfile.setOnClickListener {
+            openGallery()
+        }
+
+        iconEditProfile.setOnClickListener {
+            openGallery()
+        }
 
         // Recupero preferenze Notifiche
         val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
@@ -88,5 +118,97 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(Intent(this, ProfileActivity::class.java))
         }
         // ---------------------------------------------
+    }
+
+    // Apre la galleria per selezionare un'immagine
+    private fun openGallery() {
+        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
+        startActivityForResult(intent, REQUEST_GALLERY)
+    }
+
+    // Gestisce il risultato della selezione dell'immagine dalla galleria
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_GALLERY && resultCode == Activity.RESULT_OK && data != null) {
+            val selectedImageUri = data.data
+            if (selectedImageUri != null) {
+                try {
+                    // Imposta l'immagine selezionata nell'ImageView
+                    imageProfile.setImageURI(selectedImageUri)
+
+                    // Salva l'immagine nelle SharedPreferences
+                    saveProfileImage(selectedImageUri)
+
+                    Toast.makeText(this, "Immagine del profilo aggiornata", Toast.LENGTH_SHORT).show()
+                } catch (e: Exception) {
+                    Toast.makeText(this, "Errore nel caricamento dell'immagine", Toast.LENGTH_SHORT).show()
+                    e.printStackTrace()
+                }
+            }
+        }
+    }
+
+    // Salva l'immagine del profilo nelle SharedPreferences
+    private fun saveProfileImage(imageUri: Uri) {
+        try {
+            val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, imageUri)
+            val resizedBitmap = getResizedBitmap(bitmap, 500) // Ridimensiona per risparmiare spazio
+            val encodedImage = encodeToBase64(resizedBitmap)
+
+            val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            sharedPrefs.edit()
+                .putString(KEY_PROFILE_IMAGE, encodedImage)
+                .apply()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+    }
+
+    // Carica l'immagine del profilo dalle SharedPreferences
+    private fun loadProfileImage() {
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val encodedImage = sharedPrefs.getString(KEY_PROFILE_IMAGE, null)
+
+        if (encodedImage != null) {
+            try {
+                val bitmap = decodeBase64(encodedImage)
+                imageProfile.setImageBitmap(bitmap)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
+
+    // Converte un Bitmap in una stringa Base64
+    private fun encodeToBase64(bitmap: Bitmap): String {
+        val byteArrayOutputStream = ByteArrayOutputStream()
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream)
+        val byteArray = byteArrayOutputStream.toByteArray()
+        return Base64.encodeToString(byteArray, Base64.DEFAULT)
+    }
+
+    // Converte una stringa Base64 in un Bitmap
+    private fun decodeBase64(input: String): Bitmap {
+        val decodedBytes = Base64.decode(input, Base64.DEFAULT)
+        return BitmapFactory.decodeByteArray(decodedBytes, 0, decodedBytes.size)
+    }
+
+    // Ridimensiona un Bitmap per risparmiare spazio
+    private fun getResizedBitmap(bitmap: Bitmap, maxSize: Int): Bitmap {
+        var width = bitmap.width
+        var height = bitmap.height
+
+        val bitmapRatio = width.toFloat() / height.toFloat()
+        if (bitmapRatio > 1) {
+            // Immagine più larga che alta
+            width = maxSize
+            height = (width / bitmapRatio).toInt()
+        } else {
+            // Immagine più alta che larga
+            height = maxSize
+            width = (height * bitmapRatio).toInt()
+        }
+
+        return Bitmap.createScaledBitmap(bitmap, width, height, true)
     }
 }
