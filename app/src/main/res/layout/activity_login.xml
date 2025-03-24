@@ -22,8 +22,8 @@
         android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
-    android:layout_marginBottom="20dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        android:layout_marginBottom="20dp"/>
 
     <!-- Campo Username (Glass) -->
     <EditText
@@ -180,19 +180,23 @@
 
         <ImageView
             android:id="@+id/imageGoogle"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:src="@drawable/google"
             android:contentDescription="@string/google_login2"
-            android:layout_marginEnd="40dp"/>
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bg_button_glowing"
+            android:padding="12dp"/>
 
         <ImageView
             android:id="@+id/imageApple"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:src="@drawable/apple"
             android:contentDescription="@string/apple_login2"
-            android:layout_marginEnd="40dp"/>
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bg_button_glowing"
+            android:padding="12dp"/>
 
     </LinearLayout>
 

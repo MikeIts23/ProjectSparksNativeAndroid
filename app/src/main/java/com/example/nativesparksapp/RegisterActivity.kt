@@ -1,8 +1,10 @@
 package com.example.nativesparksapp
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
+import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -37,9 +39,22 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var googleSignInClient: GoogleSignInClient
     private val RC_SIGN_IN = 9001
 
+    // Tag per il logging
+    private val TAG = "RegisterActivity"
+
+    // Chiave per memorizzare l'ID dell'ultimo utente loggato
+    companion object {
+        const val PREFS_USER_ID = "user_prefs"
+        const val KEY_LAST_USER_ID = "last_user_id"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
+        // Pulisci le SharedPreferences all'avvio della registrazione
+        // per evitare che rimangano dati di utenti precedenti
+        clearAllUserPreferences()
 
         // Inizializza i riferimenti
         editTextEmail = findViewById(R.id.editTextEmail)
@@ -137,6 +152,12 @@ class RegisterActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT
                             ).show()
 
+                            // Salva l'ID dell'utente corrente nelle SharedPreferences
+                            firebaseUser?.uid?.let { userId ->
+                                saveCurrentUserId(userId)
+                                Log.d(TAG, "ID utente salvato: $userId")
+                            }
+
                             // Vai alla GameLaunchActivity e chiudi la schermata di registrazione
                             startActivity(Intent(this, GameLaunchActivity::class.java))
                             finish()
@@ -213,5 +234,32 @@ class RegisterActivity : AppCompatActivity() {
     private fun showErrorMessage(msg: String) {
         textErrorMessage.text = msg
         textErrorMessage.visibility = View.VISIBLE
+    }
+
+    // Pulisce tutte le SharedPreferences dell'utente
+    private fun clearAllUserPreferences() {
+        Log.d(TAG, "Pulizia delle SharedPreferences all'avvio della registrazione")
+
+        // Pulisci le SharedPreferences di ProfileActivity
+        val profilePrefs = getSharedPreferences(ProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
+        profilePrefs.edit().clear().apply()
+
+        // Pulisci le SharedPreferences di EditProfileActivity
+        val editProfilePrefs = getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
+        editProfilePrefs.edit().clear().apply()
+
+        // Pulisci eventuali altre SharedPreferences dell'app
+        // Se ci sono altre SharedPreferences specifiche dell'utente, aggiungerle qui
+
+        Log.d(TAG, "SharedPreferences pulite con successo all'avvio della registrazione")
+    }
+
+    // Salva l'ID dell'utente corrente nelle SharedPreferences
+    private fun saveCurrentUserId(userId: String) {
+        val userPrefs = getSharedPreferences(PREFS_USER_ID, Context.MODE_PRIVATE)
+        userPrefs.edit()
+            .putString(KEY_LAST_USER_ID, userId)
+            .apply()
+        Log.d(TAG, "ID utente salvato nelle SharedPreferences: $userId")
     }
 }

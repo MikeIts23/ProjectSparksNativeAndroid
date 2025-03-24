@@ -4,6 +4,7 @@ import android.content.Context
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
+import android.view.ViewGroup
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -17,7 +18,7 @@ class EditProfileActivity : AppCompatActivity() {
 
     // SharedPreferences
     companion object {
-        private const val PREFS_NAME = "UserPrefs"
+        const val PREFS_NAME = "UserPrefs"
         private const val KEY_NAME = "key_name"
         private const val KEY_NICKNAME = "key_nickname"
         private const val KEY_EMAIL = "key_email"
@@ -64,18 +65,46 @@ class EditProfileActivity : AppCompatActivity() {
             }
 
             val countries = arrayOf("USA", "Italy", "France", "Japan")
-            spinnerCountry.adapter = ArrayAdapter(
+            val countryAdapter = object : ArrayAdapter<String>(
                 this,
-                android.R.layout.simple_spinner_dropdown_item,
+                android.R.layout.simple_spinner_item,
                 countries
-            )
+            ) {
+                override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+                    val view = super.getView(position, convertView, parent)
+                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
+                    return view
+                }
+
+                override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
+                    val view = super.getDropDownView(position, convertView, parent)
+                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
+                    return view
+                }
+            }
+            countryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinnerCountry.adapter = countryAdapter
 
             val genders = arrayOf("Male", "Female", "Other")
-            spinnerGender.adapter = ArrayAdapter(
+            val genderAdapter = object : ArrayAdapter<String>(
                 this,
-                android.R.layout.simple_spinner_dropdown_item,
+                android.R.layout.simple_spinner_item,
                 genders
-            )
+            ) {
+                override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+                    val view = super.getView(position, convertView, parent)
+                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
+                    return view
+                }
+
+                override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
+                    val view = super.getDropDownView(position, convertView, parent)
+                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
+                    return view
+                }
+            }
+            genderAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinnerGender.adapter = genderAdapter
 
             // 2. Carica i dati da SharedPreferences (cache locale)
             loadDataFromPrefs()
@@ -192,9 +221,10 @@ class EditProfileActivity : AppCompatActivity() {
             "address" to address
         )
 
-        // Salva su Firestore
+        // Salva su Firestore usando set con merge=true invece di update
+        // Questo garantisce che funzioni anche se il documento non esiste ancora
         firestore.collection("users").document(uid)
-            .update(userMap)
+            .set(userMap, com.google.firebase.firestore.SetOptions.merge())
             .addOnSuccessListener {
                 progressBar?.visibility = View.GONE
                 Toast.makeText(this, "Profilo aggiornato!", Toast.LENGTH_SHORT).show()

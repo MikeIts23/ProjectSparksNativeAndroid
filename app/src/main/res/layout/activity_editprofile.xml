@@ -99,6 +99,7 @@
                     android:layout_marginTop="4dp"
                     android:background="@drawable/bg_edittext_rounded_dark"
                     android:hint="@string/full_name"
+                    android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white"
                     android:paddingHorizontal="12dp"
                     android:gravity="center_vertical" />
@@ -125,6 +126,7 @@
                     android:layout_marginTop="4dp"
                     android:background="@drawable/bg_edittext_rounded_dark"
                     android:hint="@string/nick_name"
+                    android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white"
                     android:paddingHorizontal="12dp"
                     android:gravity="center_vertical" />
@@ -151,6 +153,7 @@
                     android:layout_marginTop="4dp"
                     android:background="@drawable/bg_edittext_rounded_dark"
                     android:hint="@string/youremail_domain"
+                    android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white"
                     android:paddingHorizontal="12dp"
                     android:gravity="center_vertical"
@@ -193,6 +196,7 @@
                         android:layout_marginStart="8dp"
                         android:background="@android:color/transparent"
                         android:hint="@string/phone_number_sample"
+                        android:textColor="@android:color/white"
                         android:textColorHint="@android:color/white"
                         android:gravity="center_vertical"
                         android:inputType="phone" />
@@ -227,6 +231,7 @@
                         android:layout_height="50dp"
                         android:layout_marginTop="4dp"
                         android:background="@drawable/bg_edittext_rounded_dark"
+                        android:textColor="@android:color/white"
                         android:paddingHorizontal="12dp"
                         android:gravity="center_vertical"
                         android:popupBackground="#444" />
@@ -252,6 +257,7 @@
                         android:layout_height="50dp"
                         android:layout_marginTop="4dp"
                         android:background="@drawable/bg_edittext_rounded_dark"
+                        android:textColor="@android:color/white"
                         android:paddingHorizontal="12dp"
                         android:gravity="center_vertical"
                         android:popupBackground="#444" />
@@ -279,6 +285,7 @@
                     android:layout_marginTop="4dp"
                     android:background="@drawable/bg_edittext_rounded_dark"
                     android:hint="@string/address_hint"
+                    android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white"
                     android:paddingHorizontal="12dp"
                     android:gravity="center_vertical" />

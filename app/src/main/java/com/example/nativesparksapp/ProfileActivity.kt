@@ -9,6 +9,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Base64
+import android.util.Log
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Switch
@@ -23,10 +24,11 @@ import java.io.IOException
 class ProfileActivity : AppCompatActivity() {
 
     companion object {
-        private const val PREFS_NAME = "UserPrefs"
+        const val PREFS_NAME = "UserPrefs"
         private const val KEY_NOTIFICATIONS_ENABLED = "notifications_enabled"
         private const val KEY_PROFILE_IMAGE = "profile_image"
         private const val REQUEST_GALLERY = 100
+        private const val TAG = "ProfileActivity"
     }
 
     private lateinit var switchNotifications: SwitchCompat
@@ -99,7 +101,13 @@ class ProfileActivity : AppCompatActivity() {
 
         // Logout
         buttonLogOut.setOnClickListener {
+            // Pulisci le SharedPreferences prima del logout
+            clearUserPreferences()
+
+            // Esegui il logout da Firebase
             auth.signOut()
+
+            // Torna alla schermata di login
             val intent = Intent(this, LoginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
@@ -210,5 +218,23 @@ class ProfileActivity : AppCompatActivity() {
         }
 
         return Bitmap.createScaledBitmap(bitmap, width, height, true)
+    }
+
+    // Pulisce tutte le SharedPreferences dell'utente
+    private fun clearUserPreferences() {
+        Log.d(TAG, "Pulizia delle SharedPreferences dell'utente")
+
+        // Pulisci le SharedPreferences di ProfileActivity
+        val profilePrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        profilePrefs.edit().clear().apply()
+
+        // Pulisci le SharedPreferences di EditProfileActivity
+        val editProfilePrefs = getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
+        editProfilePrefs.edit().clear().apply()
+
+        // Pulisci eventuali altre SharedPreferences dell'app
+        // Se ci sono altre SharedPreferences specifiche dell'utente, aggiungerle qui
+
+        Log.d(TAG, "SharedPreferences pulite con successo")
     }
 }
