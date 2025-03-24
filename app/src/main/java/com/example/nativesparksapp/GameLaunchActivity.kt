@@ -81,17 +81,15 @@ class GameLaunchActivity : AppCompatActivity() {
 
     // Verifica se l'installazione è già stata avviata
     private fun isInstallationStarted(): Boolean {
-        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        val started = prefs.getBoolean(KEY_INSTALLATION_STARTED, false)
-        Log.d(TAG, "isInstallationStarted: $started")
-        return started
+        // Modifica: ritorna sempre false per evitare che il messaggio appaia dopo la prima installazione
+        Log.d(TAG, "isInstallationStarted: ritorna sempre false per evitare il messaggio")
+        return false
     }
 
     // Segna che l'installazione è stata avviata
     private fun markInstallationStarted() {
-        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        prefs.edit().putBoolean(KEY_INSTALLATION_STARTED, true).apply()
-        Log.d(TAG, "markInstallationStarted: Installazione segnata come avviata")
+        // Manteniamo questa funzione per compatibilità, ma non è più necessaria
+        Log.d(TAG, "markInstallationStarted: funzione mantenuta per compatibilità")
     }
 
     // Mostra un prompt per chiedere all'utente se vuole completare l'installazione

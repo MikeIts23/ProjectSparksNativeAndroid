@@ -21,7 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Titolo "Edit Profile" centrato orizzontalmente -->
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
@@ -36,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5" />
 
-    <!-- Aggiunta del ProgressBar -->
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
@@ -47,7 +46,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Aggiunta del TextView per gli errori -->
     <TextView
         android:id="@+id/textError"
         android:layout_width="0dp"

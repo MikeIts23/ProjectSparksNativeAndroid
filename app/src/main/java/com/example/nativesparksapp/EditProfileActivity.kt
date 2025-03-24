@@ -83,7 +83,7 @@ class EditProfileActivity : AppCompatActivity() {
             // 3. Se l'utente è loggato, ottieni UID e carica i dati da Firestore
             val currentUser = auth.currentUser
             if (currentUser != null) {
-                editEmail.isEnabled = false // disabilita se l'email non deve essere modificabile
+                editEmail.isEnabled = true // modificato: ora l'email è modificabile
                 loadDataFromFirestore(currentUser.uid)
             } else {
                 // Nessun utente loggato, magari chiudi l'activity o mostra un errore

@@ -6,7 +6,12 @@ import android.text.InputType
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.GoogleAuthProvider
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -28,6 +33,10 @@ class RegisterActivity : AppCompatActivity() {
         FirebaseAuth.getInstance()
     }
 
+    // Google Sign In Client
+    private lateinit var googleSignInClient: GoogleSignInClient
+    private val RC_SIGN_IN = 9001
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -42,6 +51,13 @@ class RegisterActivity : AppCompatActivity() {
         textErrorMessage = findViewById(R.id.textErrorMessage)
         imageGoogle = findViewById(R.id.imageGoogle)
         imageApple = findViewById(R.id.imageApple)
+
+        // Configura Google Sign-In
+        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(getString(R.string.default_web_client_id))
+            .requestEmail()
+            .build()
+        googleSignInClient = GoogleSignIn.getClient(this, gso)
 
         // Toggle password
         imageTogglePassword.setOnClickListener {
@@ -136,7 +152,47 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun onSignUpWithGoogle() {
-        Toast.makeText(this, "Registrazione con Google (da implementare)", Toast.LENGTH_SHORT).show()
+        // Avvia il flusso di login Google
+        val signInIntent = googleSignInClient.signInIntent
+        startActivityForResult(signInIntent, RC_SIGN_IN)
+    }
+
+    // Gestisci il risultato dell'Intent di Google
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == RC_SIGN_IN) {
+            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
+            try {
+                val account = task.getResult(ApiException::class.java)!!
+                firebaseAuthWithGoogle(account.idToken!!)
+            } catch (e: ApiException) {
+                showErrorMessage("Google sign in failed: ${e.localizedMessage}")
+                setLoading(false)
+            }
+        }
+    }
+
+    // Completa l'autenticazione Firebase con Google
+    private fun firebaseAuthWithGoogle(idToken: String) {
+        setLoading(true)
+        val credential = GoogleAuthProvider.getCredential(idToken, null)
+        auth.signInWithCredential(credential)
+            .addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    // Login Google ok: vai a GameActivity
+                    Toast.makeText(
+                        this,
+                        "Registrazione con Google completata!",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    val intent = Intent(this, GameLaunchActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    showErrorMessage(task.exception?.localizedMessage ?: "Google sign in failed")
+                    setLoading(false)
+                }
+            }
     }
 
     private fun onSignUpWithApple() {
