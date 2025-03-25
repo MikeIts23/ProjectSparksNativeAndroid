@@ -140,11 +140,15 @@
 
             <!-- Riga: Language + "English" in blu - LEGGERMENTE INGRANDITA -->
             <LinearLayout
+                android:id="@+id/languageRow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="10dp">
+                android:paddingVertical="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground">
 
                 <ImageView
                     android:layout_width="26dp"

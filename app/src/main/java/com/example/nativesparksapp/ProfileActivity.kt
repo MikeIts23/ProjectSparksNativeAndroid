@@ -1,8 +1,10 @@
 package com.example.nativesparksapp
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
@@ -12,6 +14,7 @@ import android.util.Base64
 import android.util.Log
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -21,6 +24,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import java.io.ByteArrayOutputStream
 import java.io.IOException
+import java.util.*
 
 class ProfileActivity : AppCompatActivity() {
 
@@ -40,6 +44,8 @@ class ProfileActivity : AppCompatActivity() {
     private lateinit var imageProfile: ImageView
     private lateinit var iconEditProfile: ImageView
     private lateinit var googleSignInClient: GoogleSignInClient
+    private lateinit var textLanguage: TextView
+    private lateinit var textCurrentLanguage: TextView
 
     private val auth: FirebaseAuth by lazy {
         FirebaseAuth.getInstance()
@@ -47,6 +53,11 @@ class ProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Applica la lingua salvata prima di impostare il layout
+        val currentLanguage = LocaleHelper.getLanguage(this)
+        val context = LocaleHelper.setLocale(this, currentLanguage)
+
         setContentView(R.layout.activity_profile)
 
         // Inizializzazione Google Sign-In
@@ -66,6 +77,19 @@ class ProfileActivity : AppCompatActivity() {
         buttonLogOut = findViewById(R.id.textLogOut)
         imageProfile = findViewById(R.id.imageProfile)
         iconEditProfile = findViewById(R.id.iconEditProfile)
+        textLanguage = findViewById(R.id.textLanguage)
+        textCurrentLanguage = findViewById(R.id.textCurrentLanguage)
+
+        // Imposta i testi localizzati
+        buttonEditProfile.text = getString(R.string.edit_profile_information_text)
+        findViewById<TextView>(R.id.textNotifications).text = getString(R.string.notifications_text)
+        textLanguage.text = getString(R.string.language_text)
+        buttonLogOut.text = getString(R.string.log_out_text)
+        buttonContactUs.text = getString(R.string.contact_us_text)
+        buttonPrivacyPolicy.text = getString(R.string.privacy_policy_text)
+
+        // Imposta il testo della lingua corrente con emoji
+        updateCurrentLanguageText()
 
         loadProfileImage()
 
@@ -91,6 +115,11 @@ class ProfileActivity : AppCompatActivity() {
 
         buttonPrivacyPolicy.setOnClickListener {
             startActivity(Intent(this, PrivacyPolicyActivity::class.java))
+        }
+
+        // Selezione lingua
+        findViewById<LinearLayout>(R.id.languageRow).setOnClickListener {
+            showLanguageSelectionDialog()
         }
 
         // Logout + Google
@@ -120,6 +149,82 @@ class ProfileActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Mostra il popup di selezione lingua
+     */
+    private fun showLanguageSelectionDialog() {
+        val languages = arrayOf(
+            "${LocaleHelper.getLanguageFlag("en")} ${getString(R.string.english)}",
+            "${LocaleHelper.getLanguageFlag("it")} ${getString(R.string.italian)}",
+            "${LocaleHelper.getLanguageFlag("fr")} ${getString(R.string.french)}"
+        )
+
+        val currentLanguage = LocaleHelper.getLanguage(this)
+        val currentIndex = when(currentLanguage) {
+            "en" -> 0
+            "it" -> 1
+            "fr" -> 2
+            else -> 0
+        }
+
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle(getString(R.string.select_language))
+        builder.setSingleChoiceItems(languages, currentIndex) { dialog, which ->
+            val selectedLanguage = when(which) {
+                0 -> "en"
+                1 -> "it"
+                2 -> "fr"
+                else -> "en"
+            }
+
+            if (selectedLanguage != currentLanguage) {
+                // Cambia la lingua
+                val context = LocaleHelper.setLocale(this, selectedLanguage)
+
+                // Aggiorna le risorse
+                updateLocaleResources(context)
+
+                // Aggiorna il testo della lingua corrente
+                updateCurrentLanguageText()
+
+                // Mostra un messaggio di conferma
+                Toast.makeText(this, getString(R.string.language_changed), Toast.LENGTH_SHORT).show()
+            }
+
+            dialog.dismiss()
+        }
+
+        builder.setNegativeButton(getString(R.string.cancel)) { dialog, _ ->
+            dialog.dismiss()
+        }
+
+        val dialog = builder.create()
+        dialog.show()
+    }
+
+    /**
+     * Aggiorna le risorse dell'app con la nuova lingua
+     */
+    private fun updateLocaleResources(context: Context) {
+        // Aggiorna i testi nell'interfaccia utente
+        buttonEditProfile.text = context.getString(R.string.edit_profile_information_text)
+        findViewById<TextView>(R.id.textNotifications).text = context.getString(R.string.notifications_text)
+        textLanguage.text = context.getString(R.string.language_text)
+        buttonLogOut.text = context.getString(R.string.log_out_text)
+        buttonContactUs.text = context.getString(R.string.contact_us_text)
+        buttonPrivacyPolicy.text = context.getString(R.string.privacy_policy_text)
+    }
+
+    /**
+     * Aggiorna il testo della lingua corrente con emoji
+     */
+    private fun updateCurrentLanguageText() {
+        val currentLanguage = LocaleHelper.getLanguage(this)
+        val languageName = LocaleHelper.getLanguageName(this, currentLanguage)
+        val languageFlag = LocaleHelper.getLanguageFlag(currentLanguage)
+        textCurrentLanguage.text = "$languageFlag $languageName"
+    }
+
     private fun openGallery() {
         val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
         startActivityForResult(intent, REQUEST_GALLERY)
@@ -133,9 +238,9 @@ class ProfileActivity : AppCompatActivity() {
                 try {
                     imageProfile.setImageURI(selectedImageUri)
                     saveProfileImage(selectedImageUri)
-                    Toast.makeText(this, "Immagine del profilo aggiornata", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.profile_image_updated), Toast.LENGTH_SHORT).show()
                 } catch (e: Exception) {
-                    Toast.makeText(this, "Errore nel caricamento dell'immagine", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.profile_image_error), Toast.LENGTH_SHORT).show()
                     e.printStackTrace()
                 }
             }
@@ -202,5 +307,11 @@ class ProfileActivity : AppCompatActivity() {
         editProfilePrefs.edit().clear().apply()
 
         Log.d(TAG, "SharedPreferences pulite con successo")
+    }
+
+    // Aggiungi il supporto per l'attachamento al contesto della lingua corrente
+    override fun attachBaseContext(newBase: Context) {
+        val language = LocaleHelper.getLanguage(newBase)
+        super.attachBaseContext(LocaleHelper.setLocale(newBase, language))
     }
 }

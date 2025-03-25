@@ -70,4 +70,21 @@
     <string name="welcome_sparky1">Welcome Sparky</string>
     <string name="errore_di_login1">Errore di login</string>
 
+    <!-- New strings for language selection feature -->
+    <string name="language_selection">Language Selection</string>
+    <string name="select_language">Select language</string>
+    <string name="english">English</string>
+    <string name="italian">Italian</string>
+    <string name="french">French</string>
+    <string name="cancel">Cancel</string>
+    <string name="language_changed">Language changed to English</string>
+    <string name="edit_profile_information_text">Edit profile information</string>
+    <string name="notifications_text">Notifications</string>
+    <string name="language_text">Language</string>
+    <string name="log_out_text">Log out</string>
+    <string name="contact_us_text">Contact us</string>
+    <string name="privacy_policy_text">Privacy policy</string>
+    <string name="profile_image_updated">Profile image updated</string>
+    <string name="profile_image_error">Error loading image</string>
+
 </resources>
