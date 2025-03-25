@@ -7,8 +7,8 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
@@ -23,12 +23,22 @@ class GameLaunchActivity : AppCompatActivity() {
     private val PREFS_NAME = "SparksGamePrefs"
     private val KEY_INSTALLATION_STARTED = "installation_started"
 
+    // Chiave in SharedPreferences per vedere se il form è già compilato
+    private val FORM_KEY = "form_already_filled"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_game)
+        setContentView(R.layout.activity_game)  // Usa il layout con testo evidenziato
 
         val imageHexPlay: ImageView = findViewById(R.id.imageHexPlay)
+        val textLinkForm: TextView = findViewById(R.id.textLinkForm)
 
+        // Click sul testo: se form già compilato → errore, altrimenti apri link e segna come compilato
+        textLinkForm.setOnClickListener {
+            handleFormClick()
+        }
+
+        // Al click su "Play" installa/avvia il gioco
         imageHexPlay.setOnClickListener {
             Log.d(TAG, "Pulsante Play cliccato")
             if (isGameInstalled()) {
@@ -48,8 +58,33 @@ class GameLaunchActivity : AppCompatActivity() {
             }
         }
 
-        // Inizializza la bottom navigation bar moderna
-        BottomNavigationHelper.setupBottomNavigation(this)
+         BottomNavigationHelper.setupBottomNavigation(this)
+    }
+
+    private fun handleFormClick() {
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val alreadyFilled = prefs.getBoolean(FORM_KEY, false)
+        if (alreadyFilled) {
+            android.widget.Toast.makeText(
+                this,
+                "Hai già compilato il form!",
+                android.widget.Toast.LENGTH_SHORT
+            ).show()
+        } else {
+            val formUrl = "https://docs.google.com/forms/d/ecc..." // Sostituisci con il tuo link
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(formUrl))
+            try {
+                startActivity(intent)
+                prefs.edit().putBoolean(FORM_KEY, true).apply()
+            } catch (e: ActivityNotFoundException) {
+                Log.e(TAG, "Nessun browser disponibile o errore di apertura form", e)
+                android.widget.Toast.makeText(
+                    this,
+                    "Impossibile aprire il form, nessun browser disponibile.",
+                    android.widget.Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
     }
 
     private fun isGameInstalled(): Boolean {
@@ -102,7 +137,6 @@ class GameLaunchActivity : AppCompatActivity() {
                 setDataAndType(apkUri, "application/vnd.android.package-archive")
                 flags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK
             }
-
             try {
                 Log.d(TAG, "Avvio intent di installazione")
                 startActivity(intent)
@@ -122,7 +156,6 @@ class GameLaunchActivity : AppCompatActivity() {
             Log.d(TAG, "copyApkFromAssets: APK già esistente, non lo ricopio")
             return apkFile
         }
-
         Log.d(TAG, "copyApkFromAssets: APK non esistente, inizio copia")
         return try {
             assets.open(gameApkName).use { inputStream ->

@@ -86,5 +86,6 @@
     <string name="privacy_policy_text">Privacy policy</string>
     <string name="profile_image_updated">Profile image updated</string>
     <string name="profile_image_error">Error loading image</string>
+    <string name="link_form">!Click here to partecipate in the forms!</string>
 
 </resources>
