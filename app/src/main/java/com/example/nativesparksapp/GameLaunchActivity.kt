@@ -19,7 +19,7 @@ class GameLaunchActivity : AppCompatActivity() {
 
     private val TAG = "GameLaunchActivity"
     private val gamePackageName = "com.UnityTechnologies.com.unity.template.urpblank"
-    private val gameApkName = "SparksAR1.7.apk"
+    private val gameApkName = "SparksARGForm.apk"
     private val PREFS_NAME = "SparksGamePrefs"
     private val KEY_INSTALLATION_STARTED = "installation_started"
 

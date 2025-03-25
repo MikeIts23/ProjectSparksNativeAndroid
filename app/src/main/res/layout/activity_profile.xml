@@ -9,14 +9,14 @@
     tools:context=".ProfileActivity"
     android:background="@drawable/bg_gradient_profile">
 
-    <!-- Contenitore per l’immagine profilo circolare con ombra -->
+    <!-- Contenitore per l'immagine profilo circolare con ombra - LEGGERMENTE INGRANDITO -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardProfileImage"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_marginTop="48dp"
         android:layout_marginBottom="16dp"
-        app:cardCornerRadius="60dp"
+        app:cardCornerRadius="65dp"
         app:cardUseCompatPadding="true"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -51,13 +51,13 @@
         app:layout_constraintBottom_toBottomOf="@+id/cardProfileImage"
         app:layout_constraintRight_toRightOf="@+id/cardProfileImage" />
 
-    <!-- Prima Card: Edit profile, Notifications con switch, Language con testo blu -->
+    <!-- Prima Card: Edit profile, Notifications con switch, Language con testo blu - LEGGERMENTE INGRANDITA -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSettings1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="24dp"
+        android:layout_marginHorizontal="20dp"
         android:clipToOutline="true"
         android:theme="@style/Theme.MaterialComponents"
         app:cardCornerRadius="12dp"
@@ -72,19 +72,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="12dp">
+            android:padding="14dp">
 
-            <!-- Riga: Edit profile information -->
+            <!-- Riga: Edit profile information - LEGGERMENTE INGRANDITA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:src="@android:drawable/ic_menu_edit"
                     android:contentDescription="@string/edit_profile_information" />
 
@@ -92,7 +92,7 @@
                     android:id="@+id/textEditProfile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:text="Edit profile information"
                     android:textColor="@android:color/white"
                     android:textSize="16sp" />
@@ -103,17 +103,17 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Notifications con Switch -->
+            <!-- Riga: Notifications con Switch - LEGGERMENTE INGRANDITA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:src="@android:drawable/ic_menu_view"
                     android:contentDescription="@string/notifications" />
 
@@ -121,7 +121,7 @@
                     android:id="@+id/textNotifications"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_weight="1"
                     android:text="Notifications"
                     android:textColor="@android:color/white"
@@ -138,17 +138,17 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Language + "English" in blu -->
+            <!-- Riga: Language + "English" in blu - LEGGERMENTE INGRANDITA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:src="@android:drawable/ic_menu_set_as"
                     android:contentDescription="@string/language" />
 
@@ -156,7 +156,7 @@
                     android:id="@+id/textLanguage"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_weight="1"
                     android:text="Language"
                     android:textColor="@android:color/white"
@@ -174,13 +174,13 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Seconda Card: Log out, Contact us, Privacy policy -->
+    <!-- Seconda Card: Log out, Contact us, Privacy policy - LEGGERMENTE INGRANDITA -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSettings2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="24dp"
+        android:layout_marginHorizontal="20dp"
         android:clipToOutline="true"
         android:theme="@style/Theme.MaterialComponents"
         app:cardCornerRadius="12dp"
@@ -190,27 +190,27 @@
         app:layout_constraintTop_toBottomOf="@+id/cardSettings1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintVertical_bias="0.0"
-        android:layout_marginBottom="24dp">
+        android:layout_marginBottom="40dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="12dp">
+            android:padding="14dp">
 
-            <!-- Riga: Log out -->
+            <!-- Riga: Log out - LEGGERMENTE INGRANDITA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:src="@android:drawable/ic_menu_revert"
                     android:contentDescription="@string/log_out" />
 
@@ -218,7 +218,7 @@
                     android:id="@+id/textLogOut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:text="Log out"
                     android:textColor="@android:color/white"
                     android:textSize="16sp" />
@@ -229,17 +229,17 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Contact us -->
+            <!-- Riga: Contact us - LEGGERMENTE INGRANDITA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:src="@android:drawable/ic_menu_send"
                     android:contentDescription="@string/contact_us" />
 
@@ -247,7 +247,7 @@
                     android:id="@+id/textContactUs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:text="Contact us"
                     android:textColor="@android:color/white"
                     android:textSize="16sp" />
@@ -258,17 +258,17 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Privacy policy -->
+            <!-- Riga: Privacy policy - LEGGERMENTE INGRANDITA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingVertical="8dp">
+                android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:src="@android:drawable/ic_lock_lock"
                     android:contentDescription="@string/privacy_policy" />
 
@@ -276,7 +276,7 @@
                     android:id="@+id/textPrivacyPolicy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:text="Privacy policy"
                     android:textColor="@android:color/white"
                     android:textSize="16sp" />
