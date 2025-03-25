@@ -134,19 +134,8 @@ class ProfileActivity : AppCompatActivity() {
             }
         }
 
-        // ---- Bottom Navigation ----
-        val btnPlay = findViewById<ImageButton>(R.id.btn_home)
-        val btnProfile = findViewById<ImageButton>(R.id.btn_profile)
-
-        btnPlay.setOnClickListener {
-            val intent = Intent(this, GameLaunchActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
-            startActivity(intent)
-        }
-
-        btnProfile.setOnClickListener {
-            // Siamo già nel profilo, non fare nulla
-        }
+        // Inizializza la bottom navigation bar moderna
+        BottomNavigationHelper.setupBottomNavigation(this)
     }
 
     /**

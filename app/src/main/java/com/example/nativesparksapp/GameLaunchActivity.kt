@@ -48,19 +48,8 @@ class GameLaunchActivity : AppCompatActivity() {
             }
         }
 
-        // ---- Bottom Navigation ----
-        val btnPlay = findViewById<ImageButton>(R.id.btn_home)
-        val btnProfile = findViewById<ImageButton>(R.id.btn_profile)
-
-        btnPlay.setOnClickListener {
-            // Siamo già nella GameLaunchActivity, non fare nulla
-        }
-
-        btnProfile.setOnClickListener {
-            val intent = Intent(this, ProfileActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
-            startActivity(intent)
-        }
+        // Inizializza la bottom navigation bar moderna
+        BottomNavigationHelper.setupBottomNavigation(this)
     }
 
     private fun isGameInstalled(): Boolean {
