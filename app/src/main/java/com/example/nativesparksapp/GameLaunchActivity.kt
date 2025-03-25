@@ -25,12 +25,10 @@ class GameLaunchActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_game)  // <-- Il layout con "imageHexPlay"
+        setContentView(R.layout.activity_game)
 
-        // 1. Recupera la ImageView che funge da pulsante "Play"
         val imageHexPlay: ImageView = findViewById(R.id.imageHexPlay)
 
-        // 2. Cliccando sul poligono
         imageHexPlay.setOnClickListener {
             Log.d(TAG, "Pulsante Play cliccato")
             if (isGameInstalled()) {
@@ -39,35 +37,32 @@ class GameLaunchActivity : AppCompatActivity() {
             } else {
                 Log.d(TAG, "Gioco non installato, verifico se l'installazione è già stata avviata")
                 if (isInstallationStarted()) {
-                    // Se l'installazione è già stata avviata ma non completata
                     Log.d(TAG, "Installazione già avviata in precedenza, mostro prompt")
                     showInstallationPrompt()
                 } else {
-                    // Prima installazione
                     Log.d(TAG, "Prima installazione, avvio il processo di installazione")
                     installGame()
-                    // Segna che l'installazione è stata avviata
                     markInstallationStarted()
                     Log.d(TAG, "Installazione avviata e segnata nelle preferenze")
                 }
             }
         }
 
-        // ---- Aggiunta: gestione Bottom Navigation ----
+        // ---- Bottom Navigation ----
         val btnPlay = findViewById<ImageButton>(R.id.btn_home)
         val btnProfile = findViewById<ImageButton>(R.id.btn_profile)
 
         btnPlay.setOnClickListener {
-            startActivity(Intent(this, GameLaunchActivity::class.java))
+            // Siamo già nella GameLaunchActivity, non fare nulla
         }
 
         btnProfile.setOnClickListener {
-            startActivity(Intent(this, ProfileActivity::class.java))
+            val intent = Intent(this, ProfileActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+            startActivity(intent)
         }
-        // ---------------------------------------------
     }
 
-    // Verifica se il gioco è già installato sul dispositivo
     private fun isGameInstalled(): Boolean {
         return try {
             packageManager.getPackageInfo(gamePackageName, 0)
@@ -79,20 +74,15 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    // Verifica se l'installazione è già stata avviata
     private fun isInstallationStarted(): Boolean {
-        // Modifica: ritorna sempre false per evitare che il messaggio appaia dopo la prima installazione
         Log.d(TAG, "isInstallationStarted: ritorna sempre false per evitare il messaggio")
         return false
     }
 
-    // Segna che l'installazione è stata avviata
     private fun markInstallationStarted() {
-        // Manteniamo questa funzione per compatibilità, ma non è più necessaria
         Log.d(TAG, "markInstallationStarted: funzione mantenuta per compatibilità")
     }
 
-    // Mostra un prompt per chiedere all'utente se vuole completare l'installazione
     private fun showInstallationPrompt() {
         AlertDialog.Builder(this)
             .setTitle("Installazione in corso")
@@ -107,13 +97,11 @@ class GameLaunchActivity : AppCompatActivity() {
             .show()
     }
 
-    // Se il gioco non è installato, copia l'APK da assets e avvia l'installazione (con FileProvider)
     private fun installGame() {
         Log.d(TAG, "installGame: Inizio processo di installazione")
         val apkFile = copyApkFromAssets()
         if (apkFile != null) {
             Log.d(TAG, "APK copiato con successo: ${apkFile.absolutePath}")
-            // Ottieni l'Uri sicuro tramite FileProvider
             val apkUri = FileProvider.getUriForFile(
                 this,
                 "${applicationContext.packageName}.fileprovider",
@@ -139,10 +127,8 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    // Copia il file APK dalla cartella assets in un percorso accessibile al sistema
     private fun copyApkFromAssets(): File? {
         val apkFile = File(getExternalFilesDir(null), gameApkName)
-        // Se l'APK esiste già, non lo ricopiamo
         if (apkFile.exists()) {
             Log.d(TAG, "copyApkFromAssets: APK già esistente, non lo ricopio")
             return apkFile
@@ -164,7 +150,6 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    // Avvia il gioco installato
     private fun launchGame() {
         Log.d(TAG, "launchGame: Tentativo di avvio del gioco")
         val launchIntent = packageManager.getLaunchIntentForPackage(gamePackageName)
@@ -177,7 +162,6 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    // Mostra un semplice AlertDialog in caso di errore
     private fun showErrorDialog(message: String) {
         Log.e(TAG, "showErrorDialog: $message")
         AlertDialog.Builder(this)

@@ -68,5 +68,6 @@
     <string name="name_hint">Name</string>
     <string name="home">Home</string>
     <string name="welcome_sparky1">Welcome Sparky</string>
+    <string name="errore_di_login1">Errore di login</string>
 
 </resources>
