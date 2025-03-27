@@ -14,6 +14,9 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+// (NUOVO) Import per web3j
+import org.web3j.protocol.Web3j
+import org.web3j.protocol.http.HttpService
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -27,6 +30,9 @@ class RegisterActivity : AppCompatActivity() {
 
     private lateinit var imageGoogle: ImageView
     private lateinit var imageApple: ImageView
+
+    // (NUOVO) Pulsante/Immagine per il wallet (va aggiunto a layout se non esiste)
+    private lateinit var imageWallet: ImageView
 
     private var isLoading = false
     private var isPasswordVisible = false
@@ -46,14 +52,20 @@ class RegisterActivity : AppCompatActivity() {
     companion object {
         const val PREFS_USER_ID = "user_prefs"
         const val KEY_LAST_USER_ID = "last_user_id"
+
+        // (NUOVO) Key per indicare se l'utente si è registrato via wallet
+        const val PREFS_NAME = "UserPrefs"
+        const val KEY_REGISTERED_VIA_WALLET = "registered_via_wallet"
     }
+
+    // (NUOVO) Istanza di web3j
+    private lateinit var web3j: Web3j
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
         // Pulisci le SharedPreferences all'avvio della registrazione
-        // per evitare che rimangano dati di utenti precedenti
         clearAllUserPreferences()
 
         // Inizializza i riferimenti
@@ -67,12 +79,17 @@ class RegisterActivity : AppCompatActivity() {
         imageGoogle = findViewById(R.id.imageGoogle)
         imageApple = findViewById(R.id.imageApple)
 
-        // Configura Google Sign-In
+
+        imageWallet = findViewById(R.id.imageWallet)
+
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
+
+
+        web3j = Web3j.build(HttpService("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"))
 
         // Toggle password
         imageTogglePassword.setOnClickListener {
@@ -92,6 +109,11 @@ class RegisterActivity : AppCompatActivity() {
         // Click su icona Apple
         imageApple.setOnClickListener {
             onSignUpWithApple()
+        }
+
+        // (NUOVO) Click su icona/pulsante "Wallet"
+        imageWallet.setOnClickListener {
+            connectWithWallet()
         }
     }
 
@@ -220,6 +242,30 @@ class RegisterActivity : AppCompatActivity() {
         Toast.makeText(this, "Registrazione con Apple (da implementare)", Toast.LENGTH_SHORT).show()
     }
 
+    // (NUOVO) Metodo di connessione al wallet
+    private fun connectWithWallet() {
+        // Qui inserisci la logica di connessione con il wallet:
+        // - WalletConnect
+        // - MetaMask
+        // - Creazione di un account locale con web3j, etc.
+        // Per esempio, recuperi un address e lo salvi
+        val walletAddress = "0xYourWalletAddress"
+
+        // Salva il flag nelle SharedPreferences
+        val sp = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        sp.edit().putBoolean(KEY_REGISTERED_VIA_WALLET, true).apply()
+
+        Toast.makeText(
+            this,
+            "Registrazione tramite Wallet completata. Address: $walletAddress",
+            Toast.LENGTH_SHORT
+        ).show()
+
+        // Vai a GameLaunchActivity
+        startActivity(Intent(this, GameLaunchActivity::class.java))
+        finish()
+    }
+
     private fun setLoading(loading: Boolean) {
         isLoading = loading
         if (loading) {
@@ -248,8 +294,7 @@ class RegisterActivity : AppCompatActivity() {
         val editProfilePrefs = getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
         editProfilePrefs.edit().clear().apply()
 
-        // Pulisci eventuali altre SharedPreferences dell'app
-        // Se ci sono altre SharedPreferences specifiche dell'utente, aggiungerle qui
+        // Altre SharedPreferences se presenti...
 
         Log.d(TAG, "SharedPreferences pulite con successo all'avvio della registrazione")
     }

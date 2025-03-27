@@ -38,6 +38,7 @@ android {
 }
 
 dependencies {
+    implementation ("org.web3j:core:4.8.7")
     implementation ("com.google.android.gms:play-services-auth:20.7.0")
     implementation ("com.google.firebase:firebase-auth:21.3.0")
     implementation ("com.google.firebase:firebase-firestore:24.7.1")

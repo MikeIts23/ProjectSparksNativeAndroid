@@ -287,6 +287,17 @@
                     android:background="@drawable/bg_button_glowing"
                     android:padding="12dp"/>
 
+                <ImageView
+                    android:id="@+id/imageWallet"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_wallet1"
+                android:contentDescription="@string/wallet_login1"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/bg_button_glowing"
+                android:padding="12dp"/>
+
+
                 <!-- Apple -->
                 <ImageView
                     android:id="@+id/imageApple"
