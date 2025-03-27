@@ -12,6 +12,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
+import com.google.firebase.auth.FirebaseAuth
 import java.io.File
 import java.io.FileOutputStream
 
@@ -58,12 +59,20 @@ class GameLaunchActivity : AppCompatActivity() {
             }
         }
 
-         BottomNavigationHelper.setupBottomNavigation(this)
+        BottomNavigationHelper.setupBottomNavigation(this)
     }
 
     private fun handleFormClick() {
         val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        val alreadyFilled = prefs.getBoolean(FORM_KEY, false)
+
+        // Ottieni l'ID dell'utente corrente da Firebase
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        val userId = currentUser?.uid ?: "guest"
+
+        // Usa una chiave specifica per utente
+        val userFormKey = "${FORM_KEY}_$userId"
+
+        val alreadyFilled = prefs.getBoolean(userFormKey, false)
         if (alreadyFilled) {
             android.widget.Toast.makeText(
                 this,
@@ -71,11 +80,12 @@ class GameLaunchActivity : AppCompatActivity() {
                 android.widget.Toast.LENGTH_SHORT
             ).show()
         } else {
-            val formUrl = "https://docs.google.com/forms/d/ecc..." // Sostituisci con il tuo link
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(formUrl))
+            val formUrl = "https://forms.gle/qy5DZt5RMhE37uE36"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(formUrl) )
             try {
                 startActivity(intent)
-                prefs.edit().putBoolean(FORM_KEY, true).apply()
+                // Salva lo stato per questo specifico utente
+                prefs.edit().putBoolean(userFormKey, true).apply()
             } catch (e: ActivityNotFoundException) {
                 Log.e(TAG, "Nessun browser disponibile o errore di apertura form", e)
                 android.widget.Toast.makeText(
