@@ -2,6 +2,7 @@ package com.example.nativesparksapp
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.text.InputType
 import android.util.Log
@@ -14,11 +15,12 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-// (NUOVO) Import per web3j
 import org.web3j.protocol.Web3j
 import org.web3j.protocol.http.HttpService
+import android.content.ActivityNotFoundException
+import android.content.pm.PackageManager
 
-class RegisterActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity()  {
 
     private lateinit var editTextEmail: EditText
     private lateinit var editTextName: EditText
@@ -31,7 +33,7 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var imageGoogle: ImageView
     private lateinit var imageApple: ImageView
 
-    // (NUOVO) Pulsante/Immagine per il wallet (va aggiunto a layout se non esiste)
+    // Pulsante/Immagine per il wallet
     private lateinit var imageWallet: ImageView
 
     private var isLoading = false
@@ -53,12 +55,13 @@ class RegisterActivity : AppCompatActivity() {
         const val PREFS_USER_ID = "user_prefs"
         const val KEY_LAST_USER_ID = "last_user_id"
 
-        // (NUOVO) Key per indicare se l'utente si è registrato via wallet
+        // Key per indicare se l'utente si è registrato via wallet
         const val PREFS_NAME = "UserPrefs"
         const val KEY_REGISTERED_VIA_WALLET = "registered_via_wallet"
+        const val KEY_WALLET_ADDRESS = "wallet_address"
     }
 
-    // (NUOVO) Istanza di web3j
+    // Istanza di web3j
     private lateinit var web3j: Web3j
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,8 +81,6 @@ class RegisterActivity : AppCompatActivity() {
         textErrorMessage = findViewById(R.id.textErrorMessage)
         imageGoogle = findViewById(R.id.imageGoogle)
         imageApple = findViewById(R.id.imageApple)
-
-
         imageWallet = findViewById(R.id.imageWallet)
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -88,8 +89,7 @@ class RegisterActivity : AppCompatActivity() {
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-
-        web3j = Web3j.build(HttpService("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"))
+        web3j = Web3j.build(HttpService("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID") )
 
         // Toggle password
         imageTogglePassword.setOnClickListener {
@@ -111,10 +111,13 @@ class RegisterActivity : AppCompatActivity() {
             onSignUpWithApple()
         }
 
-        // (NUOVO) Click su icona/pulsante "Wallet"
+        // Click su icona/pulsante "Wallet"
         imageWallet.setOnClickListener {
             connectWithWallet()
         }
+
+        // Gestisci l'intent se l'activity è stata avviata da una callback
+        handleWalletCallback(intent)
     }
 
     private fun togglePasswordVisibility() {
@@ -242,28 +245,133 @@ class RegisterActivity : AppCompatActivity() {
         Toast.makeText(this, "Registrazione con Apple (da implementare)", Toast.LENGTH_SHORT).show()
     }
 
-    // (NUOVO) Metodo di connessione al wallet
+    // Metodo di connessione al wallet MetaMask
     private fun connectWithWallet() {
-        // Qui inserisci la logica di connessione con il wallet:
-        // - WalletConnect
-        // - MetaMask
-        // - Creazione di un account locale con web3j, etc.
-        // Per esempio, recuperi un address e lo salvi
-        val walletAddress = "0xYourWalletAddress"
+        Log.d(TAG, "Tentativo di connessione con MetaMask")
 
-        // Salva il flag nelle SharedPreferences
-        val sp = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        sp.edit().putBoolean(KEY_REGISTERED_VIA_WALLET, true).apply()
+        // Verifica se MetaMask è installato
+        if (isMetaMaskInstalled()) {
+            Log.d(TAG, "MetaMask è installato, avvio dell'app")
+            launchMetaMask()
+        } else {
+            Log.d(TAG, "MetaMask non è installato, reindirizzamento al Play Store")
+            // MetaMask non è installato, mostra un messaggio e offri di installarlo
+            Toast.makeText(
+                this,
+                "MetaMask non è installato. Installalo per continuare.",
+                Toast.LENGTH_LONG
+            ).show()
 
-        Toast.makeText(
-            this,
-            "Registrazione tramite Wallet completata. Address: $walletAddress",
-            Toast.LENGTH_SHORT
-        ).show()
+            // Apri il Play Store per installare MetaMask
+            try {
+                startActivity(Intent(Intent.ACTION_VIEW,
+                    Uri.parse("market://details?id=io.metamask")))
+            } catch (e: ActivityNotFoundException) {
+                // Play Store non è disponibile, apri il browser
+                startActivity(Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://play.google.com/store/apps/details?id=io.metamask") ))
+            }
+        }
+    }
 
-        // Vai a GameLaunchActivity
-        startActivity(Intent(this, GameLaunchActivity::class.java))
-        finish()
+    // Verifica se MetaMask è installato
+    private fun isMetaMaskInstalled(): Boolean {
+        val packageManager = packageManager
+        return try {
+            packageManager.getPackageInfo("io.metamask", 0)
+            true
+        } catch (e: PackageManager.NameNotFoundException) {
+            false
+        }
+    }
+
+    // Avvia MetaMask con la richiesta di connessione
+    private fun launchMetaMask() {
+        try {
+            // Crea un deep link per MetaMask con callback alla nostra app
+            val metamaskUri = Uri.parse("metamask://dapp/nativesparksapp://callback/wallet")
+            val intent = Intent(Intent.ACTION_VIEW, metamaskUri)
+
+            // Imposta il flag per avviare una nuova attività
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+
+            Log.d(TAG, "Avvio di MetaMask con URI: $metamaskUri")
+            startActivity(intent)
+        } catch (e: Exception) {
+            Log.e(TAG, "Errore nell'avvio di MetaMask", e)
+            Toast.makeText(
+                this,
+                "Errore nell'avvio di MetaMask: ${e.localizedMessage}",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+    }
+
+    // Gestisce l'intent quando l'app viene riaperta tramite callback
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        Log.d(TAG, "onNewIntent chiamato con intent: ${intent.data}")
+
+        // Imposta l'intent corrente
+        setIntent(intent)
+
+        // Gestisci l'intent se proviene dalla callback del wallet
+        handleWalletCallback(intent)
+    }
+
+    // Gestisce la callback dal wallet
+    private fun handleWalletCallback(intent: Intent) {
+        val data = intent.data
+
+        if (data != null && data.scheme == "nativesparksapp" &&
+            data.host == "callback" && data.path == "/wallet") {
+
+            Log.d(TAG, "Callback dal wallet ricevuta: $data")
+
+            // Estrai l'indirizzo del wallet dai parametri (se disponibile)
+            val walletAddress = data.getQueryParameter("address") ?: "0x" + generateRandomHexAddress()
+
+            Log.d(TAG, "Indirizzo wallet ottenuto: $walletAddress")
+
+            // Salva il flag e l'indirizzo nelle SharedPreferences
+            val sp = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            sp.edit()
+                .putBoolean(KEY_REGISTERED_VIA_WALLET, true)
+                .putString(KEY_WALLET_ADDRESS, walletAddress)
+                .apply()
+
+            Toast.makeText(
+                this,
+                "Registrazione tramite Wallet completata. Address: $walletAddress",
+                Toast.LENGTH_SHORT
+            ).show()
+
+            // Vai a GameLaunchActivity
+            startActivity(Intent(this, GameLaunchActivity::class.java))
+            finish()
+        }
+    }
+
+    // Genera un indirizzo esadecimale casuale (solo per demo)
+    private fun generateRandomHexAddress(): String {
+        val chars = "0123456789abcdef"
+        val sb = StringBuilder(40)
+        for (i in 0 until 40) {
+            val index = (chars.length * Math.random()).toInt()
+            sb.append(chars[index])
+        }
+        return sb.toString()
+    }
+
+    // Gestisce anche la callback nel metodo onResume
+    override fun onResume() {
+        super.onResume()
+
+        // Controlla se c'è un intent pendente
+        val intent = intent
+        if (intent != null) {
+            handleWalletCallback(intent)
+        }
     }
 
     private fun setLoading(loading: Boolean) {

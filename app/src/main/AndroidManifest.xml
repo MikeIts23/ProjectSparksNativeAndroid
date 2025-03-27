@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -27,6 +28,16 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <!-- Intent filter per gestire la callback dal wallet -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="nativesparksapp"
+                    android:host="callback"
+                    android:path="/wallet_login" />
+            </intent-filter>
         </activity>
 
         <provider
@@ -42,7 +53,18 @@
         <!-- RegisterActivity -->
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
+            android:exported="true">
+            <!-- Intent filter per gestire la callback dal wallet -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="nativesparksapp"
+                    android:host="callback"
+                    android:path="/wallet" />
+            </intent-filter>
+        </activity>
 
         <!-- GameLaunchActivity -->
         <activity

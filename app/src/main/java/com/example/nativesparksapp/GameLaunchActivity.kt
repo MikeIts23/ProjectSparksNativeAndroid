@@ -72,7 +72,12 @@ class GameLaunchActivity : AppCompatActivity() {
         // Usa una chiave specifica per utente
         val userFormKey = "${FORM_KEY}_$userId"
 
+        // Verifica se l'utente ha già compilato il form
         val alreadyFilled = prefs.getBoolean(userFormKey, false)
+
+        // Log per debug
+        Log.d(TAG, "Verifica form per utente: $userId, chiave: $userFormKey, già compilato: $alreadyFilled")
+
         if (alreadyFilled) {
             android.widget.Toast.makeText(
                 this,
@@ -84,8 +89,16 @@ class GameLaunchActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(formUrl) )
             try {
                 startActivity(intent)
-                // Salva lo stato per questo specifico utente
-                prefs.edit().putBoolean(userFormKey, true).apply()
+
+                // Salva lo stato per questo specifico utente SOLO dopo che l'utente ha effettivamente
+                // aperto il form, ma non segna automaticamente come compilato
+                // Questo verrà fatto quando l'utente conferma di aver compilato il form
+
+                // Mostra un dialog per confermare la compilazione del form
+                android.os.Handler().postDelayed({
+                    showFormCompletionConfirmation(userFormKey)
+                }, 3000) // Attendi 3 secondi prima di mostrare il dialog
+
             } catch (e: ActivityNotFoundException) {
                 Log.e(TAG, "Nessun browser disponibile o errore di apertura form", e)
                 android.widget.Toast.makeText(
@@ -96,6 +109,34 @@ class GameLaunchActivity : AppCompatActivity() {
             }
         }
     }
+
+    private fun showFormCompletionConfirmation(userFormKey: String) {
+        AlertDialog.Builder(this)
+            .setTitle("Compilazione form")
+            .setMessage("Hai completato la compilazione del form?")
+            .setPositiveButton("Sì") { _, _ ->
+                // Salva lo stato per questo specifico utente
+                val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+                prefs.edit().putBoolean(userFormKey, true).apply()
+                Log.d(TAG, "Form segnato come compilato per chiave: $userFormKey")
+                android.widget.Toast.makeText(
+                    this,
+                    "Grazie per aver compilato il form!",
+                    android.widget.Toast.LENGTH_SHORT
+                ).show()
+            }
+            .setNegativeButton("No") { _, _ ->
+                Log.d(TAG, "Utente ha indicato di non aver compilato il form")
+                android.widget.Toast.makeText(
+                    this,
+                    "Puoi compilare il form in qualsiasi momento.",
+                    android.widget.Toast.LENGTH_SHORT
+                ).show()
+            }
+            .setCancelable(false)
+            .show()
+    }
+
 
     private fun isGameInstalled(): Boolean {
         return try {
