@@ -12,7 +12,7 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Base64
 import android.util.Log
-import android.widget.ImageButton
+import android.view.View // (NUOVO) per GONE/VISIBLE
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -102,6 +102,14 @@ class ProfileActivity : AppCompatActivity() {
         switchNotifications.isChecked = isNotificationsOn
         switchNotifications.setOnCheckedChangeListener { _, isChecked ->
             sharedPrefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, isChecked).apply()
+        }
+
+        // (NUOVO) Controllo se l'utente è registrato via wallet
+        val isRegisteredViaWallet = sharedPrefs.getBoolean("registered_via_wallet", false)
+        if (isRegisteredViaWallet) {
+            // Nascondo completamente il pulsante Edit Profile
+            buttonEditProfile.visibility = View.GONE
+            iconEditProfile.visibility = View.GONE
         }
 
         // Navigazione altre pagine

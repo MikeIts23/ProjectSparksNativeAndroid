@@ -87,5 +87,7 @@
     <string name="profile_image_updated">Profile image updated</string>
     <string name="profile_image_error">Error loading image</string>
     <string name="link_form">!Click here to partecipate in the forms!</string>
+    <string name="wallet_login">Wallet Login</string>
+    <string name="wallet_login1">Wallet Login</string>
 
 </resources>

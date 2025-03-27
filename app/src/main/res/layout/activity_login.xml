@@ -14,16 +14,16 @@
         android:id="@+id/textWelcomeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/welcome_sparky1"
         android:textColor="@android:color/white"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="100dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
-        android:layout_marginBottom="20dp"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Campo Username (Glass) -->
     <EditText
@@ -157,7 +157,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginTop="30dp"/>
 
-    <!-- Scritta "Or continue with" con divider a sinistra e destra -->
     <LinearLayout
         android:id="@+id/layoutContinueWith"
         android:layout_width="0dp"
@@ -197,32 +196,44 @@
         android:id="@+id/layoutSocialIcons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/layoutContinueWith"
-        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutContinueWith">
 
         <ImageView
             android:id="@+id/imageGoogle"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/google"
-            android:contentDescription="@string/google_login2"
             android:layout_marginEnd="40dp"
             android:background="@drawable/bg_button_glowing"
-            android:padding="12dp"/>
+            android:contentDescription="@string/google_login2"
+            android:padding="12dp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:id="@+id/imageWallet"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bg_button_glowing"
+            android:contentDescription="@string/wallet_login"
+            android:padding="12dp"
+            android:src="@drawable/ic_wallet1" />
+
 
         <ImageView
             android:id="@+id/imageApple"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/apple"
-            android:contentDescription="@string/apple_login2"
             android:layout_marginEnd="40dp"
             android:background="@drawable/bg_button_glowing"
-            android:padding="12dp"/>
+            android:contentDescription="@string/apple_login2"
+            android:padding="12dp"
+            android:src="@drawable/apple" />
 
     </LinearLayout>
 
