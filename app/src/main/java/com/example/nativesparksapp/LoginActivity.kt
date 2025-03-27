@@ -14,7 +14,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-// (NUOVO) Import per web3j
 import org.web3j.protocol.Web3j
 import org.web3j.protocol.http.HttpService
 
@@ -33,10 +32,8 @@ class LoginActivity : AppCompatActivity() {
 
     private var isPasswordVisible = false
 
-    // Firebase Auth
     private val auth: FirebaseAuth by lazy { FirebaseAuth.getInstance() }
 
-    // Google Sign In Client
     private lateinit var googleSignInClient: GoogleSignInClient
     private val RC_SIGN_IN = 9001
 
@@ -45,16 +42,11 @@ class LoginActivity : AppCompatActivity() {
     companion object {
         const val PREFS_USER_ID = "user_prefs"
         const val KEY_LAST_USER_ID = "last_user_id"
-
-        // (NUOVO) Key per indicare se l'utente ha fatto login via wallet
         const val PREFS_NAME = "UserPrefs"
         const val KEY_REGISTERED_VIA_WALLET = "registered_via_wallet"
     }
 
-    // (NUOVO) Istanza di web3j
     private lateinit var web3j: Web3j
-
-    // (NUOVO) Pulsante o icona per login con wallet
     private lateinit var imageWallet: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +54,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         clearAllUserPreferences()
 
-        // Associa le view
         editTextEmail = findViewById(R.id.editTextEmail)
         editTextPassword = findViewById(R.id.editTextPassword)
         imageTogglePassword = findViewById(R.id.imageTogglePassword)
@@ -73,19 +64,14 @@ class LoginActivity : AppCompatActivity() {
         imageGoogle = findViewById(R.id.imageGoogle)
         imageApple = findViewById(R.id.imageApple)
         progressLoading = findViewById(R.id.progressLoading)
-
-        // (NUOVO) Pulsante/Immagine per login con wallet
-        // Assicurati di aver aggiunto l’elemento nel layout login con id imageWallet
         imageWallet = findViewById(R.id.imageWallet)
 
-        // Google Sign-In
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        // (NUOVO) Inizializza web3j
         web3j = Web3j.build(HttpService("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"))
 
         imageTogglePassword.setOnClickListener { togglePasswordVisibility() }
@@ -104,7 +90,6 @@ class LoginActivity : AppCompatActivity() {
 
         imageApple.setOnClickListener { signInWithApple() }
 
-        // (NUOVO) Login con wallet
         imageWallet.setOnClickListener { connectWalletLogin() }
     }
 
@@ -164,6 +149,7 @@ class LoginActivity : AppCompatActivity() {
                 val account = task.getResult(ApiException::class.java)!!
                 firebaseAuthWithGoogle(account.idToken!!)
             } catch (e: ApiException) {
+                Log.e(TAG, "Google Sign-In fallito con codice: ${e.statusCode}", e)
                 showError("Google sign in failed: ${e.localizedMessage}")
             }
         }
@@ -191,12 +177,9 @@ class LoginActivity : AppCompatActivity() {
         Toast.makeText(this, "Login con Apple non implementato.", Toast.LENGTH_SHORT).show()
     }
 
-    // (NUOVO) Login con wallet
     private fun connectWalletLogin() {
-        // Qui va la logica di connessione al wallet (MetaMask, WalletConnect, ecc.)
         val address = "0xYourWalletAddressLogin"
 
-        // Salvataggio in SharedPreferences
         val sp = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
         sp.edit().putBoolean(KEY_REGISTERED_VIA_WALLET, true).apply()
 
@@ -206,7 +189,6 @@ class LoginActivity : AppCompatActivity() {
             Toast.LENGTH_SHORT
         ).show()
 
-        // Vai alla schermata principale
         val intent = Intent(this, GameLaunchActivity::class.java)
         startActivity(intent)
         finish()
