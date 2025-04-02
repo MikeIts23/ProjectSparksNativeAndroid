@@ -1,0 +1,7628 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C;
+struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83;
+struct float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D;
+struct float2x2U5BU5D_t961829A52C6FD3736E3E777C349513B29A2A130A;
+struct float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45;
+struct float3x3U5BU5D_t1725FBCD3A5C375FB965A450CF795FB264D589B2;
+struct float4U5BU5D_t2BC471F1A0829AE3002CE1E416600ACD8E8942F8;
+struct float4x4U5BU5D_t9C0CFBA6B20A518553DCDEFDBF29C573DCB0EA1E;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA;
+struct CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275;
+struct CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939;
+struct CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333;
+struct CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA;
+struct CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5;
+struct CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9;
+struct CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6;
+struct CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2;
+struct CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C;
+struct CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082;
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB;
+struct DownloadHandlerScript_t42FD7363F738391BB1EA2552FF18F9FA7C0EE38B;
+struct Exception_t;
+struct Helpers_tF67CB24E1B3D10F6E551B7D1DC5ED497AC3E1DD2;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MethodInfo_t;
+struct NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34;
+struct NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091;
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7;
+struct SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56;
+struct TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForTask_t266A24BCDB621B46321BF771A6963C4A80E2A2F0;
+struct ImplementationHandle_t685BC708FB0C8850A500FC041F737C2710BD78FC;
+struct TilesetLoadFailureDelegate_t6E00F7291205D117E7E5713F818BCEB6A898C0F9;
+struct ImplementationHandle_t6DB0F06B8FD73DFFF426A2403FA766CC495FA2FF;
+struct ImplementationHandle_t0574F6017A832027493D787ABB53662E5C87F7CC;
+struct ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17;
+struct RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28;
+struct ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD;
+struct ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59;
+struct ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253;
+struct U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1;
+struct ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6;
+struct ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78;
+
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral04D9527C40F734E5103F97272E13D55C25FF9976;
+IL2CPP_EXTERN_C String_t* _stringLiteral17C83A6CB4A5881FA5611C38B01730B34CF59F63;
+IL2CPP_EXTERN_C String_t* _stringLiteral1FE6924532DC7FCD0040E7025CC72F35E8CE479D;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F667C41F83D207BC658DBAA0D06B41D6374DE68;
+IL2CPP_EXTERN_C String_t* _stringLiteral3E96C9BB1B953A85290371E8CE7BB3F3ABB307CC;
+IL2CPP_EXTERN_C String_t* _stringLiteral44E4A9584E01769633DAADDD47AF1BA0808DA4B0;
+IL2CPP_EXTERN_C String_t* _stringLiteral48E8AB7247D551A29855167A89CC4504D9A5C00B;
+IL2CPP_EXTERN_C String_t* _stringLiteral5642CA1AC4A79EA83539EBB6D8B5E1410413E219;
+IL2CPP_EXTERN_C String_t* _stringLiteral73C721D516B427AE1E0C015A39A52A3BEFE750F5;
+IL2CPP_EXTERN_C String_t* _stringLiteral829DC1971526D3C94F891F7B213DCA5240D6DFD6;
+IL2CPP_EXTERN_C String_t* _stringLiteral862F749F7B5B6DBD89A8EA5A639585899358F536;
+IL2CPP_EXTERN_C String_t* _stringLiteralCF729C57E5798A1654FC4CED91836C8D90CF26A8;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralE1DBDB384B259ED9C428AF6E76150470CC351131;
+IL2CPP_EXTERN_C String_t* _stringLiteralE292E7EC01F90A3AB953156316FE9F883ADE97B6;
+IL2CPP_EXTERN_C String_t* _stringLiteralE39D6C3E2AC62EEC095EEED95712B6A109538C69;
+IL2CPP_EXTERN_C String_t* _stringLiteralE640370E6F848CCBD0B7F395A21EFDAF2A015153;
+IL2CPP_EXTERN_C String_t* _stringLiteralF4905CFD7826176D948F7022896CEB728F03244A;
+IL2CPP_EXTERN_C String_t* _stringLiteralF9D47C21A07F5A38AB37F4D9804A2238D260235E;
+IL2CPP_EXTERN_C String_t* _stringLiteralFDAE1EDD467260256BE13F5103F412F9C293681D;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWebMapServiceRasterOverlay_AddToTileset_m8536A1B6442E5F55E21D907844A475C36664B2CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWebMapServiceRasterOverlay_RemoveFromTileset_m4363EE36DD61D1399C010730170646DDDCCDF097_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWebMapTileServiceRasterOverlay_AddToTileset_m5977A73B866B0ED22BAF26054EC928AB320E31CC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m152CB5F9CBE4A14958DF0F12842A83B2E5966868_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight_mBD814A88230A66A8651170CD363EE449BB144C12_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWgs84Ellipsoid_GeodeticSurfaceNormal_m2A8AD10F5660C33A7CF43469CA09726F70E984B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWgs84Ellipsoid_GetRadii_m10F8E0E42E21410101AB3F22EDFD1426645C43DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed_m6998B8AC075149178533D1C516FA95F8AA04EEA7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CesiumWgs84Ellipsoid_ScaleToGeodeticSurface_m08B146D48F8F71E0166878912AD2CD073D212C57_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeDownloadHandler_ReceiveDataNative_mE2D779C1623184305ABC205471ADFE68142C8FBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddBooleanPropertyTableProperty_m02DD313A5C382564FEDCC72E836DE3FD56E8D3EE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddDoublePropertyTableProperty_m8B1DE4E7B0047BA689C58E52B55ADA4A783D846B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddFeatureIdAttribute_mA040136A3904BB5234CD6DB1A5ABACE0B3C3551C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddFeatureIdTexture_m80C9EEEABD9A9325E6287B1BA61DC11ACAD530E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddFixedLengthArrayPropertyTableProperty_m40208910C1B1B9748A43B07ED5337CC9708CF853_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddIntPropertyTableProperty_m2131FB09AFB66EB525BC69E0130891F88859DDB6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddMat2PropertyTableProperty_m6CDE1D94B5A927D3171FDE1DF2548E4E8187772A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddMat3PropertyTableProperty_m846C4173707901C661590C8CBBFF4236BEB735C4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddMat4PropertyTableProperty_m58B8295E2198D8E1FDD72DC8D75317D2A476306F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddStringPropertyTableProperty_m5599C740796F31244E5BBE41B9962C892BA97BD7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddVariableLengthArrayPropertyTableProperty_m4357F273967F6A35AEB693A63B023E4B7E1757A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddVec2PropertyTableProperty_mD3A3722CA49A6F582CB138B0DCE6EE974B2D132A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddVec3PropertyTableProperty_m8BF5A6FBE22847A664AA90A7D33CD8540442993F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestGltfModel_AddVec4PropertyTableProperty_m09A1B343E698D1132E0CF35FF96417BF3A3C0563_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestReinterop_CallThrowAnExceptionFromCppAndCatchIt_m5C5A195386F98462D8501199E6918ABF1ABDDCB3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt_m20EB1998656F4FE4B0583727F74A8B068111C7FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestReinterop_ThrowAnException_m43AB0F9C699C721097405EC3D1F826B50942C34F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestReinterop_ThrowCppStdException_mA3E813441A2203FFE3897CBB701D53E727B3A9CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TestReinterop_ThrowOtherCppExceptionType_m13FDB96F7656C81A6CAF5FEFD029C45380DAA95C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetEnumeratorU3Ed__2_System_Collections_IEnumerator_Reset_mE8E016962F281593E81FBD2CD898B99EC0D7E49F_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83;
+struct float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D;
+struct float2x2U5BU5D_t961829A52C6FD3736E3E777C349513B29A2A130A;
+struct float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45;
+struct float3x3U5BU5D_t1725FBCD3A5C375FB965A450CF795FB264D589B2;
+struct float4U5BU5D_t2BC471F1A0829AE3002CE1E416600ACD8E8942F8;
+struct float4x4U5BU5D_t9C0CFBA6B20A518553DCDEFDBF29C573DCB0EA1E;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tABED83009F91ED54BEEF6519F63DD0FA13067F67  : public RuntimeObject
+{
+};
+struct CesiumWgs84Ellipsoid_t076C1F2DCBA3A70489523831F9696B0465E7FABC  : public RuntimeObject
+{
+};
+struct CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9  : public RuntimeObject
+{
+};
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617  : public RuntimeObject
+{
+};
+struct Helpers_tF67CB24E1B3D10F6E551B7D1DC5ED497AC3E1DD2  : public RuntimeObject
+{
+};
+struct NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34  : public RuntimeObject
+{
+	Func_2_tACBF5A1656250800CE861707354491F0611F6624* ____callback;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56  : public RuntimeObject
+{
+	ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ____implementation;
+};
+struct TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC  : public RuntimeObject
+{
+};
+struct UnityLifetime_tA6BD8D9A89A5E6F0A1CB4F2530D94249A8651CBA  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* ___U3CU3E4__this;
+	RuntimeObject* ___U3CsentinelU3E5__2;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	uint16_t ___m_value;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForTask_t266A24BCDB621B46321BF771A6963C4A80E2A2F0  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
+{
+	RuntimeObject* ____task;
+};
+struct double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 
+{
+	double ___x;
+	double ___y;
+	double ___z;
+};
+struct double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 
+{
+	double ___x;
+	double ___y;
+	double ___z;
+	double ___w;
+};
+struct float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA 
+{
+	float ___x;
+	float ___y;
+};
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D5511_tC4E49106B202DE9DBB1041B4E194DAE7BDF804A1 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D5511_tC4E49106B202DE9DBB1041B4E194DAE7BDF804A1__padding[5511];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D9540_t612BACEC884D139EC7B337C1B7A4F7CC5B5EF9F2 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D9540_t612BACEC884D139EC7B337C1B7A4F7CC5B5EF9F2__padding[9540];
+	};
+};
+#pragma pack(pop, tp)
+struct Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8 
+{
+	bool ___hasValue;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___value;
+};
+struct CesiumDataSource_t49641274046BCFA4F280D8E94258E4628A32216E 
+{
+	int32_t ___value__;
+};
+struct CesiumFeatureIdAttributeStatus_t0848C5FDF53578682625D5C7A9B6AB3B6F8B3692 
+{
+	int32_t ___value__;
+};
+struct CesiumFeatureIdSetType_tE7FC47C4DE865DA7D45833125D61C504412C4AA3 
+{
+	int32_t ___value__;
+};
+struct CesiumFeatureIdTextureStatus_tBA3C8DE4E737FD6854E8506A0120319733548C84 
+{
+	int32_t ___value__;
+};
+struct CesiumMetadataComponentType_t2FC5CC7059A72694C57ED2376CDE4115DE6A725B 
+{
+	int32_t ___value__;
+};
+struct CesiumMetadataType_tDDC33C0AF968C0EECFB14CA55357A96E7CC18A89 
+{
+	int32_t ___value__;
+};
+struct CesiumPropertyTablePropertyStatus_tD73BD88C73FD7D9C4397300D6BC1C7436DB9D716 
+{
+	int32_t ___value__;
+};
+struct CesiumWebMapTileServiceRasterOverlayProjection_t134E62EC9EB9DA5F0ACF1D05398E0D2CE86CF8CF 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7  : public CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9
+{
+	intptr_t ___handle;
+	int32_t ____state;
+	bool ____ownsHandle;
+	bool ____fullyInitialized;
+};
+struct double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 
+{
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___c0;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___c1;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___c2;
+};
+struct double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C 
+{
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c0;
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c1;
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c2;
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c3;
+};
+struct float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D 
+{
+	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___c0;
+	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___c1;
+};
+struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c1;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c2;
+};
+struct float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c0;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c1;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c2;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c3;
+};
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value;
+};
+struct CesiumFeatureIdSet_tFE60AB2EC396EEFA04E0FF400575D9908B1271BD  : public RuntimeObject
+{
+	int32_t ___U3CtypeU3Ek__BackingField;
+	String_t* ___U3ClabelU3Ek__BackingField;
+	int64_t ___U3CfeatureCountU3Ek__BackingField;
+	int64_t ___U3CnullFeatureIdU3Ek__BackingField;
+	int64_t ___U3CpropertyTableIndexU3Ek__BackingField;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____indices;
+};
+struct CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD 
+{
+	int32_t ___type;
+	int32_t ___componentType;
+	bool ___isArray;
+};
+struct CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD_marshaled_pinvoke
+{
+	int32_t ___type;
+	int32_t ___componentType;
+	int32_t ___isArray;
+};
+struct CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD_marshaled_com
+{
+	int32_t ___type;
+	int32_t ___componentType;
+	int32_t ___isArray;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct DownloadHandlerScript_t42FD7363F738391BB1EA2552FF18F9FA7C0EE38B  : public DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB
+{
+};
+struct DownloadHandlerScript_t42FD7363F738391BB1EA2552FF18F9FA7C0EE38B_marshaled_pinvoke : public DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke
+{
+};
+struct DownloadHandlerScript_t42FD7363F738391BB1EA2552FF18F9FA7C0EE38B_marshaled_com : public DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629  : public SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Func_2_tACBF5A1656250800CE861707354491F0611F6624  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275  : public CesiumFeatureIdSet_tFE60AB2EC396EEFA04E0FF400575D9908B1271BD
+{
+	int32_t ___U3CstatusU3Ek__BackingField;
+	ImplementationHandle_t6DB0F06B8FD73DFFF426A2403FA766CC495FA2FF* ____implementation;
+};
+struct CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939  : public CesiumFeatureIdSet_tFE60AB2EC396EEFA04E0FF400575D9908B1271BD
+{
+	int32_t ___U3CstatusU3Ek__BackingField;
+	ImplementationHandle_t0574F6017A832027493D787ABB53662E5C87F7CC* ____implementation;
+};
+struct CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9  : public RuntimeObject
+{
+	int32_t ___U3CstatusU3Ek__BackingField;
+	CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD ___U3CvalueTypeU3Ek__BackingField;
+	int64_t ___U3CsizeU3Ek__BackingField;
+	int64_t ___U3CarraySizeU3Ek__BackingField;
+	bool ___U3CisNormalizedU3Ek__BackingField;
+	CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___U3CoffsetU3Ek__BackingField;
+	CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___U3CscaleU3Ek__BackingField;
+	CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___U3CminU3Ek__BackingField;
+	CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___U3CmaxU3Ek__BackingField;
+	CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___U3CnoDataU3Ek__BackingField;
+	CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___U3CdefaultValueU3Ek__BackingField;
+	ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ____implementation;
+};
+struct NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091  : public DownloadHandlerScript_t42FD7363F738391BB1EA2552FF18F9FA7C0EE38B
+{
+	ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* ____implementation;
+};
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+struct ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+struct ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+struct ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+struct ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78  : public SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* ___OnTileGameObjectCreated;
+	bool ____showCreditsOnScreen;
+	int32_t ____tilesetSource;
+	String_t* ____url;
+	int64_t ____ionAssetID;
+	String_t* ____ionAccessToken;
+	CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* ____ionServer;
+	float ____maximumScreenSpaceError;
+	bool ____preloadAncestors;
+	bool ____preloadSiblings;
+	bool ____forbidHoles;
+	uint32_t ____maximumSimultaneousTileLoads;
+	int64_t ____maximumCachedBytes;
+	uint32_t ____loadingDescendantLimit;
+	bool ____enableFrustumCulling;
+	bool ____enableFogCulling;
+	bool ____enforceCulledScreenSpaceError;
+	float ____culledScreenSpaceError;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ____opaqueMaterial;
+	bool ____generateSmoothNormals;
+	CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* ____pointCloudShading;
+	bool ____suspendUpdate;
+	bool ____previousSuspendUpdate;
+	bool ____showTilesInHierarchy;
+	bool ____updateInEditor;
+	bool ____logSelectionStats;
+	bool ____createPhysicsMeshes;
+	ImplementationHandle_t685BC708FB0C8850A500FC041F737C2710BD78FC* ____implementation;
+};
+struct CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ____materialKey;
+	bool ____showCreditsOnScreen;
+	float ____maximumScreenSpaceError;
+	int32_t ____maximumTextureSize;
+	int32_t ____maximumSimultaneousTileLoads;
+	int64_t ____subTileCacheBytes;
+};
+struct CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2  : public CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6
+{
+	String_t* ____url;
+	bool ____specifyZoomLevels;
+	int32_t ____minimumLevel;
+	int32_t ____maximumLevel;
+	ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD* ____implementation;
+};
+struct CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C  : public CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6
+{
+	String_t* ____baseUrl;
+	String_t* ____layers;
+	int32_t ____tileWidth;
+	int32_t ____tileHeight;
+	int32_t ____minimumLevel;
+	int32_t ____maximumLevel;
+	ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* ____implementation;
+};
+struct CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082  : public CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6
+{
+	String_t* ____baseUrl;
+	String_t* ____layer;
+	String_t* ____style;
+	String_t* ____format;
+	String_t* ____tileMatrixSetID;
+	String_t* ____tileMatrixSetLabelPrefix;
+	bool ____specifyTileMatrixSetLabels;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____tileMatrixSetLabels;
+	int32_t ____projection;
+	bool ____specifyTilingScheme;
+	int32_t ____rootTilesX;
+	int32_t ____rootTilesY;
+	double ____rectangleWest;
+	double ____rectangleSouth;
+	double ____rectangleEast;
+	double ____rectangleNorth;
+	bool ____specifyZoomLevels;
+	int32_t ____minimumLevel;
+	int32_t ____maximumLevel;
+	int32_t ____tileWidth;
+	int32_t ____tileHeight;
+	ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* ____implementation;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tABED83009F91ED54BEEF6519F63DD0FA13067F67_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D9540_t612BACEC884D139EC7B337C1B7A4F7CC5B5EF9F2 ___2179D451EB8D443DA42C52456B8E0C44FB892716A8F15D8B61E224884B622AD8;
+	__StaticArrayInitTypeSizeU3D5511_tC4E49106B202DE9DBB1041B4E194DAE7BDF804A1 ___CEB0B62F867C3D1F0B2E1782DDF3B68407A2FCABAADBA55D70BDA0A07793E1FE;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields
+{
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___zero;
+};
+struct double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5_StaticFields
+{
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___zero;
+};
+struct float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_StaticFields
+{
+	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___zero;
+};
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_StaticFields
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___zero;
+};
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___zero;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0_StaticFields
+{
+	double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___identity;
+	double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___zero;
+};
+struct double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C_StaticFields
+{
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___identity;
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___zero;
+};
+struct float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D_StaticFields
+{
+	float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D ___identity;
+	float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D ___zero;
+};
+struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79_StaticFields
+{
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___identity;
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___zero;
+};
+struct float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_StaticFields
+{
+	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___identity;
+	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___zero;
+};
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___identity;
+};
+struct Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA_StaticFields
+{
+	TilesetLoadFailureDelegate_t6E00F7291205D117E7E5713F818BCEB6A898C0F9* ___OnCesium3DTilesetLoadFailure;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnSetShowCreditsOnScreen;
+};
+struct CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6_StaticFields
+{
+	RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* ___OnCesiumRasterOverlayLoadFailure;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint16_t m_Items[1];
+
+	inline uint16_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint16_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint16_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint16_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint16_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint16_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA m_Items[1];
+
+	inline float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4  : public RuntimeArray
+{
+	ALIGN_FIELD (8) bool m_Items[1];
+
+	inline bool GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline bool* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, bool value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE  : public RuntimeArray
+{
+	ALIGN_FIELD (8) double m_Items[1];
+
+	inline double GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline double* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, double value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline double GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline double* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E m_Items[1];
+
+	inline float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct float4U5BU5D_t2BC471F1A0829AE3002CE1E416600ACD8E8942F8  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float4_t89D9A294E7A79BD81BFBDD18654508532958555E m_Items[1];
+
+	inline float4_t89D9A294E7A79BD81BFBDD18654508532958555E GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float4_t89D9A294E7A79BD81BFBDD18654508532958555E* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float4_t89D9A294E7A79BD81BFBDD18654508532958555E value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float4_t89D9A294E7A79BD81BFBDD18654508532958555E GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float4_t89D9A294E7A79BD81BFBDD18654508532958555E* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float4_t89D9A294E7A79BD81BFBDD18654508532958555E value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct float2x2U5BU5D_t961829A52C6FD3736E3E777C349513B29A2A130A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D m_Items[1];
+
+	inline float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct float3x3U5BU5D_t1725FBCD3A5C375FB965A450CF795FB264D589B2  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 m_Items[1];
+
+	inline float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct float4x4U5BU5D_t9C0CFBA6B20A518553DCDEFDBF29C573DCB0EA1E  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 m_Items[1];
+
+	inline float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E_gshared (Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54_gshared (double ___0_min, double ___1_max, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89 (SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629* __this, bool ___0_ownsHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E (RuntimeObject* ___0_o, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_CreateImplementation_mA476AD27477286AD369C62D0E1FC2E48F5D0EEBF (intptr_t ___0_thiz, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, intptr_t ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_DestroyImplementation_m786E9D4A980EA7A9695BC389D40EFBB2FAD4FD44 (intptr_t ___0_implementation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742 (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_AddToTileset_m27765F2F68518A659993D3DC722B6F235FDD7FED (intptr_t ___0_thiz, ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD (intptr_t ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_RemoveFromTileset_mF9EC9C93C71B1672FAABAD624458FA18A96CC4B9 (intptr_t ___0_thiz, ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m0DA922A43F88A0C9384EB9E2C0C697FDE330A999 (ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* __this, CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* ___0_managed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3 (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DisposeImplementation_m72AA46F7579DEB9E4D164CDE6EDCC54A0D75DC4A (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay__ctor_mBF08B99B21CEFD240A84AE711451E8270BCE8FA1 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_CreateImplementation_m4C0860193FA4213D82AEB4121662E7253C2B2CB2 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922 (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, bool* ___0_success, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_CreateImplementation_m8C54A643D5AA0555D0E3037E3A975C1C9C5DDD54 (intptr_t ___0_thiz, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_DestroyImplementation_mB748C8C3EB397CE220E9FBBE9A2B4896772D7829 (intptr_t ___0_implementation, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline (double ___0_value, double ___1_min, double ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_AddToTileset_m4D7AC1811F1F6511D5D5E6F4A9819271030CCE5B (intptr_t ___0_thiz, ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m4A5A13F35C7E815D259D85304C989F6E4694636B (intptr_t ___0_thiz, ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m3100D4BD0B161215C111B6C85DDC808ED627E43B (ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* __this, CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* ___0_managed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DisposeImplementation_mE7FAFCC3F4399BA1E31C7856F473A29299FF21B0 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_CreateImplementation_m8F6FA834CC3E46B0CEAE729480B5A9080D5ABB84 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CreateImplementation_mAEDC7F6B28E98CDB6FAF1BADA8AABF83BA6EEE2B (intptr_t ___0_thiz, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_DestroyImplementation_m170BD120139AF1F443AA8FC87D94E352D4492DB4 (intptr_t ___0_implementation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GetRadii_mD5D7631BE73AE415374396801FDE4AD9665C79B6 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_pReturnValue, intptr_t* ___1_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumWgs84Ellipsoid_GetRadii_m10F8E0E42E21410101AB3F22EDFD1426645C43DD (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_cmax_mD1CA685960C6D3E73AE61E158449D1F136B2D8D9_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_cmin_mD62CF2BF7B13402E46E966F3BED814004E5D8C65_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_ScaleToGeodeticSurface_mFA5CB26136D16A1AB2C7344DA180C3699B4A47AD (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_earthCenteredEarthFixed, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) ;
+inline void Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E (Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4, const RuntimeMethod*))Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E_gshared)(__this, ___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GeodeticSurfaceNormal_m617A0680E0C9E81E673D55FFA14005E7DCADEF86 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_earthCenteredEarthFixed, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed_m97482FBB5CBCFB4532D92CC28A6D6ED3FCA1BAD3 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_longitudeLatitudeHeight, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight_mA472BCBF817763B8C4D1D46AEB8806F92A47E085 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_earthCenteredEarthFixed, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m07B970AC703BB29D300B6C1873ED2BC975E76143 (ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* __this, NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* ___0_managed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_DisposeImplementation_m618A868DEE8729DBA9D368FBE03466DE4A803EAA (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerScript__ctor_m67B5897E7D6354051F54E8EB70ACA62BA0EF264A (DownloadHandlerScript_t42FD7363F738391BB1EA2552FF18F9FA7C0EE38B* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_preallocatedBuffer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_CreateImplementation_mC4E7F430EFD43A3C5F06DF67865DEF647C7A64CC (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D (void* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeDownloadHandler_ReceiveDataNative_mE2D779C1623184305ABC205471ADFE68142C8FBF (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, intptr_t ___0_data, int32_t ___1_dataLength, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_ReceiveDataNative_m5FB8353A806B71A272C061B0DCB4ACC80D7424BB (intptr_t ___0_thiz, ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* ___1_implementation, intptr_t ___2_data, int32_t ___3_dataLength, intptr_t* ___4_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_CreateImplementation_mAF076FB4B78BE6C80021D63D06E57F3F133E4FBE (intptr_t ___0_thiz, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_DestroyImplementation_m4E09345C0F5E07FBCE8E06E532695440C45BD9B5 (intptr_t ___0_implementation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mDFFF0E1E9EB43A0ABC3B4D5F65AB73B067536538 (ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* __this, TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* ___0_managed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_DisposeImplementation_m0A398DFD226AFE356B7F4D8C0BFED7AFEFEB0370 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_CreateImplementation_mB6FF78D2086590467E334EA7F45F119ECC3635C7 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdAttribute_mE5964A3BEEFE2E9238B4B26C1788B01E8A9A584F (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_featureIds, int64_t ___3_featureCount, intptr_t* ___4_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdTexture_m686BB874857013B7789F9BA91F5E737325BEE021 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_featureIds, int64_t ___3_featureCount, intptr_t ___4_uvs, intptr_t* ___5_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddBooleanPropertyTableProperty_m2730195871E101AF3C3F0C3FBB24384ADCC678C9 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddIntPropertyTableProperty_m1EFDCDE52056E6C1F34FCEC47E4601D359ABBD38 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, uint8_t ___3_normalized, intptr_t* ___4_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddDoublePropertyTableProperty_mC3FEF4227669332D3BDB470B0CCAC5745B9E266F (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec2PropertyTableProperty_mFCC922D6D28309969C500768E40EA8DE96A10C48 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec3PropertyTableProperty_mF07E5EDBBCFB6EA79C433D3777DD155927CCBD6F (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec4PropertyTableProperty_mA7D9CF022AD347A1F64A14D760A4395CCF57BFC4 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat2PropertyTableProperty_m6EFFF00EAE3C3CD81720AB15AC650CA394B670DC (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat3PropertyTableProperty_m358AA97739BDEF7A63400125113691B82C231333 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat4PropertyTableProperty_m0D812CD15789CBDF82A05C2823EFF0F2AAC7E4F5 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddStringPropertyTableProperty_mE6290E9260588AFE61F73C620AB3C34D99159366 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFixedLengthArrayPropertyTableProperty_mC7CE17D6E139D8E45AB0BFA29ADCED63F5C8A5D6 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, int64_t ___3_count, intptr_t* ___4_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVariableLengthArrayPropertyTableProperty_mF72A859E3076AAFBB9DD5B378CE0F535845A94C3 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t ___3_offsets, intptr_t* ___4_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_CreateImplementation_mB49ACCBB645D1F7BA8BD104BD70F0D7DF987E441 (intptr_t ___0_thiz, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_DestroyImplementation_m3A99602024D8AC366BC3EDF7C39514E63673D0C9 (intptr_t ___0_implementation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndCatchIt_mC9387AD7588A3DE309CFC5B3896B22954A3568F3 (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt_m83E2E83D63748B3785C45850A790C096B62D9283 (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_ThrowCppStdException_mF33985029223A504FB42A6567F195928A1237BA9 (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_ThrowOtherCppExceptionType_m77276FECBFF95B1411D76CA2796573B18428DF3D (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4x4__ctor_mDB1C9BED251AFC0CD16CA1D52545C5A1DAA6878F_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double ___0_m00, double ___1_m01, double ___2_m02, double ___3_m03, double ___4_m10, double ___5_m11, double ___6_m12, double ___7_m13, double ___8_m20, double ___9_m21, double ___10_m22, double ___11_m23, double ___12_m30, double ___13_m31, double ___14_m32, double ___15_m33, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Helpers_FromMathematics_m480F9CECA74BED4970A73DA27BA2D8126C596BB8 (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4__ctor_m6523044D700F15EC6BCD183633A329EE56AA8C99 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_column0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_column1, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___2_column2, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___3_column3, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3x3__ctor_mBEE4C5D1CCF08BD6C8E94DD819F144FBC690E888_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* __this, double ___0_m00, double ___1_m01, double ___2_m02, double ___3_m10, double ___4_m11, double ___5_m12, double ___6_m20, double ___7_m21, double ___8_m22, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* __this, float ___0_m00, float ___1_m01, float ___2_m02, float ___3_m10, float ___4_m11, float ___5_m12, float ___6_m20, float ___7_m21, float ___8_m22, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Explicit_mC39F75EB64FD16249FAD573FD8B6ADB14F132D78_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_c0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_c1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_c2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 math_cross_mD4DDFE34A1DA411148681014E59AEDC0655C0973_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 float3x3_op_Multiply_mF3B9F7F790D87EFB7EBC38F26ABDC9305816484A_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_lhs, float ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_quaternion_mE9DBDC1E38A93968B447FF4D365823A7889B0749_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_m, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3x3__ctor_m0BF27C1E4D2C1C4965521A8B3A919CF9DB11B305_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_c0, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_c1, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_c2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers_MatrixToRotationAndScale_mA7BA8F572035E772AB8B038C797831E630BDAC46 (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_matrix, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_rotation, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___2_scale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41 (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_q, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Helpers_FromMathematics_m8CB96E41C8AFC98D3FBDBD51283C7A77D4655409 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers_MatrixToInaccurateRotationAndScale_m47E8DEAED109886AABCC62F11B18860885F58EC6 (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_matrix, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_scale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float3x3__ctor_mF94488DFF7867CFC89648E024FA89A19F23E2FAE (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_q, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 double3x3_op_Implicit_mDE9DBCF7F737C1128250D072AF94867314B7FAA1_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 math_mul_m8006A1F722590AD2791FB2B506A1A74A0816494F_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_a, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4x4__ctor_mC28DA9877244770A1E61E41A50DF95F405AFD34B_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_c0, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_c1, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___2_c2, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___3_c3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetEnumeratorU3Ed__2__ctor_m33BA9725115B0FB505A76B96DF2E1D9827F32492 (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+inline RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Func_2_tACBF5A1656250800CE861707354491F0611F6624*, RuntimeObject*, const RuntimeMethod*))Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline)(__this, ___0_arg, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50 (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* __this, const RuntimeMethod* method) ;
+inline void Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54 (double ___0_min, double ___1_max, const RuntimeMethod* method)
+{
+	((  void (*) (double, double, const RuntimeMethod*))Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54_gshared)(___0_min, ___1_max, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_max_m8830F8721EFC73BCF991CD497115A103B86BF3BE_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_min_m29A6A5FB36524D911D13DDB4866FF005C7BF00D5_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double ___0_x, double ___1_y, double ___2_z, double ___3_w, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline (double ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mD7BFFAB3D7057D71DB7B2F5A50788D197E1AA49B_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_get_yzx_mFEFD36EE9E6E6470EDDCF595DEAAB85FCBAC2795_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_mFF3B33CAB54AB767C1B7927B97658C307150BCA9_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120 (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_m, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3x3__ctor_m4A89254CD6C32BCF5BCEBC60A4E712E2360DD972_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 math_double3x3_mDEDFD3D5E0FAD4EC0550DE55A86A7D199B3CC61B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_c0, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_c1, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_c2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline (double ___0_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_m246C72AEDE9AC7E52CF7DF7FEE065D66EF96AB8A_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) ;
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_CreateImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_DestroyImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_AddToTileset(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_RemoveFromTileset(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CreateImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_DestroyImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_AddToTileset(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GetRadii(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C uint8_t CDECL DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_ScaleToGeodeticSurface(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GeodeticSurfaceNormal(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_NativeDownloadHandler_CreateImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_NativeDownloadHandler_DestroyImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C uint8_t CDECL DotNet_CesiumForUnity_NativeDownloadHandler_ReceiveDataNative(intptr_t, void*, intptr_t, int32_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_CreateImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_TestGltfModel_DestroyImplementation(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdAttribute(intptr_t, void*, intptr_t, int64_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdTexture(intptr_t, void*, intptr_t, int64_t, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddBooleanPropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddIntPropertyTableProperty(intptr_t, void*, intptr_t, uint8_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddDoublePropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddVec2PropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddVec3PropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddVec4PropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddMat2PropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddMat3PropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddMat4PropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddStringPropertyTableProperty(intptr_t, void*, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddFixedLengthArrayPropertyTableProperty(intptr_t, void*, intptr_t, int64_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C intptr_t CDECL DotNet_CesiumForUnity_TestGltfModel_AddVariableLengthArrayPropertyTableProperty(intptr_t, void*, intptr_t, intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C uint8_t CDECL DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndCatchIt(intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C uint8_t CDECL DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt(intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C uint8_t CDECL DotNet_CesiumForUnity_TestReinterop_ThrowCppStdException(intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+IL2CPP_EXTERN_C uint8_t CDECL DotNet_CesiumForUnity_TestReinterop_ThrowOtherCppExceptionType(intptr_t, intptr_t*);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29184
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m639BE448B6FF7F0ACD915173645BA90A04CB3FA0 (ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD* __this, CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* ___0_managed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumTileMapServiceRasterOverlay-generated.cs:541>
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumTileMapServiceRasterOverlay-generated.cs:543>
+		CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* L_0 = ___0_managed;
+		intptr_t L_1;
+		L_1 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_0, NULL);
+		intptr_t L_2;
+		L_2 = CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_CreateImplementation_mA476AD27477286AD369C62D0E1FC2E48F5D0EEBF(L_1, NULL);
+		SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumTileMapServiceRasterOverlay-generated.cs:544>
+		return;
+	}
+}
+// Method Definition Index: 29185
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m507421BB1C8AE94FBA67058C1B7F7920548F90C4 (ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumTileMapServiceRasterOverlay-generated.cs:549>
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle;
+		CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_DestroyImplementation_m786E9D4A980EA7A9695BC389D40EFBB2FAD4FD44(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumTileMapServiceRasterOverlay-generated.cs:550>
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29186
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapServiceRasterOverlay_get_baseUrl_m428CDE8D19FD6288B3D8C7170CCB18B95DE92C86 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:29>
+		String_t* L_0 = __this->____baseUrl;
+		return L_0;
+	}
+}
+// Method Definition Index: 29187
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_set_baseUrl_m1187905A3A45CB2DA62E84BEE51C5B3A787BB45E (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:32>
+		String_t* L_0 = ___0_value;
+		__this->____baseUrl = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____baseUrl), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:33>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 29188
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapServiceRasterOverlay_get_layers_m5790E71B0C9DEFE7E5178F58F8B38524DF7EA748 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:45>
+		String_t* L_0 = __this->____layers;
+		return L_0;
+	}
+}
+// Method Definition Index: 29189
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_set_layers_m47E7FD4991C4725E238B10BBD972A7DCA4B4F3F0 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:48>
+		String_t* L_0 = ___0_value;
+		__this->____layers = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____layers), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:49>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 29190
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapServiceRasterOverlay_get_tileWidth_mD77847313E64AC4F0FD5C6A61E8B19A1BF6EB3F0 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:61>
+		int32_t L_0 = __this->____tileWidth;
+		return L_0;
+	}
+}
+// Method Definition Index: 29191
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_set_tileWidth_m675C115D64D4800BC268FC06D04649EE3719D4BA (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:64>
+		int32_t L_0 = ___0_value;
+		__this->____tileWidth = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:65>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:66>
+		return;
+	}
+}
+// Method Definition Index: 29192
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapServiceRasterOverlay_get_tileHeight_m3E5B11102C3DF748E68E8170CFD5933BFDF45497 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:77>
+		int32_t L_0 = __this->____tileHeight;
+		return L_0;
+	}
+}
+// Method Definition Index: 29193
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_set_tileHeight_m8EFB1BB63C57D8EDB972D947A656DB6DA54B9FAD (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:80>
+		int32_t L_0 = ___0_value;
+		__this->____tileHeight = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:81>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 29194
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapServiceRasterOverlay_get_minimumLevel_m8641AD764BED9AD89D8F1C64379A8846F7E6290E (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:99>
+		int32_t L_0 = __this->____minimumLevel;
+		return L_0;
+	}
+}
+// Method Definition Index: 29195
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_set_minimumLevel_m644F7660404DF19CC475C965BC7B41A5B89F70EB (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:102>
+		int32_t L_0 = ___0_value;
+		__this->____minimumLevel = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:103>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:104>
+		return;
+	}
+}
+// Method Definition Index: 29196
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapServiceRasterOverlay_get_maximumLevel_mF08915714AC067D8B4A5A74E04C67FE12D925B92 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:116>
+		int32_t L_0 = __this->____maximumLevel;
+		return L_0;
+	}
+}
+// Method Definition Index: 29197
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_set_maximumLevel_m975A6FCFB66A9652910DD81BCCD67B7A1CFBF660 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:119>
+		int32_t L_0 = ___0_value;
+		__this->____maximumLevel = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:120>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:121>
+		return;
+	}
+}
+// Method Definition Index: 29198
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_AddToTileset_m8536A1B6442E5F55E21D907844A475C36664B2CE (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
+{
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:587>
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:588>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5642CA1AC4A79EA83539EBB6D8B5E1410413E219)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapServiceRasterOverlay_AddToTileset_m8536A1B6442E5F55E21D907844A475C36664B2CE_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:589>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:590>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_5 = __this->____implementation;
+		Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* L_6 = ___0_tileset;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_6, NULL);
+		CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_AddToTileset_m27765F2F68518A659993D3DC722B6F235FDD7FED(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:591>
+		intptr_t L_8 = V_0;
+		bool L_9;
+		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
+		if (!L_9)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:591>
+		intptr_t L_10 = V_0;
+		RuntimeObject* L_11;
+		L_11 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_10, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_11, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapServiceRasterOverlay_AddToTileset_m8536A1B6442E5F55E21D907844A475C36664B2CE_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:593>
+		return;
+	}
+}
+// Method Definition Index: 29199
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_RemoveFromTileset_m4363EE36DD61D1399C010730170646DDDCCDF097 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
+{
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:598>
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:599>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral48E8AB7247D551A29855167A89CC4504D9A5C00B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapServiceRasterOverlay_RemoveFromTileset_m4363EE36DD61D1399C010730170646DDDCCDF097_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:600>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:601>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_5 = __this->____implementation;
+		Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* L_6 = ___0_tileset;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_6, NULL);
+		CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_RemoveFromTileset_mF9EC9C93C71B1672FAABAD624458FA18A96CC4B9(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:602>
+		intptr_t L_8 = V_0;
+		bool L_9;
+		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
+		if (!L_9)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:602>
+		intptr_t L_10 = V_0;
+		RuntimeObject* L_11;
+		L_11 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_10, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_11, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapServiceRasterOverlay_RemoveFromTileset_m4363EE36DD61D1399C010730170646DDDCCDF097_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:604>
+		return;
+	}
+}
+// Method Definition Index: 29200
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* CesiumWebMapServiceRasterOverlay_get_NativeImplementation_mADDAE0F7EA8DCDB6F9B07DBA56E3F94CEB05228D (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:559>
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_0 = __this->____implementation;
+		return L_0;
+	}
+}
+// Method Definition Index: 29201
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_CreateImplementation_m4C0860193FA4213D82AEB4121662E7253C2B2CB2 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:564>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:566>
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_0 = (ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59*)il2cpp_codegen_object_new(ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59_il2cpp_TypeInfo_var);
+		ImplementationHandle__ctor_m0DA922A43F88A0C9384EB9E2C0C697FDE330A999(L_0, __this, NULL);
+		__this->____implementation = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:567>
+		return;
+	}
+}
+// Method Definition Index: 29202
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DisposeImplementation_m72AA46F7579DEB9E4D164CDE6EDCC54A0D75DC4A (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:570>
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:571>
+		ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* L_3 = __this->____implementation;
+		NullCheck(L_3);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(L_3, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:572>
+		__this->____implementation = (ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)(ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59*)NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:573>
+		return;
+	}
+}
+// Method Definition Index: 29203
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_Dispose_m8D6A038C4FBB42E3ADE9FDA4831097020DAB4997 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:577>
+		CesiumWebMapServiceRasterOverlay_DisposeImplementation_m72AA46F7579DEB9E4D164CDE6EDCC54A0D75DC4A(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:578>
+		return;
+	}
+}
+// Method Definition Index: 29204
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay__ctor_mD5F9C32A48396D1A8CD5B556C38AD6D474B985A3 (CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:18>
+		__this->____baseUrl = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____baseUrl), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:38>
+		__this->____layers = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____layers), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:54>
+		__this->____tileWidth = ((int32_t)256);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:70>
+		__this->____tileHeight = ((int32_t)256);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapServiceRasterOverlay.cs:109>
+		__this->____maximumLevel = ((int32_t)14);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:579>
+		CesiumRasterOverlay__ctor_mBF08B99B21CEFD240A84AE711451E8270BCE8FA1(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:581>
+		CesiumWebMapServiceRasterOverlay_CreateImplementation_m4C0860193FA4213D82AEB4121662E7253C2B2CB2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:582>
+		return;
+	}
+}
+// Method Definition Index: 29205
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_CreateImplementation_m8C54A643D5AA0555D0E3037E3A975C1C9C5DDD54 (intptr_t ___0_thiz, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_CreateImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_CreateImplementation)(___0_thiz);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29206
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_DestroyImplementation_mB748C8C3EB397CE220E9FBBE9A2B4896772D7829 (intptr_t ___0_implementation, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_DestroyImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_DestroyImplementation)(___0_implementation);
+	#else
+	il2cppPInvokeFunc(___0_implementation);
+	#endif
+
+}
+// Method Definition Index: 29207
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_AddToTileset_m27765F2F68518A659993D3DC722B6F235FDD7FED (intptr_t ___0_thiz, ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_AddToTileset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_AddToTileset)(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+}
+// Method Definition Index: 29208
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_RemoveFromTileset_mF9EC9C93C71B1672FAABAD624458FA18A96CC4B9 (intptr_t ___0_thiz, ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_RemoveFromTileset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_RemoveFromTileset)(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29209
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m0DA922A43F88A0C9384EB9E2C0C697FDE330A999 (ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* __this, CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* ___0_managed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:541>
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:543>
+		CesiumWebMapServiceRasterOverlay_tAC8E1DB962910E2BD316ADEDF330D700184E662C* L_0 = ___0_managed;
+		intptr_t L_1;
+		L_1 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_0, NULL);
+		intptr_t L_2;
+		L_2 = CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_CreateImplementation_m8C54A643D5AA0555D0E3037E3A975C1C9C5DDD54(L_1, NULL);
+		SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:544>
+		return;
+	}
+}
+// Method Definition Index: 29210
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m74017DF6755947C6CED32CE6196581C324413D1C (ImplementationHandle_t82F3C7DEC6674D08AA6A625530780417D8B48E59* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:549>
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle;
+		CesiumWebMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapServiceRasterOverlay_DestroyImplementation_mB748C8C3EB397CE220E9FBBE9A2B4896772D7829(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapServiceRasterOverlay-generated.cs:550>
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29211
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapTileServiceRasterOverlay_get_baseUrl_m037AD70E065827ED57499B41D2F38C729775FB9E (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:49>
+		String_t* L_0 = __this->____baseUrl;
+		return L_0;
+	}
+}
+// Method Definition Index: 29212
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_baseUrl_mA12DF9DAFE88DCE119DD8F4EB523F049C0429BF8 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:52>
+		String_t* L_0 = ___0_value;
+		__this->____baseUrl = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____baseUrl), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:53>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 29213
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapTileServiceRasterOverlay_get_layer_m597BA062B6F82B53DF25D3D5B2934086BA4E4D36 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:65>
+		String_t* L_0 = __this->____layer;
+		return L_0;
+	}
+}
+// Method Definition Index: 29214
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_layer_m538384097962C9A525B8D40736C0144035AA8441 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:68>
+		String_t* L_0 = ___0_value;
+		__this->____layer = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____layer), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:69>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 29215
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapTileServiceRasterOverlay_get_style_m01B538DD1493D46CEE084D4743A0903A1B109777 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:81>
+		String_t* L_0 = __this->____style;
+		return L_0;
+	}
+}
+// Method Definition Index: 29216
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_style_m1F5C9A501862A4B9FBE34A2EABCA830CA26C9DBB (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:84>
+		String_t* L_0 = ___0_value;
+		__this->____style = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____style), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:85>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 29217
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapTileServiceRasterOverlay_get_format_m017C348FFC89E7D4245A18C69C578464D49CD75D (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:97>
+		String_t* L_0 = __this->____format;
+		return L_0;
+	}
+}
+// Method Definition Index: 29218
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_format_mEA491DC4C0A2F333C1CA3F45F1465991FD0CFB07 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:100>
+		String_t* L_0 = ___0_value;
+		__this->____format = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____format), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:101>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 29219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapTileServiceRasterOverlay_get_tileMatrixSetID_m504523B5B8322C72B8B16B35084A834B0F9756B5 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:113>
+		String_t* L_0 = __this->____tileMatrixSetID;
+		return L_0;
+	}
+}
+// Method Definition Index: 29220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_tileMatrixSetID_m45E186CECA5573B081DF574B36F2AB41A52AE120 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:116>
+		String_t* L_0 = ___0_value;
+		__this->____tileMatrixSetID = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tileMatrixSetID), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:117>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:118>
+		return;
+	}
+}
+// Method Definition Index: 29221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumWebMapTileServiceRasterOverlay_get_tileMatrixSetLabelPrefix_m0B701D674E373D1D8CCF54872F506E9C1EDF0686 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:132>
+		String_t* L_0 = __this->____tileMatrixSetLabelPrefix;
+		return L_0;
+	}
+}
+// Method Definition Index: 29222
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_tileMatrixSetLabelPrefix_mB9C12C033C1EFE65E84FBD426341815589C03992 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:135>
+		String_t* L_0 = ___0_value;
+		__this->____tileMatrixSetLabelPrefix = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tileMatrixSetLabelPrefix), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:136>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 29223
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumWebMapTileServiceRasterOverlay_get_specifyTileMatrixSetLabels_mFEE87F39B8D26CFD3368E9DA8F121FC9AF55CBAD (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:150>
+		bool L_0 = __this->____specifyTileMatrixSetLabels;
+		return L_0;
+	}
+}
+// Method Definition Index: 29224
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_specifyTileMatrixSetLabels_mC9F46F89B41FDA5DE2879E1C81240F26965F93D1 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:153>
+		bool L_0 = ___0_value;
+		__this->____specifyTileMatrixSetLabels = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:154>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:155>
+		return;
+	}
+}
+// Method Definition Index: 29225
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* CesiumWebMapTileServiceRasterOverlay_get_tileMatrixSetLabels_m5D077D26DF1FAEF268B540893E6FA8E26D8B4098 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:167>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->____tileMatrixSetLabels;
+		return L_0;
+	}
+}
+// Method Definition Index: 29226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_tileMatrixSetLabels_m657BC8A8F58E56CB9E07081822A83AB3031733FA (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:170>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
+		__this->____tileMatrixSetLabels = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tileMatrixSetLabels), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:171>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:172>
+		return;
+	}
+}
+// Method Definition Index: 29227
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_projection_mA153FE0E7B62E0DEFD1DBBB9BAA3512611FE0564 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:184>
+		int32_t L_0 = __this->____projection;
+		return L_0;
+	}
+}
+// Method Definition Index: 29228
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_projection_m9F6CBDC72C91409FE74AAC33EC9553FACA452836 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:187>
+		int32_t L_0 = ___0_value;
+		__this->____projection = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:188>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:189>
+		return;
+	}
+}
+// Method Definition Index: 29229
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumWebMapTileServiceRasterOverlay_get_specifyTilingScheme_m2C6F17C62EB15E19E407FE1B5ACEA353519F1B28 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:202>
+		bool L_0 = __this->____specifyTilingScheme;
+		return L_0;
+	}
+}
+// Method Definition Index: 29230
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_specifyTilingScheme_mC5728D3FD9E850B332D4098674D65C2A17E705C6 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:205>
+		bool L_0 = ___0_value;
+		__this->____specifyTilingScheme = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:206>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:207>
+		return;
+	}
+}
+// Method Definition Index: 29231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_rootTilesX_m738A2F1C88152BF88D09731E4B30D7D24747869D (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:222>
+		int32_t L_0 = __this->____rootTilesX;
+		return L_0;
+	}
+}
+// Method Definition Index: 29232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_rootTilesX_m9F08BEF809DA8220E3F122205CBF9EFCD692DCCF (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:225>
+		int32_t L_0 = ___0_value;
+		__this->____rootTilesX = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:226>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:227>
+		return;
+	}
+}
+// Method Definition Index: 29233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_rootTilesY_m917F981E980723C149032C8E8A7D567A1F1F7027 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:242>
+		int32_t L_0 = __this->____rootTilesY;
+		return L_0;
+	}
+}
+// Method Definition Index: 29234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_rootTilesY_m040CA642A2CAAEB5CAF436198A7D1A31D16EB1E9 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:245>
+		int32_t L_0 = ___0_value;
+		__this->____rootTilesY = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:246>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:247>
+		return;
+	}
+}
+// Method Definition Index: 29235
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumWebMapTileServiceRasterOverlay_get_rectangleWest_mD3CB716BFDF9B402222EC592D1E46A1007EE79C5 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:260>
+		double L_0 = __this->____rectangleWest;
+		return L_0;
+	}
+}
+// Method Definition Index: 29236
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_rectangleWest_mEAEF40F4127FCE119CABB51C8D7F6B316409C482 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:263>
+		double L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline(L_0, (-180.0), (180.0), NULL);
+		__this->____rectangleWest = L_1;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:264>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:265>
+		return;
+	}
+}
+// Method Definition Index: 29237
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumWebMapTileServiceRasterOverlay_get_rectangleSouth_m3EE1317327EA237253C532B8EBF3A1D0151A30CE (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:278>
+		double L_0 = __this->____rectangleSouth;
+		return L_0;
+	}
+}
+// Method Definition Index: 29238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_rectangleSouth_m9D3F055A18FE05BB5E0F75A976D322D14CBFA137 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:281>
+		double L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline(L_0, (-90.0), (90.0), NULL);
+		__this->____rectangleSouth = L_1;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:282>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:283>
+		return;
+	}
+}
+// Method Definition Index: 29239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumWebMapTileServiceRasterOverlay_get_rectangleEast_m41CF691B1C1F6EC19CB5FB68B10709B3AB900095 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:296>
+		double L_0 = __this->____rectangleEast;
+		return L_0;
+	}
+}
+// Method Definition Index: 29240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_rectangleEast_mCB2218ABBBE199F519E0C051FCF331B71BBFDA78 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:299>
+		double L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline(L_0, (-180.0), (180.0), NULL);
+		__this->____rectangleEast = L_1;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:300>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:301>
+		return;
+	}
+}
+// Method Definition Index: 29241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumWebMapTileServiceRasterOverlay_get_rectangleNorth_m1DB34DE1184E13E74F072A5EDF934A8A9DE0957A (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:314>
+		double L_0 = __this->____rectangleNorth;
+		return L_0;
+	}
+}
+// Method Definition Index: 29242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_rectangleNorth_m8DCB925545D4F76A35C6F0291DD5A7CAC5246344 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:317>
+		double L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline(L_0, (-90.0), (90.0), NULL);
+		__this->____rectangleNorth = L_1;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:318>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:319>
+		return;
+	}
+}
+// Method Definition Index: 29243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumWebMapTileServiceRasterOverlay_get_specifyZoomLevels_mA74CC20D3CA779B34679B9742D42A68F47821192 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:332>
+		bool L_0 = __this->____specifyZoomLevels;
+		return L_0;
+	}
+}
+// Method Definition Index: 29244
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_specifyZoomLevels_m91573812192774EDA4F257CF82BBE8A0D56DE2BE (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:335>
+		bool L_0 = ___0_value;
+		__this->____specifyZoomLevels = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:336>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:337>
+		return;
+	}
+}
+// Method Definition Index: 29245
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_minimumLevel_mFF5643A82A4CF922AE323CF9C8A2038ACE64C3B5 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:349>
+		int32_t L_0 = __this->____minimumLevel;
+		return L_0;
+	}
+}
+// Method Definition Index: 29246
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_minimumLevel_mA25F723A7ED6DF2AC292A6A4867FA44370E75B51 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:352>
+		int32_t L_0 = ___0_value;
+		__this->____minimumLevel = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:353>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:354>
+		return;
+	}
+}
+// Method Definition Index: 29247
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_maximumLevel_m33AD54E4F74E4ACE44355701A308219ABC175E2E (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:366>
+		int32_t L_0 = __this->____maximumLevel;
+		return L_0;
+	}
+}
+// Method Definition Index: 29248
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_maximumLevel_mA6AA05E213DB3986E0BED90A31D264556200FBCF (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:369>
+		int32_t L_0 = ___0_value;
+		__this->____maximumLevel = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:370>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:371>
+		return;
+	}
+}
+// Method Definition Index: 29249
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_tileWidth_mC9E7B976BFF4D9DC36E6A6CC7F2E29248D2B36A2 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:382>
+		int32_t L_0 = __this->____tileWidth;
+		return L_0;
+	}
+}
+// Method Definition Index: 29250
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_tileWidth_m508A18CD99EB677F6E7C62AC882092F3A2A2B5AC (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:385>
+		int32_t L_0 = ___0_value;
+		__this->____tileWidth = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:386>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:387>
+		return;
+	}
+}
+// Method Definition Index: 29251
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumWebMapTileServiceRasterOverlay_get_tileHeight_m3716B274ED8594CC99FC49F3AD0011CBDBC46684 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:398>
+		int32_t L_0 = __this->____tileHeight;
+		return L_0;
+	}
+}
+// Method Definition Index: 29252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_set_tileHeight_m73A57E2450B2A1C3E095B616D0F13D0BB92B1245 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:401>
+		int32_t L_0 = ___0_value;
+		__this->____tileHeight = L_0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:402>
+		CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:403>
+		return;
+	}
+}
+// Method Definition Index: 29253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_AddToTileset_m5977A73B866B0ED22BAF26054EC928AB320E31CC (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
+{
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:587>
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:588>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5642CA1AC4A79EA83539EBB6D8B5E1410413E219)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapTileServiceRasterOverlay_AddToTileset_m5977A73B866B0ED22BAF26054EC928AB320E31CC_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:589>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:590>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_5 = __this->____implementation;
+		Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* L_6 = ___0_tileset;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_6, NULL);
+		CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_AddToTileset_m4D7AC1811F1F6511D5D5E6F4A9819271030CCE5B(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:591>
+		intptr_t L_8 = V_0;
+		bool L_9;
+		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
+		if (!L_9)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:591>
+		intptr_t L_10 = V_0;
+		RuntimeObject* L_11;
+		L_11 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_10, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_11, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapTileServiceRasterOverlay_AddToTileset_m5977A73B866B0ED22BAF26054EC928AB320E31CC_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:593>
+		return;
+	}
+}
+// Method Definition Index: 29254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m152CB5F9CBE4A14958DF0F12842A83B2E5966868 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
+{
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:598>
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:599>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral48E8AB7247D551A29855167A89CC4504D9A5C00B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m152CB5F9CBE4A14958DF0F12842A83B2E5966868_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:600>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:601>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_5 = __this->____implementation;
+		Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* L_6 = ___0_tileset;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_6, NULL);
+		CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m4A5A13F35C7E815D259D85304C989F6E4694636B(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:602>
+		intptr_t L_8 = V_0;
+		bool L_9;
+		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
+		if (!L_9)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:602>
+		intptr_t L_10 = V_0;
+		RuntimeObject* L_11;
+		L_11 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_10, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_11, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m152CB5F9CBE4A14958DF0F12842A83B2E5966868_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:604>
+		return;
+	}
+}
+// Method Definition Index: 29255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* CesiumWebMapTileServiceRasterOverlay_get_NativeImplementation_m3F75592F669956186CDDAA77B6D8FD73C85E4AFF (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:559>
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_0 = __this->____implementation;
+		return L_0;
+	}
+}
+// Method Definition Index: 29256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_CreateImplementation_m8F6FA834CC3E46B0CEAE729480B5A9080D5ABB84 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:564>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:566>
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_0 = (ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253*)il2cpp_codegen_object_new(ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253_il2cpp_TypeInfo_var);
+		ImplementationHandle__ctor_m3100D4BD0B161215C111B6C85DDC808ED627E43B(L_0, __this, NULL);
+		__this->____implementation = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:567>
+		return;
+	}
+}
+// Method Definition Index: 29257
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DisposeImplementation_mE7FAFCC3F4399BA1E31C7856F473A29299FF21B0 (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:570>
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:571>
+		ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* L_3 = __this->____implementation;
+		NullCheck(L_3);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(L_3, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:572>
+		__this->____implementation = (ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)(ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253*)NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:573>
+		return;
+	}
+}
+// Method Definition Index: 29258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_Dispose_mB72735837FA3EEDE7A29E3DE75327A2E1B28D97B (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:577>
+		CesiumWebMapTileServiceRasterOverlay_DisposeImplementation_mE7FAFCC3F4399BA1E31C7856F473A29299FF21B0(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:578>
+		return;
+	}
+}
+// Method Definition Index: 29259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay__ctor_mF079A24CEE7D159ABE753674A2245F7F2D2484AB (CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3E96C9BB1B953A85290371E8CE7BB3F3ABB307CC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:38>
+		__this->____baseUrl = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____baseUrl), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:58>
+		__this->____layer = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____layer), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:74>
+		__this->____style = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____style), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:90>
+		__this->____format = _stringLiteral3E96C9BB1B953A85290371E8CE7BB3F3ABB307CC;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____format), (void*)_stringLiteral3E96C9BB1B953A85290371E8CE7BB3F3ABB307CC);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:106>
+		__this->____tileMatrixSetID = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tileMatrixSetID), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:212>
+		__this->____rootTilesX = 1;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:232>
+		__this->____rootTilesY = 1;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:251>
+		__this->____rectangleWest = (-180.0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:269>
+		__this->____rectangleSouth = (-90.0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:287>
+		__this->____rectangleEast = (180.0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:305>
+		__this->____rectangleNorth = (90.0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:358>
+		__this->____maximumLevel = ((int32_t)25);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:375>
+		__this->____tileWidth = ((int32_t)256);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWebMapTileServiceRasterOverlay.cs:391>
+		__this->____tileHeight = ((int32_t)256);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:579>
+		CesiumRasterOverlay__ctor_mBF08B99B21CEFD240A84AE711451E8270BCE8FA1(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:581>
+		CesiumWebMapTileServiceRasterOverlay_CreateImplementation_m8F6FA834CC3E46B0CEAE729480B5A9080D5ABB84(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:582>
+		return;
+	}
+}
+// Method Definition Index: 29260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CreateImplementation_mAEDC7F6B28E98CDB6FAF1BADA8AABF83BA6EEE2B (intptr_t ___0_thiz, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CreateImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CreateImplementation)(___0_thiz);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_DestroyImplementation_m170BD120139AF1F443AA8FC87D94E352D4492DB4 (intptr_t ___0_implementation, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_DestroyImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_DestroyImplementation)(___0_implementation);
+	#else
+	il2cppPInvokeFunc(___0_implementation);
+	#endif
+
+}
+// Method Definition Index: 29262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_AddToTileset_m4D7AC1811F1F6511D5D5E6F4A9819271030CCE5B (intptr_t ___0_thiz, ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_AddToTileset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_AddToTileset)(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+}
+// Method Definition Index: 29263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset_m4A5A13F35C7E815D259D85304C989F6E4694636B (intptr_t ___0_thiz, ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_RemoveFromTileset)(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_tileset, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m3100D4BD0B161215C111B6C85DDC808ED627E43B (ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* __this, CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* ___0_managed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:541>
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:543>
+		CesiumWebMapTileServiceRasterOverlay_tAD3641ACB9D6664655E59212A0E328F0DCD55082* L_0 = ___0_managed;
+		intptr_t L_1;
+		L_1 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_0, NULL);
+		intptr_t L_2;
+		L_2 = CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CreateImplementation_mAEDC7F6B28E98CDB6FAF1BADA8AABF83BA6EEE2B(L_1, NULL);
+		SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:544>
+		return;
+	}
+}
+// Method Definition Index: 29265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m766E0347909EBC27F13B142494AF6851A80DA36A (ImplementationHandle_tA52449191CB8A2FD0D4A4386A3E3883129ECA253* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:549>
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle;
+		CesiumWebMapTileServiceRasterOverlay_DotNet_CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_DestroyImplementation_m170BD120139AF1F443AA8FC87D94E352D4492DB4(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWebMapTileServiceRasterOverlay-generated.cs:550>
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumWgs84Ellipsoid_GetRadii_m10F8E0E42E21410101AB3F22EDFD1426645C43DD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:505>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:506>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:507>
+		il2cpp_codegen_initobj((&V_1), sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4));
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:508>
+		CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GetRadii_mD5D7631BE73AE415374396801FDE4AD9665C79B6((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&V_1)), (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:509>
+		intptr_t L_0 = V_0;
+		bool L_1;
+		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:509>
+		intptr_t L_2 = V_0;
+		RuntimeObject* L_3;
+		L_3 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_2, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_3, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWgs84Ellipsoid_GetRadii_m10F8E0E42E21410101AB3F22EDFD1426645C43DD_RuntimeMethod_var)));
+	}
+
+IL_0037:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:510>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = V_1;
+		return L_4;
+	}
+}
+// Method Definition Index: 29267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumWgs84Ellipsoid_GetMaximumRadius_mAC46B7C010A616C1C451B4FA4FA5AC74CD2CEB32 (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWgs84Ellipsoid.cs:25>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0;
+		L_0 = CesiumWgs84Ellipsoid_GetRadii_m10F8E0E42E21410101AB3F22EDFD1426645C43DD(NULL);
+		double L_1;
+		L_1 = math_cmax_mD1CA685960C6D3E73AE61E158449D1F136B2D8D9_inline(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 29268
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumWgs84Ellipsoid_GetMinimumRadius_m4A64EF6A390B917F2FE8F1BA694D3206CDB6A2DA (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/CesiumWgs84Ellipsoid.cs:34>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0;
+		L_0 = CesiumWgs84Ellipsoid_GetRadii_m10F8E0E42E21410101AB3F22EDFD1426645C43DD(NULL);
+		double L_1;
+		L_1 = math_cmin_mD62CF2BF7B13402E46E966F3BED814004E5D8C65_inline(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 29269
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8 CesiumWgs84Ellipsoid_ScaleToGeodeticSurface_m08B146D48F8F71E0166878912AD2CD073D212C57 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_earthCenteredEarthFixed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	uint8_t G_B2_0 = 0x0;
+	uint8_t G_B1_0 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:517>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:518>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:519>
+		il2cpp_codegen_initobj((&V_1), sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4));
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:520>
+		uint8_t L_0;
+		L_0 = CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_ScaleToGeodeticSurface_mFA5CB26136D16A1AB2C7344DA180C3699B4A47AD((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&___0_earthCenteredEarthFixed)), (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&V_1)), (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:521>
+		intptr_t L_1 = V_0;
+		bool L_2;
+		L_2 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_1, 0, NULL);
+		if (!L_2)
+		{
+			G_B2_0 = L_0;
+			goto IL_003a;
+		}
+		G_B1_0 = L_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:521>
+		intptr_t L_3 = V_0;
+		RuntimeObject* L_4;
+		L_4 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_3, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_4, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWgs84Ellipsoid_ScaleToGeodeticSurface_m08B146D48F8F71E0166878912AD2CD073D212C57_RuntimeMethod_var)));
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:522>
+		if ((((int32_t)G_B2_0) == ((int32_t)1)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_2), sizeof(Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8));
+		Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8 L_5 = V_2;
+		return L_5;
+	}
+
+IL_0047:
+	{
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = V_1;
+		Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E((&L_7), L_6, Nullable_1__ctor_mA6909A447FCEBF13D2C07AF3F2104AFE9167A93E_RuntimeMethod_var);
+		return L_7;
+	}
+}
+// Method Definition Index: 29270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumWgs84Ellipsoid_GeodeticSurfaceNormal_m2A8AD10F5660C33A7CF43469CA09726F70E984B9 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_earthCenteredEarthFixed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:529>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:530>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:531>
+		il2cpp_codegen_initobj((&V_1), sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4));
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:532>
+		CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GeodeticSurfaceNormal_m617A0680E0C9E81E673D55FFA14005E7DCADEF86((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&___0_earthCenteredEarthFixed)), (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&V_1)), (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:533>
+		intptr_t L_0 = V_0;
+		bool L_1;
+		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
+		if (!L_1)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:533>
+		intptr_t L_2 = V_0;
+		RuntimeObject* L_3;
+		L_3 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_2, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_3, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWgs84Ellipsoid_GeodeticSurfaceNormal_m2A8AD10F5660C33A7CF43469CA09726F70E984B9_RuntimeMethod_var)));
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:534>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = V_1;
+		return L_4;
+	}
+}
+// Method Definition Index: 29271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed_m6998B8AC075149178533D1C516FA95F8AA04EEA7 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_longitudeLatitudeHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:541>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:542>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:543>
+		il2cpp_codegen_initobj((&V_1), sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4));
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:544>
+		CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed_m97482FBB5CBCFB4532D92CC28A6D6ED3FCA1BAD3((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&___0_longitudeLatitudeHeight)), (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&V_1)), (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:545>
+		intptr_t L_0 = V_0;
+		bool L_1;
+		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
+		if (!L_1)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:545>
+		intptr_t L_2 = V_0;
+		RuntimeObject* L_3;
+		L_3 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_2, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_3, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed_m6998B8AC075149178533D1C516FA95F8AA04EEA7_RuntimeMethod_var)));
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:546>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = V_1;
+		return L_4;
+	}
+}
+// Method Definition Index: 29272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight_mBD814A88230A66A8651170CD363EE449BB144C12 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_earthCenteredEarthFixed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:553>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:554>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:555>
+		il2cpp_codegen_initobj((&V_1), sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4));
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:556>
+		CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight_mA472BCBF817763B8C4D1D46AEB8806F92A47E085((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&___0_earthCenteredEarthFixed)), (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)((uintptr_t)(&V_1)), (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:557>
+		intptr_t L_0 = V_0;
+		bool L_1;
+		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
+		if (!L_1)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:557>
+		intptr_t L_2 = V_0;
+		RuntimeObject* L_3;
+		L_3 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_2, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_3, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight_mBD814A88230A66A8651170CD363EE449BB144C12_RuntimeMethod_var)));
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/CesiumWgs84Ellipsoid-generated.cs:558>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = V_1;
+		return L_4;
+	}
+}
+// Method Definition Index: 29273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GetRadii_mD5D7631BE73AE415374396801FDE4AD9665C79B6 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_pReturnValue, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GetRadii", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GetRadii)(___0_pReturnValue, ___1_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_pReturnValue, ___1_reinteropException);
+	#endif
+
+}
+// Method Definition Index: 29274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_ScaleToGeodeticSurface_mFA5CB26136D16A1AB2C7344DA180C3699B4A47AD (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_earthCenteredEarthFixed, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
+{
+	typedef uint8_t (CDECL *PInvokeFunc) (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_ScaleToGeodeticSurface", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	uint8_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_ScaleToGeodeticSurface)(___0_earthCenteredEarthFixed, ___1_pReturnValue, ___2_reinteropException);
+	#else
+	uint8_t returnValue = il2cppPInvokeFunc(___0_earthCenteredEarthFixed, ___1_pReturnValue, ___2_reinteropException);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GeodeticSurfaceNormal_m617A0680E0C9E81E673D55FFA14005E7DCADEF86 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_earthCenteredEarthFixed, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GeodeticSurfaceNormal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_GeodeticSurfaceNormal)(___0_earthCenteredEarthFixed, ___1_pReturnValue, ___2_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_earthCenteredEarthFixed, ___1_pReturnValue, ___2_reinteropException);
+	#endif
+
+}
+// Method Definition Index: 29276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed_m97482FBB5CBCFB4532D92CC28A6D6ED3FCA1BAD3 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_longitudeLatitudeHeight, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_LongitudeLatitudeHeightToEarthCenteredEarthFixed)(___0_longitudeLatitudeHeight, ___1_pReturnValue, ___2_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_longitudeLatitudeHeight, ___1_pReturnValue, ___2_reinteropException);
+	#endif
+
+}
+// Method Definition Index: 29277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumWgs84Ellipsoid_DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight_mA472BCBF817763B8C4D1D46AEB8806F92A47E085 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_earthCenteredEarthFixed, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_CesiumWgs84Ellipsoid_EarthCenteredEarthFixedToLongitudeLatitudeHeight)(___0_earthCenteredEarthFixed, ___1_pReturnValue, ___2_reinteropException);
+	#else
+	il2cppPInvokeFunc(___0_earthCenteredEarthFixed, ___1_pReturnValue, ___2_reinteropException);
+	#endif
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* NativeDownloadHandler_get_NativeImplementation_m371EAC14A719C137F0FB8453568DC9FDD9EFE24A (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:463>
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_0 = __this->____implementation;
+		return L_0;
+	}
+}
+// Method Definition Index: 29279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_CreateImplementation_mC4E7F430EFD43A3C5F06DF67865DEF647C7A64CC (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:468>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:470>
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_0 = (ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6*)il2cpp_codegen_object_new(ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6_il2cpp_TypeInfo_var);
+		ImplementationHandle__ctor_m07B970AC703BB29D300B6C1873ED2BC975E76143(L_0, __this, NULL);
+		__this->____implementation = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:471>
+		return;
+	}
+}
+// Method Definition Index: 29280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_DisposeImplementation_m618A868DEE8729DBA9D368FBE03466DE4A803EAA (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:474>
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:475>
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_3 = __this->____implementation;
+		NullCheck(L_3);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(L_3, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:476>
+		__this->____implementation = (ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)(ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6*)NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:477>
+		return;
+	}
+}
+// Method Definition Index: 29281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_Dispose_m0BEE19D9E50054B8BB21635CFDE09CC918092FA6 (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:480>
+		DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:481>
+		NativeDownloadHandler_DisposeImplementation_m618A868DEE8729DBA9D368FBE03466DE4A803EAA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:482>
+		return;
+	}
+}
+// Method Definition Index: 29282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_CreateImplementation_mAF076FB4B78BE6C80021D63D06E57F3F133E4FBE (intptr_t ___0_thiz, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_NativeDownloadHandler_CreateImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_NativeDownloadHandler_CreateImplementation)(___0_thiz);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_DestroyImplementation_m4E09345C0F5E07FBCE8E06E532695440C45BD9B5 (intptr_t ___0_implementation, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_NativeDownloadHandler_DestroyImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_NativeDownloadHandler_DestroyImplementation)(___0_implementation);
+	#else
+	il2cppPInvokeFunc(___0_implementation);
+	#endif
+
+}
+// Method Definition Index: 29284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_ReceiveDataNative_m5FB8353A806B71A272C061B0DCB4ACC80D7424BB (intptr_t ___0_thiz, ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* ___1_implementation, intptr_t ___2_data, int32_t ___3_dataLength, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
+{
+	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, int32_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int32_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_NativeDownloadHandler_ReceiveDataNative", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	uint8_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_NativeDownloadHandler_ReceiveDataNative)(___0_thiz, ____1_implementation_marshaled, ___2_data, ___3_dataLength, ___4_reinteropException);
+	#else
+	uint8_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_data, ___3_dataLength, ___4_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDownloadHandler__ctor_m1EF7F8652BA26CB5538E8B6C5A852FC1F31CE34C (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeDownloadHandler.cs:11>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16384));
+		DownloadHandlerScript__ctor_m67B5897E7D6354051F54E8EB70ACA62BA0EF264A(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeDownloadHandler.cs:13>
+		NativeDownloadHandler_CreateImplementation_mC4E7F430EFD43A3C5F06DF67865DEF647C7A64CC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeDownloadHandler.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 29286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeDownloadHandler_ReceiveData_mE09DFD8D9329D426AF1A3A7B0668A9EEE2BD01B7 (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_dataLength, const RuntimeMethod* method) 
+{
+	uint8_t* V_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeDownloadHandler.cs:19>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		V_1 = L_1;
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = V_1;
+		NullCheck(L_2);
+		if (((int32_t)(((RuntimeArray*)L_2)->max_length)))
+		{
+			goto IL_000f;
+		}
+	}
+
+IL_000a:
+	{
+		V_0 = (uint8_t*)((uintptr_t)0);
+		goto IL_0018;
+	}
+
+IL_000f:
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_1;
+		NullCheck(L_3);
+		V_0 = (uint8_t*)((uintptr_t)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeDownloadHandler.cs:21>
+		uint8_t* L_4 = V_0;
+		intptr_t L_5;
+		L_5 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D((void*)L_4, NULL);
+		int32_t L_6 = ___1_dataLength;
+		bool L_7;
+		L_7 = NativeDownloadHandler_ReceiveDataNative_mE2D779C1623184305ABC205471ADFE68142C8FBF(__this, L_5, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeDownloadHandler.cs:22>
+		return L_7;
+	}
+}
+// Method Definition Index: 29287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeDownloadHandler_ReceiveDataNative_mE2D779C1623184305ABC205471ADFE68142C8FBF (NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* __this, intptr_t ___0_data, int32_t ___1_dataLength, const RuntimeMethod* method) 
+{
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint8_t G_B5_0 = 0x0;
+	uint8_t G_B4_0 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:487>
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:488>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral862F749F7B5B6DBD89A8EA5A639585899358F536)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeDownloadHandler_ReceiveDataNative_mE2D779C1623184305ABC205471ADFE68142C8FBF_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:489>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:490>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* L_5 = __this->____implementation;
+		intptr_t L_6 = ___0_data;
+		int32_t L_7 = ___1_dataLength;
+		uint8_t L_8;
+		L_8 = NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_ReceiveDataNative_m5FB8353A806B71A272C061B0DCB4ACC80D7424BB(L_4, L_5, L_6, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:491>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0055;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:491>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeDownloadHandler_ReceiveDataNative_mE2D779C1623184305ABC205471ADFE68142C8FBF_RuntimeMethod_var)));
+	}
+
+IL_0055:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:492>
+		return (bool)((!(((uint32_t)G_B5_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m07B970AC703BB29D300B6C1873ED2BC975E76143 (ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* __this, NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* ___0_managed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:445>
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:447>
+		NativeDownloadHandler_t407A6A51C207FA98FCAF956597D270E3CECF3091* L_0 = ___0_managed;
+		intptr_t L_1;
+		L_1 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_0, NULL);
+		intptr_t L_2;
+		L_2 = NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_CreateImplementation_mAF076FB4B78BE6C80021D63D06E57F3F133E4FBE(L_1, NULL);
+		SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:448>
+		return;
+	}
+}
+// Method Definition Index: 29289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_mBD14B95F317788C5E36ED87A016043656071CDC7 (ImplementationHandle_t4B1675EF30A8FFA9AEEC0C5EEBC72592176309D6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:453>
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle;
+		NativeDownloadHandler_DotNet_CesiumForUnity_NativeDownloadHandler_DestroyImplementation_m4E09345C0F5E07FBCE8E06E532695440C45BD9B5(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/NativeDownloadHandler-generated.cs:454>
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* TestGltfModel_get_NativeImplementation_mF6E93CBE977410E28D1F0C34F20B2A51A7069AFE (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1579>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		return L_0;
+	}
+}
+// Method Definition Index: 29291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_CreateImplementation_mB6FF78D2086590467E334EA7F45F119ECC3635C7 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1584>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1586>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = (ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78*)il2cpp_codegen_object_new(ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78_il2cpp_TypeInfo_var);
+		ImplementationHandle__ctor_mDFFF0E1E9EB43A0ABC3B4D5F65AB73B067536538(L_0, __this, NULL);
+		__this->____implementation = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1587>
+		return;
+	}
+}
+// Method Definition Index: 29292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_DisposeImplementation_m0A398DFD226AFE356B7F4D8C0BFED7AFEFEB0370 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1590>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1591>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_3 = __this->____implementation;
+		NullCheck(L_3);
+		SafeHandle_Dispose_m4FB5B8A7ED78B90757F1B570D4025F3BA26A39F3(L_3, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1592>
+		__this->____implementation = (ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____implementation), (void*)(ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78*)NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1593>
+		return;
+	}
+}
+// Method Definition Index: 29293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_Dispose_m98D8937EA8453D6DE61EA0960F7BEAC29004D143 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1597>
+		TestGltfModel_DisposeImplementation_m0A398DFD226AFE356B7F4D8C0BFED7AFEFEB0370(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1598>
+		return;
+	}
+}
+// Method Definition Index: 29294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel__ctor_m25D99A0353782F8564286FFAFFB9960881B81DB2 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1599>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1601>
+		TestGltfModel_CreateImplementation_mB6FF78D2086590467E334EA7F45F119ECC3635C7(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1602>
+		return;
+	}
+}
+// Method Definition Index: 29295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_CreateImplementation_mB49ACCBB645D1F7BA8BD104BD70F0D7DF987E441 (intptr_t ___0_thiz, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_CreateImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_CreateImplementation)(___0_thiz);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_DestroyImplementation_m3A99602024D8AC366BC3EDF7C39514E63673D0C9 (intptr_t ___0_implementation, const RuntimeMethod* method) 
+{
+	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_DestroyImplementation", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_DestroyImplementation)(___0_implementation);
+	#else
+	il2cppPInvokeFunc(___0_implementation);
+	#endif
+
+}
+// Method Definition Index: 29297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdAttribute_mE5964A3BEEFE2E9238B4B26C1788B01E8A9A584F (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_featureIds, int64_t ___3_featureCount, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, int64_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int64_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdAttribute", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdAttribute)(___0_thiz, ____1_implementation_marshaled, ___2_featureIds, ___3_featureCount, ___4_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_featureIds, ___3_featureCount, ___4_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdTexture_m686BB874857013B7789F9BA91F5E737325BEE021 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_featureIds, int64_t ___3_featureCount, intptr_t ___4_uvs, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, int64_t, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int64_t) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdTexture", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdTexture)(___0_thiz, ____1_implementation_marshaled, ___2_featureIds, ___3_featureCount, ___4_uvs, ___5_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_featureIds, ___3_featureCount, ___4_uvs, ___5_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddBooleanPropertyTableProperty_m2730195871E101AF3C3F0C3FBB24384ADCC678C9 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddBooleanPropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddBooleanPropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddIntPropertyTableProperty_m1EFDCDE52056E6C1F34FCEC47E4601D359ABBD38 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, uint8_t ___3_normalized, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, uint8_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(uint8_t) + 3 + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddIntPropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddIntPropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_normalized, ___4_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_normalized, ___4_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddDoublePropertyTableProperty_mC3FEF4227669332D3BDB470B0CCAC5745B9E266F (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddDoublePropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddDoublePropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec2PropertyTableProperty_mFCC922D6D28309969C500768E40EA8DE96A10C48 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddVec2PropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddVec2PropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec3PropertyTableProperty_mF07E5EDBBCFB6EA79C433D3777DD155927CCBD6F (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddVec3PropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddVec3PropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec4PropertyTableProperty_mA7D9CF022AD347A1F64A14D760A4395CCF57BFC4 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddVec4PropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddVec4PropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat2PropertyTableProperty_m6EFFF00EAE3C3CD81720AB15AC650CA394B670DC (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddMat2PropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddMat2PropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat3PropertyTableProperty_m358AA97739BDEF7A63400125113691B82C231333 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddMat3PropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddMat3PropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat4PropertyTableProperty_m0D812CD15789CBDF82A05C2823EFF0F2AAC7E4F5 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddMat4PropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddMat4PropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddStringPropertyTableProperty_mE6290E9260588AFE61F73C620AB3C34D99159366 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddStringPropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddStringPropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFixedLengthArrayPropertyTableProperty_mC7CE17D6E139D8E45AB0BFA29ADCED63F5C8A5D6 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, int64_t ___3_count, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, int64_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int64_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddFixedLengthArrayPropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddFixedLengthArrayPropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_count, ___4_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_count, ___4_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVariableLengthArrayPropertyTableProperty_mF72A859E3076AAFBB9DD5B378CE0F535845A94C3 (intptr_t ___0_thiz, ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* ___1_implementation, intptr_t ___2_values, intptr_t ___3_offsets, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
+{
+	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestGltfModel_AddVariableLengthArrayPropertyTableProperty", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____1_implementation_marshaled = NULL;
+	if (___1_implementation == NULL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_null_exception("implementation"), NULL);
+	bool ___safeHandle_reference_incremented_for____1_implementation = false;
+	SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(___1_implementation, (&___safeHandle_reference_incremented_for____1_implementation), NULL);
+	____1_implementation_marshaled = reinterpret_cast<void*>((___1_implementation)->___handle);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestGltfModel_AddVariableLengthArrayPropertyTableProperty)(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_offsets, ___4_reinteropException);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_thiz, ____1_implementation_marshaled, ___2_values, ___3_offsets, ___4_reinteropException);
+	#endif
+
+	if (___safeHandle_reference_incremented_for____1_implementation)
+	{
+		SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(___1_implementation, NULL);
+	}
+
+	return returnValue;
+}
+// Method Definition Index: 29311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275* TestGltfModel_AddFeatureIdAttribute_mA040136A3904BB5234CD6DB1A5ABACE0B3C3551C (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___0_featureIds, int64_t ___1_featureCount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1607>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1608>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral829DC1971526D3C94F891F7B213DCA5240D6DFD6)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddFeatureIdAttribute_mA040136A3904BB5234CD6DB1A5ABACE0B3C3551C_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1609>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1610>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* L_6 = ___0_featureIds;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		int64_t L_8 = ___1_featureCount;
+		intptr_t L_9;
+		L_9 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdAttribute_mE5964A3BEEFE2E9238B4B26C1788B01E8A9A584F(L_4, L_5, L_7, L_8, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1611>
+		intptr_t L_10 = V_0;
+		bool L_11;
+		L_11 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_10, 0, NULL);
+		if (!L_11)
+		{
+			G_B5_0 = L_9;
+			goto IL_005a;
+		}
+		G_B4_0 = L_9;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1611>
+		intptr_t L_12 = V_0;
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_12, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_13, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddFeatureIdAttribute_mA040136A3904BB5234CD6DB1A5ABACE0B3C3551C_RuntimeMethod_var)));
+	}
+
+IL_005a:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1612>
+		RuntimeObject* L_14;
+		L_14 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275*)CastclassClass((RuntimeObject*)L_14, CesiumFeatureIdAttribute_tB29DDF0B7662646A7AD2C5BA0CE837023A5CC275_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939* TestGltfModel_AddFeatureIdTexture_m80C9EEEABD9A9325E6287B1BA61DC11ACAD530E6 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___0_featureIds, int64_t ___1_featureCount, float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D* ___2_uvs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1619>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1620>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFDAE1EDD467260256BE13F5103F412F9C293681D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddFeatureIdTexture_m80C9EEEABD9A9325E6287B1BA61DC11ACAD530E6_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1621>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1622>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* L_6 = ___0_featureIds;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		int64_t L_8 = ___1_featureCount;
+		float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D* L_9 = ___2_uvs;
+		intptr_t L_10;
+		L_10 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_9, NULL);
+		intptr_t L_11;
+		L_11 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFeatureIdTexture_m686BB874857013B7789F9BA91F5E737325BEE021(L_4, L_5, L_7, L_8, L_10, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1623>
+		intptr_t L_12 = V_0;
+		bool L_13;
+		L_13 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_12, 0, NULL);
+		if (!L_13)
+		{
+			G_B5_0 = L_11;
+			goto IL_0060;
+		}
+		G_B4_0 = L_11;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1623>
+		intptr_t L_14 = V_0;
+		RuntimeObject* L_15;
+		L_15 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_14, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_15, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddFeatureIdTexture_m80C9EEEABD9A9325E6287B1BA61DC11ACAD530E6_RuntimeMethod_var)));
+	}
+
+IL_0060:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1624>
+		RuntimeObject* L_16;
+		L_16 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939*)CastclassClass((RuntimeObject*)L_16, CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddBooleanPropertyTableProperty_m02DD313A5C382564FEDCC72E836DE3FD56E8D3EE (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1631>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1632>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF9D47C21A07F5A38AB37F4D9804A2238D260235E)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddBooleanPropertyTableProperty_m02DD313A5C382564FEDCC72E836DE3FD56E8D3EE_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1633>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1634>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddBooleanPropertyTableProperty_m2730195871E101AF3C3F0C3FBB24384ADCC678C9(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1635>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1635>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddBooleanPropertyTableProperty_m02DD313A5C382564FEDCC72E836DE3FD56E8D3EE_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1636>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddIntPropertyTableProperty_m2131FB09AFB66EB525BC69E0130891F88859DDB6 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_values, bool ___1_normalized, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* G_B5_1 = NULL;
+	intptr_t G_B5_2;
+	memset((&G_B5_2), 0, sizeof(G_B5_2));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* G_B4_1 = NULL;
+	intptr_t G_B4_2;
+	memset((&G_B4_2), 0, sizeof(G_B4_2));
+	int32_t G_B6_0 = 0;
+	intptr_t G_B6_1;
+	memset((&G_B6_1), 0, sizeof(G_B6_1));
+	ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* G_B6_2 = NULL;
+	intptr_t G_B6_3;
+	memset((&G_B6_3), 0, sizeof(G_B6_3));
+	intptr_t G_B8_0;
+	memset((&G_B8_0), 0, sizeof(G_B8_0));
+	intptr_t G_B7_0;
+	memset((&G_B7_0), 0, sizeof(G_B7_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1643>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1644>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral44E4A9584E01769633DAADDD47AF1BA0808DA4B0)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddIntPropertyTableProperty_m2131FB09AFB66EB525BC69E0130891F88859DDB6_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1645>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1646>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		bool L_8 = ___1_normalized;
+		if (L_8)
+		{
+			G_B5_0 = L_7;
+			G_B5_1 = L_5;
+			G_B5_2 = L_4;
+			goto IL_003e;
+		}
+		G_B4_0 = L_7;
+		G_B4_1 = L_5;
+		G_B4_2 = L_4;
+	}
+	{
+		G_B6_0 = 0;
+		G_B6_1 = G_B4_0;
+		G_B6_2 = G_B4_1;
+		G_B6_3 = G_B4_2;
+		goto IL_003f;
+	}
+
+IL_003e:
+	{
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
+		G_B6_2 = G_B5_1;
+		G_B6_3 = G_B5_2;
+	}
+
+IL_003f:
+	{
+		intptr_t L_9;
+		L_9 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddIntPropertyTableProperty_m1EFDCDE52056E6C1F34FCEC47E4601D359ABBD38(G_B6_3, G_B6_2, G_B6_1, (uint8_t)G_B6_0, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1647>
+		intptr_t L_10 = V_0;
+		bool L_11;
+		L_11 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_10, 0, NULL);
+		if (!L_11)
+		{
+			G_B8_0 = L_9;
+			goto IL_0060;
+		}
+		G_B7_0 = L_9;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1647>
+		intptr_t L_12 = V_0;
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_12, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_13, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddIntPropertyTableProperty_m2131FB09AFB66EB525BC69E0130891F88859DDB6_RuntimeMethod_var)));
+	}
+
+IL_0060:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1648>
+		RuntimeObject* L_14;
+		L_14 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B8_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_14, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddDoublePropertyTableProperty_m8B1DE4E7B0047BA689C58E52B55ADA4A783D846B (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1655>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1656>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral17C83A6CB4A5881FA5611C38B01730B34CF59F63)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddDoublePropertyTableProperty_m8B1DE4E7B0047BA689C58E52B55ADA4A783D846B_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1657>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1658>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddDoublePropertyTableProperty_mC3FEF4227669332D3BDB470B0CCAC5745B9E266F(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1659>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1659>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddDoublePropertyTableProperty_m8B1DE4E7B0047BA689C58E52B55ADA4A783D846B_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1660>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddVec2PropertyTableProperty_mD3A3722CA49A6F582CB138B0DCE6EE974B2D132A (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1667>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1668>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF4905CFD7826176D948F7022896CEB728F03244A)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVec2PropertyTableProperty_mD3A3722CA49A6F582CB138B0DCE6EE974B2D132A_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1669>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1670>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		float2U5BU5D_tD6F84D7559B06160342AF714C359653B3E84F26D* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec2PropertyTableProperty_mFCC922D6D28309969C500768E40EA8DE96A10C48(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1671>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1671>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVec2PropertyTableProperty_mD3A3722CA49A6F582CB138B0DCE6EE974B2D132A_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1672>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddVec3PropertyTableProperty_m8BF5A6FBE22847A664AA90A7D33CD8540442993F (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1679>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1680>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCF729C57E5798A1654FC4CED91836C8D90CF26A8)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVec3PropertyTableProperty_m8BF5A6FBE22847A664AA90A7D33CD8540442993F_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1681>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1682>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec3PropertyTableProperty_mF07E5EDBBCFB6EA79C433D3777DD155927CCBD6F(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1683>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1683>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVec3PropertyTableProperty_m8BF5A6FBE22847A664AA90A7D33CD8540442993F_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1684>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddVec4PropertyTableProperty_m09A1B343E698D1132E0CF35FF96417BF3A3C0563 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, float4U5BU5D_t2BC471F1A0829AE3002CE1E416600ACD8E8942F8* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1691>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1692>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE640370E6F848CCBD0B7F395A21EFDAF2A015153)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVec4PropertyTableProperty_m09A1B343E698D1132E0CF35FF96417BF3A3C0563_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1693>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1694>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		float4U5BU5D_t2BC471F1A0829AE3002CE1E416600ACD8E8942F8* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVec4PropertyTableProperty_mA7D9CF022AD347A1F64A14D760A4395CCF57BFC4(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1695>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1695>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVec4PropertyTableProperty_m09A1B343E698D1132E0CF35FF96417BF3A3C0563_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1696>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddMat2PropertyTableProperty_m6CDE1D94B5A927D3171FDE1DF2548E4E8187772A (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, float2x2U5BU5D_t961829A52C6FD3736E3E777C349513B29A2A130A* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1703>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1704>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral73C721D516B427AE1E0C015A39A52A3BEFE750F5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddMat2PropertyTableProperty_m6CDE1D94B5A927D3171FDE1DF2548E4E8187772A_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1705>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1706>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		float2x2U5BU5D_t961829A52C6FD3736E3E777C349513B29A2A130A* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat2PropertyTableProperty_m6EFFF00EAE3C3CD81720AB15AC650CA394B670DC(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1707>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1707>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddMat2PropertyTableProperty_m6CDE1D94B5A927D3171FDE1DF2548E4E8187772A_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1708>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddMat3PropertyTableProperty_m846C4173707901C661590C8CBBFF4236BEB735C4 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, float3x3U5BU5D_t1725FBCD3A5C375FB965A450CF795FB264D589B2* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1715>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1716>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE292E7EC01F90A3AB953156316FE9F883ADE97B6)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddMat3PropertyTableProperty_m846C4173707901C661590C8CBBFF4236BEB735C4_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1717>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1718>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		float3x3U5BU5D_t1725FBCD3A5C375FB965A450CF795FB264D589B2* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat3PropertyTableProperty_m358AA97739BDEF7A63400125113691B82C231333(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1719>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1719>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddMat3PropertyTableProperty_m846C4173707901C661590C8CBBFF4236BEB735C4_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1720>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddMat4PropertyTableProperty_m58B8295E2198D8E1FDD72DC8D75317D2A476306F (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, float4x4U5BU5D_t9C0CFBA6B20A518553DCDEFDBF29C573DCB0EA1E* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1727>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1728>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE1DBDB384B259ED9C428AF6E76150470CC351131)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddMat4PropertyTableProperty_m58B8295E2198D8E1FDD72DC8D75317D2A476306F_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1729>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1730>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		float4x4U5BU5D_t9C0CFBA6B20A518553DCDEFDBF29C573DCB0EA1E* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddMat4PropertyTableProperty_m0D812CD15789CBDF82A05C2823EFF0F2AAC7E4F5(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1731>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1731>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddMat4PropertyTableProperty_m58B8295E2198D8E1FDD72DC8D75317D2A476306F_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1732>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddStringPropertyTableProperty_m5599C740796F31244E5BBE41B9962C892BA97BD7 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1739>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1740>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1FE6924532DC7FCD0040E7025CC72F35E8CE479D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddStringPropertyTableProperty_m5599C740796F31244E5BBE41B9962C892BA97BD7_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1741>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1742>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		intptr_t L_8;
+		L_8 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddStringPropertyTableProperty_mE6290E9260588AFE61F73C620AB3C34D99159366(L_4, L_5, L_7, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1743>
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_9, 0, NULL);
+		if (!L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0059;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1743>
+		intptr_t L_11 = V_0;
+		RuntimeObject* L_12;
+		L_12 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddStringPropertyTableProperty_m5599C740796F31244E5BBE41B9962C892BA97BD7_RuntimeMethod_var)));
+	}
+
+IL_0059:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1744>
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_13, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddFixedLengthArrayPropertyTableProperty_m40208910C1B1B9748A43B07ED5337CC9708CF853 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___0_values, int64_t ___1_count, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1751>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1752>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE39D6C3E2AC62EEC095EEED95712B6A109538C69)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddFixedLengthArrayPropertyTableProperty_m40208910C1B1B9748A43B07ED5337CC9708CF853_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1753>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1754>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		int64_t L_8 = ___1_count;
+		intptr_t L_9;
+		L_9 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddFixedLengthArrayPropertyTableProperty_mC7CE17D6E139D8E45AB0BFA29ADCED63F5C8A5D6(L_4, L_5, L_7, L_8, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1755>
+		intptr_t L_10 = V_0;
+		bool L_11;
+		L_11 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_10, 0, NULL);
+		if (!L_11)
+		{
+			G_B5_0 = L_9;
+			goto IL_005a;
+		}
+		G_B4_0 = L_9;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1755>
+		intptr_t L_12 = V_0;
+		RuntimeObject* L_13;
+		L_13 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_12, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_13, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddFixedLengthArrayPropertyTableProperty_m40208910C1B1B9748A43B07ED5337CC9708CF853_RuntimeMethod_var)));
+	}
+
+IL_005a:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1756>
+		RuntimeObject* L_14;
+		L_14 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_14, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 29324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* TestGltfModel_AddVariableLengthArrayPropertyTableProperty_m4357F273967F6A35AEB693A63B023E4B7E1757A5 (TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* __this, DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___0_values, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___1_offsets, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	intptr_t G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1763>
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_0 = __this->____implementation;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_1 = __this->____implementation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(5, L_1);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1764>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2F667C41F83D207BC658DBAA0D06B41D6374DE68)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVariableLengthArrayPropertyTableProperty_m4357F273967F6A35AEB693A63B023E4B7E1757A5_RuntimeMethod_var)));
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1765>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1766>
+		intptr_t L_4;
+		L_4 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* L_5 = __this->____implementation;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_6 = ___0_values;
+		intptr_t L_7;
+		L_7 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_6, NULL);
+		UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* L_8 = ___1_offsets;
+		intptr_t L_9;
+		L_9 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E((RuntimeObject*)L_8, NULL);
+		intptr_t L_10;
+		L_10 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_AddVariableLengthArrayPropertyTableProperty_mF72A859E3076AAFBB9DD5B378CE0F535845A94C3(L_4, L_5, L_7, L_9, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1767>
+		intptr_t L_11 = V_0;
+		bool L_12;
+		L_12 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_11, 0, NULL);
+		if (!L_12)
+		{
+			G_B5_0 = L_10;
+			goto IL_005f;
+		}
+		G_B4_0 = L_10;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1767>
+		intptr_t L_13 = V_0;
+		RuntimeObject* L_14;
+		L_14 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_13, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_14, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestGltfModel_AddVariableLengthArrayPropertyTableProperty_m4357F273967F6A35AEB693A63B023E4B7E1757A5_RuntimeMethod_var)));
+	}
+
+IL_005f:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1768>
+		RuntimeObject* L_15;
+		L_15 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(G_B5_0, NULL);
+		return ((CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9*)CastclassClass((RuntimeObject*)L_15, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9_il2cpp_TypeInfo_var));
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mDFFF0E1E9EB43A0ABC3B4D5F65AB73B067536538 (ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* __this, TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* ___0_managed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1561>
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1563>
+		TestGltfModel_tFC3586C265BB17B080D1895090AF579F31381B56* L_0 = ___0_managed;
+		intptr_t L_1;
+		L_1 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(L_0, NULL);
+		intptr_t L_2;
+		L_2 = TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_CreateImplementation_mB49ACCBB645D1F7BA8BD104BD70F0D7DF987E441(L_1, NULL);
+		SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1564>
+		return;
+	}
+}
+// Method Definition Index: 29326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_mA97029F72661709712DD9DCFEF772E43AEC41BD6 (ImplementationHandle_tCB0185A159D5ABD3FA73D6330879184C652A9C78* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1569>
+		intptr_t L_0 = ((SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7*)__this)->___handle;
+		TestGltfModel_DotNet_CesiumForUnity_TestGltfModel_DestroyImplementation_m3A99602024D8AC366BC3EDF7C39514E63673D0C9(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestGltfModel-generated.cs:1570>
+		return (bool)1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndCatchIt_mC9387AD7588A3DE309CFC5B3896B22954A3568F3 (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
+{
+	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndCatchIt", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	uint8_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndCatchIt)(___0_thiz, ___1_reinteropException);
+	#else
+	uint8_t returnValue = il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt_m83E2E83D63748B3785C45850A790C096B62D9283 (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
+{
+	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	uint8_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt)(___0_thiz, ___1_reinteropException);
+	#else
+	uint8_t returnValue = il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_ThrowCppStdException_mF33985029223A504FB42A6567F195928A1237BA9 (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
+{
+	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestReinterop_ThrowCppStdException", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	uint8_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestReinterop_ThrowCppStdException)(___0_thiz, ___1_reinteropException);
+	#else
+	uint8_t returnValue = il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t TestReinterop_DotNet_CesiumForUnity_TestReinterop_ThrowOtherCppExceptionType_m77276FECBFF95B1411D76CA2796573B18428DF3D (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
+{
+	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("CesiumForUnityNative-Runtime"), "DotNet_CesiumForUnity_TestReinterop_ThrowOtherCppExceptionType", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_CesiumForUnityNative_Runtime_INTERNAL
+	uint8_t returnValue = reinterpret_cast<PInvokeFunc>(DotNet_CesiumForUnity_TestReinterop_ThrowOtherCppExceptionType)(___0_thiz, ___1_reinteropException);
+	#else
+	uint8_t returnValue = il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 29331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestReinterop_CallThrowAnExceptionFromCppAndCatchIt_m5C5A195386F98462D8501199E6918ABF1ABDDCB3 (TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint8_t G_B2_0 = 0x0;
+	uint8_t G_B1_0 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:397>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:398>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:399>
+		intptr_t L_0;
+		L_0 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		uint8_t L_1;
+		L_1 = TestReinterop_DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndCatchIt_mC9387AD7588A3DE309CFC5B3896B22954A3568F3(L_0, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:400>
+		intptr_t L_2 = V_0;
+		bool L_3;
+		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
+		if (!L_3)
+		{
+			G_B2_0 = L_1;
+			goto IL_0032;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:400>
+		intptr_t L_4 = V_0;
+		RuntimeObject* L_5;
+		L_5 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_5, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestReinterop_CallThrowAnExceptionFromCppAndCatchIt_m5C5A195386F98462D8501199E6918ABF1ABDDCB3_RuntimeMethod_var)));
+	}
+
+IL_0032:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:401>
+		return (bool)((!(((uint32_t)G_B2_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+// Method Definition Index: 29332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt_m20EB1998656F4FE4B0583727F74A8B068111C7FD (TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint8_t G_B2_0 = 0x0;
+	uint8_t G_B1_0 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:408>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:409>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:410>
+		intptr_t L_0;
+		L_0 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		uint8_t L_1;
+		L_1 = TestReinterop_DotNet_CesiumForUnity_TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt_m83E2E83D63748B3785C45850A790C096B62D9283(L_0, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:411>
+		intptr_t L_2 = V_0;
+		bool L_3;
+		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
+		if (!L_3)
+		{
+			G_B2_0 = L_1;
+			goto IL_0032;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:411>
+		intptr_t L_4 = V_0;
+		RuntimeObject* L_5;
+		L_5 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_5, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestReinterop_CallThrowAnExceptionFromCppAndDontCatchIt_m20EB1998656F4FE4B0583727F74A8B068111C7FD_RuntimeMethod_var)));
+	}
+
+IL_0032:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:412>
+		return (bool)((!(((uint32_t)G_B2_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+// Method Definition Index: 29333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestReinterop_ThrowCppStdException_mA3E813441A2203FFE3897CBB701D53E727B3A9CE (TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint8_t G_B2_0 = 0x0;
+	uint8_t G_B1_0 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:419>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:420>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:421>
+		intptr_t L_0;
+		L_0 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		uint8_t L_1;
+		L_1 = TestReinterop_DotNet_CesiumForUnity_TestReinterop_ThrowCppStdException_mF33985029223A504FB42A6567F195928A1237BA9(L_0, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:422>
+		intptr_t L_2 = V_0;
+		bool L_3;
+		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
+		if (!L_3)
+		{
+			G_B2_0 = L_1;
+			goto IL_0032;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:422>
+		intptr_t L_4 = V_0;
+		RuntimeObject* L_5;
+		L_5 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_5, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestReinterop_ThrowCppStdException_mA3E813441A2203FFE3897CBB701D53E727B3A9CE_RuntimeMethod_var)));
+	}
+
+IL_0032:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:423>
+		return (bool)((!(((uint32_t)G_B2_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+// Method Definition Index: 29334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestReinterop_ThrowOtherCppExceptionType_m13FDB96F7656C81A6CAF5FEFD029C45380DAA95C (TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint8_t G_B2_0 = 0x0;
+	uint8_t G_B1_0 = 0x0;
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:430>
+		il2cpp_codegen_runtime_class_init_inline(ReinteropInitializer_t4EA3C28134472D46B8485711894D636A4477E487_il2cpp_TypeInfo_var);
+		ReinteropInitializer_Initialize_mC21B2A7426F23F6D19F90EB4462149EEC23CCF79(NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:431>
+		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:432>
+		intptr_t L_0;
+		L_0 = ObjectHandleUtility_CreateHandle_mB79C62851E53353881B5E0377965190872787A0E(__this, NULL);
+		uint8_t L_1;
+		L_1 = TestReinterop_DotNet_CesiumForUnity_TestReinterop_ThrowOtherCppExceptionType_m77276FECBFF95B1411D76CA2796573B18428DF3D(L_0, (intptr_t*)((uintptr_t)(&V_0)), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:433>
+		intptr_t L_2 = V_0;
+		bool L_3;
+		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
+		if (!L_3)
+		{
+			G_B2_0 = L_1;
+			goto IL_0032;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:433>
+		intptr_t L_4 = V_0;
+		RuntimeObject* L_5;
+		L_5 = ObjectHandleUtility_GetObjectAndFreeHandle_mB4FCAAFE8CB8CE76827B6AC5D05D584F4F5BD8FD(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(((Exception_t*)CastclassClass((RuntimeObject*)L_5, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)))), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestReinterop_ThrowOtherCppExceptionType_m13FDB96F7656C81A6CAF5FEFD029C45380DAA95C_RuntimeMethod_var)));
+	}
+
+IL_0032:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/generated/Reinterop.RoslynSourceGenerator/TestReinterop-generated.cs:434>
+		return (bool)((!(((uint32_t)G_B2_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+// Method Definition Index: 29335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestReinterop_ThrowAnException_m43AB0F9C699C721097405EC3D1F826B50942C34F (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/TestReinterop.cs:18>
+		Exception_t* L_0 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral04D9527C40F734E5103F97272E13D55C25FF9976)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TestReinterop_ThrowAnException_m43AB0F9C699C721097405EC3D1F826B50942C34F_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 29336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestReinterop__ctor_mE01DA54EDC3DEF0B72F4CA969B9338D6EE16559E (TestReinterop_tE15435F51D069227561B889CF0F1AB6FC39C3DCC* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Helpers_FromMathematics_m8CB96E41C8AFC98D3FBDBD51283C7A77D4655409 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_vector, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:16>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_vector;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_vector;
+		double L_3 = L_2.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_vector;
+		double L_5 = L_4.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), ((float)L_1), ((float)L_3), ((float)L_5), NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 29339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Helpers_FromMathematics_m480F9CECA74BED4970A73DA27BA2D8126C596BB8 (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_vector, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:21>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___0_vector;
+		double L_1 = L_0.___x;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___0_vector;
+		double L_3 = L_2.___y;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = ___0_vector;
+		double L_5 = L_4.___z;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = ___0_vector;
+		double L_7 = L_6.___w;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_8), ((float)L_1), ((float)L_3), ((float)L_5), ((float)L_7), NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 29340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C Helpers_ToMathematics_m93248C8886F21E2C39A5DD66B5F3A44E0BBF0ABD (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_matrix, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:26>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:27>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:28>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:29>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:30>
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = ___0_matrix;
+		float L_1 = L_0.___m00;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2 = ___0_matrix;
+		float L_3 = L_2.___m01;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4 = ___0_matrix;
+		float L_5 = L_4.___m02;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6 = ___0_matrix;
+		float L_7 = L_6.___m03;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_8 = ___0_matrix;
+		float L_9 = L_8.___m10;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_10 = ___0_matrix;
+		float L_11 = L_10.___m11;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_12 = ___0_matrix;
+		float L_13 = L_12.___m12;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_14 = ___0_matrix;
+		float L_15 = L_14.___m13;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16 = ___0_matrix;
+		float L_17 = L_16.___m20;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_18 = ___0_matrix;
+		float L_19 = L_18.___m21;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_20 = ___0_matrix;
+		float L_21 = L_20.___m22;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_22 = ___0_matrix;
+		float L_23 = L_22.___m23;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_24 = ___0_matrix;
+		float L_25 = L_24.___m30;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_26 = ___0_matrix;
+		float L_27 = L_26.___m31;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_28 = ___0_matrix;
+		float L_29 = L_28.___m32;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_30 = ___0_matrix;
+		float L_31 = L_30.___m33;
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		double4x4__ctor_mDB1C9BED251AFC0CD16CA1D52545C5A1DAA6878F_inline((&L_32), ((double)L_1), ((double)L_3), ((double)L_5), ((double)L_7), ((double)L_9), ((double)L_11), ((double)L_13), ((double)L_15), ((double)L_17), ((double)L_19), ((double)L_21), ((double)L_23), ((double)L_25), ((double)L_27), ((double)L_29), ((double)L_31), NULL);
+		return L_32;
+	}
+}
+// Method Definition Index: 29341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Helpers_FromMathematics_m75193037A87DE03FFDF4C5047BC19EF64F70C038 (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:35>
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2;
+		L_2 = Helpers_FromMathematics_m480F9CECA74BED4970A73DA27BA2D8126C596BB8(L_1, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_3 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_5;
+		L_5 = Helpers_FromMathematics_m480F9CECA74BED4970A73DA27BA2D8126C596BB8(L_4, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_6 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_7 = L_6.___c2;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
+		L_8 = Helpers_FromMathematics_m480F9CECA74BED4970A73DA27BA2D8126C596BB8(L_7, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_9 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_10 = L_9.___c3;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
+		L_11 = Helpers_FromMathematics_m480F9CECA74BED4970A73DA27BA2D8126C596BB8(L_10, NULL);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Matrix4x4__ctor_m6523044D700F15EC6BCD183633A329EE56AA8C99((&L_12), L_2, L_5, L_8, L_11, NULL);
+		return L_12;
+	}
+}
+// Method Definition Index: 29342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 Helpers_ToMathematicsDouble3x3_m1F80F0DD792DD2610FF628FB6BF90D94158E8367 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_matrix, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:40>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:41>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:42>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:43>
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = ___0_matrix;
+		float L_1 = L_0.___m00;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2 = ___0_matrix;
+		float L_3 = L_2.___m01;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4 = ___0_matrix;
+		float L_5 = L_4.___m02;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6 = ___0_matrix;
+		float L_7 = L_6.___m10;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_8 = ___0_matrix;
+		float L_9 = L_8.___m11;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_10 = ___0_matrix;
+		float L_11 = L_10.___m12;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_12 = ___0_matrix;
+		float L_13 = L_12.___m20;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_14 = ___0_matrix;
+		float L_15 = L_14.___m21;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16 = ___0_matrix;
+		float L_17 = L_16.___m22;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		double3x3__ctor_mBEE4C5D1CCF08BD6C8E94DD819F144FBC690E888_inline((&L_18), ((double)L_1), ((double)L_3), ((double)L_5), ((double)L_7), ((double)L_9), ((double)L_11), ((double)L_13), ((double)L_15), ((double)L_17), NULL);
+		return L_18;
+	}
+}
+// Method Definition Index: 29343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 Helpers_ToMathematicsFloat3x3_mF27E1692D7A87E7AA0DA230A59DF0F44C0C7D98D (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_matrix, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:48>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:49>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:50>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:51>
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = ___0_matrix;
+		float L_1 = L_0.___m00;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2 = ___0_matrix;
+		float L_3 = L_2.___m01;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4 = ___0_matrix;
+		float L_5 = L_4.___m02;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6 = ___0_matrix;
+		float L_7 = L_6.___m10;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_8 = ___0_matrix;
+		float L_9 = L_8.___m11;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_10 = ___0_matrix;
+		float L_11 = L_10.___m12;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_12 = ___0_matrix;
+		float L_13 = L_12.___m20;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_14 = ___0_matrix;
+		float L_15 = L_14.___m21;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16 = ___0_matrix;
+		float L_17 = L_16.___m22;
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED_inline((&L_18), L_1, L_3, L_5, L_7, L_9, L_11, L_13, L_15, L_17, NULL);
+		return L_18;
+	}
+}
+// Method Definition Index: 29344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers_MatrixToRotationAndScale_mA7BA8F572035E772AB8B038C797831E630BDAC46 (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_matrix, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_rotation, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___2_scale, const RuntimeMethod* method) 
+{
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	double V_2 = 0.0;
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:56>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_0 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = L_0.___c0;
+		double L_2;
+		L_2 = math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline(L_1, NULL);
+		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:57>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_3 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = L_3.___c1;
+		double L_5;
+		L_5 = math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline(L_4, NULL);
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:58>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_6 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7 = L_6.___c2;
+		double L_8;
+		L_8 = math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline(L_7, NULL);
+		V_2 = L_8;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:60>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:61>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:62>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:63>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_9 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = L_9.___c0;
+		double L_11 = V_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		L_12 = double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline(L_10, L_11, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13;
+		L_13 = float3_op_Explicit_mC39F75EB64FD16249FAD573FD8B6ADB14F132D78_inline(L_12, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_14 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_15 = L_14.___c1;
+		double L_16 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_17;
+		L_17 = double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline(L_15, L_16, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_18;
+		L_18 = float3_op_Explicit_mC39F75EB64FD16249FAD573FD8B6ADB14F132D78_inline(L_17, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_19 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_20 = L_19.___c2;
+		double L_21 = V_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_22;
+		L_22 = double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline(L_20, L_21, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_23;
+		L_23 = float3_op_Explicit_mC39F75EB64FD16249FAD573FD8B6ADB14F132D78_inline(L_22, NULL);
+		float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_inline((&V_3), L_13, L_18, L_23, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:65>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_24 = ___2_scale;
+		double L_25 = V_0;
+		double L_26 = V_1;
+		double L_27 = V_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_28;
+		memset((&L_28), 0, sizeof(L_28));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_28), L_25, L_26, L_27, NULL);
+		*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_24 = L_28;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:67>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_29 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_30 = L_29.___c0;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_31 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_32 = L_31.___c1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_33;
+		L_33 = math_cross_mD4DDFE34A1DA411148681014E59AEDC0655C0973_inline(L_30, L_32, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:68>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_34 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_35 = L_34.___c2;
+		double L_36;
+		L_36 = math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline(L_33, L_35, NULL);
+		if ((!(((double)L_36) < ((double)(0.0)))))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:70>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_37 = V_3;
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_38;
+		L_38 = float3x3_op_Multiply_mF3B9F7F790D87EFB7EBC38F26ABDC9305816484A_inline(L_37, (-1.0f), NULL);
+		V_3 = L_38;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:71>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_39 = ___2_scale;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_40 = ___2_scale;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_41 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_40);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_42;
+		L_42 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_41, (-1.0), NULL);
+		*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_39 = L_42;
+	}
+
+IL_00b9:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:74>
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_43 = ___1_rotation;
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_44 = V_3;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_45;
+		L_45 = math_quaternion_mE9DBDC1E38A93968B447FF4D365823A7889B0749_inline(L_44, NULL);
+		*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_43 = L_45;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:75>
+		return;
+	}
+}
+// Method Definition Index: 29345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers_MatrixToTranslationRotationAndScale_m75BA42D7D45EABCAEBD7A5489BEFDE8908D352CF (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_translation, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___2_rotation, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___3_scale, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:79>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_0 = ___1_translation;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_1 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c3);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_1, NULL);
+		*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_0 = L_2;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:81>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:82>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:83>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:84>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_3 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c0);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4;
+		L_4 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_3, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_5 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c1);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6;
+		L_6 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_5, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_7 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c2);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8;
+		L_8 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_7, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double3x3__ctor_m0BF27C1E4D2C1C4965521A8B3A919CF9DB11B305_inline((&L_9), L_4, L_6, L_8, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_10 = ___2_rotation;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_11 = ___3_scale;
+		Helpers_MatrixToRotationAndScale_mA7BA8F572035E772AB8B038C797831E630BDAC46(L_9, L_10, L_11, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:85>
+		return;
+	}
+}
+// Method Definition Index: 29346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers_MatrixToInaccurateRotationAndScale_m47E8DEAED109886AABCC62F11B18860885F58EC6 (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_matrix, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_scale, const RuntimeMethod* method) 
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:91>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_0 = ___0_matrix;
+		Helpers_MatrixToRotationAndScale_mA7BA8F572035E772AB8B038C797831E630BDAC46(L_0, (&V_0), (&V_1), NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:93>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_1 = ___1_rotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_2 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
+		L_3 = quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41(L_2, NULL);
+		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_1 = L_3;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:94>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___2_scale;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6;
+		L_6 = float3_op_Explicit_mC39F75EB64FD16249FAD573FD8B6ADB14F132D78_inline(L_5, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6(L_6, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_4 = L_7;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:95>
+		return;
+	}
+}
+// Method Definition Index: 29347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers_MatrixToInaccurateTranslationRotationAndScale_m7BBC31EED0356F7C67B2D1CC3C179E980110DA3E (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_translation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___2_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___3_scale, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:99>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___1_translation;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_1 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c3);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Helpers_FromMathematics_m8CB96E41C8AFC98D3FBDBD51283C7A77D4655409(L_2, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_3;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:101>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:102>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:103>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:104>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_4 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c0);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_4, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_6 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c1);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7;
+		L_7 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_6, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_8 = (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*)(&(&___0_matrix)->___c2);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9;
+		L_9 = double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline(L_8, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		double3x3__ctor_m0BF27C1E4D2C1C4965521A8B3A919CF9DB11B305_inline((&L_10), L_5, L_7, L_9, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_11 = ___2_rotation;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = ___3_scale;
+		Helpers_MatrixToInaccurateRotationAndScale_m47E8DEAED109886AABCC62F11B18860885F58EC6(L_10, L_11, L_12, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:105>
+		return;
+	}
+}
+// Method Definition Index: 29348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C Helpers_TranslationRotationAndScaleToMatrix_m16B1C0AC46551F519EE951D24DEAD7B3C225EE50 (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_translation, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_rotation, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_scale, const RuntimeMethod* method) 
+{
+	double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:109>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:110>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:111>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:112>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___2_scale;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_2), L_1, (0.0), (0.0), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = ___2_scale;
+		double L_4 = L_3.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_5), (0.0), L_4, (0.0), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___2_scale;
+		double L_7 = L_6.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_8), (0.0), (0.0), L_7, NULL);
+		double3x3__ctor_m0BF27C1E4D2C1C4965521A8B3A919CF9DB11B305_inline((&V_0), L_2, L_5, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:113>
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_9 = ___1_rotation;
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		float3x3__ctor_mF94488DFF7867CFC89648E024FA89A19F23E2FAE((&L_10), L_9, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_11;
+		L_11 = double3x3_op_Implicit_mDE9DBCF7F737C1128250D072AF94867314B7FAA1_inline(L_10, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:114>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_12 = V_0;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_13;
+		L_13 = math_mul_m8006A1F722590AD2791FB2B506A1A74A0816494F_inline(L_11, L_12, NULL);
+		V_1 = L_13;
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:115>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:116>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:117>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:118>
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/Helpers.cs:119>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_14 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_15 = L_14.___c0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline((&L_16), L_15, (0.0), NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_17 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_18 = L_17.___c1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline((&L_19), L_18, (0.0), NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_20 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_21 = L_20.___c2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline((&L_22), L_21, (0.0), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_23 = ___0_translation;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_24;
+		memset((&L_24), 0, sizeof(L_24));
+		double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline((&L_24), L_23, (1.0), NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		double4x4__ctor_mC28DA9877244770A1E61E41A50DF95F405AFD34B_inline((&L_25), L_16, L_19, L_22, L_24, NULL);
+		return L_25;
+	}
+}
+// Method Definition Index: 29349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Helpers__ctor_m22DFC8AF24CE9030865949917647F23F28DE5D43 (Helpers_tF67CB24E1B3D10F6E551B7D1DC5ED497AC3E1DD2* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeCoroutine__ctor_mBE7299BB32AE69B10EF1F1EF12B6DD132CC4CCCF (NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* __this, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___0_callback, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:10>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:12>
+		Func_2_tACBF5A1656250800CE861707354491F0611F6624* L_0 = ___0_callback;
+		__this->____callback = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____callback), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 29352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeCoroutine_GetEnumerator_mA9822DAE36EB6BBB6847643335C2B1277C7FE47D (NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* L_0 = (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1*)il2cpp_codegen_object_new(U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1_il2cpp_TypeInfo_var);
+		U3CGetEnumeratorU3Ed__2__ctor_m33BA9725115B0FB505A76B96DF2E1D9827F32492(L_0, 0, NULL);
+		U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetEnumeratorU3Ed__2__ctor_m33BA9725115B0FB505A76B96DF2E1D9827F32492 (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 29354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetEnumeratorU3Ed__2_System_IDisposable_Dispose_mA4D8FBD867DF73ED5662B1A48C95A0C6D44D2E23 (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 29355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetEnumeratorU3Ed__2_MoveNext_m3C91BF9AD8A40BFB7684936B2817712917402DF9 (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:19>
+		NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* L_4 = V_1;
+		NullCheck(L_4);
+		Func_2_tACBF5A1656250800CE861707354491F0611F6624* L_5 = L_4->____callback;
+		__this->___U3CsentinelU3E5__2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsentinelU3E5__2), (void*)L_5);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:20>
+		NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* L_6 = V_1;
+		NullCheck(L_6);
+		Func_2_tACBF5A1656250800CE861707354491F0611F6624* L_7 = L_6->____callback;
+		RuntimeObject* L_8 = __this->___U3CsentinelU3E5__2;
+		NullCheck(L_7);
+		RuntimeObject* L_9;
+		L_9 = Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_inline(L_7, L_8, NULL);
+		V_2 = L_9;
+		goto IL_0067;
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:23>
+		RuntimeObject* L_10 = V_2;
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_004e:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:24>
+		NativeCoroutine_tF6B751502085E2D89100E3ACC4597DF6F792DC34* L_11 = V_1;
+		NullCheck(L_11);
+		Func_2_tACBF5A1656250800CE861707354491F0611F6624* L_12 = L_11->____callback;
+		RuntimeObject* L_13 = __this->___U3CsentinelU3E5__2;
+		NullCheck(L_12);
+		RuntimeObject* L_14;
+		L_14 = Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_inline(L_12, L_13, NULL);
+		V_2 = L_14;
+	}
+
+IL_0067:
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:21>
+		RuntimeObject* L_15 = V_2;
+		RuntimeObject* L_16 = __this->___U3CsentinelU3E5__2;
+		if ((!(((RuntimeObject*)(RuntimeObject*)L_15) == ((RuntimeObject*)(RuntimeObject*)L_16))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/NativeCoroutine.cs:26>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 29356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetEnumeratorU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m79E3EC97A8C06FF6AE7658DF0D312D44DA8AD6AA (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 29357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetEnumeratorU3Ed__2_System_Collections_IEnumerator_Reset_mE8E016962F281593E81FBD2CD898B99EC0D7E49F (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetEnumeratorU3Ed__2_System_Collections_IEnumerator_Reset_mE8E016962F281593E81FBD2CD898B99EC0D7E49F_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 29358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetEnumeratorU3Ed__2_System_Collections_IEnumerator_get_Current_mAFD1F581B3125BCFB1F33C43240DD11A27F36C0B (U3CGetEnumeratorU3Ed__2_t5DF868267473826A8EB41B24EB481BB92CBC82A1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityLifetime_Destroy_m1312A10229B3838AB3A5EBE00C70E55733D94FA9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_o, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/UnityLifetime.cs:23>
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_o;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/UnityLifetime.cs:24>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 29360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForTask__ctor_m0B440A0940881EFFF1E8A22920283072088D6163 (WaitForTask_t266A24BCDB621B46321BF771A6963C4A80E2A2F0* __this, RuntimeObject* ___0_task, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/WaitForTask.cs:18>
+		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/WaitForTask.cs:20>
+		RuntimeObject* L_0 = ___0_task;
+		__this->____task = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____task), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/WaitForTask.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 29361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForTask_get_keepWaiting_m4A533DF619202471F353A6C4242CB8DD27195006 (WaitForTask_t266A24BCDB621B46321BF771A6963C4A80E2A2F0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.cesium.unity@AC303E3B95B5/Runtime/WaitForTask.cs:23>
+		RuntimeObject* L_0 = __this->____task;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = InterfaceFuncInvoker0< bool >::Invoke(0, IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5_il2cpp_TypeInfo_var, L_0);
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 6466
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, intptr_t ___0_handle, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_handle;
+		__this->___handle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 3242
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 1592
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline (double ___0_value, double ___1_min, double ___2_max, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		double L_0 = ___1_min;
+		double L_1 = ___2_max;
+		if ((!(((double)L_0) > ((double)L_1))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		double L_2 = ___1_min;
+		double L_3 = ___2_max;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54(L_2, L_3, Math_ThrowMinMaxException_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m27ABD6AC9591F22192AF383D61B7A4DB1CDC1C54_RuntimeMethod_var);
+	}
+
+IL_000b:
+	{
+		double L_4 = ___0_value;
+		double L_5 = ___1_min;
+		if ((!(((double)L_4) < ((double)L_5))))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		double L_6 = ___1_min;
+		return L_6;
+	}
+
+IL_0011:
+	{
+		double L_7 = ___0_value;
+		double L_8 = ___2_max;
+		if ((!(((double)L_7) > ((double)L_8))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		double L_9 = ___2_max;
+		return L_9;
+	}
+
+IL_0017:
+	{
+		double L_10 = ___0_value;
+		return L_10;
+	}
+}
+// Method Definition Index: 49889
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_cmax_mD1CA685960C6D3E73AE61E158449D1F136B2D8D9_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:6132>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_x;
+		double L_3 = L_2.___y;
+		double L_4;
+		L_4 = math_max_m8830F8721EFC73BCF991CD497115A103B86BF3BE_inline(L_1, L_3, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5 = ___0_x;
+		double L_6 = L_5.___z;
+		double L_7;
+		L_7 = math_max_m8830F8721EFC73BCF991CD497115A103B86BF3BE_inline(L_4, L_6, NULL);
+		return L_7;
+	}
+}
+// Method Definition Index: 49877
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_cmin_mD62CF2BF7B13402E46E966F3BED814004E5D8C65_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:6056>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_x;
+		double L_3 = L_2.___y;
+		double L_4;
+		L_4 = math_min_m29A6A5FB36524D911D13DDB4866FF005C7BF00D5_inline(L_1, L_3, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5 = ___0_x;
+		double L_6 = L_5.___z;
+		double L_7;
+		L_7 = math_min_m29A6A5FB36524D911D13DDB4866FF005C7BF00D5_inline(L_4, L_6, NULL);
+		return L_7;
+	}
+}
+// Method Definition Index: 45482
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 45704
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		float L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+// Method Definition Index: 52542
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4x4__ctor_mDB1C9BED251AFC0CD16CA1D52545C5A1DAA6878F_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double ___0_m00, double ___1_m01, double ___2_m02, double ___3_m03, double ___4_m10, double ___5_m11, double ___6_m12, double ___7_m13, double ___8_m20, double ___9_m21, double ___10_m22, double ___11_m23, double ___12_m30, double ___13_m31, double ___14_m32, double ___15_m33, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:74>
+		double L_0 = ___0_m00;
+		double L_1 = ___4_m10;
+		double L_2 = ___8_m20;
+		double L_3 = ___12_m30;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline((&L_4), L_0, L_1, L_2, L_3, NULL);
+		__this->___c0 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:75>
+		double L_5 = ___1_m01;
+		double L_6 = ___5_m11;
+		double L_7 = ___9_m21;
+		double L_8 = ___13_m31;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline((&L_9), L_5, L_6, L_7, L_8, NULL);
+		__this->___c1 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:76>
+		double L_10 = ___2_m02;
+		double L_11 = ___6_m12;
+		double L_12 = ___10_m22;
+		double L_13 = ___14_m32;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline((&L_14), L_10, L_11, L_12, L_13, NULL);
+		__this->___c2 = L_14;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:77>
+		double L_15 = ___3_m03;
+		double L_16 = ___7_m13;
+		double L_17 = ___11_m23;
+		double L_18 = ___15_m33;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline((&L_19), L_15, L_16, L_17, L_18, NULL);
+		__this->___c3 = L_19;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:78>
+		return;
+	}
+}
+// Method Definition Index: 51818
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3x3__ctor_mBEE4C5D1CCF08BD6C8E94DD819F144FBC690E888_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* __this, double ___0_m00, double ___1_m01, double ___2_m02, double ___3_m10, double ___4_m11, double ___5_m12, double ___6_m20, double ___7_m21, double ___8_m22, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:62>
+		double L_0 = ___0_m00;
+		double L_1 = ___3_m10;
+		double L_2 = ___6_m20;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_3), L_0, L_1, L_2, NULL);
+		__this->___c0 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:63>
+		double L_4 = ___1_m01;
+		double L_5 = ___4_m11;
+		double L_6 = ___7_m21;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_7), L_4, L_5, L_6, NULL);
+		__this->___c1 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:64>
+		double L_8 = ___2_m02;
+		double L_9 = ___5_m12;
+		double L_10 = ___8_m22;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_11), L_8, L_9, L_10, NULL);
+		__this->___c2 = L_11;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 53166
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* __this, float ___0_m00, float ___1_m01, float ___2_m02, float ___3_m10, float ___4_m11, float ___5_m12, float ___6_m20, float ___7_m21, float ___8_m22, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:62>
+		float L_0 = ___0_m00;
+		float L_1 = ___3_m10;
+		float L_2 = ___6_m20;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_3), L_0, L_1, L_2, NULL);
+		__this->___c0 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:63>
+		float L_4 = ___1_m01;
+		float L_5 = ___4_m11;
+		float L_6 = ___7_m21;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_7), L_4, L_5, L_6, NULL);
+		__this->___c1 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:64>
+		float L_8 = ___2_m02;
+		float L_9 = ___5_m12;
+		float L_10 = ___8_m22;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_11), L_8, L_9, L_10, NULL);
+		__this->___c2 = L_11;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 49623
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3643>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___0_x;
+		double L_2;
+		L_2 = math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline(L_0, L_1, NULL);
+		double L_3;
+		L_3 = math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline(L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 51590
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:334>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x;
+		double L_2 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = ___0_lhs;
+		double L_4 = L_3.___y;
+		double L_5 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___0_lhs;
+		double L_7 = L_6.___z;
+		double L_8 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_9), ((double)(L_1/L_2)), ((double)(L_4/L_5)), ((double)(L_7/L_8)), NULL);
+		return L_9;
+	}
+}
+// Method Definition Index: 52925
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Explicit_mC39F75EB64FD16249FAD573FD8B6ADB14F132D78_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:253>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_v;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		float3__ctor_mD7BFFAB3D7057D71DB7B2F5A50788D197E1AA49B_inline((&L_1), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 53165
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_c0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_c1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_c2, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:42>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_c0;
+		__this->___c0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:43>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_c1;
+		__this->___c1 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:44>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___2_c2;
+		__this->___c2 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 51554
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:41>
+		double L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:42>
+		double L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:43>
+		double L_2 = ___2_z;
+		__this->___z = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 49650
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 math_cross_mD4DDFE34A1DA411148681014E59AEDC0655C0973_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) 
+{
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3830>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1;
+		L_1 = double3_get_yzx_mFEFD36EE9E6E6470EDDCF595DEAAB85FCBAC2795_inline((&___1_y), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = double3_op_Multiply_mFF3B33CAB54AB767C1B7927B97658C307150BCA9_inline(L_0, L_1, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3;
+		L_3 = double3_get_yzx_mFEFD36EE9E6E6470EDDCF595DEAAB85FCBAC2795_inline((&___0_x), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___1_y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = double3_op_Multiply_mFF3B33CAB54AB767C1B7927B97658C307150BCA9_inline(L_3, L_4, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6;
+		L_6 = double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline(L_2, L_5, NULL);
+		V_0 = L_6;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7;
+		L_7 = double3_get_yzx_mFEFD36EE9E6E6470EDDCF595DEAAB85FCBAC2795_inline((&V_0), NULL);
+		return L_7;
+	}
+}
+// Method Definition Index: 49375
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1996>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_y;
+		double L_3 = L_2.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_x;
+		double L_5 = L_4.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_y;
+		double L_7 = L_6.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_x;
+		double L_9 = L_8.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_y;
+		double L_11 = L_10.___z;
+		return ((double)il2cpp_codegen_add(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_1, L_3)), ((double)il2cpp_codegen_multiply(L_5, L_7)))), ((double)il2cpp_codegen_multiply(L_9, L_11))));
+	}
+}
+// Method Definition Index: 53186
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 float3x3_op_Multiply_mF3B9F7F790D87EFB7EBC38F26ABDC9305816484A_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3x3.gen.cs:225>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_0 = ___0_lhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = L_0.___c0;
+		float L_2 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
+		L_3 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_1, L_2, NULL);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_4 = ___0_lhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = L_4.___c1;
+		float L_6 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
+		L_7 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_5, L_6, NULL);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_8 = ___0_lhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = L_8.___c2;
+		float L_10 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11;
+		L_11 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_9, L_10, NULL);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_inline((&L_12), L_3, L_7, L_11, NULL);
+		return L_12;
+	}
+}
+// Method Definition Index: 51581
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:268>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x;
+		double L_2 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = ___0_lhs;
+		double L_4 = L_3.___y;
+		double L_5 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___0_lhs;
+		double L_7 = L_6.___z;
+		double L_8 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_9), ((double)il2cpp_codegen_multiply(L_1, L_2)), ((double)il2cpp_codegen_multiply(L_4, L_5)), ((double)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		return L_9;
+	}
+}
+// Method Definition Index: 50172
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_quaternion_mE9DBDC1E38A93968B447FF4D365823A7889B0749_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_m, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/quaternion.cs:481>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_0 = ___0_m;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120((&L_1), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 52297
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:3008>
+		double L_0 = __this->___x;
+		double L_1 = __this->___y;
+		double L_2 = __this->___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_3), L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 51817
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3x3__ctor_m0BF27C1E4D2C1C4965521A8B3A919CF9DB11B305_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_c0, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_c1, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_c2, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:42>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_c0;
+		__this->___c0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:43>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___1_c1;
+		__this->___c1 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:44>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___2_c2;
+		__this->___c2 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 51836
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 double3x3_op_Implicit_mDE9DBCF7F737C1128250D072AF94867314B7FAA1_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:210>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_0 = ___0_v;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		double3x3__ctor_m4A89254CD6C32BCF5BCEBC60A4E712E2360DD972_inline((&L_1), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 50054
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 math_mul_m8006A1F722590AD2791FB2B506A1A74A0816494F_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_a, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/matrix.gen.cs:996>
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/matrix.gen.cs:997>
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/matrix.gen.cs:998>
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/matrix.gen.cs:999>
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_0 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = L_0.___c0;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_2 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = L_2.___c0;
+		double L_4 = L_3.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_1, L_4, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_6 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7 = L_6.___c1;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_8 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9 = L_8.___c0;
+		double L_10 = L_9.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_11;
+		L_11 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_7, L_10, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		L_12 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_5, L_11, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_13 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_14 = L_13.___c2;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_15 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_16 = L_15.___c0;
+		double L_17 = L_16.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_18;
+		L_18 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_14, L_17, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_19;
+		L_19 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_12, L_18, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_20 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_21 = L_20.___c0;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_22 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_23 = L_22.___c1;
+		double L_24 = L_23.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_25;
+		L_25 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_21, L_24, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_26 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_27 = L_26.___c1;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_28 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_29 = L_28.___c1;
+		double L_30 = L_29.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_31;
+		L_31 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_27, L_30, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_32;
+		L_32 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_25, L_31, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_33 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_34 = L_33.___c2;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_35 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_36 = L_35.___c1;
+		double L_37 = L_36.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_38;
+		L_38 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_34, L_37, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_39;
+		L_39 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_32, L_38, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_40 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_41 = L_40.___c0;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_42 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_43 = L_42.___c2;
+		double L_44 = L_43.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_45;
+		L_45 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_41, L_44, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_46 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_47 = L_46.___c1;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_48 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_49 = L_48.___c2;
+		double L_50 = L_49.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_51;
+		L_51 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_47, L_50, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_52;
+		L_52 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_45, L_51, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_53 = ___0_a;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_54 = L_53.___c2;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_55 = ___1_b;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_56 = L_55.___c2;
+		double L_57 = L_56.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_58;
+		L_58 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_54, L_57, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_59;
+		L_59 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_52, L_58, NULL);
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_60;
+		L_60 = math_double3x3_mDEDFD3D5E0FAD4EC0550DE55A86A7D199B3CC61B_inline(L_19, L_39, L_59, NULL);
+		return L_60;
+	}
+}
+// Method Definition Index: 51950
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:119>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_xyz;
+		double L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:120>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_xyz;
+		double L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:121>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_xyz;
+		double L_5 = L_4.___z;
+		__this->___z = L_5;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:122>
+		double L_6 = ___1_w;
+		__this->___w = L_6;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:123>
+		return;
+	}
+}
+// Method Definition Index: 52541
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4x4__ctor_mC28DA9877244770A1E61E41A50DF95F405AFD34B_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_c0, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_c1, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___2_c2, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___3_c3, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:45>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___0_c0;
+		__this->___c0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:46>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = ___1_c1;
+		__this->___c1 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:47>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___2_c2;
+		__this->___c2 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:48>
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_3 = ___3_c3;
+		__this->___c3 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4x4.gen.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 618
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
+{
+	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 49270
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_max_m8830F8721EFC73BCF991CD497115A103B86BF3BE_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1090>
+		double L_0 = ___1_y;
+		bool L_1;
+		L_1 = Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		double L_2 = ___0_x;
+		double L_3 = ___1_y;
+		if ((((double)L_2) > ((double)L_3)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		double L_4 = ___1_y;
+		return L_4;
+	}
+
+IL_000e:
+	{
+		double L_5 = ___0_x;
+		return L_5;
+	}
+}
+// Method Definition Index: 49252
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_min_m29A6A5FB36524D911D13DDB4866FF005C7BF00D5_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:958>
+		double L_0 = ___1_y;
+		bool L_1;
+		L_1 = Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		double L_2 = ___0_x;
+		double L_3 = ___1_y;
+		if ((((double)L_2) < ((double)L_3)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		double L_4 = ___1_y;
+		return L_4;
+	}
+
+IL_000e:
+	{
+		double L_5 = ___0_x;
+		return L_5;
+	}
+}
+// Method Definition Index: 51944
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double ___0_x, double ___1_y, double ___2_z, double ___3_w, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:44>
+		double L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:45>
+		double L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:46>
+		double L_2 = ___2_z;
+		__this->___z = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:47>
+		double L_3 = ___3_w;
+		__this->___w = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double4.gen.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 52900
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:41>
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:42>
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:43>
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 49593
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline (double ___0_x, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3407>
+		double L_0 = ___0_x;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = sqrt(L_0);
+		return L_1;
+	}
+}
+// Method Definition Index: 52914
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mD7BFFAB3D7057D71DB7B2F5A50788D197E1AA49B_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:183>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_v;
+		double L_1 = L_0.___x;
+		__this->___x = ((float)L_1);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:184>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_v;
+		double L_3 = L_2.___y;
+		__this->___y = ((float)L_3);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:185>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_v;
+		double L_5 = L_4.___z;
+		__this->___z = ((float)L_5);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:186>
+		return;
+	}
+}
+// Method Definition Index: 51716
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_get_yzx_mFEFD36EE9E6E6470EDDCF595DEAAB85FCBAC2795_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:1403>
+		double L_0 = __this->___y;
+		double L_1 = __this->___z;
+		double L_2 = __this->___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_3), L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 51580
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_mFF3B33CAB54AB767C1B7927B97658C307150BCA9_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:261>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_rhs;
+		double L_3 = L_2.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_lhs;
+		double L_5 = L_4.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_rhs;
+		double L_7 = L_6.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_lhs;
+		double L_9 = L_8.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_rhs;
+		double L_11 = L_10.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_12), ((double)il2cpp_codegen_multiply(L_1, L_3)), ((double)il2cpp_codegen_multiply(L_5, L_7)), ((double)il2cpp_codegen_multiply(L_9, L_11)), NULL);
+		return L_12;
+	}
+}
+// Method Definition Index: 51586
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:305>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_rhs;
+		double L_3 = L_2.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_lhs;
+		double L_5 = L_4.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_rhs;
+		double L_7 = L_6.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_lhs;
+		double L_9 = L_8.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_rhs;
+		double L_11 = L_10.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_12), ((double)il2cpp_codegen_subtract(L_1, L_3)), ((double)il2cpp_codegen_subtract(L_5, L_7)), ((double)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		return L_12;
+	}
+}
+// Method Definition Index: 52927
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:268>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___0_lhs;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___0_lhs;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		return L_9;
+	}
+}
+// Method Definition Index: 51827
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3x3__ctor_m4A89254CD6C32BCF5BCEBC60A4E712E2360DD972_inline (double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:152>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_0 = ___0_v;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = L_0.___c0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline(L_1, NULL);
+		__this->___c0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:153>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_3 = ___0_v;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = L_3.___c1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline(L_4, NULL);
+		__this->___c1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:154>
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_6 = ___0_v;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = L_6.___c2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8;
+		L_8 = double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline(L_7, NULL);
+		__this->___c2 = L_8;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:155>
+		return;
+	}
+}
+// Method Definition Index: 51583
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:283>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_rhs;
+		double L_3 = L_2.___x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_lhs;
+		double L_5 = L_4.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_rhs;
+		double L_7 = L_6.___y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_lhs;
+		double L_9 = L_8.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_rhs;
+		double L_11 = L_10.___z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_12), ((double)il2cpp_codegen_add(L_1, L_3)), ((double)il2cpp_codegen_add(L_5, L_7)), ((double)il2cpp_codegen_add(L_9, L_11)), NULL);
+		return L_12;
+	}
+}
+// Method Definition Index: 48637
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 math_double3x3_mDEDFD3D5E0FAD4EC0550DE55A86A7D199B3CC61B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_c0, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_c1, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_c2, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3x3.gen.cs:543>
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_c0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___1_c1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___2_c2;
+		double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		double3x3__ctor_m0BF27C1E4D2C1C4965521A8B3A919CF9DB11B305_inline((&L_3), L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 1188
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline (double ___0_d, const RuntimeMethod* method) 
+{
+	{
+		double L_0 = ___0_d;
+		int64_t L_1;
+		L_1 = BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline(L_0, NULL);
+		return (bool)((((int64_t)((int64_t)(L_1&((int64_t)(std::numeric_limits<int64_t>::max)())))) > ((int64_t)((int64_t)9218868437227405312LL)))? 1 : 0);
+	}
+}
+// Method Definition Index: 51579
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:253>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		double3__ctor_m246C72AEDE9AC7E52CF7DF7FEE065D66EF96AB8A_inline((&L_1), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 697
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int64_t L_0 = *((int64_t*)((uintptr_t)(&___0_value)));
+		return L_0;
+	}
+}
+// Method Definition Index: 51568
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_m246C72AEDE9AC7E52CF7DF7FEE065D66EF96AB8A_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:183>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		__this->___x = ((double)L_1);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:184>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		__this->___y = ((double)L_3);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:185>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_v;
+		float L_5 = L_4.___z;
+		__this->___z = ((double)L_5);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/double3.gen.cs:186>
+		return;
+	}
+}

@@ -12,14 +12,17 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
+        // Aggiungi il flatDir qui:
+        flatDir {
+            dirs("unityLibrary/libs")
+        }
     }
 }
 
 rootProject.name = "NativeSparksApp"
 include(":app")
-
- 
+include(":unityLibrary")

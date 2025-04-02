@@ -91,6 +91,16 @@
             android:name=".PrivacyPolicyActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".CustomUnityPlayerActivity"
+            android:exported="false"
+            android:enabled="true"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+
+
+
     </application>
 
 </manifest>
