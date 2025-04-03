@@ -43,6 +43,11 @@ class BottomNavigationHelper {
                     selectItem(leaderboardContainer, activity)
                     currentSelectedItemId = R.id.leaderboard_container
 
+                    // Vai alla LeaderboardActivity
+                    activity.startActivity(
+                        android.content.Intent(activity, LeaderboardActivity::class.java)
+                            .addFlags(android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+                    )
                 }
             }
 
@@ -52,8 +57,10 @@ class BottomNavigationHelper {
                 currentSelectedItemId = R.id.home_container
 
                 // Naviga alla GameLaunchActivity
-                activity.startActivity(android.content.Intent(activity, GameLaunchActivity::class.java)
-                    .addFlags(android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT))
+                activity.startActivity(
+                    android.content.Intent(activity, GameLaunchActivity::class.java)
+                        .addFlags(android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+                )
             }
 
             profileContainer.setOnClickListener {
@@ -63,8 +70,10 @@ class BottomNavigationHelper {
                     currentSelectedItemId = R.id.profile_container
 
                     // Naviga alla ProfileActivity
-                    activity.startActivity(android.content.Intent(activity, ProfileActivity::class.java)
-                        .addFlags(android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT))
+                    activity.startActivity(
+                        android.content.Intent(activity, ProfileActivity::class.java)
+                            .addFlags(android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+                    )
                 }
             }
 

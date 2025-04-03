@@ -85,4 +85,8 @@
     <string name="privacy_policy_text">Politique de confidentialité</string>
     <string name="profile_image_updated">Image de profil mise à jour</string>
     <string name="profile_image_error">Erreur lors du chargement de l\'image</string>
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="tab_friends">Friends\n</string>
+    <string name="tab_national">National</string>
+    <string name="tab_global">Global</string>
 </resources>

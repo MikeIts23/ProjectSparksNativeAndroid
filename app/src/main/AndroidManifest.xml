@@ -91,15 +91,18 @@
             android:name=".PrivacyPolicyActivity"
             android:exported="false" />
 
+        <!-- LeaderboardActivity -->
+        <activity
+            android:name=".LeaderboardActivity"
+            android:exported="false" />
+
+        <!-- Unity Player custom -->
         <activity
             android:name=".CustomUnityPlayerActivity"
             android:exported="false"
             android:enabled="true"
             android:screenOrientation="landscape"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            />
-
-
+            android:configChanges="orientation|keyboardHidden|screenSize" />
 
     </application>
 

@@ -89,5 +89,12 @@
     <string name="link_form">!Click here to partecipate in the forms!</string>
     <string name="wallet_login">Wallet Login</string>
     <string name="wallet_login1">Wallet Login</string>
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="user_name2">user234\n</string>
+    <string name="user_name1">user435</string>
+    <string name="user_name3">user6887\n</string>
+    <string name="tab_friends">Friends\n</string>
+    <string name="tab_national">National</string>
+    <string name="tab_global">Global</string>
 
 </resources>
