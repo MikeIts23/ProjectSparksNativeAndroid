@@ -9,7 +9,7 @@
     android:background="@drawable/bg_gradient_contacts"
     tools:context=".ContactsActivity">
 
-    <!-- Icona di “Back” (freccia standard Android) in alto a sinistra -->
+    <!-- Icona Back in alto a sinistra -->
     <ImageView
         android:id="@+id/iconBack"
         android:layout_width="32dp"
@@ -21,21 +21,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Logo dell’app al centro con altezza 120dp -->
+    <!-- Logo dell’app, ancorato sotto l’icona back -->
     <ImageView
         android:id="@+id/imageLogo"
         android:layout_width="wrap_content"
         android:layout_height="120dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/app_logo"
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/logosparks3"
+        app:layout_constraintTop_toBottomOf="@+id/iconBack"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.5"/>
 
-    <!-- ScrollView per i campi (Nome, Email, Soggetto, Messaggio) -->
+    <!-- ScrollView che occupa lo spazio rimanente fino al fondo -->
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:clipToPadding="false"
         android:paddingHorizontal="16dp"
@@ -45,13 +48,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
 
-        <!-- Contenitore verticale per i vari campi -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:paddingBottom="100dp">
+            android:paddingBottom="80dp">
 
             <!-- Campo NOME -->
             <LinearLayout
@@ -126,7 +128,7 @@
                 android:background="@drawable/bg_glass_input"
                 android:padding="8dp">
 
-                <!-- Icona generica, es. impostazioni -->
+                <!-- Icona generica -->
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -140,9 +142,9 @@
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
                     android:popupBackground="@android:color/darker_gray"
-                    android:entries="@array/contact_subject_array"
                     android:gravity="center_vertical"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/contact_subject_array" />
             </LinearLayout>
 
             <!-- Campo MESSAGGIO multilinea -->
@@ -165,7 +167,7 @@
                 <EditText
                     android:id="@+id/editMessage"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     android:layout_marginStart="8dp"
                     android:hint="@string/hint_message"
@@ -189,6 +191,29 @@
                 android:textColor="@android:color/white"
                 android:backgroundTint="#7BE495"
                 android:gravity="center" />
+
         </LinearLayout>
     </ScrollView>
+
+    <!-- Overlay per mostrare caricamento -->
+    <FrameLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <!-- Sfondo semitrasparente (opzionale) -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <!-- ProgressBar circolare al centro -->
+        <ProgressBar
+            android:id="@+id/progressLoading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

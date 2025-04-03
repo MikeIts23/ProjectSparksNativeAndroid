@@ -1,22 +1,21 @@
 package com.example.nativesparksapp
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 
-class PrivacyPolicyActivity : AppCompatActivity() {
+class PrivacyPolicyActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_privacy_policy)
 
-        // 1. Recupera la freccia indietro (iconaBack) e il TextView
+        // Freccia per tornare indietro
         val iconBack = findViewById<ImageView>(R.id.iconBack)
+        // Titolo o testo privacy (se necessario)
         val textPrivacy = findViewById<TextView>(R.id.textTitle)
 
-        // 3. Navigazione indietro → torna a ProfileActivity
+        // Bottone “back”
         iconBack.setOnClickListener {
             finish()
             overridePendingTransition(
@@ -26,12 +25,11 @@ class PrivacyPolicyActivity : AppCompatActivity() {
         }
     }
 
-    // Se vuoi usare la back navigation di sistema (tasto indietro)
     override fun onBackPressed() {
         super.onBackPressed()
         overridePendingTransition(
-            android.R.anim.slide_in_left,  // animazione entrata
-            android.R.anim.slide_out_right // animazione uscita
+            android.R.anim.slide_in_left,
+            android.R.anim.slide_out_right
         )
     }
 }

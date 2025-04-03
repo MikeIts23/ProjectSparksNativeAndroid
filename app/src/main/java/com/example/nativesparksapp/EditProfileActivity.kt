@@ -6,11 +6,10 @@ import android.text.TextUtils
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
-class EditProfileActivity : AppCompatActivity() {
+class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivity a BaseActivity
 
     // Firebase
     private val auth: FirebaseAuth by lazy { FirebaseAuth.getInstance() }
@@ -115,7 +114,7 @@ class EditProfileActivity : AppCompatActivity() {
                 editEmail.isEnabled = true // modificato: ora l'email è modificabile
                 loadDataFromFirestore(currentUser.uid)
             } else {
-                // Nessun utente loggato, magari chiudi l'activity o mostra un errore
+                // Nessun utente loggato, chiudi l'activity o mostra un errore
                 Toast.makeText(this, "Nessun utente loggato.", Toast.LENGTH_SHORT).show()
                 finish()
                 return
@@ -137,8 +136,7 @@ class EditProfileActivity : AppCompatActivity() {
         editNickname.setText(prefs.getString(KEY_NICKNAME, ""))
         editEmail.setText(prefs.getString(KEY_EMAIL, ""))
         editPhone.setText(prefs.getString(KEY_PHONE, ""))
-        // Per gli spinner, potresti fare un setSelection in base a un indice salvato
-        // Oppure salvare la stringa e cercare l'indice corrispondente
+
         val savedCountry = prefs.getString(KEY_COUNTRY, "")
         setSpinnerSelection(spinnerCountry, savedCountry)
 
@@ -156,7 +154,6 @@ class EditProfileActivity : AppCompatActivity() {
             .addOnSuccessListener { document ->
                 progressBar?.visibility = View.GONE
                 if (document != null && document.exists()) {
-                    // Leggi i campi
                     val name     = document.getString("name") ?: ""
                     val nickname = document.getString("nickname") ?: ""
                     val email    = document.getString("email") ?: ""
@@ -165,7 +162,6 @@ class EditProfileActivity : AppCompatActivity() {
                     val gender   = document.getString("gender") ?: ""
                     val address  = document.getString("address") ?: ""
 
-                    // Imposta nei campi
                     editFullName.setText(name)
                     editNickname.setText(nickname)
                     editEmail.setText(email)
@@ -174,7 +170,7 @@ class EditProfileActivity : AppCompatActivity() {
                     setSpinnerSelection(spinnerGender, gender)
                     editAddress.setText(address)
 
-                    // Aggiorna la cache locale
+                    // Salva in prefs
                     saveDataToPrefs(name, nickname, email, phone, country, gender, address)
                 }
             }
@@ -185,7 +181,6 @@ class EditProfileActivity : AppCompatActivity() {
     }
 
     private fun saveProfile() {
-        // Validazione campi obbligatori
         val name = editFullName.text.toString().trim()
         val nickname = editNickname.text.toString().trim()
         val email = editEmail.text.toString().trim()
@@ -194,7 +189,6 @@ class EditProfileActivity : AppCompatActivity() {
         val gender = spinnerGender.selectedItem.toString()
         val address = editAddress.text.toString().trim()
 
-        // Esempio: Non permetti nome/nickname/email vuoti
         if (TextUtils.isEmpty(name) || TextUtils.isEmpty(nickname) || TextUtils.isEmpty(email)) {
             showError("Compila i campi obbligatori (Nome, Nickname, Email).")
             return
@@ -221,18 +215,12 @@ class EditProfileActivity : AppCompatActivity() {
             "address" to address
         )
 
-        // Salva su Firestore usando set con merge=true invece di update
-        // Questo garantisce che funzioni anche se il documento non esiste ancora
         firestore.collection("users").document(uid)
             .set(userMap, com.google.firebase.firestore.SetOptions.merge())
             .addOnSuccessListener {
                 progressBar?.visibility = View.GONE
                 Toast.makeText(this, "Profilo aggiornato!", Toast.LENGTH_SHORT).show()
-
-                // Aggiorna cache locale
                 saveDataToPrefs(name, nickname, email, phone, country, gender, address)
-
-                // Chiudi l'Activity dopo il salvataggio
                 finish()
             }
             .addOnFailureListener { e ->
@@ -242,7 +230,6 @@ class EditProfileActivity : AppCompatActivity() {
     }
 
     private fun showError(message: String) {
-        // Se hai un textError nel layout, usalo, altrimenti un toast
         textError?.text = message
         textError?.visibility = View.VISIBLE
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
@@ -264,7 +251,6 @@ class EditProfileActivity : AppCompatActivity() {
             .apply()
     }
 
-    // Helper per posizionare correttamente lo Spinner sul valore salvato
     private fun setSpinnerSelection(spinner: Spinner, value: String?) {
         if (value.isNullOrEmpty()) return
         val adapter = spinner.adapter ?: return

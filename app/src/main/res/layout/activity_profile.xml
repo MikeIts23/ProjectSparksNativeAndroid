@@ -34,7 +34,7 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:contentDescription="@string/profile_image"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/placeholder" />
     </androidx.cardview.widget.CardView>
 
     <!-- Icona di modifica in basso a destra sull'immagine -->
