@@ -21,12 +21,11 @@ class GameLaunchActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_game)  // Usa il layout con testo evidenziato
+        setContentView(R.layout.activity_game)
 
         val imageHexPlay: ImageView = findViewById(R.id.imageHexPlay)
         val textLinkForm: TextView = findViewById(R.id.textLinkForm)
 
-        // Click sul testo: se form già compilato → errore, altrimenti apri link e segna come compilato
         textLinkForm.setOnClickListener {
             handleFormClick()
         }
@@ -115,14 +114,11 @@ class GameLaunchActivity : AppCompatActivity() {
     }
 
     private fun launchUnityGame() {
-        Log.d(TAG, "Avvio del gioco Unity tramite attività personalizzata")
         try {
-            // Usa direttamente la tua classe CustomUnityPlayerActivity invece di cercare di caricare dinamicamente UnityPlayerGameActivity
-            val intent = Intent(this, CustomUnityPlayerActivity::class.java)
-
-            // Aggiungi il parametro "unity" necessario
+            // Invece di usare CustomUnityPlayerActivity, prova a usare direttamente UnityPlayerGameActivity
+            val intent = Intent()
+            intent.setClassName(packageName, "com.unity3d.player.UnityPlayerGameActivity")
             intent.putExtra("unity", "-force-vulkan")
-
             startActivity(intent)
         } catch (e: Exception) {
             Log.e(TAG, "Errore nell'avvio di Unity: ${e.message}", e)

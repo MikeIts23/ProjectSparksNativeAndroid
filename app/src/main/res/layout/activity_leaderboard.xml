@@ -50,7 +50,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="34dp"
                 android:gravity="center"
                 android:padding="8dp"
                 android:text="@string/tab_friends"
@@ -58,12 +58,6 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <!-- Sottolineatura (attivo) -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_gravity="bottom"
-                android:background="#00cfff" />
         </FrameLayout>
 
         <!-- Tab "National" -->
@@ -118,6 +112,13 @@
                 android:background="#00cfff" />
         </FrameLayout>
     </LinearLayout>
+    <View
+        android:id="@+id/viewIndicator"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:background="#00cfff"
+        app:layout_constraintTop_toBottomOf="@id/layoutTabs"
+        app:layout_constraintStart_toStartOf="@id/layoutTabs" />
 
     <!-- ScrollView per scorrere il contenuto (podio + lista) -->
     <ScrollView

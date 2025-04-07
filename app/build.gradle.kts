@@ -18,6 +18,11 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+    sourceSets {
+        getByName("main") {
+            jniLibs.srcDirs("../unityLibrary/src/main/jniLibs")
+        }
+    }
 
     buildTypes {
         release {

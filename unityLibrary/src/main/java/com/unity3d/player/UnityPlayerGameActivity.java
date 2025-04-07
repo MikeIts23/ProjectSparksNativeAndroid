@@ -41,11 +41,20 @@ public class UnityPlayerGameActivity extends GameActivity implements IUnityPlaye
         return cmdLine;
     }
 
-    static
-    {
-        System.loadLibrary("main");
-        System.loadLibrary("unity");
+    static {
+        try {
+            // Prova a caricare le librerie in un ordine diverso
+            System.loadLibrary("unity");
+            System.loadLibrary("main");
+            // Aggiungi anche le altre librerie presenti nella cartella jniLibs
+            System.loadLibrary("CesiumForUnityNative-Runtime");
+            System.loadLibrary("_burst_generated");
+        } catch (UnsatisfiedLinkError e) {
+            android.util.Log.e("UnityPlayerGameActivity", "Errore nel caricamento delle librerie native: " + e.getMessage());
+        }
     }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

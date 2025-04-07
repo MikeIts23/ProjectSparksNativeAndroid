@@ -25,4 +25,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NativeSparksApp"
 include(":app", ":unityLibrary")
-
+project(":unityLibrary").projectDir = File(rootDir, "unityLibrary")

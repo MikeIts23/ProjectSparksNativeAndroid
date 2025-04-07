@@ -12,15 +12,14 @@ import kotlin.random.Random
 
 class LeaderboardActivity : AppCompatActivity() {
 
-    // 1) Definisci la data class a livello di classe (ma fuori dalle funzioni)
     data class LeaderboardItem(val name: String, val score: Int)
 
-    // Handler per l'aggiornamento periodico (5 minuti)
     private val refreshHandler = Handler(Looper.getMainLooper())
     private lateinit var refreshRunnable: Runnable
 
-    // "friends", "national" o "global"
     private var currentTab = "friends"
+
+    private lateinit var indicator: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +27,9 @@ class LeaderboardActivity : AppCompatActivity() {
 
         // Inizializza la bottom nav
         BottomNavigationHelper.setupBottomNavigation(this)
+
+        // Inizializza l'indicatore per l'animazione (assicurati che nel layout XML esista una View con id "viewIndicator")
+        indicator = findViewById(R.id.viewIndicator)
 
         // Listener per i tab
         initTabClickListeners()
@@ -51,9 +53,19 @@ class LeaderboardActivity : AppCompatActivity() {
         refreshHandler.removeCallbacksAndMessages(null)
     }
 
-    /**
-     * Imposta i listener per i tab (Friends, National, Global).
-     */
+
+    private fun animateIndicatorTo(tab: View) {
+        indicator.animate()
+            .x(tab.x)
+            .setDuration(300)
+            .withStartAction {
+                val params = indicator.layoutParams
+                params.width = tab.width
+                indicator.layoutParams = params
+            }
+            .start()
+    }
+
     private fun initTabClickListeners() {
         val tabFriends = findViewById<FrameLayout>(R.id.tabFriends)
         val tabNational = findViewById<FrameLayout>(R.id.tabNational)
@@ -62,14 +74,17 @@ class LeaderboardActivity : AppCompatActivity() {
         tabFriends.setOnClickListener {
             currentTab = "friends"
             generateRandomLeaderboard()
+            animateIndicatorTo(tabFriends)
         }
         tabNational.setOnClickListener {
             currentTab = "national"
             generateRandomLeaderboard()
+            animateIndicatorTo(tabNational)
         }
         tabGlobal.setOnClickListener {
             currentTab = "global"
             generateRandomLeaderboard()
+            animateIndicatorTo(tabGlobal)
         }
     }
 
@@ -222,7 +237,7 @@ class LeaderboardActivity : AppCompatActivity() {
             )
         )
 
-        // 'others' conterra 7 item (se la top3 è 3)
+        // 'others' conterrà 7 item (se la top3 è 3)
         // Cicliamo 10 slot
         for (i in 0 until 10) {
             val slotViews = itemsMapping[i]

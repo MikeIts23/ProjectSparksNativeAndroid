@@ -29,11 +29,24 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    // Aggiungi questa configurazione per le librerie native
+    sourceSets {
+        getByName("main") {
+            jniLibs.srcDirs("src/main/jniLibs")
+        }
+    }
+
+    // Aggiungi questa configurazione per il packaging delle librerie native
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
 }
 
-
 dependencies {
-    // Carica l’AAR locale "unity-classes.aar" da unityLibrary/libs/
+    // Carica l'AAR locale "unity-classes.aar" da unityLibrary/libs/
     implementation(
         mapOf(
             "name" to "unity-classes-1.0",
