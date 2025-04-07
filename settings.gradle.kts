@@ -24,5 +24,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "NativeSparksApp"
-include(":app")
-include(":unityLibrary")
+include(":app", ":unityLibrary")
+

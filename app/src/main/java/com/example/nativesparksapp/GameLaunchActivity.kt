@@ -9,6 +9,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import android.content.Intent
+import android.widget.Toast
 
 class GameLaunchActivity : AppCompatActivity() {
 
@@ -53,7 +54,10 @@ class GameLaunchActivity : AppCompatActivity() {
         val alreadyFilled = prefs.getBoolean(userFormKey, false)
 
         // Log per debug
-        Log.d(TAG, "Verifica form per utente: $userId, chiave: $userFormKey, già compilato: $alreadyFilled")
+        Log.d(
+            TAG,
+            "Verifica form per utente: $userId, chiave: $userFormKey, già compilato: $alreadyFilled"
+        )
 
         if (alreadyFilled) {
             android.widget.Toast.makeText(
@@ -63,7 +67,7 @@ class GameLaunchActivity : AppCompatActivity() {
             ).show()
         } else {
             val formUrl = "https://forms.gle/qy5DZt5RMhE37uE36"
-            val intent = Intent(Intent.ACTION_VIEW, android.net.Uri.parse(formUrl)   )
+            val intent = Intent(Intent.ACTION_VIEW, android.net.Uri.parse(formUrl))
             try {
                 startActivity(intent)
 
@@ -112,8 +116,18 @@ class GameLaunchActivity : AppCompatActivity() {
 
     private fun launchUnityGame() {
         Log.d(TAG, "Avvio del gioco Unity tramite attività personalizzata")
-        val intent = Intent(this, CustomUnityPlayerActivity::class.java)
-        startActivity(intent)
-    }
+        try {
+            // Usa direttamente la tua classe CustomUnityPlayerActivity invece di cercare di caricare dinamicamente UnityPlayerGameActivity
+            val intent = Intent(this, CustomUnityPlayerActivity::class.java)
 
+            // Aggiungi il parametro "unity" necessario
+            intent.putExtra("unity", "-force-vulkan")
+
+            startActivity(intent)
+        } catch (e: Exception) {
+            Log.e(TAG, "Errore nell'avvio di Unity: ${e.message}", e)
+            Toast.makeText(this, "Errore nell'avvio di Unity: ${e.message}", Toast.LENGTH_LONG)
+                .show()
+        }
+    }
 }

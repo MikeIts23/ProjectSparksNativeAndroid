@@ -18,6 +18,7 @@ class CustomUnityPlayerActivity : AppCompatActivity() {
 
             // Crea un Intent per lanciarla
             val unityIntent = Intent(this, unityPlayerClass)
+            unityIntent.putExtra("unity", "")
 
             // Se vuoi passare extras, copia quelli dell'Intent corrente
             intent.extras?.let { originalExtras ->

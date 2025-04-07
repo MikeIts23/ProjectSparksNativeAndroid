@@ -43,7 +43,8 @@ public class UnityPlayerGameActivity extends GameActivity implements IUnityPlaye
 
     static
     {
-        System.loadLibrary("game");
+        System.loadLibrary("main");
+        System.loadLibrary("unity");
     }
 
     @Override

@@ -99,10 +99,11 @@
         <!-- Unity Player custom -->
         <activity
             android:name=".CustomUnityPlayerActivity"
-            android:exported="false"
-            android:enabled="true"
-            android:screenOrientation="landscape"
-            android:configChanges="orientation|keyboardHidden|screenSize" />
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/UnityThemeSelector"/>
 
     </application>
 
