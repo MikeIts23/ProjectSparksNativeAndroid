@@ -63,7 +63,7 @@
                     android:alpha="0.8" />
             </LinearLayout>
 
-            <!-- Home Button (Center, Elevated)  -->
+            <!-- Home Button (Center, Elevated) -->
             <FrameLayout
                 android:id="@+id/home_container"
                 android:layout_width="0dp"
@@ -107,7 +107,7 @@
                 android:background="@drawable/bottom_nav_item_background"
                 android:foreground="@drawable/bottom_nav_ripple_effect"
                 app:layout_constraintStart_toEndOf="@+id/home_container"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/academy_container"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintHorizontal_weight="1">
@@ -130,6 +130,43 @@
                     android:layout_marginTop="4dp"
                     android:alpha="0.8" />
             </LinearLayout>
+
+            <!-- Academy Button (NUOVO) -->
+            <LinearLayout
+                android:id="@+id/academy_container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bottom_nav_item_background"
+                android:foreground="@drawable/bottom_nav_ripple_effect"
+                app:layout_constraintStart_toEndOf="@+id/profile_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1">
+
+                <ImageView
+                    android:id="@+id/btn_academy"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@android:drawable/ic_menu_agenda"
+                    android:contentDescription="@string/academy"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/academy_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Academy"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"
+                    android:alpha="0.8" />
+            </LinearLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

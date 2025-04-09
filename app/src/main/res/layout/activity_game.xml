@@ -10,84 +10,162 @@
     tools:context=".GameLaunchActivity">
 
     <!-- Sfondo principale -->
-    <ImageView
-        android:id="@+id/imagePatternBg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/bg_sparksar_pattern"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+<ImageView
+android:id="@+id/imagePatternBg"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:scaleType="fitXY"
+android:src="@drawable/bg_sparksar_pattern"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent"/>
 
     <!-- Logo in alto -->
-    <ImageView
-        android:id="@+id/imageLogoSparksar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="496dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/ic_sparksar_logo_white"
-        app:layout_constraintBottom_toBottomOf="@+id/imagePatternBg"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+<ImageView
+android:id="@+id/imageLogoSparksar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="496dp"
+android:adjustViewBounds="true"
+android:src="@drawable/ic_sparksar_logo_white"
+app:layout_constraintBottom_toBottomOf="@+id/imagePatternBg"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent" />
 
-    <!-- Polygon "Play" cliccabile -->
-    <ImageView
-        android:id="@+id/imageHexPlay"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="32dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/polygonfinal"
-        android:clickable="true"
-        android:focusable="true"
-        android:contentDescription="@string/play_the_game"
-        android:foreground="?attr/selectableItemBackgroundBorderless"
-        app:layout_constraintTop_toBottomOf="@id/imageLogoSparksar"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+    <!-- Polygon "Play" cliccabile, classico avvio Unity -->
+<ImageView
+android:id="@+id/imageHexPlay"
+android:layout_width="120dp"
+android:layout_height="120dp"
+android:layout_marginTop="32dp"
+android:adjustViewBounds="true"
+android:src="@drawable/polygonfinal"
+android:clickable="true"
+android:focusable="true"
+android:contentDescription="@string/play_the_game"
+android:foreground="?attr/selectableItemBackgroundBorderless"
+app:layout_constraintTop_toBottomOf="@id/imageLogoSparksar"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent" />
 
     <!-- Testo "Play the game" -->
-    <TextView
-        android:id="@+id/textPlayGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/play_the_game"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/imageHexPlay"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+<TextView
+android:id="@+id/textPlayGame"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/play_the_game"
+android:textColor="@android:color/white"
+android:textSize="16sp"
+android:layout_marginTop="16dp"
+app:layout_constraintTop_toBottomOf="@id/imageHexPlay"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent"/>
 
-    <TextView
-        android:id="@+id/textLinkForm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/bg_link_rounded"
-        android:clickable="true"
-        android:focusable="true"
-        android:fontFamily="sans-serif-medium"
-        android:paddingHorizontal="12dp"
-        android:paddingVertical="6dp"
-        android:text="@string/link_form"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textPlayGame" />
+    <!-- Link form (esistente) -->
+<TextView
+android:id="@+id/textLinkForm"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:background="@drawable/bg_link_rounded"
+android:clickable="true"
+android:focusable="true"
+android:fontFamily="sans-serif-medium"
+android:paddingHorizontal="12dp"
+android:paddingVertical="6dp"
+android:text="@string/link_form"
+android:textColor="@android:color/white"
+android:textSize="18sp"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent"
+app:layout_constraintTop_toBottomOf="@id/textPlayGame" />
+
+    <!-- NUOVO: Container con 3 card (Quiz1, Quiz2, Corso) -->
+<LinearLayout
+android:id="@+id/academyCardsContainer"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:visibility="gone"
+    android:layout_marginTop="24dp"
+    app:layout_constraintTop_toBottomOf="@id/imageLogoSparksar"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Card QUIZ 1 -->
+<androidx.cardview.widget.CardView
+android:id="@+id/cardQuiz1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+app:cardCornerRadius="12dp"
+app:cardUseCompatPadding="true"
+android:foreground="?attr/selectableItemBackgroundBorderless">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:text="Quiz 1"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:gravity="center"/>
+</androidx.cardview.widget.CardView>
+
+    <!-- Card QUIZ 2 -->
+<androidx.cardview.widget.CardView
+android:id="@+id/cardQuiz2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+app:cardCornerRadius="12dp"
+app:cardUseCompatPadding="true"
+android:foreground="?attr/selectableItemBackgroundBorderless">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:text="Quiz 2"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:gravity="center"/>
+</androidx.cardview.widget.CardView>
+
+    <!-- Card CORSO -->
+<androidx.cardview.widget.CardView
+android:id="@+id/cardCourse1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+app:cardCornerRadius="12dp"
+app:cardUseCompatPadding="true"
+android:foreground="?attr/selectableItemBackgroundBorderless">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:text="Corso Avanzato"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:gravity="center"/>
+</androidx.cardview.widget.CardView>
+
+    </LinearLayout>
 
     <!-- Bottom Navigation Bar -->
-    <include
-        android:id="@+id/bottom_navigation"
-        layout="@layout/bottom_nav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+<include
+android:id="@+id/bottom_navigation"
+layout="@layout/bottom_nav"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
