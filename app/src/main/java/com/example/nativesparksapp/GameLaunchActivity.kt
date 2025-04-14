@@ -102,9 +102,6 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * Gestisce il click sul form
-     */
     private fun handleFormClick() {
         val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
@@ -148,9 +145,6 @@ class GameLaunchActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * Mostra un AlertDialog per chiedere conferma dopo la compilazione
-     */
     private fun showFormCompletionConfirmation(userFormKey: String) {
         AlertDialog.Builder(this)
             .setTitle("Compilazione form")
@@ -177,10 +171,6 @@ class GameLaunchActivity : AppCompatActivity() {
             .setCancelable(false)
             .show()
     }
-
-    /**
-     * Avvia il gioco Unity
-     */
     private fun launchUnityGame() {
         try {
             // Invece di usare CustomUnityPlayerActivity, prova a usare direttamente UnityPlayerGameActivity

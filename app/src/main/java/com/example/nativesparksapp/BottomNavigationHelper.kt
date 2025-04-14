@@ -4,7 +4,6 @@ import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.content.Context
 import android.content.Intent
-import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.FrameLayout
@@ -29,13 +28,13 @@ class BottomNavigationHelper {
         /**
          * Inizializza la bottom navigation bar con le animazioni e gli eventi
          */
-        fun setupBottomNavigation(activity: AppCompatActivity)  {
+        fun setupBottomNavigation(activity: AppCompatActivity) {
             val leaderboardContainer = activity.findViewById<LinearLayout>(R.id.leaderboard_container)
             val homeContainer = activity.findViewById<FrameLayout>(R.id.home_container)
             val profileContainer = activity.findViewById<LinearLayout>(R.id.profile_container)
             val homeButton = activity.findViewById<MaterialCardView>(R.id.home_button_background)
 
-            // Aggiunta: Academy
+            // Academy
             val academyContainer = activity.findViewById<LinearLayout>(R.id.academy_container)
 
             // Imposta l'elemento iniziale come selezionato
@@ -52,7 +51,7 @@ class BottomNavigationHelper {
                     playClickAnimation(it, activity)
                     selectItem(leaderboardContainer, activity)
                     currentSelectedItemId = R.id.leaderboard_container
-                    // Avvia LeaderboardActivity (senza ricreare ogni volta)
+
                     activity.startActivity(
                         Intent(activity, LeaderboardActivity::class.java)
                             .addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
@@ -83,7 +82,7 @@ class BottomNavigationHelper {
                     playClickAnimation(it, activity)
                     selectItem(profileContainer, activity)
                     currentSelectedItemId = R.id.profile_container
-                    // Avvia ProfileActivity
+
                     activity.startActivity(
                         Intent(activity, ProfileActivity::class.java)
                             .addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
@@ -98,27 +97,29 @@ class BottomNavigationHelper {
                     selectItem(academyContainer, activity)
                     currentSelectedItemId = R.id.academy_container
                 }
-                // Attiva Academy mode nelle SharedPreferences
+                // Attiva Academy mode nelle SharedPreferences (se serve)
                 val prefs = activity.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
                 prefs.edit().putBoolean(KEY_ACADEMY_MODE, true).apply()
 
-                // Avvia la GameLaunchActivity in REORDER_TO_FRONT
+                // Avvia l'AcademyActivity
                 activity.startActivity(
-                    Intent(activity, GameLaunchActivity::class.java)
+                    Intent(activity, AcademyActivity::class.java)
                         .addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                 )
             }
 
+            // Imposta le icone (nuove) in codice
+            // Se preferisci non sovrascriverle, commenta o rimuovi queste righe
             activity.findViewById<ImageView>(R.id.btn_leaderboard)
-                ?.setImageResource(R.drawable.ic_leaderboard)
+                ?.setImageResource(R.drawable.ic_leaderboard)  // icona classifica
             activity.findViewById<ImageView>(R.id.btn_home)
-                ?.setImageResource(R.drawable.ic_play)
+                ?.setImageResource(R.drawable.joystick)       // la tua icona joystick
             activity.findViewById<ImageView>(R.id.btn_profile)
-                ?.setImageResource(R.drawable.ic_profile)
-            // Imposta l’icona di “libro segnalibro” come placeholder
+                ?.setImageResource(R.drawable.ic_profile)     // icona profilo
             activity.findViewById<ImageView>(R.id.btn_academy)
-                ?.setImageResource(android.R.drawable.ic_menu_agenda)
+                ?.setImageResource(R.drawable.academy)        // icona academy
         }
+
         private fun selectItem(item: LinearLayout?, activity: AppCompatActivity) {
             // Deseleziona l'elemento corrente
             currentSelectedItem?.isSelected = false
@@ -127,7 +128,7 @@ class BottomNavigationHelper {
             item?.isSelected = true
             currentSelectedItem = item
 
-            // Riproduci l'animazione di selezione
+            // Anima la selezione
             if (item != null) {
                 val anim = AnimationUtils.loadAnimation(activity, R.anim.bottom_nav_item_selected)
                 item.startAnimation(anim)
@@ -135,7 +136,7 @@ class BottomNavigationHelper {
         }
 
         /**
-         * Riproduce l'animazione di click
+         * Anima il click
          */
         private fun playClickAnimation(view: View, activity: AppCompatActivity) {
             val anim = AnimationUtils.loadAnimation(activity, R.anim.bottom_nav_item_clicked)
@@ -143,7 +144,7 @@ class BottomNavigationHelper {
         }
 
         /**
-         * Crea un effetto pulsazione per il pulsante home
+         * Effetto pulsazione per Home
          */
         private fun pulseHomeButton(homeButton: MaterialCardView) {
             // Cancella eventuali animazioni precedenti

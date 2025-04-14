@@ -66,7 +66,6 @@ class LoginActivity : AppCompatActivity()  {
         buttonSignIn = findViewById(R.id.buttonSignIn)
         buttonRegister = findViewById(R.id.buttonRegister)
         imageGoogle = findViewById(R.id.imageGoogle)
-        imageApple = findViewById(R.id.imageApple)
         progressLoading = findViewById(R.id.progressLoading)
         imageWallet = findViewById(R.id.imageWallet)
 
@@ -92,7 +91,6 @@ class LoginActivity : AppCompatActivity()  {
 
         imageGoogle.setOnClickListener { signInWithGoogle() }
 
-        imageApple.setOnClickListener { signInWithApple() }
 
         imageWallet.setOnClickListener { connectWithWallet() }
 
@@ -180,9 +178,6 @@ class LoginActivity : AppCompatActivity()  {
             }
     }
 
-    private fun signInWithApple() {
-        Toast.makeText(this, "Login con Apple non implementato.", Toast.LENGTH_SHORT).show()
-    }
 
     // Metodo di connessione al wallet MetaMask
     private fun connectWithWallet() {

@@ -80,7 +80,6 @@ class RegisterActivity : AppCompatActivity()  {
         buttonSignUp = findViewById(R.id.buttonSignUp)
         textErrorMessage = findViewById(R.id.textErrorMessage)
         imageGoogle = findViewById(R.id.imageGoogle)
-        imageApple = findViewById(R.id.imageApple)
         imageWallet = findViewById(R.id.imageWallet)
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -106,10 +105,6 @@ class RegisterActivity : AppCompatActivity()  {
             onSignUpWithGoogle()
         }
 
-        // Click su icona Apple
-        imageApple.setOnClickListener {
-            onSignUpWithApple()
-        }
 
         // Click su icona/pulsante "Wallet"
         imageWallet.setOnClickListener {
@@ -241,9 +236,6 @@ class RegisterActivity : AppCompatActivity()  {
             }
     }
 
-    private fun onSignUpWithApple() {
-        Toast.makeText(this, "Registrazione con Apple (da implementare)", Toast.LENGTH_SHORT).show()
-    }
 
     // Metodo di connessione al wallet MetaMask
     private fun connectWithWallet() {

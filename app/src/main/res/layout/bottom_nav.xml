@@ -86,10 +86,10 @@
 
                     <ImageView
                         android:id="@+id/btn_home"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_play"
+                        android:src="@drawable/joystick"
                         android:contentDescription="@string/home"
                         app:tint="@android:color/white" />
                 </com.google.android.material.card.MaterialCardView>
@@ -152,7 +152,7 @@
                     android:id="@+id/btn_academy"
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    android:src="@android:drawable/ic_menu_agenda"
+                    android:src="@drawable/academy"
                     android:contentDescription="@string/academy"
                     app:tint="@android:color/white" />
 

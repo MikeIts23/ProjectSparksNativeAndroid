@@ -89,4 +89,8 @@
     <string name="tab_friends">Friends\n</string>
     <string name="tab_national">National</string>
     <string name="tab_global">Global</string>
+    <string name="academy_header_image">Immagine Academy</string>
+    <string name="course_background_desc">Background Description</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="start_course">Start Course</string>
 </resources>

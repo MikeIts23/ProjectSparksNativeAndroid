@@ -96,7 +96,15 @@
             android:name=".LeaderboardActivity"
             android:exported="false" />
 
-        <!-- Unity Player custom -->
+        <!-- Aggiunta AcademyActivity -->
+        <activity
+            android:name=".AcademyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+
         <activity
             android:name=".CustomUnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"

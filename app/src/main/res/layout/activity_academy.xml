@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAcademy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_edit_profile"
+    tools:context=".AcademyActivity">
+
+    <!-- Sfondo pattern -->
+    <ImageView
+        android:id="@+id/imagePatternBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_sparksar_pattern"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Immagine in alto (header) -->
+    <ImageView
+        android:id="@+id/imageAcademyHeader"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sparksstudio"
+        android:contentDescription="@string/academy_header_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!-- Layout verticale con 2 card (Quiz + Corso) -->
+    <LinearLayout
+        android:id="@+id/linearContainerCards"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/imageAcademyHeader"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <!-- Card 1: QUIZ -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardQuiz1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:clipToOutline="true"
+            android:elevation="6dp"
+            app:cardCornerRadius="16dp"
+            app:cardUseCompatPadding="true">
+
+            <!-- FrameLayout per sovrapporre sfondo + testo/bottoni -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Immagine di sfondo a tutta la card -->
+                <ImageView
+                    android:id="@+id/imageQuizBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sparksstudio3"
+                    android:contentDescription="@string/quiz_background_desc"
+                    android:alpha="0.9"/>
+
+                <!-- Layout con testo e pulsante -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/textQuiz1Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quiz_1"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textQuiz1Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/buttonStartQuiz1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:backgroundTint="#4D5AA9"
+                        android:text="@string/start_quiz"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Card 2: CORSO -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardCourse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:clipToOutline="true"
+            android:elevation="6dp"
+            app:cardCornerRadius="16dp"
+            app:cardUseCompatPadding="true">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Immagine di sfondo corso -->
+                <ImageView
+                    android:id="@+id/imageCourseBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sparksstudio5"
+                    android:contentDescription="@string/course_background_desc"
+               />
+
+                <!-- Layout con testo e pulsante -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/textCourseTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/training_course"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textCourseSubtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/buttonStartCourse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:backgroundTint="#4D5AA9"
+                        android:text="@string/start_course"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <!-- Bottom navigation bar in fondo -->
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
