@@ -93,4 +93,5 @@
     <string name="course_background_desc">Background Description</string>
     <string name="start_quiz">Start Quiz</string>
     <string name="start_course">Start Course</string>
+    <string name="quiz_background_desc">Descrizione Immagine</string>
 </resources>

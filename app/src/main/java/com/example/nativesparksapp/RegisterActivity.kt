@@ -15,12 +15,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import org.web3j.protocol.Web3j
-import org.web3j.protocol.http.HttpService
 import android.content.ActivityNotFoundException
 import android.content.pm.PackageManager
 
-class RegisterActivity : AppCompatActivity()  {
+class RegisterActivity : AppCompatActivity() {
 
     private lateinit var editTextEmail: EditText
     private lateinit var editTextName: EditText
@@ -31,9 +29,6 @@ class RegisterActivity : AppCompatActivity()  {
     private lateinit var textErrorMessage: TextView
 
     private lateinit var imageGoogle: ImageView
-    private lateinit var imageApple: ImageView
-
-    // Pulsante/Immagine per il wallet
     private lateinit var imageWallet: ImageView
 
     private var isLoading = false
@@ -43,32 +38,25 @@ class RegisterActivity : AppCompatActivity()  {
         FirebaseAuth.getInstance()
     }
 
-    // Google Sign In Client
     private lateinit var googleSignInClient: GoogleSignInClient
     private val RC_SIGN_IN = 9001
 
     // Tag per il logging
     private val TAG = "RegisterActivity"
 
-    // Chiave per memorizzare l'ID dell'ultimo utente loggato
     companion object {
         const val PREFS_USER_ID = "user_prefs"
         const val KEY_LAST_USER_ID = "last_user_id"
 
-        // Key per indicare se l'utente si è registrato via wallet
         const val PREFS_NAME = "UserPrefs"
         const val KEY_REGISTERED_VIA_WALLET = "registered_via_wallet"
         const val KEY_WALLET_ADDRESS = "wallet_address"
     }
 
-    // Istanza di web3j
-    private lateinit var web3j: Web3j
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        // Pulisci le SharedPreferences all'avvio della registrazione
         clearAllUserPreferences()
 
         // Inizializza i riferimenti
@@ -88,8 +76,6 @@ class RegisterActivity : AppCompatActivity()  {
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        web3j = Web3j.build(HttpService("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID") )
-
         // Toggle password
         imageTogglePassword.setOnClickListener {
             togglePasswordVisibility()
@@ -105,13 +91,11 @@ class RegisterActivity : AppCompatActivity()  {
             onSignUpWithGoogle()
         }
 
-
-        // Click su icona/pulsante "Wallet"
+        // Click su icona/pulsante "Wallet Solana"
         imageWallet.setOnClickListener {
-            connectWithWallet()
+            connectWithSolanaWallet()
         }
 
-        // Gestisci l'intent se l'activity è stata avviata da una callback
         handleWalletCallback(intent)
     }
 
@@ -126,7 +110,6 @@ class RegisterActivity : AppCompatActivity()  {
                 InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
             imageTogglePassword.setImageResource(android.R.drawable.ic_menu_view)
         }
-        // Mantieni il cursore alla fine del testo
         editTextPassword.setSelection(editTextPassword.text.length)
     }
 
@@ -220,7 +203,7 @@ class RegisterActivity : AppCompatActivity()  {
         auth.signInWithCredential(credential)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    // Login Google ok: vai a GameActivity
+                    // Login Google ok
                     Toast.makeText(
                         this,
                         "Registrazione con Google completata!",
@@ -236,92 +219,89 @@ class RegisterActivity : AppCompatActivity()  {
             }
     }
 
+    /**
+     * Metodo per connettersi a un wallet Solana (es. Phantom)
+     * Cambiato da "com.phantom.app" a "app.phantom".
+     */
+    private fun connectWithSolanaWallet() {
+        Log.d(TAG, "Tentativo di connessione con Phantom (Solana)")
 
-    // Metodo di connessione al wallet MetaMask
-    private fun connectWithWallet() {
-        Log.d(TAG, "Tentativo di connessione con MetaMask")
-
-        // Verifica se MetaMask è installato
-        if (isMetaMaskInstalled()) {
-            Log.d(TAG, "MetaMask è installato, avvio dell'app")
-            launchMetaMask()
+        // Verifica se Phantom è installato
+        if (isPhantomInstalled()) {
+            Log.d(TAG, "Phantom è installato, avvio dell'app")
+            launchPhantom()
         } else {
-            Log.d(TAG, "MetaMask non è installato, reindirizzamento al Play Store")
-            // MetaMask non è installato, mostra un messaggio e offri di installarlo
+            Log.d(TAG, "Phantom non è installato, reindirizzamento al Play Store")
             Toast.makeText(
                 this,
-                "MetaMask non è installato. Installalo per continuare.",
+                "Phantom non è installato. Installalo per continuare.",
                 Toast.LENGTH_LONG
             ).show()
 
-            // Apri il Play Store per installare MetaMask
+            // Apri il Play Store per installare Phantom (cambiato id)
             try {
                 startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("market://details?id=io.metamask")))
+                    Uri.parse("market://details?id=app.phantom")))
             } catch (e: ActivityNotFoundException) {
-                // Play Store non è disponibile, apri il browser
+                // Se il Play Store non fosse disponibile, apri il browser
                 startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://play.google.com/store/apps/details?id=io.metamask") ))
+                    Uri.parse("https://play.google.com/store/apps/details?id=app.phantom") ))
             }
         }
     }
 
-    // Verifica se MetaMask è installato
-    private fun isMetaMaskInstalled(): Boolean {
+    // Verifica se Phantom è installato (packageName corretto per l'Italia: "app.phantom")
+    private fun isPhantomInstalled(): Boolean {
         val packageManager = packageManager
         return try {
-            packageManager.getPackageInfo("io.metamask", 0)
+            packageManager.getPackageInfo("app.phantom", 0)
             true
         } catch (e: PackageManager.NameNotFoundException) {
             false
         }
     }
 
-    // Avvia MetaMask con la richiesta di connessione
-    private fun launchMetaMask() {
+    // Avvia Phantom con la richiesta di connessione e callback
+    private fun launchPhantom() {
         try {
-            // Crea un deep link per MetaMask con callback alla nostra app
-            val metamaskUri = Uri.parse("metamask://dapp/nativesparksapp://callback/wallet")
-            val intent = Intent(Intent.ACTION_VIEW, metamaskUri)
-
-            // Imposta il flag per avviare una nuova attività
+            // Esempio di deep link con callback = nativesparksapp://callback/wallet
+            val phantomUri = Uri.parse("phantom://nativesparksapp/connect?redirect=nativesparksapp://callback/wallet")
+            val intent = Intent(Intent.ACTION_VIEW, phantomUri)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
 
-            Log.d(TAG, "Avvio di MetaMask con URI: $metamaskUri")
+            Log.d(TAG, "Avvio di Phantom con URI: $phantomUri")
             startActivity(intent)
         } catch (e: Exception) {
-            Log.e(TAG, "Errore nell'avvio di MetaMask", e)
+            Log.e(TAG, "Errore nell'avvio di Phantom", e)
             Toast.makeText(
                 this,
-                "Errore nell'avvio di MetaMask: ${e.localizedMessage}",
+                "Errore nell'avvio di Phantom: ${e.localizedMessage}",
                 Toast.LENGTH_SHORT
             ).show()
         }
     }
 
-    // Gestisce l'intent quando l'app viene riaperta tramite callback
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         Log.d(TAG, "onNewIntent chiamato con intent: ${intent.data}")
-
-        // Imposta l'intent corrente
         setIntent(intent)
-
-        // Gestisci l'intent se proviene dalla callback del wallet
         handleWalletCallback(intent)
     }
 
-    // Gestisce la callback dal wallet
+    // Gestisce la callback dal wallet Solana
     private fun handleWalletCallback(intent: Intent) {
         val data = intent.data
-
-        if (data != null && data.scheme == "nativesparksapp" &&
-            data.host == "callback" && data.path == "/wallet") {
-
+        // Esempio: nativesparksapp://callback/wallet?public_key=...
+        if (data != null &&
+            data.scheme == "nativesparksapp" &&
+            data.host == "callback" &&
+            data.path == "/wallet"
+        ) {
             Log.d(TAG, "Callback dal wallet ricevuta: $data")
 
-            // Estrai l'indirizzo del wallet dai parametri (se disponibile)
-            val walletAddress = data.getQueryParameter("address") ?: "0x" + generateRandomHexAddress()
+            // Estrai l'indirizzo del wallet dai parametri, es. “public_key”
+            val walletAddress = data.getQueryParameter("public_key")
+                ?: "SolanaAddressSconosciuto_${System.currentTimeMillis()}"
 
             Log.d(TAG, "Indirizzo wallet ottenuto: $walletAddress")
 
@@ -344,7 +324,6 @@ class RegisterActivity : AppCompatActivity()  {
         }
     }
 
-    // Genera un indirizzo esadecimale casuale (solo per demo)
     private fun generateRandomHexAddress(): String {
         val chars = "0123456789abcdef"
         val sb = StringBuilder(40)
@@ -355,11 +334,9 @@ class RegisterActivity : AppCompatActivity()  {
         return sb.toString()
     }
 
-    // Gestisce anche la callback nel metodo onResume
     override fun onResume() {
         super.onResume()
-
-        // Controlla se c'è un intent pendente
+        // Controlla se c'è un intent pendente e gestiscilo
         val intent = intent
         if (intent != null) {
             handleWalletCallback(intent)
@@ -394,7 +371,7 @@ class RegisterActivity : AppCompatActivity()  {
         val editProfilePrefs = getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
         editProfilePrefs.edit().clear().apply()
 
-        // Altre SharedPreferences se presenti...
+        // Aggiungi qui eventuali altre SharedPreferences che vuoi pulire
 
         Log.d(TAG, "SharedPreferences pulite con successo all'avvio della registrazione")
     }

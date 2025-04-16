@@ -15,8 +15,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import org.web3j.protocol.Web3j
-import org.web3j.protocol.http.HttpService
 import android.content.ActivityNotFoundException
 import android.content.pm.PackageManager
 
@@ -30,7 +28,6 @@ class LoginActivity : AppCompatActivity()  {
     private lateinit var buttonSignIn: Button
     private lateinit var buttonRegister: Button
     private lateinit var imageGoogle: ImageView
-    private lateinit var imageApple: ImageView
     private lateinit var progressLoading: ProgressBar
 
     private var isPasswordVisible = false
@@ -50,7 +47,7 @@ class LoginActivity : AppCompatActivity()  {
         const val KEY_WALLET_ADDRESS = "wallet_address"
     }
 
-    private lateinit var web3j: Web3j
+    // Rimosso web3j in quanto non necessario per Solana.
     private lateinit var imageWallet: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -75,26 +72,20 @@ class LoginActivity : AppCompatActivity()  {
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        web3j = Web3j.build(HttpService("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID") )
-
         imageTogglePassword.setOnClickListener { togglePasswordVisibility() }
-
         buttonSignIn.setOnClickListener { signIn() }
-
         buttonRegister.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
-
         textForgotPassword.setOnClickListener {
             Toast.makeText(this, "Forgot Password cliccato!", Toast.LENGTH_SHORT).show()
         }
-
         imageGoogle.setOnClickListener { signInWithGoogle() }
 
+        // Qui sostituiamo l’integrazione con MetaMask con Phantom (o altro wallet Solana)
+        imageWallet.setOnClickListener { connectWithSolanaWallet() }
 
-        imageWallet.setOnClickListener { connectWithWallet() }
-
-        // Gestisci l'intent se l'activity è stata avviata da una callback
+        // Gestisci l'intent se l'Activity è stata avviata da un deep link callback
         handleWalletCallback(intent)
     }
 
@@ -178,93 +169,99 @@ class LoginActivity : AppCompatActivity()  {
             }
     }
 
+    /**
+     * Connessione con un wallet Solana (ad esempio Phantom) per il login
+     */
+    private fun connectWithSolanaWallet() {
+        Log.d(TAG, "Tentativo di connessione con Phantom per login")
 
-    // Metodo di connessione al wallet MetaMask
-    private fun connectWithWallet() {
-        Log.d(TAG, "Tentativo di connessione con MetaMask per login")
-
-        // Verifica se MetaMask è installato
-        if (isMetaMaskInstalled()) {
-            Log.d(TAG, "MetaMask è installato, avvio dell'app per login")
-            launchMetaMask()
+        // Verifica se il wallet Phantom è installato
+        if (isPhantomInstalled()) {
+            Log.d(TAG, "Phantom è installato, avvio dell’app per login")
+            launchPhantom()
         } else {
-            Log.d(TAG, "MetaMask non è installato, reindirizzamento al Play Store")
-            // MetaMask non è installato, mostra un messaggio e offri di installarlo
+            Log.d(TAG, "Phantom non è installato, reindirizzamento al Play Store")
+            // Mostra un messaggio e offri di installarlo
             Toast.makeText(
                 this,
-                "MetaMask non è installato. Installalo per continuare.",
+                "Phantom non è installato. Installalo per continuare.",
                 Toast.LENGTH_LONG
             ).show()
 
-            // Apri il Play Store per installare MetaMask
+            // Apri il Play Store (cambiato packageName da "com.phantom.app" a "app.phantom")
             try {
-                startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("market://details?id=io.metamask")))
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("market://details?id=app.phantom")
+                    )
+                )
             } catch (e: ActivityNotFoundException) {
-                // Play Store non è disponibile, apri il browser
-                startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://play.google.com/store/apps/details?id=io.metamask") ))
+                // Se il Play Store non fosse disponibile, apri il browser
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://play.google.com/store/apps/details?id=app.phantom")
+                    )
+                )
             }
         }
     }
 
-    // Verifica se MetaMask è installato
-    private fun isMetaMaskInstalled(): Boolean {
+    // Verifica se Phantom è installato (package name corretto: "app.phantom")
+    private fun isPhantomInstalled(): Boolean {
         val packageManager = packageManager
         return try {
-            packageManager.getPackageInfo("io.metamask", 0)
+            packageManager.getPackageInfo("app.phantom", 0)
             true
         } catch (e: PackageManager.NameNotFoundException) {
             false
         }
     }
 
-    // Avvia MetaMask con la richiesta di connessione
-    private fun launchMetaMask() {
+    // Avvia Phantom con un deep link per il login
+    private fun launchPhantom() {
         try {
-            // Crea un deep link per MetaMask con callback alla nostra app
-            // Usa un path diverso per distinguere il login dalla registrazione
-            val metamaskUri = Uri.parse("metamask://dapp/nativesparksapp://callback/wallet_login")
-            val intent = Intent(Intent.ACTION_VIEW, metamaskUri)
-
-            // Imposta il flag per avviare una nuova attività
+            val phantomUri = Uri.parse("phantom://nativesparksapp/connect?redirect=nativesparksapp://callback/wallet_login")
+            val intent = Intent(Intent.ACTION_VIEW, phantomUri)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
 
-            Log.d(TAG, "Avvio di MetaMask con URI: $metamaskUri")
+            Log.d(TAG, "Avvio di Phantom con URI: $phantomUri")
             startActivity(intent)
         } catch (e: Exception) {
-            Log.e(TAG, "Errore nell'avvio di MetaMask", e)
+            Log.e(TAG, "Errore nell'avvio di Phantom", e)
             Toast.makeText(
                 this,
-                "Errore nell'avvio di MetaMask: ${e.localizedMessage}",
+                "Errore nell'avvio di Phantom: ${e.localizedMessage}",
                 Toast.LENGTH_SHORT
             ).show()
         }
     }
 
-    // Gestisce l'intent quando l'app viene riaperta tramite callback
+    // Gestisce l'intent quando l'app viene riaperta dal wallet
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         Log.d(TAG, "onNewIntent chiamato con intent: ${intent.data}")
-
-        // Imposta l'intent corrente
         setIntent(intent)
-
-        // Gestisci l'intent se proviene dalla callback del wallet
         handleWalletCallback(intent)
     }
 
-    // Gestisce la callback dal wallet
+    // Gestione callback dal wallet
     private fun handleWalletCallback(intent: Intent) {
         val data = intent.data
 
-        if (data != null && data.scheme == "nativesparksapp" &&
-            data.host == "callback" && data.path == "/wallet_login") {
+        // Esempio: nativesparksapp://callback/wallet_login?public_key=...
+        if (data != null &&
+            data.scheme == "nativesparksapp" &&
+            data.host == "callback" &&
+            data.path == "/wallet_login"
+        ) {
 
-            Log.d(TAG, "Callback dal wallet ricevuta per login: $data")
+            Log.d(TAG, "Callback dal wallet Solana (login): $data")
 
-            // Estrai l'indirizzo del wallet dai parametri (se disponibile)
-            val walletAddress = data.getQueryParameter("address") ?: "0x" + generateRandomHexAddress()
+            // Leggiamo il parametro "public_key"
+            val walletAddress = data.getQueryParameter("public_key")
+                ?: "Sconosciuto_${System.currentTimeMillis()}"
 
             Log.d(TAG, "Indirizzo wallet ottenuto per login: $walletAddress")
 
@@ -277,7 +274,7 @@ class LoginActivity : AppCompatActivity()  {
 
             Toast.makeText(
                 this,
-                "Login tramite Wallet effettuato. Address: $walletAddress",
+                "Login tramite Wallet Solana effettuato. Address: $walletAddress",
                 Toast.LENGTH_SHORT
             ).show()
 
@@ -287,22 +284,9 @@ class LoginActivity : AppCompatActivity()  {
         }
     }
 
-    // Genera un indirizzo esadecimale casuale (solo per demo)
-    private fun generateRandomHexAddress(): String {
-        val chars = "0123456789abcdef"
-        val sb = StringBuilder(40)
-        for (i in 0 until 40) {
-            val index = (chars.length * Math.random()).toInt()
-            sb.append(chars[index])
-        }
-        return sb.toString()
-    }
-
-    // Gestisce anche la callback nel metodo onResume
+    // Gestisce la callback anche nel metodo onResume
     override fun onResume() {
         super.onResume()
-
-        // Controlla se c'è un intent pendente
         val intent = intent
         if (intent != null) {
             handleWalletCallback(intent)
