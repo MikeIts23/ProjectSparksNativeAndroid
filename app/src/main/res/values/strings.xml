@@ -63,6 +63,8 @@
     <string name="password_hint">Password \n</string>
     <string name="toggle_password">toogle password\n</string>
     <string name="leaderboard">Leaderboard</string>
+
+
     <string name="profile">Profile</string>
     <string name="email_hint">Email</string>
     <string name="name_hint">Name</string>
@@ -77,7 +79,7 @@
     <string name="italian">Italian</string>
     <string name="french">French</string>
     <string name="cancel">Cancel</string>
-    <string name="language_changed">Language changed to English</string>
+    <string name="language_changed">Language changed</string>
     <string name="edit_profile_information_text">Edit profile information</string>
     <string name="notifications_text">Notifications</string>
     <string name="language_text">Language</string>

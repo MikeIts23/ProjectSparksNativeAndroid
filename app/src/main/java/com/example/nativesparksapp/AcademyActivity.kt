@@ -14,7 +14,7 @@ import com.google.android.material.card.MaterialCardView
 import android.content.Intent
 import java.io.ByteArrayOutputStream
 
-class AcademyActivity : AppCompatActivity() {
+class AcademyActivity : BaseActivity() {
 
     companion object {
         private const val TAG = "AcademyActivity"

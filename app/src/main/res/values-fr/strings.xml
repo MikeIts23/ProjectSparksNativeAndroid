@@ -69,7 +69,6 @@
     <string name="welcome_sparky1">Bienvenue Sparky</string>
     <string name="errore_di_login1">Erreur de connexion</string>
 
-    <!-- Nouvelles chaînes pour la fonctionnalité de changement de langue -->
     <string name="language_selection">Sélection de la langue</string>
     <string name="select_language">Sélectionnez la langue</string>
     <string name="english">Anglais</string>
@@ -91,7 +90,7 @@
     <string name="tab_global">Global</string>
     <string name="academy_header_image">Immagine Academy</string>
     <string name="course_background_desc">Background Description</string>
-    <string name="start_quiz">Start Quiz</string>
-    <string name="start_course">Start Course</string>
+    <string name="start_quiz">Commencer le Quiz</string>
+    <string name="start_course">Commencer le Cours</string>
     <string name="quiz_background_desc">Descrizione Immagine</string>
 </resources>

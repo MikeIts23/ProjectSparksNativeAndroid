@@ -12,9 +12,7 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.card.MaterialCardView
 
-/**
- * Classe di supporto per gestire la bottom navigation bar moderna
- */
+
 class BottomNavigationHelper {
 
     companion object {

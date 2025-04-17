@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import com.google.firebase.auth.FirebaseAuth
 
-class GameLaunchActivity : AppCompatActivity() {
+class GameLaunchActivity : BaseActivity() {
 
     private val TAG = "GameLaunchActivity"
 

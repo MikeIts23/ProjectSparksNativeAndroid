@@ -26,7 +26,7 @@ import java.io.ByteArrayOutputStream
 import java.io.IOException
 import java.util.*
 
-class ProfileActivity : AppCompatActivity() {
+class ProfileActivity : BaseActivity() {
 
     companion object {
         const val PREFS_NAME = "UserPrefs"
@@ -54,13 +54,11 @@ class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Applica la lingua salvata prima di impostare il layout
         val currentLanguage = LocaleHelper.getLanguage(this)
         val context = LocaleHelper.setLocale(this, currentLanguage)
 
         setContentView(R.layout.activity_profile)
 
-        // Inizializzazione Google Sign-In
         googleSignInClient = com.google.android.gms.auth.api.signin.GoogleSignIn.getClient(
             this,
             GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -80,7 +78,6 @@ class ProfileActivity : AppCompatActivity() {
         textLanguage = findViewById(R.id.textLanguage)
         textCurrentLanguage = findViewById(R.id.textCurrentLanguage)
 
-        // Imposta i testi localizzati
         buttonEditProfile.text = getString(R.string.edit_profile_information_text)
         findViewById<TextView>(R.id.textNotifications).text = getString(R.string.notifications_text)
         textLanguage.text = getString(R.string.language_text)
@@ -88,7 +85,6 @@ class ProfileActivity : AppCompatActivity() {
         buttonContactUs.text = getString(R.string.contact_us_text)
         buttonPrivacyPolicy.text = getString(R.string.privacy_policy_text)
 
-        // Imposta il testo della lingua corrente con emoji
         updateCurrentLanguageText()
 
         loadProfileImage()
@@ -104,15 +100,13 @@ class ProfileActivity : AppCompatActivity() {
             sharedPrefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, isChecked).apply()
         }
 
-        // (NUOVO) Controllo se l'utente è registrato via wallet
         val isRegisteredViaWallet = sharedPrefs.getBoolean("registered_via_wallet", false)
         if (isRegisteredViaWallet) {
-            // Nascondo completamente il pulsante Edit Profile
+
             buttonEditProfile.visibility = View.GONE
             iconEditProfile.visibility = View.GONE
         }
 
-        // Navigazione altre pagine
         buttonEditProfile.setOnClickListener {
             startActivity(Intent(this, EditProfileActivity::class.java))
         }
@@ -142,13 +136,9 @@ class ProfileActivity : AppCompatActivity() {
             }
         }
 
-        // Inizializza la bottom navigation bar moderna
         BottomNavigationHelper.setupBottomNavigation(this)
     }
 
-    /**
-     * Mostra il popup di selezione lingua
-     */
     private fun showLanguageSelectionDialog() {
         val languages = arrayOf(
             "${LocaleHelper.getLanguageFlag("en")} ${getString(R.string.english)}",
@@ -186,6 +176,8 @@ class ProfileActivity : AppCompatActivity() {
 
                 // Mostra un messaggio di conferma
                 Toast.makeText(this, getString(R.string.language_changed), Toast.LENGTH_SHORT).show()
+                recreate()
+
             }
 
             dialog.dismiss()
@@ -199,9 +191,6 @@ class ProfileActivity : AppCompatActivity() {
         dialog.show()
     }
 
-    /**
-     * Aggiorna le risorse dell'app con la nuova lingua
-     */
     private fun updateLocaleResources(context: Context) {
         // Aggiorna i testi nell'interfaccia utente
         buttonEditProfile.text = context.getString(R.string.edit_profile_information_text)
@@ -212,9 +201,6 @@ class ProfileActivity : AppCompatActivity() {
         buttonPrivacyPolicy.text = context.getString(R.string.privacy_policy_text)
     }
 
-    /**
-     * Aggiorna il testo della lingua corrente con emoji
-     */
     private fun updateCurrentLanguageText() {
         val currentLanguage = LocaleHelper.getLanguage(this)
         val languageName = LocaleHelper.getLanguageName(this, currentLanguage)
@@ -306,7 +292,6 @@ class ProfileActivity : AppCompatActivity() {
         Log.d(TAG, "SharedPreferences pulite con successo")
     }
 
-    // Aggiungi il supporto per l'attachamento al contesto della lingua corrente
     override fun attachBaseContext(newBase: Context) {
         val language = LocaleHelper.getLanguage(newBase)
         super.attachBaseContext(LocaleHelper.setLocale(newBase, language))

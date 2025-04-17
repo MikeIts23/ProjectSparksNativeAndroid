@@ -27,27 +27,22 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var progressLoading: ProgressBar
     private lateinit var buttonSignUp: Button
     private lateinit var textErrorMessage: TextView
-
     private lateinit var imageGoogle: ImageView
     private lateinit var imageWallet: ImageView
 
     private var isLoading = false
     private var isPasswordVisible = false
 
-    private val auth: FirebaseAuth by lazy {
-        FirebaseAuth.getInstance()
-    }
+    private val auth: FirebaseAuth by lazy { FirebaseAuth.getInstance() }
 
     private lateinit var googleSignInClient: GoogleSignInClient
     private val RC_SIGN_IN = 9001
 
-    // Tag per il logging
     private val TAG = "RegisterActivity"
 
     companion object {
         const val PREFS_USER_ID = "user_prefs"
         const val KEY_LAST_USER_ID = "last_user_id"
-
         const val PREFS_NAME = "UserPrefs"
         const val KEY_REGISTERED_VIA_WALLET = "registered_via_wallet"
         const val KEY_WALLET_ADDRESS = "wallet_address"
@@ -59,7 +54,6 @@ class RegisterActivity : AppCompatActivity() {
 
         clearAllUserPreferences()
 
-        // Inizializza i riferimenti
         editTextEmail = findViewById(R.id.editTextEmail)
         editTextName = findViewById(R.id.editTextName)
         editTextPassword = findViewById(R.id.editTextPassword)
@@ -76,25 +70,10 @@ class RegisterActivity : AppCompatActivity() {
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        // Toggle password
-        imageTogglePassword.setOnClickListener {
-            togglePasswordVisibility()
-        }
-
-        // Click su "Sign up"
-        buttonSignUp.setOnClickListener {
-            onSignUp()
-        }
-
-        // Click su icona Google
-        imageGoogle.setOnClickListener {
-            onSignUpWithGoogle()
-        }
-
-        // Click su icona/pulsante "Wallet Solana"
-        imageWallet.setOnClickListener {
-            connectWithSolanaWallet()
-        }
+        imageTogglePassword.setOnClickListener { togglePasswordVisibility() }
+        buttonSignUp.setOnClickListener { onSignUp() }
+        imageGoogle.setOnClickListener { onSignUpWithGoogle() }
+        imageWallet.setOnClickListener { connectWithSolanaWallet() }
 
         handleWalletCallback(intent)
     }
@@ -118,11 +97,9 @@ class RegisterActivity : AppCompatActivity() {
         val name = editTextName.text.toString().trim()
         val password = editTextPassword.text.toString()
 
-        // Mostra spinner e nascondi bottone
         setLoading(true)
         textErrorMessage.visibility = View.GONE
 
-        // Controlli preliminari
         if (email.isEmpty() || name.isEmpty() || password.isEmpty()) {
             showErrorMessage("Per favore, compila tutti i campi.")
             setLoading(false)
@@ -134,54 +111,36 @@ class RegisterActivity : AppCompatActivity() {
             return
         }
 
-        // Creazione utente con FirebaseAuth
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     val firebaseUser = auth.currentUser
-                    // Aggiorna displayName con il nome inserito
                     val profileUpdates = com.google.firebase.auth.UserProfileChangeRequest
                         .Builder()
                         .setDisplayName(name)
                         .build()
 
                     firebaseUser?.updateProfile(profileUpdates)
-                        ?.addOnCompleteListener { _ ->
-                            // Registrazione ok
+                        ?.addOnCompleteListener {
                             setLoading(false)
-                            Toast.makeText(
-                                this,
-                                "Registrazione completata!",
-                                Toast.LENGTH_SHORT
-                            ).show()
-
-                            // Salva l'ID dell'utente corrente nelle SharedPreferences
-                            firebaseUser?.uid?.let { userId ->
-                                saveCurrentUserId(userId)
-                                Log.d(TAG, "ID utente salvato: $userId")
-                            }
-
-                            // Vai alla GameLaunchActivity e chiudi la schermata di registrazione
+                            Toast.makeText(this, "Registrazione completata!", Toast.LENGTH_SHORT).show()
+                            firebaseUser?.uid?.let { userId -> saveCurrentUserId(userId) }
                             startActivity(Intent(this, GameLaunchActivity::class.java))
                             finish()
                         }
                 } else {
-                    // Errore FirebaseAuth
-                    val errorMessage = task.exception?.localizedMessage
-                        ?: "Errore sconosciuto durante la registrazione."
-                    showErrorMessage(errorMessage)
+                    showErrorMessage(
+                        task.exception?.localizedMessage ?: "Errore sconosciuto durante la registrazione."
+                    )
                     setLoading(false)
                 }
             }
     }
 
     private fun onSignUpWithGoogle() {
-        // Avvia il flusso di login Google
-        val signInIntent = googleSignInClient.signInIntent
-        startActivityForResult(signInIntent, RC_SIGN_IN)
+        startActivityForResult(googleSignInClient.signInIntent, RC_SIGN_IN)
     }
 
-    // Gestisci il risultato dell'Intent di Google
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == RC_SIGN_IN) {
@@ -196,21 +155,14 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
-    // Completa l'autenticazione Firebase con Google
     private fun firebaseAuthWithGoogle(idToken: String) {
         setLoading(true)
         val credential = GoogleAuthProvider.getCredential(idToken, null)
         auth.signInWithCredential(credential)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    // Login Google ok
-                    Toast.makeText(
-                        this,
-                        "Registrazione con Google completata!",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                    val intent = Intent(this, GameLaunchActivity::class.java)
-                    startActivity(intent)
+                    Toast.makeText(this, "Registrazione con Google completata!", Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, GameLaunchActivity::class.java))
                     finish()
                 } else {
                     showErrorMessage(task.exception?.localizedMessage ?: "Google sign in failed")
@@ -219,128 +171,64 @@ class RegisterActivity : AppCompatActivity() {
             }
     }
 
-    /**
-     * Metodo per connettersi a un wallet Solana (es. Phantom)
-     * Cambiato da "com.phantom.app" a "app.phantom".
-     */
     private fun connectWithSolanaWallet() {
-        Log.d(TAG, "Tentativo di connessione con Phantom (Solana)")
-
-        // Verifica se Phantom è installato
         if (isPhantomInstalled()) {
-            Log.d(TAG, "Phantom è installato, avvio dell'app")
             launchPhantom()
         } else {
-            Log.d(TAG, "Phantom non è installato, reindirizzamento al Play Store")
-            Toast.makeText(
-                this,
-                "Phantom non è installato. Installalo per continuare.",
-                Toast.LENGTH_LONG
-            ).show()
-
-            // Apri il Play Store per installare Phantom (cambiato id)
+            Toast.makeText(this, "Phantom non è installato. Installalo per continuare.", Toast.LENGTH_LONG).show()
             try {
-                startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("market://details?id=app.phantom")))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=app.phantom")))
             } catch (e: ActivityNotFoundException) {
-                // Se il Play Store non fosse disponibile, apri il browser
-                startActivity(Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://play.google.com/store/apps/details?id=app.phantom") ))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=app.phantom")))
             }
         }
     }
 
-    // Verifica se Phantom è installato (packageName corretto per l'Italia: "app.phantom")
     private fun isPhantomInstalled(): Boolean {
-        val packageManager = packageManager
         return try {
-            packageManager.getPackageInfo("app.phantom", 0)
-            true
+            packageManager.getPackageInfo("app.phantom", 0); true
         } catch (e: PackageManager.NameNotFoundException) {
             false
         }
     }
 
-    // Avvia Phantom con la richiesta di connessione e callback
     private fun launchPhantom() {
         try {
-            // Esempio di deep link con callback = nativesparksapp://callback/wallet
             val phantomUri = Uri.parse("phantom://nativesparksapp/connect?redirect=nativesparksapp://callback/wallet")
             val intent = Intent(Intent.ACTION_VIEW, phantomUri)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-
-            Log.d(TAG, "Avvio di Phantom con URI: $phantomUri")
             startActivity(intent)
         } catch (e: Exception) {
-            Log.e(TAG, "Errore nell'avvio di Phantom", e)
-            Toast.makeText(
-                this,
-                "Errore nell'avvio di Phantom: ${e.localizedMessage}",
-                Toast.LENGTH_SHORT
-            ).show()
+            Toast.makeText(this, "Errore nell'avvio di Phantom: ${e.localizedMessage}", Toast.LENGTH_SHORT).show()
         }
     }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        Log.d(TAG, "onNewIntent chiamato con intent: ${intent.data}")
         setIntent(intent)
         handleWalletCallback(intent)
     }
 
-    // Gestisce la callback dal wallet Solana
     private fun handleWalletCallback(intent: Intent) {
         val data = intent.data
-        // Esempio: nativesparksapp://callback/wallet?public_key=...
         if (data != null &&
             data.scheme == "nativesparksapp" &&
             data.host == "callback" &&
             data.path == "/wallet"
         ) {
-            Log.d(TAG, "Callback dal wallet ricevuta: $data")
-
-            // Estrai l'indirizzo del wallet dai parametri, es. “public_key”
             val walletAddress = data.getQueryParameter("public_key")
                 ?: "SolanaAddressSconosciuto_${System.currentTimeMillis()}"
-
-            Log.d(TAG, "Indirizzo wallet ottenuto: $walletAddress")
-
-            // Salva il flag e l'indirizzo nelle SharedPreferences
             val sp = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-            sp.edit()
-                .putBoolean(KEY_REGISTERED_VIA_WALLET, true)
-                .putString(KEY_WALLET_ADDRESS, walletAddress)
-                .apply()
-
-            Toast.makeText(
-                this,
-                "Registrazione tramite Wallet completata. Address: $walletAddress",
-                Toast.LENGTH_SHORT
-            ).show()
-
-            // Vai a GameLaunchActivity
+            sp.edit().putBoolean(KEY_REGISTERED_VIA_WALLET, true).putString(KEY_WALLET_ADDRESS, walletAddress).apply()
+            Toast.makeText(this, "Registrazione tramite Wallet completata. Address: $walletAddress", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, GameLaunchActivity::class.java))
             finish()
         }
     }
 
-    private fun generateRandomHexAddress(): String {
-        val chars = "0123456789abcdef"
-        val sb = StringBuilder(40)
-        for (i in 0 until 40) {
-            val index = (chars.length * Math.random()).toInt()
-            sb.append(chars[index])
-        }
-        return sb.toString()
-    }
-
     override fun onResume() {
         super.onResume()
-        // Controlla se c'è un intent pendente e gestiscilo
-        val intent = intent
-        if (intent != null) {
-            handleWalletCallback(intent)
-        }
+        handleWalletCallback(intent)
     }
 
     private fun setLoading(loading: Boolean) {
@@ -359,29 +247,19 @@ class RegisterActivity : AppCompatActivity() {
         textErrorMessage.visibility = View.VISIBLE
     }
 
-    // Pulisce tutte le SharedPreferences dell'utente
     private fun clearAllUserPreferences() {
-        Log.d(TAG, "Pulizia delle SharedPreferences all'avvio della registrazione")
-
-        // Pulisci le SharedPreferences di ProfileActivity
         val profilePrefs = getSharedPreferences(ProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
         profilePrefs.edit().clear().apply()
-
-        // Pulisci le SharedPreferences di EditProfileActivity
         val editProfilePrefs = getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
         editProfilePrefs.edit().clear().apply()
-
-        // Aggiungi qui eventuali altre SharedPreferences che vuoi pulire
-
-        Log.d(TAG, "SharedPreferences pulite con successo all'avvio della registrazione")
     }
 
-    // Salva l'ID dell'utente corrente nelle SharedPreferences
     private fun saveCurrentUserId(userId: String) {
         val userPrefs = getSharedPreferences(PREFS_USER_ID, Context.MODE_PRIVATE)
-        userPrefs.edit()
-            .putString(KEY_LAST_USER_ID, userId)
-            .apply()
-        Log.d(TAG, "ID utente salvato nelle SharedPreferences: $userId")
+        userPrefs.edit().putString(KEY_LAST_USER_ID, userId).apply()
+    }
+
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.setLocale(newBase, "en"))
     }
 }

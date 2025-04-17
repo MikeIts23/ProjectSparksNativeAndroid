@@ -5,9 +5,6 @@ import android.content.Context
 import android.content.res.Configuration
 import java.util.*
 
-/**
- * Classe Application personalizzata per gestire la localizzazione a livello di applicazione
- */
 class SparksApplication : Application() {
 
     companion object {
@@ -17,19 +14,13 @@ class SparksApplication : Application() {
             return instance!!
         }
 
-        /**
-         * Aggiorna la configurazione della lingua per tutta l'applicazione
-         */
         fun updateLocale(context: Context): Context {
-            val language = LocaleHelper.getLanguage(context)
-            return setLocale(context, language)
+            val savedLanguage = LocaleHelper.getLanguage(context)
+            val languageToApply = if (savedLanguage.isNullOrEmpty()) "en" else savedLanguage
+            return setLocale(context, languageToApply)
         }
 
-        /**
-         * Imposta la lingua per il contesto fornito
-         */
         fun setLocale(context: Context, language: String): Context {
-            // Salva la lingua nelle preferenze
             LocaleHelper.setLocale(context, language)
 
             // Aggiorna la configurazione
@@ -49,7 +40,6 @@ class SparksApplication : Application() {
     }
 
     override fun attachBaseContext(base: Context) {
-        // Applica la lingua corrente al contesto base dell'applicazione
         super.attachBaseContext(updateLocale(base))
     }
 }
