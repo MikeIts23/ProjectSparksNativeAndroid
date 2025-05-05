@@ -8,7 +8,6 @@
     android:background="@drawable/bg_gradient_login"
     tools:context=".LoginActivity">
 
-    <!-- Guideline per iniziare il blocco del form sotto il titolo -->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineFormStart"
         android:layout_width="wrap_content"
@@ -16,7 +15,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="120dp" />
 
-    <!-- Titolo alto, separato dal form -->
     <TextView
         android:id="@+id/textWelcomeTitle"
         android:layout_width="wrap_content"
@@ -30,7 +28,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="40dp" />
 
-    <!-- Email sotto la guideline (non vincolato al titolo) -->
     <EditText
         android:id="@+id/editTextEmail"
         style="@style/GlassEditTextStyle"
@@ -47,7 +44,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Password -->
     <FrameLayout
         android:id="@+id/layoutPasswordContainer"
         android:layout_width="0dp"
@@ -79,7 +75,6 @@
             android:contentDescription="@string/toggle_password_visibility"/>
     </FrameLayout>
 
-    <!-- Link password dimenticata -->
     <TextView
         android:id="@+id/textForgotPassword"
         android:layout_width="wrap_content"
@@ -91,7 +86,6 @@
         app:layout_constraintTop_toBottomOf="@id/layoutPasswordContainer"
         app:layout_constraintEnd_toEndOf="@id/layoutPasswordContainer" />
 
-    <!-- Pulsante login -->
     <Button
         android:id="@+id/buttonSignIn"
         style="@style/GlowingButtonStyle"
@@ -106,7 +100,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Loading -->
     <ProgressBar
         android:id="@+id/progressLoading"
         android:layout_width="wrap_content"
@@ -117,7 +110,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Errore login -->
     <TextView
         android:id="@+id/textErrorMessage"
         android:layout_width="wrap_content"
@@ -131,7 +123,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- OR -->
     <TextView
         android:id="@+id/textOr"
         android:layout_width="wrap_content"
@@ -145,7 +136,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Pulsante registrati -->
     <Button
         android:id="@+id/buttonRegister"
         style="@style/GlowingButtonStyle"
@@ -160,7 +150,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Linea "continue with" -->
     <LinearLayout
         android:id="@+id/layoutContinueWith"
         android:layout_width="0dp"
@@ -195,7 +184,6 @@
             android:background="@android:color/darker_gray" />
     </LinearLayout>
 
-    <!-- Social -->
     <LinearLayout
         android:id="@+id/layoutSocialIcons"
         android:layout_width="wrap_content"
@@ -222,12 +210,20 @@
             android:id="@+id/imageWallet"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginEnd="40dp"
+            android:layout_marginEnd="16dp"
             android:padding="12dp"
             android:src="@drawable/solanaiconremove"
             android:background="@drawable/bg_button_glowing"
-            android:contentDescription="@string/wallet_login" />
+            android:contentDescription="@string/wallet_login1" />
 
+        <ImageView
+            android:id="@+id/imageComingSoon"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:src="@drawable/comingsoon3"
+            android:contentDescription="@string/coming_soon"
+            android:scaleType="centerInside" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

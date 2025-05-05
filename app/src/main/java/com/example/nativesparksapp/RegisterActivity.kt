@@ -2,10 +2,8 @@ package com.example.nativesparksapp
 
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.text.InputType
-import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -15,8 +13,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import android.content.ActivityNotFoundException
-import android.content.pm.PackageManager
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -43,9 +39,6 @@ class RegisterActivity : AppCompatActivity() {
     companion object {
         const val PREFS_USER_ID = "user_prefs"
         const val KEY_LAST_USER_ID = "last_user_id"
-        const val PREFS_NAME = "UserPrefs"
-        const val KEY_REGISTERED_VIA_WALLET = "registered_via_wallet"
-        const val KEY_WALLET_ADDRESS = "wallet_address"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,9 +66,7 @@ class RegisterActivity : AppCompatActivity() {
         imageTogglePassword.setOnClickListener { togglePasswordVisibility() }
         buttonSignUp.setOnClickListener { onSignUp() }
         imageGoogle.setOnClickListener { onSignUpWithGoogle() }
-        imageWallet.setOnClickListener { connectWithSolanaWallet() }
-
-        handleWalletCallback(intent)
+        imageWallet.setOnClickListener { }
     }
 
     private fun togglePasswordVisibility() {
@@ -130,7 +121,8 @@ class RegisterActivity : AppCompatActivity() {
                         }
                 } else {
                     showErrorMessage(
-                        task.exception?.localizedMessage ?: "Errore sconosciuto durante la registrazione."
+                        task.exception?.localizedMessage
+                            ?: "Errore sconosciuto durante la registrazione."
                     )
                     setLoading(false)
                 }
@@ -149,7 +141,7 @@ class RegisterActivity : AppCompatActivity() {
                 val account = task.getResult(ApiException::class.java)!!
                 firebaseAuthWithGoogle(account.idToken!!)
             } catch (e: ApiException) {
-                showErrorMessage("Google sign in failed: ${e.localizedMessage}")
+                showErrorMessage("Google sign in failed: \${e.localizedMessage}")
                 setLoading(false)
             }
         }
@@ -169,66 +161,6 @@ class RegisterActivity : AppCompatActivity() {
                     setLoading(false)
                 }
             }
-    }
-
-    private fun connectWithSolanaWallet() {
-        if (isPhantomInstalled()) {
-            launchPhantom()
-        } else {
-            Toast.makeText(this, "Phantom non è installato. Installalo per continuare.", Toast.LENGTH_LONG).show()
-            try {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=app.phantom")))
-            } catch (e: ActivityNotFoundException) {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=app.phantom")))
-            }
-        }
-    }
-
-    private fun isPhantomInstalled(): Boolean {
-        return try {
-            packageManager.getPackageInfo("app.phantom", 0); true
-        } catch (e: PackageManager.NameNotFoundException) {
-            false
-        }
-    }
-
-    private fun launchPhantom() {
-        try {
-            val phantomUri = Uri.parse("phantom://nativesparksapp/connect?redirect=nativesparksapp://callback/wallet")
-            val intent = Intent(Intent.ACTION_VIEW, phantomUri)
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-            startActivity(intent)
-        } catch (e: Exception) {
-            Toast.makeText(this, "Errore nell'avvio di Phantom: ${e.localizedMessage}", Toast.LENGTH_SHORT).show()
-        }
-    }
-
-    override fun onNewIntent(intent: Intent) {
-        super.onNewIntent(intent)
-        setIntent(intent)
-        handleWalletCallback(intent)
-    }
-
-    private fun handleWalletCallback(intent: Intent) {
-        val data = intent.data
-        if (data != null &&
-            data.scheme == "nativesparksapp" &&
-            data.host == "callback" &&
-            data.path == "/wallet"
-        ) {
-            val walletAddress = data.getQueryParameter("public_key")
-                ?: "SolanaAddressSconosciuto_${System.currentTimeMillis()}"
-            val sp = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-            sp.edit().putBoolean(KEY_REGISTERED_VIA_WALLET, true).putString(KEY_WALLET_ADDRESS, walletAddress).apply()
-            Toast.makeText(this, "Registrazione tramite Wallet completata. Address: $walletAddress", Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this, GameLaunchActivity::class.java))
-            finish()
-        }
-    }
-
-    override fun onResume() {
-        super.onResume()
-        handleWalletCallback(intent)
     }
 
     private fun setLoading(loading: Boolean) {

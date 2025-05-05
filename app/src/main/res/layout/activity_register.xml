@@ -15,9 +15,9 @@
         android:scaleType="fitCenter"
         android:src="@drawable/sparkyspace"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <ScrollView
         android:id="@+id/scrollViewContent"
         android:layout_width="match_parent"
@@ -25,7 +25,8 @@
         android:clipToPadding="false"
         app:layout_constraintTop_toBottomOf="@id/imageTopIllustration"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:paddingHorizontal="30dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
         android:paddingTop="30dp"
         android:paddingBottom="40dp">
 
@@ -42,8 +43,7 @@
                 android:textColor="#F7F7F7"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif"
-                />
+                android:fontFamily="sans-serif" />
 
             <Space
                 android:layout_width="match_parent"
@@ -55,8 +55,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/email1"
                 android:textColor="#A3A3A3"
-                android:textSize="14sp"
-                />
+                android:textSize="14sp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -74,7 +73,7 @@
                     android:hint="@string/email_hint"
                     android:background="@android:color/transparent"
                     android:gravity="center_vertical"
-                    android:paddingLeft="50dp"
+                    android:paddingStart="50dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="#888888"
                     android:inputType="textEmailAddress" />
@@ -83,16 +82,15 @@
                     android:id="@+id/imageEmailIcon"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
                     android:src="@android:drawable/ic_dialog_email" />
             </RelativeLayout>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
-
 
             <TextView
                 android:id="@+id/textLabelName"
@@ -106,7 +104,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="8dp" />
 
-            <!-- Campo Name -->
             <RelativeLayout
                 android:id="@+id/layoutNameContainer"
                 android:layout_width="match_parent"
@@ -124,14 +121,13 @@
                     android:textColorHint="#888888"
                     android:inputType="textPersonName" />
 
-                <!-- Icona utente a sinistra -->
                 <ImageView
                     android:id="@+id/imageNameIcon"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
                     android:src="@android:drawable/ic_menu_myplaces" />
             </RelativeLayout>
 
@@ -139,7 +135,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
 
-            <!-- Label Password -->
             <TextView
                 android:id="@+id/textLabelPassword"
                 android:layout_width="wrap_content"
@@ -152,7 +147,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="8dp" />
 
-            <!-- Campo Password + Occhio -->
             <RelativeLayout
                 android:id="@+id/layoutPasswordContainer"
                 android:layout_width="match_parent"
@@ -165,23 +159,21 @@
                     android:hint="@string/password_hint"
                     android:background="@android:color/transparent"
                     android:gravity="center_vertical"
-                    android:paddingLeft="50dp"
-                    android:paddingRight="50dp"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="#888888"
                     android:inputType="textPassword" />
 
-                <!-- Icona lucchetto a sinistra -->
                 <ImageView
                     android:id="@+id/imageLockIcon"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
                     android:src="@android:drawable/ic_lock_lock" />
 
-                <!-- Icona occhio per mostra/nascondi password (usa ic_menu_view come standard) -->
                 <ImageView
                     android:id="@+id/imageTogglePassword"
                     android:layout_width="40dp"
@@ -197,7 +189,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp" />
 
-
             <ProgressBar
                 android:id="@+id/progressLoading"
                 android:layout_width="wrap_content"
@@ -205,7 +196,6 @@
                 android:layout_gravity="center"
                 android:visibility="gone" />
 
-            <!-- Bottone Sign up -->
             <Button
                 android:id="@+id/buttonSignUp"
                 android:layout_width="match_parent"
@@ -216,7 +206,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:background="@drawable/bg_button_glowing"
-                android:fontFamily="sans-serif-medium"/>
+                android:fontFamily="sans-serif-medium" />
 
             <Space
                 android:layout_width="match_parent"
@@ -236,7 +226,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp" />
 
-            <!-- Separatore: "Or continue with" -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -247,7 +236,7 @@
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="1"
-                    android:background="#4DFFFFFF"/>
+                    android:background="#4DFFFFFF" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -255,49 +244,69 @@
                     android:text="Or continue with"
                     android:textColor="#B5B5B5"
                     android:textSize="11sp"
-                    android:layout_marginHorizontal="8dp"/>
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="1"
-                    android:background="#4DFFFFFF"/>
+                    android:background="#4DFFFFFF" />
+
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
 
-            <!-- Icone Social (Google, Apple) -->
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center"
-                android:gravity="center">
+                android:orientation="horizontal">
 
-                <!-- Google -->
                 <ImageView
                     android:id="@+id/imageGoogle"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:src="@drawable/google"
                     android:contentDescription="@string/google_login"
-                    android:layout_marginEnd="80dp"
                     android:background="@drawable/bg_button_glowing"
-                    android:padding="12dp"/>
+                    android:padding="12dp" />
 
-                <ImageView
-                    android:id="@+id/imageWallet"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:src="@drawable/solanaiconremove"
-                android:contentDescription="@string/wallet_login1"
-                android:layout_marginEnd="0dp"
-                android:background="@drawable/bg_button_glowing"
-                android:padding="12dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
 
+                    <ImageView
+                        android:id="@+id/imageWallet"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/solanaiconremove"
+                        android:contentDescription="@string/wallet_login1"
+                        android:background="@drawable/bg_button_glowing"
+                        android:padding="12dp" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageComingSoon"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:padding="12dp"
+                        android:src="@drawable/comingsoon3"
+                        android:contentDescription="@string/coming_soon"
+                     />
+
+                </LinearLayout>
 
             </LinearLayout>
 
