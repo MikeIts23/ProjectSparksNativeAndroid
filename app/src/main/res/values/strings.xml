@@ -110,5 +110,8 @@
     <string name="combo_chain">Combo Chain</string>
     <string name="combo_chain1">Combo Chain</string>
     <string name="Colormix1">Color Mix</string>
+    <string name="coming_soon">coming soon immage\n</string>
+    <string name="player_avatar_desc">Player avatr \n</string>
+    <string name="high_score_trophy" />
 
 </resources>
