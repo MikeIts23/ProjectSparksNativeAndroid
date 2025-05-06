@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutLeaderboardHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_edit_profile"
+    tools:context=".LeaderboardHomeActivity">
+
+    <!-- Gradiente di sfondo -->
+    <ImageView
+        android:id="@+id/imageGradientBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_gradient_edit_profile"
+        android:contentDescription="@null" />
+
+    <!-- Pattern overlay -->
+    <ImageView
+        android:id="@+id/imagePatternBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_sparksar_pattern"
+        android:contentDescription="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Header -->
+    <ImageView
+        android:id="@+id/imageAcademyHeader"
+        android:layout_width="179dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/sparksrank"
+        android:contentDescription="@string/academy_header_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Guideline verticale 50% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardMyScore"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/imageAcademyHeader"
+        app:layout_constraintWidth_percent="0.45"
+        app:layout_constraintDimensionRatio="1:1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Sfondo immagine -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sparksrank2"
+                android:scaleType="centerCrop"
+                android:contentDescription="@null" />
+
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Titolo sotto “My Score” -->
+    <TextView
+        android:id="@+id/textMyScoreTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/my_score"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/cardMyScore"
+        app:layout_constraintStart_toStartOf="@id/cardMyScore"
+        app:layout_constraintEnd_toEndOf="@id/cardMyScore" />
+
+    <!-- Card “Leaderboard” con sfondo immagine -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLeaderboard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageAcademyHeader"
+        app:layout_constraintWidth_percent="0.45"
+        app:layout_constraintDimensionRatio="1:1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Sfondo immagine -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sparksrank3"
+                android:scaleType="centerCrop"
+                android:contentDescription="@null" />
+
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Titolo sotto “Leaderboard” -->
+    <TextView
+        android:id="@+id/textLeaderboardTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/leaderboard_title"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/cardLeaderboard"
+        app:layout_constraintStart_toStartOf="@id/cardLeaderboard"
+        app:layout_constraintEnd_toEndOf="@id/cardLeaderboard" />
+
+    <!-- Bottom navigation -->
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -93,4 +93,9 @@
     <string name="start_quiz">Commencer le Quiz</string>
     <string name="start_course">Commencer le Cours</string>
     <string name="quiz_background_desc">Descrizione Immagine</string>
+    <string name="my_score">My Scores\n</string>
+    <string name="color_mix">Color Mix</string>
+    <string name="combo_chain">Combo Chain</string>
+    <string name="combo_chain1">Combo Chain</string>
+    <string name="Colormix1">Color Mix</string>
 </resources>

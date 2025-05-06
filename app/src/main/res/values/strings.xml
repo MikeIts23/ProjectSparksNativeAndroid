@@ -95,7 +95,7 @@
     <string name="user_name2">user234\n</string>
     <string name="user_name1">user435</string>
     <string name="user_name3">user6887\n</string>
-    <string name="tab_friends">My Scores</string>
+    <string name="tab_friends">Friends</string>
     <string name="tab_national">National</string>
     <string name="tab_global">Global</string>
     <string name="quiz_1">Edu-Quiz</string>
@@ -105,5 +105,10 @@
     <string name="start_quiz">Start Quiz</string>
     <string name="start_course">Start Course</string>
     <string name="quiz_background_desc">Descrizione Immagine</string>
+    <string name="my_score">My Scores\n</string>
+    <string name="color_mix">Color Mix</string>
+    <string name="combo_chain">Combo Chain</string>
+    <string name="combo_chain1">Combo Chain</string>
+    <string name="Colormix1">Color Mix</string>
 
 </resources>

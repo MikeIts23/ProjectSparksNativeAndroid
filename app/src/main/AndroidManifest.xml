@@ -25,21 +25,23 @@
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-            <!-- Intent filter per gestire la callback dal wallet -->
+
+            <!-- Callback wallet -->
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
                 <data
                     android:scheme="nativesparksapp"
                     android:host="callback"
-                    android:path="/wallet_login" />
+                    android:path="/wallet_login"/>
             </intent-filter>
         </activity>
 
+        <!-- FileProvider -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -47,64 +49,37 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/filepaths" />
+                android:resource="@xml/filepaths"/>
         </provider>
 
         <!-- RegisterActivity -->
         <activity
             android:name=".RegisterActivity"
             android:exported="true">
-            <!-- Intent filter per gestire la callback dal wallet -->
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
                 <data
                     android:scheme="nativesparksapp"
                     android:host="callback"
-                    android:path="/wallet" />
+                    android:path="/wallet"/>
             </intent-filter>
         </activity>
 
-        <!-- GameLaunchActivity -->
-        <activity
-            android:name=".GameLaunchActivity"
-            android:exported="false" />
+        <!-- Game / Profilo / varie -->
+        <activity android:name=".GameLaunchActivity" android:exported="false"/>
+        <activity android:name=".ProfileActivity" android:exported="false"/>
+        <activity android:name=".EditProfileActivity" android:exported="false"/>
+        <activity android:name=".ContactsActivity" android:exported="false"/>
+        <activity android:name=".PrivacyPolicyActivity" android:exported="false"/>
+        <activity android:name=".LeaderboardActivity" android:exported="false"/>
+        <activity android:name=".AcademyActivity" android:exported="false"/>
+        <activity android:name=".WebViewActivity" android:exported="false"/>
+        <activity android:name=".LeaderboardHomeActivity" android:exported="false"/>
+        <activity android:name=".MyScoreActivity" android:exported="false"/>
 
-        <!-- ProfileActivity -->
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="false" />
-
-        <!-- EditProfileActivity -->
-        <activity
-            android:name=".EditProfileActivity"
-            android:exported="false" />
-
-        <!-- ContactsActivity -->
-        <activity
-            android:name=".ContactsActivity"
-            android:exported="false" />
-
-        <!-- PrivacyPolicyActivity -->
-        <activity
-            android:name=".PrivacyPolicyActivity"
-            android:exported="false" />
-
-        <!-- LeaderboardActivity -->
-        <activity
-            android:name=".LeaderboardActivity"
-            android:exported="false" />
-
-        <!-- Aggiunta AcademyActivity -->
-        <activity
-            android:name=".AcademyActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".WebViewActivity"
-            android:exported="false" />
-
+        <!-- Unity Player personalizzato -->
         <activity
             android:name=".CustomUnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -112,7 +87,6 @@
             android:launchMode="singleTask"
             android:screenOrientation="fullSensor"
             android:theme="@style/UnityThemeSelector"/>
-
     </application>
 
 </manifest>
