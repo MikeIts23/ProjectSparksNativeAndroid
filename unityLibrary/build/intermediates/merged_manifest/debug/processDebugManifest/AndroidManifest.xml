@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.unity3d.player" >
+
+    <uses-sdk android:minSdkVersion="23" />
+
+    <application
+        android:extractNativeLibs="true"
+        tools:replace="android:extractNativeLibs" >
+
+        <!-- entry point IL2CPP -->
+        <activity
+            android:name="com.unity3d.player.UnityPlayerActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:enabled="true"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/UnityThemeSelector" >
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="il2cpp" />
+        </activity>
+
+        <!-- eliminiamo completamente la GameActivity che cerca libgame.so -->
+        <activity
+            android:name="com.unity3d.player.UnityPlayerGameActivity"
+            tools:node="remove" />
+    </application>
+
+</manifest>

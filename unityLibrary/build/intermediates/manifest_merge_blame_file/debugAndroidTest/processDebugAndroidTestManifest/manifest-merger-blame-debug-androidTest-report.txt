@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player.test" >
+4
+5    <uses-sdk
+5-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:5:5-74
+6        android:minSdkVersion="23"
+6-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:5:15-41
+7        android:targetSdkVersion="35" />
+7-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:11:5-15:73
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:13:22-53
+13        android:label="Tests for com.unity3d.player.test"
+13-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:15:22-71
+14        android:targetPackage="com.unity3d.player.test" />
+14-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:12:22-69
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\dc95c03762523c1f56fcd504f359b55d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.unity3d.player.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\dc95c03762523c1f56fcd504f359b55d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\dc95c03762523c1f56fcd504f359b55d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.unity3d.player.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\dc95c03762523c1f56fcd504f359b55d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\dc95c03762523c1f56fcd504f359b55d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:7:5-9:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\mikid\.gradle\caches\8.9\transforms\dc95c03762523c1f56fcd504f359b55d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="true" >
+26        <uses-library android:name="android.test.runner" />
+26-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:8:9-60
+26-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest3984712228671404042.xml:8:23-57
+27        <!-- entry point IL2CPP -->
+28        <activity
+28-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:9-28:20
+29            android:name="com.unity3d.player.UnityPlayerActivity"
+29-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-66
+30            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+30-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:13-194
+31            android:enabled="true"
+31-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-35
+32            android:exported="true"
+32-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:13-36
+33            android:hardwareAccelerated="true"
+33-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-47
+34            android:launchMode="singleTask"
+34-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:13-44
+35            android:screenOrientation="landscape"
+35-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-50
+36            android:theme="@style/UnityThemeSelector" >
+36-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-54
+37            <meta-data
+37-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-24:40
+38                android:name="unityplayer.UnityActivity"
+38-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:17-57
+39                android:value="true" />
+39-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:17-37
+40            <meta-data
+40-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:13-27:42
+41                android:name="android.app.lib_name"
+41-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:26:17-52
+42                android:value="il2cpp" />
+42-->[:unityLibrary] C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:17-39
+43        </activity>
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+47            android:authorities="com.unity3d.player.test.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mikid\.gradle\caches\8.9\transforms\e2430100df069f1b5827ab41941ddd81\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mikid\.gradle\caches\8.9\transforms\a411a9975dc58f0dee439bc771cb5cc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mikid\.gradle\caches\8.9\transforms\a411a9975dc58f0dee439bc771cb5cc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mikid\.gradle\caches\8.9\transforms\a411a9975dc58f0dee439bc771cb5cc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>

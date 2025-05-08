@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\.cxx\Debug\6c6c4b72\arm64-v8a'
+ninja: no work to do.

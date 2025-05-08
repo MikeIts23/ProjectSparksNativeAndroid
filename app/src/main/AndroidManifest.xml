@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.nativesparksapp">
+    xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permessi -->
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -20,7 +20,7 @@
         android:theme="@style/Theme.NativeSparksApp"
         tools:targetApi="31">
 
-        <!-- LoginActivity come LAUNCHER -->
+        <!-- LoginActivity (LAUNCHER) -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -28,7 +28,6 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
             <!-- Callback wallet -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
@@ -67,26 +66,48 @@
             </intent-filter>
         </activity>
 
-        <!-- Game / Profilo / varie -->
-        <activity android:name=".GameLaunchActivity" android:exported="false"/>
-        <activity android:name=".ProfileActivity" android:exported="false"/>
-        <activity android:name=".EditProfileActivity" android:exported="false"/>
-        <activity android:name=".ContactsActivity" android:exported="false"/>
-        <activity android:name=".PrivacyPolicyActivity" android:exported="false"/>
-        <activity android:name=".LeaderboardActivity" android:exported="false"/>
-        <activity android:name=".AcademyActivity" android:exported="false"/>
-        <activity android:name=".WebViewActivity" android:exported="false"/>
+        <!-- Attività dell’app principale -->
+        <activity android:name=".GameLaunchActivity"      android:exported="false"/>
+        <activity android:name=".ProfileActivity"         android:exported="false"/>
+        <activity android:name=".EditProfileActivity"     android:exported="false"/>
+        <activity android:name=".ContactsActivity"        android:exported="false"/>
+        <activity android:name=".PrivacyPolicyActivity"   android:exported="false"/>
+        <activity android:name=".LeaderboardActivity"     android:exported="false"/>
+        <activity android:name=".AcademyActivity"         android:exported="false"/>
+        <activity android:name=".WebViewActivity"         android:exported="false"/>
         <activity android:name=".LeaderboardHomeActivity" android:exported="false"/>
-        <activity android:name=".MyScoreActivity" android:exported="false"/>
+        <activity android:name=".MyScoreActivity"         android:exported="false"/>
 
-        <!-- Unity Player personalizzato -->
+        <!-- Wrapper Unity personalizzato -->
         <activity
             android:name=".CustomUnityPlayerActivity"
-            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:exported="true"
             android:hardwareAccelerated="true"
             android:launchMode="singleTask"
             android:screenOrientation="fullSensor"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:theme="@style/UnityThemeSelector"/>
-    </application>
 
+        <!-- IL2CPP entry point (carica libil2cpp.so) -->
+        <activity
+            android:name="com.unity3d.player.UnityPlayerActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullSensor"
+            tools:replace="android:screenOrientation"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:theme="@style/UnityThemeSelector">
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+            <!-- forza il caricamento di libil2cpp.so invece di libgame.so -->
+            <meta-data android:name="android.app.lib_name"     android:value="il2cpp"/>
+        </activity>
+
+        <!-- Rimuoviamo la GameActivity che cerca libgame.so -->
+        <activity
+            android:name="com.unity3d.player.UnityPlayerGameActivity"
+            tools:node="remove"/>
+
+    </application>
 </manifest>

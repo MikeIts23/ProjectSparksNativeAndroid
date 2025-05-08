@@ -4,10 +4,10 @@ plugins {
     id("com.google.gms.google-services")
 }
 
-
 android {
     namespace = "com.example.nativesparksapp"
     compileSdk = 35
+    ndkVersion = "27.2.12479018"
 
     defaultConfig {
         applicationId = "com.example.nativesparksapp"
@@ -18,8 +18,10 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
     sourceSets {
         getByName("main") {
+            // Prendi le .so compilate in unityLibrary
             jniLibs.srcDirs("../unityLibrary/src/main/jniLibs")
         }
     }
@@ -33,6 +35,7 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -40,29 +43,50 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    // Legacy packaging per i .so nativi (evita warning su extractNativeLibs)
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
 }
 
 dependencies {
     implementation(project(":unityLibrary"))
-    implementation ("org.web3j:core:4.8.7")
-    implementation ("com.google.android.gms:play-services-auth:20.7.0")
-    implementation ("com.google.firebase:firebase-auth:21.3.0")
-    implementation ("com.google.firebase:firebase-firestore:24.7.1")
-    implementation ("androidx.appcompat:appcompat:1.6.1")
-    implementation (platform("com.google.firebase:firebase-bom:33.10.0"))
-    implementation ("com.google.firebase:firebase-analytics")
-    implementation (libs.androidx.core.ktx)
-    implementation (libs.androidx.appcompat)
-    implementation (libs.material)
-    implementation (libs.androidx.activity)
-    implementation (libs.androidx.constraintlayout)
-    implementation (libs.firebase.auth)
-    implementation (libs.androidx.credentials)
-    implementation (libs.androidx.credentials.play.services.auth)
-    implementation (libs.googleid)
-    implementation (libs.androidx.games.activity)
-    testImplementation (libs.junit)
+    implementation("org.web3j:core:4.8.7")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("com.google.firebase:firebase-auth:21.3.0")
+    implementation("com.google.firebase:firebase-firestore:24.7.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.auth)
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
+    implementation(libs.androidx.games.activity)
+
+    testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    }
+}
 
+tasks.matching { it.name.endsWith("JniLibFolders") }.configureEach {
+    dependsOn(":unityLibrary:buildIl2Cpp")
+}
+
+// 1) Disabilita il packaging dei test Android che fallisce in unityLibrary
+tasks.matching { it.name.contains("packageDebugAndroidTest") }.configureEach {
+    enabled = false
+}
+
+// 2) Disabilita solo la creazione del redirect per AndroidTest
+tasks.matching { it.name.contains("AndroidTestApkListingFileRedirect") }.configureEach {
+    enabled = false
+}

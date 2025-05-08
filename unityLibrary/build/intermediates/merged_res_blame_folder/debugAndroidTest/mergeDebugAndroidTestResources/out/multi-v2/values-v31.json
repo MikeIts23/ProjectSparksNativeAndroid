@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.unity3d.player.test.unityLibrary-mergeDebugAndroidTestResources-18:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mikid\\StudioProjects\\NativeSparksApp\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\packageDebugResources\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,542",
+                        "endLines": "7,13",
+                        "endColumns": "10,10",
+                        "endOffsets": "537,1026"
+                    }
+                }
+            ]
+        }
+    ]
+}

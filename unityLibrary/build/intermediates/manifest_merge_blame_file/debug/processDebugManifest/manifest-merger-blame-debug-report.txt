@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="23" />
+7
+8    <application
+8-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:5:3-29:17
+9        android:extractNativeLibs="true"
+9-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:6:7-39
+10        tools:replace="android:extractNativeLibs" >
+10-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:7:7-48
+11
+12        <!-- entry point IL2CPP -->
+13        <activity
+13-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:10:5-22:16
+14            android:name="com.unity3d.player.UnityPlayerActivity"
+14-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:11:9-62
+15            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+15-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:17:9-190
+16            android:enabled="true"
+16-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:12:9-31
+17            android:exported="true"
+17-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:13:9-32
+18            android:hardwareAccelerated="true"
+18-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:14:9-43
+19            android:launchMode="singleTask"
+19-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:15:9-40
+20            android:screenOrientation="landscape"
+20-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:16:9-46
+21            android:theme="@style/UnityThemeSelector" >
+21-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:18:9-50
+22            <meta-data
+22-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:20:7-81
+23                android:name="unityplayer.UnityActivity"
+23-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:20:18-58
+24                android:value="true" />
+24-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:20:59-79
+25            <meta-data
+25-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:21:7-82
+26                android:name="android.app.lib_name"
+26-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:21:18-53
+27                android:value="il2cpp" />
+27-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:21:58-80
+28        </activity>
+29
+30        <!-- eliminiamo completamente la GameActivity che cerca libgame.so -->
+31        <activity
+31-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:25:5-27:30
+32            android:name="com.unity3d.player.UnityPlayerGameActivity"
+32-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:26:9-66
+33            tools:node="remove" />
+33-->C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:27:9-28
+34    </application>
+35
+36</manifest>

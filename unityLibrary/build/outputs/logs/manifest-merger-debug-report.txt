@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:5:3-29:17
+	android:extractNativeLibs
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:6:7-39
+	tools:replace
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:7:7-48
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:10:5-22:16
+	android:screenOrientation
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:16:9-46
+	android:enabled
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:12:9-31
+	android:launchMode
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:15:9-40
+	android:hardwareAccelerated
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:14:9-43
+	android:exported
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:13:9-32
+	android:configChanges
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:17:9-190
+	android:theme
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:18:9-50
+	android:name
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:11:9-62
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:20:7-81
+	android:value
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:20:59-79
+	android:name
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:20:18-58
+meta-data#android.app.lib_name
+ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:21:7-82
+	android:value
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:21:58-80
+	android:name
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:21:18-53
+activity#com.unity3d.player.UnityPlayerGameActivity
+ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:25:5-27:30
+	tools:node
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:27:9-28
+	android:name
+		ADDED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml:26:9-66
+uses-sdk
+INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mikid\StudioProjects\NativeSparksApp\unityLibrary\src\main\AndroidManifest.xml

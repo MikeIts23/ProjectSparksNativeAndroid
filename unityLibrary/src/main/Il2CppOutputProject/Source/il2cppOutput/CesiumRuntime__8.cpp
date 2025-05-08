@@ -3991,7 +3991,7 @@ IL2CPP_EXTERN_C void CDECL DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverl
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28328
+// Method Definition Index: 28301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mD1D3A7E0C5902CFDF27288900A9901DB163DDB65 (ImplementationHandle_t0574F6017A832027493D787ABB53662E5C87F7CC* __this, CesiumFeatureIdTexture_t6E56DBE2E128BACDCCFDF75C4B33319CC89A1939* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -4008,7 +4008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mD1D3A7E0C590
 		return;
 	}
 }
-// Method Definition Index: 28329
+// Method Definition Index: 28302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_mEBC0652B79372944422B49FF871A6C19E3DEF161 (ImplementationHandle_t0574F6017A832027493D787ABB53662E5C87F7CC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4027,7 +4027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_mEBC0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28330
+// Method Definition Index: 28303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* CesiumFlyToController_get_flyToAltitudeProfileCurve_mE91EF5513DE5AF5BBB1848C311281798E1BBC4BF (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4036,7 +4036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		return L_0;
 	}
 }
-// Method Definition Index: 28331
+// Method Definition Index: 28304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToAltitudeProfileCurve_m6AF0C4AA578B5FDF8A083EB74C6929F0F89FF64A (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4047,7 +4047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToAltitudeP
 		return;
 	}
 }
-// Method Definition Index: 28332
+// Method Definition Index: 28305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* CesiumFlyToController_get_flyToProgressCurve_m996656A80F0DD8A60C2F2E560753F32E6BF82D16 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4056,7 +4056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		return L_0;
 	}
 }
-// Method Definition Index: 28333
+// Method Definition Index: 28306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToProgressCurve_m6BD3C00AEEE238BAAA5F34921A7223D1A8930B02 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4067,7 +4067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToProgressC
 		return;
 	}
 }
-// Method Definition Index: 28334
+// Method Definition Index: 28307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* CesiumFlyToController_get_flyToMaximumAltitudeCurve_m8AB5585865E4E772BB6FE509A1D4AB8F417DBD1C (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4076,7 +4076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		return L_0;
 	}
 }
-// Method Definition Index: 28335
+// Method Definition Index: 28308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToMaximumAltitudeCurve_m66D981B335EA0FB4D27FE8F50599751E04AF8D83 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4087,7 +4087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToMaximumAl
 		return;
 	}
 }
-// Method Definition Index: 28336
+// Method Definition Index: 28309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumFlyToController_get_flyToDuration_m2909FE0EE96FECBAACAC8DFE854C5CBDD6E69CEA (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4096,7 +4096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumFlyToController_get_flyToDuratio
 		return L_0;
 	}
 }
-// Method Definition Index: 28337
+// Method Definition Index: 28310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToDuration_m3B0AA89EA93E4D313918552C5B175F06ED996DD9 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4115,7 +4115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToDuration_
 		return;
 	}
 }
-// Method Definition Index: 28338
+// Method Definition Index: 28311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumFlyToController_get_flyToGranularityDegrees_mA479D55F47C21EDC1C867665599760B471969546 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4124,7 +4124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumFlyToController_get_flyToGranula
 		return L_0;
 	}
 }
-// Method Definition Index: 28339
+// Method Definition Index: 28312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_set_flyToGranularityDegrees_m4139F1AD7DC21A2423CC1EBE666DA5D2F485051D (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4164,7 +4164,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 28340
+// Method Definition Index: 28313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_add_OnFlightComplete_m41DB0CEB4EFD73D9A67C72AA6242C6B226DFB2A7 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4207,7 +4207,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 28341
+// Method Definition Index: 28314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_remove_OnFlightComplete_m4CD3DD21CD7B29E976E342F0889EB0440DC53BBE (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4250,7 +4250,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 28342
+// Method Definition Index: 28315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_add_OnFlightInterrupted_m464590121D3BFF5CC1958EF4976C0EBD9C99D771 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4293,7 +4293,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 28343
+// Method Definition Index: 28316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_remove_OnFlightInterrupted_mD6D4FF24F47A4ECA18620C79A77D5403E0897735 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4336,7 +4336,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 28344
+// Method Definition Index: 28317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_Awake_mF1757A77A5E1D2758E4BE51EE57877872D3208B6 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4442,7 +4442,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 28345
+// Method Definition Index: 28318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_Update_mA0DAFD3D9FAB90D85036C2D68CA509E738062AD6 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4466,7 +4466,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 28346
+// Method Definition Index: 28319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumFlyToController_DetectMovementInput_m8BFF6B3CA75B24D6CCEABE3E40C971BEE15A497B (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4485,7 +4485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumFlyToController_DetectMovementInpu
 		return (bool)((((int32_t)((!(((double)L_4) >= ((double)(9.9999999999999998E-13))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 28347
+// Method Definition Index: 28320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_HandleFlightStep_m3A397B10883CFAA77F3B942C76C0301762190C82 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, float ___0_deltaTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4746,7 +4746,7 @@ IL_014d:
 		return;
 	}
 }
-// Method Definition Index: 28348
+// Method Definition Index: 28321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_CompleteFlight_mD0875813A6A2D9D2BD0D43A64B021E77674D86E7 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4823,7 +4823,7 @@ IL_008e:
 		return;
 	}
 }
-// Method Definition Index: 28349
+// Method Definition Index: 28322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_InterruptFlight_m58D7DA780871A1623B38338141F0A341FDCE640B (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4903,7 +4903,7 @@ IL_007c:
 		return;
 	}
 }
-// Method Definition Index: 28350
+// Method Definition Index: 28323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_ComputeFlightPath_m1095B3F6D4923207D18054B4322E599853455060 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_sourceECEF, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_destinationECEF, float ___2_yawAtDestination, float ___3_pitchAtDestination, const RuntimeMethod* method) 
 {
 	{
@@ -5012,7 +5012,7 @@ IL_00d0:
 		return;
 	}
 }
-// Method Definition Index: 28351
+// Method Definition Index: 28324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationEarthCenteredEarthFixed_m2A4BA13B3DB23A84FE1607A80E107D0E6705F376 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_destination, float ___1_yawAtDestination, float ___2_pitchAtDestination, bool ___3_canInterruptByMoving, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5096,7 +5096,7 @@ IL_007f:
 		return;
 	}
 }
-// Method Definition Index: 28352
+// Method Definition Index: 28325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationEarthCenteredEarthFixed_m46EA9C986DC83BB7D470D86605F6D28FC31B2DB1 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_destination, float ___1_yawAtDestination, float ___2_pitchAtDestination, bool ___3_canInterruptByMoving, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -5131,7 +5131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationEarth
 		return;
 	}
 }
-// Method Definition Index: 28353
+// Method Definition Index: 28326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationLongitudeLatitudeHeight_m6764C0E1DD015F9545F5942A76A835FFD987CF94 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_destination, float ___1_yawAtDestination, float ___2_pitchAtDestination, bool ___3_canInterruptByMoving, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -5162,7 +5162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationLongi
 		return;
 	}
 }
-// Method Definition Index: 28354
+// Method Definition Index: 28327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationLongitudeLatitudeHeight_mD433AD228B4AFA39AF0AA240B293BD1A1C25220C (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_destination, float ___1_yawAtDestination, float ___2_pitchAtDestination, bool ___3_canInterruptByMoving, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -5216,7 +5216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController_FlyToLocationLongi
 		return;
 	}
 }
-// Method Definition Index: 28355
+// Method Definition Index: 28328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumFlyToController__ctor_mB6B2F5DF9F25DD55BF5D231712EDA60E74946B58 (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5266,7 +5266,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CompletedFlightDelegate_tDCC933FB9C
 	il2cppPInvokeFunc();
 
 }
-// Method Definition Index: 28356
+// Method Definition Index: 28329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompletedFlightDelegate__ctor_mC03AD85159847A77BA0D8A8F0EEA2E12CBB29D64 (CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5295,19 +5295,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompletedFlightDelegate__ctor_mC03AD8515
 	}
 	__this->___extra_arg = (intptr_t)&CompletedFlightDelegate_Invoke_mDD0B122DF261B3AF2CC9162470BA574526B90B78_Multicast;
 }
-// Method Definition Index: 28357
+// Method Definition Index: 28330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompletedFlightDelegate_Invoke_mDD0B122DF261B3AF2CC9162470BA574526B90B78 (CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 28358
+// Method Definition Index: 28331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CompletedFlightDelegate_BeginInvoke_mDE2194533B2B35B76B6E48962E83F4DB57CA629E (CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 28359
+// Method Definition Index: 28332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompletedFlightDelegate_EndInvoke_m5E829F97D4745DA534A9ADF03995A880586965C7 (CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5348,7 +5348,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_InterruptedFlightDelegate_t6B98ABD6
 	il2cppPInvokeFunc();
 
 }
-// Method Definition Index: 28360
+// Method Definition Index: 28333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterruptedFlightDelegate__ctor_mAC461284EBA4F8CD44F5F5F6AA0175630F10ED33 (InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5377,19 +5377,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterruptedFlightDelegate__ctor_mAC46128
 	}
 	__this->___extra_arg = (intptr_t)&InterruptedFlightDelegate_Invoke_m0E8391DD6D051E6C82331BFFD6ABE1DEA2A9CB32_Multicast;
 }
-// Method Definition Index: 28361
+// Method Definition Index: 28334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterruptedFlightDelegate_Invoke_m0E8391DD6D051E6C82331BFFD6ABE1DEA2A9CB32 (InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 28362
+// Method Definition Index: 28335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InterruptedFlightDelegate_BeginInvoke_m2940BAC00FD48359D7D60174BBBDC758B69F660E (InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 28363
+// Method Definition Index: 28336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterruptedFlightDelegate_EndInvoke_m907327D0F2278084B942DFA34D3C9AAB51229566 (InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5418,7 +5418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterruptedFlightDelegate_EndInvoke_m907
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28364
+// Method Definition Index: 28337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumGeoreference_get_originPlacement_m1C4BF67BD9C924C4042B6326F15A484D3C720757 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5427,7 +5427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumGeoreference_get_originPlacemen
 		return L_0;
 	}
 }
-// Method Definition Index: 28365
+// Method Definition Index: 28338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_originPlacement_m3FAC05CBEDBD59279AD79AC9216A8D9A445254D9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5440,7 +5440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_originPlacement_m
 		return;
 	}
 }
-// Method Definition Index: 28366
+// Method Definition Index: 28339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumGeoreference_get_originAuthority_mB058A66C9490B6C2ECC576951E226DB9A7AD01E9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5449,7 +5449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumGeoreference_get_originAuthorit
 		return L_0;
 	}
 }
-// Method Definition Index: 28367
+// Method Definition Index: 28340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_originAuthority_mE8B9C63F54056920F505F0344BB9E3BCF7620840 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5462,7 +5462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_originAuthority_m
 		return;
 	}
 }
-// Method Definition Index: 28368
+// Method Definition Index: 28341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_latitude_m8C90C4AB329B14C76BF77578CCC329359EB09813 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5471,7 +5471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_latitude_m8C90C
 		return L_0;
 	}
 }
-// Method Definition Index: 28369
+// Method Definition Index: 28342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_latitude_m0D3AB7394AFC82504075E421DAA6D33F4FB27ADC (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5493,7 +5493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_latitude_m0D3AB73
 		return;
 	}
 }
-// Method Definition Index: 28370
+// Method Definition Index: 28343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_longitude_m210F8A0262C00066F16E2F6066F93BCF08F92FA9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5502,7 +5502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_longitude_m210F
 		return L_0;
 	}
 }
-// Method Definition Index: 28371
+// Method Definition Index: 28344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_longitude_mE6BEA1E9D7587326AEDB0945D42B2090D7D71CEE (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5524,7 +5524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_longitude_mE6BEA1
 		return;
 	}
 }
-// Method Definition Index: 28372
+// Method Definition Index: 28345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_height_m5E80EBABC7E1CCC7DD30C5E23242D511FAAE2220 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5533,7 +5533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_height_m5E80EBA
 		return L_0;
 	}
 }
-// Method Definition Index: 28373
+// Method Definition Index: 28346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_height_m1A3F276FD398D90DEB9DFF0CAF2B24512075DACB (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5546,7 +5546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_height_m1A3F276FD
 		return;
 	}
 }
-// Method Definition Index: 28374
+// Method Definition Index: 28347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefX_m6C601D1D9AC6DCA59B24C39B058FD1A67E8B464F (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5555,7 +5555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefX_m6C601D1D
 		return L_0;
 	}
 }
-// Method Definition Index: 28375
+// Method Definition Index: 28348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ecefX_m30A73C8E2F79873746B9824B63582DDC6954E24D (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5568,7 +5568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ecefX_m30A73C8E2F
 		return;
 	}
 }
-// Method Definition Index: 28376
+// Method Definition Index: 28349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefY_m34E309A596E582B12EB54EA37D089704F4468FD9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5577,7 +5577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefY_m34E309A5
 		return L_0;
 	}
 }
-// Method Definition Index: 28377
+// Method Definition Index: 28350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ecefY_mB18F26FDBD9B51B956DC98695859ABAF604B08EF (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5590,7 +5590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ecefY_mB18F26FDBD
 		return;
 	}
 }
-// Method Definition Index: 28378
+// Method Definition Index: 28351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefZ_m4188557CBA2768462F1E3F9B43CAD2906556B381 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5599,7 +5599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefZ_m4188557C
 		return L_0;
 	}
 }
-// Method Definition Index: 28379
+// Method Definition Index: 28352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ecefZ_m24E5703379CFD00CA0E64B4BCDD14AA549E16D81 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5612,7 +5612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ecefZ_m24E5703379
 		return;
 	}
 }
-// Method Definition Index: 28380
+// Method Definition Index: 28353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_scale_m0CFD611410C66AB614C44DA4D337BF4A8766BDC9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5621,7 +5621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGeoreference_get_scale_m0CFD6114
 		return L_0;
 	}
 }
-// Method Definition Index: 28381
+// Method Definition Index: 28354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_scale_m00D0B110A8CFA4BD6B33A85386B44EE9A00E6226 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5634,7 +5634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_scale_m00D0B110A8
 		return;
 	}
 }
-// Method Definition Index: 28382
+// Method Definition Index: 28355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumGeoreference_get_localToEcefMatrix_m7F20E176C061E19FECBB55BDD39F6FA4DD787EDA (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5645,7 +5645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F
 		return L_0;
 	}
 }
-// Method Definition Index: 28383
+// Method Definition Index: 28356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumGeoreference_get_ecefToLocalMatrix_m9FF0C8995C9923710ADCD4ED407270A47EF325E9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5656,7 +5656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F
 		return L_0;
 	}
 }
-// Method Definition Index: 28384
+// Method Definition Index: 28357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* CesiumGeoreference_get_ellipsoid_mE846BED4E2BD276FFA98EEFD6E906029DEF1B9A1 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5723,7 +5723,7 @@ IL_0038:
 		return L_8;
 	}
 }
-// Method Definition Index: 28385
+// Method Definition Index: 28358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ellipsoid_m75544C19E85552EA5745EA685DA5E24B51DCA6B7 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5735,7 +5735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_set_ellipsoid_m75544C
 		return;
 	}
 }
-// Method Definition Index: 28386
+// Method Definition Index: 28359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_add_changed_m7010A3FDF63961423E91B8B1B5B5BDB7C582AFC5 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5778,7 +5778,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 28387
+// Method Definition Index: 28360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_remove_changed_m1978A88E58FCDF21EE43C6A8214277C02A1AB23C (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5821,7 +5821,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 28388
+// Method Definition Index: 28361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_SetOriginEarthCenteredEarthFixed_m1F2192BF30202E41193DEC2B566A0870650F08A3 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -5840,7 +5840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_SetOriginEarthCentere
 		return;
 	}
 }
-// Method Definition Index: 28389
+// Method Definition Index: 28362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_SetOriginLongitudeLatitudeHeight_mC4BF385DEE24B22CE38F079525B1A786E0961154 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double ___0_longitude, double ___1_latitude, double ___2_height, const RuntimeMethod* method) 
 {
 	{
@@ -5859,7 +5859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_SetOriginLongitudeLat
 		return;
 	}
 }
-// Method Definition Index: 28390
+// Method Definition Index: 28363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_AddGlobeAnchor_m26C2BDADCB23D7D5E1EBA23099DAFAB6E840B41B (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* ___0_globeAnchor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5879,7 +5879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_AddGlobeAnchor_m26C2B
 		return;
 	}
 }
-// Method Definition Index: 28391
+// Method Definition Index: 28364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_RemoveGlobeAnchor_m04250D3E3D51CFC38A750795011D84B32791D3A0 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* ___0_globeAnchor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5899,7 +5899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_RemoveGlobeAnchor_m04
 		return;
 	}
 }
-// Method Definition Index: 28392
+// Method Definition Index: 28365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_Initialize_mCE868F703AAED6203BFC9A81B7B66154EC1F2237 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5925,7 +5925,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 28393
+// Method Definition Index: 28366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_ReloadEllipsoid_m405662265AF50562DBD21E7B18CB80EB0E1118B3 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5984,7 +5984,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 28394
+// Method Definition Index: 28367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_UpdateTransformations_mF948C8D27FA868C6FA7E5A23840533C73AF4E710 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6001,7 +6001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_UpdateTransformations
 		return;
 	}
 }
-// Method Definition Index: 28395
+// Method Definition Index: 28368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_MoveOrigin_m6744CD0811EF77B4AB0BF139CB834BC454071086 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6161,7 +6161,7 @@ IL_00a7:
 		return;
 	}
 }
-// Method Definition Index: 28396
+// Method Definition Index: 28369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_OnValidate_mC745395544159B39C92E6D6379115A2E0A275F4F (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6183,7 +6183,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 28397
+// Method Definition Index: 28370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_OnEnable_m3EB4CF68D863A5D3424BEF92A3E95A2CF2493937 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6193,7 +6193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_OnEnable_m3EB4CF68D86
 		return;
 	}
 }
-// Method Definition Index: 28398
+// Method Definition Index: 28371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_OnDisable_m27B80CEC47B4F7912634E49BF0228D42E8652C31 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6203,7 +6203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_OnDisable_m27B80CEC47
 		return;
 	}
 }
-// Method Definition Index: 28399
+// Method Definition Index: 28372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_UpdateOtherCoordinates_mE5BD90D702CADFA5E30DD3F95A318D9E3AEB6B28 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -6294,7 +6294,7 @@ IL_00a0:
 		return;
 	}
 }
-// Method Definition Index: 28400
+// Method Definition Index: 28373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGeoreference_TransformUnityPositionToEarthCenteredEarthFixed_m5DF3727DADEF0F8B3571614686A0E38A0791391D (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_unityPosition, const RuntimeMethod* method) 
 {
 	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 V_0;
@@ -6316,7 +6316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_4;
 	}
 }
-// Method Definition Index: 28401
+// Method Definition Index: 28374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGeoreference_TransformEarthCenteredEarthFixedPositionToUnity_mED68D5301D9F912F1AC2A667631BD741F9B27C31 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_earthCenteredEarthFixed, const RuntimeMethod* method) 
 {
 	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 V_0;
@@ -6338,7 +6338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_4;
 	}
 }
-// Method Definition Index: 28402
+// Method Definition Index: 28375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGeoreference_TransformUnityDirectionToEarthCenteredEarthFixed_m8AC2F1EC7B72CF0BB3BA9782D0F3255794EA83D9 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_unityDirection, const RuntimeMethod* method) 
 {
 	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 V_0;
@@ -6360,7 +6360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_4;
 	}
 }
-// Method Definition Index: 28403
+// Method Definition Index: 28376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGeoreference_TransformEarthCenteredEarthFixedDirectionToUnity_m01496C44EDA5FEE7D8690E8C7925D69EC5065BA5 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_earthCenteredEarthFixedDirection, const RuntimeMethod* method) 
 {
 	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 V_0;
@@ -6382,7 +6382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_4;
 	}
 }
-// Method Definition Index: 28404
+// Method Definition Index: 28377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumGeoreference_ComputeLocalToEarthCenteredEarthFixedTransformation_m909D6653D487352023FADC0C721BCD325F0B3CDA (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -6451,7 +6451,7 @@ IL_005e:
 		return L_10;
 	}
 }
-// Method Definition Index: 28405
+// Method Definition Index: 28378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t4087DC3CB078155FA3EFE95CB797A103DB3E326A* CesiumGeoreference_get_NativeImplementation_mCB1E08ADB2C4C036FC37DD62DDF17CE0C5082773 (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6460,7 +6460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t4087DC3CB078155FA3EFE95
 		return L_0;
 	}
 }
-// Method Definition Index: 28406
+// Method Definition Index: 28379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_CreateImplementation_m833767CF74B898AB5688FC3BFE0D704C543851FD (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6483,7 +6483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_CreateImplementation_
 		return;
 	}
 }
-// Method Definition Index: 28407
+// Method Definition Index: 28380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_DisposeImplementation_m6B7404B4B0EA9B0C5CABE8EFFF8E8A035F6D91EB (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6520,7 +6520,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 28408
+// Method Definition Index: 28381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_Dispose_mA5F50516C01AB6A06BBA61E90731366CC268403A (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6530,7 +6530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_Dispose_mA5F50516C01A
 		return;
 	}
 }
-// Method Definition Index: 28409
+// Method Definition Index: 28382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference__ctor_m2ED2C4724DB97BDC02C302B7DEE79EC1C162C9EB (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6573,7 +6573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference__ctor_m2ED2C4724DB97B
 		return;
 	}
 }
-// Method Definition Index: 28410
+// Method Definition Index: 28383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumGeoreference_DotNet_CesiumForUnity_CesiumGeoreference_CreateImplementation_m2261075AD30E1ECA33964BBC8D37BC38DF0A5C5C (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -6595,7 +6595,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumGeoreference_DotNet_CesiumForU
 
 	return returnValue;
 }
-// Method Definition Index: 28411
+// Method Definition Index: 28384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_DotNet_CesiumForUnity_CesiumGeoreference_DestroyImplementation_m1BFD3F8B6608BF39A182C38C61A17C565FFB4844 (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -6616,7 +6616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_DotNet_CesiumForUnity
 	#endif
 
 }
-// Method Definition Index: 28412
+// Method Definition Index: 28385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_DotNet_CesiumForUnity_CesiumGeoreference_ComputeLocalToEarthCenteredEarthFixedTransformation_m7F3EE3AC8F9D46C20EC233A1A221DCA6F8FDE15E (intptr_t ___0_thiz, ImplementationHandle_t4087DC3CB078155FA3EFE95CB797A103DB3E326A* ___1_implementation, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C*, intptr_t*);
@@ -6656,7 +6656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGeoreference_DotNet_CesiumForUnity
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28413
+// Method Definition Index: 28386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mDD5A01699724908907B4D3C3EF4223FA8FB12393 (ImplementationHandle_t4087DC3CB078155FA3EFE95CB797A103DB3E326A* __this, CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -6673,7 +6673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mDD5A01699724
 		return;
 	}
 }
-// Method Definition Index: 28414
+// Method Definition Index: 28387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m856F96AC58C475CFC15DFDDADBAADDDB1C6A098B (ImplementationHandle_t4087DC3CB078155FA3EFE95CB797A103DB3E326A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6692,7 +6692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m856F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28415
+// Method Definition Index: 28388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumGlobeAnchor_get_adjustOrientationForGlobeWhenMoving_mD3DD62FAD74EE4F9FDB62F55F409F2983B47A1EC (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6701,7 +6701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumGlobeAnchor_get_adjustOrientationF
 		return L_0;
 	}
 }
-// Method Definition Index: 28416
+// Method Definition Index: 28389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_adjustOrientationForGlobeWhenMoving_mFAFCB8FBC2CF0B5B51C4857511BB29C5705E3305 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6711,7 +6711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_adjustOrientationF
 		return;
 	}
 }
-// Method Definition Index: 28417
+// Method Definition Index: 28390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumGlobeAnchor_get_detectTransformChanges_m843010DFF71E638980FE9C5BA94BC0D339BC2558 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6720,7 +6720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumGlobeAnchor_get_detectTransformCha
 		return L_0;
 	}
 }
-// Method Definition Index: 28418
+// Method Definition Index: 28391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_detectTransformChanges_m8F583C681A754B0523D340905FB704F21781906D (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6733,7 +6733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_detectTransformCha
 		return;
 	}
 }
-// Method Definition Index: 28419
+// Method Definition Index: 28392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumGlobeAnchor_get_localToGlobeFixedMatrix_mA2952ABE03428AE1C4E9F08CAC66DC30F2AC99AB (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6744,7 +6744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F
 		return L_0;
 	}
 }
-// Method Definition Index: 28420
+// Method Definition Index: 28393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_localToGlobeFixedMatrix_m20AB0C8EA05A866F4E1AA0F14B3046FC7D6930BE (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6757,7 +6757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_localToGlobeFixedM
 		return;
 	}
 }
-// Method Definition Index: 28421
+// Method Definition Index: 28394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGlobeAnchor_get_longitudeLatitudeHeight_m799DC4839CEE572ACA6D5C9250EF300A01633254 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6817,7 +6817,7 @@ IL_0048:
 		return L_9;
 	}
 }
-// Method Definition Index: 28422
+// Method Definition Index: 28395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_longitudeLatitudeHeight_m4750347C8CAF1D77C65853DDA1971E42EE55EEB6 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6875,7 +6875,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 28423
+// Method Definition Index: 28396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGlobeAnchor_get_positionGlobeFixed_mA23E0DB35DEC51B131EB33009C9F0A08F3FEA345 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C V_0;
@@ -6891,7 +6891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_2;
 	}
 }
-// Method Definition Index: 28424
+// Method Definition Index: 28397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_positionGlobeFixed_m81DBD0C9D438412B61E07515D7B67A92FC3BB3CF (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) 
 {
 	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C V_0;
@@ -6919,7 +6919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_positionGlobeFixed
 		return;
 	}
 }
-// Method Definition Index: 28425
+// Method Definition Index: 28398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 CesiumGlobeAnchor_get_rotationGlobeFixed_mA6AE77DB6D0AF7DC4FA04C944D85B04CCBF96A75 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -6938,7 +6938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A
 		return L_1;
 	}
 }
-// Method Definition Index: 28426
+// Method Definition Index: 28399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_rotationGlobeFixed_mAEC5012D39D24B7218068EEECD37EC76FDEE5FD2 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -6963,7 +6963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_rotationGlobeFixed
 		return;
 	}
 }
-// Method Definition Index: 28427
+// Method Definition Index: 28400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 CesiumGlobeAnchor_get_rotationEastUpNorth_mA41762EF6A80F1E76B6CA73B0E1018E38E99308E (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6975,7 +6975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A
 		return L_0;
 	}
 }
-// Method Definition Index: 28428
+// Method Definition Index: 28401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_rotationEastUpNorth_m3B230A8AFACDEC6D234BE9B0EFE0B73964DDDE5B (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6988,7 +6988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_rotationEastUpNort
 		return;
 	}
 }
-// Method Definition Index: 28429
+// Method Definition Index: 28402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGlobeAnchor_get_scaleGlobeFixed_m67B31C100489EB23DBBAA0E02E76DCC4EB15AC28 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7007,7 +7007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_1;
 	}
 }
-// Method Definition Index: 28430
+// Method Definition Index: 28403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_scaleGlobeFixed_m93480D434D26A36ECADED75E10F4E63B1AD2B61A (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7032,7 +7032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_scaleGlobeFixed_m9
 		return;
 	}
 }
-// Method Definition Index: 28431
+// Method Definition Index: 28404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumGlobeAnchor_get_scaleEastUpNorth_m39A363634CE07B4DE416CC63416D60CD90B2D542 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7044,7 +7044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		return L_1;
 	}
 }
-// Method Definition Index: 28432
+// Method Definition Index: 28405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_scaleEastUpNorth_m2B55A2016029AD6161248AE515900D6E4F609428 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -7056,7 +7056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_scaleEastUpNorth_m
 		return;
 	}
 }
-// Method Definition Index: 28433
+// Method Definition Index: 28406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_ecefX_m296E78D2DEDFF1A5EE0747318EAFFD82E99DCBDC (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7067,7 +7067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_ecefX_m296E78D2D
 		return L_1;
 	}
 }
-// Method Definition Index: 28434
+// Method Definition Index: 28407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_ecefX_m62E81540AB37B7BFF3477C8CFE13BBE488C940DC (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7087,7 +7087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_ecefX_m62E81540AB3
 		return;
 	}
 }
-// Method Definition Index: 28435
+// Method Definition Index: 28408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_ecefY_mF9D9033C98E93C194618E15E9E8C3CA669B02D8B (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7098,7 +7098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_ecefY_mF9D9033C9
 		return L_1;
 	}
 }
-// Method Definition Index: 28436
+// Method Definition Index: 28409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_ecefY_m8600566063835DD70545F97317F0914AB62BE4C7 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7118,7 +7118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_ecefY_m86005660638
 		return;
 	}
 }
-// Method Definition Index: 28437
+// Method Definition Index: 28410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_ecefZ_m78B0D697506411CBDC472A350227A5EC1E2081B5 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7129,7 +7129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_ecefZ_m78B0D6975
 		return L_1;
 	}
 }
-// Method Definition Index: 28438
+// Method Definition Index: 28411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_ecefZ_mF0B12520E1570FE47CB7E14D07816CDBCC604EC7 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7149,7 +7149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_ecefZ_mF0B12520E15
 		return;
 	}
 }
-// Method Definition Index: 28439
+// Method Definition Index: 28412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_longitude_mDB13B97427119F34469567D63C1BFA510E4696BB (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7160,7 +7160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_longitude_mDB13B
 		return L_1;
 	}
 }
-// Method Definition Index: 28440
+// Method Definition Index: 28413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_longitude_mE2C6CE165F361F91807012103B30B56846A50FA4 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7180,7 +7180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_longitude_mE2C6CE1
 		return;
 	}
 }
-// Method Definition Index: 28441
+// Method Definition Index: 28414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_latitude_m9746FDDD8BFECFBF6579BAED02281A71ED6F4BD2 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7191,7 +7191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_latitude_m9746FD
 		return L_1;
 	}
 }
-// Method Definition Index: 28442
+// Method Definition Index: 28415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_latitude_mC430065B21032914271A47C6FAB4BC5373A2330D (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7211,7 +7211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_latitude_mC430065B
 		return;
 	}
 }
-// Method Definition Index: 28443
+// Method Definition Index: 28416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_height_m505DD739EC672D59EB623CD06A152F16158FF80A (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7222,7 +7222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumGlobeAnchor_get_height_m505DD739
 		return L_1;
 	}
 }
-// Method Definition Index: 28444
+// Method Definition Index: 28417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_height_m2F55BCB68A6E13E291D9A491BEB9484B71248A20 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
@@ -7242,7 +7242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_height_m2F55BCB68A
 		return;
 	}
 }
-// Method Definition Index: 28445
+// Method Definition Index: 28418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetPositionLongitudeLatitudeHeight_m30A3696814D7CDC2F6F02E1DE643A9335143A9C3 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_longitude, double ___1_latitude, double ___2_height, const RuntimeMethod* method) 
 {
 	{
@@ -7258,7 +7258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetPositionLongitudeLa
 		return;
 	}
 }
-// Method Definition Index: 28446
+// Method Definition Index: 28419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetPositionEarthCenteredEarthFixed_m6B5481DFB3BCD223FF7B8A385A5A1A9EA141F1C3 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -7274,7 +7274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetPositionEarthCenter
 		return;
 	}
 }
-// Method Definition Index: 28447
+// Method Definition Index: 28420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_Sync_m27EBC4811EFB9E63012FEB64B067AA17C66AC93F (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7503,7 +7503,7 @@ IL_0106:
 		return;
 	}
 }
-// Method Definition Index: 28448
+// Method Definition Index: 28421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_Restart_m80CE39BF145D157A3970A91847ABDAF51E39A7F1 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7550,7 +7550,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 28449
+// Method Definition Index: 28422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_UpdateGeoreference_m7E7B7E07E5D4B655845A3D05086D3AF04A24C009 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7624,7 +7624,7 @@ IL_0058:
 		return;
 	}
 }
-// Method Definition Index: 28450
+// Method Definition Index: 28423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_UpdateGeoreferenceIfNecessary_m1BC833737D22409BC178EAD020554FE6017330AF (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7655,7 +7655,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 28451
+// Method Definition Index: 28424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_OnEnable_m60392254B35BB50E8E18E3345AC99BEC8622FA1A (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7665,7 +7665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_OnEnable_m60392254B35B
 		return;
 	}
 }
-// Method Definition Index: 28452
+// Method Definition Index: 28425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_Reset_mCB12E0A2CD7FC1846B0423F136574148322C7390 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7675,7 +7675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_Reset_mCB12E0A2CD7FC18
 		return;
 	}
 }
-// Method Definition Index: 28453
+// Method Definition Index: 28426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_OnDisable_mDE6221506BAF0B13E90A981B9306EA0410BF7A78 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7711,7 +7711,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 28454
+// Method Definition Index: 28427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_OnTransformParentChanged_mA617660106DF6E7FA3CFF12AD3BFA71C2CDD9ACF (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7723,7 +7723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_OnTransformParentChang
 		return;
 	}
 }
-// Method Definition Index: 28455
+// Method Definition Index: 28428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_StartOrStopDetectingTransformChanges_m3DBA25A8176468DE230B42F9094F7E1500B3AA09 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7773,7 +7773,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 28456
+// Method Definition Index: 28429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumGlobeAnchor_DetectTransformChanges_m1EE7D472F3296770D2B14512358AC8221B217595 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7792,7 +7792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumGlobeAnchor_DetectTransf
 		return L_1;
 	}
 }
-// Method Definition Index: 28457
+// Method Definition Index: 28430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_InitializeEcefIfNeeded_m507511CA38EE2DE7052B689F8C50CB82FCBFA018 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7814,7 +7814,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 28458
+// Method Definition Index: 28431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_UpdateEcef_mD2C2AB1DACAFA8A22E3F4B9800DCB19FD7B871B0 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_newModelToEcef, const RuntimeMethod* method) 
 {
 	{
@@ -7827,7 +7827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_UpdateEcef_mD2C2AB1DAC
 		return;
 	}
 }
-// Method Definition Index: 28459
+// Method Definition Index: 28432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_UpdateEcefFromTransform_m414D078347439B0F66E8DF7068173865C11E5095 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7860,7 +7860,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 28460
+// Method Definition Index: 28433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetNewLocalToGlobeFixedMatrix_m606A01BB4A693E5A6B352D05C69D028C488C1D6A (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_newLocalToGlobeFixedMatrix, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7904,7 +7904,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 28461
+// Method Definition Index: 28434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetNewLocalToGlobeFixedMatrixFromTransform_mFF0EB56CB8D11079F1B981AE110032DBD7E20917 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7948,7 +7948,7 @@ IL_0032:
 		return;
 	}
 }
-// Method Definition Index: 28462
+// Method Definition Index: 28435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 CesiumGlobeAnchor_GetLocalToEastUpNorthRotation_m6BDD633BF4B846D328D0491DBCB11001D33A0430 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7997,7 +7997,7 @@ IL_003d:
 		return L_5;
 	}
 }
-// Method Definition Index: 28463
+// Method Definition Index: 28436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_SetLocalToEastUpNorthRotation_m14AC31EB82479E0A88E982D11A3E01A0FF09F703 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_newRotation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8041,7 +8041,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 28464
+// Method Definition Index: 28437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_CesiumGlobeAnchor_SetNewLocalToGlobeFixedMatrix_mEECD0DF96CA6F182057CE41A0D650D6D18BC58D3 (intptr_t ___0_thiz, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* ___1_newLocalToGlobeFixedMatrix, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C*, intptr_t*);
@@ -8062,7 +8062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_
 	#endif
 
 }
-// Method Definition Index: 28465
+// Method Definition Index: 28438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_CesiumGlobeAnchor_SetNewLocalToGlobeFixedMatrixFromTransform_mD7A0088F14D9C26E10AB1810D2ABE4EEFB1C577B (intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, intptr_t*);
@@ -8083,7 +8083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_
 	#endif
 
 }
-// Method Definition Index: 28466
+// Method Definition Index: 28439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_CesiumGlobeAnchor_GetLocalToEastUpNorthRotation_mDF5817AE97C1472C12B36AA5157C1A8F3F522590 (intptr_t ___0_thiz, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*, intptr_t*);
@@ -8104,7 +8104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_
 	#endif
 
 }
-// Method Definition Index: 28467
+// Method Definition Index: 28440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_CesiumGlobeAnchor_SetLocalToEastUpNorthRotation_mF2CA0E81E3C5E5732B1E99D618EEBEE225FC89F3 (intptr_t ___0_thiz, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_newRotation, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*, intptr_t*);
@@ -8125,7 +8125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_DotNet_CesiumForUnity_
 	#endif
 
 }
-// Method Definition Index: 28468
+// Method Definition Index: 28441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor__ctor_m5862F8BC3819440EDF8D1C028CDDB463BD2D3063 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8146,7 +8146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchor__ctor_m5862F8BC3819440
 		return;
 	}
 }
-// Method Definition Index: 28469
+// Method Definition Index: 28442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumGlobeAnchor_U3CDetectTransformChangesU3Eb__66_0_mC0C3550AF0CB552D8B4D3D7C82370CA4310B4361 (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8218,7 +8218,7 @@ IL_0051:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28470
+// Method Definition Index: 28443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetectTransformChangesU3Ed__66__ctor_mE311CAA288FC10F9EDC2CD3FDC5B95A2C9A39E3A (U3CDetectTransformChangesU3Ed__66_t49185EA3C4B21FE2EE7885D88D594461417820FA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8228,14 +8228,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetectTransformChangesU3Ed__66__ctor_
 		return;
 	}
 }
-// Method Definition Index: 28471
+// Method Definition Index: 28444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetectTransformChangesU3Ed__66_System_IDisposable_Dispose_mF3E44B93B7B4D568BF86A3CAF96590423EBB59E4 (U3CDetectTransformChangesU3Ed__66_t49185EA3C4B21FE2EE7885D88D594461417820FA* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 28472
+// Method Definition Index: 28445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDetectTransformChangesU3Ed__66_MoveNext_m8CD61282842A2E08BB7967D2DA353F5B2BEF6856 (U3CDetectTransformChangesU3Ed__66_t49185EA3C4B21FE2EE7885D88D594461417820FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8307,7 +8307,7 @@ IL_004a:
 		goto IL_0035;
 	}
 }
-// Method Definition Index: 28473
+// Method Definition Index: 28446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDetectTransformChangesU3Ed__66_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD4763E80EFFFFBB8432FC8ED83F8B90D3A299063 (U3CDetectTransformChangesU3Ed__66_t49185EA3C4B21FE2EE7885D88D594461417820FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8315,7 +8315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDetectTransformChangesU3Ed_
 		return L_0;
 	}
 }
-// Method Definition Index: 28474
+// Method Definition Index: 28447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetectTransformChangesU3Ed__66_System_Collections_IEnumerator_Reset_mE0A25C38A098C0660FAD970FA0F61D3FDA7D7D43 (U3CDetectTransformChangesU3Ed__66_t49185EA3C4B21FE2EE7885D88D594461417820FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8324,7 +8324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDetectTransformChangesU3Ed__66_System
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDetectTransformChangesU3Ed__66_System_Collections_IEnumerator_Reset_mE0A25C38A098C0660FAD970FA0F61D3FDA7D7D43_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 28475
+// Method Definition Index: 28448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDetectTransformChangesU3Ed__66_System_Collections_IEnumerator_get_Current_mE4AD3FD19B7983E363A95FC5395B05EFF451460F (U3CDetectTransformChangesU3Ed__66_t49185EA3C4B21FE2EE7885D88D594461417820FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8340,7 +8340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDetectTransformChangesU3Ed_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28476
+// Method Definition Index: 28449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumGlobeAnchorBackwardCompatibility0dot2dot0_get_VersionToBeUpgraded_m8EA8D25D48451C83FD34669CD65E68AE2EAEDF86 (CesiumGlobeAnchorBackwardCompatibility0dot2dot0_t1A3655BA103AC178AD3EAD14F0554202080067F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8354,7 +8354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumGlobeAnchorBackwardCompatibil
 		return _stringLiteralA18827D4F2E1F886712135ACD9FAF727ECCFD842;
 	}
 }
-// Method Definition Index: 28477
+// Method Definition Index: 28450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchorBackwardCompatibility0dot2dot0_Upgrade_m8B95C95BE3F5B99A81C61ACD9201C7331F667DC7 (CesiumGlobeAnchorBackwardCompatibility0dot2dot0_t1A3655BA103AC178AD3EAD14F0554202080067F6* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* ___1_upgraded, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8493,7 +8493,7 @@ IL_00a6:
 		return;
 	}
 }
-// Method Definition Index: 28478
+// Method Definition Index: 28451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchorBackwardCompatibility0dot2dot0__ctor_mA35957CAF0557E72EB2FBB77867F952932E8E811 (CesiumGlobeAnchorBackwardCompatibility0dot2dot0_t1A3655BA103AC178AD3EAD14F0554202080067F6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8517,7 +8517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumGlobeAnchorBackwardCompatibility0d
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28479
+// Method Definition Index: 28452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumIntMat2x2_get_componentType_mEFB20017F882DAC98B48E56A772D49599E798BF5 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8535,7 +8535,7 @@ IL2CPP_EXTERN_C  int32_t CesiumIntMat2x2_get_componentType_mEFB20017F882DAC98B48
 	_returnValue = CesiumIntMat2x2_get_componentType_mEFB20017F882DAC98B48E56A772D49599E798BF5_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28480
+// Method Definition Index: 28453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_componentType_mCDD11ADEBD00B81CD42EE8038054C18D86D7ECCA (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8552,7 +8552,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat2x2_set_componentType_mCDD11ADEBD00B81CD42EE80
 	_thisAdjusted = reinterpret_cast<CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308*>(__this + _offset);
 	CesiumIntMat2x2_set_componentType_mCDD11ADEBD00B81CD42EE8038054C18D86D7ECCA_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28481
+// Method Definition Index: 28454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumIntMat2x2_get_c0_m51561B360147BA29F421FB0BD1C022CC60C9ACFA (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8570,7 +8570,7 @@ IL2CPP_EXTERN_C  CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumI
 	_returnValue = CesiumIntMat2x2_get_c0_m51561B360147BA29F421FB0BD1C022CC60C9ACFA_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28482
+// Method Definition Index: 28455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_c0_mD2A5A3056A6BD75AB1455CBE3A1086BB1B08C2F4 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8587,7 +8587,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat2x2_set_c0_mD2A5A3056A6BD75AB1455CBE3A1086BB1B
 	_thisAdjusted = reinterpret_cast<CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308*>(__this + _offset);
 	CesiumIntMat2x2_set_c0_mD2A5A3056A6BD75AB1455CBE3A1086BB1B08C2F4_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28483
+// Method Definition Index: 28456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumIntMat2x2_get_c1_m751A37DE2A04425B2E00F546D4D76CA45D731F89 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8605,7 +8605,7 @@ IL2CPP_EXTERN_C  CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumI
 	_returnValue = CesiumIntMat2x2_get_c1_m751A37DE2A04425B2E00F546D4D76CA45D731F89_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28484
+// Method Definition Index: 28457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_c1_m70C94E3B0C3F6F1546CAFD2DB68229C9F3201106 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8622,7 +8622,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat2x2_set_c1_m70C94E3B0C3F6F1546CAFD2DB68229C9F3
 	_thisAdjusted = reinterpret_cast<CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308*>(__this + _offset);
 	CesiumIntMat2x2_set_c1_m70C94E3B0C3F6F1546CAFD2DB68229C9F3201106_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28485
+// Method Definition Index: 28458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat2x2__ctor_mE21E14A1743523E69248BF50EEAB0833C747B396 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___0_v0, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___1_v1, const RuntimeMethod* method) 
 {
 	{
@@ -8647,7 +8647,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat2x2__ctor_mE21E14A1743523E69248BF50EEAB0833C74
 	_thisAdjusted = reinterpret_cast<CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308*>(__this + _offset);
 	CesiumIntMat2x2__ctor_mE21E14A1743523E69248BF50EEAB0833C747B396(_thisAdjusted, ___0_v0, ___1_v1, method);
 }
-// Method Definition Index: 28486
+// Method Definition Index: 28459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat2x2__ctor_m91FAF271940F4E9BFC936177B59772AC8E6B1676 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_v0, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_v1, const RuntimeMethod* method) 
 {
 	{
@@ -8676,7 +8676,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat2x2__ctor_m91FAF271940F4E9BFC936177B59772AC8E6
 	_thisAdjusted = reinterpret_cast<CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308*>(__this + _offset);
 	CesiumIntMat2x2__ctor_m91FAF271940F4E9BFC936177B59772AC8E6B1676(_thisAdjusted, ___0_v0, ___1_v1, method);
 }
-// Method Definition Index: 28487
+// Method Definition Index: 28460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumIntMat2x2_get_Item_m504E52114E457DB4F7EBA0D23A166E0045D9BC84 (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -8738,7 +8738,7 @@ IL2CPP_EXTERN_C  CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumI
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28488
+// Method Definition Index: 28461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumIntMat3x3_get_componentType_mAE0D179B9AC5DB503CAB55D59737F7757C5ED76E (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8756,7 +8756,7 @@ IL2CPP_EXTERN_C  int32_t CesiumIntMat3x3_get_componentType_mAE0D179B9AC5DB503CAB
 	_returnValue = CesiumIntMat3x3_get_componentType_mAE0D179B9AC5DB503CAB55D59737F7757C5ED76E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28489
+// Method Definition Index: 28462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_componentType_m7F5012A469858E82B58D13C53CB67997E070963D (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8773,7 +8773,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat3x3_set_componentType_m7F5012A469858E82B58D13C
 	_thisAdjusted = reinterpret_cast<CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F*>(__this + _offset);
 	CesiumIntMat3x3_set_componentType_m7F5012A469858E82B58D13C53CB67997E070963D_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28490
+// Method Definition Index: 28463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_c0_m2878D60C71692D8C66403DAB2CCBDE7600D81647 (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8791,7 +8791,7 @@ IL2CPP_EXTERN_C  CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumI
 	_returnValue = CesiumIntMat3x3_get_c0_m2878D60C71692D8C66403DAB2CCBDE7600D81647_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28491
+// Method Definition Index: 28464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c0_m612148B1A942D34200AF566E522965D3A83D62BD (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8808,7 +8808,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat3x3_set_c0_m612148B1A942D34200AF566E522965D3A8
 	_thisAdjusted = reinterpret_cast<CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F*>(__this + _offset);
 	CesiumIntMat3x3_set_c0_m612148B1A942D34200AF566E522965D3A83D62BD_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28492
+// Method Definition Index: 28465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_c1_m28AECC9CAEF745022D5314C51C6AC0FD6B9C8B0F (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8826,7 +8826,7 @@ IL2CPP_EXTERN_C  CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumI
 	_returnValue = CesiumIntMat3x3_get_c1_m28AECC9CAEF745022D5314C51C6AC0FD6B9C8B0F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28493
+// Method Definition Index: 28466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c1_m3D720DD9CB13B281491AF66903F317AC014DAE04 (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8843,7 +8843,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat3x3_set_c1_m3D720DD9CB13B281491AF66903F317AC01
 	_thisAdjusted = reinterpret_cast<CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F*>(__this + _offset);
 	CesiumIntMat3x3_set_c1_m3D720DD9CB13B281491AF66903F317AC014DAE04_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28494
+// Method Definition Index: 28467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_c2_m3AD7FB333BEA580E798D1A592C876A0FE3C6E96B (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8861,7 +8861,7 @@ IL2CPP_EXTERN_C  CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumI
 	_returnValue = CesiumIntMat3x3_get_c2_m3AD7FB333BEA580E798D1A592C876A0FE3C6E96B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28495
+// Method Definition Index: 28468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c2_mAA33F39BC8E5D200CE0933486A38B4E47FC619B3 (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8878,7 +8878,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat3x3_set_c2_mAA33F39BC8E5D200CE0933486A38B4E47F
 	_thisAdjusted = reinterpret_cast<CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F*>(__this + _offset);
 	CesiumIntMat3x3_set_c2_mAA33F39BC8E5D200CE0933486A38B4E47FC619B3_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28496
+// Method Definition Index: 28469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat3x3__ctor_mF1EB0E600B5C5C67E1799C337BBA55F97AA2F91E (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_v0, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___1_v1, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___2_v2, const RuntimeMethod* method) 
 {
 	{
@@ -8906,7 +8906,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat3x3__ctor_mF1EB0E600B5C5C67E1799C337BBA55F97AA
 	_thisAdjusted = reinterpret_cast<CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F*>(__this + _offset);
 	CesiumIntMat3x3__ctor_mF1EB0E600B5C5C67E1799C337BBA55F97AA2F91E(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, method);
 }
-// Method Definition Index: 28497
+// Method Definition Index: 28470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat3x3__ctor_m3185BCD70B8E2FCEE60FAB918AB6E96417C471EC (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_v0, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_v1, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___2_v2, const RuntimeMethod* method) 
 {
 	{
@@ -8941,7 +8941,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat3x3__ctor_m3185BCD70B8E2FCEE60FAB918AB6E96417C
 	_thisAdjusted = reinterpret_cast<CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F*>(__this + _offset);
 	CesiumIntMat3x3__ctor_m3185BCD70B8E2FCEE60FAB918AB6E96417C471EC(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, method);
 }
-// Method Definition Index: 28498
+// Method Definition Index: 28471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_Item_m88619DF0127CD97E879717D5601B1EF9782FF8D1 (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -9015,7 +9015,7 @@ IL2CPP_EXTERN_C  CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumI
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28499
+// Method Definition Index: 28472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumIntMat4x4_get_componentType_m0457989C68B149796CCC4E86F5BA9E9A8D0711A0 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9033,7 +9033,7 @@ IL2CPP_EXTERN_C  int32_t CesiumIntMat4x4_get_componentType_m0457989C68B149796CCC
 	_returnValue = CesiumIntMat4x4_get_componentType_m0457989C68B149796CCC4E86F5BA9E9A8D0711A0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28500
+// Method Definition Index: 28473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_componentType_mD554425AB619EA9034DCF3DB54C79B8A041F78F3 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9050,7 +9050,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4_set_componentType_mD554425AB619EA9034DCF3D
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4_set_componentType_mD554425AB619EA9034DCF3DB54C79B8A041F78F3_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28501
+// Method Definition Index: 28474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c0_mFF9828EDD2179B5DD152A1C1186CB1F9B0C2699D (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9068,7 +9068,7 @@ IL2CPP_EXTERN_C  CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumI
 	_returnValue = CesiumIntMat4x4_get_c0_mFF9828EDD2179B5DD152A1C1186CB1F9B0C2699D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28502
+// Method Definition Index: 28475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c0_mA58512F16D5D8BADD0082DEFA826C2DCE4B3AC05 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9085,7 +9085,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4_set_c0_mA58512F16D5D8BADD0082DEFA826C2DCE4
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4_set_c0_mA58512F16D5D8BADD0082DEFA826C2DCE4B3AC05_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28503
+// Method Definition Index: 28476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c1_mA4A3821C42ABAE7848D2E3AAF28A8841F6F5F829 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9103,7 +9103,7 @@ IL2CPP_EXTERN_C  CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumI
 	_returnValue = CesiumIntMat4x4_get_c1_mA4A3821C42ABAE7848D2E3AAF28A8841F6F5F829_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28504
+// Method Definition Index: 28477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c1_m0A42F862434A4407DA051E2DC9383DD1DB67DB97 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9120,7 +9120,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4_set_c1_m0A42F862434A4407DA051E2DC9383DD1DB
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4_set_c1_m0A42F862434A4407DA051E2DC9383DD1DB67DB97_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28505
+// Method Definition Index: 28478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c2_m55BDF89DE35A4A327ED2CC6101B29563C62A87CD (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9138,7 +9138,7 @@ IL2CPP_EXTERN_C  CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumI
 	_returnValue = CesiumIntMat4x4_get_c2_m55BDF89DE35A4A327ED2CC6101B29563C62A87CD_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28506
+// Method Definition Index: 28479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c2_m39C06AA604506E9F73ED8013FA4440ECB1482002 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9155,7 +9155,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4_set_c2_m39C06AA604506E9F73ED8013FA4440ECB1
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4_set_c2_m39C06AA604506E9F73ED8013FA4440ECB1482002_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28507
+// Method Definition Index: 28480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c3_m707A9FC73E6FF008850BB7575A532DDCE07FF17E (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9173,7 +9173,7 @@ IL2CPP_EXTERN_C  CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumI
 	_returnValue = CesiumIntMat4x4_get_c3_m707A9FC73E6FF008850BB7575A532DDCE07FF17E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28508
+// Method Definition Index: 28481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c3_mBB44E32BB49AB5BFFA46C3B3245F6A696C461145 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9190,7 +9190,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4_set_c3_mBB44E32BB49AB5BFFA46C3B3245F6A696C
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4_set_c3_mBB44E32BB49AB5BFFA46C3B3245F6A696C461145_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28509
+// Method Definition Index: 28482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4__ctor_m9C799D020E043882D66134591F11DD460FC03723 (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_v0, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___1_v1, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___2_v2, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___3_v3, const RuntimeMethod* method) 
 {
 	{
@@ -9221,7 +9221,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4__ctor_m9C799D020E043882D66134591F11DD460FC
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4__ctor_m9C799D020E043882D66134591F11DD460FC03723(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, ___3_v3, method);
 }
-// Method Definition Index: 28510
+// Method Definition Index: 28483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntMat4x4__ctor_mC890A5ACB0647269F3ABB18D02D6810AC0A5D17B (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_v0, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_v1, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___2_v2, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___3_v3, const RuntimeMethod* method) 
 {
 	{
@@ -9262,7 +9262,7 @@ IL2CPP_EXTERN_C  void CesiumIntMat4x4__ctor_mC890A5ACB0647269F3ABB18D02D6810AC0A
 	_thisAdjusted = reinterpret_cast<CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251*>(__this + _offset);
 	CesiumIntMat4x4__ctor_mC890A5ACB0647269F3ABB18D02D6810AC0A5D17B(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, ___3_v3, method);
 }
-// Method Definition Index: 28511
+// Method Definition Index: 28484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_Item_m38CD9F46E65BB2F0983AEFAD5FF2AF827165ECDB (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -9348,7 +9348,7 @@ IL2CPP_EXTERN_C  CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumI
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28512
+// Method Definition Index: 28485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumUintMat2x2_get_componentType_mA1AADA203246740955D9D59F62FDC0AF7DC2842C (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9366,7 +9366,7 @@ IL2CPP_EXTERN_C  int32_t CesiumUintMat2x2_get_componentType_mA1AADA203246740955D
 	_returnValue = CesiumUintMat2x2_get_componentType_mA1AADA203246740955D9D59F62FDC0AF7DC2842C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28513
+// Method Definition Index: 28486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_componentType_m30EA07D4134536304102F64479CE457C8D52BFA1 (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9383,7 +9383,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat2x2_set_componentType_m30EA07D4134536304102F6
 	_thisAdjusted = reinterpret_cast<CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*>(__this + _offset);
 	CesiumUintMat2x2_set_componentType_m30EA07D4134536304102F64479CE457C8D52BFA1_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28514
+// Method Definition Index: 28487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E CesiumUintMat2x2_get_c0_m620AB4AA74D7D0122DA2449C43563158DC983B2E (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9401,7 +9401,7 @@ IL2CPP_EXTERN_C  CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E Cesium
 	_returnValue = CesiumUintMat2x2_get_c0_m620AB4AA74D7D0122DA2449C43563158DC983B2E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28515
+// Method Definition Index: 28488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_c0_mAB497A3D13D8DA9F7AFFCC1F865741C1E19DAB67 (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9418,7 +9418,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat2x2_set_c0_mAB497A3D13D8DA9F7AFFCC1F865741C1E
 	_thisAdjusted = reinterpret_cast<CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*>(__this + _offset);
 	CesiumUintMat2x2_set_c0_mAB497A3D13D8DA9F7AFFCC1F865741C1E19DAB67_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28516
+// Method Definition Index: 28489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E CesiumUintMat2x2_get_c1_m69FAC45AC3A6491D5556EE2F2D35F5B100D13BA1 (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9436,7 +9436,7 @@ IL2CPP_EXTERN_C  CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E Cesium
 	_returnValue = CesiumUintMat2x2_get_c1_m69FAC45AC3A6491D5556EE2F2D35F5B100D13BA1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28517
+// Method Definition Index: 28490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_c1_m1A0A3D49D1CB812C910360F77568E9600875D601 (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9453,7 +9453,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat2x2_set_c1_m1A0A3D49D1CB812C910360F77568E9600
 	_thisAdjusted = reinterpret_cast<CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*>(__this + _offset);
 	CesiumUintMat2x2_set_c1_m1A0A3D49D1CB812C910360F77568E9600875D601_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28518
+// Method Definition Index: 28491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat2x2__ctor_m853E1FEF10C6292DF60043DF9C59944E1CF95EAF (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___0_v0, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___1_v1, const RuntimeMethod* method) 
 {
 	{
@@ -9478,7 +9478,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat2x2__ctor_m853E1FEF10C6292DF60043DF9C59944E1C
 	_thisAdjusted = reinterpret_cast<CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*>(__this + _offset);
 	CesiumUintMat2x2__ctor_m853E1FEF10C6292DF60043DF9C59944E1CF95EAF(_thisAdjusted, ___0_v0, ___1_v1, method);
 }
-// Method Definition Index: 28519
+// Method Definition Index: 28492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat2x2__ctor_m7AB087DE756238D6EAA98D90B8E6AF9BDE16E190 (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_v0, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___1_v1, const RuntimeMethod* method) 
 {
 	{
@@ -9507,7 +9507,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat2x2__ctor_m7AB087DE756238D6EAA98D90B8E6AF9BDE
 	_thisAdjusted = reinterpret_cast<CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*>(__this + _offset);
 	CesiumUintMat2x2__ctor_m7AB087DE756238D6EAA98D90B8E6AF9BDE16E190(_thisAdjusted, ___0_v0, ___1_v1, method);
 }
-// Method Definition Index: 28520
+// Method Definition Index: 28493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E CesiumUintMat2x2_get_Item_mC9C52C083E1EC324AD18DB4CBAE194FF68DD4FFD (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -9569,7 +9569,7 @@ IL2CPP_EXTERN_C  CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E Cesium
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28521
+// Method Definition Index: 28494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumUintMat3x3_get_componentType_m0293B784DD7B914C3137D9DD441419EAB75C1217 (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9587,7 +9587,7 @@ IL2CPP_EXTERN_C  int32_t CesiumUintMat3x3_get_componentType_m0293B784DD7B914C313
 	_returnValue = CesiumUintMat3x3_get_componentType_m0293B784DD7B914C3137D9DD441419EAB75C1217_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28522
+// Method Definition Index: 28495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_componentType_mD0B3FD82024DEF18BE65ED6B1D4F93863D271008 (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9604,7 +9604,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat3x3_set_componentType_mD0B3FD82024DEF18BE65ED
 	_thisAdjusted = reinterpret_cast<CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*>(__this + _offset);
 	CesiumUintMat3x3_set_componentType_mD0B3FD82024DEF18BE65ED6B1D4F93863D271008_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28523
+// Method Definition Index: 28496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_c0_m868BC18AB3436A559BD2CF7C8559AFB26E9730A0 (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9622,7 +9622,7 @@ IL2CPP_EXTERN_C  CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 Cesium
 	_returnValue = CesiumUintMat3x3_get_c0_m868BC18AB3436A559BD2CF7C8559AFB26E9730A0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28524
+// Method Definition Index: 28497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c0_m40E4258BD9D46140A86E5300F5165115539E1C1D (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9639,7 +9639,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat3x3_set_c0_m40E4258BD9D46140A86E5300F51651155
 	_thisAdjusted = reinterpret_cast<CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*>(__this + _offset);
 	CesiumUintMat3x3_set_c0_m40E4258BD9D46140A86E5300F5165115539E1C1D_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28525
+// Method Definition Index: 28498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_c1_m8F295A7A4EFA05BDF8A06FBCF530D597B996D18A (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9657,7 +9657,7 @@ IL2CPP_EXTERN_C  CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 Cesium
 	_returnValue = CesiumUintMat3x3_get_c1_m8F295A7A4EFA05BDF8A06FBCF530D597B996D18A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28526
+// Method Definition Index: 28499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c1_mAA9052194F01F1A4A2999F2F59550F53C20B750A (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9674,7 +9674,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat3x3_set_c1_mAA9052194F01F1A4A2999F2F59550F53C
 	_thisAdjusted = reinterpret_cast<CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*>(__this + _offset);
 	CesiumUintMat3x3_set_c1_mAA9052194F01F1A4A2999F2F59550F53C20B750A_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28527
+// Method Definition Index: 28500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_c2_mD71803E3DC34F8B266BF6F9DE6352CA490925847 (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9692,7 +9692,7 @@ IL2CPP_EXTERN_C  CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 Cesium
 	_returnValue = CesiumUintMat3x3_get_c2_mD71803E3DC34F8B266BF6F9DE6352CA490925847_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28528
+// Method Definition Index: 28501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c2_mDE9E07B54D27C531D3CE3E07DE6F84EF2C55AD8D (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9709,7 +9709,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat3x3_set_c2_mDE9E07B54D27C531D3CE3E07DE6F84EF2
 	_thisAdjusted = reinterpret_cast<CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*>(__this + _offset);
 	CesiumUintMat3x3_set_c2_mDE9E07B54D27C531D3CE3E07DE6F84EF2C55AD8D_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28529
+// Method Definition Index: 28502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat3x3__ctor_mAAEAC634C7C3F98051D3771BEE8B352877BF3490 (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_v0, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___1_v1, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___2_v2, const RuntimeMethod* method) 
 {
 	{
@@ -9737,7 +9737,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat3x3__ctor_mAAEAC634C7C3F98051D3771BEE8B352877
 	_thisAdjusted = reinterpret_cast<CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*>(__this + _offset);
 	CesiumUintMat3x3__ctor_mAAEAC634C7C3F98051D3771BEE8B352877BF3490(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, method);
 }
-// Method Definition Index: 28530
+// Method Definition Index: 28503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat3x3__ctor_m4C123C898D4672543FD12D8F22CAB322532A7730 (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_v0, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___1_v1, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___2_v2, const RuntimeMethod* method) 
 {
 	{
@@ -9772,7 +9772,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat3x3__ctor_m4C123C898D4672543FD12D8F22CAB32253
 	_thisAdjusted = reinterpret_cast<CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*>(__this + _offset);
 	CesiumUintMat3x3__ctor_m4C123C898D4672543FD12D8F22CAB322532A7730(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, method);
 }
-// Method Definition Index: 28531
+// Method Definition Index: 28504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_Item_m3CEAE690D9051849EBB3B2208F0FF4CE5B2BC67E (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -9846,7 +9846,7 @@ IL2CPP_EXTERN_C  CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 Cesium
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28532
+// Method Definition Index: 28505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumUintMat4x4_get_componentType_m7E4B34742FF97384A561E4DE4D6F5A897C5BF2B9 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9864,7 +9864,7 @@ IL2CPP_EXTERN_C  int32_t CesiumUintMat4x4_get_componentType_m7E4B34742FF97384A56
 	_returnValue = CesiumUintMat4x4_get_componentType_m7E4B34742FF97384A561E4DE4D6F5A897C5BF2B9_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28533
+// Method Definition Index: 28506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_componentType_mD8F4762AE04CD9A28BC1E933624231E0C5A6195E (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9881,7 +9881,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4_set_componentType_mD8F4762AE04CD9A28BC1E9
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4_set_componentType_mD8F4762AE04CD9A28BC1E933624231E0C5A6195E_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28534
+// Method Definition Index: 28507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c0_mC41D2A7D69E03058BA3BDB143F31148B2D9CB486 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9899,7 +9899,7 @@ IL2CPP_EXTERN_C  CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 Cesium
 	_returnValue = CesiumUintMat4x4_get_c0_mC41D2A7D69E03058BA3BDB143F31148B2D9CB486_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28535
+// Method Definition Index: 28508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c0_m1F822D79C4B6C01E659C6DB03B75C4795597F49B (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9916,7 +9916,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4_set_c0_m1F822D79C4B6C01E659C6DB03B75C4795
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4_set_c0_m1F822D79C4B6C01E659C6DB03B75C4795597F49B_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28536
+// Method Definition Index: 28509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c1_mE0B26D46C1C0BE19A24CE0B7471CC7805A603E25 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9934,7 +9934,7 @@ IL2CPP_EXTERN_C  CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 Cesium
 	_returnValue = CesiumUintMat4x4_get_c1_mE0B26D46C1C0BE19A24CE0B7471CC7805A603E25_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28537
+// Method Definition Index: 28510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c1_m01D84E49BCDDDD8A15EF5A73ABD260BB01DBC150 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9951,7 +9951,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4_set_c1_m01D84E49BCDDDD8A15EF5A73ABD260BB0
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4_set_c1_m01D84E49BCDDDD8A15EF5A73ABD260BB01DBC150_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28538
+// Method Definition Index: 28511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c2_mEEB47750767CC9CB8C9CE616FE0F3291B0FFA1C8 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9969,7 +9969,7 @@ IL2CPP_EXTERN_C  CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 Cesium
 	_returnValue = CesiumUintMat4x4_get_c2_mEEB47750767CC9CB8C9CE616FE0F3291B0FFA1C8_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28539
+// Method Definition Index: 28512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c2_m7BBE0528E1C2C393E64F1B04EEA8D3C52C06AE97 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9986,7 +9986,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4_set_c2_m7BBE0528E1C2C393E64F1B04EEA8D3C52
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4_set_c2_m7BBE0528E1C2C393E64F1B04EEA8D3C52C06AE97_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28540
+// Method Definition Index: 28513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c3_m3D31D3F21AA5CF07F4E3C569FE208CCD659B0FF1 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10004,7 +10004,7 @@ IL2CPP_EXTERN_C  CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 Cesium
 	_returnValue = CesiumUintMat4x4_get_c3_m3D31D3F21AA5CF07F4E3C569FE208CCD659B0FF1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28541
+// Method Definition Index: 28514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c3_m1141B39FE9F24A145C3B40115CA17153F374DAB9 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10021,7 +10021,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4_set_c3_m1141B39FE9F24A145C3B40115CA17153F
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4_set_c3_m1141B39FE9F24A145C3B40115CA17153F374DAB9_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28542
+// Method Definition Index: 28515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4__ctor_m5D4A85C27D1E877C6DFFB474B6858907F8F5A648 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_v0, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___1_v1, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___2_v2, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___3_v3, const RuntimeMethod* method) 
 {
 	{
@@ -10052,7 +10052,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4__ctor_m5D4A85C27D1E877C6DFFB474B6858907F8
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4__ctor_m5D4A85C27D1E877C6DFFB474B6858907F8F5A648(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, ___3_v3, method);
 }
-// Method Definition Index: 28543
+// Method Definition Index: 28516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintMat4x4__ctor_m125C3B203A833EE1C7DC91DAE63A3111B24149E3 (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_v0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_v1, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___2_v2, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___3_v3, const RuntimeMethod* method) 
 {
 	{
@@ -10093,7 +10093,7 @@ IL2CPP_EXTERN_C  void CesiumUintMat4x4__ctor_m125C3B203A833EE1C7DC91DAE63A3111B2
 	_thisAdjusted = reinterpret_cast<CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*>(__this + _offset);
 	CesiumUintMat4x4__ctor_m125C3B203A833EE1C7DC91DAE63A3111B24149E3(_thisAdjusted, ___0_v0, ___1_v1, ___2_v2, ___3_v3, method);
 }
-// Method Definition Index: 28544
+// Method Definition Index: 28517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_Item_m9BBF629D694DDA45A821DAA56FE036611C833B6D (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -10179,7 +10179,7 @@ IL2CPP_EXTERN_C  CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 Cesium
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28545
+// Method Definition Index: 28518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumIntVec2_get_componentType_m97BA494C768179511860AE781FDCAF315DFA6C2D (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10197,7 +10197,7 @@ IL2CPP_EXTERN_C  int32_t CesiumIntVec2_get_componentType_m97BA494C768179511860AE
 	_returnValue = CesiumIntVec2_get_componentType_m97BA494C768179511860AE781FDCAF315DFA6C2D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28546
+// Method Definition Index: 28519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2_set_componentType_m86109AF07778AB15B7113F5E087016E65705F473 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10214,7 +10214,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2_set_componentType_m86109AF07778AB15B7113F5E0
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2_set_componentType_m86109AF07778AB15B7113F5E087016E65705F473_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28547
+// Method Definition Index: 28520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_x_m729F9CCAF829867277DD91DDA42DAEB5C7B51943 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10232,7 +10232,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec2_get_x_m729F9CCAF829867277DD91DDA42DAEB5C7
 	_returnValue = CesiumIntVec2_get_x_m729F9CCAF829867277DD91DDA42DAEB5C7B51943_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28548
+// Method Definition Index: 28521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2_set_x_mD915E50B60E05ED14C76A8F3503FA74D08309963 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10249,7 +10249,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2_set_x_mD915E50B60E05ED14C76A8F3503FA74D08309
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2_set_x_mD915E50B60E05ED14C76A8F3503FA74D08309963_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28549
+// Method Definition Index: 28522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_y_m23016975A94F59CB5CA0DD30CEC12186D712DC13 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10267,7 +10267,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec2_get_y_m23016975A94F59CB5CA0DD30CEC12186D7
 	_returnValue = CesiumIntVec2_get_y_m23016975A94F59CB5CA0DD30CEC12186D712DC13_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28550
+// Method Definition Index: 28523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2_set_y_m3202CF05752100B6AB6EE58E90C3CC0FC2ACEBF2 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10284,7 +10284,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2_set_y_m3202CF05752100B6AB6EE58E90C3CC0FC2ACE
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2_set_y_m3202CF05752100B6AB6EE58E90C3CC0FC2ACEBF2_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28551
+// Method Definition Index: 28524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2__ctor_m90A75A882D11B21DCD2700375D5BD032734AECD7 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int8_t ___0_x, int8_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -10307,7 +10307,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2__ctor_m90A75A882D11B21DCD2700375D5BD032734AE
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2__ctor_m90A75A882D11B21DCD2700375D5BD032734AECD7(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28552
+// Method Definition Index: 28525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2__ctor_m6F5DCC54DD842DC853E99B0F4B1E3B546F8287CA (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int16_t ___0_x, int16_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -10330,7 +10330,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2__ctor_m6F5DCC54DD842DC853E99B0F4B1E3B546F828
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2__ctor_m6F5DCC54DD842DC853E99B0F4B1E3B546F8287CA(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28553
+// Method Definition Index: 28526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2__ctor_m8F18031592950802094A85971DA3D45431A98C46 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -10353,7 +10353,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2__ctor_m8F18031592950802094A85971DA3D45431A98
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2__ctor_m8F18031592950802094A85971DA3D45431A98C46(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28554
+// Method Definition Index: 28527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2__ctor_mAB19AD56E03B130D39A188C7EBA731320E8EF1C3 (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int64_t ___0_x, int64_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -10376,7 +10376,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2__ctor_mAB19AD56E03B130D39A188C7EBA731320E8EF
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2__ctor_mAB19AD56E03B130D39A188C7EBA731320E8EF1C3(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28555
+// Method Definition Index: 28528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec2__ctor_mB1876B76904F8C01736CD63E494D0EBE665430FC (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_unityInt2, const RuntimeMethod* method) 
 {
 	{
@@ -10401,7 +10401,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec2__ctor_mB1876B76904F8C01736CD63E494D0EBE66543
 	_thisAdjusted = reinterpret_cast<CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005*>(__this + _offset);
 	CesiumIntVec2__ctor_mB1876B76904F8C01736CD63E494D0EBE665430FC(_thisAdjusted, ___0_unityInt2, method);
 }
-// Method Definition Index: 28556
+// Method Definition Index: 28529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_Item_m68750683F8D204DBE8554FDA78B03082B9084D6A (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -10463,7 +10463,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec2_get_Item_m68750683F8D204DBE8554FDA78B0308
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28557
+// Method Definition Index: 28530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumIntVec3_get_componentType_mA7AC852EDB3DF8646D72E84A12341123A301E8D2 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10481,7 +10481,7 @@ IL2CPP_EXTERN_C  int32_t CesiumIntVec3_get_componentType_mA7AC852EDB3DF8646D72E8
 	_returnValue = CesiumIntVec3_get_componentType_mA7AC852EDB3DF8646D72E84A12341123A301E8D2_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28558
+// Method Definition Index: 28531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3_set_componentType_mA96CA0C3B6F8E44DB3BB6176E9BF6CBF08ECA8D6 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10498,7 +10498,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3_set_componentType_mA96CA0C3B6F8E44DB3BB6176E
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3_set_componentType_mA96CA0C3B6F8E44DB3BB6176E9BF6CBF08ECA8D6_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28559
+// Method Definition Index: 28532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_x_m6FE847326E668705B6455D93BEF309E8FDD05239 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10516,7 +10516,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec3_get_x_m6FE847326E668705B6455D93BEF309E8FD
 	_returnValue = CesiumIntVec3_get_x_m6FE847326E668705B6455D93BEF309E8FDD05239_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28560
+// Method Definition Index: 28533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3_set_x_m354A1B72E359192AF5CFA7C4650721DF56E929F4 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10533,7 +10533,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3_set_x_m354A1B72E359192AF5CFA7C4650721DF56E92
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3_set_x_m354A1B72E359192AF5CFA7C4650721DF56E929F4_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28561
+// Method Definition Index: 28534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_y_mC33E4A3B38C1623A11FEB185CE5283B0D7A8A2EF (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10551,7 +10551,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec3_get_y_mC33E4A3B38C1623A11FEB185CE5283B0D7
 	_returnValue = CesiumIntVec3_get_y_mC33E4A3B38C1623A11FEB185CE5283B0D7A8A2EF_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28562
+// Method Definition Index: 28535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3_set_y_m5F54F5E1C79A8EE3EE7405F35A6F6597C3F248C0 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10568,7 +10568,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3_set_y_m5F54F5E1C79A8EE3EE7405F35A6F6597C3F24
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3_set_y_m5F54F5E1C79A8EE3EE7405F35A6F6597C3F248C0_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28563
+// Method Definition Index: 28536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_z_m817AFCD54425B9B926DEEDD4496EC85E845C5340 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10586,7 +10586,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec3_get_z_m817AFCD54425B9B926DEEDD4496EC85E84
 	_returnValue = CesiumIntVec3_get_z_m817AFCD54425B9B926DEEDD4496EC85E845C5340_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28564
+// Method Definition Index: 28537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3_set_z_m98EE79591D64889BDCFF2587905859B802E602A4 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10603,7 +10603,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3_set_z_m98EE79591D64889BDCFF2587905859B802E60
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3_set_z_m98EE79591D64889BDCFF2587905859B802E602A4_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28565
+// Method Definition Index: 28538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3__ctor_m83802E57E19E3ACBEB24B924A3C7ACE6533D23B2 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int8_t ___0_x, int8_t ___1_y, int8_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -10629,7 +10629,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3__ctor_m83802E57E19E3ACBEB24B924A3C7ACE6533D2
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3__ctor_m83802E57E19E3ACBEB24B924A3C7ACE6533D23B2(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28566
+// Method Definition Index: 28539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3__ctor_m143646F6A424109C91A628E1ACB771F4A5222BF7 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int16_t ___0_x, int16_t ___1_y, int16_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -10655,7 +10655,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3__ctor_m143646F6A424109C91A628E1ACB771F4A5222
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3__ctor_m143646F6A424109C91A628E1ACB771F4A5222BF7(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28567
+// Method Definition Index: 28540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3__ctor_mB1977CD2361310A4080B970225C1747FA5051F9D (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -10681,7 +10681,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3__ctor_mB1977CD2361310A4080B970225C1747FA5051
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3__ctor_mB1977CD2361310A4080B970225C1747FA5051F9D(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28568
+// Method Definition Index: 28541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3__ctor_mF4CF3979237BA233116CA62DE8E701886CD3670F (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_x, int64_t ___1_y, int64_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -10707,7 +10707,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3__ctor_mF4CF3979237BA233116CA62DE8E701886CD36
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3__ctor_mF4CF3979237BA233116CA62DE8E701886CD3670F(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28569
+// Method Definition Index: 28542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec3__ctor_mD3158DE720E292C9E332E5D87B187C750F620E97 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_unityInt3, const RuntimeMethod* method) 
 {
 	{
@@ -10736,7 +10736,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec3__ctor_mD3158DE720E292C9E332E5D87B187C750F620
 	_thisAdjusted = reinterpret_cast<CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE*>(__this + _offset);
 	CesiumIntVec3__ctor_mD3158DE720E292C9E332E5D87B187C750F620E97(_thisAdjusted, ___0_unityInt3, method);
 }
-// Method Definition Index: 28570
+// Method Definition Index: 28543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_Item_mF7DDAC267FFC4A03F08C071B292BF2A33422FDB4 (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -10810,7 +10810,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec3_get_Item_mF7DDAC267FFC4A03F08C071B292BF2A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28571
+// Method Definition Index: 28544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumIntVec4_get_componentType_m53FE3E948D0490CE87E59A6735F8DFAECA0B0725 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10828,7 +10828,7 @@ IL2CPP_EXTERN_C  int32_t CesiumIntVec4_get_componentType_m53FE3E948D0490CE87E59A
 	_returnValue = CesiumIntVec4_get_componentType_m53FE3E948D0490CE87E59A6735F8DFAECA0B0725_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28572
+// Method Definition Index: 28545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4_set_componentType_m998BA6E15425ED212CD609E360781491F0782EB5 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10845,7 +10845,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4_set_componentType_m998BA6E15425ED212CD609E36
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4_set_componentType_m998BA6E15425ED212CD609E360781491F0782EB5_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28573
+// Method Definition Index: 28546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_x_m1297CA70D9BE237FC957ECF327B90C59D21C8842 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10863,7 +10863,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec4_get_x_m1297CA70D9BE237FC957ECF327B90C59D2
 	_returnValue = CesiumIntVec4_get_x_m1297CA70D9BE237FC957ECF327B90C59D21C8842_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28574
+// Method Definition Index: 28547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4_set_x_m748E881369125BC8B221BD58593A450A9EEE6E54 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10880,7 +10880,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4_set_x_m748E881369125BC8B221BD58593A450A9EEE6
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4_set_x_m748E881369125BC8B221BD58593A450A9EEE6E54_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28575
+// Method Definition Index: 28548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_y_m12560F9E5B534847CB6909C9DB047C5F31AB1782 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10898,7 +10898,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec4_get_y_m12560F9E5B534847CB6909C9DB047C5F31
 	_returnValue = CesiumIntVec4_get_y_m12560F9E5B534847CB6909C9DB047C5F31AB1782_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28576
+// Method Definition Index: 28549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4_set_y_m0C4FC06FE18D2490967D14A4223658C9552B1C88 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10915,7 +10915,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4_set_y_m0C4FC06FE18D2490967D14A4223658C9552B1
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4_set_y_m0C4FC06FE18D2490967D14A4223658C9552B1C88_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28577
+// Method Definition Index: 28550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_z_mFF061F240EC072EDD223897EE955E8D3288A7C43 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10933,7 +10933,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec4_get_z_mFF061F240EC072EDD223897EE955E8D328
 	_returnValue = CesiumIntVec4_get_z_mFF061F240EC072EDD223897EE955E8D3288A7C43_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28578
+// Method Definition Index: 28551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4_set_z_m452ECA694B759EEB3ED8D2141AF05DBAE5A5FFD8 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10950,7 +10950,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4_set_z_m452ECA694B759EEB3ED8D2141AF05DBAE5A5F
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4_set_z_m452ECA694B759EEB3ED8D2141AF05DBAE5A5FFD8_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28579
+// Method Definition Index: 28552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_w_mFD17D15CF8BA16A943400713BA0022811645A02A (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10968,7 +10968,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec4_get_w_mFD17D15CF8BA16A943400713BA00228116
 	_returnValue = CesiumIntVec4_get_w_mFD17D15CF8BA16A943400713BA0022811645A02A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28580
+// Method Definition Index: 28553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4_set_w_m74E5C1ACE41F351FA5AFEFEA226B4F7E03B9473A (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10985,7 +10985,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4_set_w_m74E5C1ACE41F351FA5AFEFEA226B4F7E03B94
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4_set_w_m74E5C1ACE41F351FA5AFEFEA226B4F7E03B9473A_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28581
+// Method Definition Index: 28554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4__ctor_mB482AA02B68FE972715E7678E5D6DB85CD065510 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int8_t ___0_x, int8_t ___1_y, int8_t ___2_z, int8_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -11014,7 +11014,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4__ctor_mB482AA02B68FE972715E7678E5D6DB85CD065
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4__ctor_mB482AA02B68FE972715E7678E5D6DB85CD065510(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28582
+// Method Definition Index: 28555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4__ctor_m518A42E948C9A48ABA47487F61EEF3C81ACE85F9 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int16_t ___0_x, int16_t ___1_y, int16_t ___2_z, int16_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -11043,7 +11043,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4__ctor_m518A42E948C9A48ABA47487F61EEF3C81ACE8
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4__ctor_m518A42E948C9A48ABA47487F61EEF3C81ACE85F9(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28583
+// Method Definition Index: 28556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4__ctor_mA9D7DFFD8E414EBD4BAC0DD3CF68CC97893515AE (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, int32_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -11072,7 +11072,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4__ctor_mA9D7DFFD8E414EBD4BAC0DD3CF68CC9789351
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4__ctor_mA9D7DFFD8E414EBD4BAC0DD3CF68CC97893515AE(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28584
+// Method Definition Index: 28557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4__ctor_m52A2E0AE3619C186F36A3F3FDC4F3EBA452B3C51 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_x, int64_t ___1_y, int64_t ___2_z, int64_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -11101,7 +11101,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4__ctor_m52A2E0AE3619C186F36A3F3FDC4F3EBA452B3
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4__ctor_m52A2E0AE3619C186F36A3F3FDC4F3EBA452B3C51(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28585
+// Method Definition Index: 28558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIntVec4__ctor_m96E91141AD496DDC757ACE19FF40AD1852219124 (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_unityInt4, const RuntimeMethod* method) 
 {
 	{
@@ -11134,7 +11134,7 @@ IL2CPP_EXTERN_C  void CesiumIntVec4__ctor_m96E91141AD496DDC757ACE19FF40AD1852219
 	_thisAdjusted = reinterpret_cast<CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E*>(__this + _offset);
 	CesiumIntVec4__ctor_m96E91141AD496DDC757ACE19FF40AD1852219124(_thisAdjusted, ___0_unityInt4, method);
 }
-// Method Definition Index: 28586
+// Method Definition Index: 28559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_Item_mB62D2330DE5163C61B108A4B0705BD14EB99FB1B (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -11220,7 +11220,7 @@ IL2CPP_EXTERN_C  int64_t CesiumIntVec4_get_Item_mB62D2330DE5163C61B108A4B0705BD1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28587
+// Method Definition Index: 28560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumUintVec2_get_componentType_mA0512946C3FC3499155868C85E4DAB7165E95A39 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11238,7 +11238,7 @@ IL2CPP_EXTERN_C  int32_t CesiumUintVec2_get_componentType_mA0512946C3FC349915586
 	_returnValue = CesiumUintVec2_get_componentType_mA0512946C3FC3499155868C85E4DAB7165E95A39_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28588
+// Method Definition Index: 28561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2_set_componentType_mEB848A7E6E35D881DDD712FF0E867EE11B595F81 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11255,7 +11255,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2_set_componentType_mEB848A7E6E35D881DDD712FF
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2_set_componentType_mEB848A7E6E35D881DDD712FF0E867EE11B595F81_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28589
+// Method Definition Index: 28562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_x_mF41F597990E36B9899A8A7D048DBEC2EA8507E08 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11273,7 +11273,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec2_get_x_mF41F597990E36B9899A8A7D048DBEC2E
 	_returnValue = CesiumUintVec2_get_x_mF41F597990E36B9899A8A7D048DBEC2EA8507E08_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28590
+// Method Definition Index: 28563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2_set_x_m7CABE5C1E137EBE777FAB9D6DCBEBB491ACF680D (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11290,7 +11290,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2_set_x_m7CABE5C1E137EBE777FAB9D6DCBEBB491ACF
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2_set_x_m7CABE5C1E137EBE777FAB9D6DCBEBB491ACF680D_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28591
+// Method Definition Index: 28564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_y_mA3B8382575FBDD0665A6F091C12E4A2FCA64BD2F (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11308,7 +11308,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec2_get_y_mA3B8382575FBDD0665A6F091C12E4A2F
 	_returnValue = CesiumUintVec2_get_y_mA3B8382575FBDD0665A6F091C12E4A2FCA64BD2F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28592
+// Method Definition Index: 28565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2_set_y_m273FB71B43667C92C46514571D6ABDB6C47BC175 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11325,7 +11325,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2_set_y_m273FB71B43667C92C46514571D6ABDB6C47B
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2_set_y_m273FB71B43667C92C46514571D6ABDB6C47BC175_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28593
+// Method Definition Index: 28566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2__ctor_mEB70C09299D24292D1119FFAFE46D8B963DC167B (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint8_t ___0_x, uint8_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -11348,7 +11348,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2__ctor_mEB70C09299D24292D1119FFAFE46D8B963DC
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2__ctor_mEB70C09299D24292D1119FFAFE46D8B963DC167B(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28594
+// Method Definition Index: 28567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2__ctor_m0DB005FC9DF75AEEADEB56D829087CBAECCD2776 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint16_t ___0_x, uint16_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -11371,7 +11371,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2__ctor_m0DB005FC9DF75AEEADEB56D829087CBAECCD
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2__ctor_m0DB005FC9DF75AEEADEB56D829087CBAECCD2776(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28595
+// Method Definition Index: 28568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2__ctor_m77EB15AA7F18991BEFF7E538FE7ADCDA0CAE19D9 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -11394,7 +11394,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2__ctor_m77EB15AA7F18991BEFF7E538FE7ADCDA0CAE
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2__ctor_m77EB15AA7F18991BEFF7E538FE7ADCDA0CAE19D9(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28596
+// Method Definition Index: 28569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2__ctor_m1192C35EF84C97577F1E2C6E386457442A119036 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint64_t ___0_x, uint64_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -11417,7 +11417,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2__ctor_m1192C35EF84C97577F1E2C6E386457442A11
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2__ctor_m1192C35EF84C97577F1E2C6E386457442A119036(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 28597
+// Method Definition Index: 28570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec2__ctor_m95F8A4FA593EE76ED73451E33AA850A98B6518DF (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_unityUint2, const RuntimeMethod* method) 
 {
 	{
@@ -11442,7 +11442,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec2__ctor_m95F8A4FA593EE76ED73451E33AA850A98B65
 	_thisAdjusted = reinterpret_cast<CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*>(__this + _offset);
 	CesiumUintVec2__ctor_m95F8A4FA593EE76ED73451E33AA850A98B6518DF(_thisAdjusted, ___0_unityUint2, method);
 }
-// Method Definition Index: 28598
+// Method Definition Index: 28571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_Item_m6C8D1C8B035766DD884F702C1464C43CFC313902 (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -11504,7 +11504,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec2_get_Item_m6C8D1C8B035766DD884F702C1464C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28599
+// Method Definition Index: 28572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumUintVec3_get_componentType_mEBA6209FECF33040469483C77CA70FB57617FF16 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11522,7 +11522,7 @@ IL2CPP_EXTERN_C  int32_t CesiumUintVec3_get_componentType_mEBA6209FECF3304046948
 	_returnValue = CesiumUintVec3_get_componentType_mEBA6209FECF33040469483C77CA70FB57617FF16_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28600
+// Method Definition Index: 28573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3_set_componentType_m81B3BDBBF592F94C2AE43B45939F7AFDCF7C3674 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11539,7 +11539,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3_set_componentType_m81B3BDBBF592F94C2AE43B45
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3_set_componentType_m81B3BDBBF592F94C2AE43B45939F7AFDCF7C3674_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28601
+// Method Definition Index: 28574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_x_mBB7D254E68EED420E5AA1BB52E7B44C17A7E30D5 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11557,7 +11557,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec3_get_x_mBB7D254E68EED420E5AA1BB52E7B44C1
 	_returnValue = CesiumUintVec3_get_x_mBB7D254E68EED420E5AA1BB52E7B44C17A7E30D5_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28602
+// Method Definition Index: 28575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3_set_x_m54B11A232286CD2C9F2C8AE5087BCCAE9F219EF7 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11574,7 +11574,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3_set_x_m54B11A232286CD2C9F2C8AE5087BCCAE9F21
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3_set_x_m54B11A232286CD2C9F2C8AE5087BCCAE9F219EF7_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28603
+// Method Definition Index: 28576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_y_m722A3100FB8C12C9DFEF7ECA01DBD8E085A36145 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11592,7 +11592,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec3_get_y_m722A3100FB8C12C9DFEF7ECA01DBD8E0
 	_returnValue = CesiumUintVec3_get_y_m722A3100FB8C12C9DFEF7ECA01DBD8E085A36145_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28604
+// Method Definition Index: 28577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3_set_y_m9D7604EBBB9F2ABB6C019361A755F614D0832AC7 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11609,7 +11609,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3_set_y_m9D7604EBBB9F2ABB6C019361A755F614D083
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3_set_y_m9D7604EBBB9F2ABB6C019361A755F614D0832AC7_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28605
+// Method Definition Index: 28578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_z_m8EA9A1E566BE928CC14AB2426305072349124382 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11627,7 +11627,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec3_get_z_m8EA9A1E566BE928CC14AB24263050723
 	_returnValue = CesiumUintVec3_get_z_m8EA9A1E566BE928CC14AB2426305072349124382_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28606
+// Method Definition Index: 28579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3_set_z_mBD5C329C7AE1027D93F0EA4CAA79D1DAE780EFAB (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11644,7 +11644,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3_set_z_mBD5C329C7AE1027D93F0EA4CAA79D1DAE780
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3_set_z_mBD5C329C7AE1027D93F0EA4CAA79D1DAE780EFAB_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28607
+// Method Definition Index: 28580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3__ctor_m60EC8D35BFE3A5354F5C3594450A3E96535A3D8C (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint8_t ___0_x, uint8_t ___1_y, uint8_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -11670,7 +11670,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3__ctor_m60EC8D35BFE3A5354F5C3594450A3E96535A
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3__ctor_m60EC8D35BFE3A5354F5C3594450A3E96535A3D8C(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28608
+// Method Definition Index: 28581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3__ctor_mA757B679FD89B321BAB181ABF841495311FE3074 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint16_t ___0_x, uint16_t ___1_y, uint16_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -11696,7 +11696,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3__ctor_mA757B679FD89B321BAB181ABF841495311FE
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3__ctor_mA757B679FD89B321BAB181ABF841495311FE3074(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28609
+// Method Definition Index: 28582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3__ctor_mE6A2A8340C19D9A39914F5364ECF7935D3BFCE84 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -11722,7 +11722,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3__ctor_mE6A2A8340C19D9A39914F5364ECF7935D3BF
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3__ctor_mE6A2A8340C19D9A39914F5364ECF7935D3BFCE84(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28610
+// Method Definition Index: 28583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3__ctor_mC520A61F359206615C59BD370386B632E0235B04 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_x, uint64_t ___1_y, uint64_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -11748,7 +11748,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3__ctor_mC520A61F359206615C59BD370386B632E023
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3__ctor_mC520A61F359206615C59BD370386B632E0235B04(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 28611
+// Method Definition Index: 28584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec3__ctor_mBD332B4E6AD5D85DD5EF074BC113CE15808A9247 (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_unityUint3, const RuntimeMethod* method) 
 {
 	{
@@ -11777,7 +11777,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec3__ctor_mBD332B4E6AD5D85DD5EF074BC113CE15808A
 	_thisAdjusted = reinterpret_cast<CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*>(__this + _offset);
 	CesiumUintVec3__ctor_mBD332B4E6AD5D85DD5EF074BC113CE15808A9247(_thisAdjusted, ___0_unityUint3, method);
 }
-// Method Definition Index: 28612
+// Method Definition Index: 28585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_Item_m4D0884A9EB5971A6E84A22E069093DA4DD7D7DFE (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -11851,7 +11851,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec3_get_Item_m4D0884A9EB5971A6E84A22E069093
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28613
+// Method Definition Index: 28586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumUintVec4_get_componentType_mC101178B6A19F428E2B84B30393D8FF8E4FCD8E7 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11869,7 +11869,7 @@ IL2CPP_EXTERN_C  int32_t CesiumUintVec4_get_componentType_mC101178B6A19F428E2B84
 	_returnValue = CesiumUintVec4_get_componentType_mC101178B6A19F428E2B84B30393D8FF8E4FCD8E7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28614
+// Method Definition Index: 28587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4_set_componentType_mAC26958E35C926E234D6FF4ED2ED8685B13EB297 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11886,7 +11886,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4_set_componentType_mAC26958E35C926E234D6FF4E
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4_set_componentType_mAC26958E35C926E234D6FF4ED2ED8685B13EB297_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28615
+// Method Definition Index: 28588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_x_m92B64252EC198BF00D29177111C9D43A2FBE50D0 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11904,7 +11904,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec4_get_x_m92B64252EC198BF00D29177111C9D43A
 	_returnValue = CesiumUintVec4_get_x_m92B64252EC198BF00D29177111C9D43A2FBE50D0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28616
+// Method Definition Index: 28589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4_set_x_m0B0E9DFA33EFCC3AA56EDE4E2DAD01E4A98FCA57 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11921,7 +11921,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4_set_x_m0B0E9DFA33EFCC3AA56EDE4E2DAD01E4A98F
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4_set_x_m0B0E9DFA33EFCC3AA56EDE4E2DAD01E4A98FCA57_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28617
+// Method Definition Index: 28590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_y_mDC0E3687901B4D7267321F09BFADD2CC9DA269C2 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11939,7 +11939,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec4_get_y_mDC0E3687901B4D7267321F09BFADD2CC
 	_returnValue = CesiumUintVec4_get_y_mDC0E3687901B4D7267321F09BFADD2CC9DA269C2_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28618
+// Method Definition Index: 28591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4_set_y_m89DAFCA092A6CDEFA2DD2DC2F71092405AAB5768 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11956,7 +11956,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4_set_y_m89DAFCA092A6CDEFA2DD2DC2F71092405AAB
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4_set_y_m89DAFCA092A6CDEFA2DD2DC2F71092405AAB5768_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28619
+// Method Definition Index: 28592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_z_m7698E8CCC467382279562F37C38035947E676843 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11974,7 +11974,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec4_get_z_m7698E8CCC467382279562F37C3803594
 	_returnValue = CesiumUintVec4_get_z_m7698E8CCC467382279562F37C38035947E676843_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28620
+// Method Definition Index: 28593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4_set_z_m2B9AA425055BD216E9E3BE4DBC69A576C6275466 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11991,7 +11991,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4_set_z_m2B9AA425055BD216E9E3BE4DBC69A576C627
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4_set_z_m2B9AA425055BD216E9E3BE4DBC69A576C6275466_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28621
+// Method Definition Index: 28594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_w_mFA6B2A9A258334F5A5A96DFBA58F118C3189173A (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12009,7 +12009,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec4_get_w_mFA6B2A9A258334F5A5A96DFBA58F118C
 	_returnValue = CesiumUintVec4_get_w_mFA6B2A9A258334F5A5A96DFBA58F118C3189173A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 28622
+// Method Definition Index: 28595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4_set_w_m70D16BE2E29879816467CA1F7298CA515BA26F5E (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -12026,7 +12026,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4_set_w_m70D16BE2E29879816467CA1F7298CA515BA2
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4_set_w_m70D16BE2E29879816467CA1F7298CA515BA26F5E_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 28623
+// Method Definition Index: 28596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4__ctor_mBE08D54F3610F16F77BD284F2E77D4DA2499CC0F (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint8_t ___0_x, uint8_t ___1_y, uint8_t ___2_z, uint8_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -12055,7 +12055,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4__ctor_mBE08D54F3610F16F77BD284F2E77D4DA2499
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4__ctor_mBE08D54F3610F16F77BD284F2E77D4DA2499CC0F(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28624
+// Method Definition Index: 28597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4__ctor_m269C51051DCD8DD0122E9ADE031EE474A87C2423 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint16_t ___0_x, uint16_t ___1_y, uint16_t ___2_z, uint16_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -12084,7 +12084,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4__ctor_m269C51051DCD8DD0122E9ADE031EE474A87C
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4__ctor_m269C51051DCD8DD0122E9ADE031EE474A87C2423(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28625
+// Method Definition Index: 28598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4__ctor_mA3CEFE5558C962C3BDC8143B7EEEE0237F57A15C (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -12113,7 +12113,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4__ctor_mA3CEFE5558C962C3BDC8143B7EEEE0237F57
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4__ctor_mA3CEFE5558C962C3BDC8143B7EEEE0237F57A15C(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28626
+// Method Definition Index: 28599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4__ctor_m087235CD275C467CC66AFB3E24F50DCA0EA86876 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_x, uint64_t ___1_y, uint64_t ___2_z, uint64_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -12142,7 +12142,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4__ctor_m087235CD275C467CC66AFB3E24F50DCA0EA8
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4__ctor_m087235CD275C467CC66AFB3E24F50DCA0EA86876(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 28627
+// Method Definition Index: 28600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumUintVec4__ctor_mA7518E65D3042A5D33D39EF7737E1A07FB0C0BB4 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_unityUint4, const RuntimeMethod* method) 
 {
 	{
@@ -12175,7 +12175,7 @@ IL2CPP_EXTERN_C  void CesiumUintVec4__ctor_mA7518E65D3042A5D33D39EF7737E1A07FB0C
 	_thisAdjusted = reinterpret_cast<CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*>(__this + _offset);
 	CesiumUintVec4__ctor_mA7518E65D3042A5D33D39EF7737E1A07FB0C0BB4(_thisAdjusted, ___0_unityUint4, method);
 }
-// Method Definition Index: 28628
+// Method Definition Index: 28601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_Item_mA64E260C8FEB54C20C48C0844CA55988568AE909 (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -12261,7 +12261,7 @@ IL2CPP_EXTERN_C  uint64_t CesiumUintVec4_get_Item_mA64E260C8FEB54C20C48C0844CA55
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28629
+// Method Definition Index: 28602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIonRasterOverlay_get_ionAssetID_m2C7E482D59A8F3AD151097E153F246F9910CB035 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12270,7 +12270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumIonRasterOverlay_get_ionAssetID
 		return L_0;
 	}
 }
-// Method Definition Index: 28630
+// Method Definition Index: 28603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_set_ionAssetID_m283B00A958AD462F8369328FB37BDC0B3A7DB789 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -12283,7 +12283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_set_ionAssetID_m2
 		return;
 	}
 }
-// Method Definition Index: 28631
+// Method Definition Index: 28604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumIonRasterOverlay_get_ionAccessToken_m25048FC29E6FE6141F44146E946D3406896F8D04 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12292,7 +12292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumIonRasterOverlay_get_ionAcces
 		return L_0;
 	}
 }
-// Method Definition Index: 28632
+// Method Definition Index: 28605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_set_ionAccessToken_m2036F2A57EDDD78A248B10407B9CC7067D60C4E5 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -12306,7 +12306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_set_ionAccessToke
 		return;
 	}
 }
-// Method Definition Index: 28633
+// Method Definition Index: 28606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* CesiumIonRasterOverlay_get_ionServer_m50ED511BB2BB7BCBEF900CFBCF57F8BB73EEE055 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12341,7 +12341,7 @@ IL_0019:
 		return L_3;
 	}
 }
-// Method Definition Index: 28634
+// Method Definition Index: 28607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_set_ionServer_m58895E2C91ACB090F303F8624743799F814D57E0 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12380,7 +12380,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 28635
+// Method Definition Index: 28608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_AddToTileset_m88048584D55C41AE53A68D5035FDAD2A2EFC49F5 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -12447,7 +12447,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 28636
+// Method Definition Index: 28609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_RemoveFromTileset_mE961F4B26839031D4C8691704D4B805F08F36DF6 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -12514,7 +12514,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 28637
+// Method Definition Index: 28610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumIonRasterOverlay_AddToTilesetLater_mC2ADAB6047757C52AA40FEC3819F003753CE7747 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12538,7 +12538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumIonRasterOverlay_AddToTi
 		return L_2;
 	}
 }
-// Method Definition Index: 28638
+// Method Definition Index: 28611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_mBAF6250D0557A9BA6D5348F9BF40DD37A1C2EFA5 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12546,7 +12546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_UnityEngine_ISeri
 		return;
 	}
 }
-// Method Definition Index: 28639
+// Method Definition Index: 28612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m75985701966430ED79C906216ED88B63A994D588 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12554,7 +12554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_UnityEngine_ISeri
 		return;
 	}
 }
-// Method Definition Index: 28640
+// Method Definition Index: 28613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t5CF2949885137E69DAA66BAFF22AD230B4D37540* CesiumIonRasterOverlay_get_NativeImplementation_mE510A64C4002EA2D9F199866AE7E9D733074991C (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12563,7 +12563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t5CF2949885137E69DAA66BA
 		return L_0;
 	}
 }
-// Method Definition Index: 28641
+// Method Definition Index: 28614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_CreateImplementation_mF52FB655C9FE54DE568424463B435EB849A229CE (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12586,7 +12586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_CreateImplementat
 		return;
 	}
 }
-// Method Definition Index: 28642
+// Method Definition Index: 28615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DisposeImplementation_m32CA957ADC76572E00F7FDFCF5C4E5298676C9B0 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12623,7 +12623,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 28643
+// Method Definition Index: 28616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_Dispose_m3AB11B8A2367788328E4D7F3436CD5E5A25CC158 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12633,7 +12633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_Dispose_m3AB11B8A
 		return;
 	}
 }
-// Method Definition Index: 28644
+// Method Definition Index: 28617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay__ctor_m2974A2156F4B90DD2296135CD4CFABCCD9CCD523 (CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12654,7 +12654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay__ctor_m2974A2156F
 		return;
 	}
 }
-// Method Definition Index: 28645
+// Method Definition Index: 28618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumIonRasterOverlay_DotNet_CesiumForUnity_CesiumIonRasterOverlay_CreateImplementation_m2E465258690AFA47439528D5854E6D951EB86BA9 (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -12676,7 +12676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumIonRasterOverlay_DotNet_Cesium
 
 	return returnValue;
 }
-// Method Definition Index: 28646
+// Method Definition Index: 28619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DotNet_CesiumForUnity_CesiumIonRasterOverlay_DestroyImplementation_m4F5DEB9EBC007DA8E8E54F1773DEFD2E54D35FB8 (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -12697,7 +12697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DotNet_CesiumForU
 	#endif
 
 }
-// Method Definition Index: 28647
+// Method Definition Index: 28620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DotNet_CesiumForUnity_CesiumIonRasterOverlay_AddToTileset_m4AEF79B5F22780ED40B77F1EA6C8E323BCF1F9CB (intptr_t ___0_thiz, ImplementationHandle_t5CF2949885137E69DAA66BAFF22AD230B4D37540* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
@@ -12729,7 +12729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DotNet_CesiumForU
 	}
 
 }
-// Method Definition Index: 28648
+// Method Definition Index: 28621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DotNet_CesiumForUnity_CesiumIonRasterOverlay_RemoveFromTileset_m7C953502D28A43E2184BCF8286FA58B0BE9D2EB3 (intptr_t ___0_thiz, ImplementationHandle_t5CF2949885137E69DAA66BAFF22AD230B4D37540* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
@@ -12769,7 +12769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonRasterOverlay_DotNet_CesiumForU
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28649
+// Method Definition Index: 28622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m6648999E29B8C828E53F8679B11512078061433C (ImplementationHandle_t5CF2949885137E69DAA66BAFF22AD230B4D37540* __this, CesiumIonRasterOverlay_t0503D894F686BE0FFEEA91C35E183E936A46BC9A* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -12786,7 +12786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m6648999E29B8
 		return;
 	}
 }
-// Method Definition Index: 28650
+// Method Definition Index: 28623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m5DB56BCA160CF81B634D650B4318E390D496AB0F (ImplementationHandle_t5CF2949885137E69DAA66BAFF22AD230B4D37540* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12805,7 +12805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m5DB5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28651
+// Method Definition Index: 28624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddToTilesetLaterU3Ed__14__ctor_mF1879F8E9A8DDD3EF0F771AB658D93D9892377A3 (U3CAddToTilesetLaterU3Ed__14_tB983342F7A7A0BF5398ED5F42FF0E5AC818EE0D4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12815,14 +12815,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddToTilesetLaterU3Ed__14__ctor_mF187
 		return;
 	}
 }
-// Method Definition Index: 28652
+// Method Definition Index: 28625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddToTilesetLaterU3Ed__14_System_IDisposable_Dispose_mCA542394C92158FA327829DDBC6308FF85DAEF47 (U3CAddToTilesetLaterU3Ed__14_tB983342F7A7A0BF5398ED5F42FF0E5AC818EE0D4* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 28653
+// Method Definition Index: 28626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAddToTilesetLaterU3Ed__14_MoveNext_mD54565FB1938C9ABF9663532689E2C1D40E7C5B6 (U3CAddToTilesetLaterU3Ed__14_tB983342F7A7A0BF5398ED5F42FF0E5AC818EE0D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12879,7 +12879,7 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 28654
+// Method Definition Index: 28627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAddToTilesetLaterU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE997DE238A33C08E89B0D05EAE16CE83B830C980 (U3CAddToTilesetLaterU3Ed__14_tB983342F7A7A0BF5398ED5F42FF0E5AC818EE0D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12887,7 +12887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAddToTilesetLaterU3Ed__14_S
 		return L_0;
 	}
 }
-// Method Definition Index: 28655
+// Method Definition Index: 28628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddToTilesetLaterU3Ed__14_System_Collections_IEnumerator_Reset_m115ED9E5A57EB3B8E99417A55E90EB5785E0BC0C (U3CAddToTilesetLaterU3Ed__14_tB983342F7A7A0BF5398ED5F42FF0E5AC818EE0D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12896,7 +12896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddToTilesetLaterU3Ed__14_System_Coll
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAddToTilesetLaterU3Ed__14_System_Collections_IEnumerator_Reset_m115ED9E5A57EB3B8E99417A55E90EB5785E0BC0C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 28656
+// Method Definition Index: 28629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAddToTilesetLaterU3Ed__14_System_Collections_IEnumerator_get_Current_m371568BEA9CF9A0F60B1FAAD1148A6073B6E2C10 (U3CAddToTilesetLaterU3Ed__14_tB983342F7A7A0BF5398ED5F42FF0E5AC818EE0D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12912,7 +12912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAddToTilesetLaterU3Ed__14_S
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28657
+// Method Definition Index: 28630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* CesiumIonServer_get_defaultServer_mD590F8CEA9142886BA47AC52F8BE47BA1A90424A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12930,7 +12930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIonServer_t0DB4E70C90571815B74F5C9298F9
 		return L_0;
 	}
 }
-// Method Definition Index: 28658
+// Method Definition Index: 28631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* CesiumIonServer_get_serverForNewObjects_m1F12C33B9F4C04ED156CE8B5A3F74B307D79E110 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12965,7 +12965,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 28659
+// Method Definition Index: 28632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonServer_set_serverForNewObjects_mBA2520F8AD8AD5997B6C2E5201BCA00E1486FA6D (CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12983,7 +12983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonServer_set_serverForNewObjects_
 		return;
 	}
 }
-// Method Definition Index: 28660
+// Method Definition Index: 28633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonServer__ctor_m335985F34D29C806716133726BC93F91251FB620 (CesiumIonServer_t0DB4E70C90571815B74F5C9298F97F535DF19333* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13021,7 +13021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumIonServer__ctor_m335985F34D29C8067
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28661
+// Method Definition Index: 28634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_OnEnable_m96D6D80EABCD6F4621A862F233A2339861A120E7 (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13039,7 +13039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_OnEnable_m96D6D80EABCD6F4
 		return;
 	}
 }
-// Method Definition Index: 28662
+// Method Definition Index: 28635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureU5BU5D_tEC0708D56381D7A7B5C4300AF4636C1D9D29A3D5* CesiumMetadata_GetFeatures_mBD96806A4CEFD012FCBD091CD234464A65616214 (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, int32_t ___1_triangleIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13122,7 +13122,7 @@ IL_005a:
 		return ((CesiumFeatureU5BU5D_tEC0708D56381D7A7B5C4300AF4636C1D9D29A3D5*)Castclass((RuntimeObject*)L_14, CesiumFeatureU5BU5D_tEC0708D56381D7A7B5C4300AF4636C1D9D29A3D5_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 28663
+// Method Definition Index: 28636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t5E51F2A9682F58A1DFB1ED070DFE1C46515F9F21* CesiumMetadata_get_NativeImplementation_m74CE98EB28BF42BD8529B56175C7ED8AA9FABA39 (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13131,7 +13131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t5E51F2A9682F58A1DFB1ED0
 		return L_0;
 	}
 }
-// Method Definition Index: 28664
+// Method Definition Index: 28637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_CreateImplementation_m1EE1D889BFD33E8A0CA1B39135F3E2E5B95CD384 (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13154,7 +13154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_CreateImplementation_m1EE
 		return;
 	}
 }
-// Method Definition Index: 28665
+// Method Definition Index: 28638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_DisposeImplementation_m460248FD7E1AB58C503344844CE52B6D3505A26F (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13191,7 +13191,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 28666
+// Method Definition Index: 28639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_Dispose_m6F28336A91FDA65892E3E45762FB87B319039AE5 (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13201,7 +13201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_Dispose_m6F28336A91FDA658
 		return;
 	}
 }
-// Method Definition Index: 28667
+// Method Definition Index: 28640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata__ctor_m7F5D89D043CFC3783FD15AE19489F8F7E81B11D4 (CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13213,7 +13213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata__ctor_m7F5D89D043CFC3783F
 		return;
 	}
 }
-// Method Definition Index: 28668
+// Method Definition Index: 28641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumMetadata_DotNet_CesiumForUnity_CesiumMetadata_CreateImplementation_mD4C824BEA65FD36C46ECB57CE9782DD739551932 (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -13235,7 +13235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumMetadata_DotNet_CesiumForUnity
 
 	return returnValue;
 }
-// Method Definition Index: 28669
+// Method Definition Index: 28642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_DotNet_CesiumForUnity_CesiumMetadata_DestroyImplementation_m5FD4287544E9891DD5EFA062C8B9A948064FF5A4 (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -13256,7 +13256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadata_DotNet_CesiumForUnity_Ces
 	#endif
 
 }
-// Method Definition Index: 28670
+// Method Definition Index: 28643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumMetadata_DotNet_CesiumForUnity_CesiumMetadata_GetFeatures_mC8CC487D2E777B164561AAE837D2206542216A86 (intptr_t ___0_thiz, ImplementationHandle_t5E51F2A9682F58A1DFB1ED070DFE1C46515F9F21* ___1_implementation, intptr_t ___2_transform, int32_t ___3_triangleIndex, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, int32_t, intptr_t*);
@@ -13297,7 +13297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumMetadata_DotNet_CesiumForUnity
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28671
+// Method Definition Index: 28644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m221A302CD60B070E37640BC52CFCE522C10E5E12 (ImplementationHandle_t5E51F2A9682F58A1DFB1ED070DFE1C46515F9F21* __this, CesiumMetadata_tF1C55D4F1E03F559C70C751C0BEA98841B794F40* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -13314,7 +13314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m221A302CD60B
 		return;
 	}
 }
-// Method Definition Index: 28672
+// Method Definition Index: 28645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_mFA25E85CE8218A1D6DE51C79443A4C6DCCAEDCD0 (ImplementationHandle_t5E51F2A9682F58A1DFB1ED070DFE1C46515F9F21* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13333,7 +13333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_mFA25
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28673
+// Method Definition Index: 28646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumMetadataValue_get_objectValue_m2C27138487CB9A66CB272DC6D4BF692B38FB9550 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13342,7 +13342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumMetadataValue_get_object
 		return L_0;
 	}
 }
-// Method Definition Index: 28674
+// Method Definition Index: 28647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_set_objectValue_m636B8A9B320175BB49CAFCDC46FFD2E76D27B1F6 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -13353,7 +13353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_set_objectValue_m636
 		return;
 	}
 }
-// Method Definition Index: 28675
+// Method Definition Index: 28648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD CesiumMetadataValue_get_valueType_m715101162AC6741F9C2C33D00C366A50F4179986 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13365,7 +13365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F
 		return L_1;
 	}
 }
-// Method Definition Index: 28676
+// Method Definition Index: 28649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumMetadataValue_get_isEmpty_m0CA9F51D9A090363F11494ED10BEF4150DFFB821 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13375,7 +13375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumMetadataValue_get_isEmpty_m0CA9F51
 		return (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 	}
 }
-// Method Definition Index: 28677
+// Method Definition Index: 28650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue__ctor_m9C789CB72AC81DAF5B69382F158686E4DCF83B2D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13385,7 +13385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue__ctor_m9C789CB72AC81
 		return;
 	}
 }
-// Method Definition Index: 28678
+// Method Definition Index: 28651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue__ctor_mC564B87C711E63DB9B401255BBAD38B0657820AE (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13847,7 +13847,7 @@ IL_02be:
 		return;
 	}
 }
-// Method Definition Index: 28679
+// Method Definition Index: 28652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumMetadataValue_GetBoolean_m8997FAE222B153D4FACD7DBE6530403E027A0098 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, bool ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -13885,7 +13885,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28680
+// Method Definition Index: 28653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumMetadataValue_GetSByte_mA20B3B1EE2AD5513D84E1DFCBCEE753F376B8EE7 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int8_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -13923,7 +13923,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28681
+// Method Definition Index: 28654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumMetadataValue_GetByte_m258FF9AE81A6F9D3D68CF550654C2F4BBAC27FE0 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint8_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -13961,7 +13961,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28682
+// Method Definition Index: 28655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumMetadataValue_GetInt16_mC3354F54858B04FF6FC69AD0EE55C8D3042DE24D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int16_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -13999,7 +13999,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28683
+// Method Definition Index: 28656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumMetadataValue_GetUInt16_m4A195E7E2522471AECC139CC38E757FCAA72FA7F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint16_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14037,7 +14037,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28684
+// Method Definition Index: 28657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumMetadataValue_GetInt32_mB46E4300615BEDDF17619A0B57F793B7E9F2C2AD (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int32_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14075,7 +14075,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28685
+// Method Definition Index: 28658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumMetadataValue_GetUInt32_m9D01DCADF442FBB032C67E3064BD9F6E8C1479E2 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint32_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14113,7 +14113,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28686
+// Method Definition Index: 28659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumMetadataValue_GetInt64_mC596CEE459966B84496E2D9EA64C42326AA6C1EB (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int64_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14151,7 +14151,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28687
+// Method Definition Index: 28660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumMetadataValue_GetUInt64_m1B7BEA8CAE81382A98A656C7ED44042C364DF9E7 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint64_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14189,7 +14189,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28688
+// Method Definition Index: 28661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumMetadataValue_GetFloat_m059D0AA9E930F0D598DA59AC8FB82EDC2085FD9F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14227,7 +14227,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28689
+// Method Definition Index: 28662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumMetadataValue_GetDouble_m5A72051254B5D541B1FC5D9B08ABB44A68F12415 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14265,7 +14265,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28690
+// Method Definition Index: 28663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A CesiumMetadataValue_GetInt2_mA86B424E83C98B409BBD8049D2A15CB14BD79DCE (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14303,7 +14303,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28691
+// Method Definition Index: 28664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F CesiumMetadataValue_GetUInt2_m03CD85A70F616184DB94414503ACAD26F05A74F6 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14341,7 +14341,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28692
+// Method Definition Index: 28665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA CesiumMetadataValue_GetFloat2_mCEC6B5240AA214E0169A3194E52F623588909D00 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14379,7 +14379,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28693
+// Method Definition Index: 28666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA CesiumMetadataValue_GetDouble2_m53C480F770564155D8AD11F3E456BE22D6D17628 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14417,7 +14417,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28694
+// Method Definition Index: 28667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF CesiumMetadataValue_GetInt3_m3F13147AF13FAFC771F586B70BABD736754D7128 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14455,7 +14455,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28695
+// Method Definition Index: 28668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B CesiumMetadataValue_GetUInt3_m97D91E941431C99DCE69B10452A82E1ED96E7726 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14493,7 +14493,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28696
+// Method Definition Index: 28669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E CesiumMetadataValue_GetFloat3_mCF53E38D2A68C750F45C8A41FA25F40024ACD4E0 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14531,7 +14531,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28697
+// Method Definition Index: 28670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumMetadataValue_GetDouble3_m765D8530BD5180C2895CBD240FDCFD462E096FB0 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14569,7 +14569,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28698
+// Method Definition Index: 28671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B33955EA1004996052 CesiumMetadataValue_GetInt4_m54EF937E5C6C710273A91777D16EA2531A86DE66 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14607,7 +14607,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28699
+// Method Definition Index: 28672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 CesiumMetadataValue_GetUInt4_mE682E9F8A43D42865DBA5BC0FE1B37739493E5E6 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14645,7 +14645,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28700
+// Method Definition Index: 28673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E CesiumMetadataValue_GetFloat4_m9DD1942CF1679D3CC73BA260B84EC8A6608E8971 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14683,7 +14683,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28701
+// Method Definition Index: 28674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 CesiumMetadataValue_GetDouble4_m651CA5DCA34372C4673B1C41EE6FD4DF724D3C75 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14721,7 +14721,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28702
+// Method Definition Index: 28675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C CesiumMetadataValue_GetInt2x2_m6E3C0DD5FB7D0769DBA17356D9472051726131C2 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14759,7 +14759,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28703
+// Method Definition Index: 28676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47 CesiumMetadataValue_GetUInt2x2_m93365F5B6BD4897E87C7D976C65BDCCCB251AB7F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14797,7 +14797,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28704
+// Method Definition Index: 28677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D CesiumMetadataValue_GetFloat2x2_m2C8DAE067E3B7F886DFD9C0F45E461DD766F221C (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14835,7 +14835,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28705
+// Method Definition Index: 28678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF CesiumMetadataValue_GetDouble2x2_m2700C7BB998D37849518928C4DA4B1C44879AE88 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14873,7 +14873,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28706
+// Method Definition Index: 28679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D CesiumMetadataValue_GetInt3x3_mCDC31760818A798B6804A08F03E087E7AEC34C05 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14911,7 +14911,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28707
+// Method Definition Index: 28680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB CesiumMetadataValue_GetUInt3x3_mB231AE1E6D69A30CC3741249B81EAB5DF3977322 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14949,7 +14949,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28708
+// Method Definition Index: 28681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 CesiumMetadataValue_GetFloat3x3_m4B529892E73873B95D5BDE170794DEB62F75824B (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -14987,7 +14987,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28709
+// Method Definition Index: 28682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 CesiumMetadataValue_GetDouble3x3_m9364DBC02F41A370CF06408D85853C21237C9AD0 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -15025,7 +15025,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28710
+// Method Definition Index: 28683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 CesiumMetadataValue_GetInt4x4_mFF4D9CF9A8E9812EEE33FB1B4D19E36FC3B016C6 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -15063,7 +15063,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28711
+// Method Definition Index: 28684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A CesiumMetadataValue_GetUInt4x4_mB4DDD37314FEF3FE984E1D8C63057F85263FBB24 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -15101,7 +15101,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28712
+// Method Definition Index: 28685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 CesiumMetadataValue_GetFloat4x4_mF7137B6752294C68244FB5A00CA6E35937F07FE7 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -15139,7 +15139,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28713
+// Method Definition Index: 28686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumMetadataValue_GetDouble4x4_m5FD619C8D11CF068E826EDEE90D14FB81836B683 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -15177,7 +15177,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28714
+// Method Definition Index: 28687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumMetadataValue_GetString_m4C94C192F62FAD2E414D6BBD359A313BCC273E3E (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, String_t* ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
@@ -15215,7 +15215,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 28715
+// Method Definition Index: 28688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* CesiumMetadataValue_GetArray_mBE94E123EEE027B4F57B5E892AEA147A9CDBFEB0 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15249,7 +15249,7 @@ IL_0019:
 		return L_3;
 	}
 }
-// Method Definition Index: 28716
+// Method Definition Index: 28689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* CesiumMetadataValue_GetValuesAsStrings_mB239324575F317FBDDA96431A6B3A9112DB0C843 (Dictionary_2_t6952C41F037009C12FDA359556786AFBF7CB7C64* ___0_values, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15351,7 +15351,7 @@ IL_0054:
 		return L_11;
 	}
 }
-// Method Definition Index: 28717
+// Method Definition Index: 28690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 CesiumMetadataValue_GetObjectAsBoolean_mD80327D02F7B16FEC0AB22E8508D0B3635DCB587 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15368,7 +15368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A4E349019C344
 		return ((*(Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*)L_1));
 	}
 }
-// Method Definition Index: 28718
+// Method Definition Index: 28691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF16C2638810B89EAA3EEFE6B35FC71B6AE96B2C CesiumMetadataValue_GetObjectAsSByte_mEAC0E37400328A4452AE909860C6716307AEF572 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15385,7 +15385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF16C2638810B89EAA3EEFE6B35FC71B6
 		return ((*(Nullable_1_tCF16C2638810B89EAA3EEFE6B35FC71B6AE96B2C*)L_1));
 	}
 }
-// Method Definition Index: 28719
+// Method Definition Index: 28692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEB6689CC9747A3600689077DCBF77B8E8B510505 CesiumMetadataValue_GetObjectAsByte_m7D0A34FDFE3854CA0E2E125C78ECB0273EEAB430 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15402,7 +15402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEB6689CC9747A3600689077DCBF77B8E8
 		return ((*(Nullable_1_tEB6689CC9747A3600689077DCBF77B8E8B510505*)L_1));
 	}
 }
-// Method Definition Index: 28720
+// Method Definition Index: 28693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t57D99A484501B89DA27E67D6D9A89722D5A7DE2C CesiumMetadataValue_GetObjectAsInt16_m05D0584E26859ED163F2A4C2788DC76F7F3EE3E4 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15419,7 +15419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t57D99A484501B89DA27E67D6D9A89722D
 		return ((*(Nullable_1_t57D99A484501B89DA27E67D6D9A89722D5A7DE2C*)L_1));
 	}
 }
-// Method Definition Index: 28721
+// Method Definition Index: 28694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t70F850DEE49B62D1B877D3C32F9E0EC724ADC4D9 CesiumMetadataValue_GetObjectAsUInt16_m633AB2C5F990480F9A74457A1B95203B26619640 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15436,7 +15436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t70F850DEE49B62D1B877D3C32F9E0EC72
 		return ((*(Nullable_1_t70F850DEE49B62D1B877D3C32F9E0EC724ADC4D9*)L_1));
 	}
 }
-// Method Definition Index: 28722
+// Method Definition Index: 28695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 CesiumMetadataValue_GetObjectAsInt32_mF6CFA91BE483ADDF27E4971FAA76AD77E2B070BC (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15453,7 +15453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1
 		return ((*(Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*)L_1));
 	}
 }
-// Method Definition Index: 28723
+// Method Definition Index: 28696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099 CesiumMetadataValue_GetObjectAsUInt32_mEDF326444A480D181DC9746CF7F750CF17D5AA2E (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15470,7 +15470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD043F01310E483091D0E9A5526C3425F1
 		return ((*(Nullable_1_tD043F01310E483091D0E9A5526C3425F13EF2099*)L_1));
 	}
 }
-// Method Definition Index: 28724
+// Method Definition Index: 28697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 CesiumMetadataValue_GetObjectAsInt64_m22BC63045759E04A74EBC31B19C18A6E5C8B170A (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15487,7 +15487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t365991B3904FDA7642A788423B28692FD
 		return ((*(Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17*)L_1));
 	}
 }
-// Method Definition Index: 28725
+// Method Definition Index: 28698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99 CesiumMetadataValue_GetObjectAsUInt64_m3FA7F4F076D55AFB81376D7010F26967B76E6903 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15504,7 +15504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BA
 		return ((*(Nullable_1_tF8BFF19FF240C9F0A45168187CD7106BAA146A99*)L_1));
 	}
 }
-// Method Definition Index: 28726
+// Method Definition Index: 28699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 CesiumMetadataValue_GetObjectAsFloat_mA603F53D136B8C31379BF7B3E1F4F018165FC763 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15521,7 +15521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F3
 		return ((*(Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75*)L_1));
 	}
 }
-// Method Definition Index: 28727
+// Method Definition Index: 28700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6E154519A812D040E3016229CD7638843A2CC165 CesiumMetadataValue_GetObjectAsDouble_mA4CFDD8749150D96FEEA44370569E99100DB1555 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15538,7 +15538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6E154519A812D040E3016229CD7638843
 		return ((*(Nullable_1_t6E154519A812D040E3016229CD7638843A2CC165*)L_1));
 	}
 }
-// Method Definition Index: 28728
+// Method Definition Index: 28701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tDE00819704296BB75BD3EC90D34EAD8C5273606A CesiumMetadataValue_GetObjectAsCesiumIntVec2_mB69FC03CDC7DF656C7F6761CAF3A449A372AC18C (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15555,7 +15555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tDE00819704296BB75BD3EC90D34EAD8C5
 		return ((*(Nullable_1_tDE00819704296BB75BD3EC90D34EAD8C5273606A*)L_1));
 	}
 }
-// Method Definition Index: 28729
+// Method Definition Index: 28702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCB4F345638C388E8C834B46241CC43775D4408F5 CesiumMetadataValue_GetObjectAsCesiumIntVec3_m154A7BCE9CF1C82E3B875313DA704D0449A2A871 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15572,7 +15572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCB4F345638C388E8C834B46241CC43775
 		return ((*(Nullable_1_tCB4F345638C388E8C834B46241CC43775D4408F5*)L_1));
 	}
 }
-// Method Definition Index: 28730
+// Method Definition Index: 28703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t20335782BC2930A0C5BEC9962308FC7D877E72B8 CesiumMetadataValue_GetObjectAsCesiumIntVec4_m9B0CF3623C2B684C8812ACB6EE1C66CC5A9D6035 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15589,7 +15589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t20335782BC2930A0C5BEC9962308FC7D8
 		return ((*(Nullable_1_t20335782BC2930A0C5BEC9962308FC7D877E72B8*)L_1));
 	}
 }
-// Method Definition Index: 28731
+// Method Definition Index: 28704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t14455F8B0ADAA43853F497F19A3FFA0FF574F361 CesiumMetadataValue_GetObjectAsCesiumUintVec2_m8E2A61ABF770604F0D54749231A42D56D262E822 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15606,7 +15606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t14455F8B0ADAA43853F497F19A3FFA0FF
 		return ((*(Nullable_1_t14455F8B0ADAA43853F497F19A3FFA0FF574F361*)L_1));
 	}
 }
-// Method Definition Index: 28732
+// Method Definition Index: 28705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t1ADC69EE5A5726F9CCF7340C8305A3BD2479CE33 CesiumMetadataValue_GetObjectAsCesiumUintVec3_m29369AB1411C70AFA9E1369CA37EEA88A24CE232 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15623,7 +15623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t1ADC69EE5A5726F9CCF7340C8305A3BD2
 		return ((*(Nullable_1_t1ADC69EE5A5726F9CCF7340C8305A3BD2479CE33*)L_1));
 	}
 }
-// Method Definition Index: 28733
+// Method Definition Index: 28706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t85F86F9BE4C2C71C92EC929F71D119E17569914B CesiumMetadataValue_GetObjectAsCesiumUintVec4_m77D58112386BDEFD1307D7461E51BCA7A1C149AF (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15640,7 +15640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t85F86F9BE4C2C71C92EC929F71D119E17
 		return ((*(Nullable_1_t85F86F9BE4C2C71C92EC929F71D119E17569914B*)L_1));
 	}
 }
-// Method Definition Index: 28734
+// Method Definition Index: 28707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t35CC42CD7676016A160DC42291201348AB90E55D CesiumMetadataValue_GetObjectAsFloat2_mA529349E6EFC70124AEDAFC6A6D19B894983BD05 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15657,7 +15657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t35CC42CD7676016A160DC42291201348A
 		return ((*(Nullable_1_t35CC42CD7676016A160DC42291201348AB90E55D*)L_1));
 	}
 }
-// Method Definition Index: 28735
+// Method Definition Index: 28708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9DA6420B143D368647118DD6729FB8FD8B5852B3 CesiumMetadataValue_GetObjectAsFloat3_m33830CFA5B7DFB1CAED0656AF55A100F1BBB5F54 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15674,7 +15674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9DA6420B143D368647118DD6729FB8FD8
 		return ((*(Nullable_1_t9DA6420B143D368647118DD6729FB8FD8B5852B3*)L_1));
 	}
 }
-// Method Definition Index: 28736
+// Method Definition Index: 28709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD74911FA98A953B11A7C2D63A1E55475C671938E CesiumMetadataValue_GetObjectAsFloat4_mC4E94848628B10C89010EC8B9179ACA0C12AA3F7 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15691,7 +15691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD74911FA98A953B11A7C2D63A1E55475C
 		return ((*(Nullable_1_tD74911FA98A953B11A7C2D63A1E55475C671938E*)L_1));
 	}
 }
-// Method Definition Index: 28737
+// Method Definition Index: 28710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t910510E32648165B29A0481D057A550C8D76997B CesiumMetadataValue_GetObjectAsDouble2_mFF0D0486C997FAE4F97BEEA195C5967DA78C73D0 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15708,7 +15708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t910510E32648165B29A0481D057A550C8
 		return ((*(Nullable_1_t910510E32648165B29A0481D057A550C8D76997B*)L_1));
 	}
 }
-// Method Definition Index: 28738
+// Method Definition Index: 28711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8 CesiumMetadataValue_GetObjectAsDouble3_m19E2B5528E606FC74419D056D9468A8F39DD650D (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15725,7 +15725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t292B6499B4FB064453057DDA8BEED95AA
 		return ((*(Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8*)L_1));
 	}
 }
-// Method Definition Index: 28739
+// Method Definition Index: 28712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C9C44096D9044F9D82455C85D30241E2EC8437A CesiumMetadataValue_GetObjectAsDouble4_mCA8ECFFC28BAC9A7D60139643A351C3BD50CAD15 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15742,7 +15742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C9C44096D9044F9D82455C85D30241E2
 		return ((*(Nullable_1_t9C9C44096D9044F9D82455C85D30241E2EC8437A*)L_1));
 	}
 }
-// Method Definition Index: 28740
+// Method Definition Index: 28713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tAD4E2FAE54492369449A194374DBCBECE642CB96 CesiumMetadataValue_GetObjectAsCesiumIntMat2x2_m5928ABA267011956945F1D1C901937F8744EE069 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15759,7 +15759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tAD4E2FAE54492369449A194374DBCBECE
 		return ((*(Nullable_1_tAD4E2FAE54492369449A194374DBCBECE642CB96*)L_1));
 	}
 }
-// Method Definition Index: 28741
+// Method Definition Index: 28714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEF0F292FCBADCE05DD284DD32715F75869D3C274 CesiumMetadataValue_GetObjectAsCesiumIntMat3x3_mB8167D3BBED40D49804FAC5E9AC152EC394197EA (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15776,7 +15776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEF0F292FCBADCE05DD284DD32715F7586
 		return ((*(Nullable_1_tEF0F292FCBADCE05DD284DD32715F75869D3C274*)L_1));
 	}
 }
-// Method Definition Index: 28742
+// Method Definition Index: 28715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tFE4D42864277283894E78E16A8C29FB18C1A1710 CesiumMetadataValue_GetObjectAsCesiumIntMat4x4_mD2A019AC19DCDAE008FF0E048D08AB94097D7E30 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15793,7 +15793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tFE4D42864277283894E78E16A8C29FB18
 		return ((*(Nullable_1_tFE4D42864277283894E78E16A8C29FB18C1A1710*)L_1));
 	}
 }
-// Method Definition Index: 28743
+// Method Definition Index: 28716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t2E90326615BCA7A5311FC3446D588B7DE12A1018 CesiumMetadataValue_GetObjectAsCesiumUintMat2x2_m867BEAC18375E13B6535B038848579CDBA4FF4BC (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15810,7 +15810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t2E90326615BCA7A5311FC3446D588B7DE
 		return ((*(Nullable_1_t2E90326615BCA7A5311FC3446D588B7DE12A1018*)L_1));
 	}
 }
-// Method Definition Index: 28744
+// Method Definition Index: 28717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6C6298964D4C88A2D6451093A7C0C97D0C901A16 CesiumMetadataValue_GetObjectAsCesiumUintMat3x3_m330AD01DCA56A467DBBF615DE18876CB60B17F66 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15827,7 +15827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6C6298964D4C88A2D6451093A7C0C97D0
 		return ((*(Nullable_1_t6C6298964D4C88A2D6451093A7C0C97D0C901A16*)L_1));
 	}
 }
-// Method Definition Index: 28745
+// Method Definition Index: 28718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t8D59177E89A1072C64FCD522816EDD6527F3A700 CesiumMetadataValue_GetObjectAsCesiumUintMat4x4_mED24B4B1610FE13E88BCE61DE9A2651B741B4279 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15844,7 +15844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t8D59177E89A1072C64FCD522816EDD652
 		return ((*(Nullable_1_t8D59177E89A1072C64FCD522816EDD6527F3A700*)L_1));
 	}
 }
-// Method Definition Index: 28746
+// Method Definition Index: 28719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tF77B7BE2B7C62C4D8D0A8F95ABD90A354636318F CesiumMetadataValue_GetObjectAsFloat2x2_m65856E76DCCFBC558E395786541D9DF4010C767B (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15861,7 +15861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tF77B7BE2B7C62C4D8D0A8F95ABD90A354
 		return ((*(Nullable_1_tF77B7BE2B7C62C4D8D0A8F95ABD90A354636318F*)L_1));
 	}
 }
-// Method Definition Index: 28747
+// Method Definition Index: 28720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t043790F7152871728EA77D02CC5AA62791FEE898 CesiumMetadataValue_GetObjectAsFloat3x3_m60DC2477C532E551AB9E67928F7183B67F680DE5 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15878,7 +15878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t043790F7152871728EA77D02CC5AA6279
 		return ((*(Nullable_1_t043790F7152871728EA77D02CC5AA62791FEE898*)L_1));
 	}
 }
-// Method Definition Index: 28748
+// Method Definition Index: 28721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t664A8F49C6165F27DCBC9AC848FAFD126DB1BF7C CesiumMetadataValue_GetObjectAsFloat4x4_m0FB047ED0F19257986CE1361DB82AF897A974748 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15895,7 +15895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t664A8F49C6165F27DCBC9AC848FAFD126
 		return ((*(Nullable_1_t664A8F49C6165F27DCBC9AC848FAFD126DB1BF7C*)L_1));
 	}
 }
-// Method Definition Index: 28749
+// Method Definition Index: 28722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t90D511CF3CB9949BF2CCF8FC91DAB0F9D08691ED CesiumMetadataValue_GetObjectAsDouble2x2_m19E984F1162FF700284576E38C00C709729E60AE (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15912,7 +15912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t90D511CF3CB9949BF2CCF8FC91DAB0F9D
 		return ((*(Nullable_1_t90D511CF3CB9949BF2CCF8FC91DAB0F9D08691ED*)L_1));
 	}
 }
-// Method Definition Index: 28750
+// Method Definition Index: 28723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6691C4CE0C7ECEE9500783F4691D3C4AACBFB688 CesiumMetadataValue_GetObjectAsDouble3x3_mC6BBEE471970D6A2166C106C0BDA6B45DB3326F1 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15929,7 +15929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6691C4CE0C7ECEE9500783F4691D3C4AA
 		return ((*(Nullable_1_t6691C4CE0C7ECEE9500783F4691D3C4AACBFB688*)L_1));
 	}
 }
-// Method Definition Index: 28751
+// Method Definition Index: 28724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t7CF556E88BAFE43167B5872B8EE55C184190A720 CesiumMetadataValue_GetObjectAsDouble4x4_m7BA4A22684B4F27AE24660D1B562F8F248A2565C (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15946,7 +15946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t7CF556E88BAFE43167B5872B8EE55C184
 		return ((*(Nullable_1_t7CF556E88BAFE43167B5872B8EE55C184190A720*)L_1));
 	}
 }
-// Method Definition Index: 28752
+// Method Definition Index: 28725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumMetadataValue_GetObjectAsString_m55BABAAA0A4BD7F8F285200399144B6CCC34642C (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	{
@@ -15955,7 +15955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumMetadataValue_GetObjectAsStri
 		return ((String_t*)IsInstSealed((RuntimeObject*)L_0, il2cpp_defaults.string_class));
 	}
 }
-// Method Definition Index: 28753
+// Method Definition Index: 28726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m9B57151D67852911E48AE0E0D2F976A556F19CDD (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, bool ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -15968,7 +15968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m9B57
 		return;
 	}
 }
-// Method Definition Index: 28754
+// Method Definition Index: 28727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7B235D3216C429635B9A59595284D3E536F02900 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int8_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -15981,7 +15981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7B23
 		return;
 	}
 }
-// Method Definition Index: 28755
+// Method Definition Index: 28728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m3361341AD854F57317A425F8C02217E12BB24C4D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint8_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -15994,7 +15994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m3361
 		return;
 	}
 }
-// Method Definition Index: 28756
+// Method Definition Index: 28729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD0039803817EA68A45E612A7276D34B44C3EBB17 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int16_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16007,7 +16007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD003
 		return;
 	}
 }
-// Method Definition Index: 28757
+// Method Definition Index: 28730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mED38EE99FEEB852A33496716896A17065CE7DFAB (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint16_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16020,7 +16020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mED38
 		return;
 	}
 }
-// Method Definition Index: 28758
+// Method Definition Index: 28731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m56B62DD34ADC5CAB7E2E8B277F164368642137BC (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int32_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16033,7 +16033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m56B6
 		return;
 	}
 }
-// Method Definition Index: 28759
+// Method Definition Index: 28732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mE89354072F2AE1CD93891FB6A36A0C5BEA0E8EC6 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint32_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16046,7 +16046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mE893
 		return;
 	}
 }
-// Method Definition Index: 28760
+// Method Definition Index: 28733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m43DA68BB729D97F5890F29AE8463E24CA0AAE445 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, int64_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16059,7 +16059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m43DA
 		return;
 	}
 }
-// Method Definition Index: 28761
+// Method Definition Index: 28734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mBD580990033A216889DB358421DB7E7FAA694ABE (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, uint64_t ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16072,7 +16072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mBD58
 		return;
 	}
 }
-// Method Definition Index: 28762
+// Method Definition Index: 28735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mC6C432E4F5C3714382BB5449F5FE437EC1D30E70 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16085,7 +16085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mC6C4
 		return;
 	}
 }
-// Method Definition Index: 28763
+// Method Definition Index: 28736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m91B56F5B4CC245E4D11067A5619F95E69E1183C5 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16098,7 +16098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m91B5
 		return;
 	}
 }
-// Method Definition Index: 28764
+// Method Definition Index: 28737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mFEAC5CFADAF97373299E2C1EBA895C2BDB3E358A (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16117,7 +16117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mFEAC
 		return;
 	}
 }
-// Method Definition Index: 28765
+// Method Definition Index: 28738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mF2E7FB34F6194148AEB8977380C37554E0A63735 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16136,7 +16136,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mF2E7
 		return;
 	}
 }
-// Method Definition Index: 28766
+// Method Definition Index: 28739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD4CCC8ABA49F0C8BAA46E9C4FEE2174CEF516E3C (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16155,7 +16155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD4CC
 		return;
 	}
 }
-// Method Definition Index: 28767
+// Method Definition Index: 28740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m5F9F223D6BBA509638F5A104AA62DAF8BEBB4182 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16174,7 +16174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m5F9F
 		return;
 	}
 }
-// Method Definition Index: 28768
+// Method Definition Index: 28741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m89AD8DA6C7697BFA9C8310271856E6AAAD28847F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16193,7 +16193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m89AD
 		return;
 	}
 }
-// Method Definition Index: 28769
+// Method Definition Index: 28742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m21166B80887C7E0EC52F5CE6F037F20B838A55BE (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16212,7 +16212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m2116
 		return;
 	}
 }
-// Method Definition Index: 28770
+// Method Definition Index: 28743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mCD4AF1F9308E7204C7578C58750868448B28441E (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16231,7 +16231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mCD4A
 		return;
 	}
 }
-// Method Definition Index: 28771
+// Method Definition Index: 28744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m758072F0B07D1A4A5DBDA9419AE32883A0448E3F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16250,7 +16250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7580
 		return;
 	}
 }
-// Method Definition Index: 28772
+// Method Definition Index: 28745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m511E95DDA1E2702010362C4B5A638955AEB5A52B (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16269,7 +16269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m511E
 		return;
 	}
 }
-// Method Definition Index: 28773
+// Method Definition Index: 28746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m1FDAD176D6AE9A3BF82D5407CBE81D66346A8C16 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16288,7 +16288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m1FDA
 		return;
 	}
 }
-// Method Definition Index: 28774
+// Method Definition Index: 28747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD1D92CE819AF64BBD7FB8A6A7443A8FE3FA620DC (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16307,7 +16307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD1D9
 		return;
 	}
 }
-// Method Definition Index: 28775
+// Method Definition Index: 28748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mFF1FDC85B5346E35B0247D0F252D55939BF42B65 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16326,7 +16326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mFF1F
 		return;
 	}
 }
-// Method Definition Index: 28776
+// Method Definition Index: 28749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mBD5447FEF817C4E30860B460C41214BDB4A0FD78 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16345,7 +16345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mBD54
 		return;
 	}
 }
-// Method Definition Index: 28777
+// Method Definition Index: 28750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mC57428EBA16D7ED0A125C86DB1182482A1081977 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16364,7 +16364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mC574
 		return;
 	}
 }
-// Method Definition Index: 28778
+// Method Definition Index: 28751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7AD6031EC7D039A89DC5FC4860541653DC44ECAB (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16383,7 +16383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7AD6
 		return;
 	}
 }
-// Method Definition Index: 28779
+// Method Definition Index: 28752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m0699D72414D8D4E528ABAA0D3A8558477CB470A1 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16402,7 +16402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m0699
 		return;
 	}
 }
-// Method Definition Index: 28780
+// Method Definition Index: 28753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mC037C2A10EB9A5BF5FE870C890B5BF2539B29CF2 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16421,7 +16421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mC037
 		return;
 	}
 }
-// Method Definition Index: 28781
+// Method Definition Index: 28754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7A48FD996595EBA0BFCACFCCB3FFE686DC6992E3 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16440,7 +16440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7A48
 		return;
 	}
 }
-// Method Definition Index: 28782
+// Method Definition Index: 28755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m9FDB47C39AA9FE87CF85A63E4C2FBB87016A6483 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16459,7 +16459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m9FDB
 		return;
 	}
 }
-// Method Definition Index: 28783
+// Method Definition Index: 28756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mCFB4D03CA2807AE01C6FBFE24463CF5BF314CD4D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16478,7 +16478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mCFB4
 		return;
 	}
 }
-// Method Definition Index: 28784
+// Method Definition Index: 28757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m5EAFE106F64552839643BEACE27F1865282EC82D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16497,7 +16497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m5EAF
 		return;
 	}
 }
-// Method Definition Index: 28785
+// Method Definition Index: 28758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mAAB212415201DBF9178C213D00ED45CD5946AA9D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16516,7 +16516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mAAB2
 		return;
 	}
 }
-// Method Definition Index: 28786
+// Method Definition Index: 28759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD4E4458478DE754BF6C89D8316BCED5A9F489BD2 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16535,7 +16535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_mD4E4
 		return;
 	}
 }
-// Method Definition Index: 28787
+// Method Definition Index: 28760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m4874F126F78AF18454B44246294BE7E78FB44078 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16554,7 +16554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m4874
 		return;
 	}
 }
-// Method Definition Index: 28788
+// Method Definition Index: 28761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7A24FDD6EA19A707286FF8D7B5217173C42E6E3D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, String_t* ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16565,7 +16565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m7A24
 		return;
 	}
 }
-// Method Definition Index: 28789
+// Method Definition Index: 28762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m02FA4679AB85C022704AB5786AFB688412A16E97 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* ___0_input, const RuntimeMethod* method) 
 {
 	{
@@ -16576,7 +16576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_SetObjectValue_m02FA
 		return;
 	}
 }
-// Method Definition Index: 28790
+// Method Definition Index: 28763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumMetadataValue_ConvertToBoolean_m8C487A92A65B8083C75B2DB1F7A22AACF72860CC (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, bool ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16655,7 +16655,7 @@ IL_0039:
 		return (bool)((!(((uint32_t)G_B5_0) <= ((uint32_t)0)))? 1 : 0);
 	}
 }
-// Method Definition Index: 28791
+// Method Definition Index: 28764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumMetadataValue_ConvertToSByte_mE1CB59E01F7D81F65A426648E5EE85CC5555A525 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int8_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16706,7 +16706,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28792
+// Method Definition Index: 28765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumMetadataValue_ConvertToByte_m800ED45730929B488E975006EE0FC01B154F25EF (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint8_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16757,7 +16757,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28793
+// Method Definition Index: 28766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumMetadataValue_ConvertToInt16_mB8A8A191ACB2862A2EEEA23A3CBA914755178CE2 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int16_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16808,7 +16808,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28794
+// Method Definition Index: 28767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumMetadataValue_ConvertToUInt16_m7F1DB810701575A19E8F3FE21F4D5B40F3EDCDF2 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint16_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16859,7 +16859,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28795
+// Method Definition Index: 28768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumMetadataValue_ConvertToInt32_m53564832C268F91ABAF78D85D46171750334CC2D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int32_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16910,7 +16910,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28796
+// Method Definition Index: 28769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumMetadataValue_ConvertToUInt32_m9221FAF7470F411E602FD6F71F6CD8C9D73C325B (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint32_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16961,7 +16961,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28797
+// Method Definition Index: 28770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumMetadataValue_ConvertToInt64_m30160CA9D4C59C909C7B2CDFA076E0AD769BB262 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int64_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17012,7 +17012,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28798
+// Method Definition Index: 28771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumMetadataValue_ConvertToUInt64_m2A4EB615C1F5D97ED53358AA90A8B9F3D74426B1 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint64_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17063,7 +17063,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28799
+// Method Definition Index: 28772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumMetadataValue_ConvertToFloat_m0A5DFC4558DF1C18F777602D75FFE7DF6795F4E3 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17114,7 +17114,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28800
+// Method Definition Index: 28773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumMetadataValue_ConvertToDouble_m9A387807C4B7C2DC59159757E6A5F456006998F9 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17165,7 +17165,7 @@ IL_0033:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 28801
+// Method Definition Index: 28774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A CesiumMetadataValue_ConvertToInt2_m9D6269D9F652110E5265C87F0E6AA15AE450E11F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17215,7 +17215,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28802
+// Method Definition Index: 28775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F CesiumMetadataValue_ConvertToUInt2_m9A94957548DC0540463E299C9B6AA0065C1D78CB (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17265,7 +17265,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28803
+// Method Definition Index: 28776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA CesiumMetadataValue_ConvertToFloat2_mE30119B3158B567A211AD0FD05839F856756E403 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17315,7 +17315,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28804
+// Method Definition Index: 28777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA CesiumMetadataValue_ConvertToDouble2_m04CEB75BECF3EB3C6391310FC37482E86532EAAB (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17365,7 +17365,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28805
+// Method Definition Index: 28778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF CesiumMetadataValue_ConvertToInt3_mE9DA2B9E8C7CC0D74FF96E1AFC284FFFF590C20F (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17415,7 +17415,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28806
+// Method Definition Index: 28779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B CesiumMetadataValue_ConvertToUInt3_m641550ED9CAF7111CC268B4FA163A3DFEBE07A2C (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17465,7 +17465,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28807
+// Method Definition Index: 28780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E CesiumMetadataValue_ConvertToFloat3_m638CFE83D0AC2C1424EA4079ABB1D19C23C0F33A (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17515,7 +17515,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28808
+// Method Definition Index: 28781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumMetadataValue_ConvertToDouble3_m65E95AFCE937707058458997DA616B72A03E7154 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17565,7 +17565,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28809
+// Method Definition Index: 28782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B33955EA1004996052 CesiumMetadataValue_ConvertToInt4_m2B738BEFA0BC7A4CB478B7D3ADABBE5E581D2EB4 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17615,7 +17615,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28810
+// Method Definition Index: 28783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 CesiumMetadataValue_ConvertToUInt4_m6E2F3ED0C839644C768CF15906332D4AA8CFC4C4 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17665,7 +17665,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28811
+// Method Definition Index: 28784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E CesiumMetadataValue_ConvertToFloat4_m9BCED3EF37D3EA0EEB8FF1979468FD657080163C (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17715,7 +17715,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28812
+// Method Definition Index: 28785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 CesiumMetadataValue_ConvertToDouble4_m32B3C4D3320ECED3CCD5B604EEE89F4AC4CEFB6D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17765,7 +17765,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28813
+// Method Definition Index: 28786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C CesiumMetadataValue_ConvertToInt2x2_m174B998AEAA7EA7DCD7B15E0391C7F8276EC05B0 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17815,7 +17815,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28814
+// Method Definition Index: 28787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47 CesiumMetadataValue_ConvertToUInt2x2_m1E52EC960DB5280757EDA04A78AF722F7AFC298A (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17865,7 +17865,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28815
+// Method Definition Index: 28788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D CesiumMetadataValue_ConvertToFloat2x2_mB33E168CD3E12E6E0E45C597723799DDD9A25669 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17915,7 +17915,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28816
+// Method Definition Index: 28789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF CesiumMetadataValue_ConvertToDouble2x2_mCF42813363263C00EDE0819D290550A70E984EA6 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17965,7 +17965,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28817
+// Method Definition Index: 28790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D CesiumMetadataValue_ConvertToInt3x3_mF16D658F99A74CC8A3F258DDAD9AC670917DD221 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18015,7 +18015,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28818
+// Method Definition Index: 28791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB CesiumMetadataValue_ConvertToUInt3x3_mCA1DADCB1BBA80300CBEC2343BB5868A62761401 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18065,7 +18065,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28819
+// Method Definition Index: 28792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 CesiumMetadataValue_ConvertToFloat3x3_mBF8DA75ED894D1CDE9D319C7F812899EED3F7A99 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18115,7 +18115,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28820
+// Method Definition Index: 28793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 CesiumMetadataValue_ConvertToDouble3x3_mD55FBFC42DB640647CFEFCA451590C0F10BAC34D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18165,7 +18165,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28821
+// Method Definition Index: 28794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 CesiumMetadataValue_ConvertToInt4x4_m676C4EE1AA083B45B08824E0DBAC19F10040EE64 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18215,7 +18215,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28822
+// Method Definition Index: 28795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A CesiumMetadataValue_ConvertToUInt4x4_m77E5589E67943EB940B96EACF6951DC25353BE53 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18265,7 +18265,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28823
+// Method Definition Index: 28796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 CesiumMetadataValue_ConvertToFloat4x4_m6092D2ADA5BDD0E7ED32D8916EC775C141D7EC0D (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18315,7 +18315,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28824
+// Method Definition Index: 28797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumMetadataValue_ConvertToDouble4x4_m028315E6F7C3D8F4B3393BC4F8133FD4866617AB (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18365,7 +18365,7 @@ IL_0040:
 		return L_6;
 	}
 }
-// Method Definition Index: 28825
+// Method Definition Index: 28798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumMetadataValue_ConvertToString_mDCDBB95831B0031B2BF8E17C5DF8590C43DC3673 (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, String_t* ___1_defaultValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18422,7 +18422,7 @@ IL_0038:
 		return ((String_t*)CastclassSealed((RuntimeObject*)L_9, il2cpp_defaults.string_class));
 	}
 }
-// Method Definition Index: 28826
+// Method Definition Index: 28799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToBoolean_mDC527D4F1C920447A92D71A70C66BEF91041930B (intptr_t ___0_value, uint8_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, uint8_t, intptr_t*);
@@ -18444,7 +18444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumMetadataValue_DotNet_CesiumForU
 
 	return returnValue;
 }
-// Method Definition Index: 28827
+// Method Definition Index: 28800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToSByte_m66EA961C0BBF425623848097F672E02E73E01618 (intptr_t ___0_value, int8_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int8_t (CDECL *PInvokeFunc) (intptr_t, int8_t, intptr_t*);
@@ -18466,7 +18466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumMetadataValue_DotNet_CesiumForUn
 
 	return returnValue;
 }
-// Method Definition Index: 28828
+// Method Definition Index: 28801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToByte_m943253B25020F2BFB9595FFFEF4870226F7FB39F (intptr_t ___0_value, uint8_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, uint8_t, intptr_t*);
@@ -18488,7 +18488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumMetadataValue_DotNet_CesiumForU
 
 	return returnValue;
 }
-// Method Definition Index: 28829
+// Method Definition Index: 28802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt16_mDEC4C38BB968538B57AC68643DFCA05318AA81DA (intptr_t ___0_value, int16_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int16_t (CDECL *PInvokeFunc) (intptr_t, int16_t, intptr_t*);
@@ -18510,7 +18510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumMetadataValue_DotNet_CesiumForU
 
 	return returnValue;
 }
-// Method Definition Index: 28830
+// Method Definition Index: 28803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt16_m57CC43E56FF7260D0B440FFF7870CC142FD2300A (intptr_t ___0_value, uint16_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint16_t (CDECL *PInvokeFunc) (intptr_t, uint16_t, intptr_t*);
@@ -18532,7 +18532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumMetadataValue_DotNet_CesiumFor
 
 	return returnValue;
 }
-// Method Definition Index: 28831
+// Method Definition Index: 28804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt32_m494E14855D52A45BE41A9FD3D0F4A1F7144E44BB (intptr_t ___0_value, int32_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, intptr_t*);
@@ -18554,7 +18554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumMetadataValue_DotNet_CesiumForU
 
 	return returnValue;
 }
-// Method Definition Index: 28832
+// Method Definition Index: 28805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt32_m1FBC7F31A1CDC72816545665BD92E876B8FF2A86 (intptr_t ___0_value, uint32_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint32_t (CDECL *PInvokeFunc) (intptr_t, uint32_t, intptr_t*);
@@ -18576,7 +18576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumMetadataValue_DotNet_CesiumFor
 
 	return returnValue;
 }
-// Method Definition Index: 28833
+// Method Definition Index: 28806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt64_m468BDD05D9A487FC332C8CB8EAE9C71B4B7C37A6 (intptr_t ___0_value, int64_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (CDECL *PInvokeFunc) (intptr_t, int64_t, intptr_t*);
@@ -18598,7 +18598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumMetadataValue_DotNet_CesiumForU
 
 	return returnValue;
 }
-// Method Definition Index: 28834
+// Method Definition Index: 28807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt64_mCAFECDA00462441F0EF860C972E2B470849CD1E2 (intptr_t ___0_value, uint64_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint64_t (CDECL *PInvokeFunc) (intptr_t, uint64_t, intptr_t*);
@@ -18620,7 +18620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumMetadataValue_DotNet_CesiumFor
 
 	return returnValue;
 }
-// Method Definition Index: 28835
+// Method Definition Index: 28808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat_mF20746306A0455FD543922CEF7A3224160373001 (intptr_t ___0_value, float ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (CDECL *PInvokeFunc) (intptr_t, float, intptr_t*);
@@ -18642,7 +18642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumMetadataValue_DotNet_CesiumForUni
 
 	return returnValue;
 }
-// Method Definition Index: 28836
+// Method Definition Index: 28809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble_mD363C91723B3B0260091F3411C95AB5786FB5D26 (intptr_t ___0_value, double ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef double (CDECL *PInvokeFunc) (intptr_t, double, intptr_t*);
@@ -18664,7 +18664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumMetadataValue_DotNet_CesiumForUn
 
 	return returnValue;
 }
-// Method Definition Index: 28837
+// Method Definition Index: 28810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt2_m00111941949D87A66541BAD291CF254B19F6F240 (intptr_t ___0_value, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___1_defaultValue, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*, intptr_t*);
@@ -18685,7 +18685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28838
+// Method Definition Index: 28811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt2_mB70AD2AA4887D4B1F0153CF67A6FABFE08DA9DB5 (intptr_t ___0_value, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* ___1_defaultValue, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*, intptr_t*);
@@ -18706,7 +18706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28839
+// Method Definition Index: 28812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat2_mE4DD82350CA89E76D62BCC40C65A96E0B99BE2EA (intptr_t ___0_value, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___1_defaultValue, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*, intptr_t*);
@@ -18727,7 +18727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28840
+// Method Definition Index: 28813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble2_mAC022B49F939F9059B2DB822A6224F69A9C8D8E1 (intptr_t ___0_value, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* ___1_defaultValue, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA*, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA*, intptr_t*);
@@ -18748,7 +18748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28841
+// Method Definition Index: 28814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt3_mD800378ACE3413A9E243218C640AEAB9157DD23C (intptr_t ___0_value, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* ___1_defaultValue, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*, intptr_t*);
@@ -18769,7 +18769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28842
+// Method Definition Index: 28815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt3_m92832C877BB5E393731717CD2D2FF89D78BA68FF (intptr_t ___0_value, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* ___1_defaultValue, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*, intptr_t*);
@@ -18790,7 +18790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28843
+// Method Definition Index: 28816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat3_mD4C1A6E27A01EBD1DDA2A1B2DFA0727F2D418AB3 (intptr_t ___0_value, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___1_defaultValue, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*, intptr_t*);
@@ -18811,7 +18811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28844
+// Method Definition Index: 28817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble3_mD79161332D8E4043ABCF3AC0DACD5D82B8453CE4 (intptr_t ___0_value, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_defaultValue, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
@@ -18832,7 +18832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28845
+// Method Definition Index: 28818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt4_mD395884E8EE6751878CC785D77F30ADA1AD35EEC (intptr_t ___0_value, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___1_defaultValue, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int4_tBA77D4945786DE82C3A487B33955EA1004996052*, int4_tBA77D4945786DE82C3A487B33955EA1004996052*, intptr_t*);
@@ -18853,7 +18853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28846
+// Method Definition Index: 28819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt4_mCA103672DD4034FE5FF9CD750EC8C06704751A22 (intptr_t ___0_value, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* ___1_defaultValue, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*, intptr_t*);
@@ -18874,7 +18874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28847
+// Method Definition Index: 28820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat4_m1E2527506DB1286D40CFEB842B484164AD8DF5BF (intptr_t ___0_value, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___1_defaultValue, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, float4_t89D9A294E7A79BD81BFBDD18654508532958555E*, float4_t89D9A294E7A79BD81BFBDD18654508532958555E*, intptr_t*);
@@ -18895,7 +18895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28848
+// Method Definition Index: 28821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble4_mB2804A476C5BB90602B594A972592BA259573D4F (intptr_t ___0_value, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* ___1_defaultValue, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*, intptr_t*);
@@ -18916,7 +18916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28849
+// Method Definition Index: 28822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt2x2_m8147D7530452FC55F561328132D281BF04E57C43 (intptr_t ___0_value, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C* ___1_defaultValue, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C*, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C*, intptr_t*);
@@ -18937,7 +18937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28850
+// Method Definition Index: 28823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt2x2_mB3907CE7D314D8912510CE15782899E3797C5B86 (intptr_t ___0_value, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47* ___1_defaultValue, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47*, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47*, intptr_t*);
@@ -18958,7 +18958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28851
+// Method Definition Index: 28824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat2x2_m162963CA80F773C98B33A22AEAD6364B092816CA (intptr_t ___0_value, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D* ___1_defaultValue, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D*, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D*, intptr_t*);
@@ -18979,7 +18979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28852
+// Method Definition Index: 28825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble2x2_mF37BDB513E3D452822FAE3424FF031DAB84604D1 (intptr_t ___0_value, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF* ___1_defaultValue, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF*, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF*, intptr_t*);
@@ -19000,7 +19000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28853
+// Method Definition Index: 28826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt3x3_m849742CFB5C07310B54513771C5AA44256E055A4 (intptr_t ___0_value, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D* ___1_defaultValue, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D*, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D*, intptr_t*);
@@ -19021,7 +19021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28854
+// Method Definition Index: 28827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt3x3_m053490516F384F1A3023EB0191AD7F544AC5F721 (intptr_t ___0_value, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB* ___1_defaultValue, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB*, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB*, intptr_t*);
@@ -19042,7 +19042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28855
+// Method Definition Index: 28828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat3x3_m0E222FB1B29955780BADB604CC5B6DCECB3D92B5 (intptr_t ___0_value, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* ___1_defaultValue, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79*, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79*, intptr_t*);
@@ -19063,7 +19063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28856
+// Method Definition Index: 28829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble3x3_m019A82CD97678B2166293C9F5B845F5C65DB1346 (intptr_t ___0_value, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* ___1_defaultValue, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0*, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0*, intptr_t*);
@@ -19084,7 +19084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28857
+// Method Definition Index: 28830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToInt4x4_m12D2004A63BCFB6714FEA389A60E942B22892DFD (intptr_t ___0_value, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30* ___1_defaultValue, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30*, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30*, intptr_t*);
@@ -19105,7 +19105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28858
+// Method Definition Index: 28831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToUInt4x4_m7EB285871B7855973EC83BAC3F42C07D6111E07A (intptr_t ___0_value, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A* ___1_defaultValue, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A*, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A*, intptr_t*);
@@ -19126,7 +19126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28859
+// Method Definition Index: 28832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToFloat4x4_m5CAA9EA3E790C8156EE376F396D61897A373DF12 (intptr_t ___0_value, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* ___1_defaultValue, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*, intptr_t*);
@@ -19147,7 +19147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28860
+// Method Definition Index: 28833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToDouble4x4_m2741CCB6B650D63BA4669B613E7129925F2B6290 (intptr_t ___0_value, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* ___1_defaultValue, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C*, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C*, intptr_t*);
@@ -19168,7 +19168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValue_DotNet_CesiumForUnit
 	#endif
 
 }
-// Method Definition Index: 28861
+// Method Definition Index: 28834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumMetadataValue_DotNet_CesiumForUnity_CesiumMetadataValue_ConvertToString_mBC9FBF771F06F1A1AC2F35AFF843A1F7B56E081E (intptr_t ___0_value, intptr_t ___1_defaultValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, intptr_t, intptr_t*);
@@ -19256,7 +19256,7 @@ IL2CPP_EXTERN_C void CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B64
 IL2CPP_EXTERN_C void CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD_marshal_com_cleanup(CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 28862
+// Method Definition Index: 28835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumMetadataValueType__ctor_mE1634454D2DBF931D277FEA5CB4601707B19ADEE (CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* __this, int32_t ___0_type, int32_t ___1_componentType, bool ___2_isArray, const RuntimeMethod* method) 
 {
 	{
@@ -19280,7 +19280,7 @@ IL2CPP_EXTERN_C  void CesiumMetadataValueType__ctor_mE1634454D2DBF931D277FEA5CB4
 	_thisAdjusted = reinterpret_cast<CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD*>(__this + _offset);
 	CesiumMetadataValueType__ctor_mE1634454D2DBF931D277FEA5CB4601707B19ADEE(_thisAdjusted, ___0_type, ___1_componentType, ___2_isArray, method);
 }
-// Method Definition Index: 28863
+// Method Definition Index: 28836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD CesiumMetadataValueType_GetValueType_m3CEC36F6E1D5370127C4D3E2A48C623488F03338 (RuntimeObject* ___0_inObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20352,7 +20352,7 @@ IL_056a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28864
+// Method Definition Index: 28837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableU5BU5D_tDA68ADD2F35C2A22319C4028ABFDAAF24031EA9E* CesiumModelMetadata_get_propertyTables_m3679AA9DE4891D97441D1B8B89A2509AF87F848E (CesiumModelMetadata_tBF824AFFDE188DAF55FC8E323024AB4DADD25A5B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20361,7 +20361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyTableU5BU5D_tDA68ADD2F35C2A2231
 		return L_0;
 	}
 }
-// Method Definition Index: 28865
+// Method Definition Index: 28838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumModelMetadata_set_propertyTables_mAD7654FC75222DD7FDB93B9DF0F6E38B99296A3C (CesiumModelMetadata_tBF824AFFDE188DAF55FC8E323024AB4DADD25A5B* __this, CesiumPropertyTableU5BU5D_tDA68ADD2F35C2A22319C4028ABFDAAF24031EA9E* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -20372,7 +20372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumModelMetadata_set_propertyTables_m
 		return;
 	}
 }
-// Method Definition Index: 28866
+// Method Definition Index: 28839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumModelMetadata__ctor_m8FB8F808187FAB4FEA13DF5BCCD612902F586E5C (CesiumModelMetadata_tBF824AFFDE188DAF55FC8E323024AB4DADD25A5B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20388,7 +20388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumModelMetadata__ctor_m8FB8F808187FA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28873
+// Method Definition Index: 28846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumObjectPool_1_tBCB5469AAE9A4750E507D9E442C01349BD01A93A* CesiumObjectPools_get_MeshPool_m62A4FE9704CA567321442E35D7CAA29A6579E53C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20404,7 +20404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumObjectPool_1_tBCB5469AAE9A4750E507D9E44
 		return L_0;
 	}
 }
-// Method Definition Index: 28874
+// Method Definition Index: 28847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumObjectPools_Dispose_m91F3B9578EA045FADCE963812517E1F84AB9167E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20424,7 +20424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumObjectPools_Dispose_m91F3B9578EA04
 		return;
 	}
 }
-// Method Definition Index: 28875
+// Method Definition Index: 28848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumObjectPools__cctor_mF92C61327A3EA9CD8E93E708BF0A6914A123EB3D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20464,7 +20464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumObjectPools__cctor_mF92C61327A3EA9
 		return;
 	}
 }
-// Method Definition Index: 28876
+// Method Definition Index: 28849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumObjectPools__ctor_m0CBF6F19BE7A285049213D7EE3F180F34867462C (CesiumObjectPools_t438AB6D908F787DA19D7157B695B08B31E8E5CFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20480,7 +20480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumObjectPools__ctor_m0CBF6F19BE7A285
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28877
+// Method Definition Index: 28850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m824B8C7C160AB5AD7600C91F1FC795ABFA6E9D2E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20497,7 +20497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m824B8C7C160AB5AD7600C91F
 		return;
 	}
 }
-// Method Definition Index: 28878
+// Method Definition Index: 28851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m78FE0F0A0194759077C7577FDC496764632F0C27 (U3CU3Ec_t8C8476145500604782522CDA5CD8AB6A9077A6C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20505,7 +20505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m78FE0F0A0194759077C7577FD
 		return;
 	}
 }
-// Method Definition Index: 28879
+// Method Definition Index: 28852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* U3CU3Ec_U3C_cctorU3Eb__4_0_m956ACC74EA8BC82237347651B0B36673C170FF23 (U3CU3Ec_t8C8476145500604782522CDA5CD8AB6A9077A6C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20521,7 +20521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		return L_0;
 	}
 }
-// Method Definition Index: 28880
+// Method Definition Index: 28853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__4_1_mFC2EA07D99783F2C9308D3CDF941C6809C2C26F8 (U3CU3Ec_t8C8476145500604782522CDA5CD8AB6A9077A6C4* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, const RuntimeMethod* method) 
 {
 	{
@@ -20532,7 +20532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__4_1_mFC2EA07D9978
 		return;
 	}
 }
-// Method Definition Index: 28881
+// Method Definition Index: 28854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__4_2_m724FBE77EADA427C74E43D57CE97678FED039C87 (U3CU3Ec_t8C8476145500604782522CDA5CD8AB6A9077A6C4* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, const RuntimeMethod* method) 
 {
 	{
@@ -20550,7 +20550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__4_2_m724FBE77EADA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28882
+// Method Definition Index: 28855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumOriginShift_get_distance_m85A2788E3D735C5148DA709E2521A826D7BF3B91 (CesiumOriginShift_tCA0185160C6BD50B6D3D9F92BF68302FE43862E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20559,7 +20559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumOriginShift_get_distance_m85A278
 		return L_0;
 	}
 }
-// Method Definition Index: 28883
+// Method Definition Index: 28856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumOriginShift_set_distance_mC8F59C1D7EDF57378155D3F195EBA8F11D96FD5F (CesiumOriginShift_tCA0185160C6BD50B6D3D9F92BF68302FE43862E7* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -20569,7 +20569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumOriginShift_set_distance_mC8F59C1D
 		return;
 	}
 }
-// Method Definition Index: 28884
+// Method Definition Index: 28857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumOriginShift_LateUpdate_m0D39E04FEB86CE25CF70FA33CBB288002AF1D79F (CesiumOriginShift_tCA0185160C6BD50B6D3D9F92BF68302FE43862E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20657,7 +20657,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 28885
+// Method Definition Index: 28858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumOriginShift_UpdateFromEcef_mE10F721275A322374B4C3C2D0BA29C64DE1451EC (CesiumOriginShift_tCA0185160C6BD50B6D3D9F92BF68302FE43862E7* __this, CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* ___0_georeference, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_ecef, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21000,7 +21000,7 @@ IL_0171:
 		return;
 	}
 }
-// Method Definition Index: 28886
+// Method Definition Index: 28859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumOriginShift__ctor_m962B656F550D93495FAB4894846D062D642796F1 (CesiumOriginShift_tCA0185160C6BD50B6D3D9F92BF68302FE43862E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21088,7 +21088,7 @@ IL2CPP_EXTERN_C void Cesium3DTileInfo_t91B05706ECDCA757B854448A94C5AF401EEDF5FB_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28887
+// Method Definition Index: 28860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_set_tileInfo_mF77F7E293F75628FDAA54CD3454988E5F7DD68C3 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, Cesium3DTileInfo_t91B05706ECDCA757B854448A94C5AF401EEDF5FB ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21098,7 +21098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_set_tileInfo_mF
 		return;
 	}
 }
-// Method Definition Index: 28888
+// Method Definition Index: 28861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_OnEnable_m35A316D1DEF6AF74D1C6AF4475842245FECA3B8E (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21364,7 +21364,7 @@ IL_0183:
 		return;
 	}
 }
-// Method Definition Index: 28889
+// Method Definition Index: 28862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudRenderer_GetGeometricError_m87EAC32C6018B9FD68039515353A565A6A1BA751 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* ___0_pointCloudShading, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -21429,7 +21429,7 @@ IL_002a:
 		return L_17;
 	}
 }
-// Method Definition Index: 28890
+// Method Definition Index: 28863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_UpdateAttenuationParameters_m33EBF887E85E4175A6C35A56810F145A16FFD0F8 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -21563,7 +21563,7 @@ IL_0062:
 		return;
 	}
 }
-// Method Definition Index: 28891
+// Method Definition Index: 28864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_UpdateBounds_mDFCC1EC545203EE69571092701C0B14D5A3A6800 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
@@ -21615,7 +21615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_UpdateBounds_mD
 		return;
 	}
 }
-// Method Definition Index: 28892
+// Method Definition Index: 28865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_DestroyResources_mDCE852CE779BAFCF3DE893560AEE39CCA3C39C5D (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21667,7 +21667,7 @@ IL_0033:
 		return;
 	}
 }
-// Method Definition Index: 28893
+// Method Definition Index: 28866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_UpdateMaterial_m54D83EACC89FAD90ADD19A134C4FD942A61B7EE4 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21763,7 +21763,7 @@ IL_00ca:
 		return;
 	}
 }
-// Method Definition Index: 28894
+// Method Definition Index: 28867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_DrawPointsWithAttenuation_mD4133D289F3946FA21819D403B183D19C2E53C17 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21794,7 +21794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_DrawPointsWithA
 		return;
 	}
 }
-// Method Definition Index: 28895
+// Method Definition Index: 28868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_Update_mC84023DD309D7358354E5DD48C45DA6AFCEBD465 (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21831,7 +21831,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 28896
+// Method Definition Index: 28869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_OnDisable_m3C22E6AAA37D2BCD33AA26FBC8DFB3E232B9CA7E (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21841,7 +21841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer_OnDisable_m3C22
 		return;
 	}
 }
-// Method Definition Index: 28897
+// Method Definition Index: 28870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer__ctor_mB09C2515FAD12CEF8460FF767A1FBDFCBA71667E (CesiumPointCloudRenderer_tFF83D3AC88DBA0099581D846732A2080FE1BB725* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21867,7 +21867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudRenderer__ctor_mB09C2515
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28898
+// Method Definition Index: 28871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPointCloudShading_get_attenuation_mF662032A72CCC8B9FF7DE1C4B29CAFD0A34A01A5 (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21876,7 +21876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPointCloudShading_get_attenuation_
 		return L_0;
 	}
 }
-// Method Definition Index: 28899
+// Method Definition Index: 28872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_attenuation_m382BE7C39397D187A79C9D10BFCB2B99B783AF03 (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21886,7 +21886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_attenuation_
 		return;
 	}
 }
-// Method Definition Index: 28900
+// Method Definition Index: 28873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_geometricErrorScale_m2182592AF3E9909EA5327FC630AFFE6597788C2C (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21895,7 +21895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_geometricEr
 		return L_0;
 	}
 }
-// Method Definition Index: 28901
+// Method Definition Index: 28874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_geometricErrorScale_m51AA002018B9282DF370FF37FEC5D11F8E7EF957 (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21908,7 +21908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_geometricErr
 		return;
 	}
 }
-// Method Definition Index: 28902
+// Method Definition Index: 28875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_maximumAttenuation_m31ADCE81E474DC690FA833A627EA1ED5E6C5B842 (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21917,7 +21917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_maximumAtte
 		return L_0;
 	}
 }
-// Method Definition Index: 28903
+// Method Definition Index: 28876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_maximumAttenuation_m3EC44B83FE7D08D9CE4E4EBE2049ED2970ED33BE (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21930,7 +21930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_maximumAtten
 		return;
 	}
 }
-// Method Definition Index: 28904
+// Method Definition Index: 28877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_baseResolution_mFD5D3C436B9F91B755BDD00642DEFAE96D357179 (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21939,7 +21939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_baseResolut
 		return L_0;
 	}
 }
-// Method Definition Index: 28905
+// Method Definition Index: 28878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_baseResolution_m98969C059B865CCC38AAC2AA53CDE2D62DEAED35 (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21951,7 +21951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading_set_baseResoluti
 		return;
 	}
 }
-// Method Definition Index: 28906
+// Method Definition Index: 28879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading__ctor_m52AF242979AABFE2B4B91CFCF27F975D1A6163DC (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21969,7 +21969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPointCloudShading__ctor_m52AF24297
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28907
+// Method Definition Index: 28880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tEB6963F0BDBC6EFC90E42E81992121FE3FB93AEC* CesiumPolygonRasterOverlay_get_polygons_mE1FC1F90B37FA037E3B2E3E449E8DF7402B38568 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21978,7 +21978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tEB6963F0BDBC6EFC90E42E81992121FE3FB93
 		return L_0;
 	}
 }
-// Method Definition Index: 28908
+// Method Definition Index: 28881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_set_polygons_m89A0136F0F2F9EFE7A8876109A0C00EFFA6C3D08 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, List_1_tEB6963F0BDBC6EFC90E42E81992121FE3FB93AEC* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21992,7 +21992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_set_polygons_
 		return;
 	}
 }
-// Method Definition Index: 28909
+// Method Definition Index: 28882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPolygonRasterOverlay_get_invertSelection_m722ED6B13C20FD9868BF891F2273C38B99C92950 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22001,7 +22001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPolygonRasterOverlay_get_invertSel
 		return L_0;
 	}
 }
-// Method Definition Index: 28910
+// Method Definition Index: 28883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_set_invertSelection_m50584833AB1E2B0C0E425CBF52EAF403AB25643B (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22014,7 +22014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_set_invertSel
 		return;
 	}
 }
-// Method Definition Index: 28911
+// Method Definition Index: 28884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPolygonRasterOverlay_get_excludeSelectedTiles_m96392AE9336025A67093317D3E5CB92F2AA0CE7E (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22023,7 +22023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPolygonRasterOverlay_get_excludeSe
 		return L_0;
 	}
 }
-// Method Definition Index: 28912
+// Method Definition Index: 28885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_set_excludeSelectedTiles_mB3B188885D30C8EE19117B159DD63289EBBD0AE9 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22036,7 +22036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_set_excludeSe
 		return;
 	}
 }
-// Method Definition Index: 28913
+// Method Definition Index: 28886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_AddToTileset_m1D749309A4DE2B8E7090E9973D82E135D54DF6A6 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -22103,7 +22103,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 28914
+// Method Definition Index: 28887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_RemoveFromTileset_m21E8E4C1649CE08CCD4D1A052FD4779B3B2AC8CA (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -22170,7 +22170,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 28915
+// Method Definition Index: 28888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_tDE4F623DA2F1A6552EA7ADA7DE2BA64A9D62554D* CesiumPolygonRasterOverlay_get_NativeImplementation_m832E69E6B2737212A0D310FF4B66C10730967BDE (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22179,7 +22179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_tDE4F623DA2F1A6552EA7ADA
 		return L_0;
 	}
 }
-// Method Definition Index: 28916
+// Method Definition Index: 28889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_CreateImplementation_m5A9F15D9403CEF5DB5D0151D8FE968946B445F49 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22202,7 +22202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_CreateImpleme
 		return;
 	}
 }
-// Method Definition Index: 28917
+// Method Definition Index: 28890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DisposeImplementation_m9FE8AF2B1413A8D3597C8E2479AA57D0EA6036A4 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22239,7 +22239,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 28918
+// Method Definition Index: 28891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_Dispose_mEC296B8BC3318737F2D69D8584BAF3B48BCB8E49 (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22249,7 +22249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_Dispose_mEC29
 		return;
 	}
 }
-// Method Definition Index: 28919
+// Method Definition Index: 28892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay__ctor_m1292F0347DE41ECA914FFA1FA207007AD4A0740E (CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22263,7 +22263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay__ctor_m1292F0
 		return;
 	}
 }
-// Method Definition Index: 28920
+// Method Definition Index: 28893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPolygonRasterOverlay_DotNet_CesiumForUnity_CesiumPolygonRasterOverlay_CreateImplementation_m8707F7EB84790526ABFA9DEB782038B1D967D7CB (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -22285,7 +22285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPolygonRasterOverlay_DotNet_Ce
 
 	return returnValue;
 }
-// Method Definition Index: 28921
+// Method Definition Index: 28894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DotNet_CesiumForUnity_CesiumPolygonRasterOverlay_DestroyImplementation_m924A8C0983354DF2BA0F80D53916A9F00804E49E (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -22306,7 +22306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DotNet_Cesium
 	#endif
 
 }
-// Method Definition Index: 28922
+// Method Definition Index: 28895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DotNet_CesiumForUnity_CesiumPolygonRasterOverlay_AddToTileset_mE8B748F1E12CC330148B347776038F8C2A2F77AA (intptr_t ___0_thiz, ImplementationHandle_tDE4F623DA2F1A6552EA7ADA7DE2BA64A9D62554D* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
@@ -22338,7 +22338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DotNet_Cesium
 	}
 
 }
-// Method Definition Index: 28923
+// Method Definition Index: 28896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DotNet_CesiumForUnity_CesiumPolygonRasterOverlay_RemoveFromTileset_mF7B43FA02A0CD64BF1FC8B98E365E4354F7FA713 (intptr_t ___0_thiz, ImplementationHandle_tDE4F623DA2F1A6552EA7ADA7DE2BA64A9D62554D* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
@@ -22378,7 +22378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPolygonRasterOverlay_DotNet_Cesium
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28924
+// Method Definition Index: 28897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m709E3C508CBC207C944D9BC4201A2C564B068855 (ImplementationHandle_tDE4F623DA2F1A6552EA7ADA7DE2BA64A9D62554D* __this, CesiumPolygonRasterOverlay_tFD546C4710AA8E5BCB990C07D79B28E1D497F058* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -22395,7 +22395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m709E3C508CBC
 		return;
 	}
 }
-// Method Definition Index: 28925
+// Method Definition Index: 28898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m7FE173FABBDE1C648FA511EEDE95DBC1F1CA9E9A (ImplementationHandle_tDE4F623DA2F1A6552EA7ADA7DE2BA64A9D62554D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22414,7 +22414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m7FE1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28926
+// Method Definition Index: 28899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureIdSetU5BU5D_t1768BB361476047817ED1CB36822F8D3276D5C81* CesiumPrimitiveFeatures_get_featureIdSets_mB9C5AB0F200FF398CE658BCC870178CDB0777946 (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22423,7 +22423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureIdSetU5BU5D_t1768BB361476047817E
 		return L_0;
 	}
 }
-// Method Definition Index: 28927
+// Method Definition Index: 28900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPrimitiveFeatures_set_featureIdSets_m2FEE86D333EABBEE209E3D80A9BD6BCC4F5FD106 (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, CesiumFeatureIdSetU5BU5D_t1768BB361476047817ED1CB36822F8D3276D5C81* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22434,7 +22434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPrimitiveFeatures_set_featureIdSet
 		return;
 	}
 }
-// Method Definition Index: 28928
+// Method Definition Index: 28901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPrimitiveFeatures_GetFirstVertexFromTriangle_m4E9A2DE39BDE1AAF90640EC6906DD4EF42EE25E5 (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ___0_meshFilter, int32_t ___1_triangleIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22535,7 +22535,7 @@ IL_004e:
 		return L_16;
 	}
 }
-// Method Definition Index: 28929
+// Method Definition Index: 28902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPrimitiveFeatures_GetFirstVertexFromHitTriangle_m277CDBA45F82D106F4332FC04CF640CADA7F2369 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hitInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22559,7 +22559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPrimitiveFeatures_GetFirstVerte
 		return L_3;
 	}
 }
-// Method Definition Index: 28930
+// Method Definition Index: 28903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureIdSetU5BU5D_t1768BB361476047817ED1CB36822F8D3276D5C81* CesiumPrimitiveFeatures_GetFeatureIdSetsOfType_m2043BFB53604A12B759646F7D483F05035E61BB8 (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, int32_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22591,7 +22591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumFeatureIdSetU5BU5D_t1768BB361476047817E
 		return L_6;
 	}
 }
-// Method Definition Index: 28931
+// Method Definition Index: 28904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPrimitiveFeatures_GetFeatureIdFromTriangle_m2233BE02B60FF277A2FB84D011A18D68CCA9A4D7 (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, int32_t ___0_triangleIndex, int64_t ___1_featureIdSetIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22667,7 +22667,7 @@ IL_0029:
 		return L_14;
 	}
 }
-// Method Definition Index: 28932
+// Method Definition Index: 28905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPrimitiveFeatures_GetFeatureIdFromRaycastHit_mD9A6B2E085CB9303A634DC57D9C9749096CB9528 (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hitInfo, int64_t ___1_featureIdSetIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22736,7 +22736,7 @@ IL_0028:
 		return L_11;
 	}
 }
-// Method Definition Index: 28933
+// Method Definition Index: 28906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPrimitiveFeatures__ctor_m6F13B947B1A7E192B6697E3CE5D53ABF25807EFA (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22752,7 +22752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPrimitiveFeatures__ctor_m6F13B947B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28934
+// Method Definition Index: 28907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mB3B00974EF99B77B3822368FE0DC54F77DE71AE8 (U3CU3Ec__DisplayClass7_0_tBA3F5F9ABF12105F311617ED97EF5A8E5EFFE33C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22760,7 +22760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mB3B00974
 		return;
 	}
 }
-// Method Definition Index: 28935
+// Method Definition Index: 28908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass7_0_U3CGetFeatureIdSetsOfTypeU3Eb__0_mA389F05E572E7E623750C70D2A99C559839A7951 (U3CU3Ec__DisplayClass7_0_tBA3F5F9ABF12105F311617ED97EF5A8E5EFFE33C* __this, CesiumFeatureIdSet_tFE60AB2EC396EEFA04E0FF400575D9908B1271BD* ___0_set, const RuntimeMethod* method) 
 {
 	{
@@ -22781,7 +22781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass7_0_U3CGetFeatureId
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28936
+// Method Definition Index: 28909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueU5BU5D_t4B81986072696FCE03FEA7DFE59A2C82674AC7C5* CesiumPropertyArray_get_values_m20FADE7ABD0AA872058090445D0C6A3E94FF0DD7 (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22790,7 +22790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueU5BU5D_t4B81986072696FCE03
 		return L_0;
 	}
 }
-// Method Definition Index: 28937
+// Method Definition Index: 28910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray_set_values_mDF95D7FE91E5C6096251A5B6B26D7E05969A8E49 (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, CesiumMetadataValueU5BU5D_t4B81986072696FCE03FEA7DFE59A2C82674AC7C5* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22801,7 +22801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray_set_values_mDF95D7FE
 		return;
 	}
 }
-// Method Definition Index: 28938
+// Method Definition Index: 28911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray__ctor_mD7286A7C7E1EEDE3BF9DAA91E2FD3758348801E8 (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22820,7 +22820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray__ctor_mD7286A7C7E1EE
 		return;
 	}
 }
-// Method Definition Index: 28939
+// Method Definition Index: 28912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray__ctor_m683B0A7D470CE6BD1550A91FA73F5CEF2259446E (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, CesiumMetadataValueU5BU5D_t4B81986072696FCE03FEA7DFE59A2C82674AC7C5* ___0_values, const RuntimeMethod* method) 
 {
 	{
@@ -22833,7 +22833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray__ctor_m683B0A7D470CE
 		return;
 	}
 }
-// Method Definition Index: 28940
+// Method Definition Index: 28913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD CesiumPropertyArray_get_elementValueType_m8E4709D4C95CE5EE8B161B7279BD446ED0CCC663 (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22842,7 +22842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F
 		return L_0;
 	}
 }
-// Method Definition Index: 28941
+// Method Definition Index: 28914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray_set_elementValueType_m7FE52D4440E803E3A69130C4E109F13300E6CA90 (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22852,7 +22852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyArray_set_elementValueType
 		return;
 	}
 }
-// Method Definition Index: 28942
+// Method Definition Index: 28915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyArray_get_length_m41EA14131E051A1EE6BCDBA7FE7E420A30B4CE88 (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22863,7 +22863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyArray_get_length_m41EA1
 		return ((int64_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
 	}
 }
-// Method Definition Index: 28943
+// Method Definition Index: 28916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyArray_get_Item_m3C6B5882F8C110A18405417459E6E848A784C45C (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, int64_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22928,7 +22928,7 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28944
+// Method Definition Index: 28917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTable_get_status_mE3A428609965295B8AB35A03D7BCBDE4DBD86E69 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22937,7 +22937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTable_get_status_mE3A42
 		return L_0;
 	}
 }
-// Method Definition Index: 28945
+// Method Definition Index: 28918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_status_m42456422169B9D6FC6C41815D3B8B9208837A3DC (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22947,7 +22947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_status_m42456422
 		return;
 	}
 }
-// Method Definition Index: 28946
+// Method Definition Index: 28919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumPropertyTable_get_name_m6CB1BB6AA8E725448A5680875F56BF844F572391 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22956,7 +22956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumPropertyTable_get_name_m6CB1B
 		return L_0;
 	}
 }
-// Method Definition Index: 28947
+// Method Definition Index: 28920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_name_mA9D1F9FC55AAE8D9F53836A9CF6BDFF202C5779C (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22967,7 +22967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_name_mA9D1F9FC55
 		return;
 	}
 }
-// Method Definition Index: 28948
+// Method Definition Index: 28921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTable_get_count_mA123E1C6273AB0377534B54E938A12AFF3BC03E1 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22976,7 +22976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTable_get_count_mA123E1
 		return L_0;
 	}
 }
-// Method Definition Index: 28949
+// Method Definition Index: 28922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_count_mA9AC0C9F4C26FD703A4FF918F12B3A8871551C88 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22986,7 +22986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_count_mA9AC0C9F4
 		return;
 	}
 }
-// Method Definition Index: 28950
+// Method Definition Index: 28923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t0D0ED46536FC29282D02696763C7FF6EE343E61B* CesiumPropertyTable_get_properties_mD065BE311601A08FC5C3F5F44B583CAF3D0F326F (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22995,7 +22995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t0D0ED46536FC29282D02696763C7FF6
 		return L_0;
 	}
 }
-// Method Definition Index: 28951
+// Method Definition Index: 28924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_properties_m3941D42FCFE4E9B7E5708BB4D08B5A8A0756CD2C (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, Dictionary_2_t0D0ED46536FC29282D02696763C7FF6EE343E61B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23006,7 +23006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_properties_m3941
 		return;
 	}
 }
-// Method Definition Index: 28952
+// Method Definition Index: 28925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable__ctor_m5936255D2118D903821C0F01C617EDB9409FB813 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23020,7 +23020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable__ctor_m5936255D2118D
 		return;
 	}
 }
-// Method Definition Index: 28953
+// Method Definition Index: 28926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t6952C41F037009C12FDA359556786AFBF7CB7C64* CesiumPropertyTable_GetMetadataValuesForFeature_m72E3B5AD7F5220F61D6341058EFAE09CA34E7B68 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, int64_t ___0_featureId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23045,7 +23045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t6952C41F037009C12FDA359556786AF
 		return L_3;
 	}
 }
-// Method Definition Index: 28954
+// Method Definition Index: 28927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_GetMetadataValuesForFeature_mA8DDF72018C6EBA6AFF3CDA4455C8ED5C07280AC (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, Dictionary_2_t6952C41F037009C12FDA359556786AFBF7CB7C64* ___0_values, int64_t ___1_featureId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23140,7 +23140,7 @@ IL_004f:
 		return;
 	}
 }
-// Method Definition Index: 28955
+// Method Definition Index: 28928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTable_DisposeProperties_mE386B5FF1B5F34242EE64591A496E3BE520A5D41 (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23237,7 +23237,7 @@ IL_003b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 28956
+// Method Definition Index: 28929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTableProperty_get_status_mAA20DC88876AFCFF13D92C97FEE36E1D6DC8186E (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23246,7 +23246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTableProperty_get_statu
 		return L_0;
 	}
 }
-// Method Definition Index: 28957
+// Method Definition Index: 28930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_status_mB9454CE9234D3BFEBD4D0158010A68527D45D096 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23256,7 +23256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_status_m
 		return;
 	}
 }
-// Method Definition Index: 28958
+// Method Definition Index: 28931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD CesiumPropertyTableProperty_get_valueType_m3480E0960606A6E2DA49197FD0E6F08CEAE2C960 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23265,7 +23265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F
 		return L_0;
 	}
 }
-// Method Definition Index: 28959
+// Method Definition Index: 28932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_valueType_m7D1C770786E36C833A0FBBFB0F65344EC4F6559E (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23275,7 +23275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_valueTyp
 		return;
 	}
 }
-// Method Definition Index: 28960
+// Method Definition Index: 28933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_get_size_m3A0BD7F580AB97DDAE1997917DE24351CC0000A2 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23284,7 +23284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_get_size_
 		return L_0;
 	}
 }
-// Method Definition Index: 28961
+// Method Definition Index: 28934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_size_mA22C1DAC2BAFFD58E9C49F3E2AAC7B13254D5B48 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23294,7 +23294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_size_mA2
 		return;
 	}
 }
-// Method Definition Index: 28962
+// Method Definition Index: 28935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_get_arraySize_mCAA36534D77D53CED3BCA6E1C8AF00C928171B40 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23303,7 +23303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_get_array
 		return L_0;
 	}
 }
-// Method Definition Index: 28963
+// Method Definition Index: 28936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_arraySize_m5B2ABBA63B7D0866313C63B26E9A226D485B3069 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23313,7 +23313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_arraySiz
 		return;
 	}
 }
-// Method Definition Index: 28964
+// Method Definition Index: 28937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPropertyTableProperty_get_isNormalized_mB9CC9FBE68FC3E84FA2AA2C3506B35385859B866 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23322,7 +23322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPropertyTableProperty_get_isNormal
 		return L_0;
 	}
 }
-// Method Definition Index: 28965
+// Method Definition Index: 28938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_isNormalized_m698487E8CF395142187BFFA743A55A5DBF32E7BE (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23332,7 +23332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_isNormal
 		return;
 	}
 }
-// Method Definition Index: 28966
+// Method Definition Index: 28939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_get_offset_m003B42B9770BC7D6F973DE2194622775DDB72F7C (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23341,7 +23341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057
 		return L_0;
 	}
 }
-// Method Definition Index: 28967
+// Method Definition Index: 28940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_offset_m1CE86772CF679000B1F12A417946AD400B07C915 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23352,7 +23352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_offset_m
 		return;
 	}
 }
-// Method Definition Index: 28968
+// Method Definition Index: 28941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_get_scale_mB55B7A3F03AF4B6302BDB145175C0DD3DB464E8B (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23361,7 +23361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057
 		return L_0;
 	}
 }
-// Method Definition Index: 28969
+// Method Definition Index: 28942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_scale_m041F8B3A3DF5962EB9ED10AA083B5289588830D5 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23372,7 +23372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_scale_m0
 		return;
 	}
 }
-// Method Definition Index: 28970
+// Method Definition Index: 28943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_get_min_mB226FF6E3FCECD3682390992C820E6A71BC0E2D0 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23381,7 +23381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057
 		return L_0;
 	}
 }
-// Method Definition Index: 28971
+// Method Definition Index: 28944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_min_m21FCC762D9E2C837F7FBC7979BA80135687099C5 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23392,7 +23392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_min_m21F
 		return;
 	}
 }
-// Method Definition Index: 28972
+// Method Definition Index: 28945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_get_max_mE5ADD561146551B8E9B433D62C4AD1D2A482977A (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23401,7 +23401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057
 		return L_0;
 	}
 }
-// Method Definition Index: 28973
+// Method Definition Index: 28946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_max_m51536DD62CE88503BCB49B090EFBBF419B81C753 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23412,7 +23412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_max_m515
 		return;
 	}
 }
-// Method Definition Index: 28974
+// Method Definition Index: 28947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_get_noData_m8B190AE9E2922A2F9845DA6A06255C7A677FC034 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23421,7 +23421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057
 		return L_0;
 	}
 }
-// Method Definition Index: 28975
+// Method Definition Index: 28948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_noData_m005C9D76A28CE4DE4DED4586BE3775D03A572117 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23432,7 +23432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_noData_m
 		return;
 	}
 }
-// Method Definition Index: 28976
+// Method Definition Index: 28949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_get_defaultValue_mA14464DCAC4388AE7CE13AA07219EA5FE0B3954E (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23441,7 +23441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057
 		return L_0;
 	}
 }
-// Method Definition Index: 28977
+// Method Definition Index: 28950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_defaultValue_m148066E1A357D71D543AD30B972267F8E3F78B3E (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -23452,7 +23452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_defaultV
 		return;
 	}
 }
-// Method Definition Index: 28978
+// Method Definition Index: 28951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty__ctor_m16F62669D15B148A0AA7EE15CD523BAFF5FDAB1A (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23507,7 +23507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty__ctor_m16F62
 		return;
 	}
 }
-// Method Definition Index: 28979
+// Method Definition Index: 28952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumPropertyTableProperty_GetBoolean_m49F7CE7F239D3AA2F9268CE7A9EFD9C4C0049CAA (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, bool ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -23620,7 +23620,7 @@ IL_005b:
 		return (bool)((!(((uint32_t)G_B8_0) <= ((uint32_t)0)))? 1 : 0);
 	}
 }
-// Method Definition Index: 28980
+// Method Definition Index: 28953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumPropertyTableProperty_GetSByte_m0B93D4135D7039354B6F1C15E5271C133F90EBDF (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int8_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -23691,7 +23691,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28981
+// Method Definition Index: 28954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumPropertyTableProperty_GetByte_mFD8B7AD4145AE26E3D9E312D4F519435B647AEF2 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint8_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -23762,7 +23762,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28982
+// Method Definition Index: 28955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumPropertyTableProperty_GetInt16_mC5161A5E5775E3ED59E9EB5054E09DE123892835 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int16_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -23833,7 +23833,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28983
+// Method Definition Index: 28956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumPropertyTableProperty_GetUInt16_m7BAD11C97701CED08B744D6D2ADA1ED067303A28 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint16_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -23904,7 +23904,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28984
+// Method Definition Index: 28957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTableProperty_GetInt32_mAFB542F618E3C76F897F09B91501665F48BA1441 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int32_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -23975,7 +23975,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28985
+// Method Definition Index: 28958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumPropertyTableProperty_GetUInt32_m4B68910D2040CBBEA9957FC363B750629CC77E45 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint32_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24046,7 +24046,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28986
+// Method Definition Index: 28959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_GetInt64_m3C9C750412CA26D76884FC56000CAABD5F9826B1 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int64_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24117,7 +24117,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28987
+// Method Definition Index: 28960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumPropertyTableProperty_GetUInt64_m742AA2579FFEAE781AC40B3713EB0F4402550CF0 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint64_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24188,7 +24188,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28988
+// Method Definition Index: 28961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPropertyTableProperty_GetFloat_m0C0506D48EB2E0891FEB9DD6341E32E437B57B01 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24259,7 +24259,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28989
+// Method Definition Index: 28962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumPropertyTableProperty_GetDouble_m4D5F307E303CA0B86D1E7E6AB14F6334A72B69E2 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24330,7 +24330,7 @@ IL_0055:
 		return G_B5_0;
 	}
 }
-// Method Definition Index: 28990
+// Method Definition Index: 28963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A CesiumPropertyTableProperty_GetInt2_m18617EAA6CEF49B5B98AFAFC1D052DE294DC261E (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24400,7 +24400,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28991
+// Method Definition Index: 28964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F CesiumPropertyTableProperty_GetUInt2_m6DED86247C6C2C385674CA2FDF13C3C65F3BA3D5 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24470,7 +24470,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28992
+// Method Definition Index: 28965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA CesiumPropertyTableProperty_GetFloat2_mFC25EEC6E01854770130E3DD3D99761FED79F357 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24540,7 +24540,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28993
+// Method Definition Index: 28966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA CesiumPropertyTableProperty_GetDouble2_mFAC167846689A2B7ED52BF3B26C2039962379D52 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24610,7 +24610,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28994
+// Method Definition Index: 28967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF CesiumPropertyTableProperty_GetInt3_m35EC04246E66CCF0592C651BC465741BB02586D4 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24680,7 +24680,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28995
+// Method Definition Index: 28968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B CesiumPropertyTableProperty_GetUInt3_m91ACEA3B78778FAA660FF98D28487FEA8795C102 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24750,7 +24750,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28996
+// Method Definition Index: 28969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E CesiumPropertyTableProperty_GetFloat3_mFAC9A363453762D6A2C7E20293CBFB7D142A411B (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24820,7 +24820,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28997
+// Method Definition Index: 28970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumPropertyTableProperty_GetDouble3_m5D0C4B733D5FB5CC187F0E1D7CF82B14826F7F8D (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24890,7 +24890,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28998
+// Method Definition Index: 28971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B33955EA1004996052 CesiumPropertyTableProperty_GetInt4_m888D7CF73D70DDA234E8AF318F41BFE6CA8F1F63 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -24960,7 +24960,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 28999
+// Method Definition Index: 28972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 CesiumPropertyTableProperty_GetUInt4_m0088531BCDEEC97911D18BB2779829C0258FC047 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25030,7 +25030,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29000
+// Method Definition Index: 28973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E CesiumPropertyTableProperty_GetFloat4_m823DBCFE11CE8F8A09C58E640AE7033F3F7EAEC2 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25100,7 +25100,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29001
+// Method Definition Index: 28974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 CesiumPropertyTableProperty_GetDouble4_m5090C1B421DDFFC104874DAE65A36E69B6FB0251 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25170,7 +25170,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29002
+// Method Definition Index: 28975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C CesiumPropertyTableProperty_GetInt2x2_m4365F0DD2A95B1683D6AE907739C3FF85D0038C5 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25240,7 +25240,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29003
+// Method Definition Index: 28976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47 CesiumPropertyTableProperty_GetUInt2x2_mB6E4BE1FA5BE8F392FD81611C065503DFB512FA3 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25310,7 +25310,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29004
+// Method Definition Index: 28977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D CesiumPropertyTableProperty_GetFloat2x2_mCF4C5363CE30A2DC1E46758D853700086F5C6C7D (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25380,7 +25380,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29005
+// Method Definition Index: 28978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF CesiumPropertyTableProperty_GetDouble2x2_m98734BCA73CDA94825F13780D61951309C89CE47 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25450,7 +25450,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29006
+// Method Definition Index: 28979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D CesiumPropertyTableProperty_GetInt3x3_m5D217F0075ACBB11480F34C5F003697C7456726A (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25520,7 +25520,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29007
+// Method Definition Index: 28980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB CesiumPropertyTableProperty_GetUInt3x3_m783CBE331DFBB3A8A7F8795AC70811DEF2989A75 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25590,7 +25590,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29008
+// Method Definition Index: 28981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 CesiumPropertyTableProperty_GetFloat3x3_mE21E26183F0FE729C80D261CCE7203EFCF6DF68A (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25660,7 +25660,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29009
+// Method Definition Index: 28982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 CesiumPropertyTableProperty_GetDouble3x3_m989BE53CB4AFA35B3CACB6253B5A36B366BFFB44 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25730,7 +25730,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29010
+// Method Definition Index: 28983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 CesiumPropertyTableProperty_GetInt4x4_m65615E0A098949EE5A04F49907DCF2E1EA0D60D4 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25800,7 +25800,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29011
+// Method Definition Index: 28984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A CesiumPropertyTableProperty_GetUInt4x4_m606B807EEC4C1C3133EAE5EBD9B2AF80F53DA02F (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25870,7 +25870,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29012
+// Method Definition Index: 28985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 CesiumPropertyTableProperty_GetFloat4x4_m077A6569D3BFADF5B0F8CE38C6F8826FCE85790B (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -25940,7 +25940,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29013
+// Method Definition Index: 28986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C CesiumPropertyTableProperty_GetDouble4x4_m99D72496A7196FA8C82D9475FE43AB7385B0F911 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -26010,7 +26010,7 @@ IL_0062:
 		return L_11;
 	}
 }
-// Method Definition Index: 29014
+// Method Definition Index: 28987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumPropertyTableProperty_GetString_m30C6959530577897E6AF76C73E4052B60D2D8833 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, String_t* ___1_defaultValue, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -26087,7 +26087,7 @@ IL_005a:
 		return ((String_t*)CastclassSealed((RuntimeObject*)L_14, il2cpp_defaults.string_class));
 	}
 }
-// Method Definition Index: 29015
+// Method Definition Index: 28988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* CesiumPropertyTableProperty_GetArray_m65D4EE0266156A245027611D441819CD634576FC (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26167,7 +26167,7 @@ IL_0054:
 		return ((CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D*)CastclassClass((RuntimeObject*)L_12, CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 29016
+// Method Definition Index: 28989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_GetValue_m2036F4B1DD53437594DB52B5DEC7D32AB54A1B41 (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26247,7 +26247,7 @@ IL_0054:
 		return ((CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA*)CastclassClass((RuntimeObject*)L_12, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 29017
+// Method Definition Index: 28990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* CesiumPropertyTableProperty_GetRawValue_m042A26F986FA09F59C7C48542F501A4E61F19CDF (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_featureID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26327,7 +26327,7 @@ IL_0054:
 		return ((CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA*)CastclassClass((RuntimeObject*)L_12, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 29018
+// Method Definition Index: 28991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* CesiumPropertyTableProperty_get_NativeImplementation_m343EBC131E7C4E318F6AE0C37BBE88B7791EA0BE (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26336,7 +26336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t585AC35FCF01B4C1A534E6F
 		return L_0;
 	}
 }
-// Method Definition Index: 29019
+// Method Definition Index: 28992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_CreateImplementation_mF096AFF34B19B8420FAA77909F2025C3AC39D96C (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26359,7 +26359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_CreateImplem
 		return;
 	}
 }
-// Method Definition Index: 29020
+// Method Definition Index: 28993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DisposeImplementation_mDEAE4BD155CF17D9964EC8E3A3C44500464EA9EC (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26396,7 +26396,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 29021
+// Method Definition Index: 28994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_Dispose_m826264AB3DB0C8D4AD22DC571808DED31118853D (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26406,7 +26406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_Dispose_m826
 		return;
 	}
 }
-// Method Definition Index: 29022
+// Method Definition Index: 28995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_CreateImplementation_mE7889C2A8520466BB548983C97E196A21DBC9EFB (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -26428,7 +26428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29023
+// Method Definition Index: 28996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_DestroyImplementation_m3630C110158322A6FE79DE288AB8C59ED6794410 (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -26449,7 +26449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	#endif
 
 }
-// Method Definition Index: 29024
+// Method Definition Index: 28997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetBoolean_m31A86FF61B928DC0E048EF8BB7DFDD0439FC8397 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint8_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint8_t, intptr_t*);
@@ -26482,7 +26482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumPropertyTableProperty_DotNet_Ce
 
 	return returnValue;
 }
-// Method Definition Index: 29025
+// Method Definition Index: 28998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetSByte_mD0014F76DDD0122EAB66B4F170BB34D86B60A82F (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int8_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int8_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int8_t, intptr_t*);
@@ -26515,7 +26515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t CesiumPropertyTableProperty_DotNet_Ces
 
 	return returnValue;
 }
-// Method Definition Index: 29026
+// Method Definition Index: 28999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetByte_mECF333C01196CCF759E85855E238F186E662E269 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint8_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint8_t, intptr_t*);
@@ -26548,7 +26548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumPropertyTableProperty_DotNet_Ce
 
 	return returnValue;
 }
-// Method Definition Index: 29027
+// Method Definition Index: 29000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt16_m5207780A21C1C8253398D4A514D999A88C700CBB (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int16_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int16_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int16_t, intptr_t*);
@@ -26581,7 +26581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t CesiumPropertyTableProperty_DotNet_Ce
 
 	return returnValue;
 }
-// Method Definition Index: 29028
+// Method Definition Index: 29001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt16_m826084C362D7BBF5B56172C2E1AB09A9E282D851 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint16_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint16_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint16_t, intptr_t*);
@@ -26614,7 +26614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29029
+// Method Definition Index: 29002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt32_mA3A4D15BEF4E989E21187AAC0BE4C7F76212FA5B (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int32_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int32_t, intptr_t*);
@@ -26647,7 +26647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumPropertyTableProperty_DotNet_Ce
 
 	return returnValue;
 }
-// Method Definition Index: 29030
+// Method Definition Index: 29003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt32_m828B2B389302632766DF1B7434BE558ACD587E91 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint32_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint32_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint32_t, intptr_t*);
@@ -26680,7 +26680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29031
+// Method Definition Index: 29004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt64_m31418F1A4EF8C1680B93166F5B032AA446BE851D (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int64_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int64_t, intptr_t*);
@@ -26713,7 +26713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumPropertyTableProperty_DotNet_Ce
 
 	return returnValue;
 }
-// Method Definition Index: 29032
+// Method Definition Index: 29005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt64_m4B825D1E0FFDA1E1F84C5EC8E248BBDD805D6E7A (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint64_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint64_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint64_t, intptr_t*);
@@ -26746,7 +26746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29033
+// Method Definition Index: 29006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat_mE1736F075D3D0595C3A9D0728E2D4A2280670617 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float, intptr_t*);
@@ -26779,7 +26779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumPropertyTableProperty_DotNet_Cesi
 
 	return returnValue;
 }
-// Method Definition Index: 29034
+// Method Definition Index: 29007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble_m830F7196C5501D124573E2965064999CAA3ECAAB (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef double (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double, intptr_t*);
@@ -26812,7 +26812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumPropertyTableProperty_DotNet_Ces
 
 	return returnValue;
 }
-// Method Definition Index: 29035
+// Method Definition Index: 29008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt2_m52CAE7E1272D3F683B87FF8B36D88CD725B3C832 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___3_defaultValue, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*, intptr_t*);
@@ -26844,7 +26844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29036
+// Method Definition Index: 29009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt2_m29E7AFE5B7F421787F4D5DC1F7C086D4A4F19931 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* ___3_defaultValue, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*, intptr_t*);
@@ -26876,7 +26876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29037
+// Method Definition Index: 29010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat2_mE124C5343E87B10C7A84099447352BC17560331B (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___3_defaultValue, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*, intptr_t*);
@@ -26908,7 +26908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29038
+// Method Definition Index: 29011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble2_m46A2D7364133A783B13AAD3A96898CD2545F072A (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* ___3_defaultValue, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA*, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA*, intptr_t*);
@@ -26940,7 +26940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29039
+// Method Definition Index: 29012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt3_mEAE834F0C5791C2BEE9E195ADEF8CF529C2B96EF (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* ___3_defaultValue, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*, intptr_t*);
@@ -26972,7 +26972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29040
+// Method Definition Index: 29013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt3_mEE519CC23EC05EDC90ABA4E9A1AB7F9F33987913 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* ___3_defaultValue, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*, intptr_t*);
@@ -27004,7 +27004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29041
+// Method Definition Index: 29014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat3_mFFE4391704DFAB0AF9FAB1AF505FE96627C0D846 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___3_defaultValue, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*, intptr_t*);
@@ -27036,7 +27036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29042
+// Method Definition Index: 29015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble3_m422C56B744C95700D82B4C81ADD9193BB1555E35 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___3_defaultValue, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
@@ -27068,7 +27068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29043
+// Method Definition Index: 29016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt4_m5C21C6B7537B6EED8BF5B258C67E6A6445938CA9 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___3_defaultValue, int4_tBA77D4945786DE82C3A487B33955EA1004996052* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int4_tBA77D4945786DE82C3A487B33955EA1004996052*, int4_tBA77D4945786DE82C3A487B33955EA1004996052*, intptr_t*);
@@ -27100,7 +27100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29044
+// Method Definition Index: 29017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt4_m23969D102AE6777F932B7B5F13F0B11BC5808024 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* ___3_defaultValue, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*, intptr_t*);
@@ -27132,7 +27132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29045
+// Method Definition Index: 29018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat4_m1E45C5ACA9E201782F33CF79648D1D45BDD7E5AD (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___3_defaultValue, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float4_t89D9A294E7A79BD81BFBDD18654508532958555E*, float4_t89D9A294E7A79BD81BFBDD18654508532958555E*, intptr_t*);
@@ -27164,7 +27164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29046
+// Method Definition Index: 29019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble4_m4A13054BAD53BEAB3B13BA0A9AEBF8F50B931BED (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* ___3_defaultValue, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5*, intptr_t*);
@@ -27196,7 +27196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29047
+// Method Definition Index: 29020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt2x2_mB5EB45B8CBD31F170324D9470820641905840806 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C* ___3_defaultValue, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C*, int2x2_t17F286A5630F71C04FD8E0EE638511920632F96C*, intptr_t*);
@@ -27228,7 +27228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29048
+// Method Definition Index: 29021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt2x2_m7DAFFF0F9A737F706A1ADF0BCAA6F8EE2B27C4F5 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47* ___3_defaultValue, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47*, uint2x2_t38E65B3AF97BF0CD1995A2D4F30678CD8DB17D47*, intptr_t*);
@@ -27260,7 +27260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29049
+// Method Definition Index: 29022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat2x2_m7D6078AFFFB4D9C87085B869D85C16B1B0D4CFF9 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D* ___3_defaultValue, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D*, float2x2_tB6D2DDE228BF5637B246C8C4567891AAD7B4229D*, intptr_t*);
@@ -27292,7 +27292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29050
+// Method Definition Index: 29023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble2x2_m0420E3EF727441044A5D97FED47D3D680FE7A69F (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF* ___3_defaultValue, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF*, double2x2_tBA779589F1439181F5BB252AE4279B8FE610ECAF*, intptr_t*);
@@ -27324,7 +27324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29051
+// Method Definition Index: 29024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt3x3_m6A3F41281B4E5FB891D429C68CC68A07CB269025 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D* ___3_defaultValue, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D*, int3x3_t13D01CE74FC1C8F9D5C5ECC9A9AC07A5F944B53D*, intptr_t*);
@@ -27356,7 +27356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29052
+// Method Definition Index: 29025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt3x3_m1AFD8BBD1EFA3EF85860C4FC70820E7D14986C84 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB* ___3_defaultValue, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB*, uint3x3_t81BE0E4B763F2FE3A436375721114F27758A37EB*, intptr_t*);
@@ -27388,7 +27388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29053
+// Method Definition Index: 29026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat3x3_mDC37C725682D3E90E4A362F330B418E3EA77CCEB (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* ___3_defaultValue, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79*, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79*, intptr_t*);
@@ -27420,7 +27420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29054
+// Method Definition Index: 29027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble3x3_mB9631A983E7671F09165D420E86F94416BE5BFCE (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* ___3_defaultValue, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0*, double3x3_t3FC5A5668AD878A74586326751AF9BE7B1CEBBB0*, intptr_t*);
@@ -27452,7 +27452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29055
+// Method Definition Index: 29028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetInt4x4_mF6EC4D143B639780F7E41720F104DC8BA1829962 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30* ___3_defaultValue, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30*, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30*, intptr_t*);
@@ -27484,7 +27484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29056
+// Method Definition Index: 29029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetUInt4x4_m2650FF40387FCDD733125EE9BE48E8FA0F01FB8C (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A* ___3_defaultValue, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A*, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A*, intptr_t*);
@@ -27516,7 +27516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29057
+// Method Definition Index: 29030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetFloat4x4_m9511AF6DBA9B33CDC9B6492F9E3504DB27880EB8 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* ___3_defaultValue, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*, intptr_t*);
@@ -27548,7 +27548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29058
+// Method Definition Index: 29031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetDouble4x4_m5EE5E41819BFD78BA4FBB81F0B1355089F9FB735 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* ___3_defaultValue, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C*, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C*, intptr_t*);
@@ -27580,7 +27580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_DotNet_Cesiu
 	}
 
 }
-// Method Definition Index: 29059
+// Method Definition Index: 29032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetString_m10D6E4B4A00ED2814A01AF48C4B83BC47BF4D996 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, intptr_t ___3_defaultValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, intptr_t, intptr_t*);
@@ -27613,7 +27613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29060
+// Method Definition Index: 29033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetArray_m0F39C734A9439E3F4CB522ED1727F3A023347D9C (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, intptr_t*);
@@ -27646,7 +27646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29061
+// Method Definition Index: 29034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetValue_m74C917E0E7138359C11ACE7FC64CEBAA93B8AB4E (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, intptr_t*);
@@ -27679,7 +27679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_C
 
 	return returnValue;
 }
-// Method Definition Index: 29062
+// Method Definition Index: 29035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_CesiumForUnity_CesiumPropertyTableProperty_GetRawValue_m5998D01F3404CEEE1A123E9BE6C78BDA4297A745 (intptr_t ___0_thiz, ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* ___1_implementation, int64_t ___2_featureID, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, void*, int64_t, intptr_t*);
@@ -27720,7 +27720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumPropertyTableProperty_DotNet_C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29063
+// Method Definition Index: 29036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mA2F3B93F1FE5E93F4E87443F74590A7DF6137686 (ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* __this, CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -27737,7 +27737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_mA2F3B93F1FE5
 		return;
 	}
 }
-// Method Definition Index: 29064
+// Method Definition Index: 29037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m4558EF4B209E654C8123706D644D1DF44C8C0D8D (ImplementationHandle_t585AC35FCF01B4C1A534E6FF269528196DB80D17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27756,7 +27756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m4558
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29065
+// Method Definition Index: 29038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_add_OnCesiumRasterOverlayLoadFailure_m329F679FB30AB7B476EC861C27CE13A601ABD5A1 (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27799,7 +27799,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 29066
+// Method Definition Index: 29039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_remove_OnCesiumRasterOverlayLoadFailure_m6ABEDD68104E130FF71C836BD998A205633F6670 (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27842,7 +27842,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 29067
+// Method Definition Index: 29040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_BroadcastCesiumRasterOverlayLoadFailure_mED5E09D307AD5C6488E3D6C18317766588DAC4BA (CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572 ___0_details, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27873,7 +27873,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 29068
+// Method Definition Index: 29041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumRasterOverlay_get_materialKey_m01C860703AF3322DB66F6AD95BD1BAE64F299B1C (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27882,7 +27882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumRasterOverlay_get_materialKey
 		return L_0;
 	}
 }
-// Method Definition Index: 29069
+// Method Definition Index: 29042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_materialKey_mA6D9626F0B475AF97B323B34A6FDE4B57C4C9FFD (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27896,7 +27896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_materialKey_mA6D
 		return;
 	}
 }
-// Method Definition Index: 29070
+// Method Definition Index: 29043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumRasterOverlay_get_showCreditsOnScreen_mC949EB90AC2EFA5E1FD49A42EC778B04526E23E9 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27905,7 +27905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumRasterOverlay_get_showCreditsOnScr
 		return L_0;
 	}
 }
-// Method Definition Index: 29071
+// Method Definition Index: 29044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_showCreditsOnScreen_m4CFB408B06CE8F97327E570207577FC22BBDC3A1 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27918,7 +27918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_showCreditsOnScr
 		return;
 	}
 }
-// Method Definition Index: 29072
+// Method Definition Index: 29045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumRasterOverlay_get_maximumScreenSpaceError_m93C50E99CE08FAED0810BD27915D1A0EC61D7635 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27927,7 +27927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumRasterOverlay_get_maximumScreenSp
 		return L_0;
 	}
 }
-// Method Definition Index: 29073
+// Method Definition Index: 29046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_maximumScreenSpaceError_m28102085EF9695459647C7297C883C754C4B3D20 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27940,7 +27940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_maximumScreenSpa
 		return;
 	}
 }
-// Method Definition Index: 29074
+// Method Definition Index: 29047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumRasterOverlay_get_maximumTextureSize_m1D39F29352C3B7DAF1A19D705C989D92ED6F9ABD (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27949,7 +27949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumRasterOverlay_get_maximumTextur
 		return L_0;
 	}
 }
-// Method Definition Index: 29075
+// Method Definition Index: 29048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_maximumTextureSize_m302B530A327F3C99608EC3CDE09C177CE8302DCB (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27962,7 +27962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_maximumTextureSi
 		return;
 	}
 }
-// Method Definition Index: 29076
+// Method Definition Index: 29049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumRasterOverlay_get_maximumSimultaneousTileLoads_m23795A385A6002C15C43BBA30CA44CD4A728700D (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27971,7 +27971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumRasterOverlay_get_maximumSimult
 		return L_0;
 	}
 }
-// Method Definition Index: 29077
+// Method Definition Index: 29050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_maximumSimultaneousTileLoads_m9D336B4D5E6D971AFEB75A19DBCE4699DBF88D52 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27984,7 +27984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_maximumSimultane
 		return;
 	}
 }
-// Method Definition Index: 29078
+// Method Definition Index: 29051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumRasterOverlay_get_subTileCacheBytes_m2DFCA07BAB4A576AFE8C4594CDF9E44DA23FF2C5 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27993,7 +27993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumRasterOverlay_get_subTileCacheB
 		return L_0;
 	}
 }
-// Method Definition Index: 29079
+// Method Definition Index: 29052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_subTileCacheBytes_mA5B72D08FF60C5EE870C6F52BB4B00204E66A963 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -28006,7 +28006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_set_subTileCacheByte
 		return;
 	}
 }
-// Method Definition Index: 29080
+// Method Definition Index: 29053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_AddToTileset_mBD945B69FD8991E84A1F728AEF41F82390574526 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28053,7 +28053,7 @@ IL_0016:
 		return;
 	}
 }
-// Method Definition Index: 29081
+// Method Definition Index: 29054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_RemoveFromTileset_m88548824BB26EA62CC1BBF4648EF8394003D5BD8 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28096,7 +28096,7 @@ IL_0016:
 		return;
 	}
 }
-// Method Definition Index: 29082
+// Method Definition Index: 29055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_Refresh_mB368EFFDB8862E09B85CE8716B13F6F0B75AA168 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28121,7 +28121,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 29083
+// Method Definition Index: 29056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_OnEnable_mFABC379CE360776F5EDB4F62639F7D576311FE21 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28131,7 +28131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_OnEnable_mFABC379CE3
 		return;
 	}
 }
-// Method Definition Index: 29084
+// Method Definition Index: 29057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_OnDisable_mC3B8CA58C68A994C51ECB646D3CD1B5B23769323 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28141,7 +28141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_OnDisable_mC3B8CA58C
 		return;
 	}
 }
-// Method Definition Index: 29085
+// Method Definition Index: 29058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_OnValidate_m1956EA840D80FB4B4200DEEA5805B0CCEEBD5AFA (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28151,7 +28151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay_OnValidate_m1956EA84
 		return;
 	}
 }
-// Method Definition Index: 29088
+// Method Definition Index: 29061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlay__ctor_mBF08B99B21CEFD240A84AE711451E8270BCE8FA1 (CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28205,7 +28205,7 @@ void RasterOverlayLoadFailureDelegate_Invoke_m60F27809E037FD856656FA127F093CD60F
 	typedef void (*FunctionPointerType) (CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_details, method);
 }
-// Method Definition Index: 29089
+// Method Definition Index: 29062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterOverlayLoadFailureDelegate__ctor_m905F40EE095BDEA75371FEA9EC3EA9EF2A4093D0 (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -28234,13 +28234,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterOverlayLoadFailureDelegate__ctor_m
 	}
 	__this->___extra_arg = (intptr_t)&RasterOverlayLoadFailureDelegate_Invoke_m60F27809E037FD856656FA127F093CD60F9AEA6F_Multicast;
 }
-// Method Definition Index: 29090
+// Method Definition Index: 29063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterOverlayLoadFailureDelegate_Invoke_m60F27809E037FD856656FA127F093CD60F9AEA6F (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* __this, CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572 ___0_details, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_details, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 29091
+// Method Definition Index: 29064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RasterOverlayLoadFailureDelegate_BeginInvoke_m288C0CD2FB3956C530CA088800150A503F54F777 (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* __this, CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572 ___0_details, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28253,7 +28253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RasterOverlayLoadFailureDelega
 	__d_args[0] = Box(CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572_il2cpp_TypeInfo_var, &___0_details);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 29092
+// Method Definition Index: 29065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterOverlayLoadFailureDelegate_EndInvoke_m20B18D5DA2E51BD4A2139F9DAE51EF48624A1DED (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -28328,7 +28328,7 @@ IL2CPP_EXTERN_C void CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628B
 IL2CPP_EXTERN_C void CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572_marshal_com_cleanup(CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 29093
+// Method Definition Index: 29066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRasterOverlayLoadFailureDetails__ctor_m7B549B223C0900D543C6B7E82A7FEC09A46FE0A3 (CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572* __this, CesiumRasterOverlay_t215C3071149D6D1FB222192FC3DB34D0723C3FA6* ___0_overlay, int32_t ___1_type, int64_t ___2_httpStatusCode, String_t* ___3_message, const RuntimeMethod* method) 
 {
 	{
@@ -28365,7 +28365,7 @@ IL2CPP_EXTERN_C  void CesiumRasterOverlayLoadFailureDetails__ctor_m7B549B223C090
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29094
+// Method Definition Index: 29067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumRuntimeSettings_tC0E914882DCA741E27B483A653F8C7A4709D9B17* CesiumRuntimeSettings_get_instance_mA63CA4CB38A995319E5C5049DCCCE26579E5062C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28438,7 +28438,7 @@ IL_0048:
 		return L_7;
 	}
 }
-// Method Definition Index: 29095
+// Method Definition Index: 29068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumRuntimeSettings_get_defaultIonAccessTokenID_m7FD599F0F791F956A8191263B5C1DE5D4434B30A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28457,7 +28457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumRuntimeSettings_get_defaultIo
 		return L_1;
 	}
 }
-// Method Definition Index: 29096
+// Method Definition Index: 29069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumRuntimeSettings_get_defaultIonAccessToken_m800E565A7100601BADD13EEB324765661296433B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28476,7 +28476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumRuntimeSettings_get_defaultIo
 		return L_1;
 	}
 }
-// Method Definition Index: 29097
+// Method Definition Index: 29070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumRuntimeSettings_get_requestsPerCachePrune_m30A573260FEBD4AD7780AACC25B4ABC57216D396 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28495,7 +28495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumRuntimeSettings_get_requestsPer
 		return L_1;
 	}
 }
-// Method Definition Index: 29098
+// Method Definition Index: 29071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumRuntimeSettings_get_maxItems_mFC124311867F4058B4707C59FCEB11019D1D1E7F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28514,7 +28514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumRuntimeSettings_get_maxItems_m
 		return L_1;
 	}
 }
-// Method Definition Index: 29099
+// Method Definition Index: 29072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRuntimeSettings__ctor_mAE1EB45ACE0986ACBA71F277D4E83E6E6F5D6835 (CesiumRuntimeSettings_tC0E914882DCA741E27B483A653F8C7A4709D9B17* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28538,7 +28538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRuntimeSettings__ctor_mAE1EB45ACE0
 		return;
 	}
 }
-// Method Definition Index: 29100
+// Method Definition Index: 29073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRuntimeSettings__cctor_m57562410A30C0136A74A5D18EB8AB4AFB92CB94A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28572,7 +28572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumRuntimeSettings__cctor_m57562410A3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29101
+// Method Definition Index: 29074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3U5BU5D_t25DA3EA29F5BDE12481281D342597B8AA36CB257* CesiumSampleHeightResult_get_longitudeLatitudeHeightPositions_m478825CBA6AF37900FF09D241567564EE02D329F (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28581,7 +28581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3U5BU5D_t25DA3EA29F5BDE12481281D342597B
 		return L_0;
 	}
 }
-// Method Definition Index: 29102
+// Method Definition Index: 29075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult_set_longitudeLatitudeHeightPositions_m93C7C0B9AB3DFA465A24325E48DE805D89FD5FB9 (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, double3U5BU5D_t25DA3EA29F5BDE12481281D342597B8AA36CB257* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -28592,7 +28592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult_set_longitudeLa
 		return;
 	}
 }
-// Method Definition Index: 29103
+// Method Definition Index: 29076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* CesiumSampleHeightResult_get_sampleSuccess_mD5B3F7CC1EE65D5C59A3A85B3DCF32B0660B85D0 (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28601,7 +28601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3
 		return L_0;
 	}
 }
-// Method Definition Index: 29104
+// Method Definition Index: 29077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult_set_sampleSuccess_m31220810DF03A9DF3063FF2FDAC54A659F4C13AD (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -28612,7 +28612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult_set_sampleSucce
 		return;
 	}
 }
-// Method Definition Index: 29105
+// Method Definition Index: 29078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* CesiumSampleHeightResult_get_warnings_mFEF70E65162A48B953F7CE54F23E6960D3D45A25 (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28621,7 +28621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		return L_0;
 	}
 }
-// Method Definition Index: 29106
+// Method Definition Index: 29079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult_set_warnings_m0E77E7EA6C8FBF2B6F489BBB55F66A714EFF9766 (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -28632,7 +28632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult_set_warnings_m0
 		return;
 	}
 }
-// Method Definition Index: 29107
+// Method Definition Index: 29080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult__ctor_m60BB249019B43EE5174C52C200C3B1FDD048E908 (CesiumSampleHeightResult_t62CFC50E929F8562AADE74CBBD97C5FD100FFD94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28648,7 +28648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSampleHeightResult__ctor_m60BB2490
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29108
+// Method Definition Index: 29081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* CesiumSimplePlanarEllipsoidCurve_FromEarthCenteredEarthFixedCoordinates_m35325F4F4C62B41AE432CA8323ADEC532F654C81 (CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_sourceEcef, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_destinationEcef, const RuntimeMethod* method) 
 {
 	{
@@ -28661,7 +28661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0
 		return L_3;
 	}
 }
-// Method Definition Index: 29109
+// Method Definition Index: 29082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* CesiumSimplePlanarEllipsoidCurve_FromCenteredFixedCoordinates_m0EBCF4750F4859377557E8C8192DE69D41CAA907 (CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_sourceEcef, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_destinationEcef, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28701,7 +28701,7 @@ IL_0013:
 		return L_6;
 	}
 }
-// Method Definition Index: 29110
+// Method Definition Index: 29083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* CesiumSimplePlanarEllipsoidCurve_FromLongituteLatitudeHeight_mBA57FCD4ED8686D09EDA9DC489501DC99D3A7987 (CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_sourceLlh, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_destinationLlh, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28741,7 +28741,7 @@ IL_0013:
 		return L_6;
 	}
 }
-// Method Definition Index: 29111
+// Method Definition Index: 29084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumSimplePlanarEllipsoidCurve_GetPosition_m533D842DD8B53991F533B615958A18823078FEA9 (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, double ___0_percentage, double ___1_additionalHeight, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -28812,7 +28812,7 @@ IL_0060:
 		return L_12;
 	}
 }
-// Method Definition Index: 29112
+// Method Definition Index: 29085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumSimplePlanarEllipsoidCurve_CreateFromCenteredFixed_m245608528A2F68210DD59A70FED8FD0155F14C5C (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_sourceEcef, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_destinationEcef, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -28884,7 +28884,7 @@ IL_005f:
 		return (bool)((!(((uint32_t)G_B5_0) <= ((uint32_t)0)))? 1 : 0);
 	}
 }
-// Method Definition Index: 29113
+// Method Definition Index: 29086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumSimplePlanarEllipsoidCurve_CreateFromLongitudeLatitudeHeight_m53D318A063A781DCBE444CBEEB771292D02274A5 (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_sourceLlh, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_destinationLlh, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -28956,7 +28956,7 @@ IL_005f:
 		return (bool)((!(((uint32_t)G_B5_0) <= ((uint32_t)0)))? 1 : 0);
 	}
 }
-// Method Definition Index: 29114
+// Method Definition Index: 29087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve__ctor_mD0FCA173A4D06F3AAAEEBD16E9ABC8FC5937D599 (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28968,7 +28968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve__ctor_m
 		return;
 	}
 }
-// Method Definition Index: 29115
+// Method Definition Index: 29088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t63C576AAD0BDD415763D061BEE4ED851819C8C8D* CesiumSimplePlanarEllipsoidCurve_get_NativeImplementation_m53A726E76E0F73D3AEB2608F58E1BA5C3DE12A72 (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28977,7 +28977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t63C576AAD0BDD415763D061
 		return L_0;
 	}
 }
-// Method Definition Index: 29116
+// Method Definition Index: 29089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_CreateImplementation_mC6777FA772B089FDA45C4B2BBD0EB96324581BA8 (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29000,7 +29000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_CreateI
 		return;
 	}
 }
-// Method Definition Index: 29117
+// Method Definition Index: 29090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_DisposeImplementation_mE72BD2B7205531BEC4743C7A4DBA2E6A0B095FAD (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29037,7 +29037,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 29118
+// Method Definition Index: 29091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_Dispose_mDD24304A41E9BEE390B65854255D9E1D7A6EB47B (CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29047,7 +29047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_Dispose
 		return;
 	}
 }
-// Method Definition Index: 29119
+// Method Definition Index: 29092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumSimplePlanarEllipsoidCurve_DotNet_CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CreateImplementation_mCE99DB5990C98BADA40A295D7F5F5C3C5A080238 (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -29069,7 +29069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumSimplePlanarEllipsoidCurve_Dot
 
 	return returnValue;
 }
-// Method Definition Index: 29120
+// Method Definition Index: 29093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_DotNet_CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_DestroyImplementation_mADB531D834C98D8BA3B11AB5C715C6F771C2837F (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -29090,7 +29090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_DotNet_
 	#endif
 
 }
-// Method Definition Index: 29121
+// Method Definition Index: 29094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_DotNet_CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_GetPosition_m2BDFD7A9C82B1C42892AF99760974BFBC52DEBA3 (intptr_t ___0_thiz, ImplementationHandle_t63C576AAD0BDD415763D061BEE4ED851819C8C8D* ___1_implementation, double ___2_percentage, double ___3_additionalHeight, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, double, double, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
@@ -29122,7 +29122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSimplePlanarEllipsoidCurve_DotNet_
 	}
 
 }
-// Method Definition Index: 29122
+// Method Definition Index: 29095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumSimplePlanarEllipsoidCurve_DotNet_CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CreateFromCenteredFixed_m25DD0356A5754DD6B7F29BBA5009C337464FFFB6 (intptr_t ___0_thiz, ImplementationHandle_t63C576AAD0BDD415763D061BEE4ED851819C8C8D* ___1_implementation, intptr_t ___2_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___3_sourceEcef, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___4_destinationEcef, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
@@ -29155,7 +29155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumSimplePlanarEllipsoidCurve_DotN
 
 	return returnValue;
 }
-// Method Definition Index: 29123
+// Method Definition Index: 29096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumSimplePlanarEllipsoidCurve_DotNet_CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CreateFromLongitudeLatitudeHeight_m73F9FC0171DC1F1E6FEADDFB0BDB8ADC725037D2 (intptr_t ___0_thiz, ImplementationHandle_t63C576AAD0BDD415763D061BEE4ED851819C8C8D* ___1_implementation, intptr_t ___2_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___3_sourceLlh, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___4_destinationLlh, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*);
@@ -29196,7 +29196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumSimplePlanarEllipsoidCurve_DotN
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29124
+// Method Definition Index: 29097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m238CE40A8640FD8BCF2A4AB84163041A7891C4D5 (ImplementationHandle_t63C576AAD0BDD415763D061BEE4ED851819C8C8D* __this, CesiumSimplePlanarEllipsoidCurve_t59A6DC855E0603AAA715E7D2F486E70A93F03A59* ___0_managed, const RuntimeMethod* method) 
 {
 	{
@@ -29213,7 +29213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImplementationHandle__ctor_m238CE40A8640
 		return;
 	}
 }
-// Method Definition Index: 29125
+// Method Definition Index: 29098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m10E254C7FAEC79E382631503C3D08B3BC49BE04C (ImplementationHandle_t63C576AAD0BDD415763D061BEE4ED851819C8C8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29232,7 +29232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImplementationHandle_ReleaseHandle_m10E2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29126
+// Method Definition Index: 29099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_activationRadius_mF54B17A6484354DFA2B5BF162E70D3BF9BEE440F (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29241,7 +29241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_activationRadius_mF
 		return L_0;
 	}
 }
-// Method Definition Index: 29127
+// Method Definition Index: 29100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_activationRadius_m65A0BF22C46FFCB162443CDFE4E159092DABA9F7 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29252,7 +29252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_activationRadius_m65A
 		return;
 	}
 }
-// Method Definition Index: 29128
+// Method Definition Index: 29101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumSubScene_get_showActivationRadius_mC12A4DBB4A68260FEBCB644D2B97833372BA6D0B (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29261,7 +29261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumSubScene_get_showActivationRadius_
 		return L_0;
 	}
 }
-// Method Definition Index: 29129
+// Method Definition Index: 29102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_showActivationRadius_mF4486005BE9C63CA8BCF3E17F592C12AF7C46C09 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29271,7 +29271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_showActivationRadius_
 		return;
 	}
 }
-// Method Definition Index: 29130
+// Method Definition Index: 29103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumSubScene_get_originAuthority_mEF66B444989512F7573B2AAB231B0EEE2CB9E40F (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29280,7 +29280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumSubScene_get_originAuthority_mE
 		return L_0;
 	}
 }
-// Method Definition Index: 29131
+// Method Definition Index: 29104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_originAuthority_mA053181FA1D5E8963A20C9820EB48699A4664364 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29293,7 +29293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_originAuthority_mA053
 		return;
 	}
 }
-// Method Definition Index: 29132
+// Method Definition Index: 29105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_latitude_mA0290204980B2EC581D5D18C7676AA7647E519D4 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29302,7 +29302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_latitude_mA02902049
 		return L_0;
 	}
 }
-// Method Definition Index: 29133
+// Method Definition Index: 29106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_latitude_m2915D121C4AC1B10CAE173995E989DD2CBAF2CA6 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29315,7 +29315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_latitude_m2915D121C4A
 		return;
 	}
 }
-// Method Definition Index: 29134
+// Method Definition Index: 29107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_longitude_mCE7895DB74583D570E8499420EE62E61847E3849 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29324,7 +29324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_longitude_mCE7895DB
 		return L_0;
 	}
 }
-// Method Definition Index: 29135
+// Method Definition Index: 29108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_longitude_m2D530EC52425BAC17FEC5F73476DE3411664EAA8 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29337,7 +29337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_longitude_m2D530EC524
 		return;
 	}
 }
-// Method Definition Index: 29136
+// Method Definition Index: 29109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_height_m1AF05A956D106CF0B39D220B94A44AA991F4D0B5 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29346,7 +29346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_height_m1AF05A956D1
 		return L_0;
 	}
 }
-// Method Definition Index: 29137
+// Method Definition Index: 29110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_height_mA5CCD60141731AAFCE18C105D4B934AD6828595C (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29359,7 +29359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_height_mA5CCD60141731
 		return;
 	}
 }
-// Method Definition Index: 29138
+// Method Definition Index: 29111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefX_mD86A6CE5842881A821DE60C2036E71D042CC2036 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29368,7 +29368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefX_mD86A6CE58428
 		return L_0;
 	}
 }
-// Method Definition Index: 29139
+// Method Definition Index: 29112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_ecefX_mC116EB9CD28FEF332C25245BE00F4D123ED4A747 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29381,7 +29381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_ecefX_mC116EB9CD28FEF
 		return;
 	}
 }
-// Method Definition Index: 29140
+// Method Definition Index: 29113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefY_m1EFC19306F87F4A982BDA589D818F8594884BCE7 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29390,7 +29390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefY_m1EFC19306F87
 		return L_0;
 	}
 }
-// Method Definition Index: 29141
+// Method Definition Index: 29114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_ecefY_m89AD3402AB7E4E037FBCBB5459BA4B5F756097A0 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29403,7 +29403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_ecefY_m89AD3402AB7E4E
 		return;
 	}
 }
-// Method Definition Index: 29142
+// Method Definition Index: 29115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefZ_m3878CBF813ADE5DEED42A47E93193FCA7C68A078 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29412,7 +29412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefZ_m3878CBF813AD
 		return L_0;
 	}
 }
-// Method Definition Index: 29143
+// Method Definition Index: 29116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_ecefZ_mE34D55337756FA75CF8C444D4881858CF80747C6 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29425,7 +29425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_set_ecefZ_mE34D55337756FA
 		return;
 	}
 }
-// Method Definition Index: 29144
+// Method Definition Index: 29117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_SetOriginEarthCenteredEarthFixed_m96664C58E29FD11F5E4707EFBC2116F4965E7882 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -29444,7 +29444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_SetOriginEarthCenteredEar
 		return;
 	}
 }
-// Method Definition Index: 29145
+// Method Definition Index: 29118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_SetOriginLongitudeLatitudeHeight_m71FE1665415DA9409E5107B1E6B27FBB0B9CB367 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, double ___0_longitude, double ___1_latitude, double ___2_height, const RuntimeMethod* method) 
 {
 	{
@@ -29463,7 +29463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_SetOriginLongitudeLatitud
 		return;
 	}
 }
-// Method Definition Index: 29146
+// Method Definition Index: 29119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_CopyParentCoordinates_m6ABDBA37F6CCCB1DDFD841FD17673B35194837C9 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29507,7 +29507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_CopyParentCoordinates_m6A
 		return;
 	}
 }
-// Method Definition Index: 29147
+// Method Definition Index: 29120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_DetachFromParentIfNeeded_m9C7940FB2C0CAACF0CF3D63DA97630B1E32E8586 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29547,7 +29547,7 @@ IL_002c:
 		return;
 	}
 }
-// Method Definition Index: 29148
+// Method Definition Index: 29121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_UpdateParentReference_m58947F83665AB3A9E382B5F31596192CD3C52CF9 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29596,7 +29596,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 29149
+// Method Definition Index: 29122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnValidate_mB3A6C43D55495CA014F4A7E4F8D749CF42578996 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29606,7 +29606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnValidate_mB3A6C43D55495
 		return;
 	}
 }
-// Method Definition Index: 29150
+// Method Definition Index: 29123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnEnable_m669537F1251662E20310D7C5104902C6A13E576E (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29706,7 +29706,7 @@ IL_004c:
 		return;
 	}
 }
-// Method Definition Index: 29151
+// Method Definition Index: 29124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnParentChanged_m70AEA82B437489423651FCAD40AA1B88177D2B8D (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29759,7 +29759,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 29152
+// Method Definition Index: 29125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnDisable_mFD5C3BBA93EF7AFF56A8572BAC00E78CF42A2FBF (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29769,7 +29769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnDisable_mFD5C3BBA93EF7A
 		return;
 	}
 }
-// Method Definition Index: 29153
+// Method Definition Index: 29126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnDestroy_m7607C75FA7F2BF057A5B5FCA2DBF0E88B7E1CA97 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29779,7 +29779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_OnDestroy_m7607C75FA7F2BF
 		return;
 	}
 }
-// Method Definition Index: 29154
+// Method Definition Index: 29127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_UpdateOtherCoordinates_m2C6F72DA7FEC0DEBBE9A7CF67A1F08F6A6A90285 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29915,7 +29915,7 @@ IL_00d6:
 		return;
 	}
 }
-// Method Definition Index: 29155
+// Method Definition Index: 29128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene_UpdateOrigin_m8EE1BE76D56461997D26717F1E0A0AA08261AD16 (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29999,7 +29999,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 29156
+// Method Definition Index: 29129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene__ctor_mE16F83913A2A748F55E4CB55D03B5FA22EEA108F (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30027,7 +30027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumSubScene__ctor_mE16F83913A2A748F55
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29158
+// Method Definition Index: 29131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_OnEnable_mFF4A13B7E736F32BEE62818292AB6E2A4B42DDA6 (CesiumTileExcluder_tF02993434E73D2A34893E5364363EFDD5078D4EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30081,7 +30081,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 29159
+// Method Definition Index: 29132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_OnDisable_m1B3F4456992703073011ED2B21BEAD10FF78718D (CesiumTileExcluder_tF02993434E73D2A34893E5364363EFDD5078D4EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30135,7 +30135,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 29160
+// Method Definition Index: 29133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_AddToTileset_m0BCB0C9B2FE2FE4B3B869EB8E99E78583830EF23 (CesiumTileExcluder_tF02993434E73D2A34893E5364363EFDD5078D4EC* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30182,7 +30182,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 29161
+// Method Definition Index: 29134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_RemoveFromTileset_mB8C2B223F4C6ED391F77219E76C4AC575F9F4717 (CesiumTileExcluder_tF02993434E73D2A34893E5364363EFDD5078D4EC* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30229,7 +30229,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 29162
+// Method Definition Index: 29135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_DotNet_CesiumForUnity_CesiumTileExcluder_AddToTileset_mF69284EFCD6E86E3370102E837EF139D55B5138A (intptr_t ___0_thiz, intptr_t ___1_tileset, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, intptr_t, intptr_t*);
@@ -30250,7 +30250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_DotNet_CesiumForUnity
 	#endif
 
 }
-// Method Definition Index: 29163
+// Method Definition Index: 29136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_DotNet_CesiumForUnity_CesiumTileExcluder_RemoveFromTileset_mFD4893AE928C18FAB902C601EFF1D7D23B49FD5E (intptr_t ___0_thiz, intptr_t ___1_tileset, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, intptr_t, intptr_t*);
@@ -30271,7 +30271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder_DotNet_CesiumForUnity
 	#endif
 
 }
-// Method Definition Index: 29164
+// Method Definition Index: 29137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder__ctor_m14966A6BCD048E362AD35BE8A985F59242D8200B (CesiumTileExcluder_tF02993434E73D2A34893E5364363EFDD5078D4EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30287,7 +30287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileExcluder__ctor_m14966A6BCD048E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 29165
+// Method Definition Index: 29138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumTileMapServiceRasterOverlay_get_url_mA3D90B423BF78649EB2D867D67F54F6E5D0D7FAF (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30296,7 +30296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CesiumTileMapServiceRasterOverlay_g
 		return L_0;
 	}
 }
-// Method Definition Index: 29166
+// Method Definition Index: 29139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_url_m6F575110A4C4E659FC0D4F499DE4A8CF861A89F8 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30310,7 +30310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_ur
 		return;
 	}
 }
-// Method Definition Index: 29167
+// Method Definition Index: 29140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumTileMapServiceRasterOverlay_get_specifyZoomLevels_m791B9557F009F4888E20D9E748DD78A52A0F672A (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30319,7 +30319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CesiumTileMapServiceRasterOverlay_get_sp
 		return L_0;
 	}
 }
-// Method Definition Index: 29168
+// Method Definition Index: 29141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_specifyZoomLevels_mFA6D5C93ACF7CA9C9339DAEFA8B4FD60988BBE1F (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30332,7 +30332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_sp
 		return;
 	}
 }
-// Method Definition Index: 29169
+// Method Definition Index: 29142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumTileMapServiceRasterOverlay_get_minimumLevel_m7DC6E298F3C460C63A25E8D0091E7E09E904D6F5 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30341,7 +30341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumTileMapServiceRasterOverlay_get
 		return L_0;
 	}
 }
-// Method Definition Index: 29170
+// Method Definition Index: 29143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_minimumLevel_m2FB9DC98996C1141A9314A4ABE4B5029E5A05C29 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30354,7 +30354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_mi
 		return;
 	}
 }
-// Method Definition Index: 29171
+// Method Definition Index: 29144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumTileMapServiceRasterOverlay_get_maximumLevel_m4C57B561BC7ABA0A9763D5787098AD2ED7FF5A14 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30363,7 +30363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumTileMapServiceRasterOverlay_get
 		return L_0;
 	}
 }
-// Method Definition Index: 29172
+// Method Definition Index: 29145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_maximumLevel_m78118F71A490D905C39F69509D6AF6789DA5B613 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30376,7 +30376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_set_ma
 		return;
 	}
 }
-// Method Definition Index: 29173
+// Method Definition Index: 29146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_AddToTileset_m599BEED2D3FA0E07382C7701588F69BE3AF73378 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -30443,7 +30443,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 29174
+// Method Definition Index: 29147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_RemoveFromTileset_m972E3917D80448731E8A78F0B7957EA8FF492296 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* ___0_tileset, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -30510,7 +30510,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 29175
+// Method Definition Index: 29148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD* CesiumTileMapServiceRasterOverlay_get_NativeImplementation_m5AC211029B05776F7E16F2CFA8403D4B4F978348 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30519,7 +30519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImplementationHandle_t15013B1F8138540C8B2BD19
 		return L_0;
 	}
 }
-// Method Definition Index: 29176
+// Method Definition Index: 29149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_CreateImplementation_mCC557FC1C6F43D141D3F03608BA759481F40C973 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30542,7 +30542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_Create
 		return;
 	}
 }
-// Method Definition Index: 29177
+// Method Definition Index: 29150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DisposeImplementation_mB4CF7C6F2CA318C79588547F710F681BAB34AFE3 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30579,7 +30579,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 29178
+// Method Definition Index: 29151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_Dispose_m36689D5180347F585C8D2C2D24E551C09C4A3113 (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30589,7 +30589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_Dispos
 		return;
 	}
 }
-// Method Definition Index: 29179
+// Method Definition Index: 29152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay__ctor_m13205A8D3C47824F0774F710E02E50E2A3B3F42B (CesiumTileMapServiceRasterOverlay_t1F481EFD3D3A33A76BCB77EC506D7F63DF404AC2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30612,7 +30612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay__ctor_
 		return;
 	}
 }
-// Method Definition Index: 29180
+// Method Definition Index: 29153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_CreateImplementation_mA476AD27477286AD369C62D0E1FC2E48F5D0EEBF (intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
@@ -30634,7 +30634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumTileMapServiceRasterOverlay_Do
 
 	return returnValue;
 }
-// Method Definition Index: 29181
+// Method Definition Index: 29154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_DestroyImplementation_m786E9D4A980EA7A9695BC389D40EFBB2FAD4FD44 (intptr_t ___0_implementation, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
@@ -30655,7 +30655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet
 	#endif
 
 }
-// Method Definition Index: 29182
+// Method Definition Index: 29155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_AddToTileset_m4316F16C4003F7E1351BCEC97DAFAFA8F5FDCE39 (intptr_t ___0_thiz, ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
@@ -30687,7 +30687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet
 	}
 
 }
-// Method Definition Index: 29183
+// Method Definition Index: 29156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet_CesiumForUnity_CesiumTileMapServiceRasterOverlay_RemoveFromTileset_m7702F3778C447A11C9AE827DFC902A6087DEF57E (intptr_t ___0_thiz, ImplementationHandle_t15013B1F8138540C8B2BD19EF83A6D9A759D16FD* ___1_implementation, intptr_t ___2_tileset, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, void*, intptr_t, intptr_t*);
@@ -30722,7 +30722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumTileMapServiceRasterOverlay_DotNet
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 6466
+// Method Definition Index: 6458
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SafeHandle_SetHandle_m003D64748F9DFBA1E3C0B23798C23BA81AA21C2A_inline (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, intptr_t ___0_handle, const RuntimeMethod* method) 
 {
 	{
@@ -30731,7 +30731,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SafeHandle_SetHandle_m003D64
 		return;
 	}
 }
-// Method Definition Index: 51586
+// Method Definition Index: 51490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
 {
 	{
@@ -30754,7 +30754,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E0
 		return L_12;
 	}
 }
-// Method Definition Index: 49631
+// Method Definition Index: 49535
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_lengthsq_m5C91CAD46D2A2A48D7B7EC6EA6F5B7221BE17134_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -30766,7 +30766,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_lengthsq_m5C91CAD46D2
 		return L_2;
 	}
 }
-// Method Definition Index: 49336
+// Method Definition Index: 49240
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_clamp_m39FE4EA2420B8DF536A1344B16D9E39EF5B7155F_inline (double ___0_valueToClamp, double ___1_lowerBound, double ___2_upperBound, const RuntimeMethod* method) 
 {
 	{
@@ -30781,7 +30781,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_clamp_m39FE4EA2420B8D
 		return L_4;
 	}
 }
-// Method Definition Index: 45541
+// Method Definition Index: 45435
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -30802,7 +30802,7 @@ IL_0010:
 		return L_4;
 	}
 }
-// Method Definition Index: 28330
+// Method Definition Index: 28303
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* CesiumFlyToController_get_flyToAltitudeProfileCurve_mE91EF5513DE5AF5BBB1848C311281798E1BBC4BF_inline (CesiumFlyToController_t2434F222326F0D0895D94B8CA35926AA960A5479* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30811,7 +30811,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF
 		return L_0;
 	}
 }
-// Method Definition Index: 28416
+// Method Definition Index: 28389
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_adjustOrientationForGlobeWhenMoving_mFAFCB8FBC2CF0B5B51C4857511BB29C5705E3305_inline (CesiumGlobeAnchor_t18DD4C77231D93751B3E62FFA7B2D4C8A1F42FC4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30821,7 +30821,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumGlobeAnchor_set_adjust
 		return;
 	}
 }
-// Method Definition Index: 28074
+// Method Definition Index: 28047
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumCameraController_set_enableRotation_m8ECA70B860E918783CA1D011BDBBF4499D48763C_inline (CesiumCameraController_t10F88FFBB7C8FC42884DD3EE67595435E3B76A37* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30831,19 +30831,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumCameraController_set_e
 		return;
 	}
 }
-// Method Definition Index: 28357
+// Method Definition Index: 28330
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CompletedFlightDelegate_Invoke_mDD0B122DF261B3AF2CC9162470BA574526B90B78_inline (CompletedFlightDelegate_tDCC933FB9C3F15F44DAA3076A63CF7C33AFAA836* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 28361
+// Method Definition Index: 28334
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InterruptedFlightDelegate_Invoke_m0E8391DD6D051E6C82331BFFD6ABE1DEA2A9CB32_inline (InterruptedFlightDelegate_t6B98ABD666DDA3AD68C18B07641E473EEC3796BE* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 45594
+// Method Definition Index: 45487
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -30894,7 +30894,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 45546
+// Method Definition Index: 45440
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -30920,7 +30920,7 @@ IL_001b:
 		return L_6;
 	}
 }
-// Method Definition Index: 49623
+// Method Definition Index: 49527
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -30934,7 +30934,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_m936CF76FF0C94
 		return L_3;
 	}
 }
-// Method Definition Index: 1592
+// Method Definition Index: 1588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Math_Clamp_m9B4F48122B570A11ACCB0F3BED59A37C6B499172_inline (double ___0_value, double ___1_min, double ___2_max, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30993,7 +30993,7 @@ IL_0017:
 		return L_10;
 	}
 }
-// Method Definition Index: 28188
+// Method Definition Index: 28161
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 CesiumEllipsoid_get_radii_mDF9C3C3B268362C9E2E70E73C05A527C0D8F0C92_inline (CesiumEllipsoid_t2BA63616DDEED4273830B48A1F9D7E30BF1D0649* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31002,7 +31002,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E0
 		return L_0;
 	}
 }
-// Method Definition Index: 52599
+// Method Definition Index: 52503
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool double4x4_Equals_mAAF7E53AE08776BCFE20EC87EC5B27AC41698F83_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_rhs, const RuntimeMethod* method) 
 {
 	{
@@ -31053,13 +31053,13 @@ IL_004b:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 602
+// Method Definition Index: 598
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 51554
+// Method Definition Index: 51458
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -31076,7 +31076,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_mDF4F1B3433836
 		return;
 	}
 }
-// Method Definition Index: 51950
+// Method Definition Index: 51854
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) 
 {
 	{
@@ -31099,7 +31099,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_mAAB30D5A18E63
 		return;
 	}
 }
-// Method Definition Index: 50068
+// Method Definition Index: 49972
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 math_mul_m15697BA79A02858D72C9114C635AF321624CBD0D_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_a, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_b, const RuntimeMethod* method) 
 {
 	{
@@ -31137,7 +31137,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F
 		return L_22;
 	}
 }
-// Method Definition Index: 52297
+// Method Definition Index: 52201
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double4_get_xyz_m1535A1EC6086B24AB7C384EF03935A4133194425_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31151,7 +31151,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E0
 		return L_3;
 	}
 }
-// Method Definition Index: 3242
+// Method Definition Index: 3235
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -31160,7 +31160,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 51944
+// Method Definition Index: 51848
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double ___0_x, double ___1_y, double ___2_z, double ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -31180,7 +31180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_m49D96B66F7E9E
 		return;
 	}
 }
-// Method Definition Index: 51609
+// Method Definition Index: 51513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_UnaryNegation_m3B5229A976BF4A013C6A872E9FA27100977BE9A6_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_val, const RuntimeMethod* method) 
 {
 	{
@@ -31197,7 +31197,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E0
 		return L_6;
 	}
 }
-// Method Definition Index: 45522
+// Method Definition Index: 45417
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -31216,7 +31216,7 @@ IL_000e:
 		return L_3;
 	}
 }
-// Method Definition Index: 45542
+// Method Definition Index: 45436
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -31235,7 +31235,7 @@ IL_000e:
 		return L_3;
 	}
 }
-// Method Definition Index: 28479
+// Method Definition Index: 28452
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntMat2x2_get_componentType_mEFB20017F882DAC98B48E56A772D49599E798BF5_inline (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31244,7 +31244,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntMat2x2_get_compo
 		return L_0;
 	}
 }
-// Method Definition Index: 28480
+// Method Definition Index: 28453
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_componentType_mCDD11ADEBD00B81CD42EE8038054C18D86D7ECCA_inline (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31254,7 +31254,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_componen
 		return;
 	}
 }
-// Method Definition Index: 28481
+// Method Definition Index: 28454
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumIntMat2x2_get_c0_m51561B360147BA29F421FB0BD1C022CC60C9ACFA_inline (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31263,7 +31263,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD
 		return L_0;
 	}
 }
-// Method Definition Index: 28482
+// Method Definition Index: 28455
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_c0_mD2A5A3056A6BD75AB1455CBE3A1086BB1B08C2F4_inline (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31273,7 +31273,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_c0_mD2A5
 		return;
 	}
 }
-// Method Definition Index: 28483
+// Method Definition Index: 28456
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 CesiumIntMat2x2_get_c1_m751A37DE2A04425B2E00F546D4D76CA45D731F89_inline (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31282,7 +31282,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec2_t5AA5BE0520E55153FD
 		return L_0;
 	}
 }
-// Method Definition Index: 28484
+// Method Definition Index: 28457
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_c1_m70C94E3B0C3F6F1546CAFD2DB68229C9F3201106_inline (CesiumIntMat2x2_t1AF359BD3BFAB3E8DCB25959D091ABE6CEE74308* __this, CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31292,7 +31292,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat2x2_set_c1_m70C9
 		return;
 	}
 }
-// Method Definition Index: 28545
+// Method Definition Index: 28518
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntVec2_get_componentType_m97BA494C768179511860AE781FDCAF315DFA6C2D_inline (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31301,7 +31301,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntVec2_get_compone
 		return L_0;
 	}
 }
-// Method Definition Index: 28488
+// Method Definition Index: 28461
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntMat3x3_get_componentType_mAE0D179B9AC5DB503CAB55D59737F7757C5ED76E_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31310,7 +31310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntMat3x3_get_compo
 		return L_0;
 	}
 }
-// Method Definition Index: 28489
+// Method Definition Index: 28462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_componentType_m7F5012A469858E82B58D13C53CB67997E070963D_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31320,7 +31320,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_componen
 		return;
 	}
 }
-// Method Definition Index: 28490
+// Method Definition Index: 28463
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_c0_m2878D60C71692D8C66403DAB2CCBDE7600D81647_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31329,7 +31329,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B
 		return L_0;
 	}
 }
-// Method Definition Index: 28491
+// Method Definition Index: 28464
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c0_m612148B1A942D34200AF566E522965D3A83D62BD_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31339,7 +31339,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c0_m6121
 		return;
 	}
 }
-// Method Definition Index: 28492
+// Method Definition Index: 28465
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_c1_m28AECC9CAEF745022D5314C51C6AC0FD6B9C8B0F_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31348,7 +31348,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B
 		return L_0;
 	}
 }
-// Method Definition Index: 28493
+// Method Definition Index: 28466
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c1_m3D720DD9CB13B281491AF66903F317AC014DAE04_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31358,7 +31358,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c1_m3D72
 		return;
 	}
 }
-// Method Definition Index: 28494
+// Method Definition Index: 28467
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE CesiumIntMat3x3_get_c2_m3AD7FB333BEA580E798D1A592C876A0FE3C6E96B_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31367,7 +31367,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec3_t09AD039170E568012B
 		return L_0;
 	}
 }
-// Method Definition Index: 28495
+// Method Definition Index: 28468
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c2_mAA33F39BC8E5D200CE0933486A38B4E47FC619B3_inline (CesiumIntMat3x3_t5CD76FE825F1E2897BCA61A1819B38C05EE8E56F* __this, CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31377,7 +31377,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat3x3_set_c2_mAA33
 		return;
 	}
 }
-// Method Definition Index: 28557
+// Method Definition Index: 28530
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntVec3_get_componentType_mA7AC852EDB3DF8646D72E84A12341123A301E8D2_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31386,7 +31386,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntVec3_get_compone
 		return L_0;
 	}
 }
-// Method Definition Index: 28499
+// Method Definition Index: 28472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntMat4x4_get_componentType_m0457989C68B149796CCC4E86F5BA9E9A8D0711A0_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31395,7 +31395,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntMat4x4_get_compo
 		return L_0;
 	}
 }
-// Method Definition Index: 28500
+// Method Definition Index: 28473
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_componentType_mD554425AB619EA9034DCF3DB54C79B8A041F78F3_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31405,7 +31405,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_componen
 		return;
 	}
 }
-// Method Definition Index: 28501
+// Method Definition Index: 28474
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c0_mFF9828EDD2179B5DD152A1C1186CB1F9B0C2699D_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31414,7 +31414,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911B
 		return L_0;
 	}
 }
-// Method Definition Index: 28502
+// Method Definition Index: 28475
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c0_mA58512F16D5D8BADD0082DEFA826C2DCE4B3AC05_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31424,7 +31424,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c0_mA585
 		return;
 	}
 }
-// Method Definition Index: 28503
+// Method Definition Index: 28476
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c1_mA4A3821C42ABAE7848D2E3AAF28A8841F6F5F829_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31433,7 +31433,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911B
 		return L_0;
 	}
 }
-// Method Definition Index: 28504
+// Method Definition Index: 28477
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c1_m0A42F862434A4407DA051E2DC9383DD1DB67DB97_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31443,7 +31443,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c1_m0A42
 		return;
 	}
 }
-// Method Definition Index: 28505
+// Method Definition Index: 28478
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c2_m55BDF89DE35A4A327ED2CC6101B29563C62A87CD_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31452,7 +31452,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911B
 		return L_0;
 	}
 }
-// Method Definition Index: 28506
+// Method Definition Index: 28479
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c2_m39C06AA604506E9F73ED8013FA4440ECB1482002_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31462,7 +31462,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c2_m39C0
 		return;
 	}
 }
-// Method Definition Index: 28507
+// Method Definition Index: 28480
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E CesiumIntMat4x4_get_c3_m707A9FC73E6FF008850BB7575A532DDCE07FF17E_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31471,7 +31471,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumIntVec4_t12E2B92D1AA6F8911B
 		return L_0;
 	}
 }
-// Method Definition Index: 28508
+// Method Definition Index: 28481
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c3_mBB44E32BB49AB5BFFA46C3B3245F6A696C461145_inline (CesiumIntMat4x4_t8EC7E336BD6258394AB382E1451DA155D7BFD251* __this, CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31481,7 +31481,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntMat4x4_set_c3_mBB44
 		return;
 	}
 }
-// Method Definition Index: 28571
+// Method Definition Index: 28544
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntVec4_get_componentType_m53FE3E948D0490CE87E59A6735F8DFAECA0B0725_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31490,7 +31490,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumIntVec4_get_compone
 		return L_0;
 	}
 }
-// Method Definition Index: 28512
+// Method Definition Index: 28485
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintMat2x2_get_componentType_mA1AADA203246740955D9D59F62FDC0AF7DC2842C_inline (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31499,7 +31499,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintMat2x2_get_comp
 		return L_0;
 	}
 }
-// Method Definition Index: 28513
+// Method Definition Index: 28486
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_componentType_m30EA07D4134536304102F64479CE457C8D52BFA1_inline (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31509,7 +31509,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_compone
 		return;
 	}
 }
-// Method Definition Index: 28514
+// Method Definition Index: 28487
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E CesiumUintMat2x2_get_c0_m620AB4AA74D7D0122DA2449C43563158DC983B2E_inline (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31518,7 +31518,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28515
+// Method Definition Index: 28488
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_c0_mAB497A3D13D8DA9F7AFFCC1F865741C1E19DAB67_inline (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31528,7 +31528,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_c0_mAB4
 		return;
 	}
 }
-// Method Definition Index: 28516
+// Method Definition Index: 28489
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E CesiumUintMat2x2_get_c1_m69FAC45AC3A6491D5556EE2F2D35F5B100D13BA1_inline (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31537,7 +31537,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec2_t6EDBBF25013E5B4CD
 		return L_0;
 	}
 }
-// Method Definition Index: 28517
+// Method Definition Index: 28490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_c1_m1A0A3D49D1CB812C910360F77568E9600875D601_inline (CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31547,7 +31547,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat2x2_set_c1_m1A0
 		return;
 	}
 }
-// Method Definition Index: 28587
+// Method Definition Index: 28560
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintVec2_get_componentType_mA0512946C3FC3499155868C85E4DAB7165E95A39_inline (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31556,7 +31556,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintVec2_get_compon
 		return L_0;
 	}
 }
-// Method Definition Index: 28521
+// Method Definition Index: 28494
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintMat3x3_get_componentType_m0293B784DD7B914C3137D9DD441419EAB75C1217_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31565,7 +31565,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintMat3x3_get_comp
 		return L_0;
 	}
 }
-// Method Definition Index: 28522
+// Method Definition Index: 28495
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_componentType_mD0B3FD82024DEF18BE65ED6B1D4F93863D271008_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31575,7 +31575,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_compone
 		return;
 	}
 }
-// Method Definition Index: 28523
+// Method Definition Index: 28496
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_c0_m868BC18AB3436A559BD2CF7C8559AFB26E9730A0_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31584,7 +31584,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CC
 		return L_0;
 	}
 }
-// Method Definition Index: 28524
+// Method Definition Index: 28497
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c0_m40E4258BD9D46140A86E5300F5165115539E1C1D_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31594,7 +31594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c0_m40E
 		return;
 	}
 }
-// Method Definition Index: 28525
+// Method Definition Index: 28498
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_c1_m8F295A7A4EFA05BDF8A06FBCF530D597B996D18A_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31603,7 +31603,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CC
 		return L_0;
 	}
 }
-// Method Definition Index: 28526
+// Method Definition Index: 28499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c1_mAA9052194F01F1A4A2999F2F59550F53C20B750A_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31613,7 +31613,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c1_mAA9
 		return;
 	}
 }
-// Method Definition Index: 28527
+// Method Definition Index: 28500
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 CesiumUintMat3x3_get_c2_mD71803E3DC34F8B266BF6F9DE6352CA490925847_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31622,7 +31622,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec3_tAD43063A93B4B81CC
 		return L_0;
 	}
 }
-// Method Definition Index: 28528
+// Method Definition Index: 28501
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c2_mDE9E07B54D27C531D3CE3E07DE6F84EF2C55AD8D_inline (CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31632,7 +31632,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat3x3_set_c2_mDE9
 		return;
 	}
 }
-// Method Definition Index: 28599
+// Method Definition Index: 28572
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintVec3_get_componentType_mEBA6209FECF33040469483C77CA70FB57617FF16_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31641,7 +31641,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintVec3_get_compon
 		return L_0;
 	}
 }
-// Method Definition Index: 28532
+// Method Definition Index: 28505
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintMat4x4_get_componentType_m7E4B34742FF97384A561E4DE4D6F5A897C5BF2B9_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31650,7 +31650,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintMat4x4_get_comp
 		return L_0;
 	}
 }
-// Method Definition Index: 28533
+// Method Definition Index: 28506
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_componentType_mD8F4762AE04CD9A28BC1E933624231E0C5A6195E_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31660,7 +31660,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_compone
 		return;
 	}
 }
-// Method Definition Index: 28534
+// Method Definition Index: 28507
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c0_mC41D2A7D69E03058BA3BDB143F31148B2D9CB486_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31669,7 +31669,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E
 		return L_0;
 	}
 }
-// Method Definition Index: 28535
+// Method Definition Index: 28508
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c0_m1F822D79C4B6C01E659C6DB03B75C4795597F49B_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31679,7 +31679,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c0_m1F8
 		return;
 	}
 }
-// Method Definition Index: 28536
+// Method Definition Index: 28509
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c1_mE0B26D46C1C0BE19A24CE0B7471CC7805A603E25_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31688,7 +31688,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E
 		return L_0;
 	}
 }
-// Method Definition Index: 28537
+// Method Definition Index: 28510
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c1_m01D84E49BCDDDD8A15EF5A73ABD260BB01DBC150_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31698,7 +31698,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c1_m01D
 		return;
 	}
 }
-// Method Definition Index: 28538
+// Method Definition Index: 28511
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c2_mEEB47750767CC9CB8C9CE616FE0F3291B0FFA1C8_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31707,7 +31707,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E
 		return L_0;
 	}
 }
-// Method Definition Index: 28539
+// Method Definition Index: 28512
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c2_m7BBE0528E1C2C393E64F1B04EEA8D3C52C06AE97_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31717,7 +31717,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c2_m7BB
 		return;
 	}
 }
-// Method Definition Index: 28540
+// Method Definition Index: 28513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 CesiumUintMat4x4_get_c3_m3D31D3F21AA5CF07F4E3C569FE208CCD659B0FF1_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31726,7 +31726,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumUintVec4_t67916E642B7B99A0E
 		return L_0;
 	}
 }
-// Method Definition Index: 28541
+// Method Definition Index: 28514
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c3_m1141B39FE9F24A145C3B40115CA17153F374DAB9_inline (CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31736,7 +31736,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintMat4x4_set_c3_m114
 		return;
 	}
 }
-// Method Definition Index: 28613
+// Method Definition Index: 28586
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintVec4_get_componentType_mC101178B6A19F428E2B84B30393D8FF8E4FCD8E7_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31745,7 +31745,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumUintVec4_get_compon
 		return L_0;
 	}
 }
-// Method Definition Index: 28546
+// Method Definition Index: 28519
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec2_set_componentType_m86109AF07778AB15B7113F5E087016E65705F473_inline (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31755,7 +31755,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec2_set_componentT
 		return;
 	}
 }
-// Method Definition Index: 28547
+// Method Definition Index: 28520
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_x_m729F9CCAF829867277DD91DDA42DAEB5C7B51943_inline (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31764,7 +31764,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_x_m729F
 		return L_0;
 	}
 }
-// Method Definition Index: 28548
+// Method Definition Index: 28521
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec2_set_x_mD915E50B60E05ED14C76A8F3503FA74D08309963_inline (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31774,7 +31774,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec2_set_x_mD915E50
 		return;
 	}
 }
-// Method Definition Index: 28549
+// Method Definition Index: 28522
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_y_m23016975A94F59CB5CA0DD30CEC12186D712DC13_inline (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31783,7 +31783,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec2_get_y_m2301
 		return L_0;
 	}
 }
-// Method Definition Index: 28550
+// Method Definition Index: 28523
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec2_set_y_m3202CF05752100B6AB6EE58E90C3CC0FC2ACEBF2_inline (CesiumIntVec2_t5AA5BE0520E55153FD34B8E50B540CFB1E583005* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31793,7 +31793,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec2_set_y_m3202CF0
 		return;
 	}
 }
-// Method Definition Index: 28558
+// Method Definition Index: 28531
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_componentType_mA96CA0C3B6F8E44DB3BB6176E9BF6CBF08ECA8D6_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31803,7 +31803,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_componentT
 		return;
 	}
 }
-// Method Definition Index: 28559
+// Method Definition Index: 28532
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_x_m6FE847326E668705B6455D93BEF309E8FDD05239_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31812,7 +31812,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_x_m6FE8
 		return L_0;
 	}
 }
-// Method Definition Index: 28560
+// Method Definition Index: 28533
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_x_m354A1B72E359192AF5CFA7C4650721DF56E929F4_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31822,7 +31822,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_x_m354A1B7
 		return;
 	}
 }
-// Method Definition Index: 28561
+// Method Definition Index: 28534
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_y_mC33E4A3B38C1623A11FEB185CE5283B0D7A8A2EF_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31831,7 +31831,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_y_mC33E
 		return L_0;
 	}
 }
-// Method Definition Index: 28562
+// Method Definition Index: 28535
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_y_m5F54F5E1C79A8EE3EE7405F35A6F6597C3F248C0_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31841,7 +31841,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_y_m5F54F5E
 		return;
 	}
 }
-// Method Definition Index: 28563
+// Method Definition Index: 28536
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_z_m817AFCD54425B9B926DEEDD4496EC85E845C5340_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31850,7 +31850,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec3_get_z_m817A
 		return L_0;
 	}
 }
-// Method Definition Index: 28564
+// Method Definition Index: 28537
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_z_m98EE79591D64889BDCFF2587905859B802E602A4_inline (CesiumIntVec3_t09AD039170E568012B47403EF4E4776CD4755AFE* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31860,7 +31860,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec3_set_z_m98EE795
 		return;
 	}
 }
-// Method Definition Index: 28572
+// Method Definition Index: 28545
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_componentType_m998BA6E15425ED212CD609E360781491F0782EB5_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31870,7 +31870,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_componentT
 		return;
 	}
 }
-// Method Definition Index: 28573
+// Method Definition Index: 28546
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_x_m1297CA70D9BE237FC957ECF327B90C59D21C8842_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31879,7 +31879,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_x_m1297
 		return L_0;
 	}
 }
-// Method Definition Index: 28574
+// Method Definition Index: 28547
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_x_m748E881369125BC8B221BD58593A450A9EEE6E54_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31889,7 +31889,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_x_m748E881
 		return;
 	}
 }
-// Method Definition Index: 28575
+// Method Definition Index: 28548
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_y_m12560F9E5B534847CB6909C9DB047C5F31AB1782_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31898,7 +31898,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_y_m1256
 		return L_0;
 	}
 }
-// Method Definition Index: 28576
+// Method Definition Index: 28549
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_y_m0C4FC06FE18D2490967D14A4223658C9552B1C88_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31908,7 +31908,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_y_m0C4FC06
 		return;
 	}
 }
-// Method Definition Index: 28577
+// Method Definition Index: 28550
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_z_mFF061F240EC072EDD223897EE955E8D3288A7C43_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31917,7 +31917,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_z_mFF06
 		return L_0;
 	}
 }
-// Method Definition Index: 28578
+// Method Definition Index: 28551
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_z_m452ECA694B759EEB3ED8D2141AF05DBAE5A5FFD8_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31927,7 +31927,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_z_m452ECA6
 		return;
 	}
 }
-// Method Definition Index: 28579
+// Method Definition Index: 28552
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_w_mFD17D15CF8BA16A943400713BA0022811645A02A_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31936,7 +31936,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t CesiumIntVec4_get_w_mFD17
 		return L_0;
 	}
 }
-// Method Definition Index: 28580
+// Method Definition Index: 28553
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_w_m74E5C1ACE41F351FA5AFEFEA226B4F7E03B9473A_inline (CesiumIntVec4_t12E2B92D1AA6F8911BC7EEAE808AC1B49C98EC0E* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31946,7 +31946,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumIntVec4_set_w_m74E5C1A
 		return;
 	}
 }
-// Method Definition Index: 28588
+// Method Definition Index: 28561
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec2_set_componentType_mEB848A7E6E35D881DDD712FF0E867EE11B595F81_inline (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31956,7 +31956,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec2_set_component
 		return;
 	}
 }
-// Method Definition Index: 28589
+// Method Definition Index: 28562
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_x_mF41F597990E36B9899A8A7D048DBEC2EA8507E08_inline (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31965,7 +31965,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_x_mF4
 		return L_0;
 	}
 }
-// Method Definition Index: 28590
+// Method Definition Index: 28563
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec2_set_x_m7CABE5C1E137EBE777FAB9D6DCBEBB491ACF680D_inline (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31975,7 +31975,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec2_set_x_m7CABE5
 		return;
 	}
 }
-// Method Definition Index: 28591
+// Method Definition Index: 28564
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_y_mA3B8382575FBDD0665A6F091C12E4A2FCA64BD2F_inline (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31984,7 +31984,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec2_get_y_mA3
 		return L_0;
 	}
 }
-// Method Definition Index: 28592
+// Method Definition Index: 28565
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec2_set_y_m273FB71B43667C92C46514571D6ABDB6C47BC175_inline (CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31994,7 +31994,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec2_set_y_m273FB7
 		return;
 	}
 }
-// Method Definition Index: 28600
+// Method Definition Index: 28573
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_componentType_m81B3BDBBF592F94C2AE43B45939F7AFDCF7C3674_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32004,7 +32004,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_component
 		return;
 	}
 }
-// Method Definition Index: 28601
+// Method Definition Index: 28574
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_x_mBB7D254E68EED420E5AA1BB52E7B44C17A7E30D5_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32013,7 +32013,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_x_mBB
 		return L_0;
 	}
 }
-// Method Definition Index: 28602
+// Method Definition Index: 28575
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_x_m54B11A232286CD2C9F2C8AE5087BCCAE9F219EF7_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32023,7 +32023,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_x_m54B11A
 		return;
 	}
 }
-// Method Definition Index: 28603
+// Method Definition Index: 28576
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_y_m722A3100FB8C12C9DFEF7ECA01DBD8E085A36145_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32032,7 +32032,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_y_m72
 		return L_0;
 	}
 }
-// Method Definition Index: 28604
+// Method Definition Index: 28577
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_y_m9D7604EBBB9F2ABB6C019361A755F614D0832AC7_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32042,7 +32042,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_y_m9D7604
 		return;
 	}
 }
-// Method Definition Index: 28605
+// Method Definition Index: 28578
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_z_m8EA9A1E566BE928CC14AB2426305072349124382_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32051,7 +32051,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec3_get_z_m8E
 		return L_0;
 	}
 }
-// Method Definition Index: 28606
+// Method Definition Index: 28579
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_z_mBD5C329C7AE1027D93F0EA4CAA79D1DAE780EFAB_inline (CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32061,7 +32061,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec3_set_z_mBD5C32
 		return;
 	}
 }
-// Method Definition Index: 28614
+// Method Definition Index: 28587
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_componentType_mAC26958E35C926E234D6FF4ED2ED8685B13EB297_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32071,7 +32071,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_component
 		return;
 	}
 }
-// Method Definition Index: 28615
+// Method Definition Index: 28588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_x_m92B64252EC198BF00D29177111C9D43A2FBE50D0_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32080,7 +32080,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_x_m92
 		return L_0;
 	}
 }
-// Method Definition Index: 28616
+// Method Definition Index: 28589
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_x_m0B0E9DFA33EFCC3AA56EDE4E2DAD01E4A98FCA57_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32090,7 +32090,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_x_m0B0E9D
 		return;
 	}
 }
-// Method Definition Index: 28617
+// Method Definition Index: 28590
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_y_mDC0E3687901B4D7267321F09BFADD2CC9DA269C2_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32099,7 +32099,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_y_mDC
 		return L_0;
 	}
 }
-// Method Definition Index: 28618
+// Method Definition Index: 28591
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_y_m89DAFCA092A6CDEFA2DD2DC2F71092405AAB5768_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32109,7 +32109,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_y_m89DAFC
 		return;
 	}
 }
-// Method Definition Index: 28619
+// Method Definition Index: 28592
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_z_m7698E8CCC467382279562F37C38035947E676843_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32118,7 +32118,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_z_m76
 		return L_0;
 	}
 }
-// Method Definition Index: 28620
+// Method Definition Index: 28593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_z_m2B9AA425055BD216E9E3BE4DBC69A576C6275466_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32128,7 +32128,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_z_m2B9AA4
 		return;
 	}
 }
-// Method Definition Index: 28621
+// Method Definition Index: 28594
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_w_mFA6B2A9A258334F5A5A96DFBA58F118C3189173A_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32137,7 +32137,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t CesiumUintVec4_get_w_mFA
 		return L_0;
 	}
 }
-// Method Definition Index: 28622
+// Method Definition Index: 28595
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_w_m70D16BE2E29879816467CA1F7298CA515BA26F5E_inline (CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32147,7 +32147,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumUintVec4_set_w_m70D16B
 		return;
 	}
 }
-// Method Definition Index: 28673
+// Method Definition Index: 28646
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* CesiumMetadataValue_get_objectValue_m2C27138487CB9A66CB272DC6D4BF692B38FB9550_inline (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32156,7 +32156,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* CesiumMetadataValu
 		return L_0;
 	}
 }
-// Method Definition Index: 28674
+// Method Definition Index: 28647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumMetadataValue_set_objectValue_m636B8A9B320175BB49CAFCDC46FFD2E76D27B1F6_inline (CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32167,7 +32167,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumMetadataValue_set_obje
 		return;
 	}
 }
-// Method Definition Index: 28940
+// Method Definition Index: 28913
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD CesiumPropertyArray_get_elementValueType_m8E4709D4C95CE5EE8B161B7279BD446ED0CCC663_inline (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32176,7 +32176,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumMetadataValueType_t90F61AB2
 		return L_0;
 	}
 }
-// Method Definition Index: 29138
+// Method Definition Index: 29111
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefX_mD86A6CE5842881A821DE60C2036E71D042CC2036_inline (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32185,7 +32185,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefX_m
 		return L_0;
 	}
 }
-// Method Definition Index: 29140
+// Method Definition Index: 29113
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefY_m1EFC19306F87F4A982BDA589D818F8594884BCE7_inline (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32194,7 +32194,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefY_m
 		return L_0;
 	}
 }
-// Method Definition Index: 29142
+// Method Definition Index: 29115
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefZ_m3878CBF813ADE5DEED42A47E93193FCA7C68A078_inline (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32203,7 +32203,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_ecefZ_m
 		return L_0;
 	}
 }
-// Method Definition Index: 29126
+// Method Definition Index: 29099
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_activationRadius_mF54B17A6484354DFA2B5BF162E70D3BF9BEE440F_inline (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32212,7 +32212,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumSubScene_get_activat
 		return L_0;
 	}
 }
-// Method Definition Index: 28374
+// Method Definition Index: 28347
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefX_m6C601D1D9AC6DCA59B24C39B058FD1A67E8B464F_inline (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32221,7 +32221,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ece
 		return L_0;
 	}
 }
-// Method Definition Index: 28376
+// Method Definition Index: 28349
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefY_m34E309A596E582B12EB54EA37D089704F4468FD9_inline (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32230,7 +32230,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ece
 		return L_0;
 	}
 }
-// Method Definition Index: 28378
+// Method Definition Index: 28351
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ecefZ_m4188557CBA2768462F1E3F9B43CAD2906556B381_inline (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32239,7 +32239,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_ece
 		return L_0;
 	}
 }
-// Method Definition Index: 45380
+// Method Definition Index: 45280
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -32266,7 +32266,7 @@ IL_0021:
 		return L_9;
 	}
 }
-// Method Definition Index: 45374
+// Method Definition Index: 45274
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -32285,7 +32285,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 28904
+// Method Definition Index: 28877
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_baseResolution_mFD5D3C436B9F91B755BDD00642DEFAE96D357179_inline (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32294,7 +32294,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get
 		return L_0;
 	}
 }
-// Method Definition Index: 27976
+// Method Definition Index: 27949
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Cesium3DTileset_get_maximumScreenSpaceError_mB22DE8413F7ECBDB115000F86812A28C7DB114CC_inline (Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32303,7 +32303,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Cesium3DTileset_get_maximum
 		return L_0;
 	}
 }
-// Method Definition Index: 28002
+// Method Definition Index: 27975
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* Cesium3DTileset_get_pointCloudShading_mC8CB3275DDCAA3A3A8F19844E4E6BF4CB1202BC1_inline (Cesium3DTileset_t5498D56ED52ABDDEE4DD3708E3D23458923859FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32312,7 +32312,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumPointCloudShading_t0A4B38FD
 		return L_0;
 	}
 }
-// Method Definition Index: 28902
+// Method Definition Index: 28875
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_maximumAttenuation_m31ADCE81E474DC690FA833A627EA1ED5E6C5B842_inline (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32321,7 +32321,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get
 		return L_0;
 	}
 }
-// Method Definition Index: 28900
+// Method Definition Index: 28873
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get_geometricErrorScale_m2182592AF3E9909EA5327FC630AFFE6597788C2C_inline (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32330,7 +32330,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CesiumPointCloudShading_get
 		return L_0;
 	}
 }
-// Method Definition Index: 45704
+// Method Definition Index: 45594
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -32345,7 +32345,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 		return;
 	}
 }
-// Method Definition Index: 43903
+// Method Definition Index: 43864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_center_m5B05F81CB835EB6DD8628FDA24B638F477984DC3_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -32362,7 +32362,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 43909
+// Method Definition Index: 43870
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -32384,7 +32384,7 @@ IL_0015:
 		return L_3;
 	}
 }
-// Method Definition Index: 43911
+// Method Definition Index: 43872
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_max_m6446F2AB97C1E57CA89467B9DE52D4EB61F1CB09_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -32406,7 +32406,7 @@ IL_0015:
 		return L_3;
 	}
 }
-// Method Definition Index: 28898
+// Method Definition Index: 28871
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CesiumPointCloudShading_get_attenuation_mF662032A72CCC8B9FF7DE1C4B29CAFD0A34A01A5_inline (CesiumPointCloudShading_t0A4B38FD790EAFF27C00F7BC17FAC74DB4634CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32415,7 +32415,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CesiumPointCloudShading_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 45580
+// Method Definition Index: 45473
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -32452,7 +32452,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 28926
+// Method Definition Index: 28899
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumFeatureIdSetU5BU5D_t1768BB361476047817ED1CB36822F8D3276D5C81* CesiumPrimitiveFeatures_get_featureIdSets_mB9C5AB0F200FF398CE658BCC870178CDB0777946_inline (CesiumPrimitiveFeatures_t0D6E2F5B82E211DDE91230D828BBE977BDB82643* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32461,7 +32461,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumFeatureIdSetU5BU5D_t1768BB3
 		return L_0;
 	}
 }
-// Method Definition Index: 28298
+// Method Definition Index: 28271
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumFeatureIdSet_get_type_m094A798DB9EF3F2F163AA310588555F458464115_inline (CesiumFeatureIdSet_tFE60AB2EC396EEFA04E0FF400575D9908B1271BD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32470,7 +32470,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumFeatureIdSet_get_ty
 		return L_0;
 	}
 }
-// Method Definition Index: 28937
+// Method Definition Index: 28910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyArray_set_values_mDF95D7FE91E5C6096251A5B6B26D7E05969A8E49_inline (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, CesiumMetadataValueU5BU5D_t4B81986072696FCE03FEA7DFE59A2C82674AC7C5* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32481,7 +32481,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyArray_set_valu
 		return;
 	}
 }
-// Method Definition Index: 28936
+// Method Definition Index: 28909
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumMetadataValueU5BU5D_t4B81986072696FCE03FEA7DFE59A2C82674AC7C5* CesiumPropertyArray_get_values_m20FADE7ABD0AA872058090445D0C6A3E94FF0DD7_inline (CesiumPropertyArray_t5568B316DCD67D53465BD247D5AA9603046BB91D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32490,7 +32490,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CesiumMetadataValueU5BU5D_t4B8198
 		return L_0;
 	}
 }
-// Method Definition Index: 28945
+// Method Definition Index: 28918
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_status_m42456422169B9D6FC6C41815D3B8B9208837A3DC_inline (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32500,7 +32500,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_stat
 		return;
 	}
 }
-// Method Definition Index: 28949
+// Method Definition Index: 28922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_count_mA9AC0C9F4C26FD703A4FF918F12B3A8871551C88_inline (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32510,7 +32510,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTable_set_coun
 		return;
 	}
 }
-// Method Definition Index: 28950
+// Method Definition Index: 28923
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t0D0ED46536FC29282D02696763C7FF6EE343E61B* CesiumPropertyTable_get_properties_mD065BE311601A08FC5C3F5F44B583CAF3D0F326F_inline (CesiumPropertyTable_t82AC22D3085AB89714D7E45175A1866D3DE7BED3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32519,7 +32519,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t0D0ED46536FC29282D0
 		return L_0;
 	}
 }
-// Method Definition Index: 28957
+// Method Definition Index: 28930
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_status_mB9454CE9234D3BFEBD4D0158010A68527D45D096_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32529,7 +32529,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28959
+// Method Definition Index: 28932
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_valueType_m7D1C770786E36C833A0FBBFB0F65344EC4F6559E_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32539,7 +32539,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28961
+// Method Definition Index: 28934
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_size_mA22C1DAC2BAFFD58E9C49F3E2AAC7B13254D5B48_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32549,7 +32549,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28963
+// Method Definition Index: 28936
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_arraySize_m5B2ABBA63B7D0866313C63B26E9A226D485B3069_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32559,7 +32559,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28965
+// Method Definition Index: 28938
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_isNormalized_m698487E8CF395142187BFFA743A55A5DBF32E7BE_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32569,7 +32569,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28967
+// Method Definition Index: 28940
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_offset_m1CE86772CF679000B1F12A417946AD400B07C915_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32580,7 +32580,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28969
+// Method Definition Index: 28942
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_scale_m041F8B3A3DF5962EB9ED10AA083B5289588830D5_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32591,7 +32591,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28971
+// Method Definition Index: 28944
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_min_m21FCC762D9E2C837F7FBC7979BA80135687099C5_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32602,7 +32602,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28973
+// Method Definition Index: 28946
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_max_m51536DD62CE88503BCB49B090EFBBF419B81C753_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32613,7 +32613,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28975
+// Method Definition Index: 28948
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_noData_m005C9D76A28CE4DE4DED4586BE3775D03A572117_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32624,7 +32624,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 28977
+// Method Definition Index: 28950
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_set_defaultValue_m148066E1A357D71D543AD30B972267F8E3F78B3E_inline (CesiumPropertyTableProperty_tA7CBA541E3ACFF057D77CE349F7168B3C20B17D9* __this, CesiumMetadataValue_tB9BED22A77B80310DBA86057C15A601422DE19BA* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32635,13 +32635,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CesiumPropertyTableProperty_
 		return;
 	}
 }
-// Method Definition Index: 29090
+// Method Definition Index: 29063
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RasterOverlayLoadFailureDelegate_Invoke_m60F27809E037FD856656FA127F093CD60F9AEA6F_inline (RasterOverlayLoadFailureDelegate_t46B22A97C2253043583D4F95F5C25CD7E1FC4A28* __this, CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572 ___0_details, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumRasterOverlayLoadFailureDetails_t038637622F46FE20628BC906EA7932002A9CA572, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_details, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 28370
+// Method Definition Index: 28343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_longitude_m210F8A0262C00066F16E2F6066F93BCF08F92FA9_inline (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32650,7 +32650,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_lon
 		return L_0;
 	}
 }
-// Method Definition Index: 28368
+// Method Definition Index: 28341
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_latitude_m8C90C4AB329B14C76BF77578CCC329359EB09813_inline (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32659,7 +32659,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_lat
 		return L_0;
 	}
 }
-// Method Definition Index: 28372
+// Method Definition Index: 28345
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_height_m5E80EBABC7E1CCC7DD30C5E23242D511FAAE2220_inline (CesiumGeoreference_t3EF79184698C34362ECCC345CE60756BF66AB268* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32668,7 +32668,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double CesiumGeoreference_get_hei
 		return L_0;
 	}
 }
-// Method Definition Index: 29130
+// Method Definition Index: 29103
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumSubScene_get_originAuthority_mEF66B444989512F7573B2AAB231B0EEE2CB9E40F_inline (CesiumSubScene_tD780858144A9B3675944EE893AB2046C8D8D7F5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32677,7 +32677,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CesiumSubScene_get_origin
 		return L_0;
 	}
 }
-// Method Definition Index: 76992
+// Method Definition Index: 75777
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32685,7 +32685,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 1697
+// Method Definition Index: 1693
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mE58D3B28B6C6CF805BDAF56850202779DB458B1D_gshared_inline (Nullable_1_t292B6499B4FB064453057DDA8BEED95AAE5424D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32693,7 +32693,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mE58
 		return L_0;
 	}
 }
-// Method Definition Index: 8862
+// Method Definition Index: 8854
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32701,7 +32701,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D250721629385
 		return L_0;
 	}
 }
-// Method Definition Index: 8938
+// Method Definition Index: 8930
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32709,7 +32709,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 8939
+// Method Definition Index: 8931
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32717,7 +32717,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 9007
+// Method Definition Index: 8997
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32725,7 +32725,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 8947
+// Method Definition Index: 8939
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32733,7 +32733,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592
 		return L_0;
 	}
 }
-// Method Definition Index: 49375
+// Method Definition Index: 49279
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -32753,7 +32753,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_m710CE5F525FC4891
 		return ((double)il2cpp_codegen_add(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_1, L_3)), ((double)il2cpp_codegen_multiply(L_5, L_7)))), ((double)il2cpp_codegen_multiply(L_9, L_11))));
 	}
 }
-// Method Definition Index: 49252
+// Method Definition Index: 49156
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_min_m29A6A5FB36524D911D13DDB4866FF005C7BF00D5_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -32785,7 +32785,7 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 49270
+// Method Definition Index: 49174
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_max_m8830F8721EFC73BCF991CD497115A103B86BF3BE_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -32817,7 +32817,7 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 45543
+// Method Definition Index: 45437
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -32848,7 +32848,7 @@ IL_003b:
 		return L_16;
 	}
 }
-// Method Definition Index: 45540
+// Method Definition Index: 45434
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -32864,7 +32864,7 @@ IL_000c:
 		return L_1;
 	}
 }
-// Method Definition Index: 45482
+// Method Definition Index: 45380
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -32877,7 +32877,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 45518
+// Method Definition Index: 45413
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -32905,7 +32905,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 49593
+// Method Definition Index: 49497
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline (double ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32923,7 +32923,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F
 		return L_1;
 	}
 }
-// Method Definition Index: 52409
+// Method Definition Index: 52313
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool double4_Equals_mE94A5F7A33E2437BCF4A9F392C331F8D5A463689_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_rhs, const RuntimeMethod* method) 
 {
 	{
@@ -32966,7 +32966,7 @@ IL_0039:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 51975
+// Method Definition Index: 51879
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) 
 {
 	{
@@ -32989,7 +32989,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F
 		return L_12;
 	}
 }
-// Method Definition Index: 51977
+// Method Definition Index: 51881
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_lhs, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_rhs, const RuntimeMethod* method) 
 {
 	{
@@ -33016,7 +33016,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F
 		return L_16;
 	}
 }
-// Method Definition Index: 45521
+// Method Definition Index: 45416
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -33058,7 +33058,7 @@ IL_0043:
 		return L_19;
 	}
 }
-// Method Definition Index: 45349
+// Method Definition Index: 45251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -33073,7 +33073,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 43907
+// Method Definition Index: 43868
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_extents_mFE6DC407FCE2341BE2C750CB554055D211281D25_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -33090,7 +33090,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 45516
+// Method Definition Index: 45411
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -33121,7 +33121,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 45515
+// Method Definition Index: 45410
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -33152,7 +33152,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 1188
+// Method Definition Index: 1184
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline (double ___0_d, const RuntimeMethod* method) 
 {
 	{
@@ -33162,7 +33162,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD48131
 		return (bool)((((int64_t)((int64_t)(L_1&((int64_t)(std::numeric_limits<int64_t>::max)())))) > ((int64_t)((int64_t)9218868437227405312LL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 697
+// Method Definition Index: 693
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) 
 {
 	{

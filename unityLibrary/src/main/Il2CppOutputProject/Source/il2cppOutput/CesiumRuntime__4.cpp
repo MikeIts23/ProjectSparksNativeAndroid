@@ -1433,7 +1433,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24157
+// Method Definition Index: 24130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_m3E5E35C2ED130BFF863282ED21AF3C8A57D91567 (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tA30303B9465335D6C114F2512E562F1BA7456B2E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1462,13 +1462,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m8255B418FE0951C84A9B8581287839C5A794ED09_Multicast;
 }
-// Method Definition Index: 24158
+// Method Definition Index: 24131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m8255B418FE0951C84A9B8581287839C5A794ED09 (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tA30303B9465335D6C114F2512E562F1BA7456B2E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24159
+// Method Definition Index: 24132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_mE99EEA0DA50C216D731E21298C47F5DBEA2404A2 (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tA30303B9465335D6C114F2512E562F1BA7456B2E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -1476,7 +1476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24160
+// Method Definition Index: 24133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_mBD44C8B4E3D6B6928B1B944899AF820718A9531B (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tA30303B9465335D6C114F2512E562F1BA7456B2E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -1521,7 +1521,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24161
+// Method Definition Index: 24134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m39CA21F7264AAECE6BC7C40F2D90B20B95AB17EB (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDDA57552EEA1BF5C8D3B932DE3D928CB046CC180* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1550,13 +1550,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m432C747DA48C9C8BD71F2B5C975C529F244B25BB_Multicast;
 }
-// Method Definition Index: 24162
+// Method Definition Index: 24135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m432C747DA48C9C8BD71F2B5C975C529F244B25BB (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDDA57552EEA1BF5C8D3B932DE3D928CB046CC180* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24163
+// Method Definition Index: 24136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m11690540D4EA3FA830DE8386E92E395DA8F27FB2 (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDDA57552EEA1BF5C8D3B932DE3D928CB046CC180* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -1564,7 +1564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24164
+// Method Definition Index: 24137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m796EF78814627B9EC354000F71BF8D856B7711CD (CesiumForUnity_CesiumPolygonRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDDA57552EEA1BF5C8D3B932DE3D928CB046CC180* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -1609,7 +1609,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24165
+// Method Definition Index: 24138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m5F7B2F5D714C02E4D51AF9C85B4407B4E39AA686 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t0E893D5A547E798586AE7A0AD27482BCCC566579* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1638,13 +1638,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mE4B1B145AA44A814C6749A81B1DB6C4DAB93EAB1_Multicast;
 }
-// Method Definition Index: 24166
+// Method Definition Index: 24139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mE4B1B145AA44A814C6749A81B1DB6C4DAB93EAB1 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t0E893D5A547E798586AE7A0AD27482BCCC566579* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24167
+// Method Definition Index: 24140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m0C4005CCEABC6BB2CA3BEC1AF22CE067F87E34D5 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t0E893D5A547E798586AE7A0AD27482BCCC566579* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -1653,7 +1653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24168
+// Method Definition Index: 24141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mE288A6B19134FED78B5EA9DB5C88A50928E64151 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t0E893D5A547E798586AE7A0AD27482BCCC566579* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -1698,7 +1698,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24169
+// Method Definition Index: 24142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m89DCD8041CCC9B2FE83F729A121CAB9B98D3C575 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t975321A7F6522D03D7B04FA79EB062172FCCA319* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1727,13 +1727,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mCC173009C73DBF68452EFF5C50E34C3CCFC4C0CF_Multicast;
 }
-// Method Definition Index: 24170
+// Method Definition Index: 24143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mCC173009C73DBF68452EFF5C50E34C3CCFC4C0CF (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t975321A7F6522D03D7B04FA79EB062172FCCA319* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24171
+// Method Definition Index: 24144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m09020ACF36D2ECFFA715F833D83E0AFCF24FA045 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t975321A7F6522D03D7B04FA79EB062172FCCA319* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -1742,7 +1742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24172
+// Method Definition Index: 24145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m1D9C8DB68FEE261E89223CFCB604168CEB45F377 (CesiumForUnity_CesiumPolygonRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t975321A7F6522D03D7B04FA79EB062172FCCA319* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -1784,7 +1784,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24173
+// Method Definition Index: 24146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m56B96B9D4DCB9CBA8E9EFC55DF8AB159D49B5BE9 (CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDC0FF0E7852062178AD1EFF7BE3B67CF8EE83AC3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1813,13 +1813,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m97C845210A9BF49DEDC7B08DB7E46A3894C61138_Multicast;
 }
-// Method Definition Index: 24174
+// Method Definition Index: 24147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m97C845210A9BF49DEDC7B08DB7E46A3894C61138 (CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDC0FF0E7852062178AD1EFF7BE3B67CF8EE83AC3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24175
+// Method Definition Index: 24148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_mCA90EEE0EDCD1BF63FB367EAB4693E8EA07E366B (CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDC0FF0E7852062178AD1EFF7BE3B67CF8EE83AC3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -1827,7 +1827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24176
+// Method Definition Index: 24149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m000637AD9F7EB6C53DF780069BB25307AB3DD713 (CesiumForUnity_CesiumPolygonRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDC0FF0E7852062178AD1EFF7BE3B67CF8EE83AC3* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -1872,7 +1872,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24177
+// Method Definition Index: 24150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m9A6D3B323584E5A728828CE7F605708FC074D95B (CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6ABFC81F9B3BD74A7A68AA5BEF6A204338D9C927* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1901,13 +1901,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m5A710394F2627893BDA2EDD0044102033961CA50_Multicast;
 }
-// Method Definition Index: 24178
+// Method Definition Index: 24151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m5A710394F2627893BDA2EDD0044102033961CA50 (CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6ABFC81F9B3BD74A7A68AA5BEF6A204338D9C927* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24179
+// Method Definition Index: 24152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_m31E3C87333492925DC58B02D47CBE53D5F0E03D4 (CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6ABFC81F9B3BD74A7A68AA5BEF6A204338D9C927* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -1916,7 +1916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24180
+// Method Definition Index: 24153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_m956DF3FBDCBB9141E6CA405F044B0CC8453F623D (CesiumForUnity_CesiumPolygonRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6ABFC81F9B3BD74A7A68AA5BEF6A204338D9C927* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -1961,7 +1961,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24181
+// Method Definition Index: 24154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType__ctor_m96B1086D3A3D29EEC484F7B4CB682FA232E107A0 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_t78BF0C77C7530388811A23393C05FF9E24F1E8FE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -1990,13 +1990,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_Invoke_m64E9491DA5BD18D864042E6423F3547674ED1B41_Multicast;
 }
-// Method Definition Index: 24182
+// Method Definition Index: 24155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_Invoke_m64E9491DA5BD18D864042E6423F3547674ED1B41 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_t78BF0C77C7530388811A23393C05FF9E24F1E8FE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24183
+// Method Definition Index: 24156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_BeginInvoke_mFACF0749B71789769172DD0370CC5CEAF7BEAC0D (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_t78BF0C77C7530388811A23393C05FF9E24F1E8FE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2004,7 +2004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24184
+// Method Definition Index: 24157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_EndInvoke_m0D195BE37AEFCC8976076CBE663FA77BB84A5B70 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_enabledType_t78BF0C77C7530388811A23393C05FF9E24F1E8FE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2049,7 +2049,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24185
+// Method Definition Index: 24158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType__ctor_mE845AECB30D683C0437D51C51DDD54BBE6291D71 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_t84232CF938B5519F86C30F6AC9FFBECF1F6D1165* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2078,13 +2078,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_Invoke_m6CD94130ACEDB3711CC4AA9873B55F38D4F36E83_Multicast;
 }
-// Method Definition Index: 24186
+// Method Definition Index: 24159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_Invoke_m6CD94130ACEDB3711CC4AA9873B55F38D4F36E83 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_t84232CF938B5519F86C30F6AC9FFBECF1F6D1165* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24187
+// Method Definition Index: 24160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_BeginInvoke_m8061FA0D3A63E5EE4BE79B2F6342A5944169815E (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_t84232CF938B5519F86C30F6AC9FFBECF1F6D1165* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2092,7 +2092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24188
+// Method Definition Index: 24161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_EndInvoke_m3DB192E1C7C961BB1695CD0019DD533EAB7C1A3C (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_excludeSelectedTilesType_t84232CF938B5519F86C30F6AC9FFBECF1F6D1165* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2138,7 +2138,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24189
+// Method Definition Index: 24162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType__ctor_mE760036865856F18E84B52AB7D65E4BC91E922A0 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_tB8D174AFE852D69A4E413B084FD5975D6E78D3A3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2167,13 +2167,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_Invoke_m5E1B5F4E1F880E08355ACC48E2A16337B4B5B83B_Multicast;
 }
-// Method Definition Index: 24190
+// Method Definition Index: 24163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_Invoke_m5E1B5F4E1F880E08355ACC48E2A16337B4B5B83B (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_tB8D174AFE852D69A4E413B084FD5975D6E78D3A3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24191
+// Method Definition Index: 24164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_BeginInvoke_m1944AAEE9B3A34C51C62BECA177921EC63ECFC71 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_tB8D174AFE852D69A4E413B084FD5975D6E78D3A3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2181,7 +2181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24192
+// Method Definition Index: 24165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_EndInvoke_m6712538A6DD076808FB2191BB6DF22E174D20797 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_gameObjectType_tB8D174AFE852D69A4E413B084FD5975D6E78D3A3* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2226,7 +2226,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24193
+// Method Definition Index: 24166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType__ctor_m7424DC2B68B6E5A206F3A2D19A0DE30A3477B03B (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_t113B3D0C165B206BF91FFBFBF9226B7F22D8C962* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2255,13 +2255,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_Invoke_mB3369DE7F9DF838C7EA8B7589659858EBFB14C6B_Multicast;
 }
-// Method Definition Index: 24194
+// Method Definition Index: 24167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_Invoke_mB3369DE7F9DF838C7EA8B7589659858EBFB14C6B (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_t113B3D0C165B206BF91FFBFBF9226B7F22D8C962* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24195
+// Method Definition Index: 24168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_BeginInvoke_m3863E834C71AE173F60C9FCE7FFC94037225655F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_t113B3D0C165B206BF91FFBFBF9226B7F22D8C962* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2269,7 +2269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24196
+// Method Definition Index: 24169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_EndInvoke_m8B8E87932D4806BE73CC78E0F0A64A824ACC56C6 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_hideFlagsType_t113B3D0C165B206BF91FFBFBF9226B7F22D8C962* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2314,7 +2314,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24197
+// Method Definition Index: 24170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType__ctor_m39172EF7CDA100290D7012D16B60483BCC160D5A (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_tA12988B3ED37842B35FCF204888A76ACDA089F3A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2343,13 +2343,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_Invoke_m653342A8192A81CB35314BF5C454CB29701730CB_Multicast;
 }
-// Method Definition Index: 24198
+// Method Definition Index: 24171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_Invoke_m653342A8192A81CB35314BF5C454CB29701730CB (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_tA12988B3ED37842B35FCF204888A76ACDA089F3A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24199
+// Method Definition Index: 24172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_BeginInvoke_mDC1754F46C52FBE7771AC90A24DC93E6DFA3C375 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_tA12988B3ED37842B35FCF204888A76ACDA089F3A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2357,7 +2357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24200
+// Method Definition Index: 24173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_EndInvoke_m43FF70626FD37A9F4DA9B3575C86D942440A1CD1 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_invertSelectionType_tA12988B3ED37842B35FCF204888A76ACDA089F3A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2403,7 +2403,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24201
+// Method Definition Index: 24174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType__ctor_m9F2CF89FF6CD8CE488C40AF93ADBD5B84E5DBC3E (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_t6722C54B44FDCC5B1AF7BF05CB9DE26C1210618B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2432,13 +2432,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_Invoke_m61FFE363A68A72F367BB73CDAD5C4AD51D684B72_Multicast;
 }
-// Method Definition Index: 24202
+// Method Definition Index: 24175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_Invoke_m61FFE363A68A72F367BB73CDAD5C4AD51D684B72 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_t6722C54B44FDCC5B1AF7BF05CB9DE26C1210618B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24203
+// Method Definition Index: 24176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_BeginInvoke_m87CCCD488EE87D6BA3E59F54B0398A7E1A6262B6 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_t6722C54B44FDCC5B1AF7BF05CB9DE26C1210618B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2446,7 +2446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24204
+// Method Definition Index: 24177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_EndInvoke_mB2AEA0F700E4E3804CF2365B1DAC6B723A9B4EA7 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_materialKeyType_t6722C54B44FDCC5B1AF7BF05CB9DE26C1210618B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2491,7 +2491,7 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRaster
 
 	return returnValue;
 }
-// Method Definition Index: 24205
+// Method Definition Index: 24178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType__ctor_m17C055672F37DA7D7C66F57AA218B717B07C89C6 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_t75FDD14D610CD86B56E85C973E21B585F49994C0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2520,13 +2520,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m735D3B445092BFFF4DD688080629572BCEEC7AD0_Multicast;
 }
-// Method Definition Index: 24206
+// Method Definition Index: 24179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m735D3B445092BFFF4DD688080629572BCEEC7AD0 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_t75FDD14D610CD86B56E85C973E21B585F49994C0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24207
+// Method Definition Index: 24180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_BeginInvoke_mE40EE6FE90B93342B9FE69815065E0AB3A751071 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_t75FDD14D610CD86B56E85C973E21B585F49994C0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2534,7 +2534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24208
+// Method Definition Index: 24181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_EndInvoke_mD567AC6D99150B21B3294AFE19FC917BAB2AFF72 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumScreenSpaceErrorType_t75FDD14D610CD86B56E85C973E21B585F49994C0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2579,7 +2579,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24209
+// Method Definition Index: 24182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType__ctor_m571A9C2701384D42C488C1FDD3BC68EC84C344ED (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t55D5450714F338FECCFABAC0A070B25EADA208AB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2608,13 +2608,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_mA54298348D56968AC231768F3CCDFE407A4D312C_Multicast;
 }
-// Method Definition Index: 24210
+// Method Definition Index: 24183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_mA54298348D56968AC231768F3CCDFE407A4D312C (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t55D5450714F338FECCFABAC0A070B25EADA208AB* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24211
+// Method Definition Index: 24184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_BeginInvoke_m7B38E0FCCD26DB7C18FD6A32F7755D0F347D4893 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t55D5450714F338FECCFABAC0A070B25EADA208AB* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2622,7 +2622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24212
+// Method Definition Index: 24185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_EndInvoke_mF476390037DF615CA47C031A3C070BE30794AF64 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t55D5450714F338FECCFABAC0A070B25EADA208AB* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2667,7 +2667,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24213
+// Method Definition Index: 24186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType__ctor_m6FBD2E4A5D808B5F935C14971CA1F6C8F4001696 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_tA3ABCCBBBE2EEA96D18113E840175EF06A4CB1CE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2696,13 +2696,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_Invoke_m11F42A16856FB8A6EEF5A2C0BB5B0AF694E33852_Multicast;
 }
-// Method Definition Index: 24214
+// Method Definition Index: 24187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_Invoke_m11F42A16856FB8A6EEF5A2C0BB5B0AF694E33852 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_tA3ABCCBBBE2EEA96D18113E840175EF06A4CB1CE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24215
+// Method Definition Index: 24188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_BeginInvoke_m3A31A39794E5F002968DC3870E4A0C2DB3A49CF1 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_tA3ABCCBBBE2EEA96D18113E840175EF06A4CB1CE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2710,7 +2710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24216
+// Method Definition Index: 24189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_EndInvoke_m0DA6334263E9CE4C2E11E3BB194CDF846E60759D (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_maximumTextureSizeType_tA3ABCCBBBE2EEA96D18113E840175EF06A4CB1CE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2756,7 +2756,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24217
+// Method Definition Index: 24190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType__ctor_m5A3E07D0880D156B3BBAFBC0C9C65B0898846293 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_t935B24083DB006FEC4C820F806D18FC5EEA86625* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2785,13 +2785,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_Invoke_m20CEFF259AA1D11DB3D806166488DB6A0AE74D71_Multicast;
 }
-// Method Definition Index: 24218
+// Method Definition Index: 24191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_Invoke_m20CEFF259AA1D11DB3D806166488DB6A0AE74D71 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_t935B24083DB006FEC4C820F806D18FC5EEA86625* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24219
+// Method Definition Index: 24192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_BeginInvoke_m9D033D08ADD54BADE141F60BACBD102BCDA0AD21 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_t935B24083DB006FEC4C820F806D18FC5EEA86625* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2799,7 +2799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24220
+// Method Definition Index: 24193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_EndInvoke_mFF423000A6C29B29DBC2843DC819287792F62AA4 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_nameType_t935B24083DB006FEC4C820F806D18FC5EEA86625* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2845,7 +2845,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24221
+// Method Definition Index: 24194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType__ctor_mDF46E8F04ACF505D5831C5991666EBF5EFE28F3A (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_t441AD2795C50B02CD582B2E5FE209309F1BF6E55* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2874,20 +2874,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_Invoke_m1952757CB884443D9F4288F544BB6824E4071D7F_Multicast;
 }
-// Method Definition Index: 24222
+// Method Definition Index: 24195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_Invoke_m1952757CB884443D9F4288F544BB6824E4071D7F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_t441AD2795C50B02CD582B2E5FE209309F1BF6E55* __this, intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24223
+// Method Definition Index: 24196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_BeginInvoke_m17C175491468D39658FB3603738EA443F3B14106 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_t441AD2795C50B02CD582B2E5FE209309F1BF6E55* __this, intptr_t ___0_thiz, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_thiz);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24224
+// Method Definition Index: 24197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_EndInvoke_m62DDE9941097EF0249F4EED1E872B5B3E6212AA1 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_NativeImplementationType_t441AD2795C50B02CD582B2E5FE209309F1BF6E55* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2933,7 +2933,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24225
+// Method Definition Index: 24198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType__ctor_mEF70B45CF0A05CECAEC03D2AD91E0FD5AC8C5F41 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_t3AFCE8B859077E3C1D8DA0EA185B445EAB0823B8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2962,13 +2962,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_Invoke_mA91E1E8FAE1730EDDE99B30CDC061442014EB732_Multicast;
 }
-// Method Definition Index: 24226
+// Method Definition Index: 24199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_Invoke_mA91E1E8FAE1730EDDE99B30CDC061442014EB732 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_t3AFCE8B859077E3C1D8DA0EA185B445EAB0823B8* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24227
+// Method Definition Index: 24200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_BeginInvoke_mBB4604315D1F49387004464091C04A97D2E258D2 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_t3AFCE8B859077E3C1D8DA0EA185B445EAB0823B8* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -2976,7 +2976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24228
+// Method Definition Index: 24201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_EndInvoke_m75B7E637A85A001F7C48B881388B95EA20B02A77 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_polygonsType_t3AFCE8B859077E3C1D8DA0EA185B445EAB0823B8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3021,7 +3021,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24229
+// Method Definition Index: 24202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType__ctor_m610DE0FCEE1EEE40B3933FDF960593E6DAE2C236 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_t79A4762AAAF1C4BC98B532191D680D83E26CC89A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3050,13 +3050,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m6EC1B1B3752CD742927AEF3294C859564A126BCF_Multicast;
 }
-// Method Definition Index: 24230
+// Method Definition Index: 24203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m6EC1B1B3752CD742927AEF3294C859564A126BCF (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_t79A4762AAAF1C4BC98B532191D680D83E26CC89A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24231
+// Method Definition Index: 24204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_BeginInvoke_mC0705EEF41E45B34D5EF323BF90029E3B84698B1 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_t79A4762AAAF1C4BC98B532191D680D83E26CC89A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -3064,7 +3064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24232
+// Method Definition Index: 24205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_EndInvoke_m672F2D334AE15345567CFA5B6DECAB5A1C20FA04 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_showCreditsOnScreenType_t79A4762AAAF1C4BC98B532191D680D83E26CC89A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3109,7 +3109,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRast
 
 	return returnValue;
 }
-// Method Definition Index: 24233
+// Method Definition Index: 24206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType__ctor_mE54C1BDEA47DCA7CF4C4C854D3BAE68FDE05366C (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_tB3B697647219B0542392864E84F5905D661BBAC0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3138,13 +3138,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_Invoke_mBDB0EDD4BCD1833666700E0FC2225E5F4DFE79B8_Multicast;
 }
-// Method Definition Index: 24234
+// Method Definition Index: 24207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_Invoke_mBDB0EDD4BCD1833666700E0FC2225E5F4DFE79B8 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_tB3B697647219B0542392864E84F5905D661BBAC0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24235
+// Method Definition Index: 24208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_BeginInvoke_m88E10B51EFAAF615C0F963189E526D131FEECD75 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_tB3B697647219B0542392864E84F5905D661BBAC0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -3152,7 +3152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24236
+// Method Definition Index: 24209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_EndInvoke_mB518E63AE148A5A3DF4918FA00880495561254C7 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_subTileCacheBytesType_tB3B697647219B0542392864E84F5905D661BBAC0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3198,7 +3198,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRas
 
 	return returnValue;
 }
-// Method Definition Index: 24237
+// Method Definition Index: 24210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType__ctor_m440C694BD2022066A23FF7073DE657AC540E413A (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_tCB4975CF3A54AD41873C1662AAE518BE2ED1346C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3227,13 +3227,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_Invoke_m62B7208DA7DEE90529032BD7F68E75B0EB609D2B_Multicast;
 }
-// Method Definition Index: 24238
+// Method Definition Index: 24211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_Invoke_m62B7208DA7DEE90529032BD7F68E75B0EB609D2B (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_tCB4975CF3A54AD41873C1662AAE518BE2ED1346C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24239
+// Method Definition Index: 24212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_BeginInvoke_mD7C4F4638D33EEE5FB4A38DAA8578581E965D4FD (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_tCB4975CF3A54AD41873C1662AAE518BE2ED1346C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -3241,7 +3241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24240
+// Method Definition Index: 24213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_EndInvoke_m42AFC3D7C8BADC831327778F87309B45F9395A90 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_get_transformType_tCB4975CF3A54AD41873C1662AAE518BE2ED1346C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3283,7 +3283,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24241
+// Method Definition Index: 24214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType__ctor_m6CBB58BB7462A59FE49D2747799F13587E1D19B3 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_t89D6BB72F3100D789D59CDAAC1D46E0FC668E326* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3312,13 +3312,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_Invoke_m751168A99CD5EDFC1055410AC2CEBF63D62678ED_Multicast;
 }
-// Method Definition Index: 24242
+// Method Definition Index: 24215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_Invoke_m751168A99CD5EDFC1055410AC2CEBF63D62678ED (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_t89D6BB72F3100D789D59CDAAC1D46E0FC668E326* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24243
+// Method Definition Index: 24216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_BeginInvoke_mD8B5F8D91D461B57C172DB78310522F2F19C73A5 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_t89D6BB72F3100D789D59CDAAC1D46E0FC668E326* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3327,7 +3327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24244
+// Method Definition Index: 24217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_EndInvoke_m663A4A8F39B48E8ED6E97F056ADCDDA349E186BA (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_enabledType_t89D6BB72F3100D789D59CDAAC1D46E0FC668E326* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3368,7 +3368,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24245
+// Method Definition Index: 24218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType__ctor_mAF89D5E231CB1B21173DE1658BCD210978D65DC0 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_t1E65A4819C139B1D77AB831D3B0D349D2225B616* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3397,13 +3397,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_Invoke_m9167F73882737756404D426B5AFFC1FF64B277DA_Multicast;
 }
-// Method Definition Index: 24246
+// Method Definition Index: 24219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_Invoke_m9167F73882737756404D426B5AFFC1FF64B277DA (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_t1E65A4819C139B1D77AB831D3B0D349D2225B616* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24247
+// Method Definition Index: 24220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_BeginInvoke_m180FBCA565C61DD6B09E3954126CC562D6BA3B1F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_t1E65A4819C139B1D77AB831D3B0D349D2225B616* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3412,7 +3412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24248
+// Method Definition Index: 24221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_EndInvoke_m60F75152B93F25ABD4D0664EF154F8E3BA50850F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_excludeSelectedTilesType_t1E65A4819C139B1D77AB831D3B0D349D2225B616* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3453,7 +3453,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24249
+// Method Definition Index: 24222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType__ctor_m5AFB1C1CD24D24ECA68B4855BA5FDD3F932A5865 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_t278172300B17A0A288505B7447A20F2EEB61C61D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3482,13 +3482,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_Invoke_mD98685E8BF786656B3B103618BEA7DB3DF105CA3_Multicast;
 }
-// Method Definition Index: 24250
+// Method Definition Index: 24223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_Invoke_mD98685E8BF786656B3B103618BEA7DB3DF105CA3 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_t278172300B17A0A288505B7447A20F2EEB61C61D* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24251
+// Method Definition Index: 24224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_BeginInvoke_m063BDEFB032A951778EBA5F16C50DDE808724BA9 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_t278172300B17A0A288505B7447A20F2EEB61C61D* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3503,7 +3503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24252
+// Method Definition Index: 24225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_EndInvoke_m3F42D7711469AD8A088D7F8C017F9CD7F54760F9 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_hideFlagsType_t278172300B17A0A288505B7447A20F2EEB61C61D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3544,7 +3544,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24253
+// Method Definition Index: 24226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType__ctor_m3E4D6239B1FB08C6C142446AB27BCABE037AA633 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_tD5D8FB47588F639170F886C027FF97A3679CB1ED* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3573,13 +3573,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_Invoke_m68572EAE983E15A49A551D5B4AD439E0EB5FAD03_Multicast;
 }
-// Method Definition Index: 24254
+// Method Definition Index: 24227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_Invoke_m68572EAE983E15A49A551D5B4AD439E0EB5FAD03 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_tD5D8FB47588F639170F886C027FF97A3679CB1ED* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24255
+// Method Definition Index: 24228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_BeginInvoke_mAD6BCEA63DE3D230D1505FF06BA955FF4D8BD878 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_tD5D8FB47588F639170F886C027FF97A3679CB1ED* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3588,7 +3588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24256
+// Method Definition Index: 24229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_EndInvoke_m874D7234B02D8B6AC70752C64D5D2DA3F8A54BD8 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_invertSelectionType_tD5D8FB47588F639170F886C027FF97A3679CB1ED* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3629,7 +3629,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24257
+// Method Definition Index: 24230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType__ctor_m25447CA5B8E9B2F7E3E8E0FB6E3CB0CF1A65FA1D (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_tA80326353B6FA56942970B7AC87BE94FAB620210* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3658,13 +3658,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_Invoke_m2137C03454EC250B0E5FB16852D17C91EFBB479C_Multicast;
 }
-// Method Definition Index: 24258
+// Method Definition Index: 24231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_Invoke_m2137C03454EC250B0E5FB16852D17C91EFBB479C (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_tA80326353B6FA56942970B7AC87BE94FAB620210* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24259
+// Method Definition Index: 24232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_BeginInvoke_m15C0087A6A468D4E51BAD0E62EFF8819D0CC136D (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_tA80326353B6FA56942970B7AC87BE94FAB620210* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3673,7 +3673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24260
+// Method Definition Index: 24233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_EndInvoke_mF8D06C50C56CBC23DC49E8F0B7F27428C4AE8872 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_materialKeyType_tA80326353B6FA56942970B7AC87BE94FAB620210* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3714,7 +3714,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24261
+// Method Definition Index: 24234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType__ctor_m00A15DFF3E2F0BE64356BD151F20F8FDCB9EB803 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_t718D6288C0CD7354A8194A67E5FC1D7E9C10B0E9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3743,13 +3743,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_m1E2D3AA9B96490861292BAF428D2709C93A912B0_Multicast;
 }
-// Method Definition Index: 24262
+// Method Definition Index: 24235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_m1E2D3AA9B96490861292BAF428D2709C93A912B0 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_t718D6288C0CD7354A8194A67E5FC1D7E9C10B0E9* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, float, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24263
+// Method Definition Index: 24236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_BeginInvoke_m00E6C16D65509CF25E3A278DDA83B57324A0B963 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_t718D6288C0CD7354A8194A67E5FC1D7E9C10B0E9* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3758,7 +3758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24264
+// Method Definition Index: 24237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_EndInvoke_mA12A1006C8846E7372B73C66306BB41246A1D77F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumScreenSpaceErrorType_t718D6288C0CD7354A8194A67E5FC1D7E9C10B0E9* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3799,7 +3799,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24265
+// Method Definition Index: 24238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType__ctor_m27C5583688D1D3FC6CBF9085EB5A95D0A9B63EF1 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t8D75AD3E1C1106AA7B312D16334B3F9A61B164C4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3828,13 +3828,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_m1BDEC75815923DFEDBB0AE4E266899625FCC8756_Multicast;
 }
-// Method Definition Index: 24266
+// Method Definition Index: 24239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_m1BDEC75815923DFEDBB0AE4E266899625FCC8756 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t8D75AD3E1C1106AA7B312D16334B3F9A61B164C4* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24267
+// Method Definition Index: 24240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_BeginInvoke_m8E83379DBC78293F479C23361CABE9F9E2C97E03 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t8D75AD3E1C1106AA7B312D16334B3F9A61B164C4* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3843,7 +3843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24268
+// Method Definition Index: 24241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_EndInvoke_m3F6ABD36CC648250CE21192DE09A363C1EEA8307 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t8D75AD3E1C1106AA7B312D16334B3F9A61B164C4* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3884,7 +3884,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24269
+// Method Definition Index: 24242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType__ctor_m47C6E015DEDDB5A210F764C45608C357040D7588 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_t4972E7CB06B2C5CF022BA58FFB2E3474540EAC84* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3913,13 +3913,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_Invoke_mAAF65AEE9EB30E9CA12D92EB704E1816ACA2DE42_Multicast;
 }
-// Method Definition Index: 24270
+// Method Definition Index: 24243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_Invoke_mAAF65AEE9EB30E9CA12D92EB704E1816ACA2DE42 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_t4972E7CB06B2C5CF022BA58FFB2E3474540EAC84* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24271
+// Method Definition Index: 24244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_BeginInvoke_mB43ABDF7DAA64ECBA2D94CB06A72752F97B92C35 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_t4972E7CB06B2C5CF022BA58FFB2E3474540EAC84* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -3928,7 +3928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24272
+// Method Definition Index: 24245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_EndInvoke_m6E9872DA965E80EC7A50D66A94EF454ECD492352 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_maximumTextureSizeType_t4972E7CB06B2C5CF022BA58FFB2E3474540EAC84* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -3969,7 +3969,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24273
+// Method Definition Index: 24246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType__ctor_m7687F3B7EB155ABF075CD964719E12286B59143F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_t5EBB24AC302B2E665CCA9004D316D8E98563B28E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -3998,13 +3998,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_Invoke_m93A158353BA351B160D6D6ECAA1962D71E5C1B8F_Multicast;
 }
-// Method Definition Index: 24274
+// Method Definition Index: 24247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_Invoke_m93A158353BA351B160D6D6ECAA1962D71E5C1B8F (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_t5EBB24AC302B2E665CCA9004D316D8E98563B28E* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24275
+// Method Definition Index: 24248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_BeginInvoke_m51888A52566C33EBE1AB88B8ED91C2D5F8023923 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_t5EBB24AC302B2E665CCA9004D316D8E98563B28E* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4013,7 +4013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24276
+// Method Definition Index: 24249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_EndInvoke_m01449772A5676EEFF277BDEA652D945EA078ABCD (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_nameType_t5EBB24AC302B2E665CCA9004D316D8E98563B28E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4054,7 +4054,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24277
+// Method Definition Index: 24250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType__ctor_mE7CB074EF3E2901558D9571D358CE9B9B0A596EC (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_t2F5457A77D30BCF3A4BFE9E86405498CCA5B084D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4083,13 +4083,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_Invoke_m8FB0077EB3806FC95C6D8BC40B5CADCED2824C0B_Multicast;
 }
-// Method Definition Index: 24278
+// Method Definition Index: 24251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_Invoke_m8FB0077EB3806FC95C6D8BC40B5CADCED2824C0B (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_t2F5457A77D30BCF3A4BFE9E86405498CCA5B084D* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24279
+// Method Definition Index: 24252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_BeginInvoke_mACF12058596BB15949052B6509A99FC727F16B72 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_t2F5457A77D30BCF3A4BFE9E86405498CCA5B084D* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4098,7 +4098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24280
+// Method Definition Index: 24253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_EndInvoke_m111F01C8E6D63B0C81A0EE2F9DE0AA46577BD1E4 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_polygonsType_t2F5457A77D30BCF3A4BFE9E86405498CCA5B084D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4139,7 +4139,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24281
+// Method Definition Index: 24254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType__ctor_mA7A0E2DD63C9B3B4A4B5E1F59841CC11AE816FAF (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_t49A46CE0710554A2D4AE7DB263869A3B9C86A659* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4168,13 +4168,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_m53E88500A803D25C0DA8E07AA73F920745F5EFF7_Multicast;
 }
-// Method Definition Index: 24282
+// Method Definition Index: 24255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_m53E88500A803D25C0DA8E07AA73F920745F5EFF7 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_t49A46CE0710554A2D4AE7DB263869A3B9C86A659* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24283
+// Method Definition Index: 24256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_BeginInvoke_mCF7EBF669A8015F14A3984E4F9791412164C7734 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_t49A46CE0710554A2D4AE7DB263869A3B9C86A659* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4183,7 +4183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24284
+// Method Definition Index: 24257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_EndInvoke_mDFBF847B0EE069E019C5334B9ABE8B76D785AB7B (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_showCreditsOnScreenType_t49A46CE0710554A2D4AE7DB263869A3B9C86A659* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4224,7 +4224,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPolygonRasterO
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24285
+// Method Definition Index: 24258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType__ctor_m14B55ADA7693FAC8FD0732EEE8274E4B06657AE6 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_t85FB08CE7691DBA4B79BA68A68CD7BFE5D709C2A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4253,13 +4253,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverla
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_Invoke_m13734F5CFA104F8B77E6D6313450CE3F7887DC19_Multicast;
 }
-// Method Definition Index: 24286
+// Method Definition Index: 24259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_Invoke_m13734F5CFA104F8B77E6D6313450CE3F7887DC19 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_t85FB08CE7691DBA4B79BA68A68CD7BFE5D709C2A* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24287
+// Method Definition Index: 24260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_BeginInvoke_m6A528AA516202E5872BA31BFEF48EFBD9CB0EB57 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_t85FB08CE7691DBA4B79BA68A68CD7BFE5D709C2A* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4268,7 +4268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPolygonRa
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24288
+// Method Definition Index: 24261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_EndInvoke_m0A03B7C6FAD9F7827F0FDBD3175B8785D2A4E1A1 (CesiumForUnity_CesiumPolygonRasterOverlay_Property_set_subTileCacheBytesType_t85FB08CE7691DBA4B79BA68A68CD7BFE5D709C2A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4313,7 +4313,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveF
 
 	return returnValue;
 }
-// Method Definition Index: 24289
+// Method Definition Index: 24262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_m32E5D64B1C2AAE79DE39B644198576CF64297AA3 (CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tD51247F253861A8BFCAEB234E0C9C1EE491CD3DC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4342,13 +4342,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_C
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_mAAD24AD9A705C6F7742A7EB5B654F921F039A23B_Multicast;
 }
-// Method Definition Index: 24290
+// Method Definition Index: 24263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_mAAD24AD9A705C6F7742A7EB5B654F921F039A23B (CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tD51247F253861A8BFCAEB234E0C9C1EE491CD3DC* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24291
+// Method Definition Index: 24264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_m7BA8E61054FAF0A82F389C544500F23000700762 (CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tD51247F253861A8BFCAEB234E0C9C1EE491CD3DC* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -4356,7 +4356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24292
+// Method Definition Index: 24265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_m0C77658067132EFCDDFF0BD2B06E933BE50631DF (CesiumForUnity_CesiumPrimitiveFeatures_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tD51247F253861A8BFCAEB234E0C9C1EE491CD3DC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4401,7 +4401,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFe
 
 	return returnValue;
 }
-// Method Definition Index: 24293
+// Method Definition Index: 24266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m2E5B2E91D6191A400A6E02D7C17E155489FE9EFA (CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t3680302FB099AE2312800A6BF607069C261885FE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4430,13 +4430,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_C
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mEF376C9F98F4835AAB6757A5AE313B36D11627B9_Multicast;
 }
-// Method Definition Index: 24294
+// Method Definition Index: 24267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mEF376C9F98F4835AAB6757A5AE313B36D11627B9 (CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t3680302FB099AE2312800A6BF607069C261885FE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24295
+// Method Definition Index: 24268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m3C64E7A853196B6D8C8B3CE11A75DF7490C21DAB (CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t3680302FB099AE2312800A6BF607069C261885FE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -4444,7 +4444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24296
+// Method Definition Index: 24269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m4174D6291D9D031DE26186BA108CAD163511BF18 (CesiumForUnity_CesiumPrimitiveFeatures_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t3680302FB099AE2312800A6BF607069C261885FE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4489,7 +4489,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFe
 
 	return returnValue;
 }
-// Method Definition Index: 24297
+// Method Definition Index: 24270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m971FE1183EBDF7BDD358D82F4102B7B763161488 (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7FD59A5CDDB103B826448622F7FCC30CFF9DCF2C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4518,13 +4518,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_C
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mB8A518B5D74F83820E51377FB9D7DE4CB663E66D_Multicast;
 }
-// Method Definition Index: 24298
+// Method Definition Index: 24271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mB8A518B5D74F83820E51377FB9D7DE4CB663E66D (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7FD59A5CDDB103B826448622F7FCC30CFF9DCF2C* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24299
+// Method Definition Index: 24272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_mBE9BB2FFA882D51511C64F775317C462BDA1CBC6 (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7FD59A5CDDB103B826448622F7FCC30CFF9DCF2C* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4533,7 +4533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24300
+// Method Definition Index: 24273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m69F2C02BAD4B0299C4C329E386202892CB2817DD (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7FD59A5CDDB103B826448622F7FCC30CFF9DCF2C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4578,7 +4578,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFe
 
 	return returnValue;
 }
-// Method Definition Index: 24301
+// Method Definition Index: 24274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_mB8EC3E8D082DDEE5E94DF821ACD63882FD70A78A (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tE5B80D5F6341A15392BBD71B2B54863C5889DD05* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4607,13 +4607,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_C
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m4648A20C031673D3DF000CD828A9A046CBDEDC23_Multicast;
 }
-// Method Definition Index: 24302
+// Method Definition Index: 24275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m4648A20C031673D3DF000CD828A9A046CBDEDC23 (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tE5B80D5F6341A15392BBD71B2B54863C5889DD05* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24303
+// Method Definition Index: 24276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m2120CC3DE4F99785A559DC69B7F1FE6E64AF45A7 (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tE5B80D5F6341A15392BBD71B2B54863C5889DD05* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4622,7 +4622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24304
+// Method Definition Index: 24277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mDD9ACF38760B8BB5565C21F6631564C9485BC227 (CesiumForUnity_CesiumPrimitiveFeatures_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tE5B80D5F6341A15392BBD71B2B54863C5889DD05* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4668,7 +4668,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveF
 
 	return returnValue;
 }
-// Method Definition Index: 24305
+// Method Definition Index: 24278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m20FD37E707D840F11057C6402D46881FF0717F32 (CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t250327A5A6DF20F76AB03FBFE3005DB8CA9FDFBE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4697,13 +4697,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_C
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_mFAA74FE6E23D6BF15AFCB351954E92A3124C0FDE_Multicast;
 }
-// Method Definition Index: 24306
+// Method Definition Index: 24279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_mFAA74FE6E23D6BF15AFCB351954E92A3124C0FDE (CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t250327A5A6DF20F76AB03FBFE3005DB8CA9FDFBE* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24307
+// Method Definition Index: 24280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_mDC3B9AE1ABEB5FE1805B61EF7D585E4F00F3032B (CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t250327A5A6DF20F76AB03FBFE3005DB8CA9FDFBE* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -4712,7 +4712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24308
+// Method Definition Index: 24281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_m3D6DCEDE92AF37098BB3BFEE1EFC3AE4855EB39B (CesiumForUnity_CesiumPrimitiveFeatures_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t250327A5A6DF20F76AB03FBFE3005DB8CA9FDFBE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4757,7 +4757,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFe
 
 	return returnValue;
 }
-// Method Definition Index: 24309
+// Method Definition Index: 24282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType__ctor_mF9A569BCB70779F791AEA0127BC88D0638E1D1B3 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_t5D2E1C1483581EFF22735EEEAE8526E4F788BBE2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4786,13 +4786,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_Invoke_mD301468E6B3A3F1216A0C9D142C91860A3BF4647_Multicast;
 }
-// Method Definition Index: 24310
+// Method Definition Index: 24283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_Invoke_mD301468E6B3A3F1216A0C9D142C91860A3BF4647 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_t5D2E1C1483581EFF22735EEEAE8526E4F788BBE2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24311
+// Method Definition Index: 24284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_BeginInvoke_m73FCB08B97F694B97EEA5BCE02DE91B4D7EECD4C (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_t5D2E1C1483581EFF22735EEEAE8526E4F788BBE2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -4800,7 +4800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24312
+// Method Definition Index: 24285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_EndInvoke_mCAE816A6104F1CF0FBE119373688BD7586CC4CFF (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_enabledType_t5D2E1C1483581EFF22735EEEAE8526E4F788BBE2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4846,7 +4846,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveF
 
 	return returnValue;
 }
-// Method Definition Index: 24313
+// Method Definition Index: 24286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType__ctor_m3A57EE33E0A23E13BA8EDFE64E0EFB05F4F79B0A (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_tB7C5E6535325F0D3167CA9F0C3FF13DC315EAAD6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4875,13 +4875,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_Invoke_m791FC8FD3CC51FE545CAE2902565102D0C13D3DD_Multicast;
 }
-// Method Definition Index: 24314
+// Method Definition Index: 24287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_Invoke_m791FC8FD3CC51FE545CAE2902565102D0C13D3DD (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_tB7C5E6535325F0D3167CA9F0C3FF13DC315EAAD6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24315
+// Method Definition Index: 24288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_BeginInvoke_m1DEB3A6C6658FD2F5E213E8D75A1BE1B6D8A062D (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_tB7C5E6535325F0D3167CA9F0C3FF13DC315EAAD6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -4889,7 +4889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24316
+// Method Definition Index: 24289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_EndInvoke_m584D116158F6369949BFE06A4B60CA230B56A7DB (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_featureIdSetsType_tB7C5E6535325F0D3167CA9F0C3FF13DC315EAAD6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -4935,7 +4935,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveF
 
 	return returnValue;
 }
-// Method Definition Index: 24317
+// Method Definition Index: 24290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType__ctor_mF33959B8A3228BC3D04FF0D70C2B98D7E619A1ED (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_t09B81DC5225DA08710E2BF12097EF6C72AA61C04* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -4964,13 +4964,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_Invoke_mCEEDA7D358432A789E2EB132054A49776A2114CB_Multicast;
 }
-// Method Definition Index: 24318
+// Method Definition Index: 24291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_Invoke_mCEEDA7D358432A789E2EB132054A49776A2114CB (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_t09B81DC5225DA08710E2BF12097EF6C72AA61C04* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24319
+// Method Definition Index: 24292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_BeginInvoke_mAFAF750DA252E8230DBC71D183B89BE6086CA2A2 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_t09B81DC5225DA08710E2BF12097EF6C72AA61C04* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -4978,7 +4978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24320
+// Method Definition Index: 24293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_EndInvoke_m54358E2965248A581DB41DCEC7CE482B2C03146B (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_gameObjectType_t09B81DC5225DA08710E2BF12097EF6C72AA61C04* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5023,7 +5023,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFe
 
 	return returnValue;
 }
-// Method Definition Index: 24321
+// Method Definition Index: 24294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType__ctor_m12C2BF5F617D181374D894BAF787B7D8BA179C10 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_tC90E5564C1408D593257E74F75FC8A372F2FD79A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5052,13 +5052,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_Invoke_mA73A8B1CA7F5EA88771CACF611FCFB083C3B8D08_Multicast;
 }
-// Method Definition Index: 24322
+// Method Definition Index: 24295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_Invoke_mA73A8B1CA7F5EA88771CACF611FCFB083C3B8D08 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_tC90E5564C1408D593257E74F75FC8A372F2FD79A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24323
+// Method Definition Index: 24296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_BeginInvoke_mBB449A3E7B2A6C8B2879288295ACDD19681BF6C1 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_tC90E5564C1408D593257E74F75FC8A372F2FD79A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -5066,7 +5066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24324
+// Method Definition Index: 24297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_EndInvoke_m2F82E3CE092B697A17BEC0D6F2FB8E83ABBA4DC8 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_hideFlagsType_tC90E5564C1408D593257E74F75FC8A372F2FD79A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5112,7 +5112,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveF
 
 	return returnValue;
 }
-// Method Definition Index: 24325
+// Method Definition Index: 24298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType__ctor_mAD8C4F66F8E13001588B36059FDB1C4A7512477F (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_t631099846B13E03C78D5DE143EF436F9892C7FD0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5141,13 +5141,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_Invoke_m87F9E8D78D02E84DDDAB3E4B193AB0BCB0FB4820_Multicast;
 }
-// Method Definition Index: 24326
+// Method Definition Index: 24299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_Invoke_m87F9E8D78D02E84DDDAB3E4B193AB0BCB0FB4820 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_t631099846B13E03C78D5DE143EF436F9892C7FD0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24327
+// Method Definition Index: 24300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_BeginInvoke_m223BACBC8A13C77600ADCE8C16C6E75C8E98132A (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_t631099846B13E03C78D5DE143EF436F9892C7FD0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -5155,7 +5155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24328
+// Method Definition Index: 24301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_EndInvoke_m5462BB2D3203D31B2ED84A48442E4AA71E5066D2 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_nameType_t631099846B13E03C78D5DE143EF436F9892C7FD0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5201,7 +5201,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveF
 
 	return returnValue;
 }
-// Method Definition Index: 24329
+// Method Definition Index: 24302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType__ctor_mEE358437EC94E7A30FF14F4A611593AEAC6AB49B (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_t91C4E9797CCE7E07E1E1E5652D9F10B03E4F1324* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5230,13 +5230,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_Invoke_mE1628EE62743DE91D693DD76B5D7F3EF49DB58CC_Multicast;
 }
-// Method Definition Index: 24330
+// Method Definition Index: 24303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_Invoke_mE1628EE62743DE91D693DD76B5D7F3EF49DB58CC (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_t91C4E9797CCE7E07E1E1E5652D9F10B03E4F1324* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24331
+// Method Definition Index: 24304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_BeginInvoke_m8485C7221FABA686090DCDF428772DCFA390929B (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_t91C4E9797CCE7E07E1E1E5652D9F10B03E4F1324* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -5244,7 +5244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24332
+// Method Definition Index: 24305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_EndInvoke_mE59C9E99E3F914C02F1AB894C0E31F7351421A95 (CesiumForUnity_CesiumPrimitiveFeatures_Property_get_transformType_t91C4E9797CCE7E07E1E1E5652D9F10B03E4F1324* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5286,7 +5286,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFeatu
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24333
+// Method Definition Index: 24306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType__ctor_m9BDCFBDA0560960918955914162E9D40EDA533BD (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_t2756C6CC220719815311D6D39CEA72B9658DD96C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5315,13 +5315,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_Invoke_m4557C3C52FD006993523529D7AECCD83ACCA01BC_Multicast;
 }
-// Method Definition Index: 24334
+// Method Definition Index: 24307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_Invoke_m4557C3C52FD006993523529D7AECCD83ACCA01BC (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_t2756C6CC220719815311D6D39CEA72B9658DD96C* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24335
+// Method Definition Index: 24308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_BeginInvoke_m0F4B4B97F5B85A31150BFDAD4567B6C61BDAB0FF (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_t2756C6CC220719815311D6D39CEA72B9658DD96C* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -5330,7 +5330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24336
+// Method Definition Index: 24309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_EndInvoke_mE7468839A47237259F8C278BC57A7CA9271352BA (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_enabledType_t2756C6CC220719815311D6D39CEA72B9658DD96C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5371,7 +5371,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFeatu
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24337
+// Method Definition Index: 24310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType__ctor_m3ABE6855F305C4E131F4C9EC1CC4B922A2257DE7 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_tE0F562F91315273353E886172EF1E9141E09FF22* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5400,13 +5400,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_Invoke_m048CC1ACB27148B5D93A36D6121FAF338E15AAE1_Multicast;
 }
-// Method Definition Index: 24338
+// Method Definition Index: 24311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_Invoke_m048CC1ACB27148B5D93A36D6121FAF338E15AAE1 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_tE0F562F91315273353E886172EF1E9141E09FF22* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24339
+// Method Definition Index: 24312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_BeginInvoke_mBB3BF5992BE3824B5DA5D8D1AF4E8440069560A0 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_tE0F562F91315273353E886172EF1E9141E09FF22* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -5415,7 +5415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24340
+// Method Definition Index: 24313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_EndInvoke_m92667C043DD4750774B43A6D323F8C9A820EB540 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_featureIdSetsType_tE0F562F91315273353E886172EF1E9141E09FF22* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5456,7 +5456,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFeatu
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24341
+// Method Definition Index: 24314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType__ctor_m1FF89FEF19058484E0DB8E390051B60F98DFAFB6 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_t2523219A79B2BC15A5256B75D31EA026D97FBD55* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5485,13 +5485,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_Invoke_m2C882110AF2B33DAC1DBF84C380BA1C05D045419_Multicast;
 }
-// Method Definition Index: 24342
+// Method Definition Index: 24315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_Invoke_m2C882110AF2B33DAC1DBF84C380BA1C05D045419 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_t2523219A79B2BC15A5256B75D31EA026D97FBD55* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24343
+// Method Definition Index: 24316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_BeginInvoke_mCFC9439498A77CA993FCCE729758F7C8211C5D25 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_t2523219A79B2BC15A5256B75D31EA026D97FBD55* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5506,7 +5506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24344
+// Method Definition Index: 24317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_EndInvoke_m6515C824D14CFBE13D224F92F670005AE7A21DC8 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_hideFlagsType_t2523219A79B2BC15A5256B75D31EA026D97FBD55* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5547,7 +5547,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPrimitiveFeatu
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24345
+// Method Definition Index: 24318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType__ctor_m573997A93441345D4332493E61FBB44BABC9E3D6 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_tD776437BF84673392F24A34D968207E1C8F45E1E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5576,13 +5576,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_P
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_Invoke_mF18AE01DABE1973C7F32D16BDADE860A4665159B_Multicast;
 }
-// Method Definition Index: 24346
+// Method Definition Index: 24319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_Invoke_mF18AE01DABE1973C7F32D16BDADE860A4665159B (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_tD776437BF84673392F24A34D968207E1C8F45E1E* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24347
+// Method Definition Index: 24320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_BeginInvoke_m489BA5358A02CD9549F1D01032FF84B6C86A8B7D (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_tD776437BF84673392F24A34D968207E1C8F45E1E* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -5591,7 +5591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPrimitive
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24348
+// Method Definition Index: 24321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_EndInvoke_m7D1DC7BF81775A1AF7F65763BF019C8C3714B110 (CesiumForUnity_CesiumPrimitiveFeatures_Property_set_nameType_tD776437BF84673392F24A34D968207E1C8F45E1E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5637,7 +5637,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyAr
 
 	return returnValue;
 }
-// Method Definition Index: 24349
+// Method Definition Index: 24322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mC6897CAFF7DE4BD70A65611F7C1D68FB1C66BBDD (CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tDE55D9792CC2159515640E1BE27BD88998D1545B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5674,20 +5674,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Const
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mA19ECF12F448943CBB2C092A6F6A547F8976DDC6_Multicast;
 }
-// Method Definition Index: 24350
+// Method Definition Index: 24323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mA19ECF12F448943CBB2C092A6F6A547F8976DDC6 (CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tDE55D9792CC2159515640E1BE27BD88998D1545B* __this, intptr_t* ___0_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24351
+// Method Definition Index: 24324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_mD255D33795AB00F4804AF607C85D33D1182F2F96 (CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tDE55D9792CC2159515640E1BE27BD88998D1545B* __this, intptr_t* ___0_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24352
+// Method Definition Index: 24325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m65D5A191488B40A99CCC762CA7F3BF5FFB74919D (CesiumForUnity_CesiumPropertyArray_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tDE55D9792CC2159515640E1BE27BD88998D1545B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5729,7 +5729,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyArray_
 	il2cppPInvokeFunc(___0_thiz, ___1_pReturnValue, ___2_reinteropException);
 
 }
-// Method Definition Index: 24353
+// Method Definition Index: 24326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType__ctor_m99C7D27823C67E95679EF94D28FDD7C41791A7FF (CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_t5E3CE278E60F5FDE8A61FD5AA03361717833EAB4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5758,13 +5758,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_Invoke_m22C8F883BB6584152B4073F25E995B2D53FE0C45_Multicast;
 }
-// Method Definition Index: 24354
+// Method Definition Index: 24327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_Invoke_m22C8F883BB6584152B4073F25E995B2D53FE0C45 (CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_t5E3CE278E60F5FDE8A61FD5AA03361717833EAB4* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_pReturnValue, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24355
+// Method Definition Index: 24328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_BeginInvoke_mF019058CA6E627CCF4EFD293750A02335306F6F6 (CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_t5E3CE278E60F5FDE8A61FD5AA03361717833EAB4* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_pReturnValue, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -5773,7 +5773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyA
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24356
+// Method Definition Index: 24329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_EndInvoke_m3CE6CA04249001C3909A8203477C320618E21FFA (CesiumForUnity_CesiumPropertyArray_Property_get_elementValueTypeType_t5E3CE278E60F5FDE8A61FD5AA03361717833EAB4* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5818,7 +5818,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyAr
 
 	return returnValue;
 }
-// Method Definition Index: 24357
+// Method Definition Index: 24330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_get_valuesType__ctor_m4D64ADE60334B9196C6CC42CAE0719901B79C288 (CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_t1392B0AE4ED707821E95D2FB672F62618F75204B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5847,13 +5847,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_Invoke_m244AC0E16826027B52746D31420DF72626B32800_Multicast;
 }
-// Method Definition Index: 24358
+// Method Definition Index: 24331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_Invoke_m244AC0E16826027B52746D31420DF72626B32800 (CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_t1392B0AE4ED707821E95D2FB672F62618F75204B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24359
+// Method Definition Index: 24332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_BeginInvoke_m7B5D46593315364ED06682DD2B84954F305B3C01 (CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_t1392B0AE4ED707821E95D2FB672F62618F75204B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -5861,7 +5861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyA
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24360
+// Method Definition Index: 24333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_EndInvoke_mFDD39741267401372C6F6E77C46AE868C88234EA (CesiumForUnity_CesiumPropertyArray_Property_get_valuesType_t1392B0AE4ED707821E95D2FB672F62618F75204B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5903,7 +5903,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyArray_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24361
+// Method Definition Index: 24334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType__ctor_m5EB1A8046D4BF1F52071D5CF883096BA9781631B (CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_tE7C7355B0EFBE475483BA43C02DDE403D01025D8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5932,13 +5932,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_Invoke_mDEA33637788966A65F9DE1767E91B4382785686B_Multicast;
 }
-// Method Definition Index: 24362
+// Method Definition Index: 24335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_Invoke_mDEA33637788966A65F9DE1767E91B4382785686B (CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_tE7C7355B0EFBE475483BA43C02DDE403D01025D8* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24363
+// Method Definition Index: 24336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_BeginInvoke_mCAF0DFEE6D1261C51BEF052A83C4A2F1DB9675FC (CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_tE7C7355B0EFBE475483BA43C02DDE403D01025D8* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -5947,7 +5947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyA
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24364
+// Method Definition Index: 24337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_EndInvoke_mD8F07161EE8274FB9AF3CDEC4A93E947CEE94B7B (CesiumForUnity_CesiumPropertyArray_Property_set_elementValueTypeType_tE7C7355B0EFBE475483BA43C02DDE403D01025D8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5988,7 +5988,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyArray_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24365
+// Method Definition Index: 24338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_set_valuesType__ctor_m0EBE05F16163D6CBC5D59E49C2A5835BAB862806 (CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_tFD63201875D6B3B20E30FDE15927EC5EE0CBE88D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6017,13 +6017,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_Invoke_m5B03A871BCEDC08579D99738FB5830B983780C3C_Multicast;
 }
-// Method Definition Index: 24366
+// Method Definition Index: 24339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_Invoke_m5B03A871BCEDC08579D99738FB5830B983780C3C (CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_tFD63201875D6B3B20E30FDE15927EC5EE0CBE88D* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24367
+// Method Definition Index: 24340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_BeginInvoke_m3C7AFB4C4CC08E96832BF5C1DFBDE795A02091EE (CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_tFD63201875D6B3B20E30FDE15927EC5EE0CBE88D* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -6032,7 +6032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyA
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24368
+// Method Definition Index: 24341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_EndInvoke_m0346F97718645904AFFD0B2DFD0A716E2B92C509 (CesiumForUnity_CesiumPropertyArray_Property_set_valuesType_tFD63201875D6B3B20E30FDE15927EC5EE0CBE88D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6073,7 +6073,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTable_
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24369
+// Method Definition Index: 24342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m6D57150981F316C152D9C4799AAD5822CA381641 (CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_t33B2FCDB0A6D7A954077415934F22662467B2DE4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6102,13 +6102,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_CallD
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mFA09FAA6B63BE4BC62A678575F440194A21E2D59_Multicast;
 }
-// Method Definition Index: 24370
+// Method Definition Index: 24343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mFA09FAA6B63BE4BC62A678575F440194A21E2D59 (CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_t33B2FCDB0A6D7A954077415934F22662467B2DE4* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24371
+// Method Definition Index: 24344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_mA69934F1541851ED519EE7EB70E7B8A0C5E53164 (CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_t33B2FCDB0A6D7A954077415934F22662467B2DE4* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -6116,7 +6116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24372
+// Method Definition Index: 24345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m7BB31C910F72B717CFD3E23ABF0F4A2D5F4EA740 (CesiumForUnity_CesiumPropertyTable_CallDisposeProperties_1B2M2Y8AsgTpgAmY7PhCfgType_t33B2FCDB0A6D7A954077415934F22662467B2DE4* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6162,7 +6162,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24373
+// Method Definition Index: 24346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mE3ACD8E2C05847C25EA3B9AEC9C8EDE32146F86A (CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tFCD8E716A7AD22006DD1F58E09FB71EAEDD4A982* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6199,20 +6199,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Const
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m16A4A27B325F9A3D5744C4DC21D71FC107314BA2_Multicast;
 }
-// Method Definition Index: 24374
+// Method Definition Index: 24347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m16A4A27B325F9A3D5744C4DC21D71FC107314BA2 (CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tFCD8E716A7AD22006DD1F58E09FB71EAEDD4A982* __this, intptr_t* ___0_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24375
+// Method Definition Index: 24348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m9330DC139110279F9A72DE873F0EA8BCB2F0CFC1 (CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tFCD8E716A7AD22006DD1F58E09FB71EAEDD4A982* __this, intptr_t* ___0_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24376
+// Method Definition Index: 24349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mDC5125AB8CBF7011A329B0E361A1EAF94BEECBAB (CesiumForUnity_CesiumPropertyTable_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_tFCD8E716A7AD22006DD1F58E09FB71EAEDD4A982* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6257,7 +6257,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTab
 
 	return returnValue;
 }
-// Method Definition Index: 24377
+// Method Definition Index: 24350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_get_countType__ctor_m5C8343258EF9A13B5B0E5ED6AEBAD04E2A008187 (CesiumForUnity_CesiumPropertyTable_Property_get_countType_tC54B5F9D7C90C7C9C064F37757FD7EF5C4F66974* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6286,13 +6286,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_get_countType_Invoke_mE8E54D47E38C383DAFC60A031F4374D21413D504_Multicast;
 }
-// Method Definition Index: 24378
+// Method Definition Index: 24351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPropertyTable_Property_get_countType_Invoke_mE8E54D47E38C383DAFC60A031F4374D21413D504 (CesiumForUnity_CesiumPropertyTable_Property_get_countType_tC54B5F9D7C90C7C9C064F37757FD7EF5C4F66974* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24379
+// Method Definition Index: 24352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_get_countType_BeginInvoke_mBBDD393FB2BD0DEF505DC86792CF620BC15DE338 (CesiumForUnity_CesiumPropertyTable_Property_get_countType_tC54B5F9D7C90C7C9C064F37757FD7EF5C4F66974* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -6300,7 +6300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24380
+// Method Definition Index: 24353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPropertyTable_Property_get_countType_EndInvoke_mA48E363A4EF71A8279A7F1E7F60629A85AD04318 (CesiumForUnity_CesiumPropertyTable_Property_get_countType_tC54B5F9D7C90C7C9C064F37757FD7EF5C4F66974* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6346,7 +6346,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24381
+// Method Definition Index: 24354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_get_nameType__ctor_mF3BD01F7FB603F694AF8B4BE29DC7CA7C283BA85 (CesiumForUnity_CesiumPropertyTable_Property_get_nameType_t95BD05C265285452451E6CBBFE9D8F3CCCE96BF1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6375,13 +6375,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_get_nameType_Invoke_mE94DCBC733FFF48936B5839EEE7F0B3051FF0FE9_Multicast;
 }
-// Method Definition Index: 24382
+// Method Definition Index: 24355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTable_Property_get_nameType_Invoke_mE94DCBC733FFF48936B5839EEE7F0B3051FF0FE9 (CesiumForUnity_CesiumPropertyTable_Property_get_nameType_t95BD05C265285452451E6CBBFE9D8F3CCCE96BF1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24383
+// Method Definition Index: 24356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_get_nameType_BeginInvoke_m0BBAD39FB9313FE57DB26A808385E9E6ECB2B5F2 (CesiumForUnity_CesiumPropertyTable_Property_get_nameType_t95BD05C265285452451E6CBBFE9D8F3CCCE96BF1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -6389,7 +6389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24384
+// Method Definition Index: 24357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTable_Property_get_nameType_EndInvoke_mE32BFA49BF979B1500596EF97E11E6196B634F59 (CesiumForUnity_CesiumPropertyTable_Property_get_nameType_t95BD05C265285452451E6CBBFE9D8F3CCCE96BF1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6435,7 +6435,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24385
+// Method Definition Index: 24358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType__ctor_m9CDCE09FE83E7D1FFF1E36A4BB0B456C108DC97D (CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_tF880D286FB94F2D36A1205957F86F8A5F3658F22* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6464,13 +6464,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_Invoke_mFD4B6BB3F536D22BB082ADF072100825C79A5875_Multicast;
 }
-// Method Definition Index: 24386
+// Method Definition Index: 24359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_Invoke_mFD4B6BB3F536D22BB082ADF072100825C79A5875 (CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_tF880D286FB94F2D36A1205957F86F8A5F3658F22* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24387
+// Method Definition Index: 24360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_BeginInvoke_m55F3B9875195EF318CD73AB71CB94863E68E5016 (CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_tF880D286FB94F2D36A1205957F86F8A5F3658F22* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -6478,7 +6478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24388
+// Method Definition Index: 24361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_EndInvoke_m16A717AC39EBC8F45C6171DC7077E5BC9ABB5063 (CesiumForUnity_CesiumPropertyTable_Property_get_propertiesType_tF880D286FB94F2D36A1205957F86F8A5F3658F22* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6523,7 +6523,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTab
 
 	return returnValue;
 }
-// Method Definition Index: 24389
+// Method Definition Index: 24362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_get_statusType__ctor_m756A5C19CDE9448FFCC5A17BC9C06F993810E7F7 (CesiumForUnity_CesiumPropertyTable_Property_get_statusType_t28D5ABE719482EE3E81F72A1C987D876E3266FB6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6552,13 +6552,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_get_statusType_Invoke_mE643B896103A4B73BC6BBBF4D8DBFEB1FA647CEE_Multicast;
 }
-// Method Definition Index: 24390
+// Method Definition Index: 24363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPropertyTable_Property_get_statusType_Invoke_mE643B896103A4B73BC6BBBF4D8DBFEB1FA647CEE (CesiumForUnity_CesiumPropertyTable_Property_get_statusType_t28D5ABE719482EE3E81F72A1C987D876E3266FB6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24391
+// Method Definition Index: 24364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_get_statusType_BeginInvoke_mD1E21C7EEB661B3390B97C66E48F9F5A01FAEF38 (CesiumForUnity_CesiumPropertyTable_Property_get_statusType_t28D5ABE719482EE3E81F72A1C987D876E3266FB6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -6566,7 +6566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24392
+// Method Definition Index: 24365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPropertyTable_Property_get_statusType_EndInvoke_m4BB784158D2D6B45B6F0178D3D08BD2D825133D8 (CesiumForUnity_CesiumPropertyTable_Property_get_statusType_t28D5ABE719482EE3E81F72A1C987D876E3266FB6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6608,7 +6608,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTable_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24393
+// Method Definition Index: 24366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_countType__ctor_m87EC8FF3805731D70269F6CCF5B09189B152692A (CesiumForUnity_CesiumPropertyTable_Property_set_countType_tEA0C1C4524A4B59B4333AD0386BBEB3F2457E7DE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6637,13 +6637,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_set_countType_Invoke_m0E526CC4B508E7BBBCC7E5A0AFF32AA511F6E491_Multicast;
 }
-// Method Definition Index: 24394
+// Method Definition Index: 24367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_countType_Invoke_m0E526CC4B508E7BBBCC7E5A0AFF32AA511F6E491 (CesiumForUnity_CesiumPropertyTable_Property_set_countType_tEA0C1C4524A4B59B4333AD0386BBEB3F2457E7DE* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24395
+// Method Definition Index: 24368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_set_countType_BeginInvoke_m1E1D92F1EC32C15CFCBFEF2AD20144B935735E3A (CesiumForUnity_CesiumPropertyTable_Property_set_countType_tEA0C1C4524A4B59B4333AD0386BBEB3F2457E7DE* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -6652,7 +6652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24396
+// Method Definition Index: 24369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_countType_EndInvoke_m8324E7FD7307CADFC555ADD023F83C2DC4D06DC7 (CesiumForUnity_CesiumPropertyTable_Property_set_countType_tEA0C1C4524A4B59B4333AD0386BBEB3F2457E7DE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6693,7 +6693,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTable_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24397
+// Method Definition Index: 24370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_nameType__ctor_m7524671257EAB662F881571B945D979B12F19D65 (CesiumForUnity_CesiumPropertyTable_Property_set_nameType_tC6C1F6E99C2BD52AB19EEE10C87AB53A3B14B302* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6722,13 +6722,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_set_nameType_Invoke_m0095B706A07058EAF50D4FD770E0AADEEACA90CA_Multicast;
 }
-// Method Definition Index: 24398
+// Method Definition Index: 24371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_nameType_Invoke_m0095B706A07058EAF50D4FD770E0AADEEACA90CA (CesiumForUnity_CesiumPropertyTable_Property_set_nameType_tC6C1F6E99C2BD52AB19EEE10C87AB53A3B14B302* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24399
+// Method Definition Index: 24372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_set_nameType_BeginInvoke_m7D9BEF7FD25BDC48B2F7171004798B52C77EB003 (CesiumForUnity_CesiumPropertyTable_Property_set_nameType_tC6C1F6E99C2BD52AB19EEE10C87AB53A3B14B302* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -6737,7 +6737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24400
+// Method Definition Index: 24373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_nameType_EndInvoke_m243DA639B242B68AA1E00A981690E9D7A9418DA9 (CesiumForUnity_CesiumPropertyTable_Property_set_nameType_tC6C1F6E99C2BD52AB19EEE10C87AB53A3B14B302* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6778,7 +6778,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTable_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24401
+// Method Definition Index: 24374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType__ctor_m94FC6EC9B2CB4B087D2D6ABC0D0E3A6CA303F6BC (CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_tE94F5ECBD847A604B17BC451810AAFC0111CBF57* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6807,13 +6807,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_Invoke_mB91B5FB348D7591B586C1F9F981804764A01D0FF_Multicast;
 }
-// Method Definition Index: 24402
+// Method Definition Index: 24375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_Invoke_mB91B5FB348D7591B586C1F9F981804764A01D0FF (CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_tE94F5ECBD847A604B17BC451810AAFC0111CBF57* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24403
+// Method Definition Index: 24376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_BeginInvoke_m3FF3BC821E00CD2570DE83F00519BEAA76672446 (CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_tE94F5ECBD847A604B17BC451810AAFC0111CBF57* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -6822,7 +6822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24404
+// Method Definition Index: 24377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_EndInvoke_mCC4FE82A09B1D5E6B3D5DDDA872DCE4A533D2C97 (CesiumForUnity_CesiumPropertyTable_Property_set_propertiesType_tE94F5ECBD847A604B17BC451810AAFC0111CBF57* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6863,7 +6863,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTable_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24405
+// Method Definition Index: 24378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_statusType__ctor_mEAC0D69DFB6D3178FBA4A31E3F07A89A2FBB2987 (CesiumForUnity_CesiumPropertyTable_Property_set_statusType_t0F53ED17DE2CCB29D397CC96818356BF68C8DD02* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6892,13 +6892,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTable_Property_set_statusType_Invoke_m3CB1E9C359B27BA6E2152AAF2681659D1A54AEC3_Multicast;
 }
-// Method Definition Index: 24406
+// Method Definition Index: 24379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_statusType_Invoke_m3CB1E9C359B27BA6E2152AAF2681659D1A54AEC3 (CesiumForUnity_CesiumPropertyTable_Property_set_statusType_t0F53ED17DE2CCB29D397CC96818356BF68C8DD02* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24407
+// Method Definition Index: 24380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTable_Property_set_statusType_BeginInvoke_mF403467D631DB1FBF0BCD5E899CBAAE747E14AF2 (CesiumForUnity_CesiumPropertyTable_Property_set_statusType_t0F53ED17DE2CCB29D397CC96818356BF68C8DD02* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6913,7 +6913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24408
+// Method Definition Index: 24381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTable_Property_set_statusType_EndInvoke_m99D7DD5F235D1C058DDBDE5CDA3B7F6AD5A60C43 (CesiumForUnity_CesiumPropertyTable_Property_set_statusType_t0F53ED17DE2CCB29D397CC96818356BF68C8DD02* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6959,7 +6959,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24409
+// Method Definition Index: 24382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mA407C131C6ECA3FCB5414735065E50A4A0E73110 (CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t72923FFFD11E882BD5246ED7F2BACDEAADC5656B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6996,20 +6996,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mFEFFBA9CE5CE27F17B4187346F3EE76DEDBF0CCC_Multicast;
 }
-// Method Definition Index: 24410
+// Method Definition Index: 24383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mFEFFBA9CE5CE27F17B4187346F3EE76DEDBF0CCC (CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t72923FFFD11E882BD5246ED7F2BACDEAADC5656B* __this, intptr_t* ___0_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24411
+// Method Definition Index: 24384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m739F69E4071F6E46806B4ACC8B0A27C0FEB8E030 (CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t72923FFFD11E882BD5246ED7F2BACDEAADC5656B* __this, intptr_t* ___0_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24412
+// Method Definition Index: 24385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m9F3B5CF3D797FC079B40B9A2A864C27217EAED77 (CesiumForUnity_CesiumPropertyTableProperty_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t72923FFFD11E882BD5246ED7F2BACDEAADC5656B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7054,7 +7054,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTab
 
 	return returnValue;
 }
-// Method Definition Index: 24413
+// Method Definition Index: 24386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType__ctor_mC6E03254EE536A7595DE1B45086025F1349D8F5D (CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_t42AD51DC2319AB047F77114A87735CC18AE86593* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7083,13 +7083,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_Invoke_mCD7BC3AF41947212A16448476FA21E3B93297793_Multicast;
 }
-// Method Definition Index: 24414
+// Method Definition Index: 24387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_Invoke_mCD7BC3AF41947212A16448476FA21E3B93297793 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_t42AD51DC2319AB047F77114A87735CC18AE86593* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24415
+// Method Definition Index: 24388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_BeginInvoke_m94497A8FE639CCA6A3C282BE721789862B293BCC (CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_t42AD51DC2319AB047F77114A87735CC18AE86593* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7097,7 +7097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24416
+// Method Definition Index: 24389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_EndInvoke_m6C9C208615623C82BCB87BEBB73155D3CF577903 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_arraySizeType_t42AD51DC2319AB047F77114A87735CC18AE86593* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7143,7 +7143,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24417
+// Method Definition Index: 24390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType__ctor_mA6449FF8178847B11F95A38B707D17A0B8E539B5 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_tBEE06DB656085AD41194EB172F48BF6031207E28* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7172,13 +7172,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_Invoke_mFECA445B9C82B5DCC3BA4F667E482226AB3A5F02_Multicast;
 }
-// Method Definition Index: 24418
+// Method Definition Index: 24391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_Invoke_mFECA445B9C82B5DCC3BA4F667E482226AB3A5F02 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_tBEE06DB656085AD41194EB172F48BF6031207E28* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24419
+// Method Definition Index: 24392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_BeginInvoke_mD16211F92AA64DBABD5403BECA49A77093AE86E9 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_tBEE06DB656085AD41194EB172F48BF6031207E28* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7186,7 +7186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24420
+// Method Definition Index: 24393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_EndInvoke_m32CC4B16DAC940C487C83B5A749B4BD8E4FB1141 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_defaultValueType_tBEE06DB656085AD41194EB172F48BF6031207E28* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7231,7 +7231,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTab
 
 	return returnValue;
 }
-// Method Definition Index: 24421
+// Method Definition Index: 24394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType__ctor_m6430CF342C57725B6C3EB63DAA82DC853F27B428 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_tE27A8AEA7E86F819648993DB8062F7B68B3C1262* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7260,13 +7260,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_Invoke_m890B12685635B89D9F6A0AA3430EA5D0B274814D_Multicast;
 }
-// Method Definition Index: 24422
+// Method Definition Index: 24395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_Invoke_m890B12685635B89D9F6A0AA3430EA5D0B274814D (CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_tE27A8AEA7E86F819648993DB8062F7B68B3C1262* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24423
+// Method Definition Index: 24396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_BeginInvoke_m8E75DDCBB2EA5E4692873CCF61DC96594E688387 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_tE27A8AEA7E86F819648993DB8062F7B68B3C1262* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7274,7 +7274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24424
+// Method Definition Index: 24397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_EndInvoke_m0E2200F1B707456425751CB4950F133736BF831F (CesiumForUnity_CesiumPropertyTableProperty_Property_get_isNormalizedType_tE27A8AEA7E86F819648993DB8062F7B68B3C1262* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7320,7 +7320,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24425
+// Method Definition Index: 24398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType__ctor_m8DBF03FCF9EA60036A381286FE3D443440AB2CE6 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_t75880EF7EE5F775B2328E1E92D026DAFF506DDD2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7349,13 +7349,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_Invoke_mC3DCCB089FB74E01F238F7E696888B74251B4DBE_Multicast;
 }
-// Method Definition Index: 24426
+// Method Definition Index: 24399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_Invoke_mC3DCCB089FB74E01F238F7E696888B74251B4DBE (CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_t75880EF7EE5F775B2328E1E92D026DAFF506DDD2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24427
+// Method Definition Index: 24400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_BeginInvoke_m7DAEE89D268447A5B6D9315443D1712F60D65A80 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_t75880EF7EE5F775B2328E1E92D026DAFF506DDD2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7363,7 +7363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24428
+// Method Definition Index: 24401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_EndInvoke_m2D697A42B097471CF3DC45A8C1B3E736393999A7 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_maxType_t75880EF7EE5F775B2328E1E92D026DAFF506DDD2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7409,7 +7409,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24429
+// Method Definition Index: 24402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType__ctor_m0351EB1CBD4B2CF4FA9E6766596B245DEAF55ED0 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_tD5FF7FFFF55B07C011A6058F2B8E077D0F180AE1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7438,13 +7438,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_Invoke_mDE282B64A4535101F1904C5BDF594A6EF30D738A_Multicast;
 }
-// Method Definition Index: 24430
+// Method Definition Index: 24403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_Invoke_mDE282B64A4535101F1904C5BDF594A6EF30D738A (CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_tD5FF7FFFF55B07C011A6058F2B8E077D0F180AE1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24431
+// Method Definition Index: 24404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_BeginInvoke_mB1B0A08B1D5C834B49D94FF608196E1FE57B0656 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_tD5FF7FFFF55B07C011A6058F2B8E077D0F180AE1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7452,7 +7452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24432
+// Method Definition Index: 24405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_EndInvoke_m8B4D7F0CB68ECD34DDE79048D0AD90DAFEF3D3DC (CesiumForUnity_CesiumPropertyTableProperty_Property_get_minType_tD5FF7FFFF55B07C011A6058F2B8E077D0F180AE1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7498,7 +7498,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24433
+// Method Definition Index: 24406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType__ctor_m8E8F19BE26036F0282B65E8F199AB154BAC82088 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_tB5F3544AD68D3555F48C45AD56BBD040FB98A3C2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7527,20 +7527,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_Invoke_m11F623A59DD10A8150DEB38EEE2F1F6DA042635F_Multicast;
 }
-// Method Definition Index: 24434
+// Method Definition Index: 24407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_Invoke_m11F623A59DD10A8150DEB38EEE2F1F6DA042635F (CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_tB5F3544AD68D3555F48C45AD56BBD040FB98A3C2* __this, intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24435
+// Method Definition Index: 24408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_BeginInvoke_m2C3FFBFB53BC64D2CA52944FC499DE03A45E3E72 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_tB5F3544AD68D3555F48C45AD56BBD040FB98A3C2* __this, intptr_t ___0_thiz, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_thiz);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24436
+// Method Definition Index: 24409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_EndInvoke_mC5861C5128B40181FB8E2A3F1B65572510A0721D (CesiumForUnity_CesiumPropertyTableProperty_Property_get_NativeImplementationType_tB5F3544AD68D3555F48C45AD56BBD040FB98A3C2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7586,7 +7586,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24437
+// Method Definition Index: 24410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType__ctor_mA0971C8E57CFE377098D09875FE9B7D324C0B930 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_tD5FC7FB4B512CEE2D0163FE244A852F2CD476D76* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7615,13 +7615,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_Invoke_mA15EBC0D7A34A320E6AF56162A987CA9E9CA9BAD_Multicast;
 }
-// Method Definition Index: 24438
+// Method Definition Index: 24411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_Invoke_mA15EBC0D7A34A320E6AF56162A987CA9E9CA9BAD (CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_tD5FC7FB4B512CEE2D0163FE244A852F2CD476D76* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24439
+// Method Definition Index: 24412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_BeginInvoke_m9DA6B62332415F4B7388D3E21FD18D4A45F65F89 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_tD5FC7FB4B512CEE2D0163FE244A852F2CD476D76* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7629,7 +7629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24440
+// Method Definition Index: 24413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_EndInvoke_mC83FAF576DF927933798B869B33D0E2FDF46F6ED (CesiumForUnity_CesiumPropertyTableProperty_Property_get_noDataType_tD5FC7FB4B512CEE2D0163FE244A852F2CD476D76* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7675,7 +7675,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24441
+// Method Definition Index: 24414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType__ctor_m7B41CFA5851CF53ACCB18E6ABED9C6BD65BE0800 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_tCBFC65EA919D92896E39809605F46514B244EBB5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7704,13 +7704,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_Invoke_m7199A2AC7582BEE8D6D3518DDCF7AAE8E9D03640_Multicast;
 }
-// Method Definition Index: 24442
+// Method Definition Index: 24415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_Invoke_m7199A2AC7582BEE8D6D3518DDCF7AAE8E9D03640 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_tCBFC65EA919D92896E39809605F46514B244EBB5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24443
+// Method Definition Index: 24416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_BeginInvoke_mF3BC54AF7E43FF0A4496C5663AB362B8FE784130 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_tCBFC65EA919D92896E39809605F46514B244EBB5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7718,7 +7718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24444
+// Method Definition Index: 24417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_EndInvoke_m4F71C681C1DE326F9345B5DF292F79A9D1E9B08E (CesiumForUnity_CesiumPropertyTableProperty_Property_get_offsetType_tCBFC65EA919D92896E39809605F46514B244EBB5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7764,7 +7764,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTa
 
 	return returnValue;
 }
-// Method Definition Index: 24445
+// Method Definition Index: 24418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType__ctor_m4371F58F0BF71D9E95833F2B41EE49517EB414D0 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_t21CDCB39D7E7A1AFCFCFB3981D16DFFC4DCEDAAF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7793,13 +7793,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_Invoke_m072FEB3466D28CEC93C9626744D4238731F733AB_Multicast;
 }
-// Method Definition Index: 24446
+// Method Definition Index: 24419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_Invoke_m072FEB3466D28CEC93C9626744D4238731F733AB (CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_t21CDCB39D7E7A1AFCFCFB3981D16DFFC4DCEDAAF* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24447
+// Method Definition Index: 24420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_BeginInvoke_mF5FD587FCBE191F47F5348F82435B446500C770F (CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_t21CDCB39D7E7A1AFCFCFB3981D16DFFC4DCEDAAF* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7807,7 +7807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24448
+// Method Definition Index: 24421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_EndInvoke_mE417E3A0BE0E2F84CB1B6D203CD749F759724008 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_scaleType_t21CDCB39D7E7A1AFCFCFB3981D16DFFC4DCEDAAF* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7852,7 +7852,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTab
 
 	return returnValue;
 }
-// Method Definition Index: 24449
+// Method Definition Index: 24422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType__ctor_m25DBA150CAAF7BCB3F6354C7C0AA1EA6913EEA4A (CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_tF7E4C3E6B303FE96228889B9BB3A4204AB13358E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7881,13 +7881,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_Invoke_mF10021B604EB3F33242032579B3B6947F4093364_Multicast;
 }
-// Method Definition Index: 24450
+// Method Definition Index: 24423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_Invoke_mF10021B604EB3F33242032579B3B6947F4093364 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_tF7E4C3E6B303FE96228889B9BB3A4204AB13358E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24451
+// Method Definition Index: 24424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_BeginInvoke_mBCBF7004002DB844011E219FF5199F19445345FA (CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_tF7E4C3E6B303FE96228889B9BB3A4204AB13358E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7895,7 +7895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24452
+// Method Definition Index: 24425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_EndInvoke_mB0EDEB18F9A8A31EE62E1FBB869E13B96D2F26A5 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_sizeType_tF7E4C3E6B303FE96228889B9BB3A4204AB13358E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7940,7 +7940,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTab
 
 	return returnValue;
 }
-// Method Definition Index: 24453
+// Method Definition Index: 24426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType__ctor_mBFEAF2E7EA58A5FF0DE15DFF1B8C9BF1C6653CA4 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_t488F483AC99536075DEA3CFA7FDB303033C7DFA5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7969,13 +7969,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_Invoke_mC277364723D0A7545BB4D82B11A0FC82820D0132_Multicast;
 }
-// Method Definition Index: 24454
+// Method Definition Index: 24427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_Invoke_mC277364723D0A7545BB4D82B11A0FC82820D0132 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_t488F483AC99536075DEA3CFA7FDB303033C7DFA5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24455
+// Method Definition Index: 24428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_BeginInvoke_mBE60F780E5E0A8AE45D0979ADD623BC90A988407 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_t488F483AC99536075DEA3CFA7FDB303033C7DFA5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -7983,7 +7983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24456
+// Method Definition Index: 24429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_EndInvoke_mE5E5A955F02AFCD72B31F04A7DBC605E1171B692 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_statusType_t488F483AC99536075DEA3CFA7FDB303033C7DFA5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8025,7 +8025,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_pReturnValue, ___2_reinteropException);
 
 }
-// Method Definition Index: 24457
+// Method Definition Index: 24430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType__ctor_mD395B36EECCD4EED95964E5657D2A20681CE1C11 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_t68017AB9E12E3837391FB02684557EE8F9F7667B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8054,13 +8054,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_Invoke_m037AEBE234573680489F1C6F48883C14206C7A51_Multicast;
 }
-// Method Definition Index: 24458
+// Method Definition Index: 24431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_Invoke_m037AEBE234573680489F1C6F48883C14206C7A51 (CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_t68017AB9E12E3837391FB02684557EE8F9F7667B* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_pReturnValue, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_pReturnValue, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24459
+// Method Definition Index: 24432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_BeginInvoke_m46A85EC137E757EBF7B24CE4744766FF502D88CD (CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_t68017AB9E12E3837391FB02684557EE8F9F7667B* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_pReturnValue, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8069,7 +8069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24460
+// Method Definition Index: 24433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_EndInvoke_mEE4E4193E6F49C53212CF5E9557B088F0688C40A (CesiumForUnity_CesiumPropertyTableProperty_Property_get_valueTypeType_t68017AB9E12E3837391FB02684557EE8F9F7667B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8110,7 +8110,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24461
+// Method Definition Index: 24434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType__ctor_mCEF3855D3600D3574674F6843C78F0F343819163 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_t001A6184A00EDD86E57DDEC99B34F2D3CB93647B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8139,13 +8139,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_Invoke_m115C35B931D9CD33746124C4A8FBF7E190EB2D43_Multicast;
 }
-// Method Definition Index: 24462
+// Method Definition Index: 24435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_Invoke_m115C35B931D9CD33746124C4A8FBF7E190EB2D43 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_t001A6184A00EDD86E57DDEC99B34F2D3CB93647B* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24463
+// Method Definition Index: 24436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_BeginInvoke_m1DB0F165B725C51BDB5E6A6CDE6826F193F20504 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_t001A6184A00EDD86E57DDEC99B34F2D3CB93647B* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8154,7 +8154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24464
+// Method Definition Index: 24437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_EndInvoke_m2DED9F0BE7C805A409694ECF2288DAFB59FA21CA (CesiumForUnity_CesiumPropertyTableProperty_Property_set_arraySizeType_t001A6184A00EDD86E57DDEC99B34F2D3CB93647B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8195,7 +8195,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24465
+// Method Definition Index: 24438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType__ctor_mBC75034FE2E982193C19443E84B0C3B1A6DDB4DE (CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_t9B61FF8C1D18EF077B7E72CD30FF9240DBC30B67* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8224,13 +8224,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_Invoke_m998B14A457AF28891B45678F473CAB87110382D1_Multicast;
 }
-// Method Definition Index: 24466
+// Method Definition Index: 24439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_Invoke_m998B14A457AF28891B45678F473CAB87110382D1 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_t9B61FF8C1D18EF077B7E72CD30FF9240DBC30B67* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24467
+// Method Definition Index: 24440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_BeginInvoke_mA215EB099DDABFFDCBE2AA5A3EE27DF3AC091622 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_t9B61FF8C1D18EF077B7E72CD30FF9240DBC30B67* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8239,7 +8239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24468
+// Method Definition Index: 24441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_EndInvoke_m8C3AEFA6D5A36820B4D1B2798070AC841AB3B15A (CesiumForUnity_CesiumPropertyTableProperty_Property_set_defaultValueType_t9B61FF8C1D18EF077B7E72CD30FF9240DBC30B67* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8280,7 +8280,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24469
+// Method Definition Index: 24442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType__ctor_mB542278D25F3B0870E1571D003A1B887F367B64A (CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_tA9F421472E49A8FDB22CA5C84496E6CA01BF0FB0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8309,13 +8309,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_Invoke_m16F2E1EA33D654DEDEF6931ADFDF166C3A60B215_Multicast;
 }
-// Method Definition Index: 24470
+// Method Definition Index: 24443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_Invoke_m16F2E1EA33D654DEDEF6931ADFDF166C3A60B215 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_tA9F421472E49A8FDB22CA5C84496E6CA01BF0FB0* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24471
+// Method Definition Index: 24444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_BeginInvoke_mD66FB6A21A51944946E734B1763992B0447C3578 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_tA9F421472E49A8FDB22CA5C84496E6CA01BF0FB0* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8324,7 +8324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24472
+// Method Definition Index: 24445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_EndInvoke_m6BEF82ACF7C90A42DA2E60E046A06120F786208C (CesiumForUnity_CesiumPropertyTableProperty_Property_set_isNormalizedType_tA9F421472E49A8FDB22CA5C84496E6CA01BF0FB0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8365,7 +8365,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24473
+// Method Definition Index: 24446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType__ctor_m246641072EFAF18F00A35BDF387F89D18ACAFBE3 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_t5911E5AB7DE68D058E03BA6FB3E5DA8C5152628F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8394,13 +8394,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_Invoke_m0E3DEB9641BBEFDE57CF1F98D18960968CBD015A_Multicast;
 }
-// Method Definition Index: 24474
+// Method Definition Index: 24447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_Invoke_m0E3DEB9641BBEFDE57CF1F98D18960968CBD015A (CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_t5911E5AB7DE68D058E03BA6FB3E5DA8C5152628F* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24475
+// Method Definition Index: 24448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_BeginInvoke_mC1D6AEB76C4C6B94C082973FF19B8C6A02D30232 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_t5911E5AB7DE68D058E03BA6FB3E5DA8C5152628F* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8409,7 +8409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24476
+// Method Definition Index: 24449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_EndInvoke_mC9E282DC54FE687617873EDDF372E8C860BC0676 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_maxType_t5911E5AB7DE68D058E03BA6FB3E5DA8C5152628F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8450,7 +8450,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24477
+// Method Definition Index: 24450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType__ctor_mC6DEC5653A7D6BCF6C88F09BD886ECBA86CF33C4 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_tCAF190CD81CDAD9F628F6CC9B64A0B58D752478A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8479,13 +8479,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_Invoke_mDF616B3DEC9A2E2E0116E9043525C2EC48B52AEE_Multicast;
 }
-// Method Definition Index: 24478
+// Method Definition Index: 24451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_Invoke_mDF616B3DEC9A2E2E0116E9043525C2EC48B52AEE (CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_tCAF190CD81CDAD9F628F6CC9B64A0B58D752478A* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24479
+// Method Definition Index: 24452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_BeginInvoke_mD8029ECA31E655E378CD98833394B5107073E19B (CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_tCAF190CD81CDAD9F628F6CC9B64A0B58D752478A* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8494,7 +8494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24480
+// Method Definition Index: 24453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_EndInvoke_m7D91A87CA5422BC8D2AE08C14FFADA485844EBFC (CesiumForUnity_CesiumPropertyTableProperty_Property_set_minType_tCAF190CD81CDAD9F628F6CC9B64A0B58D752478A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8535,7 +8535,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24481
+// Method Definition Index: 24454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType__ctor_mE94901A390F8DC437C055E252A9D40D176D6EB0F (CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_t0384D00245974F38CC4F30244F21911F40A0A241* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8564,13 +8564,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_Invoke_m788867A3A6B3A97648C465F7DD72ABEACF30A540_Multicast;
 }
-// Method Definition Index: 24482
+// Method Definition Index: 24455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_Invoke_m788867A3A6B3A97648C465F7DD72ABEACF30A540 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_t0384D00245974F38CC4F30244F21911F40A0A241* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24483
+// Method Definition Index: 24456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_BeginInvoke_m462D13B098E28ED72E44F3AFE2CA36575C9D18DF (CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_t0384D00245974F38CC4F30244F21911F40A0A241* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8579,7 +8579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24484
+// Method Definition Index: 24457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_EndInvoke_m9F9AE0DD1B4102362F362240F4D2270A58F77F6E (CesiumForUnity_CesiumPropertyTableProperty_Property_set_noDataType_t0384D00245974F38CC4F30244F21911F40A0A241* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8620,7 +8620,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24485
+// Method Definition Index: 24458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType__ctor_m66ECAEA96B4D046B039A941A2873581DE19FCB1F (CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_tAA6A076E5AC90C3ED59D9C20E585EB358F28F24C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8649,13 +8649,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_Invoke_m095D198BA0FEEB75C51B38F02E3006173F13D70B_Multicast;
 }
-// Method Definition Index: 24486
+// Method Definition Index: 24459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_Invoke_m095D198BA0FEEB75C51B38F02E3006173F13D70B (CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_tAA6A076E5AC90C3ED59D9C20E585EB358F28F24C* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24487
+// Method Definition Index: 24460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_BeginInvoke_m1395F575420BCF2CE2C300CC764920625C8EE044 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_tAA6A076E5AC90C3ED59D9C20E585EB358F28F24C* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8664,7 +8664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24488
+// Method Definition Index: 24461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_EndInvoke_mA092D0DF05BAA9196A3A7F532C2CECB25FA5FFCF (CesiumForUnity_CesiumPropertyTableProperty_Property_set_offsetType_tAA6A076E5AC90C3ED59D9C20E585EB358F28F24C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8705,7 +8705,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24489
+// Method Definition Index: 24462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType__ctor_m6E19750904B7E03095B850EC60B4941794398A7A (CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_tFCCE0F9B26C70E700A22116A9204B404C8611859* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8734,13 +8734,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_Invoke_mF77A688B12B936BBE8240DB7F0E3EBEF4C349A60_Multicast;
 }
-// Method Definition Index: 24490
+// Method Definition Index: 24463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_Invoke_mF77A688B12B936BBE8240DB7F0E3EBEF4C349A60 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_tFCCE0F9B26C70E700A22116A9204B404C8611859* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24491
+// Method Definition Index: 24464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_BeginInvoke_m487766A6754F2D0BDE4E2998C8940DD15BEF8157 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_tFCCE0F9B26C70E700A22116A9204B404C8611859* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8749,7 +8749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24492
+// Method Definition Index: 24465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_EndInvoke_m49ED561843A341438A33F2CFFCCC538FEFB8D724 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_scaleType_tFCCE0F9B26C70E700A22116A9204B404C8611859* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8790,7 +8790,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24493
+// Method Definition Index: 24466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType__ctor_m78570C9ACC2C6250FE7184387AB75EFC64700FA6 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_t16AD7643A5C74540685DC497C02F13A228427BD2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8819,13 +8819,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_Invoke_mF00D417DB9CFF2B886FFE504D1FD794A60ABA82E_Multicast;
 }
-// Method Definition Index: 24494
+// Method Definition Index: 24467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_Invoke_mF00D417DB9CFF2B886FFE504D1FD794A60ABA82E (CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_t16AD7643A5C74540685DC497C02F13A228427BD2* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24495
+// Method Definition Index: 24468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_BeginInvoke_mCC41CD14F22249E6CF42AF396AE92DE594D838E8 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_t16AD7643A5C74540685DC497C02F13A228427BD2* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -8834,7 +8834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24496
+// Method Definition Index: 24469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_EndInvoke_mD9B1E1736757E81FB3EDDC4067F58DEEC49DEE84 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_sizeType_t16AD7643A5C74540685DC497C02F13A228427BD2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8875,7 +8875,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24497
+// Method Definition Index: 24470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType__ctor_m39D72F4B15539063E89F10C7C24EB07EFA5AE178 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_tF5DAD1435E8BA58F92C53297D8C622DF8FEE70EF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8904,13 +8904,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_Invoke_m1147F35682E610E79EA06CFB541778E8E6AD1EC6_Multicast;
 }
-// Method Definition Index: 24498
+// Method Definition Index: 24471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_Invoke_m1147F35682E610E79EA06CFB541778E8E6AD1EC6 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_tF5DAD1435E8BA58F92C53297D8C622DF8FEE70EF* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24499
+// Method Definition Index: 24472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_BeginInvoke_m8F0771E5B536F2743F37CFC42028752E09021E41 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_tF5DAD1435E8BA58F92C53297D8C622DF8FEE70EF* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8925,7 +8925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24500
+// Method Definition Index: 24473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_EndInvoke_m2021181C5E4A8B5A8672C3346392612EFC284719 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_statusType_tF5DAD1435E8BA58F92C53297D8C622DF8FEE70EF* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -8966,7 +8966,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumPropertyTableP
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24501
+// Method Definition Index: 24474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType__ctor_mDE7D40C524861DE868BCAF0257847D90241F2279 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_t95FDA2B67D9197419FF381D99E7C1DD433D0222F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8995,13 +8995,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_Invoke_m71F182C63221F9386D46462AFD7220D06F72B1D0_Multicast;
 }
-// Method Definition Index: 24502
+// Method Definition Index: 24475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_Invoke_m71F182C63221F9386D46462AFD7220D06F72B1D0 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_t95FDA2B67D9197419FF381D99E7C1DD433D0222F* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24503
+// Method Definition Index: 24476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_BeginInvoke_m39531D0CC493D6C8C7C08734307CB8A48E9E98D8 (CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_t95FDA2B67D9197419FF381D99E7C1DD433D0222F* __this, intptr_t ___0_thiz, CesiumMetadataValueType_t90F61AB20DF5B8172D8F1C8E12CB692B646E36DD* ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -9010,7 +9010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumPropertyT
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24504
+// Method Definition Index: 24477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_EndInvoke_m6617471E9899CA7A24036ACDB76FB206546C36DE (CesiumForUnity_CesiumPropertyTableProperty_Property_set_valueTypeType_t95FDA2B67D9197419FF381D99E7C1DD433D0222F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9051,7 +9051,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24505
+// Method Definition Index: 24478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mBE8E239611D0C7B3E3D1CA4AF929734998EDA8A0 (CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB47111CAC0E76155D244211C294BB4BD49A998E6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9080,13 +9080,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallA
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m38A9374705577C45547FF6C4C9550BC6329B6155_Multicast;
 }
-// Method Definition Index: 24506
+// Method Definition Index: 24479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m38A9374705577C45547FF6C4C9550BC6329B6155 (CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB47111CAC0E76155D244211C294BB4BD49A998E6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24507
+// Method Definition Index: 24480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m6C4F8C667CAD945D74E9B6C6ADCC97AFCC6DE204 (CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB47111CAC0E76155D244211C294BB4BD49A998E6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9094,7 +9094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24508
+// Method Definition Index: 24481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m768B999C8010E4C2FDD6AE8ADA13F3A745294410 (CesiumForUnity_CesiumRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB47111CAC0E76155D244211C294BB4BD49A998E6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9135,7 +9135,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_details, ___1_reinteropException);
 
 }
-// Method Definition Index: 24509
+// Method Definition Index: 24482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType__ctor_m23010097DEBDBFB57F18EC069D051669F07CBF8C (CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_tA8A05C9A9E618BD79FE409767BC6859FD5856D64* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9164,13 +9164,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallB
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_Invoke_m3F0AB7EAFB4B2637D85320114FAED1684D7BDE2D_Multicast;
 }
-// Method Definition Index: 24510
+// Method Definition Index: 24483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_Invoke_m3F0AB7EAFB4B2637D85320114FAED1684D7BDE2D (CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_tA8A05C9A9E618BD79FE409767BC6859FD5856D64* __this, intptr_t ___0_details, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_details, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24511
+// Method Definition Index: 24484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_BeginInvoke_m701CB1F1E75490A00082F6CB9EE41C69B4C76B68 (CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_tA8A05C9A9E618BD79FE409767BC6859FD5856D64* __this, intptr_t ___0_details, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9178,7 +9178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24512
+// Method Definition Index: 24485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_EndInvoke_m53F96B0E3C68AB7948F87E8EB40E6DFF2B22C512 (CesiumForUnity_CesiumRasterOverlay_CallBroadcastCesiumRasterOverlayLoadFailure_wzyCuVNVqUYPXthsoxKvywType_tA8A05C9A9E618BD79FE409767BC6859FD5856D64* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9223,7 +9223,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24513
+// Method Definition Index: 24486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_m6D3A7A77AA71F5AF7523756F87769FA2DD73430B (CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tB792FDEB73EBEE6386AFFA7244E1820953F5119E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9252,13 +9252,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallG
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m0CAB327D47A4B4218A8168F85C82DEA85A413275_Multicast;
 }
-// Method Definition Index: 24514
+// Method Definition Index: 24487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m0CAB327D47A4B4218A8168F85C82DEA85A413275 (CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tB792FDEB73EBEE6386AFFA7244E1820953F5119E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24515
+// Method Definition Index: 24488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_m5A0B0A06B59797C9C87CEB448298EA80BF3FAC91 (CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tB792FDEB73EBEE6386AFFA7244E1820953F5119E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9266,7 +9266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24516
+// Method Definition Index: 24489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_mC6F339CBA3D98141691904377F5109E5282CF71E (CesiumForUnity_CesiumRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tB792FDEB73EBEE6386AFFA7244E1820953F5119E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9311,7 +9311,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24517
+// Method Definition Index: 24490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m5D976FC4FDA52EDE78BBE562CAB6DEFEA119629E (CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t04BBD42EF2FDD409FB58907E517D50DAF5CD279B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9340,13 +9340,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallG
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mC9FCBF296C2CAE0D9D1A008D03812CB505D1FE16_Multicast;
 }
-// Method Definition Index: 24518
+// Method Definition Index: 24491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mC9FCBF296C2CAE0D9D1A008D03812CB505D1FE16 (CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t04BBD42EF2FDD409FB58907E517D50DAF5CD279B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24519
+// Method Definition Index: 24492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_mB35F6ADC405278C416B932936BCEEA5197D1A4A1 (CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t04BBD42EF2FDD409FB58907E517D50DAF5CD279B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9354,7 +9354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24520
+// Method Definition Index: 24493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m76A2B3540E11D3DFE577E21FA060F8FEB63EEE6E (CesiumForUnity_CesiumRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t04BBD42EF2FDD409FB58907E517D50DAF5CD279B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9399,7 +9399,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24521
+// Method Definition Index: 24494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_mF26551E9CA97D813CE80A939CFC8FFC38E4CC7B6 (CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t17DC7DBB3E151A5BAA9733DC6B8A27110EFEDD16* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9428,13 +9428,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Callo
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mA8F5C53EA5ACC0ED9959AB4604AAC561A8D01CCE_Multicast;
 }
-// Method Definition Index: 24522
+// Method Definition Index: 24495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mA8F5C53EA5ACC0ED9959AB4604AAC561A8D01CCE (CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t17DC7DBB3E151A5BAA9733DC6B8A27110EFEDD16* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24523
+// Method Definition Index: 24496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m0AAE1C5528C2D66BBBAD13BD138FA17F695B32C8 (CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t17DC7DBB3E151A5BAA9733DC6B8A27110EFEDD16* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -9443,7 +9443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24524
+// Method Definition Index: 24497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mD1DBD912E47EBC73A4FD8723A8ECE3768107B8CB (CesiumForUnity_CesiumRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t17DC7DBB3E151A5BAA9733DC6B8A27110EFEDD16* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9488,7 +9488,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24525
+// Method Definition Index: 24498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_mD99776F2EE1AB4EDD4B482D3FC827193F54D12B1 (CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t9B6A44AB582DC71F382A674F591C09CA70A9D0B2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9517,13 +9517,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Callo
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m6D3A642708271A144230D3846BCB241F80500DB3_Multicast;
 }
-// Method Definition Index: 24526
+// Method Definition Index: 24499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m6D3A642708271A144230D3846BCB241F80500DB3 (CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t9B6A44AB582DC71F382A674F591C09CA70A9D0B2* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24527
+// Method Definition Index: 24500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_mB357AFDFB73CFDF66DCCD8640E4BAA77EC0C5BF3 (CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t9B6A44AB582DC71F382A674F591C09CA70A9D0B2* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -9532,7 +9532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24528
+// Method Definition Index: 24501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m953ED9DABD684DB756D46DAAE2298DE6DA69735D (CesiumForUnity_CesiumRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t9B6A44AB582DC71F382A674F591C09CA70A9D0B2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9574,7 +9574,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24529
+// Method Definition Index: 24502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m3C82F51CE6BAE51A9F48F6C34BC29431BD677527 (CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t5D9BAED9978BACC35FD3E490AC1793FBE4E281A2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9603,13 +9603,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallR
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mB0978F12E6205897066D074BD406DB14AF5FBA08_Multicast;
 }
-// Method Definition Index: 24530
+// Method Definition Index: 24503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mB0978F12E6205897066D074BD406DB14AF5FBA08 (CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t5D9BAED9978BACC35FD3E490AC1793FBE4E281A2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24531
+// Method Definition Index: 24504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m8342279BDA0CF91F9BD0C48B538F89E745F94D16 (CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t5D9BAED9978BACC35FD3E490AC1793FBE4E281A2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9617,7 +9617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24532
+// Method Definition Index: 24505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mE10459400BBCFB242E9B1F1725235D61883137A1 (CesiumForUnity_CesiumRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t5D9BAED9978BACC35FD3E490AC1793FBE4E281A2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9662,7 +9662,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24533
+// Method Definition Index: 24506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m010377154B03D1D53680B87EBE24DEE081C0D8B8 (CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tFB52EEBF604621BD70DD51D956F69DD74B56970F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9691,13 +9691,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_CallS
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_mAB4DBDB76D42EECB0AE6A122B0DBAF79F14D027B_Multicast;
 }
-// Method Definition Index: 24534
+// Method Definition Index: 24507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_mAB4DBDB76D42EECB0AE6A122B0DBAF79F14D027B (CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tFB52EEBF604621BD70DD51D956F69DD74B56970F* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24535
+// Method Definition Index: 24508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_m67847268FC4CC645632EBC4774DEE1D4E74C14AF (CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tFB52EEBF604621BD70DD51D956F69DD74B56970F* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -9706,7 +9706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24536
+// Method Definition Index: 24509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_m52CB261AE4B5B5BE1EB92E989CC1EAC081960A89 (CesiumForUnity_CesiumRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tFB52EEBF604621BD70DD51D956F69DD74B56970F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9751,7 +9751,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24537
+// Method Definition Index: 24510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType__ctor_mBFC04DF9DEBB8057C631D74604C1852236AB5DFD (CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_t12724763916B4C9B7099C940FD29D488FEBEC3BF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9780,13 +9780,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_Invoke_m44BA167783B4428C5C948B3F730F6322C64E8C8D_Multicast;
 }
-// Method Definition Index: 24538
+// Method Definition Index: 24511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_Invoke_m44BA167783B4428C5C948B3F730F6322C64E8C8D (CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_t12724763916B4C9B7099C940FD29D488FEBEC3BF* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24539
+// Method Definition Index: 24512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_BeginInvoke_m92A49929131D58A489ADBE838ADBC418B2A38C76 (CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_t12724763916B4C9B7099C940FD29D488FEBEC3BF* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9794,7 +9794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24540
+// Method Definition Index: 24513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_EndInvoke_mF152E6EBCEF7B49881133B1205F1BA56B15DC7C8 (CesiumForUnity_CesiumRasterOverlay_Property_get_enabledType_t12724763916B4C9B7099C940FD29D488FEBEC3BF* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9840,7 +9840,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24541
+// Method Definition Index: 24514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType__ctor_m0FB4C69BE93976741559E2583272E16DE0B9F390 (CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_tCBDB2A075FCAC773B2957E068A3E22A6F5738387* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9869,13 +9869,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_Invoke_m7E1AE100BA525BB3931662F4C58C98F6DC6D9CC5_Multicast;
 }
-// Method Definition Index: 24542
+// Method Definition Index: 24515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_Invoke_m7E1AE100BA525BB3931662F4C58C98F6DC6D9CC5 (CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_tCBDB2A075FCAC773B2957E068A3E22A6F5738387* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24543
+// Method Definition Index: 24516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_BeginInvoke_m8A6C9CB0E29D65E70249800BA36BE4DBDBDB509C (CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_tCBDB2A075FCAC773B2957E068A3E22A6F5738387* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9883,7 +9883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24544
+// Method Definition Index: 24517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_EndInvoke_m2F40590E02DB708EDD8F68311D95DB5C87CD4995 (CesiumForUnity_CesiumRasterOverlay_Property_get_gameObjectType_tCBDB2A075FCAC773B2957E068A3E22A6F5738387* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -9928,7 +9928,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24545
+// Method Definition Index: 24518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType__ctor_m0C4F9B15E9D6A5EAB74067B7141A7D8BAB4404E3 (CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_tE30527DF7598A869183DC72571704777C502FFC0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9957,13 +9957,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_Invoke_m3424DE0BB05BD22F43EA7F46AC72CE2421B31400_Multicast;
 }
-// Method Definition Index: 24546
+// Method Definition Index: 24519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_Invoke_m3424DE0BB05BD22F43EA7F46AC72CE2421B31400 (CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_tE30527DF7598A869183DC72571704777C502FFC0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24547
+// Method Definition Index: 24520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_BeginInvoke_mF3BEEB350871F6117477CF7BF4E04CD182945BF4 (CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_tE30527DF7598A869183DC72571704777C502FFC0* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -9971,7 +9971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24548
+// Method Definition Index: 24521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_EndInvoke_m5E443A2B5D17C397E6B1346076FD6BBDB2DBB8CE (CesiumForUnity_CesiumRasterOverlay_Property_get_hideFlagsType_tE30527DF7598A869183DC72571704777C502FFC0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10017,7 +10017,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24549
+// Method Definition Index: 24522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType__ctor_m79E416F22B466ACB0C2BB4CF3EB316210752B37F (CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_t2C5FA71DA51322C845DAA92221489639D2EA4262* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10046,13 +10046,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_Invoke_mDDE89D9FAED38CA4AEE273E750DE6F79DC9F09DE_Multicast;
 }
-// Method Definition Index: 24550
+// Method Definition Index: 24523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_Invoke_mDDE89D9FAED38CA4AEE273E750DE6F79DC9F09DE (CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_t2C5FA71DA51322C845DAA92221489639D2EA4262* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24551
+// Method Definition Index: 24524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_BeginInvoke_m7BA3E0B257910FD782D8A0BD07980ACEC3C0EEF7 (CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_t2C5FA71DA51322C845DAA92221489639D2EA4262* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10060,7 +10060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24552
+// Method Definition Index: 24525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_EndInvoke_mC19CB9F5BCA2F74AE52888732D73E03A7CCF7135 (CesiumForUnity_CesiumRasterOverlay_Property_get_materialKeyType_t2C5FA71DA51322C845DAA92221489639D2EA4262* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10105,7 +10105,7 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay
 
 	return returnValue;
 }
-// Method Definition Index: 24553
+// Method Definition Index: 24526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType__ctor_m893F246F8B7CF0E38494F97A94C40AC838720FF4 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_tE2C29C74C8FA2D76B7483D6D540298341C6D04B1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10134,13 +10134,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m1F51EAC34E7BE4274C064F9E2D05431039FA75A4_Multicast;
 }
-// Method Definition Index: 24554
+// Method Definition Index: 24527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m1F51EAC34E7BE4274C064F9E2D05431039FA75A4 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_tE2C29C74C8FA2D76B7483D6D540298341C6D04B1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24555
+// Method Definition Index: 24528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_BeginInvoke_mE0308344D25829AF81AA00E70B0F57BA6AC9B50A (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_tE2C29C74C8FA2D76B7483D6D540298341C6D04B1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10148,7 +10148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24556
+// Method Definition Index: 24529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_EndInvoke_mAC9A4D18BD57B534E9DF19D0360B44FAD19B6355 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumScreenSpaceErrorType_tE2C29C74C8FA2D76B7483D6D540298341C6D04B1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10193,7 +10193,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24557
+// Method Definition Index: 24530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType__ctor_m7BFF36EA5B6A0FAC1CBEF69D8E65F30D68C26680 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t3056AA7EDF2BF2E6F4C09857A64D8223140011DC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10222,13 +10222,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_m039CE9F2DF1BF9CD7366509974E92F9A0403D698_Multicast;
 }
-// Method Definition Index: 24558
+// Method Definition Index: 24531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_m039CE9F2DF1BF9CD7366509974E92F9A0403D698 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t3056AA7EDF2BF2E6F4C09857A64D8223140011DC* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24559
+// Method Definition Index: 24532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_BeginInvoke_mC9269EB33F2C224DD56919F1FE84668D12E5DB9F (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t3056AA7EDF2BF2E6F4C09857A64D8223140011DC* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10236,7 +10236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24560
+// Method Definition Index: 24533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_EndInvoke_m2C9A12A49C26E235C8DE8B9A7A2F1B5A84A2F2EB (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t3056AA7EDF2BF2E6F4C09857A64D8223140011DC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10281,7 +10281,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24561
+// Method Definition Index: 24534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType__ctor_m42F3C428FDFB316CB709350009ACFD05D6EB60F0 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_tE8933203A5DCC25124ED0D8C08405D2BB2D71A17* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10310,13 +10310,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_Invoke_m5AD98663FAB13FDDFD3FE2E2B8CBF6099B205049_Multicast;
 }
-// Method Definition Index: 24562
+// Method Definition Index: 24535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_Invoke_m5AD98663FAB13FDDFD3FE2E2B8CBF6099B205049 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_tE8933203A5DCC25124ED0D8C08405D2BB2D71A17* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24563
+// Method Definition Index: 24536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_BeginInvoke_m18EFA565496FA67D6E87AEF4146B336009C4044C (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_tE8933203A5DCC25124ED0D8C08405D2BB2D71A17* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10324,7 +10324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24564
+// Method Definition Index: 24537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_EndInvoke_m98810610C4F410E76DA0399FD36BFC2029E3E383 (CesiumForUnity_CesiumRasterOverlay_Property_get_maximumTextureSizeType_tE8933203A5DCC25124ED0D8C08405D2BB2D71A17* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10370,7 +10370,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24565
+// Method Definition Index: 24538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_nameType__ctor_mD131B09179F54824137A893564CDE0B413BA9146 (CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_t1E2F953181A2C9D2FB8FE931EEC134C3D6BCB049* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10399,13 +10399,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_Invoke_mB10A068B695D8C27AB9C0363F60DDF138C818CB8_Multicast;
 }
-// Method Definition Index: 24566
+// Method Definition Index: 24539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_Invoke_mB10A068B695D8C27AB9C0363F60DDF138C818CB8 (CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_t1E2F953181A2C9D2FB8FE931EEC134C3D6BCB049* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24567
+// Method Definition Index: 24540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_BeginInvoke_mEF58AA6AD271EDAB9ED9326AF31C18FC1D569739 (CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_t1E2F953181A2C9D2FB8FE931EEC134C3D6BCB049* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10413,7 +10413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24568
+// Method Definition Index: 24541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_EndInvoke_m2CF4B64177911C2032678A4DDD4ACB6453D1B9F0 (CesiumForUnity_CesiumRasterOverlay_Property_get_nameType_t1E2F953181A2C9D2FB8FE931EEC134C3D6BCB049* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10458,7 +10458,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24569
+// Method Definition Index: 24542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType__ctor_m8227C3A5610B0F0F5B204B1160911F8166CE73CD (CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_t6E7626A974BBF2D94425F5EA40C4100603F04FB6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10487,13 +10487,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m479C1ACDA26F474B92260688B897BA96E3A49FD5_Multicast;
 }
-// Method Definition Index: 24570
+// Method Definition Index: 24543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m479C1ACDA26F474B92260688B897BA96E3A49FD5 (CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_t6E7626A974BBF2D94425F5EA40C4100603F04FB6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24571
+// Method Definition Index: 24544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_BeginInvoke_mB477F3942ECFEC6F07C77857FB4B0CBA19CC0A40 (CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_t6E7626A974BBF2D94425F5EA40C4100603F04FB6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10501,7 +10501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24572
+// Method Definition Index: 24545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_EndInvoke_m4AE82893B55D11C9234EE130F41E337F3C8D9C39 (CesiumForUnity_CesiumRasterOverlay_Property_get_showCreditsOnScreenType_t6E7626A974BBF2D94425F5EA40C4100603F04FB6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10546,7 +10546,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverl
 
 	return returnValue;
 }
-// Method Definition Index: 24573
+// Method Definition Index: 24546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType__ctor_m4C02B922C03E06AE9F8A843B7FD40D9618623330 (CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_tD54FB5A3706DC3F4A360462910F45AD4CF449941* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10575,13 +10575,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_Invoke_m820CEA526DBF4B905C4AF3AF1BFBE1F85A35C2A0_Multicast;
 }
-// Method Definition Index: 24574
+// Method Definition Index: 24547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_Invoke_m820CEA526DBF4B905C4AF3AF1BFBE1F85A35C2A0 (CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_tD54FB5A3706DC3F4A360462910F45AD4CF449941* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24575
+// Method Definition Index: 24548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_BeginInvoke_m9B3BA816BB36AA232E48847296001F74166EF84F (CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_tD54FB5A3706DC3F4A360462910F45AD4CF449941* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10589,7 +10589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24576
+// Method Definition Index: 24549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_EndInvoke_m2D71F56AF4168025FABC68AC3C78CCC95F3E30C5 (CesiumForUnity_CesiumRasterOverlay_Property_get_subTileCacheBytesType_tD54FB5A3706DC3F4A360462910F45AD4CF449941* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10635,7 +10635,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24577
+// Method Definition Index: 24550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_get_transformType__ctor_mB84249DB763E4BAA64D8DC47116D6216EDC089A7 (CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_tB808F96494D0B0058CE959AE91F7046FD0136262* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10664,13 +10664,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_Invoke_m6168D3CD0F726EED4F2521CAB8C22909DC9D3362_Multicast;
 }
-// Method Definition Index: 24578
+// Method Definition Index: 24551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_Invoke_m6168D3CD0F726EED4F2521CAB8C22909DC9D3362 (CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_tB808F96494D0B0058CE959AE91F7046FD0136262* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24579
+// Method Definition Index: 24552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_BeginInvoke_m79555B0EC1DA6ED279B068A44B45801112CD582A (CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_tB808F96494D0B0058CE959AE91F7046FD0136262* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -10678,7 +10678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24580
+// Method Definition Index: 24553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_EndInvoke_m3CA636F3191132BA06F8565E6B4B53E508C633F2 (CesiumForUnity_CesiumRasterOverlay_Property_get_transformType_tB808F96494D0B0058CE959AE91F7046FD0136262* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10720,7 +10720,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24581
+// Method Definition Index: 24554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType__ctor_m02FFF14D7D1D974B630D1159D3E5D9A247FEDDE0 (CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_t4BAAE717B2866E854B105CA51114964D22C6ECC1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10749,13 +10749,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_Invoke_m42F43B9CACF28F6952F840681B9CB0F479F40447_Multicast;
 }
-// Method Definition Index: 24582
+// Method Definition Index: 24555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_Invoke_m42F43B9CACF28F6952F840681B9CB0F479F40447 (CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_t4BAAE717B2866E854B105CA51114964D22C6ECC1* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24583
+// Method Definition Index: 24556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_BeginInvoke_m4C29BB8F3D8F2504B7CDEB29BEBAAC7498958E38 (CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_t4BAAE717B2866E854B105CA51114964D22C6ECC1* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -10764,7 +10764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24584
+// Method Definition Index: 24557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_EndInvoke_m6042BB3BB57D6A2121004F79D2CB5CEBE275CBCD (CesiumForUnity_CesiumRasterOverlay_Property_set_enabledType_t4BAAE717B2866E854B105CA51114964D22C6ECC1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10805,7 +10805,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24585
+// Method Definition Index: 24558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType__ctor_m087103B5FD1719C34DC7F334944C9264D669C160 (CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_t65B24B4F403D0D674CB0274CFD5ECC6E647D0C08* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10834,13 +10834,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_Invoke_mC4EC960E89F2356E1381A6FE5B3863AFF649A013_Multicast;
 }
-// Method Definition Index: 24586
+// Method Definition Index: 24559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_Invoke_mC4EC960E89F2356E1381A6FE5B3863AFF649A013 (CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_t65B24B4F403D0D674CB0274CFD5ECC6E647D0C08* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24587
+// Method Definition Index: 24560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_BeginInvoke_mF4F4BE40A210D99BAB4DA2754A4E5ABFB227DF99 (CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_t65B24B4F403D0D674CB0274CFD5ECC6E647D0C08* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10855,7 +10855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24588
+// Method Definition Index: 24561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_EndInvoke_m3AE8CE2A58B0075D95FDDDFCFE8562A56C8C602A (CesiumForUnity_CesiumRasterOverlay_Property_set_hideFlagsType_t65B24B4F403D0D674CB0274CFD5ECC6E647D0C08* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10896,7 +10896,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24589
+// Method Definition Index: 24562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType__ctor_m0706E99249EB8FEAEAFFCEC28904E8C4125DD44A (CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_t704EC4254A82AEE41156A29E2DBF170B08FD5108* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10925,13 +10925,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_Invoke_m2AF7A6111E877E6CB91DBD1AE473014D6FB1944B_Multicast;
 }
-// Method Definition Index: 24590
+// Method Definition Index: 24563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_Invoke_m2AF7A6111E877E6CB91DBD1AE473014D6FB1944B (CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_t704EC4254A82AEE41156A29E2DBF170B08FD5108* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24591
+// Method Definition Index: 24564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_BeginInvoke_mB263115CD591188E9604127DF9DCAEEEE5A24305 (CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_t704EC4254A82AEE41156A29E2DBF170B08FD5108* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -10940,7 +10940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24592
+// Method Definition Index: 24565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_EndInvoke_mF6F6928DB926BAB823B4545DF5E12EEF5A9A3FDF (CesiumForUnity_CesiumRasterOverlay_Property_set_materialKeyType_t704EC4254A82AEE41156A29E2DBF170B08FD5108* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10981,7 +10981,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24593
+// Method Definition Index: 24566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType__ctor_mED578EF7276C45DE23B76BCEBA64FDEAA28D98A0 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_t6B0EA7D4BB52B73C8542BA9894A5BD650C220486* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11010,13 +11010,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_mDFA3DD943D100356C9E77636DD3DC35EDB7F0288_Multicast;
 }
-// Method Definition Index: 24594
+// Method Definition Index: 24567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_mDFA3DD943D100356C9E77636DD3DC35EDB7F0288 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_t6B0EA7D4BB52B73C8542BA9894A5BD650C220486* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, float, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24595
+// Method Definition Index: 24568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_BeginInvoke_m0BA3D5F7D97A1C30BE825586E9CF28703481A4B9 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_t6B0EA7D4BB52B73C8542BA9894A5BD650C220486* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11025,7 +11025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24596
+// Method Definition Index: 24569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_EndInvoke_mD6E27EA35DC45AED32BCBC24DDCEBA9B787BB1B0 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumScreenSpaceErrorType_t6B0EA7D4BB52B73C8542BA9894A5BD650C220486* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11066,7 +11066,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24597
+// Method Definition Index: 24570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType__ctor_m2DD654B3D77AD9456516A45758BDE684B7BE5574 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t3A0569D83C8734611DC9A3B5D24538F3486E42A9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11095,13 +11095,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_mD53769F069C88B226BD00FB4CAF0C5E01FFD3C1F_Multicast;
 }
-// Method Definition Index: 24598
+// Method Definition Index: 24571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_mD53769F069C88B226BD00FB4CAF0C5E01FFD3C1F (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t3A0569D83C8734611DC9A3B5D24538F3486E42A9* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24599
+// Method Definition Index: 24572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_BeginInvoke_mE8858C3D953D6B3B5441086ABD4E3490CD285E9D (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t3A0569D83C8734611DC9A3B5D24538F3486E42A9* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11110,7 +11110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24600
+// Method Definition Index: 24573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_EndInvoke_m6D7D76FDD16335C5AB3F104547B70E12A348FD68 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t3A0569D83C8734611DC9A3B5D24538F3486E42A9* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11151,7 +11151,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24601
+// Method Definition Index: 24574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType__ctor_m8F97E385BF094C9547C4C6A2F361B31B7EBD1C4D (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_t1B4A6984A3B23AB851254616883FB502C780569F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11180,13 +11180,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_Invoke_mC8D5F1A03A7C19ECA4ADF8F63E801496BC1FBA59_Multicast;
 }
-// Method Definition Index: 24602
+// Method Definition Index: 24575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_Invoke_mC8D5F1A03A7C19ECA4ADF8F63E801496BC1FBA59 (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_t1B4A6984A3B23AB851254616883FB502C780569F* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24603
+// Method Definition Index: 24576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_BeginInvoke_mB54537280218C17D0C569B3CBC62CEDFAF8D437B (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_t1B4A6984A3B23AB851254616883FB502C780569F* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11195,7 +11195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24604
+// Method Definition Index: 24577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_EndInvoke_mA8214F8D5F3A719583431B2E0C11A900243AFC5E (CesiumForUnity_CesiumRasterOverlay_Property_set_maximumTextureSizeType_t1B4A6984A3B23AB851254616883FB502C780569F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11236,7 +11236,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24605
+// Method Definition Index: 24578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_nameType__ctor_m587EF2DBC60D8036E8D96B609F069AACE12D04A4 (CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_t2C25F2D2D901DDDB89F3884902394BDBB464C0C0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11265,13 +11265,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_Invoke_m7B53E3F646527F36F0D72698CA7180F849C72542_Multicast;
 }
-// Method Definition Index: 24606
+// Method Definition Index: 24579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_Invoke_m7B53E3F646527F36F0D72698CA7180F849C72542 (CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_t2C25F2D2D901DDDB89F3884902394BDBB464C0C0* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24607
+// Method Definition Index: 24580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_BeginInvoke_mBDECD8CA5C205D113AC2440C0DD12EED7F3C1550 (CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_t2C25F2D2D901DDDB89F3884902394BDBB464C0C0* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11280,7 +11280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24608
+// Method Definition Index: 24581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_EndInvoke_m79AD5D6D985350ABCAC7CAC2B9D9B880B0BB5805 (CesiumForUnity_CesiumRasterOverlay_Property_set_nameType_t2C25F2D2D901DDDB89F3884902394BDBB464C0C0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11321,7 +11321,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24609
+// Method Definition Index: 24582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType__ctor_m394F7249F25E3077086DABE803B6B6CF3717F772 (CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_t64DDAAD3DDF9A76EA8AAE14CF93BF57A7D084829* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11350,13 +11350,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_m3DD356AAA609DE363F5E2EFB3E34A58D98264F8C_Multicast;
 }
-// Method Definition Index: 24610
+// Method Definition Index: 24583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_m3DD356AAA609DE363F5E2EFB3E34A58D98264F8C (CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_t64DDAAD3DDF9A76EA8AAE14CF93BF57A7D084829* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24611
+// Method Definition Index: 24584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_BeginInvoke_m0922A8BE55C02A570ECDDB4791A80F033D920A36 (CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_t64DDAAD3DDF9A76EA8AAE14CF93BF57A7D084829* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11365,7 +11365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24612
+// Method Definition Index: 24585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_EndInvoke_m323668299C3DD20BF8CB182D3D0C9FA9F9DFB9E2 (CesiumForUnity_CesiumRasterOverlay_Property_set_showCreditsOnScreenType_t64DDAAD3DDF9A76EA8AAE14CF93BF57A7D084829* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11406,7 +11406,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOverlay_
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24613
+// Method Definition Index: 24586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType__ctor_m8CB442802F7D63E2DFEBE8B09516464B7794F025 (CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_t21990130519B2FF1BB1E5E0F878064F90F07E272* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11435,13 +11435,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Prope
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_Invoke_m99AB9486B1A611E76A0A4B9766692178CAFDAC3E_Multicast;
 }
-// Method Definition Index: 24614
+// Method Definition Index: 24587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_Invoke_m99AB9486B1A611E76A0A4B9766692178CAFDAC3E (CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_t21990130519B2FF1BB1E5E0F878064F90F07E272* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24615
+// Method Definition Index: 24588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_BeginInvoke_mCFAFAEB7C1027613ADE7C4F02BDCE9920001284F (CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_t21990130519B2FF1BB1E5E0F878064F90F07E272* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11450,7 +11450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24616
+// Method Definition Index: 24589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_EndInvoke_m4A2825BD7A5F5016039F05826D9747EDF1E20809 (CesiumForUnity_CesiumRasterOverlay_Property_set_subTileCacheBytesType_t21990130519B2FF1BB1E5E0F878064F90F07E272* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11495,7 +11495,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRasterOver
 
 	return returnValue;
 }
-// Method Definition Index: 24617
+// Method Definition Index: 24590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType__ctor_m86FA7E619516825B9947A7816ABE069F62DB4FED (CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_t87AB4C05D54091DFBF4C4E9FC7C06EE06C0A7CBE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11524,13 +11524,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRasterOverlayLoadFa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_Invoke_m35516C59C8EBA482E02C723FC5FAF55EBDBC7A19_Multicast;
 }
-// Method Definition Index: 24618
+// Method Definition Index: 24591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_Invoke_m35516C59C8EBA482E02C723FC5FAF55EBDBC7A19 (CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_t87AB4C05D54091DFBF4C4E9FC7C06EE06C0A7CBE* __this, intptr_t ___0_overlay, int32_t ___1_type, int64_t ___2_httpStatusCode, intptr_t ___3_message, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, int64_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_overlay, ___1_type, ___2_httpStatusCode, ___3_message, ___4_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24619
+// Method Definition Index: 24592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_BeginInvoke_m0002481D60AC71C72EA85A200DFA64881FBE9E23 (CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_t87AB4C05D54091DFBF4C4E9FC7C06EE06C0A7CBE* __this, intptr_t ___0_overlay, int32_t ___1_type, int64_t ___2_httpStatusCode, intptr_t ___3_message, intptr_t* ___4_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11547,7 +11547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRasterOve
 	__d_args[4] = ___4_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 24620
+// Method Definition Index: 24593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_EndInvoke_m0BF038AC198EE17D8033C2DB99998B94A14993C2 (CesiumForUnity_CesiumRasterOverlayLoadFailureDetails_Construct___R__AqUOiZnUHIgxRnspXXwType_t87AB4C05D54091DFBF4C4E9FC7C06EE06C0A7CBE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11592,7 +11592,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSett
 
 	return returnValue;
 }
-// Method Definition Index: 24621
+// Method Definition Index: 24594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m67BCBD8B07CCEE74C8E3FEA53D00FB74D730A953 (CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE03671ECCFA4E978647001AE860EF275A822338* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11621,13 +11621,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Cal
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m2AD0FA700828415F8C8B74C245E49B9E5433BCD1_Multicast;
 }
-// Method Definition Index: 24622
+// Method Definition Index: 24595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m2AD0FA700828415F8C8B74C245E49B9E5433BCD1 (CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE03671ECCFA4E978647001AE860EF275A822338* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24623
+// Method Definition Index: 24596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_mC7F1184CB4A205B52FB2692EDE904CFEFDAEA9F4 (CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE03671ECCFA4E978647001AE860EF275A822338* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -11635,7 +11635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24624
+// Method Definition Index: 24597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mC271D7267A0CC7B2784ADFD0CF035833CFFDDA7A (CesiumForUnity_CesiumRuntimeSettings_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE03671ECCFA4E978647001AE860EF275A822338* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11680,7 +11680,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSett
 
 	return returnValue;
 }
-// Method Definition Index: 24625
+// Method Definition Index: 24598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m8847AA78738B6F54A5B751164EF61970AFBB25FB (CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t995A186FEF2BC209D785B6D2F273836BC8930110* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11709,13 +11709,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Cal
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m3F8FF548AAD422F2AD1F366F9E5A14385A224CBB_Multicast;
 }
-// Method Definition Index: 24626
+// Method Definition Index: 24599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m3F8FF548AAD422F2AD1F366F9E5A14385A224CBB (CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t995A186FEF2BC209D785B6D2F273836BC8930110* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24627
+// Method Definition Index: 24600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_mD9C24B78651DEF2E78E1E1A275C116D59BC38EDC (CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t995A186FEF2BC209D785B6D2F273836BC8930110* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11724,7 +11724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24628
+// Method Definition Index: 24601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m013DB9FD487E4D80D317ED4CF136516954C96CB7 (CesiumForUnity_CesiumRuntimeSettings_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t995A186FEF2BC209D785B6D2F273836BC8930110* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11769,7 +11769,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSett
 
 	return returnValue;
 }
-// Method Definition Index: 24629
+// Method Definition Index: 24602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_mAD0EC2A9D2E14B3CE2310B239D11E9F37D3B715C (CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tBCAC86C49369AB67B0DA64322F0E12A914C6007A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11798,13 +11798,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Cal
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m4881B77C82A4B9945D84E1FC19A5EF9BFE36CC52_Multicast;
 }
-// Method Definition Index: 24630
+// Method Definition Index: 24603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m4881B77C82A4B9945D84E1FC19A5EF9BFE36CC52 (CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tBCAC86C49369AB67B0DA64322F0E12A914C6007A* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24631
+// Method Definition Index: 24604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m9A5BF74BA02E5033A5AC229DE1EF8455EF5003CF (CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tBCAC86C49369AB67B0DA64322F0E12A914C6007A* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -11813,7 +11813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24632
+// Method Definition Index: 24605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m9F3BD5A9BDEEEBF8D12D9EA1239251EB71CC8F4F (CesiumForUnity_CesiumRuntimeSettings_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tBCAC86C49369AB67B0DA64322F0E12A914C6007A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11858,7 +11858,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSett
 
 	return returnValue;
 }
-// Method Definition Index: 24633
+// Method Definition Index: 24606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType__ctor_m35DF2F23A0854357DEA3AD236DF62DD895E6AFDF (CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_tBB28205D4A585BA0B254983E31BC1CF68A9D44C1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11887,13 +11887,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Pro
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_Invoke_m069CFB02E2DB9EE45B642A5896A4618423192293_Multicast;
 }
-// Method Definition Index: 24634
+// Method Definition Index: 24607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_Invoke_m069CFB02E2DB9EE45B642A5896A4618423192293 (CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_tBB28205D4A585BA0B254983E31BC1CF68A9D44C1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24635
+// Method Definition Index: 24608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_BeginInvoke_mAB3F09C871550A899121C9C38C1578B11C804810 (CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_tBB28205D4A585BA0B254983E31BC1CF68A9D44C1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -11901,7 +11901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24636
+// Method Definition Index: 24609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_EndInvoke_m3E5B79EFF025FF7AE84CA096C1C811A24924208E (CesiumForUnity_CesiumRuntimeSettings_Property_get_hideFlagsType_tBB28205D4A585BA0B254983E31BC1CF68A9D44C1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -11947,7 +11947,7 @@ IL2CPP_EXTERN_C  uint64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSet
 
 	return returnValue;
 }
-// Method Definition Index: 24637
+// Method Definition Index: 24610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType__ctor_m4993CF1B9340FBD7B706C71F8A43E72A4506B333 (CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_t91CADFC0F1CFF07582D0A6AC0277EF25A4B9A702* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11984,20 +11984,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Pro
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_Invoke_m6BED9E71133EB18A360CD3E983C4C8159C8168A2_Multicast;
 }
-// Method Definition Index: 24638
+// Method Definition Index: 24611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_Invoke_m6BED9E71133EB18A360CD3E983C4C8159C8168A2 (CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_t91CADFC0F1CFF07582D0A6AC0277EF25A4B9A702* __this, intptr_t* ___0_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24639
+// Method Definition Index: 24612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_BeginInvoke_m17E1D738238C7B83F9B86ABFAAEA0CA14CFB1FF2 (CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_t91CADFC0F1CFF07582D0A6AC0277EF25A4B9A702* __this, intptr_t* ___0_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24640
+// Method Definition Index: 24613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_EndInvoke_m706D20C4BCED11BECACF03E707B8DB721AF0F381 (CesiumForUnity_CesiumRuntimeSettings_Property_get_maxItemsType_t91CADFC0F1CFF07582D0A6AC0277EF25A4B9A702* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12043,7 +12043,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSet
 
 	return returnValue;
 }
-// Method Definition Index: 24641
+// Method Definition Index: 24614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType__ctor_mFB8B1D9358549DC21350B6F9A8961DB29C933802 (CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_t55909C644ACC16A6F6D3998DAF07B5477D71587F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12072,13 +12072,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Pro
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_Invoke_mF516B1BAEC5BB875F63337AAC1781F9280D536B2_Multicast;
 }
-// Method Definition Index: 24642
+// Method Definition Index: 24615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_Invoke_mF516B1BAEC5BB875F63337AAC1781F9280D536B2 (CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_t55909C644ACC16A6F6D3998DAF07B5477D71587F* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24643
+// Method Definition Index: 24616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_BeginInvoke_m3C343B4C2443C7FAA15D56898989F950568B1345 (CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_t55909C644ACC16A6F6D3998DAF07B5477D71587F* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -12086,7 +12086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24644
+// Method Definition Index: 24617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_EndInvoke_mADC8956693BE6478BFB964BC9900C1E3ED1ED935 (CesiumForUnity_CesiumRuntimeSettings_Property_get_nameType_t55909C644ACC16A6F6D3998DAF07B5477D71587F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12132,7 +12132,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSett
 
 	return returnValue;
 }
-// Method Definition Index: 24645
+// Method Definition Index: 24618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType__ctor_mE348A761DA249F910057CA5A7A2EF73D50EAF533 (CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_t323E8D8DA9ABCFB57A4CEA5A464AE42E377BC87A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12169,20 +12169,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Pro
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_Invoke_m3DA78ACB7C345B46694AED33716757CE21C6C9C2_Multicast;
 }
-// Method Definition Index: 24646
+// Method Definition Index: 24619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_Invoke_m3DA78ACB7C345B46694AED33716757CE21C6C9C2 (CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_t323E8D8DA9ABCFB57A4CEA5A464AE42E377BC87A* __this, intptr_t* ___0_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24647
+// Method Definition Index: 24620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_BeginInvoke_mE4A1C4BE81A7CBD92B2344511B15A45017417149 (CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_t323E8D8DA9ABCFB57A4CEA5A464AE42E377BC87A* __this, intptr_t* ___0_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24648
+// Method Definition Index: 24621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_EndInvoke_m35C2119660CC7A3DB4A5794E6BECC4FC887AF112 (CesiumForUnity_CesiumRuntimeSettings_Property_get_requestsPerCachePruneType_t323E8D8DA9ABCFB57A4CEA5A464AE42E377BC87A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12224,7 +12224,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSetting
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24649
+// Method Definition Index: 24622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType__ctor_mABA9F2CB8B6585C8B68B328C9CF2FF42FA730FF2 (CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_t04097B8012DCE142ABD6E25FF0DEEAB37A21062C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12253,13 +12253,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Pro
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_Invoke_m98890D99A58EA9F019F8BF4744AE6D16190F758A_Multicast;
 }
-// Method Definition Index: 24650
+// Method Definition Index: 24623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_Invoke_m98890D99A58EA9F019F8BF4744AE6D16190F758A (CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_t04097B8012DCE142ABD6E25FF0DEEAB37A21062C* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24651
+// Method Definition Index: 24624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_BeginInvoke_m4BE32F759D26378D1DD0DB22160BBE5A79851EB5 (CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_t04097B8012DCE142ABD6E25FF0DEEAB37A21062C* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12274,7 +12274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24652
+// Method Definition Index: 24625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_EndInvoke_m1678BD13B7BF0A7E54A56D309DA9DC71DBCDE0D1 (CesiumForUnity_CesiumRuntimeSettings_Property_set_hideFlagsType_t04097B8012DCE142ABD6E25FF0DEEAB37A21062C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12315,7 +12315,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumRuntimeSetting
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24653
+// Method Definition Index: 24626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType__ctor_m68142D4FE5D7BC469B9DEDCDD73EC6BDA50BDBFC (CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_tE56C3F42AA6A9DAF5A79F62E215AC2D660E88C14* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12344,13 +12344,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Pro
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_Invoke_m3A3646D53328EAC9034BB1624087E144E403CD38_Multicast;
 }
-// Method Definition Index: 24654
+// Method Definition Index: 24627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_Invoke_m3A3646D53328EAC9034BB1624087E144E403CD38 (CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_tE56C3F42AA6A9DAF5A79F62E215AC2D660E88C14* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24655
+// Method Definition Index: 24628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_BeginInvoke_mCB9C436FBFAACA838EACC07A7A1BE475C3A9E632 (CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_tE56C3F42AA6A9DAF5A79F62E215AC2D660E88C14* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -12359,7 +12359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumRuntimeSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24656
+// Method Definition Index: 24629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_EndInvoke_m9798B6E91FE71678034F7FA36E4490D57B4E4270 (CesiumForUnity_CesiumRuntimeSettings_Property_set_nameType_tE56C3F42AA6A9DAF5A79F62E215AC2D660E88C14* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12405,7 +12405,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeig
 
 	return returnValue;
 }
-// Method Definition Index: 24657
+// Method Definition Index: 24630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mDF4E8749CF38A818DDBC958EC63230F26B9582E6 (CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t508599D3611532E34E988138CA2C3A8F51C1551B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12442,20 +12442,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m116DC0D5704A9E4F457CD2BE46C6CED2CA70C3A2_Multicast;
 }
-// Method Definition Index: 24658
+// Method Definition Index: 24631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m116DC0D5704A9E4F457CD2BE46C6CED2CA70C3A2 (CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t508599D3611532E34E988138CA2C3A8F51C1551B* __this, intptr_t* ___0_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24659
+// Method Definition Index: 24632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m8C11F6B41AF29CB4263CD9771F70F6035B9A10BA (CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t508599D3611532E34E988138CA2C3A8F51C1551B* __this, intptr_t* ___0_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24660
+// Method Definition Index: 24633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m2F7645FC74F86952275552ECFA28FB1E77A16961 (CesiumForUnity_CesiumSampleHeightResult_Construct_1B2M2Y8AsgTpgAmY7PhCfgType_t508599D3611532E34E988138CA2C3A8F51C1551B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12501,7 +12501,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeig
 
 	return returnValue;
 }
-// Method Definition Index: 24661
+// Method Definition Index: 24634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType__ctor_mBAA21BBBA4F4495AB6D5F62FEB6967BBF2D269AA (CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_t5B98905F691AFCEA28E63BCDABFBDD3132D3D733* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12530,13 +12530,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_Invoke_m138ABEBBAAF2A0031676B9D13DA67FC59D9E09A8_Multicast;
 }
-// Method Definition Index: 24662
+// Method Definition Index: 24635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_Invoke_m138ABEBBAAF2A0031676B9D13DA67FC59D9E09A8 (CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_t5B98905F691AFCEA28E63BCDABFBDD3132D3D733* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24663
+// Method Definition Index: 24636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_BeginInvoke_m6A6F29A052508A4ADCAE679B13C0A257F8C65A1D (CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_t5B98905F691AFCEA28E63BCDABFBDD3132D3D733* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -12544,7 +12544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHei
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24664
+// Method Definition Index: 24637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_EndInvoke_m87E8330A71C483BCDF8BFB184141C572113EADF0 (CesiumForUnity_CesiumSampleHeightResult_Property_get_longitudeLatitudeHeightPositionsType_t5B98905F691AFCEA28E63BCDABFBDD3132D3D733* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12590,7 +12590,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeig
 
 	return returnValue;
 }
-// Method Definition Index: 24665
+// Method Definition Index: 24638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType__ctor_mFDDE5AC598A67A04AF75EE25BCFCE5095D37EF52 (CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_tE4316C6A37ECF9F7D189198651704EA7E1411BE5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12619,13 +12619,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_Invoke_m26B187A556DEC1314205602022E3BB12A5A3612A_Multicast;
 }
-// Method Definition Index: 24666
+// Method Definition Index: 24639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_Invoke_m26B187A556DEC1314205602022E3BB12A5A3612A (CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_tE4316C6A37ECF9F7D189198651704EA7E1411BE5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24667
+// Method Definition Index: 24640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_BeginInvoke_m48904519E79D235D16783669EFE25F625BDEB592 (CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_tE4316C6A37ECF9F7D189198651704EA7E1411BE5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -12633,7 +12633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHei
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24668
+// Method Definition Index: 24641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_EndInvoke_m1F92009272BD24EB01A46EB8858F4BB6D4B5A2A2 (CesiumForUnity_CesiumSampleHeightResult_Property_get_sampleSuccessType_tE4316C6A37ECF9F7D189198651704EA7E1411BE5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12679,7 +12679,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeig
 
 	return returnValue;
 }
-// Method Definition Index: 24669
+// Method Definition Index: 24642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType__ctor_m04337EA6055217354CA77E1BDE45612D24EEB2A0 (CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_tFBC845F440B4851B61F7014A13C9B320994DF27D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12708,13 +12708,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_Invoke_mEBBE8F3F95B96250269FD931D52228989995CC76_Multicast;
 }
-// Method Definition Index: 24670
+// Method Definition Index: 24643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_Invoke_mEBBE8F3F95B96250269FD931D52228989995CC76 (CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_tFBC845F440B4851B61F7014A13C9B320994DF27D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24671
+// Method Definition Index: 24644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_BeginInvoke_mD5F88B07AA02789606908AEE4A9EEEFC1A7AFEEB (CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_tFBC845F440B4851B61F7014A13C9B320994DF27D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -12722,7 +12722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHei
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24672
+// Method Definition Index: 24645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_EndInvoke_m6CD7D5FFD547699F3B75EB8B13E464998314F100 (CesiumForUnity_CesiumSampleHeightResult_Property_get_warningsType_tFBC845F440B4851B61F7014A13C9B320994DF27D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12764,7 +12764,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeightRe
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24673
+// Method Definition Index: 24646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType__ctor_mE7E121BB6D2F871E66F3DE4D54736277D79E9131 (CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_tCCB08024FA7672EB75A6FE277BA7F28BC07EEA25* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12793,13 +12793,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_Invoke_mD6140D25A503E342FD0FAD2A4C1BF89015BAB1AC_Multicast;
 }
-// Method Definition Index: 24674
+// Method Definition Index: 24647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_Invoke_mD6140D25A503E342FD0FAD2A4C1BF89015BAB1AC (CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_tCCB08024FA7672EB75A6FE277BA7F28BC07EEA25* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24675
+// Method Definition Index: 24648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_BeginInvoke_m35E3793B0ACA10EB2E1480E7C195B5F3EB91E084 (CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_tCCB08024FA7672EB75A6FE277BA7F28BC07EEA25* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -12808,7 +12808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHei
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24676
+// Method Definition Index: 24649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_EndInvoke_mE86A71C96F482D8E114D691DDE19ED7514DCDFE6 (CesiumForUnity_CesiumSampleHeightResult_Property_set_longitudeLatitudeHeightPositionsType_tCCB08024FA7672EB75A6FE277BA7F28BC07EEA25* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12849,7 +12849,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeightRe
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24677
+// Method Definition Index: 24650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType__ctor_m40AB64D01665DE6D04443D3C7BA701D8E13DA0C9 (CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_tD72C246A32322530A5E9174EBC13BE66B7079211* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12878,13 +12878,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_Invoke_m9DE4C891ADE45C7FE14DE21A744A056CE0381DC9_Multicast;
 }
-// Method Definition Index: 24678
+// Method Definition Index: 24651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_Invoke_m9DE4C891ADE45C7FE14DE21A744A056CE0381DC9 (CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_tD72C246A32322530A5E9174EBC13BE66B7079211* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24679
+// Method Definition Index: 24652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_BeginInvoke_mE35E583EB90CDE2E0C2C2AD8C07FB912EA595D83 (CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_tD72C246A32322530A5E9174EBC13BE66B7079211* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -12893,7 +12893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHei
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24680
+// Method Definition Index: 24653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_EndInvoke_mB0646BD9A3416A7F6CF1218221405188EFAA8658 (CesiumForUnity_CesiumSampleHeightResult_Property_set_sampleSuccessType_tD72C246A32322530A5E9174EBC13BE66B7079211* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12934,7 +12934,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumSampleHeightRe
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24681
+// Method Definition Index: 24654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType__ctor_mCECAC42410D74337D46404389F88DEF780882CFD (CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_t5FF1525D2A7B025AC6BF9E916D2EF42EAE32034A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12963,13 +12963,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_Invoke_mF2B1D07C86644F5E17E68B15A843BDC10382193E_Multicast;
 }
-// Method Definition Index: 24682
+// Method Definition Index: 24655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_Invoke_mF2B1D07C86644F5E17E68B15A843BDC10382193E (CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_t5FF1525D2A7B025AC6BF9E916D2EF42EAE32034A* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24683
+// Method Definition Index: 24656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_BeginInvoke_m416184A154E2C25B1D6C8564D716F453A3B2E7B0 (CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_t5FF1525D2A7B025AC6BF9E916D2EF42EAE32034A* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -12978,7 +12978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSampleHei
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24684
+// Method Definition Index: 24657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_EndInvoke_m546F97E4A14DCFF68A915308EB818140FEFA05D6 (CesiumForUnity_CesiumSampleHeightResult_Property_set_warningsType_t5FF1525D2A7B025AC6BF9E916D2EF42EAE32034A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13023,7 +13023,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumSimplePlan
 
 	return returnValue;
 }
-// Method Definition Index: 24685
+// Method Definition Index: 24658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType__ctor_m65237F0CB1906181A95F58F1D6711C20034FDD5E (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_tFBA3C1F50A09B04438F9A21535DAC421DFEBE744* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13052,13 +13052,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSimplePlanarEllipso
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_Invoke_mDBA73BC3386871A1BCB13226520C31B923563DB3_Multicast;
 }
-// Method Definition Index: 24686
+// Method Definition Index: 24659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_Invoke_mDBA73BC3386871A1BCB13226520C31B923563DB3 (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_tFBA3C1F50A09B04438F9A21535DAC421DFEBE744* __this, intptr_t ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_sourceEcef, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___2_destinationEcef, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_ellipsoid, ___1_sourceEcef, ___2_destinationEcef, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24687
+// Method Definition Index: 24660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_BeginInvoke_m8DA5E9A2130F97A32F81A094A97A0578B4696433 (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_tFBA3C1F50A09B04438F9A21535DAC421DFEBE744* __this, intptr_t ___0_ellipsoid, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___1_sourceEcef, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___2_destinationEcef, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -13068,7 +13068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSimplePla
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24688
+// Method Definition Index: 24661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_EndInvoke_mADFDE8C8D0E3599952B65116A2659EEE2AF9F1B2 (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_CallFromCenteredFixedCoordinates_Xlu0WX31sapbYyKKJDYoawType_tFBA3C1F50A09B04438F9A21535DAC421DFEBE744* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13114,7 +13114,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumSimplePlan
 
 	return returnValue;
 }
-// Method Definition Index: 24689
+// Method Definition Index: 24662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType__ctor_mFFC9EBDF6E63A4B1D14BECBCF3E6C6C2E04CDFD2 (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_t67A66B7CC3B882AC81C8BDF02653FE39E1929B18* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13143,20 +13143,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumSimplePlanarEllipso
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_Invoke_m2571F0B6711C3A0E206C0578F032769639FD12DF_Multicast;
 }
-// Method Definition Index: 24690
+// Method Definition Index: 24663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_Invoke_m2571F0B6711C3A0E206C0578F032769639FD12DF (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_t67A66B7CC3B882AC81C8BDF02653FE39E1929B18* __this, intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24691
+// Method Definition Index: 24664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_BeginInvoke_m7037DDAE2BBC2E44E0940E4479E776B9FCF3DED0 (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_t67A66B7CC3B882AC81C8BDF02653FE39E1929B18* __this, intptr_t ___0_thiz, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_thiz);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24692
+// Method Definition Index: 24665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_EndInvoke_m5CAEB4D78615F8D7D9D6BBD5FE65E303E04B7FF5 (CesiumForUnity_CesiumSimplePlanarEllipsoidCurve_Property_get_NativeImplementationType_t67A66B7CC3B882AC81C8BDF02653FE39E1929B18* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13198,7 +13198,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExcluder_C
 	il2cppPInvokeFunc(___0_thiz, ___1_tileset, ___2_reinteropException);
 
 }
-// Method Definition Index: 24693
+// Method Definition Index: 24666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType__ctor_m2489B08821DB474DCC6927EF53D279CF42951134 (CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_tBB64676E0E126140DA9DD392CC421E90B5FBD158* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13227,13 +13227,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallAd
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_Invoke_m2998A334DF1F35F14DE55E6AF919FD86F08B40E7_Multicast;
 }
-// Method Definition Index: 24694
+// Method Definition Index: 24667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_Invoke_m2998A334DF1F35F14DE55E6AF919FD86F08B40E7 (CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_tBB64676E0E126140DA9DD392CC421E90B5FBD158* __this, intptr_t ___0_thiz, intptr_t ___1_tileset, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_tileset, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24695
+// Method Definition Index: 24668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_BeginInvoke_m73B4DCA9D9ECC33F0758F7146AAB3ABCAA655E9B (CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_tBB64676E0E126140DA9DD392CC421E90B5FBD158* __this, intptr_t ___0_thiz, intptr_t ___1_tileset, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -13242,7 +13242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24696
+// Method Definition Index: 24669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_EndInvoke_mE4C052C1C964294CA08714C45F48D9F600F549C6 (CesiumForUnity_CesiumTileExcluder_CallAddToTileset_SrfNoP9IJM__ZwyysR9yJTQType_tBB64676E0E126140DA9DD392CC421E90B5FBD158* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13287,7 +13287,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclud
 
 	return returnValue;
 }
-// Method Definition Index: 24697
+// Method Definition Index: 24670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_m803104A46E66A7A761E4D299C69BCFC280DCA945 (CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t9CE5F96C2D2AB167072FE613EE85B8B1FB669AF9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13316,13 +13316,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallGe
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_mF6887747A43E0E8853BB17B3045FE9745B86A43B_Multicast;
 }
-// Method Definition Index: 24698
+// Method Definition Index: 24671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_mF6887747A43E0E8853BB17B3045FE9745B86A43B (CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t9CE5F96C2D2AB167072FE613EE85B8B1FB669AF9* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24699
+// Method Definition Index: 24672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_mA44E7779A3D3EF7D498E11BF12C103175D5AAC6E (CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t9CE5F96C2D2AB167072FE613EE85B8B1FB669AF9* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -13330,7 +13330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24700
+// Method Definition Index: 24673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_m79DAC6A54ED7C23E92F623253D09B5301A3914CD (CesiumForUnity_CesiumTileExcluder_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t9CE5F96C2D2AB167072FE613EE85B8B1FB669AF9* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13375,7 +13375,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclude
 
 	return returnValue;
 }
-// Method Definition Index: 24701
+// Method Definition Index: 24674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mEA6EB836AF1054D81107B46BF2A6730C12F52BFF (CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tA90EB8AB50B5B30A7D336E6CFB372155DE1082F9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13404,13 +13404,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallGe
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m32D35A329CA70F2432BDC4427C50F1F56AB69AF0_Multicast;
 }
-// Method Definition Index: 24702
+// Method Definition Index: 24675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m32D35A329CA70F2432BDC4427C50F1F56AB69AF0 (CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tA90EB8AB50B5B30A7D336E6CFB372155DE1082F9* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24703
+// Method Definition Index: 24676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m4A89090635F619B679DE01CC04D5FAFA112545A4 (CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tA90EB8AB50B5B30A7D336E6CFB372155DE1082F9* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -13418,7 +13418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24704
+// Method Definition Index: 24677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m8B46F5CC6ECD7D7921957377AE99B9AC7454FDF7 (CesiumForUnity_CesiumTileExcluder_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tA90EB8AB50B5B30A7D336E6CFB372155DE1082F9* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13463,7 +13463,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclude
 
 	return returnValue;
 }
-// Method Definition Index: 24705
+// Method Definition Index: 24678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_mA93E81775D1D6718ABF31DDBDE97F3CAF3350D5B (CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t87D1523EAACE60115461C57A97C2FC216C131FAA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13492,13 +13492,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Callop
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m10336034E7B1FD85F08B085C9E3A1DBD075CDECE_Multicast;
 }
-// Method Definition Index: 24706
+// Method Definition Index: 24679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m10336034E7B1FD85F08B085C9E3A1DBD075CDECE (CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t87D1523EAACE60115461C57A97C2FC216C131FAA* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24707
+// Method Definition Index: 24680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m9763787F78FDD96592A43EEBB7B0500AC96C3374 (CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t87D1523EAACE60115461C57A97C2FC216C131FAA* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -13507,7 +13507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24708
+// Method Definition Index: 24681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mDBDED4471B56D98297D82AC778BAC3AA51CDF434 (CesiumForUnity_CesiumTileExcluder_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t87D1523EAACE60115461C57A97C2FC216C131FAA* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13552,7 +13552,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclude
 
 	return returnValue;
 }
-// Method Definition Index: 24709
+// Method Definition Index: 24682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m9DE14ABDC2B04E6A0565C2BD6496EE1A6044BA5D (CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t1FA08D22B790A0DD00C0523A60008E33894E9669* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13581,13 +13581,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Callop
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mB9F69BE8E2E63D0543925268A38D951E255F54AF_Multicast;
 }
-// Method Definition Index: 24710
+// Method Definition Index: 24683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mB9F69BE8E2E63D0543925268A38D951E255F54AF (CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t1FA08D22B790A0DD00C0523A60008E33894E9669* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24711
+// Method Definition Index: 24684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_mC2EFA9BFC0266CD6F6341EFD760F004FF43AFD81 (CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t1FA08D22B790A0DD00C0523A60008E33894E9669* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -13596,7 +13596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24712
+// Method Definition Index: 24685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m1DAE9897D7630456D04DBAACFD9B88D1A54EEF5C (CesiumForUnity_CesiumTileExcluder_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t1FA08D22B790A0DD00C0523A60008E33894E9669* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13638,7 +13638,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExcluder_C
 	il2cppPInvokeFunc(___0_thiz, ___1_tileset, ___2_reinteropException);
 
 }
-// Method Definition Index: 24713
+// Method Definition Index: 24686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType__ctor_m0A60D6C00B4735701EE8A813DEB3FE4B7C3BEEB7 (CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_t53D3414A17AFCAA4D44DF251B36BA84CB4852B19* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13667,13 +13667,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallRe
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_Invoke_mEA1BE2F46A01BC5FFD4B415C63835157B92CF582_Multicast;
 }
-// Method Definition Index: 24714
+// Method Definition Index: 24687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_Invoke_mEA1BE2F46A01BC5FFD4B415C63835157B92CF582 (CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_t53D3414A17AFCAA4D44DF251B36BA84CB4852B19* __this, intptr_t ___0_thiz, intptr_t ___1_tileset, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_tileset, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24715
+// Method Definition Index: 24688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_BeginInvoke_mA7755E0822F79CF0273F7E50096BB9E23E7932FE (CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_t53D3414A17AFCAA4D44DF251B36BA84CB4852B19* __this, intptr_t ___0_thiz, intptr_t ___1_tileset, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -13682,7 +13682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24716
+// Method Definition Index: 24689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_EndInvoke_m0B632239E4F7DB39CEBF281ADFE09A3A4BB7CBA6 (CesiumForUnity_CesiumTileExcluder_CallRemoveFromTileset_SrfNoP9IJM__ZwyysR9yJTQType_t53D3414A17AFCAA4D44DF251B36BA84CB4852B19* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13726,7 +13726,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclude
 
 	return returnValue;
 }
-// Method Definition Index: 24717
+// Method Definition Index: 24690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType__ctor_m837A2DDDDA792496A4A9A0AA1F331B38AAC0599F (CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_t2ABE71A2F8C6265562738A63F20930E31222407C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13755,13 +13755,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallSh
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_Invoke_m7B0B18FCCDD363E4FC524BBF38D0AE5BD2345E29_Multicast;
 }
-// Method Definition Index: 24718
+// Method Definition Index: 24691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_Invoke_m7B0B18FCCDD363E4FC524BBF38D0AE5BD2345E29 (CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_t2ABE71A2F8C6265562738A63F20930E31222407C* __this, intptr_t ___0_thiz, intptr_t ___1_tile, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_tile, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24719
+// Method Definition Index: 24692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_BeginInvoke_m86630F54FD8B168C345690CA2E842724293EAEE1 (CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_t2ABE71A2F8C6265562738A63F20930E31222407C* __this, intptr_t ___0_thiz, intptr_t ___1_tile, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -13770,7 +13770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24720
+// Method Definition Index: 24693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_EndInvoke_mFBDC0C702C9504A74A209703B5B4474964611481 (CesiumForUnity_CesiumTileExcluder_CallShouldExclude_UETWPhv0ANQLUqKbOQlZcwType_t2ABE71A2F8C6265562738A63F20930E31222407C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13816,7 +13816,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclud
 
 	return returnValue;
 }
-// Method Definition Index: 24721
+// Method Definition Index: 24694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m7655D8E12417C77A9B9866CF8A42CF7B53C273A1 (CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6A096CCDC69AE64AD43D0E3688835695D2E05F77* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13845,13 +13845,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_CallSt
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m23BA367AB56CBA784BEA355A7957651F7EF38833_Multicast;
 }
-// Method Definition Index: 24722
+// Method Definition Index: 24695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m23BA367AB56CBA784BEA355A7957651F7EF38833 (CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6A096CCDC69AE64AD43D0E3688835695D2E05F77* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24723
+// Method Definition Index: 24696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_m1A7AF1685CF27FB7B05E07FBB59CDFA3D75535FC (CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6A096CCDC69AE64AD43D0E3688835695D2E05F77* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -13860,7 +13860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24724
+// Method Definition Index: 24697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_mF81F904847BBA861FD4F8E4D7E3F676D892EEFB2 (CesiumForUnity_CesiumTileExcluder_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t6A096CCDC69AE64AD43D0E3688835695D2E05F77* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13905,7 +13905,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclude
 
 	return returnValue;
 }
-// Method Definition Index: 24725
+// Method Definition Index: 24698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_get_enabledType__ctor_mC2DFADC8FBDFE24854BE48960C744151F3DF1870 (CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_t664939D2DBA493D971FFE20A5096A10E29D8F698* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13934,13 +13934,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_Invoke_mDE28FA1EF1D76A55302CD48DB5425F1FF4C245F3_Multicast;
 }
-// Method Definition Index: 24726
+// Method Definition Index: 24699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_Invoke_mDE28FA1EF1D76A55302CD48DB5425F1FF4C245F3 (CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_t664939D2DBA493D971FFE20A5096A10E29D8F698* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24727
+// Method Definition Index: 24700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_BeginInvoke_mB96359E9C5EFC4282BC487C74422F9DB24A5A7FC (CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_t664939D2DBA493D971FFE20A5096A10E29D8F698* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -13948,7 +13948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24728
+// Method Definition Index: 24701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_EndInvoke_mF2016E89AFEB0EC181FE5F5AD8ECAD8DF63B7BA2 (CesiumForUnity_CesiumTileExcluder_Property_get_enabledType_t664939D2DBA493D971FFE20A5096A10E29D8F698* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13994,7 +13994,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclud
 
 	return returnValue;
 }
-// Method Definition Index: 24729
+// Method Definition Index: 24702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType__ctor_m4A952242684B646ACC9E162FC8893FA759A70761 (CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_tAE70C6A8B21D56DF9CDE091BB4FF6A1AE181A107* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14023,13 +14023,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_Invoke_m005E778A38CC7E3AC4D1400F2E5544BED877131E_Multicast;
 }
-// Method Definition Index: 24730
+// Method Definition Index: 24703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_Invoke_m005E778A38CC7E3AC4D1400F2E5544BED877131E (CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_tAE70C6A8B21D56DF9CDE091BB4FF6A1AE181A107* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24731
+// Method Definition Index: 24704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_BeginInvoke_m6A5789EC12561BD65B00D5B329151E5F5C16EDD2 (CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_tAE70C6A8B21D56DF9CDE091BB4FF6A1AE181A107* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14037,7 +14037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24732
+// Method Definition Index: 24705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_EndInvoke_m5AFAC37DA45CA52631F3C7A46EBF003E6B54DBF1 (CesiumForUnity_CesiumTileExcluder_Property_get_gameObjectType_tAE70C6A8B21D56DF9CDE091BB4FF6A1AE181A107* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14082,7 +14082,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclude
 
 	return returnValue;
 }
-// Method Definition Index: 24733
+// Method Definition Index: 24706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType__ctor_m14603AFD8E10CBDB90A5AE32AB9AF710BD7B307B (CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_t9FDB035BB04347D71D30FB27211C12E2151CBC34* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14111,13 +14111,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_Invoke_m32CE5ECF619F525786576700B0E56F361125FB2B_Multicast;
 }
-// Method Definition Index: 24734
+// Method Definition Index: 24707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_Invoke_m32CE5ECF619F525786576700B0E56F361125FB2B (CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_t9FDB035BB04347D71D30FB27211C12E2151CBC34* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24735
+// Method Definition Index: 24708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_BeginInvoke_mCAE2F6FB9F9283E85C9DE759BF8952149B0DBD3C (CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_t9FDB035BB04347D71D30FB27211C12E2151CBC34* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14125,7 +14125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24736
+// Method Definition Index: 24709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_EndInvoke_m9CE0B3AADC701A5FE0AA899457F730E7C773F734 (CesiumForUnity_CesiumTileExcluder_Property_get_hideFlagsType_t9FDB035BB04347D71D30FB27211C12E2151CBC34* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14171,7 +14171,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclud
 
 	return returnValue;
 }
-// Method Definition Index: 24737
+// Method Definition Index: 24710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_get_nameType__ctor_m57A70B4F626EE353511A67C8AD4D40279E31A3E2 (CesiumForUnity_CesiumTileExcluder_Property_get_nameType_t816D1613B1BA07928A20E6333F8060BFF105CA52* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14200,13 +14200,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_get_nameType_Invoke_mE428EA436D48D2B2D2C8D0F952F181B9AC6BD946_Multicast;
 }
-// Method Definition Index: 24738
+// Method Definition Index: 24711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_Property_get_nameType_Invoke_mE428EA436D48D2B2D2C8D0F952F181B9AC6BD946 (CesiumForUnity_CesiumTileExcluder_Property_get_nameType_t816D1613B1BA07928A20E6333F8060BFF105CA52* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24739
+// Method Definition Index: 24712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_get_nameType_BeginInvoke_mD5E077AA47795D372D8E02A9CC72233917410F35 (CesiumForUnity_CesiumTileExcluder_Property_get_nameType_t816D1613B1BA07928A20E6333F8060BFF105CA52* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14214,7 +14214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24740
+// Method Definition Index: 24713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_Property_get_nameType_EndInvoke_mB17A094F318772F0641B1F290A75B018596F3AAD (CesiumForUnity_CesiumTileExcluder_Property_get_nameType_t816D1613B1BA07928A20E6333F8060BFF105CA52* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14260,7 +14260,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExclud
 
 	return returnValue;
 }
-// Method Definition Index: 24741
+// Method Definition Index: 24714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_get_transformType__ctor_mDBBF4F463F43CBA157FA1DE4ACB118E88ECCE9C7 (CesiumForUnity_CesiumTileExcluder_Property_get_transformType_tA1D481D57927AE334E18FC021319EDCBFF97579D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14289,13 +14289,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_get_transformType_Invoke_mBD43522484048BF1F6F2BF0A3284E4C297F4E6BB_Multicast;
 }
-// Method Definition Index: 24742
+// Method Definition Index: 24715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_Property_get_transformType_Invoke_mBD43522484048BF1F6F2BF0A3284E4C297F4E6BB (CesiumForUnity_CesiumTileExcluder_Property_get_transformType_tA1D481D57927AE334E18FC021319EDCBFF97579D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24743
+// Method Definition Index: 24716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_get_transformType_BeginInvoke_mF572E848597955CD50120B2229D6B5B83E791450 (CesiumForUnity_CesiumTileExcluder_Property_get_transformType_tA1D481D57927AE334E18FC021319EDCBFF97579D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14303,7 +14303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24744
+// Method Definition Index: 24717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileExcluder_Property_get_transformType_EndInvoke_mAF1CC7B077AC4EA61D1A37AC133B05DC98B78201 (CesiumForUnity_CesiumTileExcluder_Property_get_transformType_tA1D481D57927AE334E18FC021319EDCBFF97579D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14345,7 +14345,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExcluder_P
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24745
+// Method Definition Index: 24718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_enabledType__ctor_m743F4063EEA7E53916ABBB9313973DCE7BBD577D (CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_tA94C8A27770AD2A216796B84C6D7FF7685C84EB4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14374,13 +14374,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_Invoke_m20C607C8C456C6104EBEF534F64539CCBB3EF1E2_Multicast;
 }
-// Method Definition Index: 24746
+// Method Definition Index: 24719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_Invoke_m20C607C8C456C6104EBEF534F64539CCBB3EF1E2 (CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_tA94C8A27770AD2A216796B84C6D7FF7685C84EB4* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24747
+// Method Definition Index: 24720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_BeginInvoke_m9148C4F2B1309122ED4531A50AF2C36D4AECF5EA (CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_tA94C8A27770AD2A216796B84C6D7FF7685C84EB4* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -14389,7 +14389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24748
+// Method Definition Index: 24721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_EndInvoke_mBE6C3A4E945E2CB434081BAA474832FBAC026B56 (CesiumForUnity_CesiumTileExcluder_Property_set_enabledType_tA94C8A27770AD2A216796B84C6D7FF7685C84EB4* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14430,7 +14430,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExcluder_P
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24749
+// Method Definition Index: 24722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType__ctor_mAEDBFAD741016919F1AD5A54D6524B52A7B50C3B (CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_t6DD084F95D38DCBFF633B5AC1305C28730A678B8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14459,13 +14459,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_Invoke_m4C93246A3BF34EFD11360406437ED96622F55E7D_Multicast;
 }
-// Method Definition Index: 24750
+// Method Definition Index: 24723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_Invoke_m4C93246A3BF34EFD11360406437ED96622F55E7D (CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_t6DD084F95D38DCBFF633B5AC1305C28730A678B8* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24751
+// Method Definition Index: 24724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_BeginInvoke_mE93420456DAE622A837AF5DC37D4D0988915CCE0 (CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_t6DD084F95D38DCBFF633B5AC1305C28730A678B8* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14480,7 +14480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24752
+// Method Definition Index: 24725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_EndInvoke_m1CDC0C09E8086C36491D0FCBE8A284F5D8F845A0 (CesiumForUnity_CesiumTileExcluder_Property_set_hideFlagsType_t6DD084F95D38DCBFF633B5AC1305C28730A678B8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14521,7 +14521,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileExcluder_P
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24753
+// Method Definition Index: 24726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_nameType__ctor_mD1D848346F10955B1D6DDAC3992F20C2F47AEB5F (CesiumForUnity_CesiumTileExcluder_Property_set_nameType_t079051D6BD4B57EEAA4C6BE167B296FD73314B69* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14550,13 +14550,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Proper
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileExcluder_Property_set_nameType_Invoke_m471F92C0222CCACC0D324084D82784FFC20BADD0_Multicast;
 }
-// Method Definition Index: 24754
+// Method Definition Index: 24727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_nameType_Invoke_m471F92C0222CCACC0D324084D82784FFC20BADD0 (CesiumForUnity_CesiumTileExcluder_Property_set_nameType_t079051D6BD4B57EEAA4C6BE167B296FD73314B69* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24755
+// Method Definition Index: 24728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExcluder_Property_set_nameType_BeginInvoke_m373A55769BCC138487BB199A70DD68F08DBA8FFB (CesiumForUnity_CesiumTileExcluder_Property_set_nameType_t079051D6BD4B57EEAA4C6BE167B296FD73314B69* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -14565,7 +14565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileExclu
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24756
+// Method Definition Index: 24729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileExcluder_Property_set_nameType_EndInvoke_m98EF7BE6C7BBDC11AFA764EB0FE00993DF605740 (CesiumForUnity_CesiumTileExcluder_Property_set_nameType_t079051D6BD4B57EEAA4C6BE167B296FD73314B69* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14606,7 +14606,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24757
+// Method Definition Index: 24730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m1E3D34E72E4E30953A315C4F5642E13B13087EDA (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tA430F4FD491AAA774B6DFD602201A88B5B4DEC46* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14635,13 +14635,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mE6B0416528699E00F7D86BDA8AD8C949E7643DDD_Multicast;
 }
-// Method Definition Index: 24758
+// Method Definition Index: 24731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mE6B0416528699E00F7D86BDA8AD8C949E7643DDD (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tA430F4FD491AAA774B6DFD602201A88B5B4DEC46* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24759
+// Method Definition Index: 24732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m8BEFFF04330E66AB1C4607DAE7700F3D01C3ECFF (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tA430F4FD491AAA774B6DFD602201A88B5B4DEC46* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14649,7 +14649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24760
+// Method Definition Index: 24733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mD47C3AE02A0E49E7730DCF43EA85D95BCF0FE719 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tA430F4FD491AAA774B6DFD602201A88B5B4DEC46* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14694,7 +14694,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24761
+// Method Definition Index: 24734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_m86405C06D3444EFD00A5176BA49576B8B2D49408 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t71CD29AA655A7D17F350373EF3A883A8DB1F341A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14723,13 +14723,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m27834C48D37F8C74A06E0DFE3CCAC467753ACE57_Multicast;
 }
-// Method Definition Index: 24762
+// Method Definition Index: 24735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m27834C48D37F8C74A06E0DFE3CCAC467753ACE57 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t71CD29AA655A7D17F350373EF3A883A8DB1F341A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24763
+// Method Definition Index: 24736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_mC522ADE4BADA7DCBCF4E7658009E16AB258E6090 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t71CD29AA655A7D17F350373EF3A883A8DB1F341A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14737,7 +14737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24764
+// Method Definition Index: 24737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_m72AFA6116A979CA75CDCEAF53503E77CC737CAD0 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t71CD29AA655A7D17F350373EF3A883A8DB1F341A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14782,7 +14782,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24765
+// Method Definition Index: 24738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m08C13930100DF438311EA879E6D3A7A6C3FAA057 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t790DB4211EF65F5AA103CD1FEBB364B2CECD6785* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14811,13 +14811,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m2F4C13CC31E867B4729EB1ABF139472247B503D5_Multicast;
 }
-// Method Definition Index: 24766
+// Method Definition Index: 24739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m2F4C13CC31E867B4729EB1ABF139472247B503D5 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t790DB4211EF65F5AA103CD1FEBB364B2CECD6785* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24767
+// Method Definition Index: 24740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m4ACE55D918308BB8C15DFF75A3667E3D30E81C7D (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t790DB4211EF65F5AA103CD1FEBB364B2CECD6785* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -14825,7 +14825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24768
+// Method Definition Index: 24741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m3FE5FBFDF699965C4FB29CCBCF5876BFA76FE451 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_t790DB4211EF65F5AA103CD1FEBB364B2CECD6785* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14870,7 +14870,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24769
+// Method Definition Index: 24742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m0978E88997012E5E12031DB523A37DC87A7B761B (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_tBB13EFBE89EE368D5F681E5BF5DAA438C5370534* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14899,13 +14899,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m9E96A99FD18F77DDAE8A5928311CC65D5145852B_Multicast;
 }
-// Method Definition Index: 24770
+// Method Definition Index: 24743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m9E96A99FD18F77DDAE8A5928311CC65D5145852B (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_tBB13EFBE89EE368D5F681E5BF5DAA438C5370534* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24771
+// Method Definition Index: 24744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m0C7650940CEBC025D2387A00175D23662A44B14E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_tBB13EFBE89EE368D5F681E5BF5DAA438C5370534* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -14914,7 +14914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24772
+// Method Definition Index: 24745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m08B8AC6D6107CBA656DB2B8F379D79D78E2850CC (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_tBB13EFBE89EE368D5F681E5BF5DAA438C5370534* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14959,7 +14959,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24773
+// Method Definition Index: 24746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m293FF143308E84887B7E12CC28466956D06B3828 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t053100398710174073DE9184E6F106B4B9397656* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14988,13 +14988,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m23E5090BF943A043CEC671E69B016FB3DAB5750E_Multicast;
 }
-// Method Definition Index: 24774
+// Method Definition Index: 24747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m23E5090BF943A043CEC671E69B016FB3DAB5750E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t053100398710174073DE9184E6F106B4B9397656* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24775
+// Method Definition Index: 24748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_mC1241F2264F814149EB9F029A82C0A2B13BA666D (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t053100398710174073DE9184E6F106B4B9397656* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -15003,7 +15003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24776
+// Method Definition Index: 24749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mE1B7473B80A7CA54A7F691C6D69724EC5516E67E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t053100398710174073DE9184E6F106B4B9397656* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15045,7 +15045,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24777
+// Method Definition Index: 24750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m5A188685E7FFADCE21974ED33A8C0D8DB91BB547 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB68B3FAAAC33B104B63F68239D150453BA7D17D3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15074,13 +15074,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mE2FE44A559416D392130B5A414DB064693201329_Multicast;
 }
-// Method Definition Index: 24778
+// Method Definition Index: 24751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mE2FE44A559416D392130B5A414DB064693201329 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB68B3FAAAC33B104B63F68239D150453BA7D17D3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24779
+// Method Definition Index: 24752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m6D878E234115FACE8A53277E930153C8EF0B4F62 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB68B3FAAAC33B104B63F68239D150453BA7D17D3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15088,7 +15088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24780
+// Method Definition Index: 24753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mF9523827B00D493FF426A3DC32894ACF214ADEC6 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tB68B3FAAAC33B104B63F68239D150453BA7D17D3* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15133,7 +15133,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24781
+// Method Definition Index: 24754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m5BB9FC191BD5BE77E77F7AE9EEBD9CFC54867366 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tC0B34754AC4D9A8FFC552FD921302176585CF8C0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15162,13 +15162,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m9D0BBE6B7A28DC2340CD70894F975ABCC639B7A3_Multicast;
 }
-// Method Definition Index: 24782
+// Method Definition Index: 24755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m9D0BBE6B7A28DC2340CD70894F975ABCC639B7A3 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tC0B34754AC4D9A8FFC552FD921302176585CF8C0* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24783
+// Method Definition Index: 24756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_m89A32ED610AD5FDF8F4B749A23D21A8898D9B13E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tC0B34754AC4D9A8FFC552FD921302176585CF8C0* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -15177,7 +15177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24784
+// Method Definition Index: 24757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_m34A0B6FAC227DCF76FE245085149742A66C34AA6 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_tC0B34754AC4D9A8FFC552FD921302176585CF8C0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15222,7 +15222,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24785
+// Method Definition Index: 24758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType__ctor_m3F391FF8E3CCBB6F5A584ACD9CDAB10168828E95 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_t4E9E9A685CA835F7960324F167C2F2301402AC53* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15251,13 +15251,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_Invoke_m32D67B6E974A49D6EF2AE2F7EA1AC1C503396593_Multicast;
 }
-// Method Definition Index: 24786
+// Method Definition Index: 24759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_Invoke_m32D67B6E974A49D6EF2AE2F7EA1AC1C503396593 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_t4E9E9A685CA835F7960324F167C2F2301402AC53* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24787
+// Method Definition Index: 24760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_BeginInvoke_mCF2F9726886AE77613AFA28BC58560DAE8167A85 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_t4E9E9A685CA835F7960324F167C2F2301402AC53* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15265,7 +15265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24788
+// Method Definition Index: 24761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_EndInvoke_m061C4BE810DCD6F15632D34FDB7439D8A02CD855 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_enabledType_t4E9E9A685CA835F7960324F167C2F2301402AC53* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15311,7 +15311,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24789
+// Method Definition Index: 24762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType__ctor_m9CD4419582B29246127F85B28DCD290D2577F190 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_tB1A385CDA0F27B43F9A494D0529B907A95CA684C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15340,13 +15340,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_Invoke_mC00CB7C76ABB99F0CFE50BCA8C9FE077A779B90A_Multicast;
 }
-// Method Definition Index: 24790
+// Method Definition Index: 24763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_Invoke_mC00CB7C76ABB99F0CFE50BCA8C9FE077A779B90A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_tB1A385CDA0F27B43F9A494D0529B907A95CA684C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24791
+// Method Definition Index: 24764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_BeginInvoke_m9BF1C123CBB1001985AE8355068CAC171A46DE90 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_tB1A385CDA0F27B43F9A494D0529B907A95CA684C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15354,7 +15354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24792
+// Method Definition Index: 24765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_EndInvoke_m94B8C57BA9A3C21D1C128902C26FF906CAF17722 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_gameObjectType_tB1A385CDA0F27B43F9A494D0529B907A95CA684C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15399,7 +15399,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24793
+// Method Definition Index: 24766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType__ctor_m7DA2397758DD880EB8536DD327F81C1CC13255B8 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_t770D570C99E06D2923F3E0A54108D4ED57F9F3D3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15428,13 +15428,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_Invoke_m2766013998BFD000D9A88BC343DA498A86763668_Multicast;
 }
-// Method Definition Index: 24794
+// Method Definition Index: 24767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_Invoke_m2766013998BFD000D9A88BC343DA498A86763668 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_t770D570C99E06D2923F3E0A54108D4ED57F9F3D3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24795
+// Method Definition Index: 24768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_BeginInvoke_mEFE9374BDC311A13B273A3B759F45014BACB206E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_t770D570C99E06D2923F3E0A54108D4ED57F9F3D3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15442,7 +15442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24796
+// Method Definition Index: 24769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_EndInvoke_mDAD0A13D291B2C96325CD62477B4A720D791AA09 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_hideFlagsType_t770D570C99E06D2923F3E0A54108D4ED57F9F3D3* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15488,7 +15488,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24797
+// Method Definition Index: 24770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType__ctor_m6FC9E78B765C8451936186702F8EB87A971122E8 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_tD3A694E39C47D07F1583E7642F97E29B43CE1370* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15517,13 +15517,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_Invoke_m3C72B233C863BA7C6F2ADF3A23694C8E3A8B11DE_Multicast;
 }
-// Method Definition Index: 24798
+// Method Definition Index: 24771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_Invoke_m3C72B233C863BA7C6F2ADF3A23694C8E3A8B11DE (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_tD3A694E39C47D07F1583E7642F97E29B43CE1370* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24799
+// Method Definition Index: 24772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_BeginInvoke_m404CAC086561528FB66FB3FACD78C7C97E605F8D (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_tD3A694E39C47D07F1583E7642F97E29B43CE1370* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15531,7 +15531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24800
+// Method Definition Index: 24773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_EndInvoke_m7BA34F47A29AF18037D6FFE356E78CFDE66EBE74 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_materialKeyType_tD3A694E39C47D07F1583E7642F97E29B43CE1370* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15576,7 +15576,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24801
+// Method Definition Index: 24774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType__ctor_m7A1CBDD9A2E35C62CE162B6ADDF643316ACBC5F7 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_t60A87AF9BF2CF2AA00040CBA40C2290E81CB4169* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15605,13 +15605,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_Invoke_m4699887723AFBCF018355BB6A8D09DE84D961E53_Multicast;
 }
-// Method Definition Index: 24802
+// Method Definition Index: 24775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_Invoke_m4699887723AFBCF018355BB6A8D09DE84D961E53 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_t60A87AF9BF2CF2AA00040CBA40C2290E81CB4169* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24803
+// Method Definition Index: 24776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_BeginInvoke_m550B42BEDB5D05168CB795BAE4592BF7DA7A9609 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_t60A87AF9BF2CF2AA00040CBA40C2290E81CB4169* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15619,7 +15619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24804
+// Method Definition Index: 24777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_EndInvoke_m4721AA35AD0BB2089F81127735C3DA55D49E18C1 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumLevelType_t60A87AF9BF2CF2AA00040CBA40C2290E81CB4169* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15664,7 +15664,7 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServic
 
 	return returnValue;
 }
-// Method Definition Index: 24805
+// Method Definition Index: 24778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType__ctor_m47C5DF22B51431FD7D2CA742480AD0BD4A86ED90 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t1380D429F3CBBBE4962876FA4A68461713111E47* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15693,13 +15693,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m4361A4F6224DD525FA69542A79DB50108CC454FD_Multicast;
 }
-// Method Definition Index: 24806
+// Method Definition Index: 24779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m4361A4F6224DD525FA69542A79DB50108CC454FD (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t1380D429F3CBBBE4962876FA4A68461713111E47* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24807
+// Method Definition Index: 24780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_BeginInvoke_m8112DA197F1AF548A2EB87AF4DF9743DC7583A31 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t1380D429F3CBBBE4962876FA4A68461713111E47* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15707,7 +15707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24808
+// Method Definition Index: 24781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_EndInvoke_m1FB931E7505EACA307B86CA796310B31CCC217E8 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t1380D429F3CBBBE4962876FA4A68461713111E47* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15752,7 +15752,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24809
+// Method Definition Index: 24782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType__ctor_mBFEBC7F36BA24AF56645761E3DA8B79F863E9108 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t09AC1CE617F2074F3FE576C0C7559C133431BBB2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15781,13 +15781,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_mDE2F44603729BC22AE849FDC25CF22D020151C44_Multicast;
 }
-// Method Definition Index: 24810
+// Method Definition Index: 24783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_mDE2F44603729BC22AE849FDC25CF22D020151C44 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t09AC1CE617F2074F3FE576C0C7559C133431BBB2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24811
+// Method Definition Index: 24784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_BeginInvoke_mE362F9AE2E5FE56EC277F9B8DFE1FBD081BF6AA3 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t09AC1CE617F2074F3FE576C0C7559C133431BBB2* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15795,7 +15795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24812
+// Method Definition Index: 24785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_EndInvoke_mCC4B2344721AF6AB005BFFDA95963D92D984C92B (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t09AC1CE617F2074F3FE576C0C7559C133431BBB2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15840,7 +15840,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24813
+// Method Definition Index: 24786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType__ctor_mC9A6493F1B1934329B94D055EE24EE968811F1FC (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t0CCD5941724841CFBFB8CE48716A5E885F8492B5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15869,13 +15869,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_Invoke_mC1925EEB1E935F5539894716EE3B266D42BC3C62_Multicast;
 }
-// Method Definition Index: 24814
+// Method Definition Index: 24787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_Invoke_mC1925EEB1E935F5539894716EE3B266D42BC3C62 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t0CCD5941724841CFBFB8CE48716A5E885F8492B5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24815
+// Method Definition Index: 24788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_BeginInvoke_mC1A2D02FBB05C9356398F7225C7503739B05B017 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t0CCD5941724841CFBFB8CE48716A5E885F8492B5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15883,7 +15883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24816
+// Method Definition Index: 24789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_EndInvoke_m42C0BA492906782965409153F32E9CE7DD488376 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t0CCD5941724841CFBFB8CE48716A5E885F8492B5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15928,7 +15928,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24817
+// Method Definition Index: 24790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType__ctor_m716651C8B4541558FDA9474D3CE4C7612BBCA89D (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_tD39E81BDC2A68AAE28DE102FFDB193B425B80DBD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15957,13 +15957,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_Invoke_m0F1CDDD22AC05775594D757F3EB6FAA61EFAB872_Multicast;
 }
-// Method Definition Index: 24818
+// Method Definition Index: 24791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_Invoke_m0F1CDDD22AC05775594D757F3EB6FAA61EFAB872 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_tD39E81BDC2A68AAE28DE102FFDB193B425B80DBD* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24819
+// Method Definition Index: 24792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_BeginInvoke_m6F12D7D623EA5E54CFBDD6D2A56F2C9345FE2C90 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_tD39E81BDC2A68AAE28DE102FFDB193B425B80DBD* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15971,7 +15971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24820
+// Method Definition Index: 24793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_EndInvoke_m58E7E0946183FF7AB327E70E9013B35FBBBAC257 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_minimumLevelType_tD39E81BDC2A68AAE28DE102FFDB193B425B80DBD* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16017,7 +16017,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24821
+// Method Definition Index: 24794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType__ctor_mADBF23FFD02D6E21374092535646ED4251DDCFF2 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_tBA36DD2FCAB89C01E8DF304F16342EB3B255FF28* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16046,13 +16046,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_Invoke_m3E7B6169CBD64279D00F67054578B12C31665168_Multicast;
 }
-// Method Definition Index: 24822
+// Method Definition Index: 24795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_Invoke_m3E7B6169CBD64279D00F67054578B12C31665168 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_tBA36DD2FCAB89C01E8DF304F16342EB3B255FF28* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24823
+// Method Definition Index: 24796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_BeginInvoke_m295BAF8B2DEE2179E76EFD01378B049B69F4F594 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_tBA36DD2FCAB89C01E8DF304F16342EB3B255FF28* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16060,7 +16060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24824
+// Method Definition Index: 24797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_EndInvoke_m92195FE0AF29EA032266DDA3A1A4D0138415AE1E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_nameType_tBA36DD2FCAB89C01E8DF304F16342EB3B255FF28* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16106,7 +16106,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24825
+// Method Definition Index: 24798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType__ctor_m77F51DB53F7D557CAAEE91A89EAC6284F4D470FC (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_t59A0C96043CB5B2971E64280E443948D7E63CE5D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16135,20 +16135,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_Invoke_mF04CFE9F8C3217553A1CBF44EEAB13EE29CEC7B7_Multicast;
 }
-// Method Definition Index: 24826
+// Method Definition Index: 24799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_Invoke_mF04CFE9F8C3217553A1CBF44EEAB13EE29CEC7B7 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_t59A0C96043CB5B2971E64280E443948D7E63CE5D* __this, intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24827
+// Method Definition Index: 24800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_BeginInvoke_m6AEECAF5FF65A01F602FBBD303E2800506D84734 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_t59A0C96043CB5B2971E64280E443948D7E63CE5D* __this, intptr_t ___0_thiz, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_thiz);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 24828
+// Method Definition Index: 24801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_EndInvoke_m42D8C078BBDB0C05018422CBAFCDAD4D0C44D1B2 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_NativeImplementationType_t59A0C96043CB5B2971E64280E443948D7E63CE5D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16193,7 +16193,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24829
+// Method Definition Index: 24802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType__ctor_m7C0A3EADD5BA3871148C6A832B564758250E2CF9 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_t801FF832B943F998E5B004A4A305F4F73959EB39* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16222,13 +16222,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m25F56D9CD93B5271BF084CBFC8F3D2E7E0FCCD03_Multicast;
 }
-// Method Definition Index: 24830
+// Method Definition Index: 24803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m25F56D9CD93B5271BF084CBFC8F3D2E7E0FCCD03 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_t801FF832B943F998E5B004A4A305F4F73959EB39* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24831
+// Method Definition Index: 24804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_BeginInvoke_m91EA8E9A2A629AB8CD82BA4EB9943092F808CB0A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_t801FF832B943F998E5B004A4A305F4F73959EB39* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16236,7 +16236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24832
+// Method Definition Index: 24805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_EndInvoke_m2850F4E38190082E9DE1A278C4608D8CBAE98E86 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_t801FF832B943F998E5B004A4A305F4F73959EB39* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16281,7 +16281,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24833
+// Method Definition Index: 24806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType__ctor_m9407A91A52DF1DF94102DEA72771BB83D22388F8 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_tF0791B9901080083A7B34C96AFDD5BA937D2E722* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16310,13 +16310,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_Invoke_mD785571051EB9269A66D612BD2112B045C4F4BD8_Multicast;
 }
-// Method Definition Index: 24834
+// Method Definition Index: 24807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_Invoke_mD785571051EB9269A66D612BD2112B045C4F4BD8 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_tF0791B9901080083A7B34C96AFDD5BA937D2E722* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24835
+// Method Definition Index: 24808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_BeginInvoke_mED7057D9B6A6167C4D3CC6A328D35E3EF3C09CFA (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_tF0791B9901080083A7B34C96AFDD5BA937D2E722* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16324,7 +16324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24836
+// Method Definition Index: 24809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_EndInvoke_mC38AB2DA70396A2355DCCE50E027EA1E68EC4D59 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_specifyZoomLevelsType_tF0791B9901080083A7B34C96AFDD5BA937D2E722* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16369,7 +16369,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24837
+// Method Definition Index: 24810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType__ctor_m48902967CFB4A181516D45B8D32E93CD03169495 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t95859FBD97A69CF1F6ACC4D7903373B0570CA0A9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16398,13 +16398,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_Invoke_m41CF8538D97509AA8CB0759753C4EE3C512DAADA_Multicast;
 }
-// Method Definition Index: 24838
+// Method Definition Index: 24811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_Invoke_m41CF8538D97509AA8CB0759753C4EE3C512DAADA (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t95859FBD97A69CF1F6ACC4D7903373B0570CA0A9* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24839
+// Method Definition Index: 24812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_BeginInvoke_m61E26760909A3FEAF934F591FBB1F27A3F88137A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t95859FBD97A69CF1F6ACC4D7903373B0570CA0A9* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16412,7 +16412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24840
+// Method Definition Index: 24813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_EndInvoke_m1B9B7F49FD42B23CA954F30CC90E60190F0677A2 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t95859FBD97A69CF1F6ACC4D7903373B0570CA0A9* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16458,7 +16458,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24841
+// Method Definition Index: 24814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType__ctor_m226B9909F4FECBD1164480C049F196EE2F203203 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_t8A0CCDE7B1A8D0E6EC9CDCE2A4B1A49528DAD86C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16487,13 +16487,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_Invoke_m71FCCA8FBBC2473D6640E806119CA5467A649CF8_Multicast;
 }
-// Method Definition Index: 24842
+// Method Definition Index: 24815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_Invoke_m71FCCA8FBBC2473D6640E806119CA5467A649CF8 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_t8A0CCDE7B1A8D0E6EC9CDCE2A4B1A49528DAD86C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24843
+// Method Definition Index: 24816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_BeginInvoke_m73C78B9209B3C02EF09EFEB70CD8712315D120B1 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_t8A0CCDE7B1A8D0E6EC9CDCE2A4B1A49528DAD86C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16501,7 +16501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24844
+// Method Definition Index: 24817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_EndInvoke_mD1AE971A582BE2EB75EDDD0A1A94060B27B7884A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_transformType_t8A0CCDE7B1A8D0E6EC9CDCE2A4B1A49528DAD86C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16547,7 +16547,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapSer
 
 	return returnValue;
 }
-// Method Definition Index: 24845
+// Method Definition Index: 24818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType__ctor_mEBC2D50DAFA0412653E3F054DA4FBA60054A9515 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_t981BF49253D551211563F141AB483E215C123CBE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16576,13 +16576,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_Invoke_m0A69ACD4FFB2ED1E45FF2291AF62B6321E38D44E_Multicast;
 }
-// Method Definition Index: 24846
+// Method Definition Index: 24819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_Invoke_m0A69ACD4FFB2ED1E45FF2291AF62B6321E38D44E (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_t981BF49253D551211563F141AB483E215C123CBE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24847
+// Method Definition Index: 24820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_BeginInvoke_mD180C7AE77821042829355F722ED682136742876 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_t981BF49253D551211563F141AB483E215C123CBE* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16590,7 +16590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24848
+// Method Definition Index: 24821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_EndInvoke_m6B47DE6BF33E3AA96D84662F24600909D92D896A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_get_urlType_t981BF49253D551211563F141AB483E215C123CBE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16632,7 +16632,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24849
+// Method Definition Index: 24822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType__ctor_m617439FACFE3D91DDDE88D534AEA580D7183F806 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_t7C16F245E09AA03DCE86756B261508C1A2ADBA2F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16661,13 +16661,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_Invoke_m227A67CD529720DB2DCBB3C04A5559AD6672A816_Multicast;
 }
-// Method Definition Index: 24850
+// Method Definition Index: 24823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_Invoke_m227A67CD529720DB2DCBB3C04A5559AD6672A816 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_t7C16F245E09AA03DCE86756B261508C1A2ADBA2F* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24851
+// Method Definition Index: 24824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_BeginInvoke_m476ED40BF2ACD4A692F48F2DA2D3F05EDFCDC4E4 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_t7C16F245E09AA03DCE86756B261508C1A2ADBA2F* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -16676,7 +16676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24852
+// Method Definition Index: 24825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_EndInvoke_m32948DBC483AB719B0DECA772680548BBEA9881B (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_enabledType_t7C16F245E09AA03DCE86756B261508C1A2ADBA2F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16717,7 +16717,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24853
+// Method Definition Index: 24826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType__ctor_m46D0EEA77B84C9EAFB6D19C432E12983BE169015 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_tE3BF523C4BC2990CD8C903F9671B53946FF3D34C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16746,13 +16746,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_Invoke_mBEA5844FA42946866AEA642DC52894B95EC1087A_Multicast;
 }
-// Method Definition Index: 24854
+// Method Definition Index: 24827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_Invoke_mBEA5844FA42946866AEA642DC52894B95EC1087A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_tE3BF523C4BC2990CD8C903F9671B53946FF3D34C* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24855
+// Method Definition Index: 24828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_BeginInvoke_m1E7C3DA0FF018916ADBA0A475E2BE693FA1DE383 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_tE3BF523C4BC2990CD8C903F9671B53946FF3D34C* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16767,7 +16767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24856
+// Method Definition Index: 24829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_EndInvoke_m37C054B938AD28CFA3D9A3B23AEE52651E1F853A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_hideFlagsType_tE3BF523C4BC2990CD8C903F9671B53946FF3D34C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16808,7 +16808,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24857
+// Method Definition Index: 24830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType__ctor_m283EF327E4251578DA7E69BE2F143FF584DBFA18 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_t686C18886FD03E98DE91BF0FF3F9776785E66055* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16837,13 +16837,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_Invoke_mFBBF8B54FB76E5DDC8766192652C26216DA0A776_Multicast;
 }
-// Method Definition Index: 24858
+// Method Definition Index: 24831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_Invoke_mFBBF8B54FB76E5DDC8766192652C26216DA0A776 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_t686C18886FD03E98DE91BF0FF3F9776785E66055* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24859
+// Method Definition Index: 24832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_BeginInvoke_m77A42CF881D6F12A578CAEB735421704852A9A41 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_t686C18886FD03E98DE91BF0FF3F9776785E66055* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -16852,7 +16852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24860
+// Method Definition Index: 24833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_EndInvoke_mC874817C1FCB90671C73AEF3565AE90094E51111 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_materialKeyType_t686C18886FD03E98DE91BF0FF3F9776785E66055* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16893,7 +16893,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24861
+// Method Definition Index: 24834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType__ctor_m347DC283A344A53DB8247DDD4B33DE9FFF9FAFA6 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_tC968D77E3621667253B074556AB7581861FE0EA8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16922,13 +16922,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_Invoke_m1FAA11B90918F88BE859BFDEAB3140189B5ECD68_Multicast;
 }
-// Method Definition Index: 24862
+// Method Definition Index: 24835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_Invoke_m1FAA11B90918F88BE859BFDEAB3140189B5ECD68 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_tC968D77E3621667253B074556AB7581861FE0EA8* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24863
+// Method Definition Index: 24836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_BeginInvoke_mC8F06E41E6D198A221557F1B7640CBD9ECD33B78 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_tC968D77E3621667253B074556AB7581861FE0EA8* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -16937,7 +16937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24864
+// Method Definition Index: 24837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_EndInvoke_m4CCEB209A4A97A21703DE861A98CB50F5A2FFCFF (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumLevelType_tC968D77E3621667253B074556AB7581861FE0EA8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16978,7 +16978,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24865
+// Method Definition Index: 24838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType__ctor_m10C3B7BB70CBDD872354C2E81C29B916362E8C5F (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t2BDE5A0F9384EC0B8D4BED5081778752FF72838E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17007,13 +17007,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_m34BD440A50D189FCA200A468CE19DD95631540DC_Multicast;
 }
-// Method Definition Index: 24866
+// Method Definition Index: 24839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_m34BD440A50D189FCA200A468CE19DD95631540DC (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t2BDE5A0F9384EC0B8D4BED5081778752FF72838E* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, float, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24867
+// Method Definition Index: 24840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_BeginInvoke_m77CBFB81951145AE47F28A8BF4C0106928EF39D2 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t2BDE5A0F9384EC0B8D4BED5081778752FF72838E* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17022,7 +17022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24868
+// Method Definition Index: 24841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_EndInvoke_m3A6F4FF72440E0E0EFBFE01AEC5D1BA272BF6333 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t2BDE5A0F9384EC0B8D4BED5081778752FF72838E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17063,7 +17063,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24869
+// Method Definition Index: 24842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType__ctor_mEACF395F73D7C8D52729A6ABB0751702B83DE971 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_tA06B8E410A5A5D10234308A1505734929D20AC63* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17092,13 +17092,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_mF70063E69639F20A207332324BC8E30C15D446D0_Multicast;
 }
-// Method Definition Index: 24870
+// Method Definition Index: 24843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_mF70063E69639F20A207332324BC8E30C15D446D0 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_tA06B8E410A5A5D10234308A1505734929D20AC63* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24871
+// Method Definition Index: 24844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_BeginInvoke_m483922128A138BBDA772A98BAF1442B8B9F72101 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_tA06B8E410A5A5D10234308A1505734929D20AC63* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17107,7 +17107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24872
+// Method Definition Index: 24845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_EndInvoke_mA488FE1199F41D39C368D37220C2AA5562D6A82A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_tA06B8E410A5A5D10234308A1505734929D20AC63* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17148,7 +17148,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24873
+// Method Definition Index: 24846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType__ctor_m275976489BAD7E321860A05AD8CB31274C8702E2 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tE6FC704CF55CA409C19C62E4386D0362BA1DF667* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17177,13 +17177,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_Invoke_m59C803E95575E6E21711E1C13B20CB3BD07BFD8F_Multicast;
 }
-// Method Definition Index: 24874
+// Method Definition Index: 24847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_Invoke_m59C803E95575E6E21711E1C13B20CB3BD07BFD8F (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tE6FC704CF55CA409C19C62E4386D0362BA1DF667* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24875
+// Method Definition Index: 24848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_BeginInvoke_mDBBE4A60FD22F3A00505D4C8A863649286160ACE (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tE6FC704CF55CA409C19C62E4386D0362BA1DF667* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17192,7 +17192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24876
+// Method Definition Index: 24849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_EndInvoke_m939107A412EB7FE058CAB52D9D7A8E524F95CCE2 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tE6FC704CF55CA409C19C62E4386D0362BA1DF667* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17233,7 +17233,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24877
+// Method Definition Index: 24850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType__ctor_m12F067DE894CA85867FFFB7FAC28A3640A52AB92 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_tC2F67A311A416E1F355C9D89D87A04CCED0589E0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17262,13 +17262,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_Invoke_m0B0BECCC3934A90D3260D10803D2080931CBCB20_Multicast;
 }
-// Method Definition Index: 24878
+// Method Definition Index: 24851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_Invoke_m0B0BECCC3934A90D3260D10803D2080931CBCB20 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_tC2F67A311A416E1F355C9D89D87A04CCED0589E0* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24879
+// Method Definition Index: 24852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_BeginInvoke_m7EC4C77CF973256A065C4DBEA5A7D0893C41FF54 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_tC2F67A311A416E1F355C9D89D87A04CCED0589E0* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17277,7 +17277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24880
+// Method Definition Index: 24853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_EndInvoke_mAC0201521C5AC7FD642107393A4A5BA0DEAB15C1 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_minimumLevelType_tC2F67A311A416E1F355C9D89D87A04CCED0589E0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17318,7 +17318,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24881
+// Method Definition Index: 24854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType__ctor_mC12E80DAA8D40C01EC5FD2672921A04FA21501C5 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_t8341EA24F490270807A1AEC1EA1EFA72EC65918D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17347,13 +17347,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_Invoke_mC7FAE711DDB710AF3484B501A6598560496A5C80_Multicast;
 }
-// Method Definition Index: 24882
+// Method Definition Index: 24855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_Invoke_mC7FAE711DDB710AF3484B501A6598560496A5C80 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_t8341EA24F490270807A1AEC1EA1EFA72EC65918D* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24883
+// Method Definition Index: 24856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_BeginInvoke_m6B123BCAFF0DE3460ED4B374F4B8845359E3FB8A (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_t8341EA24F490270807A1AEC1EA1EFA72EC65918D* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17362,7 +17362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24884
+// Method Definition Index: 24857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_EndInvoke_m3A0A8ED291ECDB12668CD98F220B29E6D359B2AD (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_nameType_t8341EA24F490270807A1AEC1EA1EFA72EC65918D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17403,7 +17403,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24885
+// Method Definition Index: 24858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType__ctor_m31B1AA7C98040457E85063645E330ED619024934 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_t178926B8B27BBCCB50839C15433AFBF2997D2D37* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17432,13 +17432,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_m24E9CBEB75E50D3D1CC0A5D74A3753940AC95E1F_Multicast;
 }
-// Method Definition Index: 24886
+// Method Definition Index: 24859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_m24E9CBEB75E50D3D1CC0A5D74A3753940AC95E1F (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_t178926B8B27BBCCB50839C15433AFBF2997D2D37* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24887
+// Method Definition Index: 24860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_BeginInvoke_m8D1B58FA4A499DC74C3DB8B8452EEA796DDC3E94 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_t178926B8B27BBCCB50839C15433AFBF2997D2D37* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17447,7 +17447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24888
+// Method Definition Index: 24861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_EndInvoke_mD2065A643DBA05ED05F21609AFE251344793F8E3 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_t178926B8B27BBCCB50839C15433AFBF2997D2D37* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17488,7 +17488,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24889
+// Method Definition Index: 24862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType__ctor_m79027635FE281DD75564A9D1129D840A772207B1 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_tB99DBC752333359F13DE780BA2B43EA06F130178* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17517,13 +17517,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_Invoke_mCACA96A8E626213A357EC8A1B17D08A1331738DC_Multicast;
 }
-// Method Definition Index: 24890
+// Method Definition Index: 24863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_Invoke_mCACA96A8E626213A357EC8A1B17D08A1331738DC (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_tB99DBC752333359F13DE780BA2B43EA06F130178* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24891
+// Method Definition Index: 24864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_BeginInvoke_mDEE49978688995C761D2C6D640176AFA5B974627 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_tB99DBC752333359F13DE780BA2B43EA06F130178* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17532,7 +17532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24892
+// Method Definition Index: 24865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_EndInvoke_m0A7257D7786CB601AB5EA33161366A4C71416513 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_specifyZoomLevelsType_tB99DBC752333359F13DE780BA2B43EA06F130178* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17573,7 +17573,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24893
+// Method Definition Index: 24866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType__ctor_m90CE55D1A486845F49E7B6324285426AA175450D (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tF11142C404B0660894CE50C866C8B6CE5205472A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17602,13 +17602,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_Invoke_mE284841B527749321C7D561F1B6BAF8EE85F5012_Multicast;
 }
-// Method Definition Index: 24894
+// Method Definition Index: 24867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_Invoke_mE284841B527749321C7D561F1B6BAF8EE85F5012 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tF11142C404B0660894CE50C866C8B6CE5205472A* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24895
+// Method Definition Index: 24868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_BeginInvoke_mDDB193CA0DCD712163AFABC267DF269FB2F1218D (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tF11142C404B0660894CE50C866C8B6CE5205472A* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17617,7 +17617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24896
+// Method Definition Index: 24869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_EndInvoke_m80134A3D5DC02F5158296B4D0A10BAA6DB308EF7 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tF11142C404B0660894CE50C866C8B6CE5205472A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17658,7 +17658,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumTileMapService
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 24897
+// Method Definition Index: 24870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType__ctor_mF039B45FF760632E6E90A2A288AE64B7F68C7903 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_tED24BDBCEDE6CE0ED8FB9D7956D870473734D8AA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17687,13 +17687,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRaste
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_Invoke_m9A43CC077445B0509E96BD71DEEEA180DF7BDF10_Multicast;
 }
-// Method Definition Index: 24898
+// Method Definition Index: 24871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_Invoke_m9A43CC077445B0509E96BD71DEEEA180DF7BDF10 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_tED24BDBCEDE6CE0ED8FB9D7956D870473734D8AA* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24899
+// Method Definition Index: 24872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_BeginInvoke_mEF344DC070AA50FA11B155367F20296D5B8CECAE (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_tED24BDBCEDE6CE0ED8FB9D7956D870473734D8AA* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -17702,7 +17702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumTileMapSe
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24900
+// Method Definition Index: 24873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_EndInvoke_m4F2413F0E5A18796B9D3282361643503D65FDAC7 (CesiumForUnity_CesiumTileMapServiceRasterOverlay_Property_set_urlType_tED24BDBCEDE6CE0ED8FB9D7956D870473734D8AA* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17744,7 +17744,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintMat2x2_Con
 	il2cppPInvokeFunc(___0_v0, ___1_v1, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24901
+// Method Definition Index: 24874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType__ctor_m0A9F01B2D3770135A4EB984B949F4F610A4F706E (CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_t9A6FE598DC8D5D59359FB94AA5A1EE5F7FA02E7F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17781,13 +17781,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Construc
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_Invoke_m19A31D49A3DE0DD9DEE3EF152180DAC96C2ED988_Multicast;
 }
-// Method Definition Index: 24902
+// Method Definition Index: 24875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_Invoke_m19A31D49A3DE0DD9DEE3EF152180DAC96C2ED988 (CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_t9A6FE598DC8D5D59359FB94AA5A1EE5F7FA02E7F* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___0_v0, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___1_v1, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_v0, ___1_v1, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24903
+// Method Definition Index: 24876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_BeginInvoke_mBC6F4601CF35DCB2EAED1F8DFDF843A53F8FB3E4 (CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_t9A6FE598DC8D5D59359FB94AA5A1EE5F7FA02E7F* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___0_v0, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___1_v1, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -17797,7 +17797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat2x
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24904
+// Method Definition Index: 24877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_EndInvoke_mB367DA01F19963A0294F68442423AF1476E95D2A (CesiumForUnity_CesiumUintMat2x2_Construct__GL6rL0hCqqkoxAtnbIobQType_t9A6FE598DC8D5D59359FB94AA5A1EE5F7FA02E7F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17839,7 +17839,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintMat2x2_Pro
 	il2cppPInvokeFunc(___0_thiz, ___1_index, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24905
+// Method Definition Index: 24878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType__ctor_m9BA09FE6A1E30D18CE3F84755285DB0F98AC1D77 (CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_tFD6E0E2B456EC346F0F03DCC6649A59A2D456BA5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17876,13 +17876,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Property
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_Invoke_m459574A27165B985D72A1B296C3E1C5B35F63D09_Multicast;
 }
-// Method Definition Index: 24906
+// Method Definition Index: 24879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_Invoke_m459574A27165B985D72A1B296C3E1C5B35F63D09 (CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_tFD6E0E2B456EC346F0F03DCC6649A59A2D456BA5* __this, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* ___0_thiz, int32_t ___1_index, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C*, int32_t, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_index, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24907
+// Method Definition Index: 24880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_BeginInvoke_mC7C4253DA87496A6180DDCCD4C69A97363759D76 (CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_tFD6E0E2B456EC346F0F03DCC6649A59A2D456BA5* __this, CesiumUintMat2x2_t81D8E174439CF33009AA970370298087890DFB6C* ___0_thiz, int32_t ___1_index, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -17892,7 +17892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat2x
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24908
+// Method Definition Index: 24881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_EndInvoke_m171BB9FBD718304B5A8005BE2015D1C3E34EF28D (CesiumForUnity_CesiumUintMat2x2_Property_get_ItemType_tFD6E0E2B456EC346F0F03DCC6649A59A2D456BA5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -17934,7 +17934,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintMat3x3_Con
 	il2cppPInvokeFunc(___0_v0, ___1_v1, ___2_v2, ___3_pReturnValue, ___4_reinteropException);
 
 }
-// Method Definition Index: 24909
+// Method Definition Index: 24882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType__ctor_m710612899B3DA8F12ED60391D4459F4324CCB776 (CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_tE95E3A08EE1BECC9C4F8DD0B2A9478C3C1749886* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17971,13 +17971,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Construc
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_Invoke_mB736BAC008BB059EE75C96FCB9C4111D742A5F19_Multicast;
 }
-// Method Definition Index: 24910
+// Method Definition Index: 24883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_Invoke_mB736BAC008BB059EE75C96FCB9C4111D742A5F19 (CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_tE95E3A08EE1BECC9C4F8DD0B2A9478C3C1749886* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___0_v0, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___1_v1, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___2_v2, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* ___3_pReturnValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_v0, ___1_v1, ___2_v2, ___3_pReturnValue, ___4_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24911
+// Method Definition Index: 24884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_BeginInvoke_mDF698C26CE9319C1F73743A9514A107C5DDE1BBC (CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_tE95E3A08EE1BECC9C4F8DD0B2A9478C3C1749886* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___0_v0, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___1_v1, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___2_v2, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* ___3_pReturnValue, intptr_t* ___4_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	void *__d_args[6] = {0};
@@ -17988,7 +17988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat3x
 	__d_args[4] = ___4_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 24912
+// Method Definition Index: 24885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_EndInvoke_mCEF84705B6210B37F78AEF40B7126C0A654E7F63 (CesiumForUnity_CesiumUintMat3x3_Construct_Y4SfatHSU__2N_SCzuuF_FgType_tE95E3A08EE1BECC9C4F8DD0B2A9478C3C1749886* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18030,7 +18030,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintMat3x3_Pro
 	il2cppPInvokeFunc(___0_thiz, ___1_index, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24913
+// Method Definition Index: 24886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType__ctor_m6B22907DFA2B4A138281C704811F8CDEB6914BC9 (CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_t9E78390320D74DDB711BB8CED2791545C33934FD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18067,13 +18067,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Property
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_Invoke_mA7FDDE59614F12061FA712A5358B1D436EFF7507_Multicast;
 }
-// Method Definition Index: 24914
+// Method Definition Index: 24887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_Invoke_mA7FDDE59614F12061FA712A5358B1D436EFF7507 (CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_t9E78390320D74DDB711BB8CED2791545C33934FD* __this, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* ___0_thiz, int32_t ___1_index, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547*, int32_t, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_index, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24915
+// Method Definition Index: 24888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_BeginInvoke_mB7C20B2F74AB84F1D39A1FCD993768AD77FF0DAE (CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_t9E78390320D74DDB711BB8CED2791545C33934FD* __this, CesiumUintMat3x3_t056F4E5D272EF930B0D1B96B8DFE591BE93C3547* ___0_thiz, int32_t ___1_index, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -18083,7 +18083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat3x
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24916
+// Method Definition Index: 24889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_EndInvoke_mB2F6F3C6B4646C6E03D97725C986343533BDFB8E (CesiumForUnity_CesiumUintMat3x3_Property_get_ItemType_t9E78390320D74DDB711BB8CED2791545C33934FD* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18125,7 +18125,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintMat4x4_Con
 	il2cppPInvokeFunc(___0_v0, ___1_v1, ___2_v2, ___3_v3, ___4_pReturnValue, ___5_reinteropException);
 
 }
-// Method Definition Index: 24917
+// Method Definition Index: 24890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType__ctor_m73C3285282E964389C1681252D52AF9F8302B2ED (CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_t95427C025373506FF23F9EC2DEEDDB2BC3DCDB7F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18162,13 +18162,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Construc
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_Invoke_m56A6C904DA4BF0498FC65B91E3D3C102334B7610_Multicast;
 }
-// Method Definition Index: 24918
+// Method Definition Index: 24891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_Invoke_m56A6C904DA4BF0498FC65B91E3D3C102334B7610 (CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_t95427C025373506FF23F9EC2DEEDDB2BC3DCDB7F* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___0_v0, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___1_v1, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___2_v2, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___3_v3, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_v0, ___1_v1, ___2_v2, ___3_v3, ___4_pReturnValue, ___5_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24919
+// Method Definition Index: 24892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_BeginInvoke_mB0B337854F069F42D8BCEF9C2B193AF5A00D1CB4 (CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_t95427C025373506FF23F9EC2DEEDDB2BC3DCDB7F* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___0_v0, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___1_v1, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___2_v2, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___3_v3, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* ___4_pReturnValue, intptr_t* ___5_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___6_callback, RuntimeObject* ___7_object, const RuntimeMethod* method) 
 {
 	void *__d_args[7] = {0};
@@ -18180,7 +18180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat4x
 	__d_args[5] = ___5_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___6_callback, (RuntimeObject*)___7_object);
 }
-// Method Definition Index: 24920
+// Method Definition Index: 24893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_EndInvoke_m77402B2C1DD9895BA45497F480A6CEBD8A576607 (CesiumForUnity_CesiumUintMat4x4_Construct_UoXJ1ZrrVKjTtIO7sqwAHQType_t95427C025373506FF23F9EC2DEEDDB2BC3DCDB7F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18222,7 +18222,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintMat4x4_Pro
 	il2cppPInvokeFunc(___0_thiz, ___1_index, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24921
+// Method Definition Index: 24894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType__ctor_m26BE8CD71E6F9466C9ADD270918F0B404C26165E (CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_t93D5256DF518803FBDC36C4E6F13645616B4E1ED* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18259,13 +18259,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Property
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_Invoke_mA0BF4D213E042EEC7E5E8D527151E998413040C7_Multicast;
 }
-// Method Definition Index: 24922
+// Method Definition Index: 24895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_Invoke_mA0BF4D213E042EEC7E5E8D527151E998413040C7 (CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_t93D5256DF518803FBDC36C4E6F13645616B4E1ED* __this, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* ___0_thiz, int32_t ___1_index, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7*, int32_t, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_index, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24923
+// Method Definition Index: 24896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_BeginInvoke_mB5D685914FA8D1330D3B60ED1F2F3015C2E04250 (CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_t93D5256DF518803FBDC36C4E6F13645616B4E1ED* __this, CesiumUintMat4x4_t9AEDE74FB1721744B026372843C3BE900BBD72E7* ___0_thiz, int32_t ___1_index, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -18275,7 +18275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintMat4x
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24924
+// Method Definition Index: 24897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_EndInvoke_mF3F7873B6DBEC070BCB70C77BCE52DCF0604F7B3 (CesiumForUnity_CesiumUintMat4x4_Property_get_ItemType_t93D5256DF518803FBDC36C4E6F13645616B4E1ED* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18316,7 +18316,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec2_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24925
+// Method Definition Index: 24898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType__ctor_mFE6C63EA720E5970C747ED5E300C37A0A6A6C7D7 (CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_tECB8A600229A4ADA90E8CEFAFE68B146D42B10DB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18345,13 +18345,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_Invoke_mF20644E5A807EAA6778B1B9809D5E50AC6C3F875_Multicast;
 }
-// Method Definition Index: 24926
+// Method Definition Index: 24899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_Invoke_mF20644E5A807EAA6778B1B9809D5E50AC6C3F875 (CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_tECB8A600229A4ADA90E8CEFAFE68B146D42B10DB* __this, uint32_t ___0_x, uint32_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint32_t, uint32_t, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24927
+// Method Definition Index: 24900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_BeginInvoke_mDB72E1D5E6C382C6CF3FE152D953BE45396506CD (CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_tECB8A600229A4ADA90E8CEFAFE68B146D42B10DB* __this, uint32_t ___0_x, uint32_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -18361,7 +18361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24928
+// Method Definition Index: 24901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_EndInvoke_mD139412C24664AD654B19B5770346659CBC46F7D (CesiumForUnity_CesiumUintVec2_Construct_41DRfMZ91WmKUsGkzEnbPwType_tECB8A600229A4ADA90E8CEFAFE68B146D42B10DB* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18402,7 +18402,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec2_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24929
+// Method Definition Index: 24902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType__ctor_m57AEEBE1892E1F0F513C0FA61BFDF717BF87FA85 (CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_t00CDA18DC8EB1C3BFDAC35F5FE2A5682F568A407* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18431,13 +18431,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_Invoke_m96668F41A1486E8C9B6DCEA4DEA868D129F12CD7_Multicast;
 }
-// Method Definition Index: 24930
+// Method Definition Index: 24903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_Invoke_m96668F41A1486E8C9B6DCEA4DEA868D129F12CD7 (CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_t00CDA18DC8EB1C3BFDAC35F5FE2A5682F568A407* __this, uint64_t ___0_x, uint64_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint64_t, uint64_t, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24931
+// Method Definition Index: 24904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_BeginInvoke_mC8AA6C832E12894E8D864F8D9A2FDB9AF11ABE9B (CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_t00CDA18DC8EB1C3BFDAC35F5FE2A5682F568A407* __this, uint64_t ___0_x, uint64_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -18447,7 +18447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24932
+// Method Definition Index: 24905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_EndInvoke_m8FC07C262065D8CE47CED5B1B66F6E67B8CCC236 (CesiumForUnity_CesiumUintVec2_Construct_nrWljXjq__N5wiftR3c_JGgType_t00CDA18DC8EB1C3BFDAC35F5FE2A5682F568A407* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18488,7 +18488,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec2_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24933
+// Method Definition Index: 24906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType__ctor_m8B152F5525D499A4805DAF0AF70E186A1D1FB476 (CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_t56A41FEF0560642E12AAEE7206409E0E1AEF72B0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18517,13 +18517,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_Invoke_mB4A26A12006F84054C3A72CA33D4E916A9DEAA8F_Multicast;
 }
-// Method Definition Index: 24934
+// Method Definition Index: 24907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_Invoke_mB4A26A12006F84054C3A72CA33D4E916A9DEAA8F (CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_t56A41FEF0560642E12AAEE7206409E0E1AEF72B0* __this, uint8_t ___0_x, uint8_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint8_t, uint8_t, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24935
+// Method Definition Index: 24908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_BeginInvoke_m750E9CB18C5695919606EB42C30B6237CDBD8F9A (CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_t56A41FEF0560642E12AAEE7206409E0E1AEF72B0* __this, uint8_t ___0_x, uint8_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -18533,7 +18533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24936
+// Method Definition Index: 24909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_EndInvoke_m1BCEBF3F8277A76D25FA330644B8DA83FC8A7179 (CesiumForUnity_CesiumUintVec2_Construct_ooy5yIq__mBEC6X6EtGX5OwType_t56A41FEF0560642E12AAEE7206409E0E1AEF72B0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18574,7 +18574,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec2_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException);
 
 }
-// Method Definition Index: 24937
+// Method Definition Index: 24910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType__ctor_mB1180F303938CAB377DB5A170807EDF5E64E12A9 (CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_tED63036FB670FE14B620BE50608EB12EB365219E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18603,13 +18603,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_Invoke_mF9A81AAB97B12EFD6FD9898207A7C545AD011FEB_Multicast;
 }
-// Method Definition Index: 24938
+// Method Definition Index: 24911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_Invoke_mF9A81AAB97B12EFD6FD9898207A7C545AD011FEB (CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_tED63036FB670FE14B620BE50608EB12EB365219E* __this, uint16_t ___0_x, uint16_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint16_t, uint16_t, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_pReturnValue, ___3_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24939
+// Method Definition Index: 24912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_BeginInvoke_m96260ED8E9D89363E30A665EB4D3CFDC1126386E (CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_tED63036FB670FE14B620BE50608EB12EB365219E* __this, uint16_t ___0_x, uint16_t ___1_y, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___2_pReturnValue, intptr_t* ___3_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -18619,7 +18619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_
 	__d_args[3] = ___3_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 24940
+// Method Definition Index: 24913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_EndInvoke_mED3D6D7806AF036F7A4592DFA3725CD1603BEC00 (CesiumForUnity_CesiumUintVec2_Construct_XhEMD4DBm1OQpJbAQjBMWwType_tED63036FB670FE14B620BE50608EB12EB365219E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18664,7 +18664,7 @@ IL2CPP_EXTERN_C  uint64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec2_P
 
 	return returnValue;
 }
-// Method Definition Index: 24941
+// Method Definition Index: 24914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Property_get_ItemType__ctor_mE806E80C34B7394D47C4E3C09DED3CF322C8BC3A (CesiumForUnity_CesiumUintVec2_Property_get_ItemType_tAF1B8826974BF45EEACC39D67E6DB8F337D3FD6D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18701,13 +18701,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec2_Property_g
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec2_Property_get_ItemType_Invoke_m8AA1E75C9644EF8BFF236688DEA146B68E236CAA_Multicast;
 }
-// Method Definition Index: 24942
+// Method Definition Index: 24915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumUintVec2_Property_get_ItemType_Invoke_m8AA1E75C9644EF8BFF236688DEA146B68E236CAA (CesiumForUnity_CesiumUintVec2_Property_get_ItemType_tAF1B8826974BF45EEACC39D67E6DB8F337D3FD6D* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___0_thiz, int32_t ___1_index, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E*, int32_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_index, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24943
+// Method Definition Index: 24916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_Property_get_ItemType_BeginInvoke_mB1FF1D4810DCD4EC6A0406911AB9CA34F1899FE7 (CesiumForUnity_CesiumUintVec2_Property_get_ItemType_tAF1B8826974BF45EEACC39D67E6DB8F337D3FD6D* __this, CesiumUintVec2_t6EDBBF25013E5B4CDAF80883F257B3FAE2D8435E* ___0_thiz, int32_t ___1_index, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -18716,7 +18716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec2_
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24944
+// Method Definition Index: 24917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumUintVec2_Property_get_ItemType_EndInvoke_m37C3B9754648FA2A14FC5C18D5DE42151BFA16DA (CesiumForUnity_CesiumUintVec2_Property_get_ItemType_tAF1B8826974BF45EEACC39D67E6DB8F337D3FD6D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18758,7 +18758,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec3_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException);
 
 }
-// Method Definition Index: 24945
+// Method Definition Index: 24918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType__ctor_m0BF05CAD36B1185E83F4264271589432BCB07F25 (CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_tBE08DF2F4DFEECB516D7C71554E5EEE8CB9C376D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18787,13 +18787,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_Invoke_m1C47C1A691058ED9875970CD42956C085BE50BBA_Multicast;
 }
-// Method Definition Index: 24946
+// Method Definition Index: 24919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_Invoke_m1C47C1A691058ED9875970CD42956C085BE50BBA (CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_tBE08DF2F4DFEECB516D7C71554E5EEE8CB9C376D* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint32_t, uint32_t, uint32_t, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24947
+// Method Definition Index: 24920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_BeginInvoke_mC5019020C4222E87EA2B551D21F75FA4259546F1 (CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_tBE08DF2F4DFEECB516D7C71554E5EEE8CB9C376D* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	void *__d_args[6] = {0};
@@ -18804,7 +18804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_
 	__d_args[4] = ___4_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 24948
+// Method Definition Index: 24921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_EndInvoke_m5F7D0939F042434A75F846688B9C090FC21A97EA (CesiumForUnity_CesiumUintVec3_Construct_fwI58ky8hlqSzCrUJCqq4QType_tBE08DF2F4DFEECB516D7C71554E5EEE8CB9C376D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18845,7 +18845,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec3_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException);
 
 }
-// Method Definition Index: 24949
+// Method Definition Index: 24922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType__ctor_m237043A0DBB38ABE6B7BD6B7B219EEAF91852AA6 (CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_tE2212AD9A43F5EC6DF180718F8B3E8C683F06EE7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18874,13 +18874,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_Invoke_mD475CE8BF5A237526B5793C0ED27F7819C439D4C_Multicast;
 }
-// Method Definition Index: 24950
+// Method Definition Index: 24923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_Invoke_mD475CE8BF5A237526B5793C0ED27F7819C439D4C (CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_tE2212AD9A43F5EC6DF180718F8B3E8C683F06EE7* __this, uint8_t ___0_x, uint8_t ___1_y, uint8_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint8_t, uint8_t, uint8_t, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24951
+// Method Definition Index: 24924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_BeginInvoke_m674ACA2D3AB9B1FAFB59C28D77188EE3D5A19E78 (CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_tE2212AD9A43F5EC6DF180718F8B3E8C683F06EE7* __this, uint8_t ___0_x, uint8_t ___1_y, uint8_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	void *__d_args[6] = {0};
@@ -18891,7 +18891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_
 	__d_args[4] = ___4_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 24952
+// Method Definition Index: 24925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_EndInvoke_mA69B3332E718F48A9E16E2C29E2D1F29D23DD19F (CesiumForUnity_CesiumUintVec3_Construct_jH1j0POYh80kGurO6bbg6wType_tE2212AD9A43F5EC6DF180718F8B3E8C683F06EE7* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18932,7 +18932,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec3_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException);
 
 }
-// Method Definition Index: 24953
+// Method Definition Index: 24926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType__ctor_m3AA807405A77DB81A7DC4936438877C92737AB83 (CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_t8FAFF4AF7336EAA921680A2451EC23DF8847EEBE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18961,13 +18961,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_Invoke_mD3D25ED7D1C73D70CD65FBD9EC0F549BB9A2C739_Multicast;
 }
-// Method Definition Index: 24954
+// Method Definition Index: 24927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_Invoke_mD3D25ED7D1C73D70CD65FBD9EC0F549BB9A2C739 (CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_t8FAFF4AF7336EAA921680A2451EC23DF8847EEBE* __this, uint16_t ___0_x, uint16_t ___1_y, uint16_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint16_t, uint16_t, uint16_t, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24955
+// Method Definition Index: 24928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_BeginInvoke_m1D22E82C67F387684A2A8F78B38C450B54CC4903 (CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_t8FAFF4AF7336EAA921680A2451EC23DF8847EEBE* __this, uint16_t ___0_x, uint16_t ___1_y, uint16_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	void *__d_args[6] = {0};
@@ -18978,7 +18978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_
 	__d_args[4] = ___4_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 24956
+// Method Definition Index: 24929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_EndInvoke_m9AD0C746B0CC8872F605B901D40AED1893D0891A (CesiumForUnity_CesiumUintVec3_Construct_r71YnkpCpNgMBAJTUEeKlgType_t8FAFF4AF7336EAA921680A2451EC23DF8847EEBE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19019,7 +19019,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec3_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException);
 
 }
-// Method Definition Index: 24957
+// Method Definition Index: 24930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType__ctor_m13219688E70167B0FDB333749535B97430B6BA4B (CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_t628567D02F299BC7B82B31586A7E6B135A280D8D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19048,13 +19048,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_Invoke_mE53F9B279EC757AD52E19535D09EF425CB051F71_Multicast;
 }
-// Method Definition Index: 24958
+// Method Definition Index: 24931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_Invoke_mE53F9B279EC757AD52E19535D09EF425CB051F71 (CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_t628567D02F299BC7B82B31586A7E6B135A280D8D* __this, uint64_t ___0_x, uint64_t ___1_y, uint64_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint64_t, uint64_t, uint64_t, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_pReturnValue, ___4_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24959
+// Method Definition Index: 24932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_BeginInvoke_mCCC431C66514D4EAA613B0C8BB8A058EFC2AFA95 (CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_t628567D02F299BC7B82B31586A7E6B135A280D8D* __this, uint64_t ___0_x, uint64_t ___1_y, uint64_t ___2_z, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___3_pReturnValue, intptr_t* ___4_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	void *__d_args[6] = {0};
@@ -19065,7 +19065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_
 	__d_args[4] = ___4_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 24960
+// Method Definition Index: 24933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_EndInvoke_m4DE5CFFC4128C6C97B88948E522D2E12164796FA (CesiumForUnity_CesiumUintVec3_Construct_ZbSqyVsWZtDI0Ryj__6S2IwType_t628567D02F299BC7B82B31586A7E6B135A280D8D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19110,7 +19110,7 @@ IL2CPP_EXTERN_C  uint64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec3_P
 
 	return returnValue;
 }
-// Method Definition Index: 24961
+// Method Definition Index: 24934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Property_get_ItemType__ctor_mA15DB86AE1F3C12341F2745B97DD476331822349 (CesiumForUnity_CesiumUintVec3_Property_get_ItemType_t627EA199E35C8B8AE2A3A92D833BE9428880205A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19147,13 +19147,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec3_Property_g
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec3_Property_get_ItemType_Invoke_mD8462BE372C2A4659A28FEFE3873218A5E48FEF8_Multicast;
 }
-// Method Definition Index: 24962
+// Method Definition Index: 24935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumUintVec3_Property_get_ItemType_Invoke_mD8462BE372C2A4659A28FEFE3873218A5E48FEF8 (CesiumForUnity_CesiumUintVec3_Property_get_ItemType_t627EA199E35C8B8AE2A3A92D833BE9428880205A* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___0_thiz, int32_t ___1_index, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733*, int32_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_index, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24963
+// Method Definition Index: 24936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_Property_get_ItemType_BeginInvoke_m89D25817D4CE051AD30602CEA43F9FA53FE773C6 (CesiumForUnity_CesiumUintVec3_Property_get_ItemType_t627EA199E35C8B8AE2A3A92D833BE9428880205A* __this, CesiumUintVec3_tAD43063A93B4B81CCA503B5D97E73D86A2640733* ___0_thiz, int32_t ___1_index, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -19162,7 +19162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec3_
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24964
+// Method Definition Index: 24937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumUintVec3_Property_get_ItemType_EndInvoke_mE358647FCA2556E52A192EC9B327E9D03884EF9B (CesiumForUnity_CesiumUintVec3_Property_get_ItemType_t627EA199E35C8B8AE2A3A92D833BE9428880205A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19204,7 +19204,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec4_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException);
 
 }
-// Method Definition Index: 24965
+// Method Definition Index: 24938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType__ctor_mD467229E695F103A3350DAEC84AB0BB69C6E301E (CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_t7847F48332153FD423F733332B3F9D9256C2415A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19233,13 +19233,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_Invoke_m53138CEB42865292356F7AE6BC6E2E09DB965383_Multicast;
 }
-// Method Definition Index: 24966
+// Method Definition Index: 24939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_Invoke_m53138CEB42865292356F7AE6BC6E2E09DB965383 (CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_t7847F48332153FD423F733332B3F9D9256C2415A* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint32_t, uint32_t, uint32_t, uint32_t, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24967
+// Method Definition Index: 24940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_BeginInvoke_m7FF503B8659D747AF033C42644A70EBB9F71A0FB (CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_t7847F48332153FD423F733332B3F9D9256C2415A* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___6_callback, RuntimeObject* ___7_object, const RuntimeMethod* method) 
 {
 	void *__d_args[7] = {0};
@@ -19251,7 +19251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_
 	__d_args[5] = ___5_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___6_callback, (RuntimeObject*)___7_object);
 }
-// Method Definition Index: 24968
+// Method Definition Index: 24941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_EndInvoke_mD94CDBF1090E2AF2CE2CB866A2A43CF4DDE6BC24 (CesiumForUnity_CesiumUintVec4_Construct_cx5C8OyRaFgckdYoG5u6cwType_t7847F48332153FD423F733332B3F9D9256C2415A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19292,7 +19292,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec4_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException);
 
 }
-// Method Definition Index: 24969
+// Method Definition Index: 24942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType__ctor_m8C66B746F792607F3D2375015FD3F655345BC8E7 (CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_tF36833D66B9E7DCBDDEC1DF1CC9FB6740F41558D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19321,13 +19321,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_Invoke_mE872FF0434FAAAB4AE375025FD3DED3C9D369C2D_Multicast;
 }
-// Method Definition Index: 24970
+// Method Definition Index: 24943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_Invoke_mE872FF0434FAAAB4AE375025FD3DED3C9D369C2D (CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_tF36833D66B9E7DCBDDEC1DF1CC9FB6740F41558D* __this, uint64_t ___0_x, uint64_t ___1_y, uint64_t ___2_z, uint64_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint64_t, uint64_t, uint64_t, uint64_t, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24971
+// Method Definition Index: 24944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_BeginInvoke_m019E205BFE92D175B828C4877454BAEC950E44BE (CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_tF36833D66B9E7DCBDDEC1DF1CC9FB6740F41558D* __this, uint64_t ___0_x, uint64_t ___1_y, uint64_t ___2_z, uint64_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___6_callback, RuntimeObject* ___7_object, const RuntimeMethod* method) 
 {
 	void *__d_args[7] = {0};
@@ -19339,7 +19339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_
 	__d_args[5] = ___5_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___6_callback, (RuntimeObject*)___7_object);
 }
-// Method Definition Index: 24972
+// Method Definition Index: 24945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_EndInvoke_m9CDF995D24412B7E9DF3B56A22A3F4E5E8CE0C1F (CesiumForUnity_CesiumUintVec4_Construct_eKggYQNxOSW0_H_SNc53xAType_tF36833D66B9E7DCBDDEC1DF1CC9FB6740F41558D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19380,7 +19380,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec4_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException);
 
 }
-// Method Definition Index: 24973
+// Method Definition Index: 24946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType__ctor_m28019F79574940C806507B15EB0BB60BD2B42C44 (CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_tDC43BBB484C3351DC9639C04C0C26C66A022C25A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19409,13 +19409,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_Invoke_m353EEBDDEAABC8017D204DF8E53212A0BEC28AB7_Multicast;
 }
-// Method Definition Index: 24974
+// Method Definition Index: 24947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_Invoke_m353EEBDDEAABC8017D204DF8E53212A0BEC28AB7 (CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_tDC43BBB484C3351DC9639C04C0C26C66A022C25A* __this, uint8_t ___0_x, uint8_t ___1_y, uint8_t ___2_z, uint8_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint8_t, uint8_t, uint8_t, uint8_t, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24975
+// Method Definition Index: 24948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_BeginInvoke_mBEFFEADD7616F1A293D3A3CCEEEBBFB9617B8E47 (CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_tDC43BBB484C3351DC9639C04C0C26C66A022C25A* __this, uint8_t ___0_x, uint8_t ___1_y, uint8_t ___2_z, uint8_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___6_callback, RuntimeObject* ___7_object, const RuntimeMethod* method) 
 {
 	void *__d_args[7] = {0};
@@ -19427,7 +19427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_
 	__d_args[5] = ___5_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___6_callback, (RuntimeObject*)___7_object);
 }
-// Method Definition Index: 24976
+// Method Definition Index: 24949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_EndInvoke_mD7FA64E257CB18979847E0E703BFAA887D2529C1 (CesiumForUnity_CesiumUintVec4_Construct_V8zlQY__7MR4_A1Ek6HBQqgType_tDC43BBB484C3351DC9639C04C0C26C66A022C25A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19468,7 +19468,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec4_Const
 	il2cppPInvokeFunc(___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException);
 
 }
-// Method Definition Index: 24977
+// Method Definition Index: 24950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType__ctor_mA8F3D68959EFDAF5D07E14641B8A606802A4EE86 (CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_t1210DC064005D3F5CFA9EC41D444C2B0D05E32FB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19497,13 +19497,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_Invoke_mE0BEADD9DDDB1790EC9D315C1E3016638B77C4A7_Multicast;
 }
-// Method Definition Index: 24978
+// Method Definition Index: 24951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_Invoke_mE0BEADD9DDDB1790EC9D315C1E3016638B77C4A7 (CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_t1210DC064005D3F5CFA9EC41D444C2B0D05E32FB* __this, uint16_t ___0_x, uint16_t ___1_y, uint16_t ___2_z, uint16_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint16_t, uint16_t, uint16_t, uint16_t, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_z, ___3_w, ___4_pReturnValue, ___5_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24979
+// Method Definition Index: 24952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_BeginInvoke_m2960F95BA5EC9F1301F5ECE828A80C6DF285A4E7 (CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_t1210DC064005D3F5CFA9EC41D444C2B0D05E32FB* __this, uint16_t ___0_x, uint16_t ___1_y, uint16_t ___2_z, uint16_t ___3_w, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___4_pReturnValue, intptr_t* ___5_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___6_callback, RuntimeObject* ___7_object, const RuntimeMethod* method) 
 {
 	void *__d_args[7] = {0};
@@ -19515,7 +19515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_
 	__d_args[5] = ___5_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___6_callback, (RuntimeObject*)___7_object);
 }
-// Method Definition Index: 24980
+// Method Definition Index: 24953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_EndInvoke_mFB9D0A2F0874A2EBB7F304167652A2BFFC094595 (CesiumForUnity_CesiumUintVec4_Construct_yp__VrxlOcxUXq2RwGv8mXwType_t1210DC064005D3F5CFA9EC41D444C2B0D05E32FB* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19560,7 +19560,7 @@ IL2CPP_EXTERN_C  uint64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumUintVec4_P
 
 	return returnValue;
 }
-// Method Definition Index: 24981
+// Method Definition Index: 24954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Property_get_ItemType__ctor_mF78F678BF0F5982B06E56828CA458F9852F0DC73 (CesiumForUnity_CesiumUintVec4_Property_get_ItemType_t63F2BE92869ED38754939C8AEAA7801149FA9D23* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19597,13 +19597,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumUintVec4_Property_g
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumUintVec4_Property_get_ItemType_Invoke_m7D39ECC7B47CC913A2C99F26BFC48D706429C236_Multicast;
 }
-// Method Definition Index: 24982
+// Method Definition Index: 24955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumUintVec4_Property_get_ItemType_Invoke_m7D39ECC7B47CC913A2C99F26BFC48D706429C236 (CesiumForUnity_CesiumUintVec4_Property_get_ItemType_t63F2BE92869ED38754939C8AEAA7801149FA9D23* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___0_thiz, int32_t ___1_index, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4*, int32_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_index, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24983
+// Method Definition Index: 24956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_Property_get_ItemType_BeginInvoke_m6A449F111B56E5FA2BD5A955C318F76C56322502 (CesiumForUnity_CesiumUintVec4_Property_get_ItemType_t63F2BE92869ED38754939C8AEAA7801149FA9D23* __this, CesiumUintVec4_t67916E642B7B99A0E7EA2EDAE1363347973F6DD4* ___0_thiz, int32_t ___1_index, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -19612,7 +19612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumUintVec4_
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 24984
+// Method Definition Index: 24957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CesiumForUnity_CesiumUintVec4_Property_get_ItemType_EndInvoke_mFA327DA0A6D33574E5147B31A99E1A270761A8B1 (CesiumForUnity_CesiumUintVec4_Property_get_ItemType_t63F2BE92869ED38754939C8AEAA7801149FA9D23* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19654,7 +19654,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 24985
+// Method Definition Index: 24958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m94FA2F0FDDE558C2FB656567B0A74D2DC64131EE (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDB1C7D7A56EE430A5208E05881A0FFB522A346A3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19683,13 +19683,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m0EE7058AD12CEAD9DDAA4B03E274FFE508DEB129_Multicast;
 }
-// Method Definition Index: 24986
+// Method Definition Index: 24959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m0EE7058AD12CEAD9DDAA4B03E274FFE508DEB129 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDB1C7D7A56EE430A5208E05881A0FFB522A346A3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24987
+// Method Definition Index: 24960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m096A7223930C8A144B8CF6E048CC5A49C21A37F4 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDB1C7D7A56EE430A5208E05881A0FFB522A346A3* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -19697,7 +19697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24988
+// Method Definition Index: 24961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mC2C62DE3D9183CDB2F943B43519FA51AAD5597EA (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_tDB1C7D7A56EE430A5208E05881A0FFB522A346A3* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19742,7 +19742,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 24989
+// Method Definition Index: 24962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_mB509733560E1B0D68D5646F4D626C70C75AE8191 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t3DFAD949546F647BF6A79B115DC679E24D49C548* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19771,13 +19771,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m56C59DAE0793E4053388A7DD1D20C2F08BEB8EF3_Multicast;
 }
-// Method Definition Index: 24990
+// Method Definition Index: 24963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_m56C59DAE0793E4053388A7DD1D20C2F08BEB8EF3 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t3DFAD949546F647BF6A79B115DC679E24D49C548* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24991
+// Method Definition Index: 24964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_m9A855D4F7A38E771E4DAC9B7BE74500285F9B39D (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t3DFAD949546F647BF6A79B115DC679E24D49C548* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -19785,7 +19785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24992
+// Method Definition Index: 24965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_m5EF27F76D214658FFADBA553D0C5CDC335F0C6E4 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_t3DFAD949546F647BF6A79B115DC679E24D49C548* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19830,7 +19830,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 24993
+// Method Definition Index: 24966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mA10424D3068A902600E167C1201DE53C355992C6 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tD3C67E9763413B606832BD3130983C23AA5DC79C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19859,13 +19859,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mB7BC5F2ECB1E16136A6A458136948696810CA976_Multicast;
 }
-// Method Definition Index: 24994
+// Method Definition Index: 24967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_mB7BC5F2ECB1E16136A6A458136948696810CA976 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tD3C67E9763413B606832BD3130983C23AA5DC79C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24995
+// Method Definition Index: 24968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m56DD2D0D21E0E4D29CBF93A3A795BD79F6342015 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tD3C67E9763413B606832BD3130983C23AA5DC79C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -19873,7 +19873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 24996
+// Method Definition Index: 24969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m2459BABB35C600CF228A7B7F60BBAB2E6305CF1E (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tD3C67E9763413B606832BD3130983C23AA5DC79C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -19918,7 +19918,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 24997
+// Method Definition Index: 24970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m8DC39B50FC5F2C62C012E8424F2C44F9BD53CA28 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7E1AD89B7093167DC3A1004EF962AB04D116785A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19947,13 +19947,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m328A6766C6453FF20BFAEDB3E93673ACB76742FA_Multicast;
 }
-// Method Definition Index: 24998
+// Method Definition Index: 24971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m328A6766C6453FF20BFAEDB3E93673ACB76742FA (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7E1AD89B7093167DC3A1004EF962AB04D116785A* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 24999
+// Method Definition Index: 24972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m88D57288247AD91BF7C7DF6FCB3BD16ADAD805E1 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7E1AD89B7093167DC3A1004EF962AB04D116785A* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -19962,7 +19962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25000
+// Method Definition Index: 24973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_m521650948D505CECA7BADB06B961916E02463BBB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t7E1AD89B7093167DC3A1004EF962AB04D116785A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20007,7 +20007,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25001
+// Method Definition Index: 24974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m558390DE347B72DB386DC2580044F522802E8CFF (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t826EEEADE7B7195ABE1544C12AC70E6400BA5BE1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20036,13 +20036,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m542FFE07305861C693690432861624088E85DF76_Multicast;
 }
-// Method Definition Index: 25002
+// Method Definition Index: 24975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m542FFE07305861C693690432861624088E85DF76 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t826EEEADE7B7195ABE1544C12AC70E6400BA5BE1* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25003
+// Method Definition Index: 24976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_mCEAC1D42508383D7513F107C7D44EADFCD03D45C (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t826EEEADE7B7195ABE1544C12AC70E6400BA5BE1* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -20051,7 +20051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25004
+// Method Definition Index: 24977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mE12DA177BDCC46DE669CB01B2F7AC00CD7DA1623 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_t826EEEADE7B7195ABE1544C12AC70E6400BA5BE1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20093,7 +20093,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 25005
+// Method Definition Index: 24978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m3823339AFAB500A4165366413541A48791D0ED39 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t8997767939F6509EA9BCEFF63636902F13FC2EB1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20122,13 +20122,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m6D1E100BB54EB1C2B4713E8836931366F012ACB4_Multicast;
 }
-// Method Definition Index: 25006
+// Method Definition Index: 24979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m6D1E100BB54EB1C2B4713E8836931366F012ACB4 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t8997767939F6509EA9BCEFF63636902F13FC2EB1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25007
+// Method Definition Index: 24980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m432780C2B036BD789D51E86E34BF74E3CCA0E9D7 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t8997767939F6509EA9BCEFF63636902F13FC2EB1* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20136,7 +20136,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25008
+// Method Definition Index: 24981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mB06E0F6B0DC04C98B56C5BD5C5E54AEBA69BD867 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t8997767939F6509EA9BCEFF63636902F13FC2EB1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20181,7 +20181,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25009
+// Method Definition Index: 24982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m31AFDDF050098D90CD452D833436BB013AF95E0E (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t011011C0E272E8C77A48B0475CDA8EEEF11FA498* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20210,13 +20210,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m03A536D1BB8E58D33452DE618B06F408F0265574_Multicast;
 }
-// Method Definition Index: 25010
+// Method Definition Index: 24983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m03A536D1BB8E58D33452DE618B06F408F0265574 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t011011C0E272E8C77A48B0475CDA8EEEF11FA498* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25011
+// Method Definition Index: 24984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_m1F09705D4366D1B3CB6283ED89E6C4B71891AE5B (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t011011C0E272E8C77A48B0475CDA8EEEF11FA498* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -20225,7 +20225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25012
+// Method Definition Index: 24985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_mEE2BE91F37481BD7DDFB9BE83523A2975BBDF43A (CesiumForUnity_CesiumWebMapServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t011011C0E272E8C77A48B0475CDA8EEEF11FA498* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20271,7 +20271,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25013
+// Method Definition Index: 24986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType__ctor_mFD3CF89ED24CFADE7FA8DB080957B603DFD2E701 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_t7D6A710FE3B042CC12D708DC0B522CF36084F866* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20300,13 +20300,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_Invoke_mF70CDEEAA65507850920739488CB42E223514DD8_Multicast;
 }
-// Method Definition Index: 25014
+// Method Definition Index: 24987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_Invoke_mF70CDEEAA65507850920739488CB42E223514DD8 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_t7D6A710FE3B042CC12D708DC0B522CF36084F866* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25015
+// Method Definition Index: 24988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_BeginInvoke_m211A45ED26E8E8D18FC577E530442E2309E86169 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_t7D6A710FE3B042CC12D708DC0B522CF36084F866* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20314,7 +20314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25016
+// Method Definition Index: 24989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_EndInvoke_m097DAB1765D81BEB2A2C816AE37558A0C4BCBEDF (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_baseUrlType_t7D6A710FE3B042CC12D708DC0B522CF36084F866* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20359,7 +20359,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25017
+// Method Definition Index: 24990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType__ctor_m67691ECDF98865310DEE59A23BD2C675AC076C13 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_tD9C687B8823207BA1BC3712AD13FDE546D51AF5A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20388,13 +20388,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_Invoke_m17F7410B0C155AF7F703EC30A1449092725F4A13_Multicast;
 }
-// Method Definition Index: 25018
+// Method Definition Index: 24991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_Invoke_m17F7410B0C155AF7F703EC30A1449092725F4A13 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_tD9C687B8823207BA1BC3712AD13FDE546D51AF5A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25019
+// Method Definition Index: 24992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_BeginInvoke_mE360E7D182CB5FD9C7E209788C0AF97EEC714CDF (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_tD9C687B8823207BA1BC3712AD13FDE546D51AF5A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20402,7 +20402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25020
+// Method Definition Index: 24993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_EndInvoke_mA51BF4E01738E997D0D685808D43E6AE65C9E484 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_enabledType_tD9C687B8823207BA1BC3712AD13FDE546D51AF5A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20448,7 +20448,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25021
+// Method Definition Index: 24994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType__ctor_mB86082E534DE68407EB1A5530CA768CBB3CFC77C (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_tBEAEDEDD37A3C4D76AEBD4623CF7F8C75A2B8813* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20477,13 +20477,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_Invoke_m30C824DE85517F79FAE26EB2C00F7AB8FC1AAFEA_Multicast;
 }
-// Method Definition Index: 25022
+// Method Definition Index: 24995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_Invoke_m30C824DE85517F79FAE26EB2C00F7AB8FC1AAFEA (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_tBEAEDEDD37A3C4D76AEBD4623CF7F8C75A2B8813* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25023
+// Method Definition Index: 24996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_BeginInvoke_m13E3318B8FC8D9873B70EF47CB30D3F21A86627C (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_tBEAEDEDD37A3C4D76AEBD4623CF7F8C75A2B8813* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20491,7 +20491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25024
+// Method Definition Index: 24997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_EndInvoke_m4FF14D24793F09DD0B1821737E8E03E1F1502912 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_gameObjectType_tBEAEDEDD37A3C4D76AEBD4623CF7F8C75A2B8813* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20536,7 +20536,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25025
+// Method Definition Index: 24998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType__ctor_m080E8051B049188988C1D04F5D80D6913037B2C3 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_t5226793EFDC38D024F4C4CF8858A2E4DFCC76BFA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20565,13 +20565,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_Invoke_m9365EB62CAF51C6657CB4D98C11DE1853BBD345A_Multicast;
 }
-// Method Definition Index: 25026
+// Method Definition Index: 24999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_Invoke_m9365EB62CAF51C6657CB4D98C11DE1853BBD345A (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_t5226793EFDC38D024F4C4CF8858A2E4DFCC76BFA* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25027
+// Method Definition Index: 25000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_BeginInvoke_m28BF4AF3960EA4E4246925A2E8EE5E319214D585 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_t5226793EFDC38D024F4C4CF8858A2E4DFCC76BFA* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20579,7 +20579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25028
+// Method Definition Index: 25001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_EndInvoke_m96A2939720A874ACEDD689AAE2FCF64B9AD87575 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_hideFlagsType_t5226793EFDC38D024F4C4CF8858A2E4DFCC76BFA* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20625,7 +20625,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25029
+// Method Definition Index: 25002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType__ctor_m3A174D57011B6411A320CEDEDDE3A74F877B1951 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_t4EF830CCCFDDE69B8DCC2DF8D149F8398BA9E350* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20654,13 +20654,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_Invoke_m6F5FC2C2A201E5D871481E1608025EF33C02A9B2_Multicast;
 }
-// Method Definition Index: 25030
+// Method Definition Index: 25003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_Invoke_m6F5FC2C2A201E5D871481E1608025EF33C02A9B2 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_t4EF830CCCFDDE69B8DCC2DF8D149F8398BA9E350* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25031
+// Method Definition Index: 25004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_BeginInvoke_mDB214387ED0BB19CF884B491DE5ED880B4B9181A (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_t4EF830CCCFDDE69B8DCC2DF8D149F8398BA9E350* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20668,7 +20668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25032
+// Method Definition Index: 25005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_EndInvoke_mD743F07BD501D5B2A0C1FC1B15C4323578B8443F (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_layersType_t4EF830CCCFDDE69B8DCC2DF8D149F8398BA9E350* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20714,7 +20714,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25033
+// Method Definition Index: 25006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType__ctor_mF58C9E60610EBA33B701D7DAF8685133661D7E07 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_t64FDB58EC157EF0FB09046EADBE931976C325307* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20743,13 +20743,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_Invoke_mA722A029D5EC4871A569EAED74DCE7A407749DB6_Multicast;
 }
-// Method Definition Index: 25034
+// Method Definition Index: 25007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_Invoke_mA722A029D5EC4871A569EAED74DCE7A407749DB6 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_t64FDB58EC157EF0FB09046EADBE931976C325307* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25035
+// Method Definition Index: 25008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_BeginInvoke_mC34B67FE3486330CFCCC05E1A37C4A80788FF4D5 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_t64FDB58EC157EF0FB09046EADBE931976C325307* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20757,7 +20757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25036
+// Method Definition Index: 25009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_EndInvoke_m0CD1691411834F2852DA33E09B9E68C268BBF5C7 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_materialKeyType_t64FDB58EC157EF0FB09046EADBE931976C325307* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20802,7 +20802,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25037
+// Method Definition Index: 25010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType__ctor_mE48EA17CA3CB55483BCCB1A8B418DF26A841D0CB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_t454E824F89918E97CDF8FFD78692C1A72B362CB6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20831,13 +20831,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_Invoke_m075D6F24B27A927E63CA2FB4CA86FD769BBB7A2E_Multicast;
 }
-// Method Definition Index: 25038
+// Method Definition Index: 25011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_Invoke_m075D6F24B27A927E63CA2FB4CA86FD769BBB7A2E (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_t454E824F89918E97CDF8FFD78692C1A72B362CB6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25039
+// Method Definition Index: 25012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_BeginInvoke_m60AA850FAAF7392908F5CD318024D4F8A6106DFB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_t454E824F89918E97CDF8FFD78692C1A72B362CB6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20845,7 +20845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25040
+// Method Definition Index: 25013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_EndInvoke_mE2B984FB93A610529D51FB11CF3A9D6DAF657509 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumLevelType_t454E824F89918E97CDF8FFD78692C1A72B362CB6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20890,7 +20890,7 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapService
 
 	return returnValue;
 }
-// Method Definition Index: 25041
+// Method Definition Index: 25014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType__ctor_m5382505028A837759166A006164660BB327FB197 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t9EDB1385B5B96743E205A5374A31E62EA0DEAD35* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -20919,13 +20919,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m5F76AFDB1E08F131D82EECB160B527EA76EA491F_Multicast;
 }
-// Method Definition Index: 25042
+// Method Definition Index: 25015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_m5F76AFDB1E08F131D82EECB160B527EA76EA491F (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t9EDB1385B5B96743E205A5374A31E62EA0DEAD35* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25043
+// Method Definition Index: 25016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_BeginInvoke_m233BF610001AD85000FFA6D6AB5F63FEAB267C32 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t9EDB1385B5B96743E205A5374A31E62EA0DEAD35* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -20933,7 +20933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25044
+// Method Definition Index: 25017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_EndInvoke_m75EE1F5D8F69646F4717DE73489542026B8D9459 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_t9EDB1385B5B96743E205A5374A31E62EA0DEAD35* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -20978,7 +20978,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25045
+// Method Definition Index: 25018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType__ctor_mBD4640E0A90E1FC310C5796E604923C68E02231E (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_tF3ACD496E75EA2C95A3574DF2CB3E7A18ECFB901* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21007,13 +21007,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_mC97FC2D237AC152E9FDE68AB9410024DA8E2A09A_Multicast;
 }
-// Method Definition Index: 25046
+// Method Definition Index: 25019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_mC97FC2D237AC152E9FDE68AB9410024DA8E2A09A (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_tF3ACD496E75EA2C95A3574DF2CB3E7A18ECFB901* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25047
+// Method Definition Index: 25020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_BeginInvoke_m3D3C7B93E01179D1C4D2D60156F6FD7EA2358B87 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_tF3ACD496E75EA2C95A3574DF2CB3E7A18ECFB901* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21021,7 +21021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25048
+// Method Definition Index: 25021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_EndInvoke_mAB043733CF7C4028C37F34F0232F925809231053 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_tF3ACD496E75EA2C95A3574DF2CB3E7A18ECFB901* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21066,7 +21066,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25049
+// Method Definition Index: 25022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType__ctor_mC517E9B6493115C19F89D269F25812C6ADA21FE6 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t28D0DE54427313E4C57A8D28FE444632D6580C3E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21095,13 +21095,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_Invoke_m8AFBC72ED73FC8AED2DC54499CDCE1F953B999A0_Multicast;
 }
-// Method Definition Index: 25050
+// Method Definition Index: 25023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_Invoke_m8AFBC72ED73FC8AED2DC54499CDCE1F953B999A0 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t28D0DE54427313E4C57A8D28FE444632D6580C3E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25051
+// Method Definition Index: 25024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_BeginInvoke_mEBF47B906EA061EF633E76046ADC3C22CABA8479 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t28D0DE54427313E4C57A8D28FE444632D6580C3E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21109,7 +21109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25052
+// Method Definition Index: 25025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_EndInvoke_mF3BE08D9E81BA9F6BBC7860BAC34C7F066E55BD3 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_maximumTextureSizeType_t28D0DE54427313E4C57A8D28FE444632D6580C3E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21154,7 +21154,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25053
+// Method Definition Index: 25026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType__ctor_m45A920BBD099A2D98E1DF6746C290E0299CBCFCD (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_tB1F46DCF4C92368C83BDEC853FB8330FC8A0E474* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21183,13 +21183,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_Invoke_m242141BE2DEA7DA976EA7DFB8A7A8BDEBF4C1989_Multicast;
 }
-// Method Definition Index: 25054
+// Method Definition Index: 25027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_Invoke_m242141BE2DEA7DA976EA7DFB8A7A8BDEBF4C1989 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_tB1F46DCF4C92368C83BDEC853FB8330FC8A0E474* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25055
+// Method Definition Index: 25028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_BeginInvoke_m6067F0BDDD235E38211CFC6CECBE9F1547BC55CB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_tB1F46DCF4C92368C83BDEC853FB8330FC8A0E474* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21197,7 +21197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25056
+// Method Definition Index: 25029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_EndInvoke_m2C22CD0EC2782195477F1FA53FB4116835A4B0ED (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_minimumLevelType_tB1F46DCF4C92368C83BDEC853FB8330FC8A0E474* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21243,7 +21243,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25057
+// Method Definition Index: 25030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType__ctor_mFB78D53384A7EF41A04E0CE1894F19AC10920DF5 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_t178B84978D3573EB0A9873455D0A2763DEB4BA1D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21272,13 +21272,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_Invoke_mE6713D56B05ECBCF8E735621CCB275186C00A23F_Multicast;
 }
-// Method Definition Index: 25058
+// Method Definition Index: 25031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_Invoke_mE6713D56B05ECBCF8E735621CCB275186C00A23F (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_t178B84978D3573EB0A9873455D0A2763DEB4BA1D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25059
+// Method Definition Index: 25032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_BeginInvoke_m109170BFCECB90AB5EEE01BEAB27B9E3527AA2E0 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_t178B84978D3573EB0A9873455D0A2763DEB4BA1D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21286,7 +21286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25060
+// Method Definition Index: 25033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_EndInvoke_m1E80191B14ECB20A3449EAFA7D931EA798DF73EE (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_nameType_t178B84978D3573EB0A9873455D0A2763DEB4BA1D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21332,7 +21332,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25061
+// Method Definition Index: 25034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType__ctor_mD741D1F389AAEAF76BE3661621AEB1242AC8AAED (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_t31D999177E66DAB62AC4EDC3A3F3A79DCDFC6F9A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21361,20 +21361,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_Invoke_m8BC51093E32F5B538F1D41FFD6D5BFEB169DBCDC_Multicast;
 }
-// Method Definition Index: 25062
+// Method Definition Index: 25035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_Invoke_m8BC51093E32F5B538F1D41FFD6D5BFEB169DBCDC (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_t31D999177E66DAB62AC4EDC3A3F3A79DCDFC6F9A* __this, intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25063
+// Method Definition Index: 25036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_BeginInvoke_m9240E2357CF7A059BE4B48D4624B4B2991106BA2 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_t31D999177E66DAB62AC4EDC3A3F3A79DCDFC6F9A* __this, intptr_t ___0_thiz, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_thiz);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 25064
+// Method Definition Index: 25037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_EndInvoke_m55E4330EF24CA0F6609834D15F3F9A407E4009C6 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_NativeImplementationType_t31D999177E66DAB62AC4EDC3A3F3A79DCDFC6F9A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21419,7 +21419,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25065
+// Method Definition Index: 25038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType__ctor_m5056EBCBEC9B92BCAC4E5DB3CBBDD63EB5116979 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_tB8CDBF49161AFDAE778D7AC8BA14C4F15D9AF428* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21448,13 +21448,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m5801AD7D8BB2DAD635488BA3BD4CE5FCBCCDDB5D_Multicast;
 }
-// Method Definition Index: 25066
+// Method Definition Index: 25039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_Invoke_m5801AD7D8BB2DAD635488BA3BD4CE5FCBCCDDB5D (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_tB8CDBF49161AFDAE778D7AC8BA14C4F15D9AF428* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25067
+// Method Definition Index: 25040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_BeginInvoke_m5EBFBC24F1D6BC01F5ED431F2137E1AE6E31E476 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_tB8CDBF49161AFDAE778D7AC8BA14C4F15D9AF428* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21462,7 +21462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25068
+// Method Definition Index: 25041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_EndInvoke_m3C903B756C9146391E6F7E1047D48556FBF69E57 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_showCreditsOnScreenType_tB8CDBF49161AFDAE778D7AC8BA14C4F15D9AF428* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21507,7 +21507,7 @@ IL2CPP_EXTERN_C  int64_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25069
+// Method Definition Index: 25042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType__ctor_m3ADFD4C3B90E76BA192C1937E77367996EDA8B18 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t556CE29B9A6BFD0B83A74E2B1CE35DB4B6BB6F79* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21536,13 +21536,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_Invoke_m612246E959987661C50A7F3195F203D4B42AA303_Multicast;
 }
-// Method Definition Index: 25070
+// Method Definition Index: 25043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_Invoke_m612246E959987661C50A7F3195F203D4B42AA303 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t556CE29B9A6BFD0B83A74E2B1CE35DB4B6BB6F79* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int64_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25071
+// Method Definition Index: 25044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_BeginInvoke_m49F91D8C45E0E0D787CEC19C9812292943AEEC39 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t556CE29B9A6BFD0B83A74E2B1CE35DB4B6BB6F79* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21550,7 +21550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25072
+// Method Definition Index: 25045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_EndInvoke_m8F64CA9ED19E7075F7BFDDCF9D40D440B0E2C0BB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_subTileCacheBytesType_t556CE29B9A6BFD0B83A74E2B1CE35DB4B6BB6F79* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21595,7 +21595,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25073
+// Method Definition Index: 25046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType__ctor_mE5D0DB876FD3D36C91D18C1F7F002FFE8539C334 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_t341A23458308BA609769C3FB96E7E4C9517D4833* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21624,13 +21624,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_Invoke_mADFF3EC44B38D85541937C0C6BCD653AC6DA4CBF_Multicast;
 }
-// Method Definition Index: 25074
+// Method Definition Index: 25047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_Invoke_mADFF3EC44B38D85541937C0C6BCD653AC6DA4CBF (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_t341A23458308BA609769C3FB96E7E4C9517D4833* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25075
+// Method Definition Index: 25048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_BeginInvoke_m810C0751A8F82A0A76BB0387FE874BBAB3B629FB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_t341A23458308BA609769C3FB96E7E4C9517D4833* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21638,7 +21638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25076
+// Method Definition Index: 25049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_EndInvoke_m3653C68A0B426C44BE7BAC208394433D928822D8 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileHeightType_t341A23458308BA609769C3FB96E7E4C9517D4833* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21683,7 +21683,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServi
 
 	return returnValue;
 }
-// Method Definition Index: 25077
+// Method Definition Index: 25050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType__ctor_mFEEE7A1E827F0F562E0C489E877FF563E3F0F8B2 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_t313A4DF0C07F9E248C6B988896CA4BED08FD1424* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21712,13 +21712,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_Invoke_mB3F504F68E32B24D1CA2EA511DD500BEBC49A745_Multicast;
 }
-// Method Definition Index: 25078
+// Method Definition Index: 25051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_Invoke_mB3F504F68E32B24D1CA2EA511DD500BEBC49A745 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_t313A4DF0C07F9E248C6B988896CA4BED08FD1424* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25079
+// Method Definition Index: 25052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_BeginInvoke_m83DC8E3F0EA9CC4C242F22AD6626D9A73805C77B (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_t313A4DF0C07F9E248C6B988896CA4BED08FD1424* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21726,7 +21726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25080
+// Method Definition Index: 25053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_EndInvoke_m4D2E05DE1D3CB2CB278AC53A3A1423EE59F182CD (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_tileWidthType_t313A4DF0C07F9E248C6B988896CA4BED08FD1424* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21772,7 +21772,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServ
 
 	return returnValue;
 }
-// Method Definition Index: 25081
+// Method Definition Index: 25054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType__ctor_mB50D49D20CA6DBFFF7790C1BC08287B114AB01C1 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_t86B827B656F89E3D0576D11186A7FE5914E6CBE6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21801,13 +21801,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_Invoke_mB95031C155D3E5064C56449286EB4CF21686BA54_Multicast;
 }
-// Method Definition Index: 25082
+// Method Definition Index: 25055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_Invoke_mB95031C155D3E5064C56449286EB4CF21686BA54 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_t86B827B656F89E3D0576D11186A7FE5914E6CBE6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25083
+// Method Definition Index: 25056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_BeginInvoke_mDC1D1809AA189CC7677A1254F142C504A79A6B88 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_t86B827B656F89E3D0576D11186A7FE5914E6CBE6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -21815,7 +21815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25084
+// Method Definition Index: 25057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_EndInvoke_m125394D76AFB00105F59990CF8FE9250CFE0E5A2 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_get_transformType_t86B827B656F89E3D0576D11186A7FE5914E6CBE6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21857,7 +21857,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25085
+// Method Definition Index: 25058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType__ctor_mD47D497092D280C220FCEA7D3A3CE97777DD38FB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_tF1FE507CBB9A6CC9DF0224806DA19D251EADF63F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21886,13 +21886,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_Invoke_m79F753845124EBFFEFBA255070C7CD3EA8CA219C_Multicast;
 }
-// Method Definition Index: 25086
+// Method Definition Index: 25059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_Invoke_m79F753845124EBFFEFBA255070C7CD3EA8CA219C (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_tF1FE507CBB9A6CC9DF0224806DA19D251EADF63F* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25087
+// Method Definition Index: 25060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_BeginInvoke_m3A282A8CE79729F586151C0EA6E72D74D5521352 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_tF1FE507CBB9A6CC9DF0224806DA19D251EADF63F* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -21901,7 +21901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25088
+// Method Definition Index: 25061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_EndInvoke_m3154DC8806FA4AE6A124E10E00FD2613E53865AE (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_baseUrlType_tF1FE507CBB9A6CC9DF0224806DA19D251EADF63F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -21942,7 +21942,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25089
+// Method Definition Index: 25062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType__ctor_m7877CC210880686CFFE308A739C0F74E2CD2EFEA (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_t3A537507ED494454A1394E80EFF7ACB1E95A9C36* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -21971,13 +21971,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_Invoke_mB312ED2314538AD038FC1E9AB0FA000CD1853329_Multicast;
 }
-// Method Definition Index: 25090
+// Method Definition Index: 25063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_Invoke_mB312ED2314538AD038FC1E9AB0FA000CD1853329 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_t3A537507ED494454A1394E80EFF7ACB1E95A9C36* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25091
+// Method Definition Index: 25064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_BeginInvoke_m0853E9C34DE78AF5443BF9B11D40A31948C6353B (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_t3A537507ED494454A1394E80EFF7ACB1E95A9C36* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -21986,7 +21986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25092
+// Method Definition Index: 25065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_EndInvoke_mB94C818D35ED389E0C721CF79CBCA3F46D9AD075 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_enabledType_t3A537507ED494454A1394E80EFF7ACB1E95A9C36* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22027,7 +22027,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25093
+// Method Definition Index: 25066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType__ctor_m2C2A902E3DC7485660AD24173CB416F55A3660C5 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_t0643C008C2A6CCCD95D38CA2836BA16036A7DED5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22056,13 +22056,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_Invoke_m86AB00F041EF66D9FD26F917B2C870DE2DCCFB38_Multicast;
 }
-// Method Definition Index: 25094
+// Method Definition Index: 25067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_Invoke_m86AB00F041EF66D9FD26F917B2C870DE2DCCFB38 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_t0643C008C2A6CCCD95D38CA2836BA16036A7DED5* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25095
+// Method Definition Index: 25068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_BeginInvoke_mCD63F39427D5A623992DA57534E75F83BE36C5D5 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_t0643C008C2A6CCCD95D38CA2836BA16036A7DED5* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22077,7 +22077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25096
+// Method Definition Index: 25069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_EndInvoke_m2499D3CCCE529FEFF76C80CD5F7E0EB1AE1686A1 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_hideFlagsType_t0643C008C2A6CCCD95D38CA2836BA16036A7DED5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22118,7 +22118,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25097
+// Method Definition Index: 25070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType__ctor_mBDB88D912DE1A5E208798BD3809E1715266DDD80 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_tA1BF6AC2542CBE6249BD0EB14234ADA936AE4795* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22147,13 +22147,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_Invoke_mBE87B4D0D50B70EBFA60C0DC6C63FFD5AE7B0862_Multicast;
 }
-// Method Definition Index: 25098
+// Method Definition Index: 25071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_Invoke_mBE87B4D0D50B70EBFA60C0DC6C63FFD5AE7B0862 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_tA1BF6AC2542CBE6249BD0EB14234ADA936AE4795* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25099
+// Method Definition Index: 25072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_BeginInvoke_m3EC80BF3944D584D7BA0A3ADF025CC91D68E4D78 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_tA1BF6AC2542CBE6249BD0EB14234ADA936AE4795* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22162,7 +22162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25100
+// Method Definition Index: 25073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_EndInvoke_m49413C5861BA07BE77DEA7515BFE8D59CF8B0162 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_layersType_tA1BF6AC2542CBE6249BD0EB14234ADA936AE4795* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22203,7 +22203,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25101
+// Method Definition Index: 25074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType__ctor_m58329AB5924650908CE599AF9E37C2B8A90D87B4 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_t5D7DEF40D6ADD1CB8E6CA738C2EA57A3997DBC4E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22232,13 +22232,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_Invoke_m38B09F9D19C964B95ED806AF0B72B8168D2EACA1_Multicast;
 }
-// Method Definition Index: 25102
+// Method Definition Index: 25075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_Invoke_m38B09F9D19C964B95ED806AF0B72B8168D2EACA1 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_t5D7DEF40D6ADD1CB8E6CA738C2EA57A3997DBC4E* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25103
+// Method Definition Index: 25076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_BeginInvoke_m56AACEE736F48481BC05695B601008F0EAEEDBCC (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_t5D7DEF40D6ADD1CB8E6CA738C2EA57A3997DBC4E* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22247,7 +22247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25104
+// Method Definition Index: 25077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_EndInvoke_m2F790F12D2ACD7F77C436C99632C3C06E37DC905 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_materialKeyType_t5D7DEF40D6ADD1CB8E6CA738C2EA57A3997DBC4E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22288,7 +22288,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25105
+// Method Definition Index: 25078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType__ctor_mE14CE44F08BAC4C353E00323D2CEC89F5849BD53 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_tE884B8392CFBE981402BA7AAF3A62A49CCAD5CAD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22317,13 +22317,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_Invoke_mA75E8A48A2F0AB04D6DBFE92D5A280FE61340C6F_Multicast;
 }
-// Method Definition Index: 25106
+// Method Definition Index: 25079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_Invoke_mA75E8A48A2F0AB04D6DBFE92D5A280FE61340C6F (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_tE884B8392CFBE981402BA7AAF3A62A49CCAD5CAD* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25107
+// Method Definition Index: 25080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_BeginInvoke_m18DEE63C552AA82A7D71C9F4EB4BA693A9855012 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_tE884B8392CFBE981402BA7AAF3A62A49CCAD5CAD* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22332,7 +22332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25108
+// Method Definition Index: 25081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_EndInvoke_m0B7461B13087D87E2824AF20CAF32E2F05989D2E (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumLevelType_tE884B8392CFBE981402BA7AAF3A62A49CCAD5CAD* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22373,7 +22373,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25109
+// Method Definition Index: 25082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType__ctor_m2BDA7487908E116989F66CA648FFE6DC495103A4 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t21F5E836ECCCBB11E1B6EFE22D1BA077CD82B885* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22402,13 +22402,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_m00D9AE2F5DF883CC693E4C9B170C66DD4A7A4162_Multicast;
 }
-// Method Definition Index: 25110
+// Method Definition Index: 25083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_Invoke_m00D9AE2F5DF883CC693E4C9B170C66DD4A7A4162 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t21F5E836ECCCBB11E1B6EFE22D1BA077CD82B885* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, float, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25111
+// Method Definition Index: 25084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_BeginInvoke_m0BB56D5D1AFAE47B6850CC7F476EA59F72FFE7FD (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t21F5E836ECCCBB11E1B6EFE22D1BA077CD82B885* __this, intptr_t ___0_thiz, float ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22417,7 +22417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25112
+// Method Definition Index: 25085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_EndInvoke_mE7CFE73B5BD70437FFC64F981DB96F3A30426503 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumScreenSpaceErrorType_t21F5E836ECCCBB11E1B6EFE22D1BA077CD82B885* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22458,7 +22458,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25113
+// Method Definition Index: 25086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType__ctor_m0FEBD89913F5FBBEBE540927C6FD63B0294ED6F2 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t65E5BA0EA97E2FE283EE6C13B7C25771132EAF47* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22487,13 +22487,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_m141875332553E6D8BD59BBF022B6B2E9EBE43199_Multicast;
 }
-// Method Definition Index: 25114
+// Method Definition Index: 25087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_Invoke_m141875332553E6D8BD59BBF022B6B2E9EBE43199 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t65E5BA0EA97E2FE283EE6C13B7C25771132EAF47* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25115
+// Method Definition Index: 25088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_BeginInvoke_m1B5C5993CBB6B67F916B15A2FCF529019DD0F4E6 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t65E5BA0EA97E2FE283EE6C13B7C25771132EAF47* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22502,7 +22502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25116
+// Method Definition Index: 25089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_EndInvoke_mA854DDC223DAC4B29D5D6C3E7A29D7ADBE85FD11 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumSimultaneousTileLoadsType_t65E5BA0EA97E2FE283EE6C13B7C25771132EAF47* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22543,7 +22543,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25117
+// Method Definition Index: 25090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType__ctor_m6702BE8F94714F64B3144AF148EE82712A8E09DB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tDB8F63453429903E15FE72F5E871DF78A752048B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22572,13 +22572,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_Invoke_m4C9FE939D894843BA023E5E72881378756FAC3A3_Multicast;
 }
-// Method Definition Index: 25118
+// Method Definition Index: 25091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_Invoke_m4C9FE939D894843BA023E5E72881378756FAC3A3 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tDB8F63453429903E15FE72F5E871DF78A752048B* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25119
+// Method Definition Index: 25092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_BeginInvoke_mB6BD7EA2DA04C67CCBE109458C48D35170F62A8A (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tDB8F63453429903E15FE72F5E871DF78A752048B* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22587,7 +22587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25120
+// Method Definition Index: 25093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_EndInvoke_m9BA346037EE1CFA1E56A654AE030B215DEC0C572 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_maximumTextureSizeType_tDB8F63453429903E15FE72F5E871DF78A752048B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22628,7 +22628,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25121
+// Method Definition Index: 25094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType__ctor_m136A3D51076B12469C4B1D232A6B8B90CAE4D983 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_t3DE365356F92A4305CD29DC1FD83AECCE9157FC8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22657,13 +22657,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_Invoke_m6F4DDDA497E7901F6504C490C695019EA6629181_Multicast;
 }
-// Method Definition Index: 25122
+// Method Definition Index: 25095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_Invoke_m6F4DDDA497E7901F6504C490C695019EA6629181 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_t3DE365356F92A4305CD29DC1FD83AECCE9157FC8* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25123
+// Method Definition Index: 25096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_BeginInvoke_mD5C19A225987F4019B690B0A096603034E848BBE (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_t3DE365356F92A4305CD29DC1FD83AECCE9157FC8* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22672,7 +22672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25124
+// Method Definition Index: 25097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_EndInvoke_mBC6FC18CAF304FC268E57099FD2E1B726FCE2F17 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_minimumLevelType_t3DE365356F92A4305CD29DC1FD83AECCE9157FC8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22713,7 +22713,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25125
+// Method Definition Index: 25098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType__ctor_mE0C23A972AD58A3A687ECA88DB2845BA778BAE3E (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_t042165EFA1B9DD7FDE8A34675F7BA64A5C7864D8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22742,13 +22742,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_Invoke_m7F6D2054B4226463D9972B21623F8C53CA78C45C_Multicast;
 }
-// Method Definition Index: 25126
+// Method Definition Index: 25099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_Invoke_m7F6D2054B4226463D9972B21623F8C53CA78C45C (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_t042165EFA1B9DD7FDE8A34675F7BA64A5C7864D8* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25127
+// Method Definition Index: 25100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_BeginInvoke_m46C3A81BE8F8CB4D254DBEAF329B6121B6E7B364 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_t042165EFA1B9DD7FDE8A34675F7BA64A5C7864D8* __this, intptr_t ___0_thiz, intptr_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22757,7 +22757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25128
+// Method Definition Index: 25101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_EndInvoke_m2E7488EC5090119A5572EC1DAB5AB40BA1AA4DF8 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_nameType_t042165EFA1B9DD7FDE8A34675F7BA64A5C7864D8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22798,7 +22798,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25129
+// Method Definition Index: 25102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType__ctor_m070C3385C9E4D24DAC6E5345825AD7D62176828B (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_tA6595ED692EB1A58B0EDAB1C343E6A1D10574F73* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22827,13 +22827,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_mCC917B80F3312710530EE122AF47B557F967ADEA_Multicast;
 }
-// Method Definition Index: 25130
+// Method Definition Index: 25103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_Invoke_mCC917B80F3312710530EE122AF47B557F967ADEA (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_tA6595ED692EB1A58B0EDAB1C343E6A1D10574F73* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25131
+// Method Definition Index: 25104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_BeginInvoke_m113446BEF7AB5126872C7005BC993BCC87932F5D (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_tA6595ED692EB1A58B0EDAB1C343E6A1D10574F73* __this, intptr_t ___0_thiz, uint8_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22842,7 +22842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25132
+// Method Definition Index: 25105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_EndInvoke_m745F1FF7A1318D8471F3B861CB460659C956A9F8 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_showCreditsOnScreenType_tA6595ED692EB1A58B0EDAB1C343E6A1D10574F73* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22883,7 +22883,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25133
+// Method Definition Index: 25106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType__ctor_mEE8E55F29D51AC33CB82A02479B63A8B7BB7AB0B (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tBA241A351045C2BB4DE424410177097B2C0D8F65* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22912,13 +22912,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_Invoke_mF3F0A84D6D03350895B59459A0B43FA36F4B0F59_Multicast;
 }
-// Method Definition Index: 25134
+// Method Definition Index: 25107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_Invoke_mF3F0A84D6D03350895B59459A0B43FA36F4B0F59 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tBA241A351045C2BB4DE424410177097B2C0D8F65* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int64_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25135
+// Method Definition Index: 25108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_BeginInvoke_m9F6E1650A0BE8B1E167A4ACF5EE3E04835367E71 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tBA241A351045C2BB4DE424410177097B2C0D8F65* __this, intptr_t ___0_thiz, int64_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -22927,7 +22927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25136
+// Method Definition Index: 25109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_EndInvoke_mBFED5E90900817C751CD869BEF55FAF6FD0957AB (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_subTileCacheBytesType_tBA241A351045C2BB4DE424410177097B2C0D8F65* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -22968,7 +22968,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25137
+// Method Definition Index: 25110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType__ctor_mFBA6E1AD52C30E3D4C73102135383C9ABEE60478 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_tF4C88D50E55E52B77EA38A75A6FD2AA756836DCD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -22997,13 +22997,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_Invoke_mBCCCF19397B2C7818E1C21663270CE2044F7DC19_Multicast;
 }
-// Method Definition Index: 25138
+// Method Definition Index: 25111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_Invoke_mBCCCF19397B2C7818E1C21663270CE2044F7DC19 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_tF4C88D50E55E52B77EA38A75A6FD2AA756836DCD* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25139
+// Method Definition Index: 25112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_BeginInvoke_m5DB33D699EB06073C2CA2EAE497D819946400568 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_tF4C88D50E55E52B77EA38A75A6FD2AA756836DCD* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -23012,7 +23012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25140
+// Method Definition Index: 25113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_EndInvoke_m42377F0E4D1F2E6429BF3B651C224A829CA45460 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileHeightType_tF4C88D50E55E52B77EA38A75A6FD2AA756836DCD* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23053,7 +23053,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapServiceR
 	il2cppPInvokeFunc(___0_thiz, ___1_value, ___2_reinteropException);
 
 }
-// Method Definition Index: 25141
+// Method Definition Index: 25114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType__ctor_mA8019D70B8350B8C3149ADFDFF8F34641AF7FC1D (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_t87469F2CB4F37C44E1979A94968B773DE3E44D87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23082,13 +23082,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRaster
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_Invoke_m0D37CB7B1CB8F05B5323E1D5E5A9231A9B166DC3_Multicast;
 }
-// Method Definition Index: 25142
+// Method Definition Index: 25115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_Invoke_m0D37CB7B1CB8F05B5323E1D5E5A9231A9B166DC3 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_t87469F2CB4F37C44E1979A94968B773DE3E44D87* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, int32_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_value, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25143
+// Method Definition Index: 25116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_BeginInvoke_m622678A5E29F2D0DF50FF261A4800FE71E54EE80 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_t87469F2CB4F37C44E1979A94968B773DE3E44D87* __this, intptr_t ___0_thiz, int32_t ___1_value, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -23097,7 +23097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapSer
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25144
+// Method Definition Index: 25117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_EndInvoke_mCBBA1D8A94C99EA1A8865B9241B8DFC77B1BA8C4 (CesiumForUnity_CesiumWebMapServiceRasterOverlay_Property_set_tileWidthType_t87469F2CB4F37C44E1979A94968B773DE3E44D87* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23138,7 +23138,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileServ
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 25145
+// Method Definition Index: 25118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mCFA12F9DA8724AEF35A2012527ECE37B7FF29D8D (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t62CB5515B7DC6177353A839B0F7461A3C4EDCBA6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23167,13 +23167,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m45033AA76F2F490701D9262C6861DDAB20DFE9B7_Multicast;
 }
-// Method Definition Index: 25146
+// Method Definition Index: 25119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m45033AA76F2F490701D9262C6861DDAB20DFE9B7 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t62CB5515B7DC6177353A839B0F7461A3C4EDCBA6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25147
+// Method Definition Index: 25120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m5430A5A54FF33CCAC5F7247B368F11073C844615 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t62CB5515B7DC6177353A839B0F7461A3C4EDCBA6* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23181,7 +23181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25148
+// Method Definition Index: 25121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m2DBA16EEE57BB295B8A133B086F052649999A5C6 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallAddToTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t62CB5515B7DC6177353A839B0F7461A3C4EDCBA6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23226,7 +23226,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25149
+// Method Definition Index: 25122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType__ctor_m8375E7948788875DBFE776EE00599DE78E697582 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tCD87B72CAAFF3BAECF72227997E118AB1BFAE85B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23255,13 +23255,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_mB631C77EAB48687CCE2A3FA246C3F9C8771D07C6_Multicast;
 }
-// Method Definition Index: 25150
+// Method Definition Index: 25123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_Invoke_mB631C77EAB48687CCE2A3FA246C3F9C8771D07C6 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tCD87B72CAAFF3BAECF72227997E118AB1BFAE85B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25151
+// Method Definition Index: 25124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_BeginInvoke_m73B00810CBB36D3258A9A13102D4E45D842892FC (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tCD87B72CAAFF3BAECF72227997E118AB1BFAE85B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23269,7 +23269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25152
+// Method Definition Index: 25125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_EndInvoke_m4EF37517B820885AB26E0FA46A07B79144E37601 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetComponent_rQkkHgP4S0DBS3JoaG7KAwType_tCD87B72CAAFF3BAECF72227997E118AB1BFAE85B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23314,7 +23314,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25153
+// Method Definition Index: 25126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_m5875FC8B02E628DFE2B3CCF9E9A0412CEFAA6FD2 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE47D16650DC9E972D61F8E157E3482C58092A37* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23343,13 +23343,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m3C6D819C0AFC59DB68615B83E81BDD96B48F94D4_Multicast;
 }
-// Method Definition Index: 25154
+// Method Definition Index: 25127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m3C6D819C0AFC59DB68615B83E81BDD96B48F94D4 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE47D16650DC9E972D61F8E157E3482C58092A37* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25155
+// Method Definition Index: 25128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m504F1523AF2ED1907FCE82EE1472685457929892 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE47D16650DC9E972D61F8E157E3482C58092A37* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23357,7 +23357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25156
+// Method Definition Index: 25129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_mB447F6B3CA504DEAAD799F270E5A8FBA925B33B7 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallGetInstanceID_1B2M2Y8AsgTpgAmY7PhCfgType_tDE47D16650DC9E972D61F8E157E3482C58092A37* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23402,7 +23402,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25157
+// Method Definition Index: 25130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m1A26054B31DD0EDE069298E85218F8F8FDF6331E (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t825C60B030B17FF4D48BF2205CFF3E3051AEBB46* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23431,13 +23431,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mF378859BE7D6932139A0EB77C1BFB1FB328CF68D_Multicast;
 }
-// Method Definition Index: 25158
+// Method Definition Index: 25131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_mF378859BE7D6932139A0EB77C1BFB1FB328CF68D (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t825C60B030B17FF4D48BF2205CFF3E3051AEBB46* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25159
+// Method Definition Index: 25132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m6AB8C5B2C5015317B6CA2FCBEFF0E1BEBE12D6DC (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t825C60B030B17FF4D48BF2205CFF3E3051AEBB46* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -23446,7 +23446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25160
+// Method Definition Index: 25133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mFCEBD5AB13FCAB2C0C40FB6B4EEB2D1E44C8F26D (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Equality_5bi2N6jTkaYVhpHPRxL2WgType_t825C60B030B17FF4D48BF2205CFF3E3051AEBB46* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23491,7 +23491,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25161
+// Method Definition Index: 25134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType__ctor_m1394F9E2F4C5598A94DEDAFE2CD3952B48973BAA (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tC38941425AAD0965912F49532E06E4190D83676B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23520,13 +23520,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m757D577ED60996CBD4754F29108E6373C52EC24D_Multicast;
 }
-// Method Definition Index: 25162
+// Method Definition Index: 25135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_Invoke_m757D577ED60996CBD4754F29108E6373C52EC24D (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tC38941425AAD0965912F49532E06E4190D83676B* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25163
+// Method Definition Index: 25136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_BeginInvoke_m0405478B7F8FCB0356F1987FBB5100DF9E22E844 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tC38941425AAD0965912F49532E06E4190D83676B* __this, intptr_t ___0_x, intptr_t ___1_y, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -23535,7 +23535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25164
+// Method Definition Index: 25137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_EndInvoke_mD9007A7502530482237B4610818F02BD4ED3B8D8 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Callop_Inequality_5bi2N6jTkaYVhpHPRxL2WgType_tC38941425AAD0965912F49532E06E4190D83676B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23577,7 +23577,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileServ
 	il2cppPInvokeFunc(___0_thiz, ___1_reinteropException);
 
 }
-// Method Definition Index: 25165
+// Method Definition Index: 25138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType__ctor_mF39837BFE7212011A8492571515C0BA554AA4F56 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t9694DA25CA3BD68A7D87B6F92BA8449EE7B4D75A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23606,13 +23606,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m70BE2596A37A26B1A4F6AE8EF57C6BD0AF495622_Multicast;
 }
-// Method Definition Index: 25166
+// Method Definition Index: 25139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_Invoke_m70BE2596A37A26B1A4F6AE8EF57C6BD0AF495622 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t9694DA25CA3BD68A7D87B6F92BA8449EE7B4D75A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25167
+// Method Definition Index: 25140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_BeginInvoke_m6D0B4552FF2458721AB9F6343D0001D98BF8DBA6 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t9694DA25CA3BD68A7D87B6F92BA8449EE7B4D75A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23620,7 +23620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25168
+// Method Definition Index: 25141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_EndInvoke_m449A152C7D9CC288FF320637BFA18DA6D9C6CB0B (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallRemoveFromTileset_1B2M2Y8AsgTpgAmY7PhCfgType_t9694DA25CA3BD68A7D87B6F92BA8449EE7B4D75A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23665,7 +23665,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25169
+// Method Definition Index: 25142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType__ctor_m1AA51EF496C242B85828FD7F72901FC6C0F63F0E (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t8005129E1C7DB0F7E3BB3FB6694A52B28CDA4DB7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23694,13 +23694,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m8D154CBD7F2DDA152B27E8C5D16E1F76F38F2D56_Multicast;
 }
-// Method Definition Index: 25170
+// Method Definition Index: 25143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_Invoke_m8D154CBD7F2DDA152B27E8C5D16E1F76F38F2D56 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t8005129E1C7DB0F7E3BB3FB6694A52B28CDA4DB7* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_routine, ___2_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25171
+// Method Definition Index: 25144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_BeginInvoke_mF9039C67A04BA3682206440F729EC536C6E2F30F (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t8005129E1C7DB0F7E3BB3FB6694A52B28CDA4DB7* __this, intptr_t ___0_thiz, intptr_t ___1_routine, intptr_t* ___2_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -23709,7 +23709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[2] = ___2_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 25172
+// Method Definition Index: 25145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_EndInvoke_mBB499EB9440D46818E7F6E49BF518C5CC6514AD0 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_CallStartCoroutine_ZFMblNea9_yxHzcTccrQTwType_t8005129E1C7DB0F7E3BB3FB6694A52B28CDA4DB7* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23755,7 +23755,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25173
+// Method Definition Index: 25146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType__ctor_mF864FE8B8AB16B94085A0DFB5ACAF79511438316 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_t178099E7C5ADBFB7A2AF5B18245AEFCBE86B45A4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23784,13 +23784,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_Invoke_m9F2355C82D4B11F632208280DBA8D1890C35AFB5_Multicast;
 }
-// Method Definition Index: 25174
+// Method Definition Index: 25147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_Invoke_m9F2355C82D4B11F632208280DBA8D1890C35AFB5 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_t178099E7C5ADBFB7A2AF5B18245AEFCBE86B45A4* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25175
+// Method Definition Index: 25148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_BeginInvoke_mF0C0DA266A03C7E7FA4E28CDECF73F15FAA8CF2F (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_t178099E7C5ADBFB7A2AF5B18245AEFCBE86B45A4* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23798,7 +23798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25176
+// Method Definition Index: 25149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_EndInvoke_m554AA094609849722BD7E0CCB3952FC5F1046967 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_baseUrlType_t178099E7C5ADBFB7A2AF5B18245AEFCBE86B45A4* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23843,7 +23843,7 @@ IL2CPP_EXTERN_C  uint8_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25177
+// Method Definition Index: 25150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType__ctor_mCEE726EB8146060F470DA0751EE549366EDFE62B (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_t58E7BA514E48BDA0516806BA8DA382B7E975009D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23872,13 +23872,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_Invoke_m0044A261EB70EE6116DBCB968501775C5974FF8E_Multicast;
 }
-// Method Definition Index: 25178
+// Method Definition Index: 25151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_Invoke_m0044A261EB70EE6116DBCB968501775C5974FF8E (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_t58E7BA514E48BDA0516806BA8DA382B7E975009D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25179
+// Method Definition Index: 25152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_BeginInvoke_m46F733848CF054A4ADFA48346F04117471CFC7C2 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_t58E7BA514E48BDA0516806BA8DA382B7E975009D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23886,7 +23886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25180
+// Method Definition Index: 25153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_EndInvoke_m7EFEC173B7A2691B7DE909EE6DF4BDE2F255B6A3 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_enabledType_t58E7BA514E48BDA0516806BA8DA382B7E975009D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -23932,7 +23932,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25181
+// Method Definition Index: 25154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType__ctor_m19C85C424B2EE5F19B892E317CF5F9E85A9A011C (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_tEC38FA17915606DD7E29CAF47F56BA6772AD4D1E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -23961,13 +23961,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_Invoke_mE4EFBC7AF751480C441F4ED05438AA6550BBFC32_Multicast;
 }
-// Method Definition Index: 25182
+// Method Definition Index: 25155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_Invoke_mE4EFBC7AF751480C441F4ED05438AA6550BBFC32 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_tEC38FA17915606DD7E29CAF47F56BA6772AD4D1E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25183
+// Method Definition Index: 25156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_BeginInvoke_m93BDC80A2FE26FFF11D04BF7C04A31F79286F7FF (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_tEC38FA17915606DD7E29CAF47F56BA6772AD4D1E* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -23975,7 +23975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25184
+// Method Definition Index: 25157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_EndInvoke_mC7D95DE991100830AD2B69ED46558B2CB9EA23DB (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_formatType_tEC38FA17915606DD7E29CAF47F56BA6772AD4D1E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24021,7 +24021,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25185
+// Method Definition Index: 25158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType__ctor_m7D5FC180FD2A42D593405DE2DF128BA12E79665A (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_t517D35F1D6912157CA45C54CA1142156D69D1379* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24050,13 +24050,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_Invoke_m184AE417D80EE5D7848A1173DC8C1DAEFE912CC2_Multicast;
 }
-// Method Definition Index: 25186
+// Method Definition Index: 25159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_Invoke_m184AE417D80EE5D7848A1173DC8C1DAEFE912CC2 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_t517D35F1D6912157CA45C54CA1142156D69D1379* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25187
+// Method Definition Index: 25160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_BeginInvoke_mC418667DD62A28DE17C413CE7546AC5580FB83B5 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_t517D35F1D6912157CA45C54CA1142156D69D1379* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24064,7 +24064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25188
+// Method Definition Index: 25161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_EndInvoke_m229A4F4F05B902085FE5D3E5C362E216F9A1267A (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_gameObjectType_t517D35F1D6912157CA45C54CA1142156D69D1379* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24109,7 +24109,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25189
+// Method Definition Index: 25162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType__ctor_m2FFAF329054BF29BB1F4405A54236128AEECB979 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_t1510205038D424F81864593BDBF3318A58B0D277* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24138,13 +24138,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_Invoke_m7614DA48001D30CDD5A43DB599E9188EDB33BED9_Multicast;
 }
-// Method Definition Index: 25190
+// Method Definition Index: 25163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_Invoke_m7614DA48001D30CDD5A43DB599E9188EDB33BED9 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_t1510205038D424F81864593BDBF3318A58B0D277* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25191
+// Method Definition Index: 25164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_BeginInvoke_mE4F4E2554103ABB9A64E80A6D5A9E142C1641230 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_t1510205038D424F81864593BDBF3318A58B0D277* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24152,7 +24152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25192
+// Method Definition Index: 25165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_EndInvoke_m2BA8D192487CFE7E56092E8A6968741E8A85EF2C (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_hideFlagsType_t1510205038D424F81864593BDBF3318A58B0D277* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24198,7 +24198,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25193
+// Method Definition Index: 25166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType__ctor_m87E8826D1780A2090AC9AB5E4AB4578CD2C75738 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_tB1CCBE968C8B6651D245EE1D987D91A42B42AAE8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24227,13 +24227,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_Invoke_m545BFC6FD7F59BEB094EED71D23524242FD10737_Multicast;
 }
-// Method Definition Index: 25194
+// Method Definition Index: 25167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_Invoke_m545BFC6FD7F59BEB094EED71D23524242FD10737 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_tB1CCBE968C8B6651D245EE1D987D91A42B42AAE8* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25195
+// Method Definition Index: 25168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_BeginInvoke_m065968817F5943F02AFE645F7CEDC5F9EF44BA86 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_tB1CCBE968C8B6651D245EE1D987D91A42B42AAE8* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24241,7 +24241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25196
+// Method Definition Index: 25169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_EndInvoke_m419847A5AB04E798C25D0C8751984C9A49E66B54 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_layerType_tB1CCBE968C8B6651D245EE1D987D91A42B42AAE8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24287,7 +24287,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25197
+// Method Definition Index: 25170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType__ctor_m16828FCA80E1508FEBF3D65C6F832C25AB86E3D2 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_tD9AEC0B722B3EC62A7AC081943DAFA5234AD335D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24316,13 +24316,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_Invoke_mDF2F4EA5D90D08DEDD9510DAE316EE12C5BF7606_Multicast;
 }
-// Method Definition Index: 25198
+// Method Definition Index: 25171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_Invoke_mDF2F4EA5D90D08DEDD9510DAE316EE12C5BF7606 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_tD9AEC0B722B3EC62A7AC081943DAFA5234AD335D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25199
+// Method Definition Index: 25172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_BeginInvoke_mC9A7320F3D0809E8678E1FA4BBBD00C520432C23 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_tD9AEC0B722B3EC62A7AC081943DAFA5234AD335D* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24330,7 +24330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25200
+// Method Definition Index: 25173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_EndInvoke_mC5F46277D288818CC0058A1281B48D9DC4A40473 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_materialKeyType_tD9AEC0B722B3EC62A7AC081943DAFA5234AD335D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24375,7 +24375,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25201
+// Method Definition Index: 25174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType__ctor_mC3BC76C83D71851AE8C36EB068013939F4F23BD4 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_tB25AF102D9A13F0BA567AAB182E8A5819AF3F8F8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24404,13 +24404,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_Invoke_m928A893C157F1967B43B77E9883BBF2B3DF3E8BF_Multicast;
 }
-// Method Definition Index: 25202
+// Method Definition Index: 25175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_Invoke_m928A893C157F1967B43B77E9883BBF2B3DF3E8BF (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_tB25AF102D9A13F0BA567AAB182E8A5819AF3F8F8* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25203
+// Method Definition Index: 25176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_BeginInvoke_mE87BE097732DF5E6E1BF6FEC557780D53C80214A (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_tB25AF102D9A13F0BA567AAB182E8A5819AF3F8F8* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24418,7 +24418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25204
+// Method Definition Index: 25177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_EndInvoke_mA7804E68F2CF487802470C525983080DDD0F3737 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumLevelType_tB25AF102D9A13F0BA567AAB182E8A5819AF3F8F8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24463,7 +24463,7 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileSer
 
 	return returnValue;
 }
-// Method Definition Index: 25205
+// Method Definition Index: 25178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType__ctor_mB1380AF98CE66069EE48AA0F46B3A97AA6FE3343 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_tEFEA0106CE742204CE15CE48FBDA4866DDA1AC7C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24492,13 +24492,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_mFC56C474FB4E2B7B28E91A94BF15C62D9C4A73E4_Multicast;
 }
-// Method Definition Index: 25206
+// Method Definition Index: 25179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_Invoke_mFC56C474FB4E2B7B28E91A94BF15C62D9C4A73E4 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_tEFEA0106CE742204CE15CE48FBDA4866DDA1AC7C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25207
+// Method Definition Index: 25180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_BeginInvoke_m27591993FA437341C6002A813F01AAE2F258856A (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_tEFEA0106CE742204CE15CE48FBDA4866DDA1AC7C* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24506,7 +24506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25208
+// Method Definition Index: 25181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_EndInvoke_m98F022623EE55B12B75AFEB77BFD34FA58A2EC04 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumScreenSpaceErrorType_tEFEA0106CE742204CE15CE48FBDA4866DDA1AC7C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24551,7 +24551,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25209
+// Method Definition Index: 25182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType__ctor_mFF5ACCB1095111E8BBDC9FAA98CF996A44AFE06D (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t29D79DFDA09BEB725B5DE759B92EC40ABE9557C5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24580,13 +24580,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_m2582ADDDCA044B70ECCE3CAB9ED02741220DC676_Multicast;
 }
-// Method Definition Index: 25210
+// Method Definition Index: 25183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_Invoke_m2582ADDDCA044B70ECCE3CAB9ED02741220DC676 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t29D79DFDA09BEB725B5DE759B92EC40ABE9557C5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25211
+// Method Definition Index: 25184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_BeginInvoke_m65FAD450DB427FFA2A71428634DB47A9F01D4389 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t29D79DFDA09BEB725B5DE759B92EC40ABE9557C5* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24594,7 +24594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25212
+// Method Definition Index: 25185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_EndInvoke_m9BF4B362DB0610FC3F129E13A0E794821BBB3952 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumSimultaneousTileLoadsType_t29D79DFDA09BEB725B5DE759B92EC40ABE9557C5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24639,7 +24639,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25213
+// Method Definition Index: 25186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType__ctor_m1B4E10983A7A188E0933720889CCAA4222F775A5 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_t327D37EBED58A03228E6EA66484F2A6217194281* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24668,13 +24668,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_Invoke_mAE31B2D5220F94AE6431302E8E112E0326BF4AFA_Multicast;
 }
-// Method Definition Index: 25214
+// Method Definition Index: 25187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_Invoke_mAE31B2D5220F94AE6431302E8E112E0326BF4AFA (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_t327D37EBED58A03228E6EA66484F2A6217194281* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25215
+// Method Definition Index: 25188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_BeginInvoke_m478228B8A16FEAD9B796EDFCF9210A21DB8FE6B6 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_t327D37EBED58A03228E6EA66484F2A6217194281* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24682,7 +24682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25216
+// Method Definition Index: 25189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_EndInvoke_m7D6BD3FF6BBCC0C3828AE9E446D8F8DC0794413F (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_maximumTextureSizeType_t327D37EBED58A03228E6EA66484F2A6217194281* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24727,7 +24727,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25217
+// Method Definition Index: 25190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType__ctor_mDC257091A68F83282D8A0CFA7449B48B2C361EF9 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_t93ED6A90CD3398D86A21EF8B603F38FA12B17229* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24756,13 +24756,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_Invoke_mD95326BB037C4603B93333A7A3EED15298CA5333_Multicast;
 }
-// Method Definition Index: 25218
+// Method Definition Index: 25191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_Invoke_mD95326BB037C4603B93333A7A3EED15298CA5333 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_t93ED6A90CD3398D86A21EF8B603F38FA12B17229* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25219
+// Method Definition Index: 25192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_BeginInvoke_mD7E850EA8F63A17667B0BFC8AB39CC8C50F59C55 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_t93ED6A90CD3398D86A21EF8B603F38FA12B17229* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24770,7 +24770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25220
+// Method Definition Index: 25193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_EndInvoke_mA3D5C915836AD4E306FAE54E08F2360677AB9F13 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_minimumLevelType_t93ED6A90CD3398D86A21EF8B603F38FA12B17229* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24816,7 +24816,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25221
+// Method Definition Index: 25194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType__ctor_m896DEE29EC90E542E32919E44A8BF920BD48C3AF (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_tE1F8D7E78AAEFF6AEC264831CBF395AD0BBFCF2B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24845,13 +24845,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_Invoke_mD162610FCEC04F9A20DD27CC515DB26784F6FD96_Multicast;
 }
-// Method Definition Index: 25222
+// Method Definition Index: 25195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_Invoke_mD162610FCEC04F9A20DD27CC515DB26784F6FD96 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_tE1F8D7E78AAEFF6AEC264831CBF395AD0BBFCF2B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25223
+// Method Definition Index: 25196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_BeginInvoke_mD2CD875027753247282E8C2867F0F3C331E25BDD (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_tE1F8D7E78AAEFF6AEC264831CBF395AD0BBFCF2B* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -24859,7 +24859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25224
+// Method Definition Index: 25197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_EndInvoke_mBDA0801063F69FB741D9F5A4B80959A5DB5531DF (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_nameType_tE1F8D7E78AAEFF6AEC264831CBF395AD0BBFCF2B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24905,7 +24905,7 @@ IL2CPP_EXTERN_C  intptr_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTile
 
 	return returnValue;
 }
-// Method Definition Index: 25225
+// Method Definition Index: 25198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType__ctor_m19C9B9C73DA26921698E8E4A8A2450984F4BCE54 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_t4AB9D89C5FF42F0BBD5F96F98BA1A23B79AECBC0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -24934,20 +24934,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_Invoke_m80CE25903E3DCF4030A46BEB408B591969A816ED_Multicast;
 }
-// Method Definition Index: 25226
+// Method Definition Index: 25199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_Invoke_m80CE25903E3DCF4030A46BEB408B591969A816ED (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_t4AB9D89C5FF42F0BBD5F96F98BA1A23B79AECBC0* __this, intptr_t ___0_thiz, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25227
+// Method Definition Index: 25200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_BeginInvoke_mA739E0C4E85E302BAB675823A8509FC525CDFE1A (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_t4AB9D89C5FF42F0BBD5F96F98BA1A23B79AECBC0* __this, intptr_t ___0_thiz, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_thiz);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 25228
+// Method Definition Index: 25201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_EndInvoke_m002C8D596CC1361C2BC984A4F6EDC5CD932F769F (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_NativeImplementationType_t4AB9D89C5FF42F0BBD5F96F98BA1A23B79AECBC0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -24992,7 +24992,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25229
+// Method Definition Index: 25202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType__ctor_mDD176260B48AE2AB711395CE0362FD0D59E3A4BF (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_t3005915BEEF8CBE270C212984840BCB436B53179* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -25021,13 +25021,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_Invoke_m22EBDB7A97D164E636E1FCE6568EC48171AD2293_Multicast;
 }
-// Method Definition Index: 25230
+// Method Definition Index: 25203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_Invoke_m22EBDB7A97D164E636E1FCE6568EC48171AD2293 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_t3005915BEEF8CBE270C212984840BCB436B53179* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25231
+// Method Definition Index: 25204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_BeginInvoke_m7B4094A5D88FF9A386F6D180E15FDEA77614EFA7 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_t3005915BEEF8CBE270C212984840BCB436B53179* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -25035,7 +25035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25232
+// Method Definition Index: 25205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_EndInvoke_m04133805324229216D2BB80241BBFAADD39B38D1 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_projectionType_t3005915BEEF8CBE270C212984840BCB436B53179* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -25080,7 +25080,7 @@ IL2CPP_EXTERN_C  double DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileSe
 
 	return returnValue;
 }
-// Method Definition Index: 25233
+// Method Definition Index: 25206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType__ctor_mE48C413DA9683AF1BA11A8EA4C961F869CC017B1 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_tBF220199387EA0D295650923A178FF1EC53FAFFD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -25109,13 +25109,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_Invoke_m7DC3DDA19002B8817D3F88403A6FA7EFD705E0CC_Multicast;
 }
-// Method Definition Index: 25234
+// Method Definition Index: 25207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_Invoke_m7DC3DDA19002B8817D3F88403A6FA7EFD705E0CC (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_tBF220199387EA0D295650923A178FF1EC53FAFFD* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef double (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25235
+// Method Definition Index: 25208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_BeginInvoke_m49E7CF4B4EF2E6745BD787001AAB324721B8AA13 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_tBF220199387EA0D295650923A178FF1EC53FAFFD* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -25123,7 +25123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25236
+// Method Definition Index: 25209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_EndInvoke_m3337C8A1D4A1AB10B20E7B93A97DD3D013B32715 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleEastType_tBF220199387EA0D295650923A178FF1EC53FAFFD* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -25168,7 +25168,7 @@ IL2CPP_EXTERN_C  double DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileSe
 
 	return returnValue;
 }
-// Method Definition Index: 25237
+// Method Definition Index: 25210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType__ctor_m39D1E641E4CE47F90A5E3FD7B5DEB9BFA8E070F7 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_t7131AA3D51D41CA8EB8DC9E3B9FCA9609B551D49* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -25197,13 +25197,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_Invoke_m823C7C24C2C868584A85D50D057CE681ED315B75_Multicast;
 }
-// Method Definition Index: 25238
+// Method Definition Index: 25211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_Invoke_m823C7C24C2C868584A85D50D057CE681ED315B75 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_t7131AA3D51D41CA8EB8DC9E3B9FCA9609B551D49* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef double (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25239
+// Method Definition Index: 25212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_BeginInvoke_mB93F4AE15B9BD1E4F49E5C97C50883F1BE9B791E (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_t7131AA3D51D41CA8EB8DC9E3B9FCA9609B551D49* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -25211,7 +25211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25240
+// Method Definition Index: 25213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_EndInvoke_m6BF29F5B7B506DAAC42CB8463170264BCAC72515 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleNorthType_t7131AA3D51D41CA8EB8DC9E3B9FCA9609B551D49* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -25256,7 +25256,7 @@ IL2CPP_EXTERN_C  double DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileSe
 
 	return returnValue;
 }
-// Method Definition Index: 25241
+// Method Definition Index: 25214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType__ctor_m546B62577DC7EDDB7E88FC3B7379A1C64477CC4A (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_t7E95D20176F050C80D753050AD9ED662B22BEA13* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -25285,13 +25285,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_Invoke_m77F2AE691A0A235C8287D4CA4909C0499B0CAE9E_Multicast;
 }
-// Method Definition Index: 25242
+// Method Definition Index: 25215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_Invoke_m77F2AE691A0A235C8287D4CA4909C0499B0CAE9E (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_t7E95D20176F050C80D753050AD9ED662B22BEA13* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef double (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25243
+// Method Definition Index: 25216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_BeginInvoke_m8D8D8452ABDFA7D25B4D39DF6954F8F2F2B50476 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_t7E95D20176F050C80D753050AD9ED662B22BEA13* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -25299,7 +25299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25244
+// Method Definition Index: 25217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_EndInvoke_mAC23270A82C33BDB2A6F549E0A6860DC89AD4EF3 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleSouthType_t7E95D20176F050C80D753050AD9ED662B22BEA13* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -25344,7 +25344,7 @@ IL2CPP_EXTERN_C  double DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileSe
 
 	return returnValue;
 }
-// Method Definition Index: 25245
+// Method Definition Index: 25218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType__ctor_m06FDCBDCA4FB5BBC13282356B475C7DCA556F8FC (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_tFF3750296ACE331C11DA354F2A71AFA7AEE0F688* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -25373,13 +25373,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_Invoke_m2B8FA7CC47FFE64355D7B3752DF4FD74A070BFC0_Multicast;
 }
-// Method Definition Index: 25246
+// Method Definition Index: 25219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_Invoke_m2B8FA7CC47FFE64355D7B3752DF4FD74A070BFC0 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_tFF3750296ACE331C11DA354F2A71AFA7AEE0F688* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef double (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25247
+// Method Definition Index: 25220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_BeginInvoke_m4F77BFE4D52B366109147110463D259EA54AD214 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_tFF3750296ACE331C11DA354F2A71AFA7AEE0F688* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -25387,7 +25387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25248
+// Method Definition Index: 25221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_EndInvoke_mAAB72D2554872BE2B7CCFB68219D4CF5BD2F13F3 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rectangleWestType_tFF3750296ACE331C11DA354F2A71AFA7AEE0F688* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -25432,7 +25432,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_CesiumForUnity_CesiumWebMapTileS
 
 	return returnValue;
 }
-// Method Definition Index: 25249
+// Method Definition Index: 25222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType__ctor_m2F2A0FEB00CBAEC84206036D9C3CDF36A068A15C (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_t125947669066B714C430DC1D115F364E3560955A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -25461,13 +25461,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CesiumForUnity_CesiumWebMapTileServiceRa
 	}
 	__this->___extra_arg = (intptr_t)&CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_Invoke_m2CDB5DA812DAB02A22A15CBCE7035327C37D2F4E_Multicast;
 }
-// Method Definition Index: 25250
+// Method Definition Index: 25223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_Invoke_m2CDB5DA812DAB02A22A15CBCE7035327C37D2F4E (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_t125947669066B714C430DC1D115F364E3560955A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_thiz, ___1_reinteropException, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 25251
+// Method Definition Index: 25224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_BeginInvoke_mB89961FD036D28ABD7DBB04D52DDBD07088925B7 (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_t125947669066B714C430DC1D115F364E3560955A* __this, intptr_t ___0_thiz, intptr_t* ___1_reinteropException, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -25475,7 +25475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CesiumForUnity_CesiumWebMapTil
 	__d_args[1] = ___1_reinteropException;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 25252
+// Method Definition Index: 25225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_EndInvoke_mDF53B52AA25459DB0D34D93B46FBD80DF763BACF (CesiumForUnity_CesiumWebMapTileServiceRasterOverlay_Property_get_rootTilesXType_t125947669066B714C430DC1D115F364E3560955A* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);

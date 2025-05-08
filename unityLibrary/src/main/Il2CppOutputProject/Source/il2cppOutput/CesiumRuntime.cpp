@@ -15510,7 +15510,7 @@ inline intptr_t Marshal_GetFunctionPointerForDelegate_TisUnityEngine_Vector4_Con
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 20490
+// Method Definition Index: 20463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReinteropInitializer_AddFunctionPointers_mD01DA4017D9D4D717EFF03022E23C2AAD443851D (intptr_t ___0_memory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

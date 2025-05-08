@@ -175,7 +175,7 @@ class GameLaunchActivity : BaseActivity() {
         try {
             // Invece di usare CustomUnityPlayerActivity, prova a usare direttamente UnityPlayerGameActivity
             val intent = Intent()
-            intent.setClassName(packageName, "com.unity3d.player.UnityPlayerGameActivity")
+            intent.setClassName(packageName, "com.unity3d.player.UnityPlayerActivity")
             intent.putExtra("unity", "-force-vulkan")
             startActivity(intent)
         } catch (e: Exception) {
