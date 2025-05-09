@@ -6,27 +6,24 @@
     android:id="@+id/layoutProfile"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity"
-    android:background="@drawable/bg_gradient_privacy">
+    android:background="@drawable/bg_gradient_privacy"
+    tools:context=".ProfileActivity">
 
-    <!-- Contenitore per l'immagine profilo circolare con ombra - LEGGERMENTE INGRANDITO -->
+    <!-- Contenitore per l'immagine profilo circolare con ombra -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardProfileImage"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_marginTop="48dp"
-        android:layout_marginBottom="16dp"
-        app:cardCornerRadius="65dp"
+        app:cardCornerRadius="90dp"
         app:cardUseCompatPadding="true"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:clipToOutline="true"
         app:cardElevation="6dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageProfile"
@@ -44,29 +41,27 @@
         android:layout_height="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
-        android:padding="4dp"
         android:background="?android:selectableItemBackgroundBorderless"
         android:src="@android:drawable/ic_menu_edit"
         android:contentDescription="@string/edit_profile_information"
         app:layout_constraintBottom_toBottomOf="@+id/cardProfileImage"
-        app:layout_constraintRight_toRightOf="@+id/cardProfileImage" />
+        app:layout_constraintEnd_toEndOf="@+id/cardProfileImage" />
 
-    <!-- Prima Card: Edit profile, Notifications con switch, Language con testo blu - LEGGERMENTE INGRANDITA -->
+    <!-- Prima Card: Edit profile, Notifications, Language -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSettings1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="20dp"
         android:clipToOutline="true"
-        android:theme="@style/Theme.MaterialComponents"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
         app:cardElevation="4dp"
         android:backgroundTint="#FF1E2237"
         app:layout_constraintTop_toBottomOf="@+id/cardProfileImage"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,7 +69,7 @@
             android:orientation="vertical"
             android:padding="14dp">
 
-            <!-- Riga: Edit profile information - LEGGERMENTE INGRANDITA -->
+            <!-- Edit profile information -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -93,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:text="Edit profile information"
+                    android:text="Edit profile"
                     android:textColor="@android:color/white"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -103,7 +98,7 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Notifications con Switch - LEGGERMENTE INGRANDITA -->
+            <!-- Notifications with Switch -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -138,7 +133,7 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-          
+            <!-- Language selection -->
             <LinearLayout
                 android:id="@+id/languageRow"
                 android:layout_width="match_parent"
@@ -174,29 +169,25 @@
                     android:textColor="@android:color/holo_blue_light"
                     android:textSize="16sp" />
             </LinearLayout>
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-
+    <!-- Second Card: Logout, Contact Us, Privacy Policy -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSettings2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="20dp"
         android:clipToOutline="true"
-        android:theme="@style/Theme.MaterialComponents"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
         app:cardElevation="4dp"
         android:backgroundTint="#FF1E2237"
         app:layout_constraintTop_toBottomOf="@+id/cardSettings1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
-        app:layout_constraintVertical_bias="0.0"
-        android:layout_marginBottom="40dp">
+        app:layout_constraintWidth_percent="0.8">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -204,6 +195,7 @@
             android:orientation="vertical"
             android:padding="14dp">
 
+            <!-- Logout -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -232,7 +224,7 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Contact us - LEGGERMENTE INGRANDITA -->
+            <!-- Contact us -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -261,7 +253,7 @@
                 android:layout_height="1dp"
                 android:background="#33FFFFFF" />
 
-            <!-- Riga: Privacy policy - LEGGERMENTE INGRANDITA -->
+            <!-- Privacy policy -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -287,7 +279,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Aggiunta della Bottom Navigation Bar in fondo -->
+    <!-- Bottom Navigation Bar -->
     <include
         android:id="@+id/bottom_navigation"
         layout="@layout/bottom_nav"

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,18 +16,34 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="120dp" />
 
-    <TextView
-        android:id="@+id/textWelcomeTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_sparky1"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
+    <LinearLayout
+        android:id="@+id/layoutWelcome"
+        android:layout_width="365dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textWelcomeTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageLogoWhite"
+            android:layout_width="150dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="0dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:src="@drawable/logowhite" />
+    </LinearLayout>
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -216,14 +233,6 @@
             android:background="@drawable/bg_button_glowing"
             android:contentDescription="@string/wallet_login1" />
 
-        <ImageView
-            android:id="@+id/imageComingSoon"
-            android:layout_width="60dp"
-            android:layout_height="100dp"
-            android:padding="8dp"
-            android:src="@drawable/comingsoon3"
-            android:contentDescription="@string/coming_soon"
-            android:scaleType="centerInside" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

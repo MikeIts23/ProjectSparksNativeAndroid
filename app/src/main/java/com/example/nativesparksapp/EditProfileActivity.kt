@@ -63,7 +63,28 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
                 onBackPressed()
             }
 
-            val countries = arrayOf("USA", "Italy", "France", "Japan")
+            val countries = arrayOf(
+                "United States",
+                "China",
+                "Japan",
+                "Germany",
+                "India",
+                "United Kingdom",
+                "France",
+                "Italy",
+                "Canada",
+                "Russia",
+                "South Korea",
+                "Brazil",
+                "Australia",
+                "Spain",
+                "Mexico",
+                "Indonesia",
+                "Netherlands",
+                "Saudi Arabia",
+                "Turkey",
+                "Switzerland"
+            )
             val countryAdapter = object : ArrayAdapter<String>(
                 this,
                 android.R.layout.simple_spinner_item,
