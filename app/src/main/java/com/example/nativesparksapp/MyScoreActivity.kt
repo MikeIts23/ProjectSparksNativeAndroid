@@ -2,14 +2,19 @@ package com.example.nativesparksapp
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import com.google.android.material.card.MaterialCardView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FieldValue
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.SetOptions
 import java.io.File
 
 class MyScoreActivity : BaseActivity() {
 
-    private lateinit var textScore1: TextView  // ColorSlots high score
-    private lateinit var textScore2: TextView  // Combo high score
+    private lateinit var textScore1: TextView   // ColorSlots high score
+    private lateinit var textScore2: TextView   // Combo high score
     private lateinit var cardMode1: MaterialCardView
     private lateinit var cardMode2: MaterialCardView
 
@@ -30,43 +35,53 @@ class MyScoreActivity : BaseActivity() {
 
     override fun onResume() {
         super.onResume()
-        // 1) Leggi i punteggi appena scritti da Unity
+        Log.d("MyScoreActivity", ">> onResume invoked")
+
+        // 1) Calcola i nuovi best scores
+        val (newColorHigh, newComboHigh) = calculateBestScores()
+
+        Log.d("MyScoreActivity", "Calculated highs: Color=$newColorHigh, Combo=$newComboHigh")
+
+        // 2) Aggiorna UI
+        textScore1.text = newColorHigh.toString()
+        textScore2.text = newComboHigh.toString()
+
+        // 3) Sincronizza il best score (il maggiore dei due) su Firestore
+        val bestScore = maxOf(newColorHigh, newComboHigh)
+        syncHighScoreToFirestore(bestScore)
+    }
+
+    private fun calculateBestScores(): Pair<Int,Int> {
+        // leggi session prefs di Unity
         val prefsDir = File(filesDir.parent, "shared_prefs")
         val prefsFile = prefsDir.listFiles()
             ?.firstOrNull { it.name.endsWith("v2.playerprefs.xml") }
-            ?: return
 
-        val prefsName = prefsFile.name.removeSuffix(".xml")
-        val unityPrefs = getSharedPreferences(prefsName, Context.MODE_PRIVATE)
-
-        val sessionColor = unityPrefs.getInt("HighScore_ColorSlots", 0)
-        val sessionCombo = unityPrefs.getInt("HighScore_Combo", 0)
-
-        // Pulisci le chiavi Unity per non rileggerle alla prossima onResume
-        unityPrefs.edit()
-            .remove("HighScore_ColorSlots")
-            .remove("HighScore_Combo")
-            .apply()
-
-        // 2) Carica i record prima salvati in app
+        // prefs di app
         val appPrefs = getSharedPreferences("MyScorePrefs", Context.MODE_PRIVATE)
-        val storedColor = appPrefs.getInt("HighScore_ColorSlots", 0)
-        val storedCombo = appPrefs.getInt("HighScore_Combo", 0)
+        var storedColor = appPrefs.getInt("HighScore_ColorSlots", 0)
+        var storedCombo = appPrefs.getInt("HighScore_Combo", 0)
 
-        // 3) Applica la stessa logica di UpdateHighScore di Unity:
-        //    solo se il nuovo è maggiore, sostituisci il record
-        val newColorHigh = if (sessionColor > storedColor) sessionColor else storedColor
-        val newComboHigh = if (sessionCombo > storedCombo) sessionCombo else storedCombo
+        if (prefsFile != null) {
+            val unityPrefs = getSharedPreferences(prefsFile.name.removeSuffix(".xml"), Context.MODE_PRIVATE)
+            val sessionColor = unityPrefs.getInt("HighScore_ColorSlots", 0)
+            val sessionCombo = unityPrefs.getInt("HighScore_Combo", 0)
 
-        // 4) Salva i nuovi record nell’app
+            // aggiorna solo se maggiore
+            storedColor = maxOf(storedColor, sessionColor)
+            storedCombo = maxOf(storedCombo, sessionCombo)
+
+            // non cancelliamo più le chiavi di Unity: manteniamo sempre il record
+            // unityPrefs.edit().remove(...).apply()
+        }
+
+        // salva i nuovi record in app
         appPrefs.edit()
-            .putInt("HighScore_ColorSlots", newColorHigh)
-            .putInt("HighScore_Combo", newComboHigh)
+            .putInt("HighScore_ColorSlots", storedColor)
+            .putInt("HighScore_Combo", storedCombo)
             .apply()
 
-        // 5) Mostra a schermo
-        textScore1.text = newColorHigh.toString()
-        textScore2.text = newComboHigh.toString()
+        return Pair(storedColor, storedCombo)
     }
 
     private fun displayStoredHighScores() {
@@ -75,5 +90,36 @@ class MyScoreActivity : BaseActivity() {
         val storedCombo = appPrefs.getInt("HighScore_Combo", 0)
         textScore1.text = storedColor.toString()
         textScore2.text = storedCombo.toString()
+    }
+
+    private fun syncHighScoreToFirestore(bestScore: Int) {
+        val user = FirebaseAuth.getInstance().currentUser
+        if (user == null) {
+            Log.w("MyScoreActivity", "Utente non autenticato, skip Firestore sync")
+            return
+        }
+
+        val collectionName = "leaderboard"  // ATTENZIONE: minuscolo, esatto nome in console
+        val uid = user.uid
+        val displayName = user.displayName ?: "Anonimo"
+        val data = mapOf(
+            "displayName" to displayName,
+            "score"       to bestScore,
+            "avatarUrl"   to "default_avatar.png",
+            "timestamp"   to FieldValue.serverTimestamp()
+        )
+
+        Log.d("MyScoreActivity", "Sync su $collectionName/$uid con $data")
+
+        FirebaseFirestore.getInstance()
+            .collection(collectionName)
+            .document(uid)
+            .set(data, SetOptions.merge())
+            .addOnSuccessListener {
+                Log.d("MyScoreActivity", "✔ Firestore save successo per $uid")
+            }
+            .addOnFailureListener { e ->
+                Log.e("MyScoreActivity", "❌ Firestore save FALLITO per $uid", e)
+            }
     }
 }
