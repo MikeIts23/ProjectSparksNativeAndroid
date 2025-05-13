@@ -4,7 +4,6 @@ import android.app.Activity
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
-import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
@@ -12,13 +11,12 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Base64
 import android.util.Log
-import android.view.View // (NUOVO) per GONE/VISIBLE
+import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.SwitchCompat
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
@@ -30,13 +28,11 @@ class ProfileActivity : BaseActivity() {
 
     companion object {
         const val PREFS_NAME = "UserPrefs"
-        private const val KEY_NOTIFICATIONS_ENABLED = "notifications_enabled"
         private const val KEY_PROFILE_IMAGE = "profile_image"
         private const val REQUEST_GALLERY = 100
         private const val TAG = "ProfileActivity"
     }
 
-    private lateinit var switchNotifications: SwitchCompat
     private lateinit var buttonEditProfile: TextView
     private lateinit var buttonContactUs: TextView
     private lateinit var buttonPrivacyPolicy: TextView
@@ -55,7 +51,7 @@ class ProfileActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
 
         val currentLanguage = LocaleHelper.getLanguage(this)
-        val context = LocaleHelper.setLocale(this, currentLanguage)
+        LocaleHelper.setLocale(this, currentLanguage)
 
         setContentView(R.layout.activity_profile)
 
@@ -68,63 +64,48 @@ class ProfileActivity : BaseActivity() {
         )
 
         // View bindings
-        switchNotifications = findViewById(R.id.switchNotifications)
-        buttonEditProfile = findViewById(R.id.textEditProfile)
-        buttonContactUs = findViewById(R.id.textContactUs)
+        buttonEditProfile   = findViewById(R.id.textEditProfile)
+        buttonContactUs     = findViewById(R.id.textContactUs)
         buttonPrivacyPolicy = findViewById(R.id.textPrivacyPolicy)
-        buttonLogOut = findViewById(R.id.textLogOut)
-        imageProfile = findViewById(R.id.imageProfile)
-        iconEditProfile = findViewById(R.id.iconEditProfile)
-        textLanguage = findViewById(R.id.textLanguage)
+        buttonLogOut        = findViewById(R.id.textLogOut)
+        imageProfile        = findViewById(R.id.imageProfile)
+        iconEditProfile     = findViewById(R.id.iconEditProfile)
+        textLanguage        = findViewById(R.id.textLanguage)
         textCurrentLanguage = findViewById(R.id.textCurrentLanguage)
 
-        buttonEditProfile.text = getString(R.string.edit_profile_information_text)
-        findViewById<TextView>(R.id.textNotifications).text = getString(R.string.notifications_text)
-        textLanguage.text = getString(R.string.language_text)
-        buttonLogOut.text = getString(R.string.log_out_text)
-        buttonContactUs.text = getString(R.string.contact_us_text)
-        buttonPrivacyPolicy.text = getString(R.string.privacy_policy_text)
+        buttonEditProfile.text       = getString(R.string.edit_profile_information_text)
+        textLanguage.text            = getString(R.string.language_text)
+        buttonLogOut.text            = getString(R.string.log_out_text)
+        buttonContactUs.text         = getString(R.string.contact_us_text)
+        buttonPrivacyPolicy.text     = getString(R.string.privacy_policy_text)
 
         updateCurrentLanguageText()
-
         loadProfileImage()
 
-        imageProfile.setOnClickListener { openGallery() }
+        imageProfile.setOnClickListener    { openGallery() }
         iconEditProfile.setOnClickListener { openGallery() }
 
-        // Notifiche
-        val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        val isNotificationsOn = sharedPrefs.getBoolean(KEY_NOTIFICATIONS_ENABLED, true)
-        switchNotifications.isChecked = isNotificationsOn
-        switchNotifications.setOnCheckedChangeListener { _, isChecked ->
-            sharedPrefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, isChecked).apply()
-        }
-
-        val isRegisteredViaWallet = sharedPrefs.getBoolean("registered_via_wallet", false)
+        val isRegisteredViaWallet = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .getBoolean("registered_via_wallet", false)
         if (isRegisteredViaWallet) {
-
             buttonEditProfile.visibility = View.GONE
-            iconEditProfile.visibility = View.GONE
+            iconEditProfile.visibility  = View.GONE
         }
 
         buttonEditProfile.setOnClickListener {
             startActivity(Intent(this, EditProfileActivity::class.java))
         }
-
         buttonContactUs.setOnClickListener {
             startActivity(Intent(this, ContactsActivity::class.java))
         }
-
         buttonPrivacyPolicy.setOnClickListener {
             startActivity(Intent(this, PrivacyPolicyActivity::class.java))
         }
 
-        // Selezione lingua
         findViewById<LinearLayout>(R.id.languageRow).setOnClickListener {
             showLanguageSelectionDialog()
         }
 
-        // Logout + Google
         buttonLogOut.setOnClickListener {
             clearUserPreferences()
             auth.signOut()
@@ -147,153 +128,124 @@ class ProfileActivity : BaseActivity() {
         )
 
         val currentLanguage = LocaleHelper.getLanguage(this)
-        val currentIndex = when(currentLanguage) {
+        val currentIndex = when (currentLanguage) {
             "en" -> 0
             "it" -> 1
             "fr" -> 2
             else -> 0
         }
 
-        val builder = AlertDialog.Builder(this)
-        builder.setTitle(getString(R.string.select_language))
-        builder.setSingleChoiceItems(languages, currentIndex) { dialog, which ->
-            val selectedLanguage = when(which) {
-                0 -> "en"
-                1 -> "it"
-                2 -> "fr"
-                else -> "en"
+        AlertDialog.Builder(this)
+            .setTitle(getString(R.string.select_language))
+            .setSingleChoiceItems(languages, currentIndex) { dialog, which ->
+                val selectedLanguage = when (which) {
+                    0 -> "en"
+                    1 -> "it"
+                    2 -> "fr"
+                    else -> "en"
+                }
+                if (selectedLanguage != currentLanguage) {
+                    val ctx = LocaleHelper.setLocale(this, selectedLanguage)
+                    updateLocaleResources(ctx)
+                    updateCurrentLanguageText()
+                    Toast.makeText(this, getString(R.string.language_changed), Toast.LENGTH_SHORT).show()
+                    recreate()
+                }
+                dialog.dismiss()
             }
-
-            if (selectedLanguage != currentLanguage) {
-                // Cambia la lingua
-                val context = LocaleHelper.setLocale(this, selectedLanguage)
-
-                // Aggiorna le risorse
-                updateLocaleResources(context)
-
-                // Aggiorna il testo della lingua corrente
-                updateCurrentLanguageText()
-
-                // Mostra un messaggio di conferma
-                Toast.makeText(this, getString(R.string.language_changed), Toast.LENGTH_SHORT).show()
-                recreate()
-
+            .setNegativeButton(getString(R.string.cancel)) { dialog, _ ->
+                dialog.dismiss()
             }
-
-            dialog.dismiss()
-        }
-
-        builder.setNegativeButton(getString(R.string.cancel)) { dialog, _ ->
-            dialog.dismiss()
-        }
-
-        val dialog = builder.create()
-        dialog.show()
+            .show()
     }
 
     private fun updateLocaleResources(context: Context) {
-        // Aggiorna i testi nell'interfaccia utente
-        buttonEditProfile.text = context.getString(R.string.edit_profile_information_text)
-        findViewById<TextView>(R.id.textNotifications).text = context.getString(R.string.notifications_text)
-        textLanguage.text = context.getString(R.string.language_text)
-        buttonLogOut.text = context.getString(R.string.log_out_text)
-        buttonContactUs.text = context.getString(R.string.contact_us_text)
+        buttonEditProfile.text   = context.getString(R.string.edit_profile_information_text)
+        textLanguage.text        = context.getString(R.string.language_text)
+        buttonLogOut.text        = context.getString(R.string.log_out_text)
+        buttonContactUs.text     = context.getString(R.string.contact_us_text)
         buttonPrivacyPolicy.text = context.getString(R.string.privacy_policy_text)
     }
 
     private fun updateCurrentLanguageText() {
-        val currentLanguage = LocaleHelper.getLanguage(this)
-        val languageName = LocaleHelper.getLanguageName(this, currentLanguage)
-        val languageFlag = LocaleHelper.getLanguageFlag(currentLanguage)
-        textCurrentLanguage.text = "$languageFlag $languageName"
+        val lang = LocaleHelper.getLanguage(this)
+        val name = LocaleHelper.getLanguageName(this, lang)
+        val flag = LocaleHelper.getLanguageFlag(lang)
+        textCurrentLanguage.text = "$flag $name"
     }
 
     private fun openGallery() {
-        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
-        startActivityForResult(intent, REQUEST_GALLERY)
+        startActivityForResult(
+            Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI),
+            REQUEST_GALLERY
+        )
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == REQUEST_GALLERY && resultCode == Activity.RESULT_OK && data != null) {
-            val selectedImageUri = data.data
-            if (selectedImageUri != null) {
-                try {
-                    imageProfile.setImageURI(selectedImageUri)
-                    saveProfileImage(selectedImageUri)
-                    Toast.makeText(this, getString(R.string.profile_image_updated), Toast.LENGTH_SHORT).show()
-                } catch (e: Exception) {
-                    Toast.makeText(this, getString(R.string.profile_image_error), Toast.LENGTH_SHORT).show()
-                    e.printStackTrace()
-                }
+        if (requestCode == REQUEST_GALLERY && resultCode == Activity.RESULT_OK && data?.data != null) {
+            val uri = data.data!!
+            try {
+                imageProfile.setImageURI(uri)
+                saveProfileImage(uri)
+                Toast.makeText(this, getString(R.string.profile_image_updated), Toast.LENGTH_SHORT).show()
+            } catch (e: Exception) {
+                Toast.makeText(this, getString(R.string.profile_image_error), Toast.LENGTH_SHORT).show()
+                Log.e(TAG, "Error setting profile image", e)
             }
         }
     }
 
     private fun saveProfileImage(imageUri: Uri) {
         try {
-            val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, imageUri)
-            val resizedBitmap = getResizedBitmap(bitmap, 500)
-            val encodedImage = encodeToBase64(resizedBitmap)
-            val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-            sharedPrefs.edit().putString(KEY_PROFILE_IMAGE, encodedImage).apply()
+            val bitmap  = MediaStore.Images.Media.getBitmap(contentResolver, imageUri)
+            val resized = bitmap.scalePreservingAspectRatio(500)
+            val encoded = resized.toBase64()
+            getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+                .edit().putString(KEY_PROFILE_IMAGE, encoded).apply()
         } catch (e: IOException) {
-            e.printStackTrace()
+            Log.e(TAG, "Failed to save image", e)
         }
     }
 
     private fun loadProfileImage() {
-        val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        val encodedImage = sharedPrefs.getString(KEY_PROFILE_IMAGE, null)
-        if (encodedImage != null) {
+        val encoded = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .getString(KEY_PROFILE_IMAGE, null)
+        encoded?.let {
             try {
-                val bitmap = decodeBase64(encodedImage)
-                imageProfile.setImageBitmap(bitmap)
+                imageProfile.setImageBitmap(it.fromBase64())
             } catch (e: Exception) {
-                e.printStackTrace()
+                Log.e(TAG, "Failed to load image", e)
             }
         }
     }
 
-    private fun encodeToBase64(bitmap: Bitmap): String {
-        val byteArrayOutputStream = ByteArrayOutputStream()
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream)
-        val byteArray = byteArrayOutputStream.toByteArray()
-        return Base64.encodeToString(byteArray, Base64.DEFAULT)
-    }
-
-    private fun decodeBase64(input: String): Bitmap {
-        val decodedBytes = Base64.decode(input, Base64.DEFAULT)
-        return BitmapFactory.decodeByteArray(decodedBytes, 0, decodedBytes.size)
-    }
-
-    private fun getResizedBitmap(bitmap: Bitmap, maxSize: Int): Bitmap {
-        var width = bitmap.width
-        var height = bitmap.height
-        val ratio = width.toFloat() / height
-        if (ratio > 1) {
-            width = maxSize
-            height = (width / ratio).toInt()
-        } else {
-            height = maxSize
-            width = (height * ratio).toInt()
-        }
-        return Bitmap.createScaledBitmap(bitmap, width, height, true)
-    }
-
     private fun clearUserPreferences() {
-        Log.d(TAG, "Pulizia delle SharedPreferences dell'utente")
-        val profilePrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        profilePrefs.edit().clear().apply()
-
-        val editProfilePrefs = getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
-        editProfilePrefs.edit().clear().apply()
-
-        Log.d(TAG, "SharedPreferences pulite con successo")
+        Log.d(TAG, "Clearing user prefs")
+        getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE).edit().clear().apply()
+        getSharedPreferences(EditProfileActivity.PREFS_NAME, Context.MODE_PRIVATE)
+            .edit().clear().apply()
     }
+
+    private fun Bitmap.scalePreservingAspectRatio(maxSize: Int): Bitmap {
+        val ratio = width.toFloat() / height
+        val newWidth  = if (ratio > 1) maxSize else (maxSize * ratio).toInt()
+        val newHeight = if (ratio > 1) (maxSize / ratio).toInt() else maxSize
+        return Bitmap.createScaledBitmap(this, newWidth, newHeight, true)
+    }
+
+    private fun Bitmap.toBase64(): String {
+        val stream = ByteArrayOutputStream()
+        compress(Bitmap.CompressFormat.JPEG, 80, stream)
+        return Base64.encodeToString(stream.toByteArray(), Base64.DEFAULT)
+    }
+
+    private fun String.fromBase64(): Bitmap =
+        Base64.decode(this, Base64.DEFAULT).let { BitmapFactory.decodeByteArray(it, 0, it.size) }
 
     override fun attachBaseContext(newBase: Context) {
-        val language = LocaleHelper.getLanguage(newBase)
-        super.attachBaseContext(LocaleHelper.setLocale(newBase, language))
+        super.attachBaseContext(
+            LocaleHelper.setLocale(newBase, LocaleHelper.getLanguage(newBase))
+        )
     }
 }

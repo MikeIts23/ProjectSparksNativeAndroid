@@ -3,6 +3,8 @@ package com.example.nativesparksapp
 import android.os.Bundle
 import android.view.View
 import android.widget.FrameLayout
+import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -20,6 +22,8 @@ class LeaderboardActivity : BaseActivity() {
     private lateinit var indicator: View
     private lateinit var recycler: RecyclerView
     private lateinit var adapter: LeaderboardAdapter
+    private lateinit var container: LinearLayout
+    private lateinit var comingSoon: ImageView
 
     // Tab state: "friends", "national", "global"
     private var currentTab = "friends"
@@ -31,6 +35,10 @@ class LeaderboardActivity : BaseActivity() {
         BottomNavigationHelper.setupBottomNavigation(this)
         indicator = findViewById(R.id.viewIndicator)
 
+        // container e comingSoon
+        container = findViewById(R.id.containerLeaderboard)
+        comingSoon = findViewById(R.id.imageComingSoon)
+
         // Inizializza RecyclerView
         recycler = findViewById(R.id.recyclerLeaderboard)
         recycler.layoutManager = LinearLayoutManager(this)
@@ -39,8 +47,8 @@ class LeaderboardActivity : BaseActivity() {
 
         initTabClickListeners()
 
-        // Carica subito la classifica
-        loadLeaderboard()
+        // Carica subito la classifica Friends
+        showFriends()
     }
 
     private fun initTabClickListeners() {
@@ -51,18 +59,29 @@ class LeaderboardActivity : BaseActivity() {
         tabFriends.setOnClickListener {
             currentTab = "friends"
             animateIndicatorTo(tabFriends)
-            loadLeaderboard()
+            showFriends()
         }
         tabNational.setOnClickListener {
             currentTab = "national"
             animateIndicatorTo(tabNational)
-            loadLeaderboard()
+            showComingSoon()
         }
         tabGlobal.setOnClickListener {
             currentTab = "global"
             animateIndicatorTo(tabGlobal)
-            loadLeaderboard()
+            showComingSoon()
         }
+    }
+
+    private fun showFriends() {
+        container.visibility = View.VISIBLE
+        comingSoon.visibility = View.GONE
+        loadLeaderboard()
+    }
+
+    private fun showComingSoon() {
+        container.visibility = View.GONE
+        comingSoon.visibility = View.VISIBLE
     }
 
     private fun animateIndicatorTo(tab: View) {
@@ -78,7 +97,7 @@ class LeaderboardActivity : BaseActivity() {
     }
 
     private fun loadLeaderboard() {
-        // Sostituibile con filtro per currentTab: per ora usiamo la stessa collection
+        // usa la collezione "leaderboard" indipendentemente dal tab
         FirebaseFirestore.getInstance()
             .collection("leaderboard")
             .orderBy("score", Query.Direction.DESCENDING)
@@ -88,17 +107,15 @@ class LeaderboardActivity : BaseActivity() {
                 val entries = snapshot.documents.mapNotNull { doc ->
                     doc.toObject<LeaderboardEntry>()
                 }
-
                 // Prime 3
                 val top3 = entries.take(3)
                 updatePodium(top3)
-
                 // Resto
                 val others = entries.drop(3)
                 adapter.submitList(others.map { LeaderboardItem(it.displayName, it.score) })
             }
-            .addOnFailureListener { e ->
-                // Qui potresti mostrare un Toast di errore
+            .addOnFailureListener {
+                // gestisci l’errore se necessario
             }
     }
 

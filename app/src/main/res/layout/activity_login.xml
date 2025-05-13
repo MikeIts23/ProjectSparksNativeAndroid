@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="158dp" />
+        app:layout_constraintGuide_begin="178dp" />
 
     <LinearLayout
         android:id="@+id/layoutWelcome"
@@ -207,33 +207,34 @@
         android:id="@+id/layoutSocialIcons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginStart="40dp"
-        android:orientation="horizontal"
+        android:layout_marginTop="36dp"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/layoutContinueWith"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/layoutContinueWith">
 
         <ImageView
             android:id="@+id/imageGoogle"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginEnd="40dp"
-            android:padding="12dp"
-            android:src="@drawable/google"
             android:background="@drawable/bg_button_glowing"
-            android:contentDescription="@string/google_login2" />
+            android:contentDescription="@string/google_login2"
+            android:padding="12dp"
+            android:src="@drawable/google" />
 
         <ImageView
             android:id="@+id/imageWallet"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginEnd="16dp"
-            android:padding="12dp"
-            android:src="@drawable/solanaiconremove"
             android:background="@drawable/bg_button_glowing"
-            android:contentDescription="@string/wallet_login1" />
+            android:contentDescription="@string/wallet_login1"
+            android:padding="12dp"
+            android:src="@drawable/solanaiconremove" />
 
     </LinearLayout>
 
