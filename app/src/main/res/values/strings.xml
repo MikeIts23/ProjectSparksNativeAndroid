@@ -114,5 +114,29 @@
     <string name="player_avatar_desc">Player avatr \n</string>
     <string name="high_score_trophy" />
     <string name="welcome_to">Welcome to</string>
-
-</resources>
+    <string name="privacy_title"><![CDATA[Privacy & Policy]]></string>
+        <string name="privacy_heading1">1. Types of Data We Collect</string>
+        <string name="privacy_paragraph1">
+        We collect only the data necessary to operate and improve the app:
+        • Email address and display name via Google Sign-In.
+        • Game scores stored in Firebase Firestore.
+    </string>
+        <string name="privacy_heading2">2. How We Use Your Data</string>
+        <string name="privacy_paragraph2">
+        Your data is used to:
+        • Authenticate you within the app.
+        • Store and display leaderboards and high scores.
+    </string>
+        <string name="privacy_heading3">3. Legal Basis</string>
+        <string name="privacy_paragraph3">
+        Processing is based on your consent via Google Sign-In and the performance of the app’s terms of use.
+    </string>
+        <string name="privacy_heading4">4. Data Retention</string>
+        <string name="privacy_paragraph4">
+        We retain your data in Firebase Firestore as long as your account exists or until you request deletion.
+    </string>
+        <string name="privacy_heading5">5. Your Rights</string>
+        <string name="privacy_paragraph5">
+        You have the right to access, correct, or delete your data. For assistance, email us at sparksstudio@gmail.com.
+    </string>
+    </resources>
