@@ -95,9 +95,9 @@
     <string name="user_name2">user234\n</string>
     <string name="user_name1">user435</string>
     <string name="user_name3">user6887\n</string>
-    <string name="tab_friends">Friends</string>
-    <string name="tab_national">National</string>
-    <string name="tab_global">Global</string>
+    <string name="tab_friends">Demo Day</string>
+    <string name="tab_national">Combo Chain</string>
+    <string name="tab_global">Color Mix</string>
     <string name="quiz_1">Space Environment Edu-Quiz [20 min]</string>
     <string name="training_course">Basics of Space System Engineering Mini-Course [2h30min]</string>
     <string name="academy_header_image">Immagine Academy</string>

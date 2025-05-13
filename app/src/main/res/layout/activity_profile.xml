@@ -78,10 +78,10 @@
                 android:paddingVertical="10dp">
 
                 <ImageView
-                    android:layout_width="26dp"
+                    android:layout_width="18dp"
                     android:layout_height="26dp"
-                    android:src="@android:drawable/ic_menu_edit"
-                    android:contentDescription="@string/edit_profile_information" />
+                    android:contentDescription="@string/edit_profile_information"
+                    android:src="@android:drawable/ic_menu_edit" />
 
                 <TextView
                     android:id="@+id/textEditProfile"
