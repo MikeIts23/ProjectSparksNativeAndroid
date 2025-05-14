@@ -67,10 +67,19 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
         textForgotPassword.setOnClickListener {
-            Toast.makeText(this, "Forgot Password cliccato!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Forgot Password clicked!", Toast.LENGTH_SHORT).show()
         }
         imageGoogle.setOnClickListener { signInWithGoogle() }
-        imageWallet.setOnClickListener { }
+
+        // ─────────────── Aggiunta listener per wallet ───────────────
+        imageWallet.setOnClickListener {
+            Toast.makeText(
+                this,
+                "The Web3 layer will be added in future updates",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+        // ──────────────────────────────────────────────────────────────
     }
 
     private fun togglePasswordVisibility() {

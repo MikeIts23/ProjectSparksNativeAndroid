@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import android.widget.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.SetOptions
 
-class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivity a BaseActivity
+class EditProfileActivity : BaseActivity() {
 
     // Firebase
     private val auth: FirebaseAuth by lazy { FirebaseAuth.getInstance() }
@@ -18,16 +19,16 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
     // SharedPreferences
     companion object {
         const val PREFS_NAME = "UserPrefs"
-        private const val KEY_NAME = "key_name"
+        private const val KEY_NAME     = "key_name"
         private const val KEY_NICKNAME = "key_nickname"
-        private const val KEY_EMAIL = "key_email"
-        private const val KEY_PHONE = "key_phone"
-        private const val KEY_COUNTRY = "key_country"
-        private const val KEY_GENDER = "key_gender"
-        private const val KEY_ADDRESS = "key_address"
+        private const val KEY_EMAIL    = "key_email"
+        private const val KEY_PHONE    = "key_phone"
+        private const val KEY_COUNTRY  = "key_country"
+        private const val KEY_GENDER   = "key_gender"
+        private const val KEY_ADDRESS  = "key_address"
     }
 
-    // View
+    // Views
     private lateinit var editFullName: EditText
     private lateinit var editNickname: EditText
     private lateinit var editEmail: EditText
@@ -44,111 +45,85 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_editprofile)
 
-        try {
-            // 1. Associa le view
-            editFullName   = findViewById(R.id.editFullName)
-            editNickname   = findViewById(R.id.editNickName)
-            editEmail      = findViewById(R.id.editEmail)
-            editPhone      = findViewById(R.id.editPhoneNumber)
-            spinnerCountry = findViewById(R.id.spinnerCountry)
-            spinnerGender  = findViewById(R.id.spinnerGenre)
-            editAddress    = findViewById(R.id.editAddress)
-            buttonSubmit   = findViewById(R.id.buttonSubmit)
-            progressBar    = findViewById(R.id.progressBar)
-            textError      = findViewById(R.id.textError)
-            iconBack       = findViewById(R.id.iconBack)
+        // Bind views
+        editFullName   = findViewById(R.id.editFullName)
+        editNickname   = findViewById(R.id.editNickName)
+        editEmail      = findViewById(R.id.editEmail)
+        editPhone      = findViewById(R.id.editPhoneNumber)
+        spinnerCountry = findViewById(R.id.spinnerCountry)
+        spinnerGender  = findViewById(R.id.spinnerGenre)
+        editAddress    = findViewById(R.id.editAddress)
+        buttonSubmit   = findViewById(R.id.buttonSubmit)
+        progressBar    = findViewById(R.id.progressBar)
+        textError      = findViewById(R.id.textError)
+        iconBack       = findViewById(R.id.iconBack)
 
-            // Gestione del pulsante indietro
-            iconBack.setOnClickListener {
-                onBackPressed()
+        // Back button
+        iconBack.setOnClickListener { onBackPressed() }
+
+        // Country spinner setup
+        val countries = arrayOf(
+            "United States","China","Japan","Germany","India",
+            "United Kingdom","France","Italy","Canada","Russia",
+            "South Korea","Brazil","Australia","Spain","Mexico",
+            "Indonesia","Netherlands","Saudi Arabia","Turkey","Switzerland"
+        )
+        val countryAdapter = object : ArrayAdapter<String>(
+            this,
+            android.R.layout.simple_spinner_item,
+            countries
+        ) {
+            override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+                val view = super.getView(position, convertView, parent) as TextView
+                view.setTextColor(android.graphics.Color.WHITE)
+                return view
             }
-
-            val countries = arrayOf(
-                "United States",
-                "China",
-                "Japan",
-                "Germany",
-                "India",
-                "United Kingdom",
-                "France",
-                "Italy",
-                "Canada",
-                "Russia",
-                "South Korea",
-                "Brazil",
-                "Australia",
-                "Spain",
-                "Mexico",
-                "Indonesia",
-                "Netherlands",
-                "Saudi Arabia",
-                "Turkey",
-                "Switzerland"
-            )
-            val countryAdapter = object : ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_spinner_item,
-                countries
-            ) {
-                override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-                    val view = super.getView(position, convertView, parent)
-                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
-                    return view
-                }
-
-                override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
-                    val view = super.getDropDownView(position, convertView, parent)
-                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
-                    return view
-                }
+            override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
+                val view = super.getDropDownView(position, convertView, parent) as TextView
+                view.setTextColor(android.graphics.Color.WHITE)
+                return view
             }
-            countryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            spinnerCountry.adapter = countryAdapter
-
-            val genders = arrayOf("Male", "Female", "Other")
-            val genderAdapter = object : ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_spinner_item,
-                genders
-            ) {
-                override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-                    val view = super.getView(position, convertView, parent)
-                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
-                    return view
-                }
-
-                override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
-                    val view = super.getDropDownView(position, convertView, parent)
-                    (view as TextView).setTextColor(android.graphics.Color.WHITE)
-                    return view
-                }
-            }
-            genderAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            spinnerGender.adapter = genderAdapter
-
-            // 2. Carica i dati da SharedPreferences (cache locale)
-            loadDataFromPrefs()
-
-            // 3. Se l'utente è loggato, ottieni UID e carica i dati da Firestore
-            val currentUser = auth.currentUser
-            if (currentUser != null) {
-                editEmail.isEnabled = true // modificato: ora l'email è modificabile
-                loadDataFromFirestore(currentUser.uid)
-            } else {
-                // Nessun utente loggato, chiudi l'activity o mostra un errore
-                Toast.makeText(this, "Nessun utente loggato.", Toast.LENGTH_SHORT).show()
-                finish()
-                return
-            }
-
-            // 4. Gestisci il click su "Submit" per validare e salvare dati
-            buttonSubmit.setOnClickListener {
-                saveProfile()
-            }
-        } catch (e: Exception) {
-            Toast.makeText(this, "Errore durante l'inizializzazione: ${e.message}", Toast.LENGTH_LONG).show()
-            finish()
         }
+        countryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerCountry.adapter = countryAdapter
+
+        // Gender spinner setup
+        val genders = arrayOf("Male","Female","Other")
+        val genderAdapter = object : ArrayAdapter<String>(
+            this,
+            android.R.layout.simple_spinner_item,
+            genders
+        ) {
+            override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+                val view = super.getView(position, convertView, parent) as TextView
+                view.setTextColor(android.graphics.Color.WHITE)
+                return view
+            }
+            override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
+                val view = super.getDropDownView(position, convertView, parent) as TextView
+                view.setTextColor(android.graphics.Color.WHITE)
+                return view
+            }
+        }
+        genderAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerGender.adapter = genderAdapter
+
+        // Load cached prefs
+        loadDataFromPrefs()
+
+        // If logged in, load from Firestore
+        val currentUser = auth.currentUser
+        if (currentUser != null) {
+            editEmail.isEnabled = true
+            loadDataFromFirestore(currentUser.uid)
+        } else {
+            Toast.makeText(this, "Nessun utente loggato.", Toast.LENGTH_SHORT).show()
+            finish()
+            return
+        }
+
+        // Submit button
+        buttonSubmit.setOnClickListener { saveProfile() }
     }
 
     private fun loadDataFromPrefs() {
@@ -157,42 +132,34 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
         editNickname.setText(prefs.getString(KEY_NICKNAME, ""))
         editEmail.setText(prefs.getString(KEY_EMAIL, ""))
         editPhone.setText(prefs.getString(KEY_PHONE, ""))
-
-        val savedCountry = prefs.getString(KEY_COUNTRY, "")
-        setSpinnerSelection(spinnerCountry, savedCountry)
-
-        val savedGender = prefs.getString(KEY_GENDER, "")
-        setSpinnerSelection(spinnerGender, savedGender)
-
+        setSpinnerSelection(spinnerCountry, prefs.getString(KEY_COUNTRY, ""))
+        setSpinnerSelection(spinnerGender, prefs.getString(KEY_GENDER, ""))
         editAddress.setText(prefs.getString(KEY_ADDRESS, ""))
     }
 
     private fun loadDataFromFirestore(uid: String) {
         progressBar?.visibility = View.VISIBLE
-
         firestore.collection("users").document(uid)
             .get()
-            .addOnSuccessListener { document ->
+            .addOnSuccessListener { doc ->
                 progressBar?.visibility = View.GONE
-                if (document != null && document.exists()) {
-                    val name     = document.getString("name") ?: ""
-                    val nickname = document.getString("nickname") ?: ""
-                    val email    = document.getString("email") ?: ""
-                    val phone    = document.getString("phone") ?: ""
-                    val country  = document.getString("country") ?: ""
-                    val gender   = document.getString("gender") ?: ""
-                    val address  = document.getString("address") ?: ""
-
-                    editFullName.setText(name)
-                    editNickname.setText(nickname)
-                    editEmail.setText(email)
-                    editPhone.setText(phone)
-                    setSpinnerSelection(spinnerCountry, country)
-                    setSpinnerSelection(spinnerGender, gender)
-                    editAddress.setText(address)
-
-                    // Salva in prefs
-                    saveDataToPrefs(name, nickname, email, phone, country, gender, address)
+                if (doc.exists()) {
+                    editFullName.setText(doc.getString("name") ?: "")
+                    editNickname.setText(doc.getString("nickname") ?: "")
+                    editEmail.setText(doc.getString("email") ?: "")
+                    editPhone.setText(doc.getString("phone") ?: "")
+                    setSpinnerSelection(spinnerCountry, doc.getString("country"))
+                    setSpinnerSelection(spinnerGender, doc.getString("gender"))
+                    editAddress.setText(doc.getString("address") ?: "")
+                    saveDataToPrefs(
+                        doc.getString("name") ?: "",
+                        doc.getString("nickname") ?: "",
+                        doc.getString("email") ?: "",
+                        doc.getString("phone") ?: "",
+                        doc.getString("country") ?: "",
+                        doc.getString("gender") ?: "",
+                        doc.getString("address") ?: ""
+                    )
                 }
             }
             .addOnFailureListener { e ->
@@ -202,13 +169,13 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
     }
 
     private fun saveProfile() {
-        val name = editFullName.text.toString().trim()
+        val name     = editFullName.text.toString().trim()
         val nickname = editNickname.text.toString().trim()
-        val email = editEmail.text.toString().trim()
-        val phone = editPhone.text.toString().trim()
-        val country = spinnerCountry.selectedItem.toString()
-        val gender = spinnerGender.selectedItem.toString()
-        val address = editAddress.text.toString().trim()
+        val email    = editEmail.text.toString().trim()
+        val phone    = editPhone.text.toString().trim()
+        val country  = spinnerCountry.selectedItem.toString()
+        val gender   = spinnerGender.selectedItem.toString()
+        val address  = editAddress.text.toString().trim()
 
         if (TextUtils.isEmpty(name) || TextUtils.isEmpty(nickname) || TextUtils.isEmpty(email)) {
             showError("Compila i campi obbligatori (Nome, Nickname, Email).")
@@ -218,8 +185,7 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
         progressBar?.visibility = View.VISIBLE
         textError?.visibility = View.GONE
 
-        val currentUser = auth.currentUser
-        if (currentUser == null) {
+        val currentUser = auth.currentUser ?: run {
             showError("Nessun utente loggato.")
             progressBar?.visibility = View.GONE
             return
@@ -227,18 +193,29 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
 
         val uid = currentUser.uid
         val userMap = mapOf(
-            "name" to name,
+            "name"     to name,
             "nickname" to nickname,
-            "email" to email,
-            "phone" to phone,
-            "country" to country,
-            "gender" to gender,
-            "address" to address
+            "email"    to email,
+            "phone"    to phone,
+            "country"  to country,
+            "gender"   to gender,
+            "address"  to address
         )
 
+        // 1) aggiorna /users/{uid}
         firestore.collection("users").document(uid)
-            .set(userMap, com.google.firebase.firestore.SetOptions.merge())
+            .set(userMap, SetOptions.merge())
             .addOnSuccessListener {
+                // Propaga su leaderboard
+                firestore.collection("leaderboard").document(uid)
+                    .set(mapOf("displayName" to nickname), SetOptions.merge())
+                    .addOnSuccessListener {
+                        // opzionale: log
+                    }
+                    .addOnFailureListener { e ->
+                        // opzionale: gestisci errore
+                    }
+
                 progressBar?.visibility = View.GONE
                 Toast.makeText(this, "Profilo aggiornato!", Toast.LENGTH_SHORT).show()
                 saveDataToPrefs(name, nickname, email, phone, country, gender, address)
@@ -276,8 +253,7 @@ class EditProfileActivity : BaseActivity() {  // <-- Cambiato da AppCompatActivi
         if (value.isNullOrEmpty()) return
         val adapter = spinner.adapter ?: return
         for (i in 0 until adapter.count) {
-            val item = adapter.getItem(i)
-            if (item != null && item.toString().equals(value, ignoreCase = true)) {
+            if (adapter.getItem(i).toString().equals(value, true)) {
                 spinner.setSelection(i)
                 break
             }
